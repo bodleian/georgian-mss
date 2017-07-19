@@ -10,9 +10,9 @@
                 <principal>Gillian Evison</principal>
             </titleStmt>
             <publicationStmt>
-                <date calendar="Gregorian">[Date when first made available]</date>
-                <publisher>Bodleian Library</publisher>
-                <pubPlace>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="Gregorian">[Date when first made available]</date>
+            <pubPlace>
                     <address>
                   <addrLine>Department of Special Collections</addrLine>
                   <addrLine>Bodleian Library</addrLine>
@@ -28,7 +28,7 @@
                   </addrLine>
                </address>
                 </pubPlace>
-                <idno/>
+            <idno/>
             <idno type="msID">MS_Wardr_f_10</idno>
             <idno type="catalogue">Georgian</idno>
          </publicationStmt>
@@ -40,7 +40,7 @@
                         <settlement>Oxford</settlement>
                         <institution>Oxford University</institution>
                         <repository>Bodleian Library</repository>
-                        <collection type="main">Oriental Manuscripts <collection type="sub"/>Wardrop Collection</collection>
+                        <collection type="main">Oriental Manuscripts Wardrop Collection</collection>
                         <idno>MS. Wardr. f. 10</idno>
                     </msIdentifier>
                     <msContents>
@@ -187,8 +187,8 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-         <change when="2017-07-18">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-19">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl">https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl</ref>
          </change>
             <change when="2011-05-12">
                 <persName>Nikoloz Aleksidze</persName>
