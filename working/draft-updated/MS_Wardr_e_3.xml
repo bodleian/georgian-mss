@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">[Date when first made available]</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -38,11 +38,11 @@
                   <settlement>Oxford</settlement>
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
-                  <collection type="main">Oriental ManuscriptsWardrop Collection</collection>
+                  <collection type="main">Oriental Manuscripts Wardrop Collection</collection>
                   <idno>MS. Wardr. e. 3</idno>
                </msIdentifier>
                <msContents>
-                  <summary>Treatise on rhetoric by<persName>Mkhit'ar</persName>translated into Georgian by<persName>Antoni I</persName>in<date calendar="Gregorian" when="1764">1764</date>
+                  <summary>Treatise on rhetoric by<persName>Mkhit'ar</persName>translated into Georgian by<persName>Antoni I</persName>in<date calendar="#Gregorian" when="1764">1764</date>
                   </summary>
                   <msItem xml:id="MS_Wardr_e_3-item1" n="1">
                      <author/>
@@ -79,12 +79,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian">19th c.</origDate>
+                     <origDate calendar="#Gregorian">19th c.</origDate>
                   </origin>
-                  <provenance>Bought from<persName>Areshidze, G.</persName>by<persName>Wardrop, J.O.</persName>in<name type="place">Tiflis</name>in<date calendar="Gregorian" when="1911-03-20">1911-03-20</date>
+                  <provenance>Bought from<persName>Areshidze, G.</persName>by<persName>Wardrop, J.O.</persName>in<name type="place">Tiflis</name>in<date calendar="#Gregorian" when="1911-03-20">1911-03-20</date>
                   </provenance>
                   <acquisition>
-                     <date calendar="Gregorian" when="1894-11-26">1894-11-26</date>by<persName>Wardrop, J.O.</persName>
+                     <date calendar="#Gregorian" when="1894-11-26">1894-11-26</date>by<persName>Wardrop, J.O.</persName>
                   </acquisition>
                </history>
                <additional>

@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">[Date when first made available]</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -38,11 +38,11 @@
                   <settlement>Oxford</settlement>
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
-                  <collection type="main">Oriental ManuscriptsWardrop Collection</collection>
+                  <collection type="main">Oriental Manuscripts Wardrop Collection</collection>
                   <idno>MS. Wardr. f. 4</idno>
                </msIdentifier>
                <msContents>
-                  <summary>Treatise on rhetoric by<persName>Mxit'ar</persName>tr. into Georgian by<persName>Archbishop Antoni I</persName>in<date calendar="Gregorian" when="1764">1764</date>
+                  <summary>Treatise on rhetoric by<persName>Mxit'ar</persName>tr. into Georgian by<persName>Archbishop Antoni I</persName>in<date calendar="#Gregorian" when="1764">1764</date>
                   </summary>
                   <msItem xml:id="MS_Wardr_f_4-item1" n="1">
                      <author>Mxit'ar</author>
@@ -83,10 +83,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="1804">1804</origDate>
+                     <origDate calendar="#Gregorian" when="1804">1804</origDate>
                   </origin>
                   <acquisition>
-                     <date calendar="Gregorian" when="1913-03-01">1913-03-01</date>don. J.O. Wardrop</acquisition>
+                     <date calendar="#Gregorian" when="1913-03-01">1913-03-01</date>don. J.O. Wardrop</acquisition>
                </history>
                <additional>
                   <adminInfo>

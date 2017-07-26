@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">[Date when first made available]</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -38,7 +38,7 @@
                   <settlement>Oxford</settlement>
                   <institution>Oxford University</institution>
                   <repository>Bodleian Library</repository>
-                  <collection type="main">Oriental ManuscriptsWardrop Collection</collection>
+                  <collection type="main">Oriental Manuscripts Wardrop Collection</collection>
                   <idno>MS. Wardr. c. 1 (7)</idno>
                </msIdentifier>
                <msContents>
@@ -79,10 +79,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian">1893</origDate>
+                     <origDate calendar="#Gregorian">1893</origDate>
                   </origin>
                   <acquisition>
-                     <date calendar="Gregorian" when="1914-11-10">1914-11-10</date>don. J.O. Wardrop</acquisition>
+                     <date calendar="#Gregorian" when="1914-11-10">1914-11-10</date>don. J.O. Wardrop</acquisition>
                </history>
                <additional>
                   <adminInfo>
