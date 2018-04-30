@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schamtypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schamtypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="authority-schematron.sch" type="application/xml" schamtypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+
+                <person xml:id="person_88">
+                    <persName type="display">'Sirinoziani'</persName>
+                    <persName type="crossref">sirinoziani</persName>
+                    <!-- ../collections/MS_Wardr_b_1.xml#MS_Wardr_b_1 -->
+                </person>
+
+                <person xml:id="person_19">
+                    <persName type="display">A. R. Dryhurst</persName>
+                    <persName type="crossref">ardryhurst</persName>
+                    <!-- ../collections/MS_Wardr_c_1_35.xml#MS_Wardr_c_1_35%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_81">
+                    <persName type="display">Antiochus Strategus</persName>
+                    <persName type="crossref">antiochusstrategus</persName>
+                    <!-- ../collections/MS_Georg_b_I.xml#MS_Georg_b_I -->
+                </person>
+
+                <person xml:id="person_72">
+                    <persName type="display">Antoni I</persName>
+                    <persName type="variant">ანტონი I</persName>
+                    <persName type="crossref">antonii</persName>
+                    <persName type="crossref">ანტონიi</persName>
+                    <!-- ../collections/MS_Wardr_e_3.xml#MS_Wardr_e_3 -->
+                    <!-- ../collections/MS_Wardr_e_3.xml#MS_Wardr_e_3%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_f_4.xml#MS_Wardr_f_4%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_95">
+                    <persName type="display">Archbishop Antoni I</persName>
+                    <persName type="crossref">archbishopantonii</persName>
+                    <!-- ../collections/MS_Wardr_f_4.xml#MS_Wardr_f_4 -->
+                </person>
+
+                <person xml:id="person_74">
+                    <persName type="display">Areshidze, G.</persName>
+                    <persName type="crossref">areshidzeg</persName>
+                    <!-- ../collections/MS_Wardr_e_3.xml#MS_Wardr_e_3 -->
+                </person>
+
+                <person xml:id="person_98">
+                    <persName type="display">Arč'il I</persName>
+                    <persName type="variant">არჩილ I</persName>
+                    <persName type="crossref">arcili</persName>
+                    <persName type="crossref">არჩილi</persName>
+                    <!-- ../collections/MS_Wardr_c_12.xml#MS_Wardr_c_12%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_91">
+                    <persName type="display">Atanase</persName>
+                    <persName type="variant">ათანასე</persName>
+                    <persName type="crossref">atanase</persName>
+                    <persName type="crossref">ათანასე</persName>
+                    <!-- ../collections/MS_Wardr_e_2.xml#MS_Wardr_e_2%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_e_2.xml#MS_Wardr_e_2%2Ditem2 -->
+                    <!-- ../collections/MS_Wardr_e_2.xml#MS_Wardr_e_2%2Ditem3 -->
+                    <!-- ../collections/MS_Wardr_e_2.xml#MS_Wardr_e_2%2Ditem4 -->
+                    <!-- ../collections/MS_Wardr_e_2.xml#MS_Wardr_e_2%2Ditem5 -->
+                    <!-- ../collections/MS_Wardr_e_2.xml#MS_Wardr_e_2%2Ditem6 -->
+                    <!-- ../collections/MS_Wardr_e_2.xml#MS_Wardr_e_2%2Ditem7 -->
+                </person>
+
+                <person xml:id="person_64">
+                    <persName type="display">Aġbuġa I Jaqeli</persName>
+                    <persName type="variant">აღბუღა I ჯაყელი</persName>
+                    <persName type="variant">აღბუღა ჯაყელი</persName>
+                    <persName type="crossref">agbugaijaqeli</persName>
+                    <persName type="crossref">აღბუღაiჯაყელი</persName>
+                    <persName type="crossref">აღბუღაჯაყელი</persName>
+                    <!-- ../collections/MS_Wardr_d_3.xml#MS_Wardr_d_3%2Ditem5 -->
+                    <!-- ../collections/MS_Wardr_d_3.xml#MS_Wardr_d_3%2Ditem6 -->
+                </person>
+
+                <person xml:id="person_103">
+                    <persName type="display">Bagration-Davitashvili B.,</persName>
+                    <persName type="crossref">bagrationdavitashvilib</persName>
+                    <!-- ../collections/MS_Wardr_c_30%2D.xml#MS_Wardr_c_30%2D -->
+                </person>
+
+                <person xml:id="person_89">
+                    <persName type="display">Basil of Caesarea</persName>
+                    <persName type="variant">ბასილი კესარიელი</persName>
+                    <persName type="crossref">basilofcaesarea</persName>
+                    <persName type="crossref">ბასილიკესარიელი</persName>
+                    <!-- ../collections/MS_Wardr_e_2.xml#MS_Wardr_e_2%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_56">
+                    <persName type="display">Batonišvili, Bagrat</persName>
+                    <persName type="variant">ბატონიშვილი, ბაგრატ</persName>
+                    <persName type="crossref">batonisvilibagrat</persName>
+                    <persName type="crossref">ბატონიშვილიბაგრატ</persName>
+                    <!-- ../collections/MS_Wardr_e_10.xml#MS_Wardr_e_10%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_2">
+                    <persName type="display">Beridze, Venera</persName>
+                    <persName type="variant">ბერიძე, ვენერა</persName>
+                    <persName type="crossref">beridzevenera</persName>
+                    <persName type="crossref">ბერიძევენერა</persName>
+                    <!-- ../collections/MS_Wardr_d_26.2%2D.xml#MS_Wardr_d_26.2%2D -->
+                    <!-- ../collections/MS_Wardr_d_26.2%2D.xml#MS_Wardr_d_26.2%2D%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_37">
+                    <persName type="display">Blake R.P</persName>
+                    <persName type="crossref">blakerp</persName>
+                    <!-- ../collections/MS_Georg_c_1_P.xml#MS_Georg_c_1_P%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_34">
+                    <persName type="display">Catholicos Anthony II</persName>
+                    <persName type="crossref">catholicosanthonyii</persName>
+                    <!-- ../collections/MS_Georg_e_1.xml#MS_Georg_e_1 -->
+                    <!-- ../collections/MS_Georg_e_1.xml#MS_Georg_e_1%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_40">
+                    <persName type="display">Ceret'eli Akaki</persName>
+                    <persName type="variant">Ceretʻeli Akaki</persName>
+                    <persName type="variant">Ceretʻeli, Akaki</persName>
+                    <persName type="crossref">cereteliakaki</persName>
+                    <!-- ../collections/MS_Wardr_c_1_2.xml#MS_Wardr_c_1_2 -->
+                    <!-- ../collections/MS_Wardr_c_1_2.xml#MS_Wardr_c_1_2%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_c_1_3.xml#MS_Wardr_c_1_3 -->
+                    <!-- ../collections/MS_Wardr_c_1_3.xml#MS_Wardr_c_1_3%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_16">
+                    <persName type="display">Cerkezisvili, Eka</persName>
+                    <persName type="crossref">cerkezisvilieka</persName>
+                    <!-- ../collections/MS_Wardr_c_20.xml#MS_Wardr_c_20%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_68">
+                    <persName type="display">Chavchavadze, Ilia</persName>
+                    <persName type="crossref">chavchavadzeilia</persName>
+                    <!-- ../collections/MS_Wardr_d_22%2D.xml#MS_Wardr_d_22%2D -->
+                </person>
+
+                <person xml:id="person_28">
+                    <persName type="display">Chavchavadze, Olga</persName>
+                    <persName type="variant">Princess Chavchavadze, Olga</persName>
+                    <persName type="crossref">chavchavadzeolga</persName>
+                    <persName type="crossref">princesschavchavadzeolga</persName>
+                    <!-- ../collections/MS_Wardr_c_30%2D.xml#MS_Wardr_c_30%2D -->
+                    <!-- ../collections/MS_Wardr_d_26.1%2D.xml#MS_Wardr_d_26.1%2D -->
+                </person>
+
+                <person xml:id="person_79">
+                    <persName type="display">Chqonia, Ilia</persName>
+                    <persName type="crossref">chqoniailia</persName>
+                    <!-- ../collections/MS_Wardr_e_4.xml#MS_Wardr_e_4%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_46">
+                    <persName type="display">Dadiani, G.</persName>
+                    <persName type="crossref">dadianig</persName>
+                    <!-- ../collections/MS_Wardr_c_29.xml#MS_Wardr_c_29 -->
+                    <!-- ../collections/MS_Wardr_c_29.xml#MS_Wardr_c_29%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_58">
+                    <persName type="display">David the Invincible</persName>
+                    <persName type="variant">დავით უძლეველი</persName>
+                    <persName type="crossref">davidtheinvincible</persName>
+                    <persName type="crossref">დავითუძლეველი</persName>
+                    <!-- ../collections/MS_Wardr_f.xml#MS_Wardr_f%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_f_5.xml#MS_Wardr_f_5%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_f.xml#MS_Wardr_f -->
+                    <!-- ../collections/MS_Wardr_f_5.xml#MS_Wardr_f_5 -->
+                </person>
+
+                <person xml:id="person_23">
+                    <persName type="display">Deacon Paul</persName>
+                    <persName type="variant">პავლე დიაკვანი</persName>
+                    <persName type="crossref">deaconpaul</persName>
+                    <persName type="crossref">პავლედიაკვანი</persName>
+                    <!-- ../collections/MS_Wardr_g_3.xml#MS_Wardr_g_3%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_60">
+                    <persName type="display">Egnate Ioseliani</persName>
+                    <persName type="variant">ეგნატე იოსელიანი</persName>
+                    <persName type="crossref">egnateioseliani</persName>
+                    <persName type="crossref">ეგნატეიოსელიანი</persName>
+                    <!-- ../collections/MS_Wardr_f.xml#MS_Wardr_f%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_f_5.xml#MS_Wardr_f_5%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_69">
+                    <persName type="display">Eristavi, Rapiel</persName>
+                    <persName type="crossref">eristavirapiel</persName>
+                    <!-- ../collections/MS_Wardr_d_22%2D.xml#MS_Wardr_d_22%2D -->
+                </person>
+
+                <person xml:id="person_25">
+                    <persName type="display">Gabriel Garejeli</persName>
+                    <persName type="variant">გაბრიელ გარეჯელი</persName>
+                    <persName type="crossref">gabrielgarejeli</persName>
+                    <persName type="crossref">გაბრიელგარეჯელი</persName>
+                    <!-- ../collections/MS_Wardr_f_6.xml#MS_Wardr_f_6%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_96">
+                    <persName type="display">Geronti</persName>
+                    <persName type="variant">გერონტი</persName>
+                    <persName type="crossref">geronti</persName>
+                    <persName type="crossref">გერონტი</persName>
+                    <!-- ../collections/MS_Wardr_f_4.xml#MS_Wardr_f_4%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_36">
+                    <persName type="display">Haarrassowitz, O.</persName>
+                    <persName type="crossref">haarrassowitzo</persName>
+                    <!-- ../collections/MS_Wardr_d_1.xml#MS_Wardr_d_1 -->
+                </person>
+
+                <person xml:id="person_21">
+                    <persName type="display">Ilarion</persName>
+                    <persName type="variant">ილარიონ</persName>
+                    <persName type="crossref">ilarion</persName>
+                    <persName type="crossref">ილარიონ</persName>
+                    <!-- ../collections/MS_Wardr_e_9.xml#MS_Wardr_e_9%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_49">
+                    <persName type="display">King T'eimuraz II</persName>
+                    <persName type="variant">თეიმურაზ II</persName>
+                    <persName type="crossref">kingteimurazii</persName>
+                    <persName type="crossref">თეიმურაზii</persName>
+                    <!-- ../collections/MS_Wardr_e_7.xml#MS_Wardr_e_7%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_63">
+                    <persName type="display">King Vaxtang VI</persName>
+                    <persName type="variant">Vaxtang VI</persName>
+                    <persName type="variant">ვახტანგ VI</persName>
+                    <persName type="crossref">kingvaxtangvi</persName>
+                    <persName type="crossref">vaxtangvi</persName>
+                    <persName type="crossref">ვახტანგvi</persName>
+                    <!-- ../collections/MSWardre8.xml#MSWardre8%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_c_21.xml#MS_Wardr_c_21%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_d_3.xml#MS_Wardr_d_3 -->
+                    <!-- ../collections/MS_Wardr_d_3.xml#MS_Wardr_d_3%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_d_3.xml#MS_Wardr_d_3%2Ditem2 -->
+                    <!-- ../collections/MS_Wardr_e_12.xml#MS_Wardr_e_12 -->
+                    <!-- ../collections/MS_Wardr_e_12.xml#MS_Wardr_e_12%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_e_8.xml#MS_Wardr_e_8%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_87">
+                    <persName type="display">Lloyd W.Daly</persName>
+                    <persName type="crossref">lloydwdaly</persName>
+                    <!-- ../collections/MS_Georg_d_4.xml#MS_Georg_d_4 -->
+                </person>
+
+                <person xml:id="person_43">
+                    <persName type="display">Marr, Nikolai</persName>
+                    <persName type="crossref">marrnikolai</persName>
+                    <!-- ../collections/MS_Wardr_e_2637.xml#MS_Wardr_e_2637%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_29">
+                    <persName type="display">Mavrogordato, Nicholas</persName>
+                    <persName type="crossref">mavrogordatonicholas</persName>
+                    <!-- ../collections/MS_Wardr_e_6.xml#MS_Wardr_e_6 -->
+                    <!-- ../collections/MS_Wardr_e_6.xml#MS_Wardr_e_6%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_8">
+                    <persName type="display">Medjid-il-Saltane</persName>
+                    <persName type="crossref">medjidilsaltane</persName>
+                    <!-- ../collections/MS_Wardr_b_1.xml#MS_Wardr_b_1 -->
+                    <!-- ../collections/MS_Wardr_f_2.xml#MS_Wardr_f_2 -->
+                </person>
+
+                <person xml:id="person_33">
+                    <persName type="display">Merkviladze, Sosiko</persName>
+                    <persName type="variant">Merkviladze, S</persName>
+                    <persName type="crossref">merkviladzesosiko</persName>
+                    <persName type="crossref">merkviladzes</persName>
+                    <!-- ../collections/MS_Wardr_e_14.xml#MS_Wardr_e_14%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_e_5.xml#MS_Wardr_e_5 -->
+                    <!-- ../collections/MS_Wardr_e_6.xml#MS_Wardr_e_6 -->
+                </person>
+
+                <person xml:id="person_77">
+                    <persName type="display">Mgeladze, Anna</persName>
+                    <persName type="variant">მგელაძე, ანა</persName>
+                    <persName type="crossref">mgeladzeanna</persName>
+                    <persName type="crossref">მგელაძეანა</persName>
+                    <!-- ../collections/MS_Wardr_e_4.xml#MS_Wardr_e_4 -->
+                    <!-- ../collections/MS_Wardr_e_4.xml#MS_Wardr_e_4%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_35">
+                    <persName type="display">Mikheil</persName>
+                    <persName type="crossref">mikheil</persName>
+                    <!-- ../collections/MS_Georg_e_1.xml#MS_Georg_e_1%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_71">
+                    <persName type="display">Mkhit'ar</persName>
+                    <persName type="crossref">mkhitar</persName>
+                    <!-- ../collections/MS_Wardr_e_3.xml#MS_Wardr_e_3 -->
+                </person>
+
+                <person xml:id="person_85">
+                    <persName type="display">monk Ep'rem</persName>
+                    <persName type="variant">ეფრემ</persName>
+                    <persName type="crossref">monkeprem</persName>
+                    <persName type="crossref">ეფრემ</persName>
+                    <!-- ../collections/MS_Wardr_e_13.xml#MS_Wardr_e_13%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_48">
+                    <persName type="display">Mousvenaridze, G.</persName>
+                    <persName type="crossref">mousvenaridzeg</persName>
+                    <!-- ../collections/MS_Wardr_c_29.xml#MS_Wardr_c_29 -->
+                    <!-- ../collections/MS_Wardr_c_29.xml#MS_Wardr_c_29%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_94">
+                    <persName type="display">Mxit'ar</persName>
+                    <persName type="crossref">mxitar</persName>
+                    <!-- ../collections/MS_Wardr_f_4.xml#MS_Wardr_f_4 -->
+                    <!-- ../collections/MS_Wardr_f_4.xml#MS_Wardr_f_4%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_20">
+                    <persName type="display">Nicephorus of Constantinople</persName>
+                    <persName type="crossref">nicephorusofconstantinople</persName>
+                    <!-- ../collections/MS_Wardr_e_9.xml#MS_Wardr_e_9 -->
+                    <!-- ../collections/MS_Wardr_e_9.xml#MS_Wardr_e_9%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_100">
+                    <persName type="display">Orbeliani, Davit</persName>
+                    <persName type="variant">ორბელიანი, დავით</persName>
+                    <persName type="crossref">orbelianidavit</persName>
+                    <persName type="crossref">ორბელიანიდავით</persName>
+                    <!-- ../collections/MS_Wardr_e_5.xml#MS_Wardr_e_5%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_67">
+                    <persName type="display">Orbeliani, Grigol</persName>
+                    <persName type="crossref">orbelianigrigol</persName>
+                    <!-- ../collections/MS_Wardr_d_22%2D.xml#MS_Wardr_d_22%2D -->
+                </person>
+
+                <person xml:id="person_52">
+                    <persName type="display">Orbeliani, Sulxan-Saba</persName>
+                    <persName type="variant">ორბელიანი, სულხან-საბა</persName>
+                    <persName type="crossref">orbelianisulxansaba</persName>
+                    <persName type="crossref">ორბელიანისულხანსაბა</persName>
+                    <!-- ../collections/MS_Wardr_e_13.xml#MS_Wardr_e_13 -->
+                    <!-- ../collections/MS_Wardr_e_13.xml#MS_Wardr_e_13%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_e_14.xml#MS_Wardr_e_14 -->
+                    <!-- ../collections/MS_Wardr_e_14.xml#MS_Wardr_e_14%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_80">
+                    <persName type="display">Presbyter Nicephorus</persName>
+                    <persName type="crossref">presbyternicephorus</persName>
+                    <!-- ../collections/MS_Wardr_e_19.xml#MS_Wardr_e_19 -->
+                    <!-- ../collections/MS_Wardr_e_19.xml#MS_Wardr_e_19%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_17">
+                    <persName type="display">Prince Giorgi Ceret'eli</persName>
+                    <persName type="crossref">princegiorgicereteli</persName>
+                    <!-- ../collections/MS_Wardr_d_17.xml#MS_Wardr_d_17 -->
+                </person>
+
+                <person xml:id="person_104">
+                    <persName type="display">Prince tarxan-Mouravi, E.,</persName>
+                    <persName type="crossref">princetarxanmouravie</persName>
+                    <!-- ../collections/MS_Wardr_c_30%2D.xml#MS_Wardr_c_30%2D -->
+                </person>
+
+                <person xml:id="person_62">
+                    <persName type="display">Prince Varlaam Tcherkesoff</persName>
+                    <persName type="crossref">princevarlaamtcherkesoff</persName>
+                    <!-- ../collections/MS_Wardr_c_19.xml#MS_Wardr_c_19%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_18">
+                    <persName type="display">Princess Venera Ceret'eli</persName>
+                    <persName type="crossref">princessveneracereteli</persName>
+                    <!-- ../collections/MS_Wardr_d_17.xml#MS_Wardr_d_17 -->
+                </person>
+
+                <person xml:id="person_82">
+                    <persName type="display">Proxore</persName>
+                    <persName type="variant">პროხორე</persName>
+                    <persName type="crossref">proxore</persName>
+                    <persName type="crossref">პროხორე</persName>
+                    <!-- ../collections/MS_Georg_b_I.xml#MS_Georg_b_I%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_93">
+                    <persName type="display">Pseudo-Callisthenes</persName>
+                    <persName type="crossref">pseudocallisthenes</persName>
+                    <!-- ../collections/MS_Wardr_e_18.xml#MS_Wardr_e_18 -->
+                    <!-- ../collections/MS_Wardr_e_18.xml#MS_Wardr_e_18%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_11">
+                    <persName type="display">Qorganovi, Mose</persName>
+                    <persName type="variant">ყორღანოვი, მოსე</persName>
+                    <persName type="crossref">qorganovimose</persName>
+                    <persName type="crossref">ყორღანოვიმოსე</persName>
+                    <!-- ../collections/MSWardre8.xml#MSWardre8%2Ditem1 -->
+                    <!-- ../collections/MSWardre8.xml#MSWardre8%2Ditem2 -->
+                    <!-- ../collections/MS_Wardr_e_8.xml#MS_Wardr_e_8%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_e_8.xml#MS_Wardr_e_8%2Ditem2 -->
+                </person>
+
+                <person xml:id="person_38">
+                    <persName type="display">Rabbi S. Wertheimer</persName>
+                    <persName type="crossref">rabbiswertheimer</persName>
+                    <!-- ../collections/MS_Georg_c_1_P.xml#MS_Georg_c_1_P -->
+                </person>
+
+                <person xml:id="person_5">
+                    <persName type="display">Rustaveli, Shota, active 12th century-13th century</persName>
+                    <persName type="variant">Šot'a Rust'aveli</persName>
+                    <persName type="variant">შოთა რუსთაველი</persName>
+                    <persName type="variant">Shota Rustaveli</persName>
+                    <persName type="crossref">rustavelishotaactive12thcentury13thcentury</persName>
+                    <persName type="crossref">sotarustaveli</persName>
+                    <persName type="crossref">შოთარუსთაველი</persName>
+                    <persName type="crossref">shotarustaveli</persName>
+                    <!-- ../collections/MS_Wardr_d_32%2D.xml#MS_Wardr_d_32%2D -->
+                    <!-- ../collections/MS_Wardr_d_17.xml#MS_Wardr_d_17%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_d_27%2D.xml#MS_Wardr_d_27%2D%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_d_6.xml#MS_Wardr_d_6 -->
+                    <!-- ../collections/MS_Wardr_d_6.xml#MS_Wardr_d_6%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_30">
+                    <persName type="display">Serap'im Pisidieli</persName>
+                    <persName type="variant">სერაფიმ პისიდიელი</persName>
+                    <persName type="crossref">serapimpisidieli</persName>
+                    <persName type="crossref">სერაფიმპისიდიელი</persName>
+                    <!-- ../collections/MS_Wardr_e_6.xml#MS_Wardr_e_6%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_51">
+                    <persName type="display">St. Babylas</persName>
+                    <persName type="crossref">stbabylas</persName>
+                    <!-- ../collections/MS_Georg_d_3_P.xml#MS_Georg_d_3_P -->
+                </person>
+
+                <person xml:id="person_102">
+                    <persName type="display">Tchenkeli, A.</persName>
+                    <persName type="crossref">tchenkelia</persName>
+                    <!-- ../collections/MS_Wardr_d_21%2D.xml#MS_Wardr_d_21%2D%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_45">
+                    <persName type="display">Tsagareli, Alexandre</persName>
+                    <persName type="crossref">tsagarelialexandre</persName>
+                    <!-- ../collections/MS_Wardr_c_29.xml#MS_Wardr_c_29 -->
+                    <!-- ../collections/MS_Wardr_c_29.xml#MS_Wardr_c_29%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_41">
+                    <persName type="display">Turmanidze, Xosro</persName>
+                    <persName type="variant">თურმანიძე, ხოსრო</persName>
+                    <persName type="crossref">turmanidzexosro</persName>
+                    <persName type="crossref">თურმანიძეხოსრო</persName>
+                    <!-- ../collections/MS_Wardr_e_23.xml#MS_Wardr_e_23 -->
+                    <!-- ../collections/MS_Wardr_e_23.xml#MS_Wardr_e_23%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_70">
+                    <persName type="display">Volsky, Giorgi</persName>
+                    <persName type="crossref">volskygiorgi</persName>
+                    <!-- ../collections/MS_Wardr_d_22%2D.xml#MS_Wardr_d_22%2D -->
+                </person>
+
+                <person xml:id="person_7">
+                    <persName type="display">Wardrop, John Oliver, Sir</persName>
+                    <persName type="variant">Wardrop, John Oliver, Sir.</persName>
+                    <persName type="variant">Wardrop, John, Oliver, Sir</persName>
+                    <persName type="variant">J. O. Wadrop</persName>
+                    <persName type="variant">J. O. Wardrop</persName>
+                    <persName type="variant">Wardrop, J.O.</persName>
+                    <persName type="crossref">wardropjohnoliversir</persName>
+                    <persName type="crossref">jowadrop</persName>
+                    <persName type="crossref">jowardrop</persName>
+                    <persName type="crossref">wardropjo</persName>
+                    <!-- ../collections/MS_Wardr_d_1.xml#MS_Wardr_d_1 -->
+                    <!-- ../collections/MS_Wardr_e_3.xml#MS_Wardr_e_3 -->
+                    <!-- ../collections/MS_Wardr_e_5.xml#MS_Wardr_e_5 -->
+                    <!-- ../collections/MS_Wardr_e_6.xml#MS_Wardr_e_6 -->
+                    <!-- ../collections/MS_Wardr_e_7.xml#MS_Wardr_e_7 -->
+                    <!-- ../collections/MS_Wardr_c_21.xml#MS_Wardr_c_21%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_c_22.xml#MS_Wardr_c_22%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_c_1_12.xml#MS_Wardr_c_1_12 -->
+                    <!-- ../collections/MS_Wardr_c_1_12.xml#MS_Wardr_c_1_12%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_c_26.xml#MS_Wardr_c_26 -->
+                    <!-- ../collections/MS_Wardr_c_26.xml#MS_Wardr_c_26%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_c_27.xml#MS_Wardr_c_27 -->
+                    <!-- ../collections/MS_Wardr_c_27.xml#MS_Wardr_c_27%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_c_28.xml#MS_Wardr_c_28 -->
+                    <!-- ../collections/MS_Wardr_c_29.xml#MS_Wardr_c_29 -->
+                    <!-- ../collections/MS_Wardr_d_23%2D.xml#MS_Wardr_d_23%2D -->
+                    <!-- ../collections/MS_Wardr_d_3.xml#MS_Wardr_d_3%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_d_3.xml#MS_Wardr_d_3%2Ditem2 -->
+                    <!-- ../collections/MS_Wardr_d_3.xml#MS_Wardr_d_3%2Ditem3 -->
+                    <!-- ../collections/MS_Wardr_d_3.xml#MS_Wardr_d_3%2Ditem4 -->
+                    <!-- ../collections/MS_Wardr_d_3.xml#MS_Wardr_d_3%2Ditem5 -->
+                    <!-- ../collections/MS_Wardr_d_3.xml#MS_Wardr_d_3%2Ditem6 -->
+                    <!-- ../collections/MS_Wardr_d_3.xml#MS_Wardr_d_3%2Ditem7 -->
+                    <!-- ../collections/MS_Wardr_d_3.xml#MS_Wardr_d_3%2Ditem8 -->
+                    <!-- ../collections/MS_Wardr_e_2637.xml#MS_Wardr_e_2637%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_1">
+                    <persName type="display">Wardrop, Marjory</persName>
+                    <persName type="crossref">wardropmarjory</persName>
+                    <!-- ../collections/MS_Wardr_c_1_10.xml#MS_Wardr_c_1_10%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_c_1_4.xml#MS_Wardr_c_1_4%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_c_1_9.xml#MS_Wardr_c_1_9%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_c_26.xml#MS_Wardr_c_26 -->
+                    <!-- ../collections/MS_Wardr_c_26.xml#MS_Wardr_c_26%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_c_30%2D.xml#MS_Wardr_c_30%2D -->
+                    <!-- ../collections/MS_Wardr_d_22%2D.xml#MS_Wardr_d_22%2D%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_d_26.1%2D.xml#MS_Wardr_d_26.1%2D -->
+                    <!-- ../collections/MS_Wardr_d_26.1%2D.xml#MS_Wardr_d_26.1%2D%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_d_26.2%2D.xml#MS_Wardr_d_26.2%2D -->
+                    <!-- ../collections/MS_Wardr_d_26.3%2D.xml#MS_Wardr_d_26.3%2D -->
+                    <!-- ../collections/MS_Wardr_d_26.4%2D.xml#MS_Wardr_d_26.4%2D -->
+                    <!-- ../collections/MS_Wardr_d_26.5%2D.xml#MS_Wardr_d_26.5%2D -->
+                    <!-- ../collections/MS_Wardr_d_26.5%2D.xml#MS_Wardr_d_26.5%2D%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_d_32%2D.xml#MS_Wardr_d_32%2D -->
+                    <!-- ../collections/MS_Wardr_d_6.xml#MS_Wardr_d_6%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_e_4.xml#MS_Wardr_e_4%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_f_11.xml#MS_Wardr_f_11 -->
+                    <!-- ../collections/MS_Wardr_f_11.xml#MS_Wardr_f_11%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_47">
+                    <persName type="display">Xaxanov, A.</persName>
+                    <persName type="crossref">xaxanova</persName>
+                    <!-- ../collections/MS_Wardr_c_29.xml#MS_Wardr_c_29 -->
+                    <!-- ../collections/MS_Wardr_c_29.xml#MS_Wardr_c_29%2Ditem1 -->
+                </person>
+
+                <person xml:id="person_13">
+                    <persName type="display">Č'erk'ezišvili, Varlam</persName>
+                    <persName type="variant">ჩერქეზიშვილი, ვარლამ</persName>
+                    <persName type="crossref">cerkezisvilivarlam</persName>
+                    <persName type="crossref">ჩერქეზიშვილივარლამ</persName>
+                    <!-- ../collections/MS_Wardr_c_1_11.xml#MS_Wardr_c_1_11 -->
+                    <!-- ../collections/MS_Wardr_c_1_11.xml#MS_Wardr_c_1_11%2Ditem1 -->
+                    <!-- ../collections/MS_Wardr_c_1_12.xml#MS_Wardr_c_1_12 -->
+                    <!-- ../collections/MS_Wardr_c_1_12.xml#MS_Wardr_c_1_12%2Ditem1 -->
+                </person>
+
+                
+                
+            </listPerson>
+        </body>
+    </text>
+</TEI>
