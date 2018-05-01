@@ -142,21 +142,7 @@
                     <!-- ../collections/MS_Wardr_c_1_4.xml#manuscript_23 -->
                 </item>
 
-                <item xml:id="subject_13">
-                    <term type="display">Georgia (Republic)--History--1801-1917</term>
-                    <note type="links">
-                        <list type="links">
-                            <item>
-                                <ref target="Georgia (Republic)--History--1801-1917">
-                                    <title>LC</title>
-                                </ref>
-                            </item>
-                        </list>
-                    </note>
-                    <!-- ../collections/MS_Wardr_c_25.xml#manuscript_33 -->
-                </item>
-
-                <item xml:id="subject_1">
+                <item xml:id="subject_1" corresp="#subject_3">
                     <term type="display">Georgia (Republic)--History--1917-1991</term>
                     <term type="variant">Georgia (Republic)-History-1917-1991</term>
                     <note type="links">
@@ -191,7 +177,7 @@
                     <!-- ../collections/MS_Wardr_c_29.xml#manuscript_37 -->
                 </item>
 
-                <item xml:id="subject_3">
+                <item xml:id="subject_3" corresp="#subject_1">
                     <term type="display">Georgia, History - 1801-1917</term>
                     <term type="variant">Georgia (Republic)--History--1801-1917</term>
                     <term type="variant">Georgia, history - 1801-1917</term>
@@ -212,6 +198,7 @@
                     <!-- ../collections/MS_Wardr_d_26.3%2D.xml#manuscript_47 -->
                     <!-- ../collections/MS_Wardr_c_16.xml#manuscript_13 -->
                     <!-- ../collections/MS_Wardr_c_17.xml#manuscript_14 -->
+                    <!-- ../collections/MS_Wardr_c_25.xml#manuscript_33 -->
                 </item>
 
                 <item xml:id="subject_5" corresp="#subject_10">
