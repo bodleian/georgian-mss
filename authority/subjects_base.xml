@@ -63,7 +63,8 @@
                 </item>
 
                 <item xml:id="subject_24">
-                    <term type="display">David Invincible</term>
+                    <term type="display">David, the Invincible</term>
+                    <term type="variant">David Invincible</term>
                     <note type="links">
                         <list type="links">
                             <item>
@@ -74,7 +75,6 @@
                         </list>
                     </note>
                     <!-- ../collections/MS_Wardr_f_5.xml#manuscript_85 -->
-                    <!-- ../collections/MS_Wardr_f.xml#manuscript_79 -->
                 </item>
 
                 <item xml:id="subject_2">
