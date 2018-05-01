@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schamtypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schamtypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="authority-schematron.sch" type="application/xml" schamtypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+
+                <item xml:id="subject_29">
+                    <term type="display">Anton I, Catholicos of Georgia, 1720-1788</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/n97066165">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_3.xml#manuscript_71 -->
+                </item>
+
+                <item xml:id="subject_39">
+                    <term type="display">Arč'ili, 1647-1713</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/n98032911">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_c_12.xml#manuscript_1 -->
+                </item>
+
+                <item xml:id="subject_23">
+                    <term type="display">Batonišvili, Bagrat</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/n2012009251">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_10.xml#manuscript_56 -->
+                </item>
+
+                <item xml:id="subject_24">
+                    <term type="display">David Invincible</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/n80015904">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_f_5.xml#manuscript_85 -->
+                    <!-- ../collections/MS_Wardr_f.xml#manuscript_79 -->
+                </item>
+
+                <item xml:id="subject_2">
+                    <term type="display">Diplomatic and consular service, Georgian</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh96007310">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_c_1_9.xml#manuscript_26 -->
+                    <!-- ../collections/MS_Wardr_c_27.xml#manuscript_35 -->
+                    <!-- ../collections/MS_Wardr_c_30%2D.xml#manuscript_38 -->
+                </item>
+
+                <item xml:id="subject_19" corresp="#subject_33 #subject_14 #subject_18 #subject_36">
+                    <term type="display">English Language-Dictionaries-Georgian</term>
+                    <term type="variant">English language-Dictionaries-Georgian</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh2009124969">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_f_11.xml#manuscript_81 -->
+                    <!-- ../collections/MS_Wardr_c_1_10.xml#manuscript_17 -->
+                </item>
+
+                <item xml:id="subject_7" corresp="#subject_32 #subject_27 #subject_38 #subject_17">
+                    <term type="display">Epic Poetry, Georgian</term>
+                    <term type="variant">Epic poetry, Georgian</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh85044325">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_d_27%2D.xml#manuscript_50 -->
+                    <!-- ../collections/MS_Wardr_d_17.xml#manuscript_41 -->
+                    <!-- ../collections/MS_Wardr_e_23.xml#manuscript_69 -->
+                    <!-- ../collections/MS_Wardr_d_32%2D.xml#manuscript_52 -->
+                </item>
+
+                <item xml:id="subject_32" corresp="#subject_7 #subject_27 #subject_38 #subject_17">
+                    <term type="display">Folk poetry, Georgian</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh85049871">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_c_1_7%2Da.xml#manuscript_25 -->
+                    <!-- ../collections/MS_Wardr_c_1_4.xml#manuscript_23 -->
+                </item>
+
+                <item xml:id="subject_13">
+                    <term type="display">Georgia (Republic)--History--1801-1917</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="Georgia (Republic)--History--1801-1917">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_c_25.xml#manuscript_33 -->
+                </item>
+
+                <item xml:id="subject_1">
+                    <term type="display">Georgia (Republic)--History--1917-1991</term>
+                    <term type="variant">Georgia (Republic)-History-1917-1991</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh85054254">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_c_23_23.xml#manuscript_2 -->
+                    <!-- ../collections/MS_Wardr_d_23%2D.xml#manuscript_44 -->
+                    <!-- ../collections/MS_Wardr_c_23.xml#manuscript_30 -->
+                    <!-- ../collections/MS_Wardr_c_25.xml#manuscript_33 -->
+                    <!-- ../collections/MS_Wardr_d_26.1%2D.xml#manuscript_45 -->
+                    <!-- ../collections/MS_Wardr_c_19.xml#manuscript_15 -->
+                    <!-- ../collections/MS_Wardr_c_23_4%2D6.xml#manuscript_31 -->
+                </item>
+
+                <item xml:id="subject_20">
+                    <term type="display">Georgia, Church history</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh2008115135">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_c_29.xml#manuscript_37 -->
+                </item>
+
+                <item xml:id="subject_3">
+                    <term type="display">Georgia, History - 1801-1917</term>
+                    <term type="variant">Georgia (Republic)--History--1801-1917</term>
+                    <term type="variant">Georgia, history - 1801-1917</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh85054252">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_d_26.2%2D.xml#manuscript_46 -->
+                    <!-- ../collections/MS_Wardr_d_26.5%2D.xml#manuscript_49 -->
+                    <!-- ../collections/MS_Wardr_d_26.4%2D.xml#manuscript_48 -->
+                    <!-- ../collections/MS_Wardr_c_1_11.xml#manuscript_18 -->
+                    <!-- ../collections/MS_Wardr_c_1_12.xml#manuscript_19 -->
+                    <!-- ../collections/MS_Wardr_d_26.3%2D.xml#manuscript_47 -->
+                    <!-- ../collections/MS_Wardr_c_16.xml#manuscript_13 -->
+                    <!-- ../collections/MS_Wardr_c_17.xml#manuscript_14 -->
+                </item>
+
+                <item xml:id="subject_5" corresp="#subject_10">
+                    <term type="display">Georgian Christian literature</term>
+                    <term type="variant">Christian literature, Georgian</term>
+                    <term type="variant">Christian Literature, Georgian</term>
+                    <term type="variant">Georgian literature, Christian</term>
+                    <term type="variant">Christian Georgian Literature</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh2006003480">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_1.xml#manuscript_55 -->
+                    <!-- ../collections/MS_Wardr_g_2.xml#manuscript_91 -->
+                    <!-- ../collections/MS_Georg_d_2.xml#manuscript_6 -->
+                    <!-- ../collections/MS_Wardr_d_12%2D.xml#manuscript_40 -->
+                    <!-- ../collections/MS_Wardr_e_9.xml#manuscript_78 -->
+                    <!-- ../collections/MS_Wardr_g_1.xml#manuscript_90 -->
+                    <!-- ../collections/MS_Wardr_e_20.xml#manuscript_65 -->
+                    <!-- ../collections/MS_Wardr_g_3.xml#manuscript_92 -->
+                    <!-- ../collections/MS_Wardr_d_1.xml#manuscript_39 -->
+                    <!-- ../collections/MS_Georg_c_1_P.xml#manuscript_5 -->
+                    <!-- ../collections/MS_Wardr_g_5.xml#manuscript_94 -->
+                    <!-- ../collections/MS_Georg_d_3_P.xml#manuscript_7 -->
+                    <!-- ../collections/MS_Wardr_g_4.xml#manuscript_93 -->
+                    <!-- ../collections/MS_Wardr_e_19.xml#manuscript_11 -->
+                    <!-- ../collections/MS_Georg_b_I.xml#manuscript_4 -->
+                    <!-- ../collections/MS_Georg_d_4.xml#manuscript_8 -->
+                    <!-- ../collections/MS_Wardr_e_2.xml#manuscript_66 -->
+                </item>
+
+                <item xml:id="subject_21" corresp="#subject_8 #subject_12 #subject_6">
+                    <term type="display">Georgian epic literature</term>
+                    <term type="variant">Epic literature, Georgian</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh85044283">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_7.xml#manuscript_76 -->
+                    <!-- ../collections/MS_Wardr_e_16.xml#manuscript_62 -->
+                    <!-- ../collections/MS_Wardr_b_1.xml#manuscript_12 -->
+                </item>
+
+                <item xml:id="subject_8" corresp="#subject_21 #subject_12 #subject_6">
+                    <term type="display">Georgian folk literature</term>
+                    <term type="variant">Folk literature, Georgian</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh88005779">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_f_8.xml#manuscript_88 -->
+                    <!-- ../collections/MS_Wardr_c_22.xml#manuscript_29 -->
+                    <!-- ../collections/MS_Wardr_e_4.xml#manuscript_73 -->
+                    <!-- ../collections/MS_Wardr_c_1_1.xml#manuscript_16 -->
+                </item>
+
+                <item xml:id="subject_33" corresp="#subject_19 #subject_14 #subject_18 #subject_36">
+                    <term type="display">Georgian language</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh85054242">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Georg_d_I.xml#manuscript_9 -->
+                </item>
+
+                <item xml:id="subject_14" corresp="#subject_19 #subject_33 #subject_18 #subject_36">
+                    <term type="display">Georgian language - grammar</term>
+                    <term type="variant">Georgian language-grammar</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh2008118018">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Georg_e_1.xml#manuscript_10 -->
+                    <!-- ../collections/MS_Wardr_e_13.xml#manuscript_59 -->
+                </item>
+
+                <item xml:id="subject_18" corresp="#subject_19 #subject_33 #subject_14 #subject_36">
+                    <term type="display">Georgian language-dictionaries-Russian</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh2009125844">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_g_5.xml#manuscript_94 -->
+                </item>
+
+                <item xml:id="subject_12" corresp="#subject_21 #subject_8 #subject_6">
+                    <term type="display">Georgian literature - 1500-1800</term>
+                    <term type="variant">Georgian literature, 1500-1800</term>
+                    <term type="variant">Georgian Literature, 1500-1800</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh98006071">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_8.xml#manuscript_77 -->
+                    <!-- ../collections/MSWardre8.xml#manuscript_3 -->
+                    <!-- ../collections/MS_Wardr_f_6.xml#manuscript_86 -->
+                    <!-- ../collections/MS_Wardr_e_14.xml#manuscript_60 -->
+                    <!-- ../collections/MS_Wardr_f_5.xml#manuscript_85 -->
+                    <!-- ../collections/MS_Wardr_f.xml#manuscript_79 -->
+                    <!-- ../collections/MS_Wardr_f_4.xml#manuscript_84 -->
+                    <!-- ../collections/MS_Wardr_e_5.xml#manuscript_74 -->
+                </item>
+
+                <item xml:id="subject_26">
+                    <term type="display">Georgian periodicals</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh2005001478">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_d_5%2D.xml#manuscript_53 -->
+                </item>
+
+                <item xml:id="subject_27" corresp="#subject_7 #subject_32 #subject_38 #subject_17">
+                    <term type="display">Georgian Poetry</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh85054246">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_d_22%2D.xml#manuscript_43 -->
+                </item>
+
+                <item xml:id="subject_6" corresp="#subject_21 #subject_8 #subject_12">
+                    <term type="display">Georgian prose literature</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh85054247">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_17.xml#manuscript_63 -->
+                    <!-- ../collections/MS_Wardr_f_2.xml#manuscript_82 -->
+                    <!-- ../collections/MS_Wardr_e_6.xml#manuscript_75 -->
+                    <!-- ../collections/MS_Wardr_f_3.xml#manuscript_83 -->
+                    <!-- ../collections/MS_Wardr_e_15.xml#manuscript_61 -->
+                    <!-- ../collections/MS_Wardr_e_16.xml#manuscript_62 -->
+                    <!-- ../collections/MS_Wardr_c_1_7.xml#manuscript_24 -->
+                    <!-- ../collections/MS_Wardr_e_18.xml#manuscript_64 -->
+                </item>
+
+                <item xml:id="subject_10" corresp="#subject_5">
+                    <term type="display">Georgian religious literature</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh2006003479">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_f_7.xml#manuscript_87 -->
+                </item>
+
+                <item xml:id="subject_30">
+                    <term type="display">Guria</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh97009128">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_4.xml#MS_Wardr_e_4 -->
+                </item>
+
+                <item xml:id="subject_38" corresp="#subject_7 #subject_32 #subject_27 #subject_17">
+                    <term type="display">Historical poetry, Georgian</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh98003673">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_c_12.xml#manuscript_1 -->
+                </item>
+
+                <item xml:id="subject_16">
+                    <term type="display">Jerusalem</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/n81126877">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Georg_c_1_P.xml#MS_Georg_c_1_P -->
+                </item>
+
+                <item xml:id="subject_31">
+                    <term type="display">Kutaisi</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/n82024438">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_4.xml#MS_Wardr_e_4%2Ditem1 -->
+                </item>
+
+                <item xml:id="subject_15">
+                    <term type="display">Leipzig</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/n79125883">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_d_1.xml#MS_Wardr_d_1 -->
+                </item>
+
+                <item xml:id="subject_9">
+                    <term type="display">Manuscripts, Georgian</term>
+                    <term type="variant">Georgian manuscripts</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh89005067">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_f_10.xml#manuscript_80 -->
+                    <!-- ../collections/MS_Wardr_e_36.xml#manuscript_72 -->
+                    <!-- ../collections/MS_Wardr_c_28.xml#manuscript_36 -->
+                </item>
+
+                <item xml:id="subject_22">
+                    <term type="display">Orbeliani, Sulxan-Saba, 1658-1725</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/n86142338">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_14.xml#manuscript_60 -->
+                </item>
+
+                <item xml:id="subject_34">
+                    <term type="display">Orbeliani, Sulxan-Saba, 1658-1725. Lek'sikoni k'art'uli</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/n00050856">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_13.xml#manuscript_59 -->
+                </item>
+
+                <item xml:id="subject_17" corresp="#subject_7 #subject_32 #subject_27 #subject_38">
+                    <term type="display">Patriotic poetry, Georgian</term>
+                    <term type="variant">Georgian Patriotic Poetry</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh94007726">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_c_1_3.xml#manuscript_21 -->
+                    <!-- ../collections/MS_Wardr_c_1_2.xml#manuscript_20 -->
+                </item>
+
+                <item xml:id="subject_37">
+                    <term type="display">Pseudo-Callisthenes</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/n50032188">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_18.xml#manuscript_64 -->
+                </item>
+
+                <item xml:id="subject_36" corresp="#subject_19 #subject_33 #subject_14 #subject_18">
+                    <term type="display">Russian language-Dictionaries-Georgian</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/subjects/sh2010111620">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_11.xml#manuscript_57 -->
+                </item>
+
+                <item xml:id="subject_28">
+                    <term type="display">Tʻbilisi</term>
+                    <term type="variant">Tiflis</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/n79104307">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_3.xml#MS_Wardr_e_3 -->
+                </item>
+
+                <item xml:id="subject_11" sameAs="#subject_25">
+                    <term type="display">Vaxtang VI, King of the Georgians, 1675-1737</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/no88004540">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_e_8.xml#manuscript_77 -->
+                    <!-- ../collections/MSWardre8.xml#manuscript_3 -->
+                </item>
+
+                <item xml:id="subject_25" sameAs="#subject_11">
+                    <term type="display">Vaxtang VI, King of the Georgians, 1675-1737. Samart'ali Batonisšvilis Vaxtangisa</term>
+                    <term type="variant">Vaxtang VI, King of the Georgians, 1675-1737. Samartali Batonisšvilis Vaxtangisa</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/no88004541">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_d_3.xml#manuscript_51 -->
+                    <!-- ../collections/MS_Wardr_c_21.xml#manuscript_28 -->
+                    <!-- ../collections/MS_Wardr_e_12.xml#manuscript_58 -->
+                </item>
+
+                <item xml:id="subject_4">
+                    <term type="display">Šot'a Rust'aveli</term>
+                    <term type="variant">Rust'aveli, Šot'a, 12th/13th cent.</term>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="http://id.loc.gov/authorities/names/n80032198">
+                                    <title>LC</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
+                    <!-- ../collections/MS_Wardr_d_6.xml#manuscript_54 -->
+                    <!-- ../collections/MS_Wardr_d_27%2D.xml#manuscript_50 -->
+                </item>
+                
+                
+                
+            </list>
+        </body>
+    </text>
+</TEI>
