@@ -543,7 +543,9 @@
 
                 <person xml:id="person_1">
                     <persName type="display">Wardrop, Marjory</persName>
+                    <persName type="variant">Marjory Wardrop</persName>
                     <persName type="crossref">wardropmarjory</persName>
+                    <persName type="crossref">marjorywardrop</persName>
                     <!-- ../collections/MS_Wardr_c_1_10.xml#MS_Wardr_c_1_10%2Ditem1 -->
                     <!-- ../collections/MS_Wardr_c_1_4.xml#MS_Wardr_c_1_4%2Ditem1 -->
                     <!-- ../collections/MS_Wardr_c_1_9.xml#MS_Wardr_c_1_9%2Ditem1 -->
