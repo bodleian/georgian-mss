@@ -75,7 +75,21 @@
                 </xsl:choose>
                 <xsl:text> </xsl:text>
             </span>
-            <xsl:apply-templates/>
+            <xsl:choose>
+                <xsl:when test="@key">
+                    <a>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="$website-url"/>
+                            <xsl:text>/catalog/</xsl:text>
+                            <xsl:value-of select="@key"/>
+                        </xsl:attribute>
+                        <xsl:apply-templates/>
+                    </a>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
+            </xsl:choose>
         </div>
     </xsl:template>
     
