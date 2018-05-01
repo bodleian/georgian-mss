@@ -503,7 +503,7 @@
                     <!-- ../collections/MS_Wardr_d_22%2D.xml#MS_Wardr_d_22%2D -->
                 </person>
 
-                <person xml:id="person_7">
+                <person xml:id="person_7" corresp="#person_1">
                     <persName type="display">Wardrop, John Oliver, Sir</persName>
                     <persName type="variant">Wardrop, John Oliver, Sir.</persName>
                     <persName type="variant">Wardrop, John, Oliver, Sir</persName>
@@ -541,7 +541,7 @@
                     <!-- ../collections/MS_Wardr_e_2637.xml#MS_Wardr_e_2637%2Ditem1 -->
                 </person>
 
-                <person xml:id="person_1">
+                <person xml:id="person_1" corresp="#person_7">
                     <persName type="display">Wardrop, Marjory</persName>
                     <persName type="variant">Marjory Wardrop</persName>
                     <persName type="crossref">wardropmarjory</persName>
