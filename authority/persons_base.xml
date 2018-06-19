@@ -452,6 +452,15 @@
                     <persName type="crossref">sotarustaveli</persName>
                     <persName type="crossref">შოთარუსთაველი</persName>
                     <persName type="crossref">shotarustaveli</persName>
+                    <note type="links">
+                        <list type="links">
+                            <item>
+                                <ref target="https://viaf.org/viaf/100218337/">
+                                    <title>VIAF</title>
+                                </ref>
+                            </item>
+                        </list>
+                    </note>
                     <!-- ../collections/MS_Wardr_d_32%2D.xml#MS_Wardr_d_32%2D -->
                     <!-- ../collections/MS_Wardr_d_17.xml#MS_Wardr_d_17%2Ditem1 -->
                     <!-- ../collections/MS_Wardr_d_27%2D.xml#MS_Wardr_d_27%2D%2Ditem1 -->
