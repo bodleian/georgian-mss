@@ -8,7 +8,7 @@
          when the file is on local filesystem, Chrome on a web server that responds with XML MIME type (which is not the case
          on raw.githubusercontent.com that serves everything as text/plain), possibly IE/Edge with some more work. -->
     
-    <xsl:variable name="website" select="'http://senmai-qa.bodleian.ox.ac.uk'"/>
+    <xsl:variable name="website" select="'http://georgian.bodleian.ox.ac.uk'"/>
 
     <xsl:template match="/">
         <html>

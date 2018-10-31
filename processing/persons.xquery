@@ -37,7 +37,7 @@ declare option saxon:output "indent=yes";
                 let $iseditor := some $i in $mss//tei:editor[not(@role)] satisfies $i/@key = $id
                 let $roles := 
                     (
-                    for $i in $mss//(tei:author|tei:editor|tei:perName)[@key = $id and @role] return $i/@role, 
+                    for $r in $mss//(tei:author|tei:editor|tei:persName)[@key = $id and @role]/@role return tokenize($r, ' '), 
                     if ($isauthor) then 'author' else (), 
                     if ($issubject) then 'subject' else (),
                     if ($iseditor) then 'editor' else ()
