@@ -20,7 +20,7 @@
         <body>
             <list>
 
-                <item xml:id="subject_29">
+                <item xml:id="subject_n97066165">
                     <term type="display">Anton I, Catholicos of Georgia, 1720-1788</term>
                     <note type="links">
                         <list type="links">
@@ -31,10 +31,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_e_3.xml#manuscript_71 -->
+                    <!-- ../collections/MS_Wardr_e_3.xml -->
                 </item>
 
-                <item xml:id="subject_39">
+                <item xml:id="subject_n98032911">
                     <term type="display">Arč'ili, 1647-1713</term>
                     <note type="links">
                         <list type="links">
@@ -45,10 +45,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_c_12.xml#manuscript_1 -->
+                    <!-- ../collections/MS_Wardr_c_12.xml -->
                 </item>
 
-                <item xml:id="subject_23">
+                <item xml:id="subject_n2012009251">
                     <term type="display">Batonišvili, Bagrat</term>
                     <note type="links">
                         <list type="links">
@@ -59,10 +59,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_e_10.xml#manuscript_56 -->
+                    <!-- ../collections/MS_Wardr_e_10.xml -->
                 </item>
 
-                <item xml:id="subject_24">
+                <item xml:id="subject_n80015904">
                     <term type="display">David, the Invincible</term>
                     <term type="variant">David Invincible</term>
                     <note type="links">
@@ -74,10 +74,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_f_5.xml#manuscript_85 -->
+                    <!-- ../collections/MS_Wardr_f_5.xml -->
                 </item>
 
-                <item xml:id="subject_2">
+                <item xml:id="subject_sh96007310">
                     <term type="display">Diplomatic and consular service, Georgian</term>
                     <note type="links">
                         <list type="links">
@@ -88,12 +88,12 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_c_1_9.xml#manuscript_26 -->
-                    <!-- ../collections/MS_Wardr_c_27.xml#manuscript_35 -->
-                    <!-- ../collections/MS_Wardr_c_30%2D.xml#manuscript_38 -->
+                    <!-- ../collections/MS_Wardr_c_1_9.xml -->
+                    <!-- ../collections/MS_Wardr_c_27.xml -->
+                    <!-- ../collections/MS_Wardr_c_30%2D.xml -->
                 </item>
 
-                <item xml:id="subject_19" corresp="#subject_33 #subject_14 #subject_18 #subject_36">
+                <item xml:id="subject_sh2009124969" corresp="#subject_sh85054242 #subject_sh2008118018 #subject_sh2009125844 #subject_sh2010111620">
                     <term type="display">English Language-Dictionaries-Georgian</term>
                     <term type="variant">English language-Dictionaries-Georgian</term>
                     <note type="links">
@@ -105,11 +105,11 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_f_11.xml#manuscript_81 -->
-                    <!-- ../collections/MS_Wardr_c_1_10.xml#manuscript_17 -->
+                    <!-- ../collections/MS_Wardr_f_11.xml -->
+                    <!-- ../collections/MS_Wardr_c_1_10.xml -->
                 </item>
 
-                <item xml:id="subject_7" corresp="#subject_32 #subject_27 #subject_38 #subject_17">
+                <item xml:id="subject_sh85044325" corresp="#subject_sh85049871 #subject_sh85054246 #subject_sh98003673 #subject_sh94007726">
                     <term type="display">Epic Poetry, Georgian</term>
                     <term type="variant">Epic poetry, Georgian</term>
                     <note type="links">
@@ -121,13 +121,13 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_d_27%2D.xml#manuscript_50 -->
-                    <!-- ../collections/MS_Wardr_d_17.xml#manuscript_41 -->
-                    <!-- ../collections/MS_Wardr_e_23.xml#manuscript_69 -->
-                    <!-- ../collections/MS_Wardr_d_32%2D.xml#manuscript_52 -->
+                    <!-- ../collections/MS_Wardr_d_27%2D.xml -->
+                    <!-- ../collections/MS_Wardr_d_17.xml -->
+                    <!-- ../collections/MS_Wardr_e_23.xml -->
+                    <!-- ../collections/MS_Wardr_d_32%2D.xml -->
                 </item>
 
-                <item xml:id="subject_32" corresp="#subject_7 #subject_27 #subject_38 #subject_17">
+                <item xml:id="subject_sh85049871" corresp="#subject_sh85044325 #subject_sh85054246 #subject_sh98003673 #subject_sh94007726">
                     <term type="display">Folk poetry, Georgian</term>
                     <note type="links">
                         <list type="links">
@@ -138,11 +138,11 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_c_1_7%2Da.xml#manuscript_25 -->
-                    <!-- ../collections/MS_Wardr_c_1_4.xml#manuscript_23 -->
+                    <!-- ../collections/MS_Wardr_c_1_7%2Da.xml -->
+                    <!-- ../collections/MS_Wardr_c_1_4.xml -->
                 </item>
 
-                <item xml:id="subject_1" corresp="#subject_3">
+                <item xml:id="subject_sh85054254" corresp="#subject_sh85054252">
                     <term type="display">Georgia (Republic)--History--1917-1991</term>
                     <term type="variant">Georgia (Republic)-History-1917-1991</term>
                     <note type="links">
@@ -154,16 +154,16 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_c_23_23.xml#manuscript_2 -->
-                    <!-- ../collections/MS_Wardr_d_23%2D.xml#manuscript_44 -->
-                    <!-- ../collections/MS_Wardr_c_23.xml#manuscript_30 -->
-                    <!-- ../collections/MS_Wardr_c_25.xml#manuscript_33 -->
-                    <!-- ../collections/MS_Wardr_d_26.1%2D.xml#manuscript_45 -->
-                    <!-- ../collections/MS_Wardr_c_19.xml#manuscript_15 -->
-                    <!-- ../collections/MS_Wardr_c_23_4%2D6.xml#manuscript_31 -->
+                    <!-- ../collections/MS_Wardr_c_23_23.xml -->
+                    <!-- ../collections/MS_Wardr_d_23%2D.xml -->
+                    <!-- ../collections/MS_Wardr_c_23.xml -->
+                    <!-- ../collections/MS_Wardr_c_25.xml -->
+                    <!-- ../collections/MS_Wardr_d_26.1%2D.xml -->
+                    <!-- ../collections/MS_Wardr_c_19.xml -->
+                    <!-- ../collections/MS_Wardr_c_23_4%2D6.xml -->
                 </item>
 
-                <item xml:id="subject_20">
+                <item xml:id="subject_sh2008115135">
                     <term type="display">Georgia, Church history</term>
                     <note type="links">
                         <list type="links">
@@ -174,10 +174,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_c_29.xml#manuscript_37 -->
+                    <!-- ../collections/MS_Wardr_c_29.xml -->
                 </item>
 
-                <item xml:id="subject_3" corresp="#subject_1">
+                <item xml:id="subject_sh85054252" corresp="#subject_sh85054254">
                     <term type="display">Georgia (Republic)--History--1801-1917</term>
                     <term type="variant">Georgia, History - 1801-1917</term>
                     <term type="variant">Georgia, history - 1801-1917</term>
@@ -190,18 +190,18 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_d_26.2%2D.xml#manuscript_46 -->
-                    <!-- ../collections/MS_Wardr_d_26.5%2D.xml#manuscript_49 -->
-                    <!-- ../collections/MS_Wardr_d_26.4%2D.xml#manuscript_48 -->
-                    <!-- ../collections/MS_Wardr_c_1_11.xml#manuscript_18 -->
-                    <!-- ../collections/MS_Wardr_c_1_12.xml#manuscript_19 -->
-                    <!-- ../collections/MS_Wardr_d_26.3%2D.xml#manuscript_47 -->
-                    <!-- ../collections/MS_Wardr_c_16.xml#manuscript_13 -->
-                    <!-- ../collections/MS_Wardr_c_17.xml#manuscript_14 -->
-                    <!-- ../collections/MS_Wardr_c_25.xml#manuscript_33 -->
+                    <!-- ../collections/MS_Wardr_d_26.2%2D.xml -->
+                    <!-- ../collections/MS_Wardr_d_26.5%2D.xml -->
+                    <!-- ../collections/MS_Wardr_d_26.4%2D.xml -->
+                    <!-- ../collections/MS_Wardr_c_1_11.xml -->
+                    <!-- ../collections/MS_Wardr_c_1_12.xml -->
+                    <!-- ../collections/MS_Wardr_d_26.3%2D.xml -->
+                    <!-- ../collections/MS_Wardr_c_16.xml -->
+                    <!-- ../collections/MS_Wardr_c_17.xml -->
+                    <!-- ../collections/MS_Wardr_c_25.xml -->
                 </item>
 
-                <item xml:id="subject_5" corresp="#subject_10">
+                <item xml:id="subject_sh2006003480" corresp="#subject_sh2006003479">
                     <term type="display">Georgian Christian literature</term>
                     <term type="variant">Christian literature, Georgian</term>
                     <term type="variant">Christian Literature, Georgian</term>
@@ -216,26 +216,26 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_e_1.xml#manuscript_55 -->
-                    <!-- ../collections/MS_Wardr_g_2.xml#manuscript_91 -->
-                    <!-- ../collections/MS_Georg_d_2.xml#manuscript_6 -->
-                    <!-- ../collections/MS_Wardr_d_12%2D.xml#manuscript_40 -->
-                    <!-- ../collections/MS_Wardr_e_9.xml#manuscript_78 -->
-                    <!-- ../collections/MS_Wardr_g_1.xml#manuscript_90 -->
-                    <!-- ../collections/MS_Wardr_e_20.xml#manuscript_65 -->
-                    <!-- ../collections/MS_Wardr_g_3.xml#manuscript_92 -->
-                    <!-- ../collections/MS_Wardr_d_1.xml#manuscript_39 -->
-                    <!-- ../collections/MS_Georg_c_1_P.xml#manuscript_5 -->
-                    <!-- ../collections/MS_Wardr_g_5.xml#manuscript_94 -->
-                    <!-- ../collections/MS_Georg_d_3_P.xml#manuscript_7 -->
-                    <!-- ../collections/MS_Wardr_g_4.xml#manuscript_93 -->
-                    <!-- ../collections/MS_Wardr_e_19.xml#manuscript_11 -->
-                    <!-- ../collections/MS_Georg_b_I.xml#manuscript_4 -->
-                    <!-- ../collections/MS_Georg_d_4.xml#manuscript_8 -->
-                    <!-- ../collections/MS_Wardr_e_2.xml#manuscript_66 -->
+                    <!-- ../collections/MS_Wardr_e_1.xml -->
+                    <!-- ../collections/MS_Wardr_g_2.xml -->
+                    <!-- ../collections/MS_Georg_d_2.xml -->
+                    <!-- ../collections/MS_Wardr_d_12%2D.xml -->
+                    <!-- ../collections/MS_Wardr_e_9.xml -->
+                    <!-- ../collections/MS_Wardr_g_1.xml -->
+                    <!-- ../collections/MS_Wardr_e_20.xml -->
+                    <!-- ../collections/MS_Wardr_g_3.xml -->
+                    <!-- ../collections/MS_Wardr_d_1.xml -->
+                    <!-- ../collections/MS_Georg_c_1_P.xml -->
+                    <!-- ../collections/MS_Wardr_g_5.xml -->
+                    <!-- ../collections/MS_Georg_d_3_P.xml -->
+                    <!-- ../collections/MS_Wardr_g_4.xml -->
+                    <!-- ../collections/MS_Wardr_e_19.xml -->
+                    <!-- ../collections/MS_Georg_b_I.xml -->
+                    <!-- ../collections/MS_Georg_d_4.xml -->
+                    <!-- ../collections/MS_Wardr_e_2.xml -->
                 </item>
 
-                <item xml:id="subject_21" corresp="#subject_8 #subject_12 #subject_6">
+                <item xml:id="subject_sh85044283" corresp="#subject_sh88005779 #subject_sh98006071 #subject_sh85054247">
                     <term type="display">Georgian epic literature</term>
                     <term type="variant">Epic literature, Georgian</term>
                     <note type="links">
@@ -247,12 +247,12 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_e_7.xml#manuscript_76 -->
-                    <!-- ../collections/MS_Wardr_e_16.xml#manuscript_62 -->
-                    <!-- ../collections/MS_Wardr_b_1.xml#manuscript_12 -->
+                    <!-- ../collections/MS_Wardr_e_7.xml -->
+                    <!-- ../collections/MS_Wardr_e_16.xml -->
+                    <!-- ../collections/MS_Wardr_b_1.xml -->
                 </item>
 
-                <item xml:id="subject_8" corresp="#subject_21 #subject_12 #subject_6">
+                <item xml:id="subject_sh88005779" corresp="#subject_sh85044283 #subject_sh98006071 #subject_sh85054247">
                     <term type="display">Georgian folk literature</term>
                     <term type="variant">Folk literature, Georgian</term>
                     <note type="links">
@@ -264,13 +264,13 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_f_8.xml#manuscript_88 -->
-                    <!-- ../collections/MS_Wardr_c_22.xml#manuscript_29 -->
-                    <!-- ../collections/MS_Wardr_e_4.xml#manuscript_73 -->
-                    <!-- ../collections/MS_Wardr_c_1_1.xml#manuscript_16 -->
+                    <!-- ../collections/MS_Wardr_f_8.xml -->
+                    <!-- ../collections/MS_Wardr_c_22.xml -->
+                    <!-- ../collections/MS_Wardr_e_4.xml -->
+                    <!-- ../collections/MS_Wardr_c_1_1.xml -->
                 </item>
 
-                <item xml:id="subject_33" corresp="#subject_19 #subject_14 #subject_18 #subject_36">
+                <item xml:id="subject_sh85054242" corresp="#subject_sh2009124969 #subject_sh2008118018 #subject_sh2009125844 #subject_sh2010111620">
                     <term type="display">Georgian language</term>
                     <note type="links">
                         <list type="links">
@@ -281,10 +281,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Georg_d_I.xml#manuscript_9 -->
+                    <!-- ../collections/MS_Georg_d_I.xml -->
                 </item>
 
-                <item xml:id="subject_14" corresp="#subject_19 #subject_33 #subject_18 #subject_36">
+                <item xml:id="subject_sh2008118018" corresp="#subject_sh2009124969 #subject_sh85054242 #subject_sh2009125844 #subject_sh2010111620">
                     <term type="display">Georgian language - grammar</term>
                     <term type="variant">Georgian language-grammar</term>
                     <note type="links">
@@ -296,11 +296,11 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Georg_e_1.xml#manuscript_10 -->
-                    <!-- ../collections/MS_Wardr_e_13.xml#manuscript_59 -->
+                    <!-- ../collections/MS_Georg_e_1.xml -->
+                    <!-- ../collections/MS_Wardr_e_13.xml -->
                 </item>
 
-                <item xml:id="subject_18" corresp="#subject_19 #subject_33 #subject_14 #subject_36">
+                <item xml:id="subject_sh2009125844" corresp="#subject_sh2009124969 #subject_sh85054242 #subject_sh2008118018 #subject_sh2010111620">
                     <term type="display">Georgian language-dictionaries-Russian</term>
                     <note type="links">
                         <list type="links">
@@ -311,10 +311,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_g_5.xml#manuscript_94 -->
+                    <!-- ../collections/MS_Wardr_g_5.xml -->
                 </item>
 
-                <item xml:id="subject_12" corresp="#subject_21 #subject_8 #subject_6">
+                <item xml:id="subject_sh98006071" corresp="#subject_sh85044283 #subject_sh88005779 #subject_sh85054247">
                     <term type="display">Georgian literature - 1500-1800</term>
                     <term type="variant">Georgian literature, 1500-1800</term>
                     <term type="variant">Georgian Literature, 1500-1800</term>
@@ -327,17 +327,16 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_e_8.xml#manuscript_77 -->
-                    <!-- ../collections/MSWardre8.xml#manuscript_3 -->
-                    <!-- ../collections/MS_Wardr_f_6.xml#manuscript_86 -->
-                    <!-- ../collections/MS_Wardr_e_14.xml#manuscript_60 -->
-                    <!-- ../collections/MS_Wardr_f_5.xml#manuscript_85 -->
-                    <!-- ../collections/MS_Wardr_f.xml#manuscript_79 -->
-                    <!-- ../collections/MS_Wardr_f_4.xml#manuscript_84 -->
-                    <!-- ../collections/MS_Wardr_e_5.xml#manuscript_74 -->
+                    <!-- ../collections/MS_Wardr_e_8.xml -->
+                    <!-- ../collections/MS_Wardr_f_6.xml -->
+                    <!-- ../collections/MS_Wardr_e_14.xml -->
+                    <!-- ../collections/MS_Wardr_f_5.xml -->
+                    <!-- ../collections/MS_Wardr_f.xml -->
+                    <!-- ../collections/MS_Wardr_f_4.xml -->
+                    <!-- ../collections/MS_Wardr_e_5.xml -->
                 </item>
 
-                <item xml:id="subject_26">
+                <item xml:id="subject_sh2005001478">
                     <term type="display">Georgian periodicals</term>
                     <note type="links">
                         <list type="links">
@@ -348,10 +347,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_d_5%2D.xml#manuscript_53 -->
+                    <!-- ../collections/MS_Wardr_d_5%2D.xml -->
                 </item>
 
-                <item xml:id="subject_27" corresp="#subject_7 #subject_32 #subject_38 #subject_17">
+                <item xml:id="subject_sh85054246" corresp="#subject_sh85044325 #subject_sh85049871 #subject_sh98003673 #subject_sh94007726">
                     <term type="display">Georgian Poetry</term>
                     <note type="links">
                         <list type="links">
@@ -362,10 +361,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_d_22%2D.xml#manuscript_43 -->
+                    <!-- ../collections/MS_Wardr_d_22%2D.xml -->
                 </item>
 
-                <item xml:id="subject_6" corresp="#subject_21 #subject_8 #subject_12">
+                <item xml:id="subject_sh85054247" corresp="#subject_sh85044283 #subject_sh88005779 #subject_sh98006071">
                     <term type="display">Georgian prose literature</term>
                     <note type="links">
                         <list type="links">
@@ -376,17 +375,17 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_e_17.xml#manuscript_63 -->
-                    <!-- ../collections/MS_Wardr_f_2.xml#manuscript_82 -->
-                    <!-- ../collections/MS_Wardr_e_6.xml#manuscript_75 -->
-                    <!-- ../collections/MS_Wardr_f_3.xml#manuscript_83 -->
-                    <!-- ../collections/MS_Wardr_e_15.xml#manuscript_61 -->
-                    <!-- ../collections/MS_Wardr_e_16.xml#manuscript_62 -->
-                    <!-- ../collections/MS_Wardr_c_1_7.xml#manuscript_24 -->
-                    <!-- ../collections/MS_Wardr_e_18.xml#manuscript_64 -->
+                    <!-- ../collections/MS_Wardr_e_17.xml -->
+                    <!-- ../collections/MS_Wardr_f_2.xml -->
+                    <!-- ../collections/MS_Wardr_e_6.xml -->
+                    <!-- ../collections/MS_Wardr_f_3.xml -->
+                    <!-- ../collections/MS_Wardr_e_15.xml -->
+                    <!-- ../collections/MS_Wardr_e_16.xml -->
+                    <!-- ../collections/MS_Wardr_c_1_7.xml -->
+                    <!-- ../collections/MS_Wardr_e_18.xml -->
                 </item>
 
-                <item xml:id="subject_10" corresp="#subject_5">
+                <item xml:id="subject_sh2006003479" corresp="#subject_sh2006003480">
                     <term type="display">Georgian religious literature</term>
                     <note type="links">
                         <list type="links">
@@ -397,10 +396,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_f_7.xml#manuscript_87 -->
+                    <!-- ../collections/MS_Wardr_f_7.xml -->
                 </item>
 
-                <item xml:id="subject_30">
+                <item xml:id="subject_sh97009128">
                     <term type="display">Guria</term>
                     <note type="links">
                         <list type="links">
@@ -414,7 +413,7 @@
                     <!-- ../collections/MS_Wardr_e_4.xml#MS_Wardr_e_4 -->
                 </item>
 
-                <item xml:id="subject_38" corresp="#subject_7 #subject_32 #subject_27 #subject_17">
+                <item xml:id="subject_sh98003673" corresp="#subject_sh85044325 #subject_sh85049871 #subject_sh85054246 #subject_sh94007726">
                     <term type="display">Historical poetry, Georgian</term>
                     <note type="links">
                         <list type="links">
@@ -425,10 +424,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_c_12.xml#manuscript_1 -->
+                    <!-- ../collections/MS_Wardr_c_12.xml -->
                 </item>
 
-                <item xml:id="subject_16">
+                <item xml:id="subject_n81126877">
                     <term type="display">Jerusalem</term>
                     <note type="links">
                         <list type="links">
@@ -442,7 +441,7 @@
                     <!-- ../collections/MS_Georg_c_1_P.xml#MS_Georg_c_1_P -->
                 </item>
 
-                <item xml:id="subject_31">
+                <item xml:id="subject_n82024438">
                     <term type="display">Kutaisi</term>
                     <note type="links">
                         <list type="links">
@@ -456,7 +455,7 @@
                     <!-- ../collections/MS_Wardr_e_4.xml#MS_Wardr_e_4%2Ditem1 -->
                 </item>
 
-                <item xml:id="subject_15">
+                <item xml:id="subject_n79125883">
                     <term type="display">Leipzig</term>
                     <note type="links">
                         <list type="links">
@@ -470,7 +469,7 @@
                     <!-- ../collections/MS_Wardr_d_1.xml#MS_Wardr_d_1 -->
                 </item>
 
-                <item xml:id="subject_9">
+                <item xml:id="subject_sh89005067">
                     <term type="display">Manuscripts, Georgian</term>
                     <term type="variant">Georgian manuscripts</term>
                     <note type="links">
@@ -482,12 +481,12 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_f_10.xml#manuscript_80 -->
-                    <!-- ../collections/MS_Wardr_e_36.xml#manuscript_72 -->
-                    <!-- ../collections/MS_Wardr_c_28.xml#manuscript_36 -->
+                    <!-- ../collections/MS_Wardr_f_10.xml -->
+                    <!-- ../collections/MS_Wardr_e_36.xml -->
+                    <!-- ../collections/MS_Wardr_c_28.xml -->
                 </item>
 
-                <item xml:id="subject_22">
+                <item xml:id="subject_n86142338" corresp="#subject_n00050856">
                     <term type="display">Orbeliani, Sulxan-Saba, 1658-1725</term>
                     <note type="links">
                         <list type="links">
@@ -498,10 +497,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_e_14.xml#manuscript_60 -->
+                    <!-- ../collections/MS_Wardr_e_14.xml -->
                 </item>
 
-                <item xml:id="subject_34">
+                <item xml:id="subject_n00050856" corresp="#subject_n86142338">
                     <term type="display">Orbeliani, Sulxan-Saba, 1658-1725. Lek'sikoni k'art'uli</term>
                     <note type="links">
                         <list type="links">
@@ -512,10 +511,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_e_13.xml#manuscript_59 -->
+                    <!-- ../collections/MS_Wardr_e_13.xml -->
                 </item>
 
-                <item xml:id="subject_17" corresp="#subject_7 #subject_32 #subject_27 #subject_38">
+                <item xml:id="subject_sh94007726" corresp="#subject_sh85044325 #subject_sh85049871 #subject_sh85054246 #subject_sh98003673">
                     <term type="display">Patriotic poetry, Georgian</term>
                     <term type="variant">Georgian Patriotic Poetry</term>
                     <note type="links">
@@ -527,11 +526,11 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_c_1_3.xml#manuscript_21 -->
-                    <!-- ../collections/MS_Wardr_c_1_2.xml#manuscript_20 -->
+                    <!-- ../collections/MS_Wardr_c_1_3.xml -->
+                    <!-- ../collections/MS_Wardr_c_1_2.xml -->
                 </item>
 
-                <item xml:id="subject_37">
+                <item xml:id="subject_n50032188">
                     <term type="display">Pseudo-Callisthenes</term>
                     <note type="links">
                         <list type="links">
@@ -542,10 +541,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_e_18.xml#manuscript_64 -->
+                    <!-- ../collections/MS_Wardr_e_18.xml -->
                 </item>
 
-                <item xml:id="subject_36" corresp="#subject_19 #subject_33 #subject_14 #subject_18">
+                <item xml:id="subject_sh2010111620" corresp="#subject_sh2009124969 #subject_sh85054242 #subject_sh2008118018 #subject_sh2009125844">
                     <term type="display">Russian language-Dictionaries-Georgian</term>
                     <note type="links">
                         <list type="links">
@@ -556,10 +555,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_e_11.xml#manuscript_57 -->
+                    <!-- ../collections/MS_Wardr_e_11.xml -->
                 </item>
 
-                <item xml:id="subject_28">
+                <item xml:id="subject_n79104307">
                     <term type="display">Tʻbilisi</term>
                     <term type="variant">Tiflis</term>
                     <note type="links">
@@ -574,7 +573,7 @@
                     <!-- ../collections/MS_Wardr_e_3.xml#MS_Wardr_e_3 -->
                 </item>
 
-                <item xml:id="subject_11" sameAs="#subject_25">
+                <item xml:id="subject_no88004540" corresp="#subject_no88004541">
                     <term type="display">Vaxtang VI, King of the Georgians, 1675-1737</term>
                     <note type="links">
                         <list type="links">
@@ -585,11 +584,10 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_e_8.xml#manuscript_77 -->
-                    <!-- ../collections/MSWardre8.xml#manuscript_3 -->
+                    <!-- ../collections/MS_Wardr_e_8.xml -->
                 </item>
 
-                <item xml:id="subject_25" sameAs="#subject_11">
+                <item xml:id="subject_no88004541" corresp="#subject_no88004540">
                     <term type="display">Vaxtang VI, King of the Georgians, 1675-1737. Samart'ali Batonisšvilis Vaxtangisa</term>
                     <term type="variant">Vaxtang VI, King of the Georgians, 1675-1737. Samartali Batonisšvilis Vaxtangisa</term>
                     <note type="links">
@@ -601,12 +599,12 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_d_3.xml#manuscript_51 -->
-                    <!-- ../collections/MS_Wardr_c_21.xml#manuscript_28 -->
-                    <!-- ../collections/MS_Wardr_e_12.xml#manuscript_58 -->
+                    <!-- ../collections/MS_Wardr_d_3.xml -->
+                    <!-- ../collections/MS_Wardr_c_21.xml -->
+                    <!-- ../collections/MS_Wardr_e_12.xml -->
                 </item>
 
-                <item xml:id="subject_4">
+                <item xml:id="subject_n80032198">
                     <term type="display">Šot'a Rust'aveli</term>
                     <term type="variant">Rust'aveli, Šot'a, 12th/13th cent.</term>
                     <note type="links">
@@ -618,8 +616,8 @@
                             </item>
                         </list>
                     </note>
-                    <!-- ../collections/MS_Wardr_d_6.xml#manuscript_54 -->
-                    <!-- ../collections/MS_Wardr_d_27%2D.xml#manuscript_50 -->
+                    <!-- ../collections/MS_Wardr_d_6.xml -->
+                    <!-- ../collections/MS_Wardr_d_27%2D.xml -->
                 </item>
                 
                 
