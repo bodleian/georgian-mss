@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "file:/D:/Git/georgian-mss/collections/MS_Georg_d_2.dtd">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_82">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. f. 2</title> 
+               <title type="alt" xml:lang="en">Geography or Brief Description of the Environment</title>
+               <title type="alt" xml:lang="ka">მოკლედ გამოჩინება გარემოს ქვეყნისა</title>
+               <title type="alt" xml:lang="ka-la">mokled gamočʻineba garemos kʻveqnisa</title> 
+            </title>
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
+            <respStmt xml:id="IL">
+               <persName>I. Lobzhanidze</persName>
+               <resp>transcribed from original MS and converted to XML format</resp>
+               <resp>markup and encoding</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="1">First publication edition, TEI P5.
+               <date when="2019-07-17">17 July 2019</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="#Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">2019-07-17</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -40,13 +57,16 @@
                   <repository>Bodleian Library</repository>
                   <collection type="main">Oriental Manuscripts Wardrop Collection</collection>
                   <idno>MS. Wardr. f. 2</idno>
-               </msIdentifier>
+               </msIdentifier>               
+               <head>mokled gamočʻineba garemos kʻveqnisa is a translation of Geografiya ili kratkoe zemnago kruga opisanie [География или краткое земного круга описание]
+                  from Russian in 1775. Similar texts translated by Prince Gabriel Gelovani in 1782 are preserved in the National Centre of Manuscript, see Bakradze, A., Bregadze, T., etc., 
+                  Description of Georgian Manuscripts, Tbilisi, Academy of Sciences of Georgian Soviet Republic, pp. 19-21, 103-104, 322.
+               </head>
                <msContents>
-                  <summary>Geography <title>Mokled gamochineba garemos kveqnisa</title>
+                  <summary>Geography <title>Mokled gamochineba garemos kveqnisa</title> consists of 31 chapters.
+                     The text is written in Mkhedruli script, while Asomtavruli script is, sometimes, used for titles and the first letters of paragraphs. 
                   </summary>
-                  <msItem xml:id="MS_Wardr_f_2-item1" n="1">
-                     
-                     
+                  <msItem xml:id="MS_Wardr_f_2-item1" n="1"> 
                      <title xml:lang="ka-Latn-x-lc" key="work_21">Mokled gamoč'ineba garemos kveqnisa</title>
                      <title xml:lang="ka" key="work_21">მოკლედ გამოჩინება გარემოს ქვეყნისა</title>
                      <listBibl>
@@ -58,13 +78,32 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="leaf">
-                     <supportDesc material="chart">
-                        <extent>83 ff. <dimensions type="photograph" unit="cm">
-                              <height>16</height>
-                              <width>10</width>
-                           </dimensions>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>The Manuscript is written on paper. The first and the last pages are missing</support>
+                        <extent>
+                           <seg type="leaf">
+                              <num type="leaf" value="220">83</num>
+                           </seg>
+                           <seg type="dimensions">
+                              <dimensions type="leaf" unit="cm">
+                                 <height quantity="16">16</height>
+                                 <width quantity="10">10</width>
+                              </dimensions>
+                           </seg>
                         </extent>
+                        <foliation xml:id="original">
+                           <p>Original foliation in black arabic numbers is in the top corners of each page</p>
+                        </foliation>
+                        <collation>The collation of the chapters is as follows:
+                           I (1v-9v); II (9v-11v); III (11v-17r); IV (17r-19v); V (19v-23r); VI (23r-27r); VII (27r-29r); 
+                           VIII (29r-31v); IX (31v-35v); X (35v-38r); XI (38r-40r); XII (40r-41r);
+                           XIII (41r-44v); XIV (44v-47r); XV (47r-50r); XVI (50r-51v); XVII (51v-53v); 
+                           XVIII (53v-57r); XIX (57r-60r); XX (60r-64v); XXI (64v-65v); XXII (65v-67v); 
+                           XXIII (67v-69r); XXIV (69r-72v); XXV (72v-74r); XXVI (74r-75r); 
+                           XXVII (75r-75v); XXVIII (75v-76v); XXIX (76v-78v); XXX (78v-80r); XXXI (80r-82r)
+                        </collation>
+                        <condition>Several leaves of manuscript have dark stains</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
@@ -73,8 +112,18 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major" script="unknown"/>
+                     <handNote scope="major" script="Mkhedruli">Mkhedruli</handNote>
                   </handDesc>
+                  <decoDesc>
+                     <decoNote>The Manuscript has not decorations.</decoNote> 
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding notAfter="1780" notBefore="1710">
+                        <p>The panel is covered with brown leather over wooden board. Leather is covered with Emblem depicting 
+                           angels holding in hands the coat of arms of the Russian Empire. The binding is covered with smaller five 
+                           emblems of flowers. Sewing is not visible.</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
                <history>
                   <origin>
@@ -85,15 +134,52 @@
                   </provenance>
                   <acquisition>
                      <date calendar="#Gregorian" when="1911-03-20">1911-03-20</date> don. J.O. Wardrop</acquisition>
-               </history>
+               </history>               
                <additional>
                   <adminInfo>
-                     <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
-                     </availability>
+                     <recordHist>
+                        <source>
+                           Description adapted (2019) from the following sources:
+                           <listBibl>                 
+                              <bibl>
+                                 <title>David Barret's Catalogue of the Wardrop Collection and of other Georgian Books and Manuscripts in the Bodleian Library</title>
+                                 <publisher>Published by the Marjory Wardrop Fund by Oxford University Press</publisher>
+                                 <date when="1973">1973</date>
+                                 <idno type="VIAF">216536082</idno>
+                              </bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted"><p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact Bodleian Admissions). 
+                        Contact specialcollections.enquiries@bodleian.ox.ac.uk for further information on the availability of this manuscript</p>
+                     </availability> 
                   </adminInfo>
-               </additional>
+               </additional>              
             </msDesc>
+            <listWit>
+               <witness xml:id="W1"><!-- to be filled -->    
+               </witness>
+            </listWit>
+            <listPerson  type="saints"> <!-- to be filled -->               
+               <person xml:id="person111">
+                  <persName xml:lang="ka">კოზმან</persName>
+                  <persName xml:lang="oge">ⴉⴍⴆⴋⴀⴌ</persName>
+                  <persName xml:lang="en">
+                     <forename>Cosmas</forename>
+                     <roleName>Saint Martyr, brother of St. Damian</roleName>
+                  </persName>
+               </person>
+            </listPerson>                  
+            <listPlace type="places"><!-- to be filled -->    
+               <head xml:lang="ka">გეოგრაფიული სახელწოდებები</head>
+               <head xml:lang="en">Geographical Places</head>
+               <place xml:id="place001">
+                  <placeName xml:lang="ka">პალესტინა</placeName>
+                  <placeName xml:lang="oge">ⴎⴀⴊⴄⴑⴒⴈⴌⴀ</placeName>
+                  <placeName xml:lang="en">Palestine</placeName>
+                  <idno></idno>
+               </place>
+            </listPlace>            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -167,6 +253,9 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change when="2019-03-01">
+            <persName>Irina Lobzhanidze</persName>Updated the transcription and added all references to wiki-data.
+         </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl">https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl</ref>
          </change>
@@ -182,8 +271,2866 @@
       <graphic url="folio2v.png"/>
    </facsimile>
    <text>
-      <body>
-         <p><!--Body paragraph provided for validation and future transcription--></p>
-      </body>
-   </text>
+    <body>
+        <div type="chapter" n="1"> 
+            <pb n="1v"/>
+            <head><hi rend="color(FF0000)">Ⴋოკლედ გამოჩინება გარემოს</hi><lb/>
+                ქ<expan>&#x0360;<ex></ex></expan>ყნისა. და განყოფილება ყ<expan>&#x0360;<ex></ex></expan>ისა ნა<lb/>
+                წილებისა. მისთვის რ<expan>&#x0360;<ex></ex></expan>ლნიცა საჴელ<lb/>
+                მწიფო. რ<expan>&#x0360;<ex></ex></expan>ლსამე ნაწილსა შ<expan>&#x0360;<ex></ex></expan>ა არ<lb/>
+                იან. და ყ<expan>&#x0360;<ex></ex></expan>ისავე სახელმწიფოსა.<lb/>
+                სამმღვრისა დიდება ვინ ვის შორ<lb/>
+                ის უფროს არს ძალითა. სიმდიდ<lb/>
+                რითა. მურდახილითა. ანუ სხვი<lb/>
+                თა რითამე:</head>
+            <p> 
+                <lb n="1"/><hi rend="color(FF0000)">ს</hi>აუკუნემ და ყ<expan>&#x0360;<ex></ex></expan>დ შემძლებელმან
+                <lb n="2"/>ღ<expan>&#x0360;<ex></ex></expan>თნ პირველად სიბრძნითა თვისი
+                <lb n="3"/>თა მიუწდომელითა დაგუბადა ჩვენ 
+                <lb n="4"/>არა არსისაგან ყ<expan>&#x0360;<ex></ex></expan>ი ხილული და არა
+            </p>
+            <pb n="2r"/>
+            <p>
+                <lb n="1"/>ხილული. და მას შინა მიწა და ზღუა
+                <lb n="2"/>შეაერთა. ერთსა სიმრგულისა შინა
+                <lb n="3"/>ბურთისა მსგავს სახედველ. და და
+                <lb n="4"/>დვა მძმეთა უმძიმესი კენტინარი
+                <lb n="5"/>რ<expan>&#x0360;<ex></ex></expan> თვით შუა გულსა შინა მასზედა 
+                <lb n="6"/>ყოველი მიწა და ზღუა დგას . ცაცა
+                <lb n="7"/>ვ<expan>&#x0360;<ex></ex></expan>ა კარავი განვრცელებითა და სიგაო-
+                <lb n="8"/>ნითა. განუზომელითა შემოარტყა მას
+                <lb n="9"/>ქ<expan>&#x0360;<ex></ex></expan>ყნისა სიმრგულესა განავრ
+                <lb n="10"/>ცელა. და ის მზითა მთვარითა ბუ
+                <lb n="11"/>რჯებითა. და ურიცხველითა ვარსკ
+                <lb n="12"/>ულავითა სახმარად ყოვლისა სული
+                <lb n="13"/>სათვის ქ<expan>&#x0360;<ex></ex></expan>ყნასა ზედა მყოფთათვის
+            </p>
+            <pb n="2v"/>
+            <p> 
+                <lb n="1"/>ზოგადი მშვენიერისა ამის საკვირვე
+                <lb n="2"/>ლისა და დიდისა ქმნულისათვის შეს
+                <lb n="3"/>ამკობლად. და რ<expan>&#x0360;<ex></ex></expan> ახს და იქმნება.
+                <lb n="4"/>მიწა კაცად კაცთათვის. და ყოვლისა
+                <lb n="5"/>ცხოველისათვის საცხოვრებლად
+                <lb n="6"/>სახმარ. და თვისითა ნაყოფთა ყ<expan>&#x0360;<ex></ex></expan>თა
+                <lb n="7"/>ამათ ზრდის. და იპყრობს. ამისთვის
+                <lb n="8"/>გარდამოკიდებულ არს. ყოველთა ზ<expan>&#x0360;<ex></ex></expan>ა 
+                <lb n="9"/>წყალთა:
+            </p>
+            <p>
+                <lb n="10"/>წყალიცა რ<expan>&#x0360;<ex></ex></expan>ლიცა არს ზღუა (გან
+                <lb n="11"/>ყოფილნი სიღრმეთა ზედა აღმ
+                <lb n="12"/>უზომელითა) ესრეთ განუყო და შე
+                <lb n="13"/>ამრგუალა ვ<expan>&#x0360;<ex></ex></expan>ა მით განყოფილებ
+            </p>
+            <pb n="3r"/>
+            <p>    
+                <lb n="1"/>ითა ის ქვეყნისა სიმრგულე ნაწი
+                <lb n="2"/>ლად ოთხად შეამრგუალა და განყო
+                <lb n="3"/>მაზედანცა ოსთრლოღიას დასდ
+                <lb n="4"/>გმენ. ხუთს სიმრგულეს ანუ გან
+                <lb n="5"/>მასწორებელს. რ<expan>&#x0360;<ex></ex></expan> პ<expan>&#x0360;<ex></ex></expan>ლი არს ავვინ
+                <lb n="6"/>ქციანი ანუ დღეთა მასწორებელი
+                <lb n="7"/>და ეგრეთ არს თქმული ვინათგან მზე
+                <lb n="8"/>მოვა ორგზის ამა სიმრგულესთან.
+                <lb n="9"/>მაშინ ყოვლის ქვეყნის მყოფთ კა
+                <lb n="10"/>ცთ სწორს დრეს უყოფს. რ<expan>&#x0360;<ex></ex></expan>ლი
+                <lb n="11"/>იქნება თვესა მართსა. ანუ სევდენსშ
+                <lb n="12"/>ერსა:
+            </p>
+            <p>
+                <lb n="13"/>ამა სიმრგულესა ეწოდება უმეტ
+            </p>
+            <pb n="3v"/>
+            <p>  
+                <lb n="1"/>ესად ეკვათორ. რ<expan>&#x0360;<ex></ex></expan>ლ არს განმასწორებ
+                <lb n="2"/>ელი, ამისთვის რ<expan>&#x0360;<ex></ex></expan> სულ სიმრგულეს
+                <lb n="3"/>ქ<expan>&#x0360;<ex></ex></expan>ყნისასა ორ ნაწილად გაჰყოფს.
+                <lb n="4"/>ერთსა ჩრდილოეთისაკენ. მეორეს-
+                <lb n="5"/>აცა სამჴრეთისაკენ. ამავ ნაწილებ-
+                <lb n="6"/>ის ორისავ ბოლოზედ არს ორი პო-
+                <lb n="7"/>ლუსა. რ<expan>&#x0360;<ex></ex></expan>ლ არს თარგმანებით  ღერძი
+                <lb n="8"/>ქ<expan>&#x0360;<ex></ex></expan>ყნისა. შორის მათსა სრულიად სი-
+                <lb n="9"/>მრგულე ქ<expan>&#x0360;<ex></ex></expan>ყნისა იპყრობების: --
+                <lb n="10"/>მეორეცა სიმრგულესა უწოდებთ
+                <lb n="11"/>კიბორჩხალსა ესე არს ოდეს მზე ჩრ-
+                <lb n="12"/>დილოვეთის ნაწილისაკენ ამა სიმრგ-
+                <lb n="13"/>ულესა მიუწევა ჩრდილოეთის მჴ
+            </p>
+            <pb n="4r"/>
+            <p>  
+                <lb n="1"/>არეს იქნება უგრძესი დღე. უმოკლ-
+                <lb n="2"/>ესი სამჴრეთისაკენ. მსახლობელთ
+                <lb n="3"/>რ<expan>&#x0360;<ex></ex></expan>ლი იქნება. თვესა ივნისსა ი<expan>&#x0360;<ex></ex></expan>ა
+                <lb n="4"/>და იმას უწოდებთ ჩვენ მოქცევასა
+                <lb n="5"/>მზისასა ზაფხულითგან ზამთრისაკ-
+                <lb n="6"/>ენ. და ამა სიმრგულესა აქუს განშ-
+                <lb n="7"/>ორება თვისი განმაშორებელზედ
+                <lb n="8"/>ვ<expan>&#x0360;<ex></ex></expan>გ ღრადუსი. . ლ<expan>&#x0360;<ex></ex></expan>ა და ნახევარი
+                <lb n="9"/>მინუტი.
+            </p>
+            <p>
+                <lb n="10"/>მესამესა სიმრგულესა ეწოდება.
+                <lb n="11"/>სიმრგულე თხის რქისა. ამისთვის
+                <lb n="12"/>რ<expan>&#x0360;<ex></ex></expan> ამა ნიშანსა ზოდის. თხის რქა
+                <lb n="13"/>შეეხება. და მზე ოდეს მოვა ამა სი
+            </p>
+            <pb n="4v"/>
+            <p>  
+                <lb n="1"/>მრგულესთან დევენშერსა: ი<expan>&#x0360;<ex></ex></expan>ბ. მაშ-
+                <lb n="2"/>ინ ჩვენ მყოფთ ჩრდილოვეთისას
+                <lb n="3"/>უმოკლეს. და მყოფთ სამხრეთისასა
+                <lb n="4"/>უგრძესი დღე ექნება. და უწოდე-
+                <lb n="5"/>ბთ ამას მოქცევასა მზისასა ზამთრიდ-
+                <lb n="6"/>ამ ზაფხულისაკენ. და აქუს ეგრეთი გა-
+                <lb n="7"/>ნშორება განმასწორებელზედ. ვითარ-
+                <lb n="8"/>ცა და პირველსა: - - - - - 
+            </p>
+            <p> 
+                <lb n="9"/>მეოთხესა სიმრგულესა ეწოდება
+                <lb n="10"/>სიმრგულე არვთივუს. ანუ ღ<expan>&#x0360;<ex></ex></expan>სი
+                <lb n="11"/>ქვეშე და თვისისა. თვით მოვალს ესე
+                <lb n="12"/>სიმრგულე:
+            </p>
+            <p>
+                <lb n="13"/>მეხუთე ანთრავთივუს. ამისთვის
+            </p>
+            <pb n="5r"/>
+            <p> 
+                <lb n="1"/>ამისთვის რ<expan>&#x0360;<ex></ex></expan> მოხუცებულთ და მსწავლელთ
+                <lb n="2"/>ქ<expan>&#x0360;<ex></ex></expan>ყნის აღმწერლებმან განყვეს სულ
+                <lb n="3"/>სიმრგულე ქ<expan>&#x0360;<ex></ex></expan>ყნისა ხუთ ნაწილად. დი
+                <lb n="4"/>დად მრგულად. ამათს მესამედს უწო
+                <lb n="5"/>დებენ ზონას ] . რ<expan>&#x0360;<ex></ex></expan>ლ არს თარგმანებით
+                <lb n="6"/>სარტყელი.]. ამისთვის რ<expan>&#x0360;<ex></ex></expan> მსგავს სარტ
+                <lb n="7"/>ყლისათა გარშემო სულ ქ<expan>&#x0360;<ex></ex></expan>ყნისა სიმრ
+                <lb n="8"/>გულესა შემოარულობას და იმათგანსა
+                <lb n="9"/>პირველსა სარტყელსა ვიტყვით ქვეშე სი
+                <lb n="10"/>მრგულესა არქტიკონიისასა. მეორე ქვ
+                <lb n="11"/>ემე სიმრგულესა. ეკვათორიისასა რ<expan>&#x0360;<ex></ex></expan>ლ არს
+                <lb n="12"/>გამასწორებელი. რ<expan>&#x0360;<ex></ex></expan>ლსაცა ცხელ სიმრ
+                <lb n="13"/>გულე აქვიან. მესამე ქვეშე სიმრგულე
+            </p>
+            <pb n="5v"/>
+            <p>  
+                <lb n="1"/>ანთარაქთიკონისასა. მეოთხე ქვეშე სი
+                <lb n="2"/>მრგულესა კიბორჩხლისასა. მეხუთე ქვე
+                <lb n="3"/>შე სიმრგულესა თხის რქისასა. და მათ
+                <lb n="4"/>ორსა ესრეთ უწოდენ მოხუცებულთ
+                <lb n="5"/>აღმწერლებისაგან. რ<expan>&#x0360;<ex></ex></expan> სიცივითა და სიცხ
+                <lb n="6"/>ით შეზავებული არისო. და უმჯობეს
+                <lb n="7"/>ცა არსო. უმეტესად სხვებისა საცხ
+                <lb n="8"/>ოვრებელად კაცთათვის ყოფად: - -
+                <lb n="9"/>საშუალიცარ<expan>&#x0360;<ex></ex></expan>ლი არს განმასწორებ
+                <lb n="10"/>ელი ეწოდება. შემწველი დიდის სი
+                <lb n="11"/>ცხის გულისათვის. და სხვას ქ<expan>&#x0360;<ex></ex></expan>ყნებში.
+                <lb n="12"/>ფრიადის სიცივის გულისათვის საცხო
+                <lb n="13"/>ვრებელად კაცთათვის. არა მყუდროდ
+            </p>
+            <pb n="6r"/>
+            <p> 
+                <lb n="1"/>უცნიათ ა<expan>&#x0360;<ex></ex></expan>დ ყ<expan>&#x0360;<ex></ex></expan>ის დღისათვის გამოცდ
+                <lb n="2"/>ილებას და მუსაიბბას ვხედავთ. რ<expan>&#x0360;<ex></ex></expan> ქვ
+                <lb n="3"/>ეშე ყ<expan>&#x0360;<ex></ex></expan>თა იმათ ხუთთა სიმრგულეთა
+                <lb n="4"/>ანუ სარტყელთა მრავალ რიგნი ხალხნი
+                <lb n="5"/>სახლობენ: - - -
+            </p>
+            <p>
+                <lb n="6"/>და რ<expan>&#x0360;<ex></ex></expan> ქვეშე განმასწორებელთა იმყოფ
+                <lb n="7"/>ებიან. აბამნი. ეთიოპელნი არაბნი. ინ
+                <lb n="8"/>დნი მრავალ რიგნი. ივანნი. ბრაზილ
+                <lb n="9"/>იანნი. პერუვანნი. და მოსახლენი კუნ
+                <lb n="10"/>ძულისა მოლუკსვისანი. და სუმატრნი.
+                <lb n="11"/>ახალი შპანია და სხვანიცა მრავალნი:
+                <lb n="12"/>ქვეშე სიმრგულესა ცივისასა სახლობენ
+                <lb n="13"/>მრავალნი. ციმბირისანი. სამიადნი
+            </p>
+            <pb n="6v"/>
+            <p>  
+                <lb n="1"/>ლოპნი პორველნი. ისლიანდნი ღრინ
+                <lb n="2"/>რაწნი დასხვანიცა:
+            </p>
+            <p>
+                <lb n="3"/>დადგინებაცა ქ<expan>&#x0360;<ex></ex></expan>ყნისა თუ ვისმე გულს
+                <lb n="4"/>მოდგინებით. უნდეს შეგნებად ხამს მას
+                <lb n="5"/>კაცსა ცოდნა ღრადუსტა გინა დარაჯ
+                <lb n="6"/>ისა. ანუ ხარისხი სიგრძეტა და სიგან
+                <lb n="7"/>ეთა:
+            </p>
+            <p>
+                <lb n="8"/>განა ვანგარიშებთთ პულუს
+                <lb n="9"/>ით რ<expan>&#x0360;<ex></ex></expan>ლ არს ღერძი ქვეყნის განმასწ
+                <lb n="10"/>ორებელითგან. ჩრდილოვეთით ანუ
+                <lb n="11"/>სამჴრეთით ყრმა ვიდრე ეოცდა
+                <lb n="12"/>ათამდის:
+            </p>
+            <p>
+                <lb n="13"/>Ⴑიგრძესა ვანგარიშებთ. მერიდიანი
+            </p>
+            <pb n="7r"/>
+            <p>   
+                <lb n="1"/>თგან რ<expan>&#x0360;<ex></ex></expan>ლ არს შუადღე. მთით გამო რ<expan>&#x0360;<ex></ex></expan>ლი.
+                <lb n="2"/>ცა არს კუნძულსა თენარიფსვისასა. ვი
+                <lb n="3"/>დრე აღმოსავლეთამდის. და უმეტეს და 
+                <lb n="4"/>სავლეთით. სამას სამოცამდის მსგავს
+                <lb n="5"/>სახითა ამითა: .
+            </p>
+            <p>
+                <lb n="6"/>ქალაქი მისირდანი მდგომარე არს: ნბ
+                <lb n="7"/>და ნახევარს ღრადუსზედ. ესე არს განშ-
+                <lb n="8"/>ორება მაღლის ღერძისა სიგრძედეცა ვ<expan>&#x0360;<ex></ex></expan>გ
+                <lb n="9"/>ღრადუსით არს განშორებულ:
+            </p>
+            <p>
+                <lb n="10"/>და ესეთითა გარიგებითა ყ<expan>&#x0360;<ex></ex></expan>ნი ქალაქნი
+                <lb n="11"/>და სოფლები რ<expan>&#x0360;<ex></ex></expan>ლნიცა ერთსა სიგრძესა
+                <lb n="12"/>ზ<expan>&#x0360;<ex></ex></expan>ა მწოლარე არიან. აქუს დღე და საათე-
+                <lb n="13"/>ბიცა ურთიერთას შორის სწორებით შემ-
+            </p>
+            <pb n="7v"/>
+            <p>   
+                <lb n="1"/>ოწმებითა. და რომელნიცა განყოფილ არს
+                <lb n="2"/>ღრადუსებს ქვეშ სიგძეზედ. თუმცა ერ-
+                <lb n="3"/>თათ წვანან საათებში მათაც განყო-
+                <lb n="4"/>ფილება აქუსთ. ოდეს მისირდანს არს
+                <lb n="5"/>შუადღე. მაშინ ბანდ არს. ინდოვეთს ში-
+                <lb n="6"/>ნა შვიდი საათი შუადღეს უკან. და ეს-
+                <lb n="7"/>რეთ ყოველს განშორებულს თხუთმ-
+                <lb n="8"/>ეტს ღრადუსზედ განყოფს საათს:
+                <lb n="9"/>მასვე ჟამსა ქალაქსა ლიმეს. ამერიკას
+                <lb n="10"/>შინა არს ექუსი საათი შუადღეს უკ-
+                <lb n="11"/>ან ამისთვის რომ. ჟ<expan>&#x0360;<ex></ex></expan> ღრადუსით სიგძ-
+                <lb n="12"/>ეზედ არს მისირდანზედ მოშორვებული.
+                <lb n="13"/>ეგრეთვე მათ აქუსთ სწორებით მაღ-
+            </p>
+            <pb n="8r"/>
+            <p>  
+                <lb n="1"/>ალი ღერძი და ეგრეთვე ისივ სწორედ
+                <lb n="2"/>აქუს თავისთვის. სიგრძე დღისა და ღამისა
+                <lb n="3"/>და განიყოფება საათი დღისიცა და 
+                <lb n="4"/>ღამისა. მოსამატებელი და მოსაკლებელი
+                <lb n="5"/>რაოდენითამე რომელ ქალაქი ანუ
+                <lb n="6"/>მხარე განმასწორებელზედ განშორებით
+                <lb n="7"/>არს. ამისთვის რ<expan>&#x0360;<ex></ex></expan> რაოდენ შორს. რ<expan>&#x0360;<ex></ex></expan>ლიმე
+                <lb n="8"/>ადგილი განმასწორებელზედ განშორებულ
+                <lb n="9"/>არს. ესეოდენ სიგრძე დღისა და ღამისა
+                <lb n="10"/>მათ მოემატება და მოაკლდება. და ამას
+                <lb n="11"/>მოგახსენებ მსგავსებად.
+            </p>
+            <p>
+                <lb n="12"/>მსახლობელთ ქვეშე განმასწორებელთა
+                <lb n="13"/>სა აქუსთ ს<expan>&#x0360;<ex></ex></expan>დ წელიწადი დღე და ღამე
+            </p>
+            <pb n="8v"/>
+            <p>  
+                <lb n="1"/>სწორებით შეურევნელად. და რ<expan>&#x0360;<ex></ex></expan>ლნიცა
+                <lb n="2"/>განმასწორებელზედ შორებით სახლობ-
+                <lb n="3"/>ენ. ლ ღრადუსით. მათ უგრძესი
+                <lb n="4"/>დღე. ი<expan>&#x0360;<ex></ex></expan>დ საათი. და რ<expan>&#x0360;<ex></ex></expan>ლნიცა :6: ღრ-
+                <lb n="5"/>ადუსზედ მათ უდიდეს დღე ი<expan>&#x0360;<ex></ex></expan>ვ საათი.
+                <lb n="6"/>და  ჲ ღრადუსზედ მოსახლეს ჲ<expan>&#x0360;<ex></ex></expan>დ დღეს
+                <lb n="7"/>მზე ორიზონთიდამ არ შემოიწევს ეგოდ-
+                <lb n="8"/>ენივე ზამთრივ აგრევე ოდენ დღეს 
+                <lb n="9"/>ქვეშე ორივზონთიდამ არ შემოიწევს ეგ-
+                <lb n="10"/>ეოდენვე ზამთრივ აგრევე ოდენ დღეს
+                <lb n="11"/>ქვეშე ორივზონთიდამ არ გამოიწევს.
+                <lb n="12"/>და ესრეთ ქვეშე ღრადუსთა იანგარიშე
+                <lb n="13"/>ვიდრე თვით ღეძამდის არვთიჩესკამ
+            </p>
+            <pb n="9r"/>
+            <p>  
+                <lb n="1"/>დის. სადაცა არს ერთი დღე და ერთი ღამე
+                <lb n="2"/>ერთი წელიწადი. და თვითეული ამატგანი
+                <lb n="3"/>ნახევარი წელიწადი იქნება.
+            </p>
+            <p>
+                <lb n="4"/>კიდევ ის სულ ქ<expan>&#x0360;<ex></ex></expan>ყნის სიმრგულე განიყ-
+                <lb n="5"/>ოფება ორ ნაწილად. ერთსა უწოდებთ
+                <lb n="6"/>მოხუცებულათ. მას შ<expan>&#x0360;<ex></ex></expan>ა სამნი ნაწილნი
+                <lb n="7"/>უმეტეს არიან. რემეთუ. ევროპია.
+                <lb n="8"/>აზია და აფრიკა.
+            </p>
+            <p> 
+                <lb n="9"/>მეორეცა რომელსაცა არაიდიმსან პოვნ-
+                <lb n="10"/>ილებათათვის ახლად. ანუ ახალსა ქ<expan>&#x0360;<ex></ex></expan>ყანასა
+                <lb n="11"/>ვიტყვით. აქუს თვისთვის მეოთხედი ნაწ
+                <lb n="12"/>ილი რომელსაცა უწოდებთ ამერიკად.
+            </p>
+            <p>
+                <lb n="13"/>ამის მიერ მიერ მოვინდომე აღწერად მათ.
+            </p>
+            <pb n="9v"/>
+            <p>  
+                <lb n="1"/>ოთხთა ნაწილტათვის ქვეყანისათა. ევრო-
+                <lb n="2"/>პა. აზია. აფრიკა. და ამერიკა:
+            </p>
+            <p>
+                <lb n="3"/>და ამათგან ნაწილებისათა. რ<expan>&#x0360;<ex></ex></expan>ლთამე ქ<expan>&#x0360;<ex></ex></expan>ყანა
+                <lb n="4"/>მჴარე და ქალაქები თვისთვის თვითეულსა უპ-
+                <lb n="5"/>ყრიათ:</p>
+        </div>
+       <div type="chapter" n="2">
+            <head>
+               პირველი ნაწილი რომელსაცა ეწოდება<lb/>
+                  ევროპად: 
+            </head>
+           <p>
+                <lb n="6"/>ევროპას რ<expan>&#x0360;<ex></ex></expan> რ<expan>&#x0360;<ex></ex></expan>ლნიმე იტყვიან აქუს თვისი
+                <lb n="7"/>სახელი ასულისაგან მეფისა აღენორისაგან
+                <lb n="8"/>რისისველისაგან. რ<expan>&#x0360;<ex></ex></expan>ლიცა ზევსმა ანუ ქარ-
+                <lb n="9"/>მა წარიტაცა კუნძულსა კრიტისასა. ა<expan>&#x0360;<ex></ex></expan>დ
+            </p>
+            <pb n="10r"/>
+            <p>  
+                <lb n="1"/>ესე არს სიცრუვე ელენთა. და იციან მრა-
+                <lb n="2"/>ვალთა. რ<expan>&#x0360;<ex></ex></expan> სახელი ესე სადედან გამოვიდა არა
+                <lb n="3"/>არს ესე უწყებულ. სამძღუარიცა ნაწ-
+                <lb n="4"/>ილისა ამის არს ესე დასავლეთით. და მო-
+                <lb n="5"/>აწვა ზღვა დიდი ლუვიანე. სამჴრეთითგ-
+                <lb n="6"/>ან ზღვა თეთრი გინა შუა ქ<expan>&#x0360;<ex></ex></expan>ყანისა. აღმოს-
+                <lb n="7"/>ავლეთითგან ზღუა შავი. და გარდამომდი-
+                <lb n="8"/>ნარე იმისგან სტამბოლისა თეთრი ზღ-
+                <lb n="9"/>ვა. და აზოვითგან დუნის წყლამდი სწო-
+                <lb n="10"/>რის გზით თვით ცნოვის ზღვამდის. და ესრ-
+                <lb n="11"/>ეთ სამძღუარი ევროპიისა ესეთითა გან-
+                <lb n="12"/>ყოფილებითა აღგვიწერია:
+            </p>
+            <p>
+                <lb n="13"/>და თუმცა ნაწილი ესე ჩანს სხვათა
+            </p>
+            <pb n="10v"/>
+            <p>  
+                <lb n="1"/>ნაწილთა შორის უმცირეს ყოფად. და წა-
+                <lb n="2"/>რღუნიდამ ნოე მართლისა უმცირესა
+                <lb n="3"/>ძესა იაფეთს. რ<expan>&#x0360;<ex></ex></expan> რ<expan>&#x0360;<ex></ex></expan>ლნიმე იტყვიან. მე
+                <lb n="4"/>მკვიდრობა მას მოეცაო. და რ<expan>&#x0360;<ex></ex></expan> ახს წელთა
+                <lb n="5"/>ძველთაგან სახელოვანისა. და მჴედართ ხა-
+                <lb n="6"/>ლხის გულისათვის. ნაწილსა ამას შინა.
+                <lb n="7"/>მყოფთ ყოველთა ზ<expan>&#x0360;<ex></ex></expan>ა ნაწილებთა უპი-
+                <lb n="8"/>რველესობა მიენიჭა. და პირველ სიმრთელი-
+                <lb n="9"/>სათვის და აღმომცენარესა აურისათვის. მრ-
+                <lb n="10"/>ავალ გამომღებელთა ნაყოფთათვის. მი-
+                <lb n="11"/>წისათა და სიმდიდრისა პურისათვის და-
+                <lb n="12"/>ყოვლისა საზრდოსა კაცთათვის. და პირუ-
+                <lb n="13"/>ტყუთათვის შემკული არს. ყ<expan>&#x0360;<ex></ex></expan>დენითა პა-
+            </p>
+            <pb n="11r"/>
+            <p>  
+                <lb n="1"/>ტიოსნითა მდინარითა ტბებითა და საკვირ-
+                <lb n="2"/>ველითა წყაროებითა. არათუ სასმელად. ა<expan>&#x0360;<ex></ex></expan>დ
+                <lb n="3"/>საკურნებელადცა. მრავალ რიგ სალმობა
+                <lb n="4"/>თა კაცთათვის: და თუმცა არა აქუს მც-
+                <lb n="5"/>ხედარსა შ<expan>&#x0360;<ex></ex></expan>ა თვისსა ძვირფასი თვალი. და
+                <lb n="6"/>ფ<expan>&#x0360;<ex></ex></expan>დი კეთილ სურნელი. ა<expan>&#x0360;<ex></ex></expan>დ არს სავსე
+                <lb n="7"/>მადანითა ყოვლის რიგითა. ოქროთა
+                <lb n="8"/>ვერცხლითა სპილენძითა რკინითა. და სხვი-
+                <lb n="9"/>თაცა ყოვლითავე და მრავალ რიგის
+                <lb n="10"/>პატიოსნის ღვნიერებითა და ნაყოფთა ხე-
+                <lb n="11"/>თასა:
+            </p>
+            <p>
+                <lb n="12"/>არა აქუს მავნებელი გველი ვეშაპი. და 
+                <lb n="13"/>ნადირნი საკვირველნი ვითარცა მჴარესა
+            </p>
+            <pb n="11v"/>
+            <p>  
+                <lb n="1"/>ღვინსვისასა. ა<expan>&#x0360;<ex></ex></expan>დ უპყრიატ. თვისთვის ყო-
+                <lb n="2"/>ველივე პირუტყვი. და ცხენნი ურჩეულ-
+                <lb n="3"/>ესი უმეტეს სხვათა ნაწილებთასა.
+                <lb n="4"/>და უმეტეს შემკულ არს ნაწილი ესე.
+                <lb n="5"/>მშვენიერითა და მრავალ კაცთა ქალაქ-
+                <lb n="6"/>ებითა რომელიცა ნაწილსა ამას შ<expan>&#x0360;<ex></ex></expan>ა
+                <lb n="7"/>ესრეთ მრავალ უხუ<expan>&#x0360;<ex></ex></expan>ბით. რომ არც
+                <lb n="8"/>ერთს ნაწილსა შ<expan>&#x0360;<ex></ex></expan>ა არა არს და ესეოდენ-
+                <lb n="9"/>ნი ჰყავს მეომარნი ურიცხველნი. რომ
+                <lb n="10"/>ზოგჯერ ეს ომცირესი ნაწილი უფლ-
+                <lb n="11"/>ებდა ყოველთა ზ<expan>&#x0360;<ex></ex></expan>ა სხვათა ნაწილებთა
+                <lb n="12"/>ვ<expan>&#x0360;<ex></ex></expan>ა . ჟამსა ერთობისასა მეფობასა ელენთ-
+                <lb n="13"/>ასა და რომალეთასა. და ვ<expan>&#x0360;<ex></ex></expan>ა დედოფალმან გა-
+            </p>
+            <pb n="12r"/>
+            <p>  
+                <lb n="1"/>ნავრცო პყრობილება თვისი სკიპტრა ყოვ-
+                <lb n="2"/>ელსა ყანასა ზ<expan>&#x0360;<ex></ex></expan>ა ვ<expan>&#x0360;<ex></ex></expan>ა დღეინდელად დღედ-
+                <lb n="3"/>მდე უფლებასა მპყრობელი დიდი ბატნი
+                <lb n="4"/>ხელმწიფენი რუსეთისანი. დიდთა ნაწილ-
+                <lb n="5"/>თა ზ<expan>&#x0360;<ex></ex></expan>ა ასიისათა:
+            </p>
+            <p>
+                <lb n="5"/>აგრევე დახვანთქარსაცა უპყრეს მის
+                <lb n="6"/>ქვეყნებისაგან მჴრები:
+            </p>
+            <p>
+                <lb n="7"/>მეფესა ღიმპანისასა აქუს საყმად თვი-
+                <lb n="8"/>სად მრავალნი მჴარენი ასიას შ<expan>&#x0360;<ex></ex></expan>ა და ამერ-
+                <lb n="9"/>იკას. აგრევე ხალხი ფურთუღალიისანი
+                <lb n="10"/>გალილისანი მრავალი ქყანა და მჴრები
+                <lb n="11"/>კუნძულნი და ერნი. ასიას შ<expan>&#x0360;<ex></ex></expan>ა აფრიკას.
+                <lb n="12"/>და ამერიკას ქვეშე პყრობილებასა თვისსა
+            </p>
+            <pb n="12v"/>
+            <p>  
+                <lb n="1"/>აქუს:
+            </p>
+            <p> 
+                <lb n="2"/>და ესრეთ მითქუამს ევროპიისათვის.
+                <lb n="3"/>აწცა განვყოფთ მას ნაწილებსა. რო-
+                <lb n="4"/>მელნიცა მხრებში საბატონოები და ხალ-
+                <lb n="5"/>ხნი. სხვადასხვასრიგით. აღწერილობ-
+                <lb n="6"/>ით დიდებულებათათვის სივრცედ სამძღვა-
+                <lb n="7"/>რთათვის. და სიმდიდრეთა მჴარეთა მისთ-
+                <lb n="8"/>ვის და როგორითამე გარიგებითა ყოველი
+                <lb n="9"/>ვე მჴარე რიგდებ. და როგორიმე ძალი მჴ-
+                <lb n="10"/>ედრობატა აქუსთ და სხვა რამე: დავიწყებთ
+                <lb n="11"/>პირველ საბატონოდამ ღიშპანიისათა:
+            </p>
+          </div>
+       <div type="chapter" n="3">
+               <head>
+                  ႱႠႡႠႲႭႬႭႧႠ ႶႨႸႮႠ<lb/>
+                   ნიისათა:
+               </head>
+                <p>
+                <lb n="12"/>ესე  მჴარე ანუ. სამეფო ღიშპანისა. არს
+            </p>
+            <pb n="13r"/>
+            <p>  
+                <lb n="1"/>დაცემული ყ<expan>&#x0360;<ex></ex></expan>ის ევროპის ადგილებზე წო-
+                <lb n="2"/>დებულ არს სახელად ამით. რომლისამე ხალ-
+                <lb n="3"/>ხისაგან მოსრულსა ასიისაგან:] ძვე-
+                <lb n="4"/>ლის საბატონოდამ ეწოდებოდა პანიადა )
+                <lb n="5"/>და იქიდამ აიყარნენ და მოკიდნენ ადგილსა
+                <lb n="6"/>ამას და უწოდეს სახელი ესე ღიშპანიად
+            </p>
+               <p>
+                <lb n="7"/>მხარესა, ამას სამძღვარი თვისი აქუს სამის
+                <lb n="8"/>მჴრითგან შავი ზღუა გარემო შემორტყ
+                <lb n="9"/>მული მეოთხიდგან ფრანცუცის მხრით-
+                <lb n="10"/>გან მთა პირინეიცისა. აქუს სიგრძე ვ<expan>&#x0360;<ex></ex></expan>ა
+                <lb n="11"/>მე ვერსი შვიდასი. და განი ვერსი ხუთასი
+                <lb n="12"/>ანუ ექუსასი:
+                <lb n="13"/>არს მჴარე ესე ჰაერით შეზავებული და თუ-
+            </p>
+            <pb n="13v"/>
+            <p>  
+                <lb n="1"/>მცა ოდეს ზაფხულში დიდი სიცხე და გუ-
+                <lb n="2"/>ალვა იქნება. რ<expan>&#x0360;<ex></ex></expan> არს მჴარე კაცთათვის
+                <lb n="3"/>მრთელ და გამოაქუს მუნ საზრდო კაც-
+                <lb n="4"/>თათვის. სიმდიდრე მრავლობით. ზე-
+                <lb n="5"/>თისხილი. შაქარი. ლეღვი. ქიმიშ. ლი-
+                <lb n="6"/>მონი. ნარინჯი. ბროწეული. და ღვინო
+                <lb n="7"/>მრავალ რიგი. პატიოსანი. აგრევე მას-
+                <lb n="8"/>თან აღმოაქუს. მრავალ რიგი ბალახი
+                <lb n="9"/>და ძირი სააქიმო.
+            </p>
+               <p>
+                <lb n="10"/>უფლება აქუსთ ერთათავი თვის თვის მეფე
+                <lb n="11"/>და რ<expan>&#x0360;<ex></ex></expan> ის საქმესა თვისსა დიდსა შეუმო-
+                <lb n="12"/>წმებელად თვისთა თორმეტთა ვეზირთა-
+                <lb n="13"/>სა გარიგებას ვერ შემძლებელ არს:
+            </p>
+            <pb n="14r"/>
+            <p>  
+                <lb n="1"/>და ამათ ვეზირებთა ეწოდებათ. რადა. რ<expan>&#x0360;<ex></ex></expan>ლ-
+                <lb n="2"/>არს თარგმანებით ფიქრი. მაღალი სული-
+                <lb n="3"/>ერნიცა გამგენი დადგინებულ არს მათ შო-
+                <lb n="4"/>რის კრებითა არხიეპისკოპოზებთასა. და ის-
+                <lb n="5"/>ინი არიან ათნი. და ეპისკოპოსნი ორმო-
+                <lb n="6"/>ცდა ათნი: .
+            </p>
+               <p>
+                <lb n="7"/>უწინარეს წელთასა. საბატონო ესე იყო
+                <lb n="8"/>განყოფილი მრავალ რიგ სამეფოდ აწცა:
+                <lb n="9"/>უწინარეს ასთა წელთასა ს<expan>&#x0360;<ex></ex></expan>დ ერთსა
+                <lb n="10"/>პყრობილებასა ქვეშე. გარნა პორთუღალ-
+                <lb n="11"/>თასა მოყუანილ არს. რ<expan>&#x0360;<ex></ex></expan>ლიცა შემწეობა-
+                <lb n="12"/>თაგან ფრანცუზთასა. ყრმობათაგან ღი-
+                <lb n="13"/>შპანისათა განდგენ:
+            </p>
+            <pb n="14v"/>
+            <p>  
+                <lb n="1"/>გამოჩენილი სამეფო არს მჴარესა ამას კა-
+                <lb n="2"/>სთილია ახალი და ძველი. და ეს ორი
+                <lb n="3"/>ემკუარს. დიდითა და სახელოვანითა.
+                <lb n="4"/>ქალაქებითა. ვ<expan>&#x0360;<ex></ex></expan>ა ვალდოლიც ბურღ-
+                <lb n="5"/>ოვ ხალამანკა. და უმეტეს ყ<expan>&#x0360;<ex></ex></expan>თა თა ლე-
+                <lb n="6"/>დო და მას შ<expan>&#x0360;<ex></ex></expan>ა უწინარეს იმყოფებოდა
+                <lb n="7"/>მეფენი ღიშპანიისანი:
+            </p>
+               <p>
+                <lb n="8"/>ამა ქალაქიდამე. იბ. მილზედ ქალაქი
+                <lb n="9"/>არს ტახტისა. მარდითი. სადაცა დღეს
+                <lb n="10"/>მეფე ღიშპანიისა იმყოფება. და ამ ქალ-
+                <lb n="11"/>აქიდამე. ე მილზედ. არს სახელი ვანი მო-
+                <lb n="12"/>ნასტერი. წ<expan>&#x0360;<ex></ex></expan>ისა ლავრენტისა. მსგავსი
+                <lb n="13"/>ამის მონასტრისა. ქვეყანასა ზ<expan>&#x0360;<ex></ex></expan>ა მცირე
+            </p>
+            <pb n="15r"/>
+            <p> 
+                <lb n="1"/>არს სიმშვენიერითა სიდიდითა სიბრძნით
+                <lb n="2"/>აგებულებითა და სიმდიდრითა:
+            </p>
+               <p>
+                <lb n="3"/>ამა მეფესა ჰყავს მოყმედ მემკვიდრო-
+                <lb n="4"/>ბათა ნათესავთა მისთასა იათალიან
+                <lb n="5"/>შ<expan>&#x0360;<ex></ex></expan>ა სამეფო ნეაპოლიტანსკისა. სიცილ-
+                <lb n="6"/>იისა. და სათავადო. მედიოლანისა:
+               </p>
+               <p>
+                <lb n="7"/>ვინედერლიანდმიცა პატიოსანნი რომელნი
+                <lb n="8"/>მე მჴარეში. ამას გარდა ამერიკაშიდცა
+                <lb n="9"/>დიდროვანნი მჴარები და ქვეყნები და მიწა
+                <lb n="10"/>ეგრეთვე ინდოვეთსაცა <expan>&#x0360;<ex></ex></expan>ა ქვეშე მორჩ-
+                <lb n="11"/>ილებასა თვისსა ჰყავს და ეგეთი აქუს
+                <lb n="12"/>შემოსავალი ხაზინისა თვისისა. რ<expan>&#x0360;<ex></ex></expan> გან-
+                <lb n="13"/>იგებენ. შემოუვა მეფესა წელიწადში.
+            </p>
+            <pb n="15v"/>
+            <p>  
+                <lb n="1"/>ოცდა ათი მილიონი. იემფივოვისა. რ<expan>&#x0360;<ex></ex></expan>ლ-
+                <lb n="2"/>არს ასლანი. გინა სამი აბაზი. ა<expan>&#x0360;<ex></ex></expan>დ რ<expan>&#x0360;<ex></ex></expan>ლი-
+                <lb n="3"/>მე ადგილი მისი და მიწა. დიდ არს. ერთ-
+                <lb n="4"/>მანერთზედ მიმორიდებით. და ყოველთვის
+                <lb n="5"/>დამჭირნე არს. შიშისათვის წინა მსაჯუ-
+                <lb n="6"/>ლთა მისთაგან. დიდის ჯარის შენახვას.
+                <lb n="7"/>ამისთვის ის ჯარი მრავალ რიცხუს ხაზ-
+                <lb n="8"/>ინასა მისსა წარაგებენ. და ამის გულის-
+                <lb n="9"/>ათვის თავის სახელმწიფოში თვისთა მტ-
+                <lb n="10"/>ერთა ზ<expan>&#x0360;<ex></ex></expan>ა დიდის ჯარის შეკრებას ვერ-
+                <lb n="11"/>შემძლე არის:
+            </p>
+               <p>
+                <lb n="12"/>ხალხი შპანიისანი. არს ერთობით დი-
+                <lb n="13"/>დი სული. მცირე მთქმელნი ერთ პირ-
+            </p>
+            <pb n="16r"/>
+            <p>  
+                <lb n="1"/>ზედ დამადგინებელნი. მეცნიერნი მზრახ-
+                <lb n="2"/>ველნი. ძვირ მახსოვარნი. სხვათა ქვეყ-
+                <lb n="3"/>ნებში თვითან არ დაიარებია. და უცხოს
+                <lb n="4"/>ქვეყნიდამე მისულს კაცზედ შურს იღებენ.
+                <lb n="5"/>ჯარი მათი შეიკრიბება. თვით შპანიაშ
+                <lb n="6"/>იდ. ლ<expan>&#x0360;<ex></ex></expan> : ათასი. გარნა ფლოზდორისა იტ-
+                <lb n="7"/>ალიასა შ<expan>&#x0360;<ex></ex></expan>ა. სადაცა იქნება მათისავე აზ-
+                <lb n="8"/>უღით ოცდა ათასი კაცი. აქუსთ ხშირად
+                <lb n="9"/>ომი დაბრძოლა შორის ფრანცუზთა.ამი-
+                <lb n="10"/>სთვის რომ ეს ორი ხალხი შორის ურთ-
+                <lb n="11"/>იერთას მრავლის წლითგან შუღლობენ.
+                <lb n="12"/>და დიდი წინა აღმდეგი გულძვირობა აქ-
+                <lb n="13"/>უსთ ერთმანერთზედ. და შერიგებას ვერ
+            </p>
+            <pb n="16v"/>
+            <p> 
+                <lb n="1"/>შემძლე არიან. კეისართა შორის მარად-
+                <lb n="2"/>ის ერთმით არს. მისთვის რომ კეისარი-
+                <lb n="3"/>და შპანიის მეფე. ერთ თაყუანისმცემელ
+                <lb n="4"/>ნი არიან. იწოდებენცა მეფენი შპანი-
+                <lb n="5"/>ისანი და მართლ მადიდებელნი. ამისთვის
+                <lb n="6"/>მისცემია მას შესხმა ესე. რომ მან მე-
+                <lb n="7"/>ფემან შპანიისაგან. ურიები თავის სამ-
+                <lb n="8"/>ეფოთაგან სრულიად განდევნა საუკუ-
+                <lb n="9"/>ნედ. და ურუმებთა შორის შრიგება-
+                <lb n="10"/>არაქუს არა ოდეს: - - - - - - 
+            </p>
+            <pb n="17r"/>
+            </div>
+       <div type="chapter" n="4">
+           <head>
+              საჴელმწიფოთათვის ფრანცუზთასა: -
+           </head>
+            <p>   
+                <lb n="1"/>სახელმწიფო ფრანცუზისა არს. უპატი-
+                <lb n="2"/>ოსნესი და ნაყოფ გამომღებელი. და ძლ-
+                <lb n="3"/>იერი მჴარე და დასავლეთით ყრმა. და აქუს
+                <lb n="4"/>სახელი თვისი ფრაკოვისაგან. ხალხი რ<expan>&#x0360;<ex></ex></expan>ლი
+                <lb n="5"/>მე მოვიდა ნემენცვის ქვეყნიდამე. რ<expan>&#x0360;<ex></ex></expan>ლი-
+                <lb n="6"/>ცა არს ათას ორასი წელიწადი. ქვეყ-
+                <lb n="7"/>ანა ესე დაიპყრეს და დაჯდნენ:
+            </p>
+               <p>
+                <lb n="8"/>ესე მჴარე განიყოფება დასავლეთი
+                <lb n="9"/>დამ ზღვითა დიდითა ღუვიანითა. და მთ-
+                <lb n="10"/>ითა ღიშპანიისათა. აღმო-
+                <lb n="11"/>სავლეთითგან ქ<expan>&#x0360;<ex></ex></expan>ყანა კეისრისა და სამ
+            </p>
+            <pb n="17v"/>
+            <p> 
+                <lb n="1"/>ზრეთითგან ზღვა თეთრი. ჩრდილოვე
+                <lb n="2"/>თითგან ზღვა ვრეთანსვისა:
+            </p>
+               <p>
+                <lb n="3"/>ესე მჴარე ფ<expan>&#x0360;<ex></ex></expan>დ არს მდიდარ იფქლითა
+                <lb n="4"/>და მრავლის  რიგის ღვინოებითა. რ<expan>&#x0360;<ex></ex></expan>ლი-
+                <lb n="5"/>ცა ეგოდენ მრავლობით მუნ დაიბად-
+                <lb n="6"/>ება რომ არათუ გარნა ხალხი მჴრისა
+                <lb n="7"/>ამის მით განმძღებიან. ა<expan>&#x0360;<ex></ex></expan>დ სხვათა
+                <lb n="8"/>ქვეყანათაცა შინა. ინგლიზმი. და ყო-
+                <lb n="9"/>ველსა და მჴარესა ჩრდილოვეთისასა.
+                <lb n="10"/>და სამჴროთა სადაცა ყურძენი არ დაიბ-
+                <lb n="11"/>ადება მუნ წარაქუთ:
+               </p>
+               <p>
+                <lb n="12"/>გამოაქუსთ მრავალი მარილი ეგრეთვეცა
+                <lb n="13"/>დაიბადება მუნ ზეთისხილი ზაფრანა.
+            </p>
+            <pb n="18r"/>
+            <p> 
+                <lb n="1"/>ლიმონი ნარინჯი. და აკეთებენ დიდად
+                <lb n="2"/>მრავალსა საიას. ქამხას. ატლასსა
+                <lb n="3"/>და სხვასაცა აბრეშუმთაგან ზარიანებს
+                <lb n="4"/>განიყოფებაცა მრავალ რიგად განყო-
+                <lb n="5"/>ფილებად. და უვისთ წარმართებულნი
+                <lb n="6"/>ერთათვის ერთი მეფე. რ<expan>&#x0360;<ex></ex></expan> თვით მპყრ-
+                <lb n="7"/>ობელი თვისთვის თავად სულიერნიცა.
+                <lb n="8"/>ყავთ ორმეოცნი არქიეპისკოპოსნი
+                <lb n="9"/>და უმეტეს ასნი ეპისკოპოსნი. სამ-
+                <lb n="10"/>საჯულო და სხვა საქმეები მოვლენ
+                <lb n="11"/>ან რვათა პრალამენტთა მიერ. მათვე
+                <lb n="12"/>ამეს სამსაჯულოთ რვა მჴარე საფეოსა
+                <lb n="13"/>ამის და მათ პრალამენტებს აქუსთ.
+            </p>
+            <pb n="18v"/>
+            <p> 
+                <lb n="1"/>თვისი საჯდომი ქალაქსა ფარიზისასა
+                <lb n="2"/>და ტახტი არს სამეფოსა ამის. ამასდა
+                <lb n="3"/>გარნა. რავენე. რენნეს. მორდო. თუ-
+                <lb n="4"/>ლზე. ღრენშილე. აქის. და დილიონ: - -
+            </p>
+               <p>
+                <lb n="5"/>სიდიდე არს მხარისა ამის სიგრძით ვ<expan>&#x0360;<ex></ex></expan>ა
+                <lb n="6"/>მე რვაასი ვერსი. და განი მისი შვიდასი
+                <lb n="7"/>ვერსი: ხალხი ამის ფრანცუზისა
+                <lb n="8"/>არიან ძველითვე წლითგან საქმეთა შ<expan>&#x0360;<ex></ex></expan>ა
+                <lb n="9"/>ომისათა დიდებულნი. და ურუმთაგან
+                <lb n="10"/>იერუსალიმი განათავისუფლა. და იტა-
+                <lb n="11"/>ლიას და მრავალს მჴრებში იომეს. და 
+                <lb n="12"/>შემძლებელ არს მეფე მათი. ვ<expan>&#x0360;<ex></ex></expan>ა დღეს
+                <lb n="13"/>სამსახურსა შ<expan>&#x0360;<ex></ex></expan>ა თვისსა ჰყავს ესეთსა
+            </p>
+            <pb n="19r"/>
+            <p>  
+                <lb n="1"/>უმეტეს ასორმოცდა ათი ათასის კაცის-
+                <lb n="2"/>ას ჯარსა თვისსა შეინახავს. და ცოდნა
+                <lb n="3"/>ჯარისა არს მათ შორის მრავალ მისაჩნ
+                <lb n="4"/>ეველი. შესავალსაცა მეფისა ამისსა.
+                <lb n="5"/>განავრცობენ ფ<expan>&#x0360;<ex></ex></expan>დ მრავალსა:
+            </p>
+               <p>
+                <lb n="6"/>ხალხი ფრანცუზისა არს ფ<expan>&#x0360;<ex></ex></expan>დ სარჯ-
+                <lb n="7"/>ლის მოყვარულნი. და სწავლათათვის
+                <lb n="8"/>ცა ბეჯითნი. და ამით შემოივლიან
+                <lb n="9"/>ყ<expan>&#x0360;<ex></ex></expan>სა მჴარესა ქვეყანისასა. და თუმცა
+                <lb n="10"/>თავაზიანნი არიან. მაგრამ ბოროტნი.
+                <lb n="11"/>საომრად მიმსვლელნი ფ<expan>&#x0360;<ex></ex></expan>დ მხურვალე-
+                <lb n="12"/>ნი არიან. ა<expan>&#x0360;<ex></ex></expan>დ მსწრაფლ წარიქცევიან
+                <lb n="13"/>და დიდს დაჭირებას ვერ შემძლე არიან
+            </p>
+            <pb n="19v"/>
+            <p>  
+                <lb n="1"/>აქუსთ თვისი მჴედრობა. არათუ გარნა
+                <lb n="2"/>ხმელსა ზ<expan>&#x0360;<ex></ex></expan>ა. ა<expan>&#x0360;<ex></ex></expan>დ ზღვათაცა შ<expan>&#x0360;<ex></ex></expan>ა: . . . .</p> 
+           </div>
+       <div type="chapter" n="5">
+              <head>
+                 ႨႲႠႪႨႨႱႠႧႥႨႱ
+              </head>
+            <p>
+                <lb n="3"/>იტალია არს მხარე. განყოფილი.
+                <lb n="4"/>მრავალ ნაწილად:
+             </p>
+              <p>
+                <lb n="5"/>ერთსა იპყრობს პაპა რომისა. მეორესა
+                <lb n="6"/>საერთოდ ვენეტიკნი. მესამე დიდი -
+                <lb n="7"/>სა თავადისა. ფილორენთისა. სათავა-
+                <lb n="8"/>დო მედიოლანსკისა. სხვა თავისუფალ-
+                <lb n="9"/>ნი თავადნი  მჴარისა მის:
+               </p>
+               <p>
+                <lb n="10"/>რომელმანვეცა მჴარესა ამის კეთილ
+            </p>
+            <pb n="20r"/>
+            <p> 
+                <lb n="1"/>აღმომცენარისა აერისათვის და უპატიო-
+                <lb n="2"/>სნებათათვის უმეტეს ყ<expan>&#x0360;<ex></ex></expan>თასა ჰკადრა.
+                <lb n="3"/>წოდებად სახელედვა იტალიას სიცი-
+                <lb n="4"/>ლიელისაგან რომელიცა მუნითგან მო-
+                <lb n="5"/>სრულ არს ქ<expan>&#x0360;<ex></ex></expan>ყნასა ამას. და სახელი ესე
+                <lb n="6"/>ზღვა:
+            </p>
+               <p>
+                <lb n="7"/>სამძღვარი არს მჴარესა ამის აღმოსა-
+                <lb n="8"/>ვლეთით სამხრეთით და ჩრდილოვეთით
+                <lb n="9"/>შემორტყმულ არს მორევი ადრიათისა
+                <lb n="10"/>და ზღვა თეთრი დასავლეტთაგან. გა-
+                <lb n="11"/>რნა იყოფება კეისრის ქ<expan>&#x0360;<ex></ex></expan>ყნითგან.
+                <lb n="12"/>მთითა ალპიდიმისათა. მიწა მჴრ-
+                <lb n="13"/>ისა ამის არს ფ<expan>&#x0360;<ex></ex></expan>დ ნაყოფ გამომცე-
+            </p>
+            <pb n="20v"/>
+            <p> 
+                <lb n="1"/>ნარე. იფქლითა ზეთისხილითა. და ღვი-
+                <lb n="2"/>ნითა მრავალ რიგისათა. ხავსებით.
+                <lb n="3"/>ყოვლისა პირუტყვებითა და მთითგ-
+                <lb n="4"/>ან ვლდენ საკვირველსა ქვასა მარმარ-
+                <lb n="5"/>ილოსათა. და ალაბასტრისა აღსაგებელ-
+                <lb n="6"/>ად. უპყრიათცა თვისთვინ მრავალ
+                <lb n="7"/>დიდროვნები და მაგარი ქალაქები. და
+                <lb n="8"/>მათ შორის უდიდებულესი დაუპატიო-
+                <lb n="9"/>სნესი. რომი. ნეაპოლი. ფლორენცია
+                <lb n="10"/>კენეტიკი. ღენუია. მედიოლანი. ბონ-
+                <lb n="11"/>ონია. რავენნა. მანთვა. პავია.
+                <lb n="12"/>პადუია ვერონა. მალთვა. ლუვარნა
+                <lb n="13"/>და სხვანიცა. და ვ<expan>&#x0360;<ex></ex></expan>ა მე არს სამოთხე
+            </p>
+            <pb n="21r"/>
+            <p> 
+                <lb n="1"/>შემკულ ქვეყანასა ზ<expan>&#x0360;<ex></ex></expan>ა :
+            </p>
+               <p>
+                <lb n="2"/>ჰყავსთ ოცდა რვა არქიეპისკოპოსი.
+                <lb n="3"/>და უმეტეს ორასი ეპისკოპოსი. შემო-
+                <lb n="4"/>ერთებულნიცა მხრისა ამისნი მრავალ
+                <lb n="5"/>რიგნი კუნძულნი. სიცილია. ვორს-
+                <lb n="6"/>კია. სარდინია და სხვანიცა:
+               </p>
+               <p>
+                <lb n="7"/>ომი უმეტეს ყოველთა აქუსთ ვენ-
+                <lb n="8"/>ეტიკში და ის გამოჩინებულ არს. მრა-
+                <lb n="9"/>ვლის და მძიმისა მათისა ომისაგან.
+                <lb n="10"/>ურუმთა შორის. რომთა პაპისა მიერ
+                <lb n="11"/>მცირედი რიცხვი ჯარი არს ბრძოლა
+                <lb n="12"/>არავის შორის არა აქუს. გარნა რაოდ-
+                <lb n="13"/>ენნი მე კატარღანი ურუმთა შიშის
+            </p>
+            <pb n="21v"/>
+            <p> 
+                <lb n="1"/>გულისათვის ავაზაკნი ჰყავს: - - - 
+                <lb n="2"/>ხალხნი იტალიისანი. არს მრავლობით-
+                <lb n="3"/>ით მიმსგავსებულნი შპანიელებთასა
+                <lb n="4"/>გარნა ამპარტავნებით თავაზიანი. და 
+                <lb n="5"/>უცხოს ქ<expan>&#x0360;<ex></ex></expan>ყნის მისულის კაცის გამწყ-
+                <lb n="6"/>ოლნი. შესავალი მჴრისა ამის ყ<expan>&#x0360;<ex></ex></expan>თა
+                <lb n="7"/>მებატონეთა. ფ<expan>&#x0360;<ex></ex></expan>დ დიდარს ამისთვის რომ
+                <lb n="8"/>ერთსა პაპსა შემუვა. წელიწადში.
+                <lb n="9"/>მილიონი. თი. და ამ ხაზინასა წარა-
+                <lb n="10"/>გებენ ქრისტიანეთა შემწეობად.
+                <lb n="11"/>ურუმთა ზ<expan>&#x0360;<ex></ex></expan>ზ. ვ<expan>&#x0360;<ex></ex></expan>ა წელთა ამას შინა.
+                <lb n="12"/>წარსცემდა ხაზინასა თვისსა. კეისარ-
+                <lb n="13"/>თა მიერ მეფეთა ლიტვისათა დაჩიე-
+            </p>
+            <pb n="22r"/>
+            <p>  
+                <lb n="1"/>თებთა მიერ. [ ეგრეთვეცა და სიტყუა
+                <lb n="2"/>საერთო ჩითებსა აქუს დიდი შემო-
+                <lb n="3"/>სავალი მილიონი ხუთი ანუ ექუსი.
+                <lb n="4"/>არა ეგრეთ ვ<expan>&#x0360;<ex></ex></expan>ა უწინარეს. ( და რ<expan>&#x0360;<ex></ex></expan> ამი-
+                <lb n="5"/>სგან უწინარეს ასისა წლისათა ქვეშე
+                <lb n="6"/>უფლებათა თვისთასა. ჰყუანდა ორი
+                <lb n="7"/>სამეფო კვიპრიისა. და კრიტისა კუნ-
+                <lb n="8"/>ძული. ესენი მკლავითა ძლიერითა
+                <lb n="9"/>ხვანთქარმა ურუმისათა თავისთვის და-
+                <lb n="10"/>იმონა. ახლა მჴედრობა მათი ზღვათა
+                <lb n="11"/>შ<expan>&#x0360;<ex></ex></expan>ა კარაბლები თორმეტი გინა თხუ-
+                <lb n="12"/>თმეტი. და ოცი ანუ ოცდა ათი კატ-
+                <lb n="13"/>არღა. ქალაქი მათი კენეტივი დგას
+            </p>
+            <pb n="22v"/>
+            <p>  
+                <lb n="1"/>მცირეცა კუნძულსა შ<expan>&#x0360;<ex></ex></expan>ა გარშემორტ-
+                <lb n="2"/>ყმულ არს წყლითა ხმელის ნაპირიდამე
+                <lb n="3"/>ხუთს ანუ ექუსს ვერსზედ. და თუმცა
+                <lb n="4"/>ზღუდე არა აქუს. და რ<expan>&#x0360;<ex></ex></expan> ნელეაკსაგან
+                <lb n="5"/>ესე ქალაქი აღშენებულ იქმნა. მი-
+                <lb n="6"/>სთვის უმეტეს უმეტეს ათასი წელის-
+                <lb n="7"/>ადი ვერცავინ წინამოსაჯულეთაგანმან.
+                <lb n="8"/>ვერ შეუძლო მას დამონებად.</p>
+            </div>
+       <div type="chapter" n="6">
+               <head>
+                  ႱႠႾႤႪႫႼႨႴႭႧႠႧႥ<lb/>
+                ის კეისრისათა: .
+               </head> 
+            <p>
+                <lb n="9"/>სახელმწიფო კეისრისა რომელსაცა
+                <lb n="10"/>საფრანგეთად. ანუ გერმანიად ეწო-
+            </p>
+            <pb n="23r"/>
+            <p>  
+                <lb n="1"/>დება . სახელსა თვისსა აღმიზიდავს. რამე-
+                <lb n="2"/>თუ რ<expan>&#x0360;<ex></ex></expan>ლნიმე იტყვიან. (გომორასაგან.
+                <lb n="3"/>ძისა იაფეთისაგან. და სხვანიცა იტყვიან
+                <lb n="4"/>ვ<expan>&#x0360;<ex></ex></expan>ა მე გერმანიისაგან. (რ<expan>&#x0360;<ex></ex></expan>ლნი მე ერნი მო-
+                <lb n="5"/>სრულ იყუნეს. მჴარესა ამას შინა სამ-
+                <lb n="6"/>ყოფელი თვისი დაეფუძნათ:
+            </p>
+            <p>
+                <lb n="7"/>სამძღვარი მჴრის ამის არს ესე. აღმო-
+                <lb n="8"/>სავლეთით. აქუს  საბატონო ლიტვი-
+                <lb n="9"/>სა პრუსისა. ლოთრინისა ბურღუნ-
+                <lb n="10"/>სკისა. ჩრდილოვეთითგან ზღუას შეეხ-
+                <lb n="11"/>ება ჩრდილოვეთისას ლუვიანეს სამჴრე-
+                <lb n="12"/>თითგან. იტალია წყალი დუნისა. და 
+                <lb n="13"/>მთა ალპიდიმისა. სივრცე მისი არს სი-
+            </p>
+            <pb n="23v"/>
+            <p> 
+                <lb n="1"/>გძეზედ. ათას ხუთას ვერსზედ. და განი
+                <lb n="2"/>უმეტეს ათასი ვერსი და მრავლობს.
+                <lb n="3"/>ყოველითავე რ<expan>&#x0360;<ex></ex></expan>ლიცა არა გარნა საზრ-
+                <lb n="4"/>დოდ კაცთათვის ა<expan>&#x0360;<ex></ex></expan>დ და ყ<expan>&#x0360;<ex></ex></expan>თავე სახმარ-
+                <lb n="5"/>თათვის იხმარება. და რ<expan>&#x0360;<ex></ex></expan> აგარაკსა შ<expan>&#x0360;<ex></ex></expan>ა თვი-
+                <lb n="6"/>სა აქუს მდიდარი მთები ოქროთა ვე-
+                <lb n="7"/>რცხლითა სპილენძისა. და სხვაცა დას-
+                <lb n="8"/>ამჯირნო მადნები მინდორსა გამოაქ-
+                <lb n="9"/>უს ურიცხველი პური და არაყი ტყები
+                <lb n="10"/>სავსე არს ველურით ლისითა ლანე-
+                <lb n="11"/>ითა. და ყ<expan>&#x0360;<ex></ex></expan>ის გვარითა მფრინველითა
+                <lb n="12"/>მდინარესა და ტბასა გამოაქუს მრავ-
+                <lb n="13"/>ალ გყარი თევზი. და ყოველითავე სი-
+            </p>
+            <pb n="24r"/>
+            <p>  
+                <lb n="1"/>მრავლითა. ესე სახელმწიფო. ფ<expan>&#x0360;<ex></ex></expan>დ არს სა-
+                <lb n="2"/>ვსებით. კ<expan>&#x0360;<ex></ex></expan>დ აქუს მრავალი საკვირველი
+                <lb n="3"/>და პატიოსანი მთით გამომცენარე. წყა-
+                <lb n="4"/>რონი რ<expan>&#x0360;<ex></ex></expan>ლნიცა არა გაჩნა თბილნი არ-
+                <lb n="5"/>ამედ მრავალს უკურნებელს სალმობას
+                <lb n="6"/>მისცემს სიმრთელეს წყალნი ა<expan>&#x0360;<ex></ex></expan>დ არს
+                <lb n="7"/>მუნ და ესეთი რომელნიცა ესეთის მდუ-
+                <lb n="8"/>ღარებისა სიცხითა აღმომცენარობს
+                <lb n="9"/>რ<expan>&#x0360;<ex></ex></expan>ლ ვერ შემძლებელ არს ხელითა მი-
+                <lb n="10"/>სთვის შეხებას:
+            </p>
+             <p>
+                <lb n="11"/>ესევე მჴარე განიყოფება ორ ნაწი-
+                <lb n="12"/>ლად. ერთი მაღალი მეორეცა მდაბ-
+                <lb n="13"/>ლად ღერმანიად ეწოდება.
+            </p>
+            <pb n="24v"/>
+            <p>  
+                <lb n="1"/>უმაღლესსა უჯირავს თავისთვის ესე ქვ-
+                <lb n="2"/>ეყნები. წესას-შვაბენ. ფალც. სამეფო
+                <lb n="3"/>ჩემსვისა. რომელნიცა სლავენცვის ენას
+                <lb n="4"/>ჴმარობენ. მარავიანშლენისა. ლაუსნიც
+                <lb n="5"/>სტირინ. სტერმრიში. კარტრია. კარ-
+                <lb n="6"/>ითენი. და სხვანიცა.
+            </p>
+             <p>
+                <lb n="7"/>უმდაბლესსაცა ნაწილსა უპყრიეს
+                <lb n="8"/>ესე მჴარები. სარქიეპისკოპოზი. მე-
+                <lb n="9"/>ნცვისა. თრირისა. კოლოლსკისა. და სა-
+                <lb n="10"/>ღრათოჩესკისა. და სათავადო ლომორსკისა
+                <lb n="11"/>მეკლენ ბურსკისა კლევსკისა. ბრანდებურს-
+                <lb n="12"/>კისა. ისფანსკისა. და საღრაფო ფრიასლ-
+                <lb n="13"/>იანსკისა:
+            </p>
+            <pb n="25r"/>
+            <p>  
+                <lb n="1"/>ხალხნი კეისრისანი არიან. ძველადვე წლ-
+                <lb n="2"/>ითგან მჴნენ. და რომაელთა შორის. უმეტ-
+                <lb n="3"/>ეს სხვათა ხალხთასა. დიდი და ფ<expan>&#x0360;<ex></ex></expan>დი
+                <lb n="4"/>სისხლის ღვრის ომი აქუნდათ. და მრავ-
+                <lb n="5"/>ად გზის და ამარცხეს. და უფლებასა
+                <lb n="6"/>ქვეშე თვისსა ვენგერიისასა. და ჩესკისა
+                <lb n="7"/>და ხუთრიისა. სამეფო დაიმორჩილა.
+            </p>
+             <p>
+                <lb n="8"/>უფლება ამ სახელმწიფოსი არა არს
+                <lb n="9"/>თვით მპყრობელობით. ა<expan>&#x0360;<ex></ex></expan>დ გამორჩევა
+                <lb n="10"/>დით. თავსა ეწოდება ცესრად ცეს-
+                <lb n="11"/>რად. რ<expan>&#x0360;<ex></ex></expan>ლ არს კეისარი. რ<expan>&#x0360;<ex></ex></expan>ლსაცა აქუს
+                <lb n="12"/>თვისი სამყოფელი აუსთრიაში ქალა-
+                <lb n="13"/>ქსა ვენესა. რ<expan>&#x0360;<ex></ex></expan> ძველთაგან თავადნი
+            </p>
+            <pb n="25v"/>
+            <p> 
+                <lb n="1"/>სახლისა აუსთრისაგან გამოვიდნენ. ვურ-
+                <lb n="2"/>ჯისტრნი. ამათგან გამოარჩევენ უკა-
+                <lb n="3"/>ნასკნელ სიკუდილთა კეისრისათა. სხვასა
+                <lb n="4"/>კეისარსა. სამნი არიან სამძღურნი. და 
+                <lb n="5"/>ოთხნი ერისკაცნი. მათი სახლები არს
+                <lb n="6"/>არქიეპისკოპოსი მენეიცვისა. კოლოლ-
+                <lb n="7"/>სკისა. თრევერსკისა. ოთხნი ერისკაცნი
+                <lb n="8"/>ესე კურფისტრნი. ბავარსკისა. ფალსკისა.
+                <lb n="9"/>საქსონისა. ბრანდებურსკისა. და ესენი
+                <lb n="10"/>თავისთავს ბატონად იტყვიან. და ასეთს
+                <lb n="11"/>ძალაში არიან. ვ<expan>&#x0360;<ex></ex></expan>ა ბავრსკის საქსონისას
+                <lb n="12"/>დაბრანდებურსკისას. შეუძლიათ თვითეულ-
+                <lb n="13"/>სა თუთხმეტი და დაოტი ათათის კაცის
+            </p>
+            <pb n="26r"/>
+            <p> 
+                <lb n="1"/>მეომრის ყოვლის სათანადოს აზუღის და
+                <lb n="2"/>მოწყობილობით. მინდორსა ზ<expan>&#x0360;<ex></ex></expan>ა გამოყუ-
+                <lb n="3"/>ანა. და ოდეს ცეცარი და კურფისტრ-
+                <lb n="4"/>ები პირობას შეაკვრენ. და ძალი ყოვ-
+                <lb n="5"/>ლის თავისუფლის თავადებისა. და კე-
+                <lb n="6"/>ისრისა შეერთდებიან. მაშინ გაურ-
+                <lb n="7"/>ჯელად შეკრებენ ჯარსა კარგისაგან ას-
+                <lb n="8"/>ორმოცდა ათი ათასს და უმეტესსაცა.
+                <lb n="9"/>შესავლი მათი თეთრისა ერთბამად.
+                <lb n="10"/>ძნელი არს აღსარიცხველად. ამისთვის ფ<expan>&#x0360;<ex></ex></expan>დ
+                <lb n="11"/>დიდარს ა<expan>&#x0360;<ex></ex></expan>დ ამისთვის ესე სახელმწიფო
+                <lb n="12"/>მრავალ საბატონოდ განიყოფება და
+                <lb n="13"/>ყოველსავე თვითეულად შვებით უფლე-
+            </p>
+            <pb n="26v"/>
+            <p> 
+                <lb n="1"/>ბათ მიუთუალამთ. ამისთვის შორის მა-
+                <lb n="2"/>თთასა ხშირი შნათვე ბრძოლა აღეზ-
+                <lb n="3"/>არდებათ. და მტერთა ზედა დამცემელთა
+                <lb n="4"/>ზოგნი წინა აღუდგებიან. და სხვანი
+                <lb n="5"/>არ აღუდგებიან. და ზოგჯერ შტერთაცა
+                <lb n="6"/>ზ<expan>&#x0360;<ex></ex></expan>ა შეერთდებიან. თვისსავე მამულსა
+                <lb n="7"/>წაოხრებენ. ამისთვის თუმცა ესე სამე-
+                <lb n="8"/>ფო მრავალ ეროვან არს მდიდარ და დი-
+                <lb n="9"/>დცა. მაგრამ ესრეთის მათის ერთმანე-
+                <lb n="10"/>რთს შუა უპირობისათვის. მტერსა არ 
+                <lb n="11"/>დიდსა უყოფენ სიტყვის მიცემასა.
+                <lb n="12"/>და წინა აღმდეგობას. - - - - - - - 
+            </p>
+            <pb n="27r"/>
+            </div>
+       <div type="chapter" n="7"> 
+               <head>
+                  ႬႨႣႤႰႪႠႬႣႨႱႠႧႥႨႱ
+               </head>
+            <p>
+                <lb n="1"/>ნიდერლანდისა ქ<expan>&#x0360;<ex></ex></expan>ყანა რ<expan>&#x0360;<ex></ex></expan>ლიცა ძველსა დროსა
+                <lb n="2"/>შინა განყოფილ არს. სამოცდა ათს სათა-
+                <lb n="3"/>ვადოს და საბატონოთ აქუსთ თვისი სამძღუ-
+                <lb n="4"/>არი აღმოსავლეთით მდინარები წყალი
+                <lb n="5"/>იმაზი ჩრდილოვეთით ზღუა ლუკიანე სამ-
+                <lb n="6"/>ხრეთით და დასავლეთით ფრანცუზთა სახ-
+                <lb n="7"/>ელმწიფო:
+            </p>
+            <p>
+                <lb n="8"/>ესე მხარესა შ<expan>&#x0360;<ex></ex></expan>ა არს ჰაერი თუმცა დამეწყ-
+                <lb n="19"/>ენილი. და ნოტიო. სიახლოვისაგან მრავ-
+                <lb n="10"/>ალტა ჭანჭრიბთასა მაგრამე მრთელი არს:
+                <lb n="11"/>ქვეყანაცა მცირე. მთით აღმომცენარე არს
+                <lb n="12"/>სწორ სავსე პურითა. და სხვათა ნაყოფითა
+            </p>
+            <pb n="27v"/>
+            <p> 
+                <lb n="1"/>მიწისათა და ხისათა. და პირუტყვითა მრავალ
+                <lb n="2"/>რიგისატა. და უმეტეს იზრდებიან მოსახლე-
+                <lb n="3"/>ბი მჴარისა ამისანი მეთევზობითა ზღუ-
+                <lb n="4"/>ასა შ<expan>&#x0360;<ex></ex></expan>ა. და ვაჭრობითა ყოველსა ქ<expan>&#x0360;<ex></ex></expan>ყანასა
+                <lb n="5"/>ზ<expan>&#x0360;<ex></ex></expan>ა. და ამით უმეტესობენ ყოველთა ზ<expan>&#x0360;<ex></ex></expan>ა
+                <lb n="6"/>ხალხთა ქვეყანასა ზ<expan>&#x0360;<ex></ex></expan>ა. აგრევე მრავალ არს
+                <lb n="7"/>მათ შორს ჴელთ უფლება მრავალ რიგი
+                <lb n="8"/>რ<expan>&#x0360;<ex></ex></expan>. ხაია. ქამხა. თავთა. ობიერი. და სხვასა
+                <lb n="9"/>ქნლები აბრეშუმისაგან და მატყლისაგან.
+            </p>
+            <p>
+                <lb n="10"/>ქვეშე უფლებათაცასხვათა და სხვათა განიყო-
+                <lb n="11"/>ფება ესე მჴარე. ზოგნი ჰყრმობენ მეფესა
+                <lb n="12"/>შპანიისასა. მისგანვე ომითა წაართვა თა-
+                <lb n="13"/>ვისთვის სამი მჴარე მეფემან ფრანცუზისამ-
+            </p>
+            <pb n="28r"/>
+            <p> 
+                <lb n="1"/>ან შვიდნი მესამძღურენი ახლა შეერთებუ-
+                <lb n="2"/>ლნი არიან ერთმანერთნი. მათგანი არს უდ-
+                <lb n="3"/>იდებულესი სამძღვარი. სათავადო გალილი-
+                <lb n="4"/>ისა, და ხალხთაგან სიტყვითა საერთოთა.
+                <lb n="5"/>ვ<expan>&#x0360;<ex></ex></expan>ა ვენეტიკი რიგდება. და შესავალი და ძა-
+                <lb n="6"/>ლი მათი დიდი არს რ<expan>&#x0360;<ex></ex></expan> ზოგჯერ. ხმელსა
+                <lb n="7"/>ზ<expan>&#x0360;<ex></ex></expan>ა ჯარისა ორმოცის ათასის კაცის. და ზღ-
+                <lb n="8"/>უათა შ<expan>&#x0360;<ex></ex></expan>ა ხვამალდებისა ასისა და უმეტეს
+                <lb n="9"/>ისაცა. და შესავალი მათი დიდარს. და ბრძო-
+                <lb n="10"/>ლა აქუსთ ხშირ მეზობელთა შორის მეფეთა
+                <lb n="11"/>მეფეთა შორის ფრანცუზთასა. და ინგლიზთა
+                <lb n="12"/>ცა შორის. უწინარესა წელსა შ<expan>&#x0360;<ex></ex></expan>ა. შპანელ-
+                <lb n="13"/>თა შორის ჰქონდათ ბრძოლა ოთხმეოცწელ
+            </p>
+            <pb n="28v"/>
+            <p> 
+                <lb n="1"/>და მითცა უფლებათა მისთაგან განთავისუ-
+                <lb n="2"/>ფლდენ. აწ იმყოფებიან შეთვისებით კეი-
+                <lb n="3"/>სართა შორის და სხვათა მეფეებთა და ვურ-
+                <lb n="4"/>ფისტრებთაცა. შორის:
+            </p>
+            <p>
+                <lb n="4"/>ხალხი ამის ნედერლიანდისა უმეტესად არ-
+                <lb n="5"/>იან მიდრეკილნი ვაჭრობისათვის. და მჴედ-
+                <lb n="6"/>რობასა თვისსა მოჰყავთ ზღვათა შ<expan>&#x0360;<ex></ex></expan>ა არა-
+                <lb n="7"/>თუ ხმელსა ზ<expan>&#x0360;<ex></ex></expan>ა. და აქუსთ ქვეშე პყრობ-
+                <lb n="8"/>ილებასა თვისსა მრავალი მჴარები. ინ-
+                <lb n="9"/>დოეთს აღმოსავლეთს შ<expan>&#x0360;<ex></ex></expan>ა. აგრევე დასა-
+                <lb n="10"/>ვლეთმიადცა. და ხვამალდებითა თვისი-
+                <lb n="11"/>თა განვლიან ყოველსა მჴარესა ქვ-
+                <lb n="12"/>ეყანისასა: ---------------
+            </p>
+            <pb n="29r"/>
+            </div>
+       <div type="chapter" n="8">
+               <head>
+                  ႱႠႫႤႴႭႧႠႧႥႨႱ<lb/> 
+                  დათცვისათა჻
+               </head>
+            <p>
+                <lb n="1"/>სამეფო დათცვისა არს სიდიდით განზომ-
+                <lb n="2"/>ილ და გარე მორტყმულ არს მრავალს ალ-
+                <lb n="3"/>აგს ზღვითა ლუვიანისათა და მალთიისვისათა
+            </p>
+             <p>
+                <lb n="4"/>აქუს სამჴრეთითგან სამძღვარი თვისი
+                <lb n="5"/>კეისრის ქვეყანა და სხვა შეეხება ზღუ-
+                <lb n="6"/>ასა. ძველსა წელსა შ<expan>&#x0360;<ex></ex></expan>ა დიდებულ
+                <lb n="7"/>იყო ესე სახელმწიფო აქუნდა ქვეშე.
+                <lb n="8"/>უფლებასა თვისსა სამეფო ნორევსკისა
+                <lb n="9"/>რ<expan>&#x0360;<ex></ex></expan>ლიცა დღესეც მოწესებულ არს. ა<expan>&#x0360;<ex></ex></expan>დ 
+                <lb n="10"/>შვეთნიცა და ვანდალისაცა. და ნაწილიცა
+                <lb n="11"/>ლიფლანდიისა ქვეშე ყმობასა თვისსა ჰყ-
+            </p>
+            <pb n="29v"/>
+            <p>   
+                <lb n="1"/>ვანდა. და ახლა მეფეს დათცვისას. უმეტეს
+                <lb n="2"/>ოციათასის კაცის შენახვალ ძლივარს შე-
+                <lb n="3"/>მძლებელ. და ზღუათა შ<expan>&#x0360;<ex></ex></expan>ა ხვამალდთა
+                <lb n="4"/>ოცდაათთასა. ანუ. ორმოცსა და იმ ძალ-
+                <lb n="5"/>საც შეუწევნელად სხვათა ჴელმწიფებთა
+                <lb n="6"/>სა. დიდხანს შენახვას ვერ შემძლე არს
+                <lb n="7"/>ამისთვის ერთობა მოუხდენია გარემოს
+                <lb n="8"/>მისსა დიდთა ჴელმწიფებთა შორის.
+                <lb n="9"/>და შემწეობად თეთრსა ივასხებს. და ბრ-
+                <lb n="10"/>ძოლა ხშირად აქუსთ. მეფეთა შორის შვ-
+                <lb n="11"/>ეთისათა. ძველის მათის ურთიერთს შორის
+                <lb n="12"/>ძვირისათვის. და თვით ძირ მდგმობით ძვირის-
+                <lb n="13"/>ათ. მაგრამ მეფემან შვეთისამან. გასულს
+            </p>
+            <pb n="30r"/>
+            <p> 
+                <lb n="1"/>ას სამეოცდა ოთხსსა წელსა შ<expan>&#x0360;<ex></ex></expan>ა. მრავალი
+                <lb n="2"/>და გამოჩენილები ქვეყნები. აისა სახელმ-
+                <lb n="3"/>წიფოსანი წაართვა. ვ<expan>&#x0360;<ex></ex></expan>ა მხონია და სხვან-
+                <lb n="4"/>იცა. და ახლა სამძღვარი. შვეთისა ერთი-
+                <lb n="5"/>სა მჴრითგან გარდმოვარდნილი წყალი ზუ-
+                <lb n="6"/>ნთა, დიდათ მახლობელ. და თუმცა მეფე-
+                <lb n="7"/>მან დათცვისამან განსცა ის ქვეყნები
+                <lb n="8"/>კუალად შვეთისაგან წასართმევად. ა<expan>&#x0360;<ex></ex></expan>დ
+                <lb n="9"/>შემწეობისათვის. მეფეთა ფრანცუცისა
+                <lb n="10"/>თა მისი ქმნა ვეღარ შეეძლო:
+            </p>
+                <p>
+                <lb n="11"/>ესე საჴელმწიფო მრავლობს პურითა.
+                <lb n="12"/>გამოაქუს მრავალი პირუტყუნი. და ცხენი
+                <lb n="13"/>კარგნი. თევზთაცა საპყრობელი გარემოს
+            </p>
+            <pb n="30v"/>
+            <p> 
+                <lb n="1"/>მათსა. ზღუათა შ<expan>&#x0360;<ex></ex></expan>ა მრავალ არს. შემოსა-
+                <lb n="2"/>ვალსა აღრიცხვენ მეფეთათვის არა უმ-
+                <lb n="3"/>ეტეს ორის მილიონისას:
+            </p>
+                <p>
+                <lb n="4"/>ტახტი მათი არს კოპპენღაღენ. სად-
+                <lb n="5"/>აცა მეფე იმყოფება. ზღვათა ნაპირთა
+                <lb n="6"/>ზედა. მყუდრო არს ფ<expan>&#x0360;<ex></ex></expan>დთა ხვამალდთა ხავ-
+                <lb n="7"/>თსაყუდელად. ამისთვის მრავალნი ვაჭ-
+                <lb n="8"/>არნი. მუნ წარემართებიან. გარემოსანი
+                <lb n="9"/>ერნი. მეფე არს თვითმპყრობელად მაგრ-
+                <lb n="10"/>ამე სახელმწიფოსა თვისსა არიგებს რჩევი-
+                <lb n="11"/>თა თვისისა სენატორებისათა.
+                </p>
+                <p>
+                <lb n="12"/>ამავე თვით მპყრობელსა მეფესა მოყმედ
+                <lb n="13"/>ჰყავს სამეფო ნორვეღისა. რ<expan>&#x0360;<ex></ex></expan>ლიცა ნაპი-
+            </p>
+            <pb n="31r"/>
+            <p> 
+                <lb n="1"/>რსა ლუვიანეს ზღვისასა. შვედის საბატონოდ
+                <lb n="2"/>მე ვიდრე სამძღურამდის სახელმწიფოსა
+                <lb n="3"/>მოსკოვისათა მახლობელ ქალაქთა კოლისათა
+                <lb n="4"/>მიაწევს. აქ პური ძცირათ მოვა. ამისთვის
+                <lb n="5"/>ესე მჴარე ფ<expan>&#x0360;<ex></ex></expan>დ არს ცივი და მთიანი გამოაქვს
+                <lb n="6"/>ფ<expan>&#x0360;<ex></ex></expan>დ მრავალი ხეები მრავალი რიგები შე-
+                <lb n="7"/>ქმნულებად სახლთა და ხვამალდებთათვის
+                <lb n="8"/>თუ თევზი და ტყავი ნადირთა თვისი რჴნა
+                <lb n="9"/>რაოდენიმე ნაწილი:</p>
+            </div>
+       <div type="chapter" n="9">
+                <head>
+                   ႱႠႾႤႪႫႼႨႴႭႧႠႧႥႨႱ<lb/>
+                   შვეთისათა჻
+                </head>
+            <p>
+                 <lb n="10"/>სამეფოსა შვეთისასა აქუს სამძღუარი
+            </p>
+            <pb n="31v"/>
+            <p>  
+                <lb n="1"/>თვისი. დასავლეთით და ჩრდილოვეთით  მჴარე
+                <lb n="2"/>ნირვეღისა. აღმოსავლეთით სახელმწიფო
+                <lb n="3"/>მოსკოვისა. სამჴრეთითგან და თსვისა:
+            </p>
+               <p>
+                <lb n="4"/>ესე მჴარე არს ნაყოფ გამომღებელი პურ-
+                <lb n="5"/>ითა. სხვას ჩრდილოვეთის მჴარეზედ.
+                <lb n="6"/>და მრავლობს პირუტყვითა. თაფლითა.
+                <lb n="7"/>სანთლითა. და უმეტეს სიმდიდრე მათი
+                <lb n="8"/>დგას მადანითა სპილენძისათა. და რკინისათა
+                <lb n="9"/>მათ მთებს ესები  გამოაქუსთ. და ამას სპ-
+                <lb n="10"/>ილენძსა და რკინასა სხვადა სხვას გარეშ-
+                <lb n="11"/>ემო მჴრებში გაჰყიდიან და გასცვლიან:
+               </p>
+               <p>
+                <lb n="12"/>ესე სახელმწიფო ძველთაგან წელსა შ<expan>&#x0360;<ex></ex></expan>ა 
+                <lb n="13"/>იყო უღონო და მცირე. ა<expan>&#x0360;<ex></ex></expan>დ ერნი არიან.
+            </p>
+            <pb n="32r"/>
+            <p> 
+                <lb n="1"/>მეომარნი. და ხელოვანნი. და ამით შეიერთ-
+                <lb n="2"/>ბამეს თვისთვის მეზობელთა მათთაგან
+                <lb n="3"/>მრავალი და გამოჩენილი მჴარები. ვ<expan>&#x0360;<ex></ex></expan>ა სახე-
+                <lb n="4"/>ლმწიფოსა მოსკოვისაგან მრავალი ქა-
+                <lb n="5"/>ლაქი. კორელსკისა და კერსკისა. მჴრები.
+                <lb n="6"/>ლიტვის სახელმწიფოდმე ლიფლანდია. რიგა
+                <lb n="7"/>და ცხვანიცა ქალაქნი წყლისა პირსა. დვინ-
+                <lb n="8"/>ესსა. კეისრიდამ პომოხრსკის ქვეყანა. და 
+                <lb n="9"/>კუნძული დიდი. რურელ და ქყანა ბრ-
+                <lb n="10"/>ემენისა და თსვიდამე. სამი მზარე ისიც
+                <lb n="11"/>ომისა ზემორე გვიჴსენებულა:
+            </p>
+               <p>
+                <lb n="12"/>და ესრეთ პყრობილება თვისი განავრცელ-
+                <lb n="13"/>ეს უმეთეს პირველთასა. და შეუძლია
+                
+            </p>
+            <pb n="32v"/>
+            <p> 
+                <lb n="1"/>ახლა თავის თეთრით შენახვა ჯარისა. ხმელ-
+                <lb n="2"/>სა ზ<expan>&#x0360;<ex></ex></expan>ა უმეტეს ოცისა და ოცდახუთისა
+                <lb n="3"/>ათასის კაცისა შენახვა. აგრევე ზღუუ-
+                <lb n="4"/>თა შ<expan>&#x0360;<ex></ex></expan>ა ხვამალდები ორმოცი გინა ორმო-
+                <lb n="5"/>ცდა ათი:
+            </p>
+               <p>
+                <lb n="6"/>ბრძოლა მათი ხშირად მეფეთა შორის
+                <lb n="7"/>დათსვისათა: ლიტვთა შორის არა ეგრე სი-
+                <lb n="8"/>შორისათვის. მოსკოველთა დიდთა ბატო-
+                <lb n="9"/>ნებთა მათის დიდებულებათა შორის
+                <lb n="10"/>(ვეების ძლეულის ჴელით) ბრძოლა არა
+                <lb n="11"/>აქუს თვითონაც ვეროდეს ვერდაუწყათ.
+                <lb n="12"/>და კულავცა მგონია ვერ დაიწყონ. ამი-
+                <lb n="13"/>სთვის რომ უწყიან თვისი უღონოება.
+            </p>
+            <pb n="34r"/>
+            <p> 
+                <lb n="1"/>აგრევე ძეს შორებით ზღუას გაღმა კა
+                <lb n="2"/>რიაჟისკისა. მათ მისთვის უშლის და ეძიებენ
+                <lb n="3"/>სამარადისოდ განსვენებასა:
+            </p>
+               <p>
+                <lb n="4"/>შემოსავალსა სახელმწიფოსა თვისისა
+                <lb n="5"/>სა განიგებენ ყოფად თუმცა მართალ
+                <lb n="6"/>არს მახლობელ სამისას მილიონისასა
+                <lb n="7"/>მეფე სახელმწიფოსა ამის ამის არს თვით
+                <lb n="8"/>მპყრობელი. და თუმცა არა დიდი ხანი
+                <lb n="9"/>არსნრომ იყუნენ ხუთნი კაცნი მეხე-
+                <lb n="10"/>ლენი. ურომელტამე ვერ ძალედვა მეფ-
+                <lb n="11"/>ესა საქმეებთა დიდთა გარიგება. და
+                <lb n="12"/>ეწოდებოდა მათ ხუთთა მობელეთა.
+               </p>
+               <p>
+                <lb n="13"/>პირველი სახელმწიფოსა დროთც. რომელ-
+            </p>
+            <pb n="34v"/>
+            <p> 
+                <lb n="1"/>არს ნაიბი მეფობისა:
+            </p>
+               <p>
+                <lb n="2"/>მეორე მაში. ანუ. სახლთუხუცესი:
+               </p>
+               <p>
+                <lb n="3"/>მესამე ადიმერალი რ<expan>&#x0360;<ex></ex></expan>ლ არს ზღვის სპასალარი
+               </p>
+               <p>
+                <lb n="4"/>მეოთხე კანცლერი მარიგებელი უცხოს
+                <lb n="5"/>ქვეყნის საქმისა:
+               </p>
+               <p>
+                <lb n="6"/>მეხუთე სახელმწიფოს ხაზინადარი.
+                <lb n="7"/>ა<expan>&#x0360;<ex></ex></expan>დ ისინი თანამდებნი არიან. ისმენენ
+                <lb n="8"/>ყოველსა შ<expan>&#x0360;<ex></ex></expan>ა მეფეთაგან:
+               </p>
+               <p>
+                <lb n="9"/>ტახტი ამ სახელმწიფოსი არს სთევლ-
+                <lb n="10"/>ობ. სადაცა მეფე იმყოფება. სულიე-
+                <lb n="11"/>რთა ზ<expan>&#x0360;<ex></ex></expan>ა ჰყავთ ვ<expan>&#x0360;<ex></ex></expan>ა დათსვით არხიეპისკო-
+                <lb n="12"/>პოსნი. სარწმუნოება აქუსთ შვედთა.
+                <lb n="13"/>ვ<expan>&#x0360;<ex></ex></expan>ა და თვის ლორანისა თვითონაც ივა-
+            </p>
+            <pb n="35r"/>
+            <p>  
+                <lb n="1"/>ანღელიან იწოდებენ. და ესე ლუთორმან
+                <lb n="2"/>გამოიღო.  და რჯულის დადებაც გამო-
+                <lb n="3"/>იღო. თვისი კეისრისა დროში. მეხ-
+                <lb n="4"/>უთესა მეფობასა შინა მცირითა
+                <lb n="5"/>რითამე უმეტეს ასსამეოც წელ:</p>
+           </div>
+       <div type="chapter" n="10">
+              <head>
+                 ႱႠႫႤႴႭႱႠႧႥႨႱ<lb/>
+                   ლიტვსათა
+              </head>
+            <p>
+                <lb n="6"/>სამეფოსათვის ლიტვისა. სამძღურითა
+                <lb n="7"/>თვისითა შეეხება აღმოსავლეთით.
+                <lb n="8"/>და ჩრდილოვეთი სახელმწიფოსა მო-
+                <lb n="9"/>სკოვისასა. და ლიფლინდისირსა. დასავ-
+                <lb n="10"/>ლეთითგან შლენსკისა და რავისასა.
+            </p>
+            <pb n="35v"/>
+            <p> 
+                <lb n="1"/>სამჴრეთითგან. ვლახეთისა. და ვენგერისს
+                <lb n="2"/>სახელმწიფოს:
+            </p>
+               <p>
+                <lb n="3"/>სიდიდით იქნება დანცვიდამ ვიდრე. სა-
+                <lb n="4"/>მძღურამდე ურუმისათა. ვერსი რვაასი
+                <lb n="5"/>და განი მისი შლეინსკის ქვეყნიდამ. სამ-
+                <lb n="6"/>ძღურამდე სახელმწიფოსა მოსკოვისათა
+                <lb n="7"/>ერთობით ლიტვთა მ<expan>&#x0360;<ex></ex></expan>რ. ვერსი ექუს-
+                <lb n="8"/>ასი. ანუ მცირითა რითმე უმეტეს.
+                <lb n="9"/>მაგრამ არს მრავალ ეროვან. და ოდეს
+                <lb n="10"/>საომრად შემოკრებითა ერთობით.
+                <lb n="11"/>შეუძლიათ შეკრებად ცხენოსნისა ორ-
+                <lb n="12"/>მოცისა. გინა ორმოცდა ათისა ათა-
+                <lb n="13"/>სის კაცის ჯარისა გამორჩეულისა. მასთან
+            </p>
+            <pb n="36r"/>
+            <p> 
+                <lb n="1"/>ქვეითისანი.რვა გინა ათისათა-
+                <lb n="2"/>სის კაცისას. ა<expan>&#x0360;<ex></ex></expan>დ წინასწარ ეტლთა მო-
+                <lb n="3"/>რულობენ:
+            </p>
+               <p>
+                <lb n="4"/>ძველსა წელსა შ<expan>&#x0360;<ex></ex></expan>ა ერთა ამათ ჰქონდ-
+                <lb n="5"/>ათ. ომი დიდი პრუსთა შორს. შვედ-
+                <lb n="6"/>თა. ნემეცვთა. ურუმთა. თათართა.
+                <lb n="7"/>ვენგერთა. ვლახელთა შორის. უმეტეს-
+                <lb n="8"/>ცა. დიდთა ბატონთა მეფეთა მოსკოვისათა შორის
+                <lb n="9"/>და ესე ომები მათ შორის აღმოიწყება
+                <lb n="10"/>უზომოებათა ღელვათაგან აზნაურთა
+                <lb n="11"/>მათთაგან. რ<expan>&#x0360;<ex></ex></expan>ლნიცა არიან ესრეთ.
+                <lb n="12"/>აღვირ უსხმელ. დადგინებაშიდ. რ<expan>&#x0360;<ex></ex></expan> ზო-
+                <lb n="13"/>გჯერ თავის ბატონზედაც არ შეიკდებენ
+            </p>
+            <pb n="36v"/>
+            <p> 
+                <lb n="1"/>მახვილისა აღებასა. და ახლა მახლობელ სა-
+                <lb n="2"/>მეოცისა წლისა. დაუცხრომელსა ომსა შ<expan>&#x0360;<ex></ex></expan>ა
+                <lb n="3"/>გარემოს თვისთა მეზობელთასა შორს არი-
+                <lb n="4"/>ან. და ამისგანცა და დიდის სიმძიმის-
+                <lb n="5"/>აგან. მებატონეთა თვისთაგან. ერთობით
+                <lb n="6"/>ხალხნი მათნი მოიწევიან სიღარიბესა
+                <lb n="7"/>და დავრდომილებასა შ<expan>&#x0360;<ex></ex></expan>ა თავისსა მისაცე-
+                <lb n="8"/>მის ხაზინით. დიდის ჯარის შენახვას
+                <lb n="9"/>ვერშემძლე არიან. ამისთვის შემოსავალი
+                <lb n="10"/>სკარბა მეფეთა მიერ და ლიტვისაცა. ორ-
+                <lb n="11"/>ივ ერთობით წელიწადში ძლივ მიაწევს
+                <lb n="12"/>სამს მილიონამდის რუბლისა:
+            </p>
+               <p>
+                <lb n="13"/>შესავალი და სავსება. ამა საბატონოსი
+            </p>
+            <pb n="37r"/>
+            <p>  
+                <lb n="1"/>გარნა პური. რომელიცა მათ უმეტეს პუ-
+                <lb n="2"/>რის მომცემი მჴარე მსცემიათ. და წყლი-
+                <lb n="3"/>თა ვისლითა. წარგზავნიან. დანცკამდის
+                <lb n="4"/>და კოროლეცამდის. და ჰყიდიან თეთრზედ
+                <lb n="5"/>და ყოველისავე საქონელსა შ<expan>&#x0360;<ex></ex></expan>ა განსცვლიან
+                <lb n="6"/>აგრევე და პირუტყვიც მრავალ. და ცხ-
+                <lb n="7"/>ენიც კეთილ მუნ არს და სხვას ქვეყნე-
+                <lb n="8"/>ბშიაც განჰყიდიან. ლიტვნი სარწმუნ-
+                <lb n="9"/>ოებით არიან. ეკლესია დასავლეთისა.
+                <lb n="10"/>და მართალი მადიდებელნი აღმოსავლეთ-
+                <lb n="11"/>ისანიცა. მათზედ უმრავლესნი იყუნ-
+                <lb n="12"/>ეს. მაგრამ იწროებათა და დევნულებათ-
+                <lb n="13"/>თვის მცირედი არა ხ<expan>&#x0360;<ex></ex></expan>დ დასავლეთისაკენ
+            </p>
+            <pb n="37v"/>
+            <p>  
+                <lb n="1"/>იდრკენ. არიანცა მათშორის მრავალნი
+                <lb n="2"/>ლოთრანნი და კალვინნი. რ<expan>&#x0360;<ex></ex></expan>ლნიცა შვ-
+                <lb n="3"/>ებით სარწმუნოვებითა თვისითა საღთო-
+                <lb n="4"/>სა ჟამსა აღასრულებენ. მასთანვე და 
+                <lb n="5"/>ურიებიცა. ფ<expan>&#x0360;<ex></ex></expan>დ მუნ მრავალი არს. და
+                <lb n="6"/>ისინი გარნა მდიდრდებიან იჯარითა
+                <lb n="7"/>სოფლისა და დაბისათა და სირაჯობითა:</p>
+             </div>
+       <div type="chapter" n="11">
+                <head>
+                   ႱႠႾႤႪႫႼႨႴႭႧႠႧႥႨႱ<lb/>
+                  ინგლიზისათა.
+                </head>
+           <p>
+                <lb n="8"/>სახელმწიფო ინგლიზისა განიყოფება
+                <lb n="9"/>სამ სამეფოდ. ორი ერთსა კუნძულსა შინა
+                <lb n="10"/>ინგლიზისა და შკოთისა. და მესამე.
+            </p>
+            <pb n="38r"/>
+            <p> 
+                <lb n="1"/>ირლიანსკისა კუნძულსა შ<expan>&#x0360;<ex></ex></expan>ა:
+                <lb n="2"/>ამა სახელმწიფოსა სამძღვარი თვისი აქუს
+                <lb n="3"/>ყ<expan>&#x0360;<ex></ex></expan>ვლის მჴრითგან ზღვა ლუვანე. და არც
+                <lb n="4"/>ერთის საჴელმწიფოდამ სამძღუარი არა აქ-
+                <lb n="5"/>უს. და არს სახელმწიფო მდიდარ და სავ-
+                <lb n="6"/>სე ფ<expan>&#x0360;<ex></ex></expan>დ პირუტყვითა უმეტესსცა ცხურის
+                <lb n="7"/>რ<expan>&#x0360;<ex></ex></expan>ლისა მატყლისაგამე აკეთებენ ისინი.
+                <lb n="8"/>საიასა და სხვასა საქონელსა. და გააქუ-
+                <lb n="9"/>სთ ყოველსა მჴარესა. იფქლი მუნ ფ<expan>&#x0360;<ex></ex></expan>დ
+                <lb n="10"/>მრავალი დაიბადება. და მადანისაგანაცა
+                <lb n="11"/>მათაში მრავალი გამოდის კალა და ტყვია
+                <lb n="12"/>და უმეტეს მდიდრდებიან ერნი ამის სა-
+                <lb n="13"/>ხელმწიფოსანი ვაჭრობისაგან და მრავ-
+            </p>
+            <pb n="38v"/>
+            <p> 
+                <lb n="1"/>ალი აქუსთ. აგრევე მათ ხვამალდები.
+                <lb n="2"/>მით მოივლიან ყოველსა მჴარესა ქვეყა
+                <lb n="3"/>ნისასა. და ძალი მათი და დგინებულ-
+                <lb n="4"/>არს ზღუათა შ<expan>&#x0360;<ex></ex></expan>ა შეუძლიათ ხვამა-
+                <lb n="5"/>ლდთა ასიისათა. შეკრება. და ხმელსა
+                <lb n="6"/>ზედა ეყოლებათ მათ თავისის თეთრით
+                <lb n="7"/>ორმოცი ათასი კაცი და უმეტესიცა.
+                <lb n="8"/>შესავალი ამა სახელმწიფოსა. განიგ-
+                <lb n="9"/>ებენ. იქნება მილიონი ათი. მაგრ-
+                <lb n="10"/>ამ რ<expan>&#x0360;<ex></ex></expan>ლიც შემოსავალი მოწესებულ არს
+                <lb n="11"/>მეფის სასახლისათვის ის არს სხვა. და რო-
+                <lb n="12"/>მელიც საერთოთ სახმარ არს. მას მოჰკ-
+                <lb n="13"/>რეფენ მოკრეფითა მსგავსებათასა. ყოვ-
+            </p>
+            <pb n="39r"/>
+            <p>  
+                <lb n="1"/>ელთა ერთა ზედა ჟამსა ერთსა შ<expan>&#x0360;<ex></ex></expan>ა ომის-
+                <lb n="2"/>ასა. და ომი ოდეს გარდასწყდება. მაშ-
+                <lb n="3"/>ინ მოკრეფაც დაცხრება. აქუსთ ხშირი 
+                <lb n="4"/>ბრძოლა გალატელთა შორის თავისის
+                <lb n="5"/>შესაძენის გულისათვის. ვაჭრობათა
+                <lb n="6"/>შ<expan>&#x0360;<ex></ex></expan>ა აგრევე. და ფრანცუცის მეფეთა
+                <lb n="7"/>შორის ძველის ჩხუბის  და ბრძოლის და
+                <lb n="8"/>შეუორთობლობისა და უმეტესად სხვა
+                <lb n="9"/>და სხვა რიგის სახელმწიფოსა თვისსა
+                <lb n="10"/>შ<expan>&#x0360;<ex></ex></expan>ა მყოფთა სარწმუნოვებისათვის. რო-
+                <lb n="11"/>მლისაგანმე მრავალი რიგი. ხშირი ში-
+                <lb n="12"/>ნათვე ომი აქუს. წარმართობს საბატო-
+                <lb n="13"/>ნო უფლოებითა. არა თვით მპყრობელობ-
+            </p>
+            <pb n="39v"/>
+            <p> 
+                <lb n="1"/>ითა არამედ ერთობით ერთგან ამისთვის
+                <lb n="2"/>სახელი მათი ორ რიგად აქუსთ. ერთი
+                <lb n="3"/>იხსენება. უფროსად მაშიგან არსმე
+                <lb n="4"/>ვეზირნი. და დიდებულნი მოერესა
+                <lb n="5"/>შ<expan>&#x0360;<ex></ex></expan>ა ს<expan>&#x0360;<ex></ex></expan>დ მოწმობითა საბატონოსა მა-
+                <lb n="6"/>თისაგან. გამორჩეულნი კაცნი. და 
+                <lb n="7"/>ესრეთ ყოველთა საქმეთა დიდთათვის
+                <lb n="8"/>არჩევენ დაემოწმებიან:</p>
+            </div>
+       <div type="chapter" n="12">
+               <head>ႱႠႫႤႴႭႧႠႧႥႨႱ<lb/>
+                  ვენგერისათა
+               </head>
+            <p>
+                <lb n="9"/>სამეფოსა ვეგერისასა აქუს სამძღუ-
+                <lb n="10"/>არი თვისი აღმოსავლეთით ვილოხეფ-
+            </p>
+            <pb n="40r"/>
+            <p> 
+                <lb n="1"/>და შვიდ ქალაქი მოლდავისა. სამჴრეთით
+                <lb n="2"/>ურუმისა. დასავლეთით აუსტრისა.
+                <lb n="3"/>ჩრდილოვეთით ლიტვისა. უწინარეს
+                <lb n="4"/>მრავლისა წელსა შ<expan>&#x0360;<ex></ex></expan>ა. ამ მჴარესა თი-
+                <lb n="5"/>სი მეფე ჰყუანდა. ერნი არიან და 
+                <lb n="6"/>სხვას რიგით ენით ლაპარაკობენ და
+                <lb n="7"/>ომშიდაც იყუნენ ფ<expan>&#x0360;<ex></ex></expan>დ სახელოვანნი
+                <lb n="8"/>და მოსავალი ამ სახელმწიფოსი იყო
+                <lb n="9"/>დიდი ამისთვის რამე მადანი აქუს.
+                <lb n="10"/>ოქროისა ვერცხლისა. და სხვებით ნა-
+                <lb n="11"/>წილითაცა უმეტეს იყო. ქვეშე
+                <lb n="12"/>მორჩილებასა ურუმისასა. ნაწილი
+                <lb n="13"/>ქვეშე კეისრის პყრობილებასა. ამავე
+            </p>
+            <pb n="40v"/>
+            <p> 
+                <lb n="1"/>წელსა შ<expan>&#x0360;<ex></ex></expan>ა მცირე არა ს<expan>&#x0360;<ex></ex></expan>დ ესე სამეფო
+                <lb n="2"/>მოყუანილ იქმნა. პყრობილებათა
+                <lb n="3"/>კეისრისათა.
+            </p>
+                <p>
+                <lb n="4"/>ტახტისა ქალაქი მათი არს ბუდუში.
+                <lb n="5"/>ახლა აღებული კესირისაგან:</p>
+            </div>
+       <div type="chapter" n="13">
+              <head>ႧႠႧႠႰႧႠႧႥႨႱ<lb/>
+                   ყირიმისათა:
+              </head>
+            <p>
+                <lb n="6"/>ხამსცა აღწერად ევროპიისა ნაწილსა
+                <lb n="7"/>შ<expan>&#x0360;<ex></ex></expan>ა. მჴარე ხერსონისა რომელსაცა ძველ-
+                <lb n="8"/>თაგან თავრივად ხერსონისად ელენთა
+                <lb n="9"/>უწოდეს. ახლა მას ვიტყვით გინა
+                <lb n="10"/>უწოდებთ ყირიმად ესე სამეფო არა
+            </p>
+            <pb n="41r"/>
+            <p> 
+                <lb n="1"/>დიდებითა. არცა სიმდიდრითა. ა<expan>&#x0360;<ex></ex></expan>დ ბორ-
+                <lb n="2"/>ოტყოფითა. მოსახელენი ამისნი ამისნი
+                <lb n="3"/>ამისთვის ყ<expan>&#x0360;<ex></ex></expan>ი მათი ცხოვრება მდღ
+                <lb n="4"/>ევარი პური მიუთვალავთ. ერთით
+                <lb n="5"/>გარნა ავაზაკობითა. და რ<expan>&#x0360;<ex></ex></expan> გამოდიან
+                <lb n="6"/>ამ შეჩვენებულის ბუდისაგან. მრავა-
+                <lb n="7"/>ლნი ათასნი მოსახლენი მჴარისა ამისანი
+                <lb n="8"/>რომელთაცა უწოდებთ თათარნი ყირიმ-
+                <lb n="9"/>ისანი. მრავალ რიგს ქრისტიანეთასა
+                <lb n="10"/>არესა. გარემოს მათთა მდებარეს მჴ-
+                <lb n="11"/>არებს. და წარტყვენენ. ზოგჯერცა
+                <lb n="12"/>კაცთა და პირტყუთაცა. მრავალსა
+                <lb n="13"/>ათასსა. და ზოგთა მუაობათა მძიმე-
+            </p>
+            <pb n="41v"/>
+            <p> 
+                <lb n="1"/>თაგან. მჴარესა მათსა შ<expan>&#x0360;<ex></ex></expan>ა. მიწის კეთ-
+                <lb n="2"/>ებითა. პირუტყუთა მწყემსობითა. და
+                <lb n="3"/>კლდითა მძიმის ქვისათა მთით გამო.
+                <lb n="4"/>და სხვას სარჯლითა. აგრევე შებორკილებუ-
+                <lb n="5"/>ლუნი და შეკრულნი. ვერ წარევლტვიან
+                <lb n="6"/>ზოგთაცა გაჰყიდიან უმძიმესა მუშაო-
+                <lb n="7"/>ბასა შ<expan>&#x0360;<ex></ex></expan>ა. ურუმთა მიერ კატორღათა-
+                <lb n="8"/>თვის. და სხვათა წამებითა მძიმითა
+                <lb n="9"/>განიგებენ. ოდეს არს მდიდარ. ანუ კე-
+                <lb n="10"/>თილ შობილ. ფასსა დიდსა მათზედა
+                <lb n="11"/>აიღებენ. მაგრამ ის ტყვებინ ესო-
+                <lb n="12"/>დენ წელ მათ უნებლიეთ მძიმესა
+                <lb n="13"/>სასჯელსა და მწუხარებასა შ<expan>&#x0360;<ex></ex></expan>ა, ნამყ-
+            </p>
+            <pb n="41r"/>
+            <p> 
+                <lb n="1"/>ოფ. ანუ მტერთა  გულისათვის რ<expan>&#x0360;<ex></ex></expan>ლის
+                <lb n="2"/>ამე ბოროტისაგან მწამვლელობათათ
+                <lb n="3"/>ვის თავის თავს დაიხსნიან. და მოვლენ
+                <lb n="4"/>ან თვისსა მჴარესა შ<expan>&#x0360;<ex></ex></expan>ა ანუ მასთან
+                <lb n="5"/>საომრად ურგებ იქმნებიან. ანუ სა-
+                <lb n="6"/>ლმობიერ იქმნებიან. ანუ მსწრაფს
+                <lb n="7"/>მოკუდებიან.
+            </p>
+                <p>
+                <lb n="8"/>ესე მჴარე არს გარე შემორტყმულსა
+                <lb n="9"/>გავს კუნძულთასა. დასავლეთით
+                <lb n="10"/>და სამხრეთით მოაწვა ზღვა შავი რომ-
+                <lb n="11"/>ელსა პონტოტ ავექსენთ უწოდების. აღმოსავ-
+                <lb n="12"/>ლეთით ზღუა აზოვისა. ჩრდილოე-
+                <lb n="13"/>თით მისივე ზღვისა. გარდამოვარდნი
+            </p>
+            <pb n="41v"/>
+            <p>  
+                <lb n="1"/>ლი მათ სითხისათვის დამპალოს ზღუად
+                <lb n="2"/>უწოდებენ და მიწათა მიერ. მცირითა
+                <lb n="3"/>ქედითა შეეხო. რომელიცა ერთის შემდ-
+                <lb n="4"/>გრისაგან მეორეს შემდგრამდის. ზვავითა
+                <lb n="5"/>და თხრილითა მიწისათა განყოფილარს
+                <lb n="6"/>და ამას ზ<expan>&#x0360;<ex></ex></expan>ა ციხე დაუდგამსთ მას. პერე-
+                <lb n="7"/>კოპად უწოდებენ. წინასწარ მის ცი-
+                <lb n="8"/>ხისა მიწა ნეპრამდის და დონამდის. და
+                <lb n="9"/>ქალაქებამდის. პატარა რუსეთამდის.
+                <lb n="10"/>არს ყოველი გვარი ტყე და ხეები დიდ-
+                <lb n="11"/>ები გარდაკაფული. გარნა ნეპრისა და
+                <lb n="12"/>მის წყლებისა პირსა რომელიც მას
+                <lb n="13"/>შეერთვის. მის პირებზედ არა დიდი
+            </p>
+            <pb n="42r"/>
+            <p> 
+                <lb n="1"/>ტყეები. ამისთვის მინდვრად უწოდებენ
+                <lb n="2"/>და სამყოფითა კაცთათვის ცალიერი არის
+                <lb n="3"/>მერმ იზრდება მუნ ბალახი ივნისში
+                <lb n="4"/>და უადარესცა იწყებს ხმობად. და შეი-
+                <lb n="5"/>ქმნება თეთრი და მცირისა ცეცხლისა
+                <lb n="6"/>გან ქართაგან აღმოსრულთასა აღირ-
+                <lb n="7"/>უჯვის. და მცირესა ჟამსა შ<expan>&#x0360;<ex></ex></expan>ა. მრავა-
+                <lb n="8"/>ლს ვერსზედ. ფ<expan>&#x0360;<ex></ex></expan>დის და მსწრაფლ რბე-
+                <lb n="9"/>ნით ის მინდვრები მიწვის. და ესე
+                <lb n="10"/>საქმე არს არა მცირე ზღუდე ვ<expan>&#x0360;<ex></ex></expan>ა მერე დამშლელი ყო-
+                <lb n="11"/>ველთა ერთათვის. პ<expan>&#x0360;<ex></ex></expan>ებად გაშლილთათვის მჴარ-
+                <lb n="12"/>ესა ამას ზ<expan>&#x0360;<ex></ex></expan>ა ავაზაკებთასა:
+            </p>
+                <p>
+                <lb n="13"/>სიდიდე კუნძულისა ამის არს სიგცე
+            </p>
+            <pb n="42v"/>
+            <p>  
+                <lb n="1"/>და სიგაგანე მცირითა რითმე უფროს
+                <lb n="2"/>ასორმოცდაათი. ანუას ოთხმოცი.
+                <lb n="3"/>ვერსი. ქალაქები. ქაფა. მას
+                <lb n="4"/>ვე პირველ ბერძენნი თეოდოსეთ უწ-
+                <lb n="5"/>ოდდენ. მასუკან ვერჩა. ვოზლოვი და
+                <lb n="6"/>ცხვებიცა. არა მრავალნი. თვით ხა-
+                <lb n="7"/>ნი ზის ცხოვრებს ადგილსა წოდებ-
+                <lb n="8"/>ულსა ბაღჩა სარიას. რომელიცა დგ-
+                <lb n="9"/>ას სიგძეზედ უგალავნოთ. და სხვა თა-
+                <lb n="10"/>თრები იმყოფებიან დაბათა და სო-
+                <lb n="11"/>ფლებთა შ<expan>&#x0360;<ex></ex></expan>ა ისინი მრავალ
+                <lb n="12"/>არიან:
+            </p>
+            <pb n="43r"/>
+            <p> 
+                <lb n="1"/>ძალი მათი ზოგჯერ ხანთა მიერ გამოვლე-
+                <lb n="2"/>ნან. ასი ათასი. ზოგჯერ უფროსი.
+                <lb n="3"/>მაგრამე  კარგის და გამორჩეულის ჯარისა
+                <lb n="4"/>შეუძლიათ შეკრებად. სამოცი ანუ სამ-
+                <lb n="5"/>ოცდა ათი. და ამით უმეტეს ზაფხუ-
+                <lb n="6"/>ლსა შ<expan>&#x0360;<ex></ex></expan>ა დიდსა ვრცელსა ზ<expan>&#x0360;<ex></ex></expan>ა მინდორსა
+                <lb n="7"/>დიდსა შებმასა უყოფენ სხვისა ჯარსა  თავ-
+                <lb n="8"/>დასხმითა თვისითა. და დიდად ხელოვან-
+                <lb n="9"/>ნი არიან ცხენთა ზედა ჯდომისა და 
+                <lb n="10"/>ცემისა. დასოფლებსა და დაბნებსა. და
+                <lb n="11"/>მჴარებსა მით თვისითა. დაუბრკოლებ-
+                <lb n="12"/>ელითა თავ დასხმითა უბადურად ჰყო-
+                <lb n="13"/>ფენ. მოსმინებასა შ<expan>&#x0360;<ex></ex></expan>ა ესენი არიან.
+            </p>
+            <pb n="43v"/>
+            <p> 
+                <lb n="1"/>ხვანთქართა ურუმისათა. ამისთვის რომ
+                <lb n="2"/>ისინი ურუმთა მიერ ერთ სარწმუნოე-
+                <lb n="3"/>ბანი. და ენითაცა მცირითა განიყო-
+                <lb n="4"/>ფიან. და ამისთვის სტანბოლის აღებას
+                <lb n="5"/>უკან. ურუმის ხვანთქარმან მათ მხ-
+                <lb n="6"/>არე ესე ყირიმისა მისცა. მასშიგან.
+                <lb n="7"/>პირველ ბერძენნი. გლახნი. და ღენუე-
+                <lb n="8"/>ცნი იმყოფებოდნენ: ] და ახლა ოდ
+                <lb n="9"/>ესმე ხვანთქრისა რომელსამე ქრისტან-
+                <lb n="10"/>ეთა მხარეთა შორის ომი ექმნება.
+                <lb n="11"/>მაშნ ის მას ძალითა თვისითა ნაწი-
+                <lb n="12"/>ლისაგან გინა სრულობით. შემწეობს
+                <lb n="13"/>და მისგან აროდეს ეგების თავისის დაჭირ-
+            </p>
+            <pb n="44r"/>
+            <p> 
+                <lb n="1"/>ებისათვის უკუნ ექცევიან:
+            </p>
+                <p>
+                <lb n="2"/>ამ საბატონოში დაიბადება იფქლი
+                <lb n="3"/>და ფეტვი. რომელსა პურსა იყიდიან მათ-
+                <lb n="4"/>გან ურუმნი. აგრევე დაპირუტყვნი-
+                <lb n="5"/>ცა მრავალ არს. დაყურმენიცა ნა-
+                <lb n="6"/>წილისაგან არს. და რ<expan>&#x0360;<ex></ex></expan> ახს არას ფრით
+                <lb n="7"/>ესრეთ. ვ<expan>&#x0360;<ex></ex></expan>ა ზემორე ამისსა მითქვამს
+                <lb n="8"/>ეგების ავაზაკობითა. და დევნულები-
+                <lb n="9"/>თა იზრდებიან. ტყვეთა განყიდიან და
+                <lb n="10"/>აროდესცა ყოველთა ქრისტიანეთა შორის
+                <lb n="11"/>მშვიდობა არა აქუსთ არამედ ოდეს ერთთა
+                <lb n="12"/>შორის შერიგდებიან. მაშინ მეორეთა
+                <lb n="13"/>შორის ბრძოლასა იწყებენ:
+            </p>
+            <pb n="44v"/>
+            </div>
+       <div type="chapter" n="14">
+               <head>აღწერა მეორისა ნაწილისა. ასიისათ<lb/> 
+                  ვის ჻
+               </head>
+           <p> 
+                <lb n="1"/>გვიქმნია აღწერა ევროპიისათვის. მო-
+                <lb n="2"/>ვადგებით აწ აღწერად მეორესა.
+                <lb n="3"/>ნაწილსა ასიისასა:
+           </p>
+           <p>
+                <lb n="4"/>განიყოფება ესე ნაწილი ჩრდილოვეთ-
+                <lb n="5"/>ით ყინულის ლოდისთვის. ზღვითა. ციმბირითა.
+                <lb n="6"/>სამძღვრისა აღმოსავლეთით. ჩინეთის
+                <lb n="7"/>საბატონო. და ზღვითა ლუვიანესითა. და
+                <lb n="8"/>საბატონოთა ოპონისათა სამხრეთით
+                <lb n="9"/>აფრიკა დაეგვიპტე და აღმოსავლეთითგანაც
+                <lb n="10"/>წყალი დუნა და დონი:
+            </p>
+            <p>
+               <lb n="11"/>ესე ნაწილი სხვას ნაწილებზედ. სიდ-            
+            <pb n="45r"/>
+                <lb n="1"/>იდითა. სიმდიდრით და სიმრავლით. არს-
+                <lb n="2"/>ცა მაშიგან ყოველითა გუარი მწარისაგან
+                <lb n="3"/>ყ<expan>&#x0360;<ex></ex></expan>ლი ნივთი და თვალნი ძვირ ფასნი ფრ-
+                <lb n="4"/>იად გამოდის:
+            </p>
+            <p>
+                <lb n="5"/>ესე ნაწილი უდიდებულეს იყო სხვათა
+                <lb n="6"/>ზ<expan>&#x0360;<ex></ex></expan>ა და რ<expan>&#x0360;<ex></ex></expan> განიგებენ ვ<expan>&#x0360;<ex></ex></expan>ა მე ამა ნაწილს
+                <lb n="7"/>შ<expan>&#x0360;<ex></ex></expan>ა დანერგულ იყოს სამოთხე. და პირ-
+                <lb n="8"/>ველ ქმნული კაცი ადამ მას შ<expan>&#x0360;<ex></ex></expan>ა შექმნ-
+                <lb n="9"/>ილ იყოს და ეშმაკისა ცთუნებითა დაე-
+                <lb n="10"/>ცა. და კ<expan>&#x0360;<ex></ex></expan>დ მოსვლითა განჴორციელებითა
+                <lb n="11"/>მაცხოვრისა ჩვენისა ღ<expan>&#x0360;<ex></ex></expan>თისა იესო ქრის-
+                <lb n="12"/>ტესითა ნათესავ კაცთა გამოხსნილ იქ-
+                <lb n="13"/>მნა. და ყოველი საცხოვრებელი საქმე 
+            </p>
+            <pb n="45v"/>
+            <p> 
+                <lb n="1"/>) მათთვის. ძველისა და ახლისა აღთქმი-
+                <lb n="2"/>სასა იმოწმებენე აქ შემოუღიათ აგრე-
+                <lb n="3"/>ვე. ამავ ნაწილსა შ<expan>&#x0360;<ex></ex></expan>ა. და პირველად ერ-
+                <lb n="4"/>თ უფალნი ასურასტანისანი. და პურასკისა
+                <lb n="5"/>აღმაღლდენ ჴელმწიფენი:
+            </p>
+             <p>
+                <lb n="6"/>ესე ნაწილი ასიისა განჰყო რ<expan>&#x0360;<ex></ex></expan>ლნიმე.
+                <lb n="7"/>ექუს ნაწილად. მათგანიცა პირველი
+                <lb n="8"/>ქვეშე უფლებათასა დიდთა ბატონებთა
+                <lb n="9"/>და მეფეთა მოსკოვისათა. ვ<expan>&#x0360;<ex></ex></expan>ა სამეფო
+                <lb n="10"/>ყაზანისა. და აშტარხანისა. და მიწა შო-
+                <lb n="11"/>რის დონისა და შორის ედილისა. აგრე-
+                <lb n="12"/>ვე დიდი და ფ<expan>&#x0360;<ex></ex></expan>დ ვრცელი სამეფო ციმ-
+                <lb n="13"/>ბირისა. რ<expan>&#x0360;<ex></ex></expan>ლიცა თვით სახელოანთა ზღ-
+            </p>
+            <pb n="46r"/>
+            <p> 
+                <lb n="1"/>უდედმდე მიაწევს.
+            </p>
+             <p>
+                <lb n="2"/>მეორე ნაწილი ახლა ქვეშე პყრობილობ-
+                <lb n="3"/>ასა ურუმთასა. რამეთუ სტამბოლიდამ
+                <lb n="4"/>ანატოლით მიერ ვიდრე პალესტინადმდე
+                <lb n="5"/>და წყლამდის ევფრათამდე. და მიწამდის საქ-
+                <lb n="6"/>ქართველოსამდე: - მესამე ნაწილი ცაღე-
+                <lb n="7"/>რი მინდვრები. და ბიაბნები დაფარულს
+                <lb n="8"/>მოსახლობითა ურიცხველითა კალმურითა
+                <lb n="9"/>თათრითა. მუნღალითა და სხვათა ჩირგუნა-
+                <lb n="10"/>რითა ქვემოსახლეთა ხალხთაგან: . . . 
+              </p>
+              <p>
+                <lb n="11"/>მეოთხე ნაწილი ქვეშე წარმართებასა ძლ-
+                <lb n="12"/>იერისა ხანისა ჩინეთისათა. მეხუთე მრ-
+                <lb n="13"/>ავალ რიგი სამეფო ინდოეთისა. რომელ-
+            </p>
+            <pb n="46v"/>
+            <p>  
+                <lb n="1"/>ნიცა აღსავსე არიან სიმდიდრითა დი-
+                <lb n="2"/>დითა. - - - - - - - 
+            </p>
+            <p>
+                <lb n="3"/>მექუსე ნაწილი ყაენისა ყიზილბაშთა-
+                <lb n="4"/>სა. მასვე ნაწილსა ზედა მოწესობს
+                <lb n="5"/>დიდი კუნძული ევიპრიისანი. ზღუასა
+                <lb n="6"/>შ<expan>&#x0360;<ex></ex></expan>ა თეთრსა აღმოსავლეთითცა დიდ-
+                <lb n="7"/>სა ლუკიანეზედ. ესები. სუმართა. ია-
+                <lb n="8"/>ვა. ბორენა. ველბეს. ბაღდადი. მიჩ-
+                <lb n="8"/>ლუვი ღილილო. ლუვონ. და იაპონისა:
+            </p>
+            </div>
+       <div type="chapter" n="15">
+               <head>ႱႠႾႤႪႫႼႨႴႭႧႠႧႥႨႱ<lb/> 
+                    ურუმისათა:
+               </head> 
+               <p>
+                <lb n="9"/>პირველ აღწერასა ვიწყებთ სახელმწიფო-
+            </p>
+            <pb n="47r"/>
+            <p>  
+                <lb n="1"/>თა ურუმისათა:
+            </p>
+                 <p>
+                <lb n="2"/>ესე სახელმწიფო უწინარეს წელსა ათასი-
+                <lb n="3"/>სა აღიზარდა დიდის შეუერთებლობის-
+                <lb n="4"/>აგან ქრისტიანეთასა. და პ<expan>&#x0360;<ex></ex></expan>ლ აღდგა მა-
+                <lb n="5"/>თი ცრუ ქადაგი მამად. და სახელ ედგარი
+                <lb n="6"/>მაიტელად. ვ<expan>&#x0360;<ex></ex></expan>ა მე გამოსრულ იყუნეს
+                <lb n="7"/>აბრაამის ცოლის ხარრისაგან. მას უკან იწ-
+                <lb n="8"/>ყეს ავაზაკობა. ქალაქებთა ზ<expan>&#x0360;<ex></ex></expan>ა ბერძენთ-
+                <lb n="9"/>ასა მოსულა. და ოდეს მეფეთა ბერძენთა-
+                <lb n="10"/>მან მოუწოდეს მათ თვისად შემწეობ-
+                <lb n="11"/>ად და აღნათქვამი გარდასახადი მათ აღ-
+                <lb n="12"/>არ მისცეს. მაშინ ერთი მჴარე მეორედ-
+                <lb n="13"/>ამ მოაშორეს. და უკანასკნელ თვით სამ-
+            </p>
+            <pb n="47v"/>
+            <p>  
+                <lb n="1"/>ეფო ქალაქი სტამბოლი. წელსა დასაბ-
+                <lb n="2"/>ამით სოფლისად ექუსი ათას ცხრაას
+                <lb n="3"/>სამეოცდა ერთსა აღიღეს:
+            </p>
+             <p>
+                <lb n="4"/>და ესრეთ არა გარნა სამეფო ბერძენთა
+                <lb n="5"/>ა<expan>&#x0360;<ex></ex></expan>დ ევროპიაშიაცა მრავალი მჴარები
+                <lb n="6"/>ვ<expan>&#x0360;<ex></ex></expan>ა ვენგერი. ბოლღარი. ფრაჴ. ვლახეჴ
+                <lb n="7"/>მოლდავა შვიდი ქალაქისა. და ლომატისა
+                <lb n="8"/>სხვაცა მრავალი დაიპყრა. და ესრეთ.
+                <lb n="9"/>განვრცელდა სიგძეზედ ესე სახელმწი-
+                <lb n="10"/>ფო. ვენგერისა ქვეყნიდამ. ზღუამდის
+                <lb n="11"/>ეთიოპამდის. სამი ათას ვერსზედ და უმ-
+                <lb n="12"/>ეტესიცა. და განი მისი. ეგვიპტითგან
+                <lb n="13"/>ვ<expan>&#x0360;<ex></ex></expan>ე ზოვამდისინ. სამი ათასი ვერსი.
+            </p>
+            <pb n="48r"/>
+            <p>  
+                <lb n="1"/>ანუ მცირითა უმცირეს:
+            </p>
+              <p>
+                <lb n="2"/>ამა მხარესა ქალაქები არს დიდროვნები
+                <lb n="3"/>მჴრები და მდიდრები. ვ<expan>&#x0360;<ex></ex></expan>ა სამეუფო ქალ-
+                <lb n="4"/>აქი. სტანბოლი რომელსაცა ბიზინტები
+                <lb n="5"/>უწოდდენ. პირველად იერუსალიმი. ეგ-
+                <lb n="6"/>ვიპტე. ალეეპპო. დამასკო. ალექსანდრია
+                <lb n="7"/>მაქა. აქედამე გამოვიდა წინასწარმეტყ-
+                <lb n="8"/>ველი მათი ცრუ მაჰმადი ) გამოაქუს ამ-
+                <lb n="9"/>ას ქვეყანასა. მრავალი აბრეშუმი და საქ-
+                <lb n="10"/>ონელი აბრეშუმისა. ოქრო. ღვინო. გამო-
+                <lb n="11"/>რჩეული. ბრინჯი. ზეთისხილი. საჭმე-
+                <lb n="12"/>ლი მური. და სხვა ნივთები კეთილ-
+                <lb n="13"/>სულნელი. შესავალი ზონთქრის კარისა
+            </p>
+            <pb n="48v"/>
+            <p>  
+                <lb n="1"/>არს დიდი. და განიგებენ მათდა ყოფად.
+                <lb n="2"/>უმეტეს ორმოცდა ათის მილიონისას. წე-
+                <lb n="3"/>ლიწადში ამისთვის ) ხარაჯას ყოველთა ქრ-
+                <lb n="4"/>ისტიანეთა ზ<expan>&#x0360;<ex></ex></expan>ა იღებენ მძიმეს. დავაჭ-
+                <lb n="5"/>რობა მათ შორის დიდი ყოველთა ევროპი-
+                <lb n="6"/>ისა ერთა შორის. და ძალი ხვანთქრისა
+                <lb n="7"/>წელსა გასულსა იყო დიდად ფ<expan>&#x0360;<ex></ex></expan>დ და მსწ-
+                <lb n="8"/>რაფლ ჟამით შეუძლიათ. მინდორსა ზედა
+                <lb n="9"/>გამოყვანა ცხენოსანისა მეომრისა ორასის
+                <lb n="10"/>ათასისა ქვეითითა უმეტეს ასის ათასის
+                <lb n="11"/>და მრავალი იარაღი და თადარიკი მჴედრ-
+                <lb n="12"/>ობათა:
+            </p>
+             <p>
+                <lb n="13"/>რიგდება ესე მჴარე ხვანთქრისაგან წარ
+            </p>
+            <pb n="49r"/>
+            <p>  
+                <lb n="1"/>მართებითა ერთუფლებითა. და ამა უფლებ-
+                <lb n="2"/>ასა მისცემს ვეზირსა თვისსა. და ისინი იხი-
+                <lb n="3"/>ლვენ თავის თავის დაუბრკოლებელად ეს-
+                <lb n="4"/>ეთ დიდსა აღწევნილობისა ძალში ჰყო-
+                <lb n="5"/>ფენ თვისითა ნებითა ნასაღსა. სიკუდი-
+                <lb n="6"/>ლსა აღოხრებასა მისივე უნდათ და მასვე
+                <lb n="7"/>შიშსა და მსაჯულობასა. მათსა ნებათ
+                <lb n="8"/>მისდრეკენ ამისთვის ძლივ ესეთსა ნებ-
+                <lb n="9"/>ასა შ<expan>&#x0360;<ex></ex></expan>ა ეგების ნახევარი წელიწადი გას-
+                <lb n="10"/>წიოს. ა<expan>&#x0360;<ex></ex></expan>დ რისხვითა ხვანთქრისათა ანუ
+                <lb n="11"/>სხვითა ბოროტითანსაქმითა რითმე წარწ-
+                <lb n="12"/>ყმდებიან. სარწმუნოება მათი მოცემ-
+                <lb n="13"/>ითა მაჰმადისათა. ]. ისივე მიაჩნიათ
+            </p>
+            <pb n="49v"/>
+            <p>  
+                <lb n="1"/>დიდათ წმიდათ:
+             </p>
+             </div>
+       <div type="chapter" n="16">
+               <head>ႱႠႫႤႴႭ ႷႨႦႨႪႡႠ<lb/> 
+                  შისათა჻
+               </head> 
+              <p>
+                <lb n="2"/>სამეფო ყიზილბაშისა რ<expan>&#x0360;<ex></ex></expan>ლიცა უწინა-
+                <lb n="3"/>რეს წელთა მრავალთასა დიდად სახე-
+                <lb n="4"/>ლოვან იყო და შემძლებელ. და რ<expan>&#x0360;<ex></ex></expan>
+                <lb n="5"/>მეორე მას მჴარესა შ<expan>&#x0360;<ex></ex></expan>ა ამაღლიდა ქვ-
+                <lb n="6"/>ეყანასა ზ<expan>&#x0360;<ex></ex></expan>ა ერთ უფალნი. ახლა სამე-
+                <lb n="7"/>ფო ის არის. არა დიდი სამძღუარიცა
+                  <lb n="8"/>მისი არს აღმოსავლეთით. სამეფო ინ-
+                  <lb n="9"/>დოვეთისა დასავლეთით ურუმისა. სამ-
+                  <lb n="10"/>ხრეთით დუვიანე. ჩრდილოვეთით სამე-
+            </p>
+            <pb n="50r"/>
+            <p>  
+                <lb n="1"/>ფო ქართლისა. ზღვა ხვალიმინსკისა რ<expan>&#x0360;<ex></ex></expan>ლ-
+                <lb n="2"/>არს გილანისა. აქუს სიგძე და განი. ვე-
+                <lb n="3"/>რსი შვიდასი. ანუ რვასი ეგების მც-
+                <lb n="4"/>ირითა უფროსი. სიმდიდრე მხრისა ამის
+                <lb n="5"/>მრავალი. აბრეშუმი და საქონელი მისგანვე
+                <lb n="6"/>ქმნულები. აგრევე და ბარბისაგანცა.
+                <lb n="7"/>სამოგვე. საკმელი მარგალიტი. მახლობ-
+                <lb n="8"/>ელ ურუმის კუნძულისასა ბარაინისა.
+                <lb n="9"/>მარცვალი ზღვასა შინა არს. და უმეტე-
+                <lb n="10"/>სა ნაწილსა აღმოსავლეთისასა მარგალ-
+                <lb n="11"/>იტსა ნაპირსა ზ<expan>&#x0360;<ex></ex></expan>ა ყიზილბაშისასა: შვებ-
+                <lb n="12"/>ენ შემოსავალი ყაენის განიგებენ ძლ-
+                <lb n="13"/>ივ რვას მილიონამდის მიაწევს ამის-
+            </p>
+            <pb n="50v"/>
+            <p>  
+                <lb n="1"/>თის. და ომსაც ვერ შემძლე არს. დიდი-
+                <lb n="2"/>სას აღწევნად. ა<expan>&#x0360;<ex></ex></expan>დ ყოველთაშორის
+                <lb n="3"/>გარემოს მეზობელთასა. სამარადისოდ
+                <lb n="4"/>ეგიებენ განსვენებასა. და თვით მოდგმა-
+                <lb n="5"/>მა განაწესა. სახელმწიფო ესე ურუმ-
+                <lb n="6"/>ისა მხრითგან მთებითა დიდითა და
+                <lb n="7"/>ბიაბნებითა. და ყეენთა შორის ინდოვეთ-
+                <lb n="8"/>ისათა ზოგჯერ მე ომი მასე ქნება.
+                <lb n="9"/>ა<expan>&#x0360;<ex></ex></expan>დ ყაენი ინდოვეთისა სიმრავლისათვის
+                <lb n="10"/>ჯართა თვისთასა და სპილოსათა ყიზილ-
+                <lb n="11"/>ბამზედ უძლიერეს არს. ზოგჯერცა ოზ-
+                <lb n="12"/>ბეგთა შორის ანუ ბუხარელთა ბრძლა
+                <lb n="13"/>დიდი აქუსთ მათ:
+            </p>
+            <pb n="51r"/>
+            <p>  
+                <lb n="1"/>მხარე ესე ფ<expan>&#x0360;<ex></ex></expan>დ არს მთიანი და მცირე
+                <lb n="2"/>წყლიანი. ამისთვის სავლელად გზა მას
+                <lb n="3"/>მაღალს მთაზედ ფ<expan>&#x0360;<ex></ex></expan>დ არს სასარჯლო.
+                <lb n="4"/>უფლება აქუს ყაენსა ყიზილბაშისა მო-
+                <lb n="5"/>ყმეთა თვისთა ზ<expan>&#x0360;<ex></ex></expan>ა მპყრობელობით და
+                <lb n="6"/>შეუძლიათ მცირისა მარცხისათვის ანუ
+                <lb n="7"/>არარასთვის კაცისა მოკულად. სარწმუნ-
+                <lb n="8"/>ებით არიან ყიზილბაშნი. ურუმთა
+                <lb n="9"/>მიერ მცირითა განყოფილნი. სწამსთ
+                <lb n="10"/>ორთავ ერთი მაჰმადი. გარნა მოციქ-
+                <lb n="11"/>ულად ის სხვა რიგად რათმე ერთმანერ-
+                <lb n="12"/>თში მიაჩნიათ: - - - - - - - -
+            </p>
+            <pb n="51v"/>
+             </div>
+       <div type="chapter" n="17">
+                <head>ხალხთათვის<lb/>
+                    ბიაბნისათა:
+                </head>
+              <p>   
+                <lb n="1"/>ბატონობა ხალხთა ბიაბნისათა არს
+                <lb n="2"/>განთესულ მრავალ ხალხად და ერად
+                <lb n="3"/>ვ<expan>&#x0360;<ex></ex></expan>ა თათარნი კალმუხნი მუნღალნი
+                <lb n="4"/>კირპიზნი. და სხვანიცა მათგანსა. ყო-
+                <lb n="5"/>ველსა ხალხსა ჰყავს თვისი თავადი
+                <lb n="6"/>ანუ მირზა ანუ თაჲში. რომელნიცა
+                <lb n="7"/>განთესვით. დიდსა მინდვრებსა. წყლისა
+                <lb n="8"/>პირებსა აღურჩევიათ თვისთა პირუტ-
+                <lb n="9"/>ყუთათვის ადგილი საცხოვრებელად
+                <lb n="10"/>რაოდენსა მე ჟამსა. მუნ იმყოფებ-
+                <lb n="11"/>იან. და ოდეს მას ალაგებს მოსძოვენ
+            </p>
+            <pb n="52r"/>
+            <p>  
+                <lb n="1"/>კუალად სხვას ალაგას წარვლენ:
+            </p>
+                 <p>
+                <lb n="2"/>ამა ერთა დაუცხრომელად აქუსთ შორის
+                <lb n="3"/>ურთიერთას ბრძოლა. და თუმცა მე ყო-
+                <lb n="4"/>ფილ იყო ძალი მათი ქვეშე უფლებასა
+                <lb n="5"/>ერთისასა. ვეჭობ. ს<expan>&#x0360;<ex></ex></expan>დ  ევროპა თავისის
+                <lb n="6"/>სიმრავლისაგან შესძლებდათ დამონე-
+                <lb n="7"/>ბად ა<expan>&#x0360;<ex></ex></expan>დ მით ურთიერთიერთს შორის
+                <lb n="8"/>შეიპყრნა ისინი უფალმან სიავკაცე-
+                <lb n="9"/>თა. სხვათა ერთაგან მჴედრობა მაფ
+                <lb n="10"/>სრულიად ცხენისანი. იარაღი აქუსთ
+                <lb n="11"/>მშვილდი ისარი. შუბი და მახვილი ცხენ-
+                <lb n="12"/>სა მათსა. კარგსა შეუძლიან. ერთსა
+                <lb n="13"/>დრესა სამოცი ანუ სამოცდაათი ვერ-
+            </p>
+            <pb n="52v"/>
+            <p>  
+                <lb n="1"/>სისა გავლა. და დაუბრკოლებლად მტე-
+                <lb n="2"/>რსა ზ<expan>&#x0360;<ex></ex></expan>ა დაცემა. და ძალი მათი ესრეთ
+                <lb n="3"/>მრავალ რიცხუ არს. რ<expan>&#x0360;<ex></ex></expan> მრავლის თაი-
+                <lb n="4"/>შებისა მათისაგან ოცათასი. და ოც-
+                <lb n="5"/>და ათი ათასი. და ასი ათასიც შეუძლ-
+                <lb n="6"/>იათ შეკრებად. და ესეთებს ისინი ხა-
+                <lb n="7"/>ნად იტყვიან. კალმუხნი და მუნღარ-
+                <lb n="8"/>ნი სარწმუნოებით არიან კერპთ თა-
+                <lb n="9"/>ყვანის მცემელნი. რომელიცია მიი-
+                <lb n="10"/>ღეს ჩინელებისაგან. და თილისმა მათ
+                <lb n="11"/>შორის არს დიდი. და რ<expan>&#x0360;<ex></ex></expan> თვისთა მტე-
+                <lb n="12"/>რთა ზ<expan>&#x0360;<ex></ex></expan> ზოგჯერ წვიმას ზოგჯერ თოვლს
+                <lb n="13"/>ანუ ზაფხულსა შ<expan>&#x0360;<ex></ex></expan>ა მოჩვენებით დაუ
+            </p>
+            <pb n="53r"/>
+            <p>  
+                <lb n="1"/>შვებენ ერთა ამათგანნი. მოყმეობენ
+                <lb n="2"/>მეფესა მოსკოვისასა. მასვე არა გარნა
+                <lb n="3"/>ხარჯსა აძლევენ. ა<expan>&#x0360;<ex></ex></expan>დ დამმსმინენი
+                <lb n="4"/>არიან. ლაშქარსა წარსულად ვიზედაც
+                <lb n="5"/>მათ წარგზავნიან
+             </p>
+             </div>
+       <div type="chapter" n="18">
+                <head>ႱႠႫႤႴႭႧႠႧႥႨႱ ჩი<lb/> 
+                     ნეთისა:
+                </head> 
+             <p>
+                <lb n="6"/>სამეფო ჩინეთისა. რომელსაცა ხინად
+                <lb n="7"/>ეწოდება. მრავლის აღმწერლებისაგან
+                <lb n="8"/>უძლიერესად და მრავალ ეროვნად დაუ-
+                <lb n="9"/>მდიდრესად  ყოველთა ასიისა მხარეთა
+                <lb n="10"/>ზ<expan>&#x0360;<ex></ex></expan>ა ყოფად უხსენებიათ. სამძღვრით
+            </p>
+            <pb n="53v"/>
+            <p> 
+                <lb n="1"/>თვისითა შეეხება. ჩრდილოვეთით და
+                <lb n="2"/>აღმოსავლეთით ზღვასა ლუვანესა
+                <lb n="3"/>დიდსა დასავლეთიგანცა მოაწვა.
+                <lb n="4"/>სამეფო ინდოვეთისა. სამხრეთითცა
+                <lb n="5"/>მოსამძღურელობს დიდსა ცალიერსა
+                <lb n="6"/>ბიაბნებსა მუნღარისასა. მის მხრით-
+                <lb n="7"/>გან არს შემოზღუდვილი. დიდისა და 
+                <lb n="8"/>საკვირველისა გალავნითა ქვითკირისათა
+                <lb n="9"/>რომელნიცა ათას ხუთას ვერსზედ სწ-
+                <lb n="10"/>ვდება. და ისი გალავანი. დიდათ
+                <lb n="11"/>გასაკვირველია ყოველთა ერთათვის ევრ-
+                <lb n="12"/>ოპიისათა. წაყუანილ არს დიაღი მძ-
+                <lb n="13"/>იმის სისქით მიერ მთისა. და სიგძის
+            </p>
+            <pb n="54r"/>
+            <p>  
+                <lb n="1"/>აცა. განიყოფებაცა ესე სამეფო. ხუთ
+                <lb n="2"/>განყოფილებად. დიდად. მათგანსა ჰყავს
+                <lb n="3"/>ყოველსავე თვითეულად თავისი მეფე
+                <lb n="4"/>რომელთაცა ერთობით ყოველსა ჰყავთ
+                <lb n="5"/>ერთიხანი. გინა მეფე მყოფი. ქალ-
+                <lb n="6"/>აქსა შ<expan>&#x0360;<ex></ex></expan>ა პეჟენას ანუ კამბელივას. შესა-
+                <lb n="7"/>ვალსა მისსა განიგებენ. ყოფად უმე-
+                <lb n="8"/>ტეს მრავალთა ხელმწიფეთა. და ძალი
+                <lb n="9"/>მისი. ორასი ათასი ცხენოსანი. სამასი
+                <lb n="10"/>ათასი ქვეითოსანი. შეუძლიათ შეკრ-
+                <lb n="11"/>ებად. და რ<expan>&#x0360;<ex></ex></expan> სიმრავლისა მჴრისა ამისთ-
+                <lb n="12"/>ვის ყოვლისავე რაიცა კაცსა შეუძლიან
+                <lb n="13"/>მისანდობად ამა ერთა ანუ არავის შორის
+            </p>
+            <pb n="54v"/>
+            <p>  
+                <lb n="1"/>ბრძოლა არა აქუსთ. და ეძიებენ ყოველთა
+                <lb n="2"/>გარემოს მეზობელთა შორის განსვენებასა
+                <lb n="3"/>ამისთვის რომე მჴედრობათა საქმე. და
+                <lb n="4"/>პატივი მოქალაქობათა. დიდად სარცხ-
+                <lb n="5"/>ვინელად მიაჩნიათ. და იტყვიან. რ<expan>&#x0360;<ex></ex></expan>
+                <lb n="6"/>კაცი თვით თავისი ბუნებით არს შე-
+                <lb n="7"/>ქმნულიო. გინა დაბადებულიო ში-
+                <lb n="8"/>შველ. გარნა ყოველისავე საჭურველისაო
+                <lb n="9"/>და ხამს მას ყოველთა შორის მშვიდობით
+                <lb n="10"/>ბრძოლით და ომით მსგავს არიან ნადი-
+                <lb n="11"/>რთა. და პირუტყუთა უსიტყველთა.
+                <lb n="12"/>ესრეთისა მიზეზის გულისათვის. ერთა
+                <lb n="13"/>ამათ გონიერება თვისი დაუპყრიათ. უმ
+            </p>
+            <pb n="55r"/>
+            <p>  
+                <lb n="1"/>ეტეს ჴელოვნებაზე მრავალ რიგზ-
+                <lb n="2"/>ედ და ამაშიგან ესეთნი. არიან ჴელო-
+                <lb n="3"/>ვანნი ვ<expan>&#x0360;<ex></ex></expan>ს საქონელსა შ<expan>&#x0360;<ex></ex></expan>ა აბრეშუმისასა
+                <lb n="4"/>და ჭურჭელსა ქვისასა. უზეშთაესობენ ყო-
+                <lb n="5"/>ველთა ერთა. ქვეყანასა ზ<expan>&#x0360;<ex></ex></expan>ა. და განიგ-
+                <lb n="6"/>ებენ რ<expan>&#x0360;<ex></ex></expan> სტამბა წიგნთა. და სროლა
+                <lb n="7"/>წამლითა პირველად ამათგან პოვნილ-
+                <lb n="8"/>არს. აქუსთცა ფ<expan>&#x0360;<ex></ex></expan>დ პატიოსანი რჯ-
+                <lb n="9"/>ულის დადება. მოქალაქობისა რომლ-
+                <lb n="10"/>ითაცა მსაჯულობენ ყოველსავე მარ-
+                <lb n="11"/>ლად. გარნა ყოველსავე შიშისა.
+                <lb n="12"/>და რ<expan>&#x0360;<ex></ex></expan> მართალი სარწმუნოება. და ჭეშ-
+                <lb n="13"/>მარიტისა ღ<expan>&#x0360;<ex></ex></expan>თისა და მაცხოვრისა
+            </p>
+            <pb n="55v"/>
+            <p>  
+                <lb n="1"/>განჴორციელება. უფლის ღ<expan>&#x0360;<ex></ex></expan>თისა და მა-
+                <lb n="2"/>ცხოვრისა არა აქუსთ. მრავლით გამოწლ-
+                <lb n="3"/>ითგან განგებულობენ კერპთა ბომონ-
+                <lb n="4"/>სა. ელენთასა თაყვანისცემენ. არა 
+                <lb n="5"/>გარნა მზესა და მთვარესა. და მრა-
+                <lb n="6"/>ვალ რიგს კერპებსა. ა<expan>&#x0360;<ex></ex></expan>დ და თვით სა-
+                <lb n="7"/>ტანისაცა. და არა უყოფენ მას ბო-
+                <lb n="8"/>როტსა. სიმდიდრე არს გამომავალი
+                <lb n="9"/>მჴარის ამის. მრავალი აბრეშუმი
+                <lb n="10"/>და საქონელი აბრეშუმისაგან ქმნ-
+                <lb n="11"/>ულები. ქამხა. ხავედი თავთა. ძირი-
+                <lb n="12"/>რევანდისა მსგავსი ქუა ძვირფასი
+            </p>
+            <pb n="56r"/>
+            <p> 
+                <lb n="1"/>უმეტესცა. ლალი დიდები. და იაგუნდი
+                <lb n="2"/>ჭურჭელი ჩინურისა. ძირი ინისა. და
+                <lb n="3"/>მრავალ რიგი მწარე ნივთი ფ<expan>&#x0360;<ex></ex></expan>დი
+                <lb n="4"/>აქუსთცა ოქრო და ვერცხლი მრავალი
+                <lb n="5"/>სპილენძი და კალა. ერნი ამისნი გა-
+                <lb n="6"/>ნკვირვებად არს ყოველს მყოფთათვის
+                <lb n="7"/>ქვეყანასა ზედა. თუმცა წერასა შ<expan>&#x0360;<ex></ex></expan>ა 
+                <lb n="8"/>თვისსა ანბანსა ანუ არას ასოებს
+                <lb n="9"/>არა ხმარობენ რომ ყოველი სიტყუა
+                <lb n="10"/>მით შეაწყონ. და რ<expan>&#x0360;<ex></ex></expan> აქუსთ ყოველსა
+                <lb n="11"/>შეწყობილებისათვის. ანუ სიტყვის-
+                <lb n="12"/>ათვის სხვა რიგი ნახაზულობა. ანუ ხა-
+                <lb n="13"/>რავთირი და მით დიდათ მოსწრაფებითა
+            </p>
+            <pb n="56v"/>
+            <p> 
+                <lb n="1"/>მაღლიდამე და ბლამდის სწერენ. და ეს-
+                <lb n="2"/>ეთისა მიზეზისათვის დიდათ სასარჯლო-
+                <lb n="3"/>არს ერთათვის ევროპიისათა წიგნი.
+                <lb n="4"/>მათი სასწავლელად:
+              </p>
+             </div>
+       <div type="chapter" n="19">
+                 <head>ႱႠႾႤႪႫႼႨႴႭႧႠႧ<lb/> 
+                    ვის ინდოეთისათა
+                 </head>
+             <p>
+                <lb n="5"/>სახელმწიფო ინდოვეთისა. რომელი-
+                <lb n="6"/>ცა არს აღმოსავლეთით მდებარ-
+                <lb n="7"/>არს არა გარნა ვრცელ ფ<expan>&#x0360;<ex></ex></expan>დ უპატიო-
+                <lb n="8"/>სნეს არს სამეფო საყოფითა მიწისათა
+            </p>
+            <pb n="57r"/>
+            <p>  
+                <lb n="1"/>და ქვითა ძვირ ფასითა სხვათა მჴარეთა ზ<expan>&#x0360;<ex></ex></expan>ა 
+                <lb n="2"/>ქვეყანისათა. და რ<expan>&#x0360;<ex></ex></expan> მუნ არს ალმასი
+                <lb n="3"/>და წითელი იაგუნდი. სამძღუარი მისი
+                <lb n="4"/>აღმოსავლეთით. სამეფო ჩინეთის
+                <lb n="5"/>სამჴრეთით ზღუა ლუვიანე. ჩრდილ-
+                <lb n="6"/>ოვეთით  და დასავლეთით. სამეფო
+                <lb n="7"/>ბუხაარისა. და ყიზილბაშისა. ამა სახ-
+                <lb n="8"/>ელოვანსა მჴარესა გამოაქუს და აღ-
+                <lb n="9"/>ვსებს ყოველსა ქვეყანასა  მცხედ-
+                <lb n="10"/>რისაგან თვისთასა. ძვირ ფასითა თვი-
+                <lb n="11"/>სითა ნაყოფითა. კეთილ სულნელი-
+                <lb n="12"/>თა. დარიჩინითა ჯავზითა და მისი-
+                <lb n="13"/>ვე ყვავილითა და პილპილითა და მიხ-
+            </p>
+            <pb n="57v"/>
+            <p> 
+                <lb n="1"/>აკთა. და სხვათა ფ<expan>&#x0360;<ex></ex></expan>დითა კეთილ  სულნელთა
+                <lb n="2"/>და თუმცა არა ყოფილ იყო. ჰაერი შე-
+                <lb n="3"/>მწველი. რ<expan>&#x0360;<ex></ex></expan> მუნ სიცხითა დიდითა
+                <lb n="4"/>კაცსა შებნედს. ვგონებ რ<expan>&#x0360;<ex></ex></expan> მხარესა მას
+                <lb n="5"/>შ<expan>&#x0360;<ex></ex></expan>ა ყოფილიყოს მთელი ედემი. და პირ-
+                <lb n="6"/>ველ ქმნულისა კაცისა ადამისა საყოფ-
+                <lb n="7"/>ელი. განიყოფება ესე სამეფო. მრა-
+                <lb n="8"/>ვალ სამეფოდ. ანუ მხარებად. რომელ-
+                <lb n="9"/>ნიცა არს ესენი კამბაი. ორიისსა. ბე-
+                <lb n="10"/>ლღალა. არავან. პეღუ. მალვეა. სი-
+                <lb n="11"/>ამ თიპურა. ვოური კალივუთ. და მაღ-
+                <lb n="12"/>აბარ. მათგანი რომელნიმე დამორჩილ-
+                <lb n="13"/>ებულ არს. ინდოვეთისა ყაენისათა
+            </p>
+            <pb n="58r"/>
+            <p> 
+                <lb n="1"/>ზოგთა თავისი სხვა მეფები ჰყავსთ. ხალ-
+                <lb n="2"/>ხნი ესენი არიან საქმეთა ვაჭრობისათა
+                <lb n="3"/>და ხელოვნებათაც შ<expan>&#x0360;<ex></ex></expan>ა ფ<expan>&#x0360;<ex></ex></expan>დ ხელოვანნი.
+                <lb n="4"/>აქუსთცა ომი უმეტეს გარემოსთათვი-
+                <lb n="5"/>სთა შორის ყიზიბაშთა და ბუხარელთა
+                <lb n="6"/>შორის და ერთიერთარს. შორის აქუსთ ბრძო-
+                <lb n="7"/>ლა დიდი რ<expan>&#x0360;<ex></ex></expan>ლთა მიერ მრავალთა გამო-
+                <lb n="8"/>ცდილს სპილოებს შეაბმენ ხორთუ-
+                <lb n="9"/>მსა ზ<expan>&#x0360;<ex></ex></expan>ა დიდსა ხრლმებსა. და ხმარობენ
+                <lb n="10"/>სარწმუნოებით  არიან ზოგნი მაჰმა-
+                <lb n="11"/>დიანი. და სხვანი ბომონთა მაქებელნი
+                <lb n="12"/>გინა კერპთა თაყუანისმცემელნი. და
+                <lb n="13"/>კუალად ზოგნი არიან. რ<expan>&#x0360;<ex></ex></expan> არს პირუტ-
+            </p>
+            <pb n="58v"/>
+            <p>  
+                <lb n="1"/>ყვს არა სჭამენ. ამისთვის რომე. სწამთ
+                <lb n="2"/>რ<expan>&#x0360;<ex></ex></expan> მკუდრის კაცის სული რომელსა პირუ-
+                <lb n="3"/>ტყვსა შ<expan>&#x0360;<ex></ex></expan>ა დაიმკვიდრებსო. და რ<expan>&#x0360;<ex></ex></expan> ახს-
+                <lb n="4"/>ცა მათ შორის ძველი ჩვეულება. ოდეს
+                <lb n="5"/>ქრმისა მკუდრისა. ჴორცსა მისსა დას-
+                <lb n="6"/>წვენ. და ცოლსა მისსა თუმცა არა უწ-
+                <lb n="7"/>და ყვედრებისა სიტყუათა შ<expan>&#x0360;<ex></ex></expan>ა ყოფა.
+                <lb n="8"/>მას ცეცხლსა შ<expan>&#x0360;<ex></ex></expan>ა გარდაისხამს თავსა.
+                <lb n="9"/>კეთილ სულნელსა ზეთსა. ახლტება
+                <lb n="10"/>და ერთბამად ქმართა თვისთა შორის და
+                <lb n="11"/>აწვის. აქავე არს ხე საკვირველი. რომელ-
+                <lb n="12"/>სა ეწოდება ხერა. რომელიცა ოდეს
+                <lb n="13"/>აღიზრდება რტებისა თვისისაგან და
+            </p>
+            <pb n="59r"/>
+            <p> 
+                <lb n="1"/>უშვებს მიწისაკენ. ვ<expan>&#x0360;<ex></ex></expan>ა თოკსა წერილსა.
+                <lb n="2"/>რომელიცა შეიხებს მიწასა ფესოვან იქ-
+                <lb n="3"/>ნება და კ<expan>&#x0360;<ex></ex></expan>დ ხე იქმნება. და ესრეთ ერთის
+                <lb n="4"/>ხისაგან ტყე დიდი აღიზრდება. მეორე-
+                <lb n="5"/>ცაა ხე ეწოდება. არბრისტითე ანუ
+                <lb n="6"/>ხე მწუხარე. და ისი აროდეს. დღისით არ
+                <lb n="7"/>აყუავდების. ა<expan>&#x0360;<ex></ex></expan>დ თამით ვიდრე დასავლად-
+                <lb n="8"/>მდე მთისათა დგას ხე ვ<expan>&#x0360;<ex></ex></expan>ა მე განჴმელი.
+                <lb n="9"/>ოდეს მზე დავალს. ერთისა საათით
+                <lb n="10"/>აღყუავდების და გამოუთქმელსა კეთილ
+                <lb n="11"/>სულნელებასა გამოუშვებს. ოდეს მზე
+                <lb n="12"/>კუალად აღმოვალს მაშინ ყვავილი ჩამოს-
+                <lb n="13"/>ცვივდების და პირველვე სახითა მწუხარებ-
+            </p>
+            <pb n="59v"/>
+            <p> 
+                <lb n="1"/>ისათა შეიცვლების და ესრეთ ს<expan>&#x0360;<ex></ex></expan>დ წელიწ-
+                <lb n="2"/>ადში. ეს ყოვლის დღისათვის საკვირვე-
+                <lb n="3"/>ლი ხე შეიცულება:
+             </p>
+             </div>
+       <div type="chapter" n="20">
+                  <head>კუნძულისათვის ინდოვე<lb/> 
+                     თისა:
+                  </head>
+               <p>
+                <lb n="4"/>კუნძულებთაგან ინდოვეთისათა არს.
+                <lb n="5"/>უპატიოსნესი კუნძული წოდებული
+                <lb n="6"/>ცელამიდ. მაზედა გარნა ერთი დარი-
+                <lb n="7"/>ჩინი. იზრდება. ამავე კუნძულსა შ<expan>&#x0360;<ex></ex></expan>ა
+                <lb n="8"/>მრავალ არს სპილოები გამორჩეულნი და
+                <lb n="9"/>გამოცდილნი. რომელნიცა სიდიდითა.
+                <lb n="10"/>შვენიერებითა და გამოცდილებითა- ომისა
+            </p>
+            <pb n="60r"/>
+            <p>  
+                <lb n="1"/>თა უმეტეს ყოველთა ინდოეთისა სპილ-
+                <lb n="2"/>ოებთაგან გამოდიან ამა კუნძულდამე და
+                <lb n="3"/>სავლეთით არს კუნძულები მალდვისა
+                <lb n="4"/>განიგებენ მოხუცებულნი აღმწერლები
+                <lb n="5"/>ამა კუნძულებთათვის. რ<expan>&#x0360;<ex></ex></expan> აღრიცხვება
+                <lb n="6"/>უმეტეს არა თუ თერთმეტი ათასი უფ-
+                <lb n="7"/>როსი ნაწილი მათი. მოსახლენი და ზოგ-
+                <lb n="8"/>მი სიმდაბლის გულისათა მიწისათვის ცა-
+                <lb n="9"/>რიელი არს. ამაკუნძულსა შ<expan>&#x0360;<ex></ex></expan>ა იზრდება
+                <lb n="10"/>ხესა ზედა. დიდი ინდოეთისა კაკალი.
+                <lb n="11"/>ესეთის სიმრავლით. რ- მოსახლენი კუ-
+                <lb n="12"/>ნძულისა ამისნი მით კაკლითა იზრდებ-
+                <lb n="13"/>იან წყლითაცა რომელსა მასშიგან სამ-
+            </p>
+            <pb n="60v"/>
+            <p>  
+                <lb n="1"/>წყურვალსა თვისსა შთასხმენ. და ხისა-
+                <lb n="2"/>გან სახლსა თვისთა აღაგებენ. და სვა-
+                <lb n="3"/>მალდებთა. ფურცლითა მით ხისათა და
+                <lb n="4"/>ხურვენ. სამყოფელსა თვისსა. გარემოს
+                <lb n="5"/>მათ კაკალთასა იზრდება მსგავს ხელი-
+                <lb n="6"/>სათა. მისგან აკეთებენ საბელსა. და
+                <lb n="7"/>ის კაკლები გააქუსთ ყოველსა ინდო-
+                <lb n="8"/>ვეთს შ<expan>&#x0360;<ex></ex></expan>ა . და მისის ფასითა სხვას თავის
+                <lb n="9"/>მოსახმარ იყიდიან:
+            </p>
+                 <p>
+                <lb n="10"/>კუნძული სუმართა განიყოფება.
+                <lb n="11"/>მრავალ რიგ სამეფოდ. მათგანი ახ-
+                <lb n="12"/>იმისა არს გამოჩენილი. აქ მრავალ რი-
+                <lb n="13"/>გი იზრდება პილპილი. და მადანი სპ-
+            </p>
+            <pb n="61r"/>
+            <p>  
+                <lb n="1"/>ილენძისა მრავალ. და მისგან ჩამოსხმენ.
+                <lb n="2"/>მოსახლენი მჴრისა ამისნი ზარბაზნებსა
+                <lb n="3"/>აქ მრავალ არს სპილოები ტყეებში
+                <lb n="4"/>დიდები. და საომრათ ფ<expan>&#x0360;<ex></ex></expan>დ გამოსადეგნი.
+                <lb n="5"/>არიანცა კუალად ამას კუნძულსა შინა
+                <lb n="6"/>ნადირნი წოდებით რინოცეარ. რომელი-
+                <lb n="7"/>ცა აღზრდილობით მრავლობით სპი-
+                <lb n="8"/>ლოთა უმცირეს. და რ<expan>&#x0360;<ex></ex></expan> მის შორის შე-
+                <lb n="9"/>მაბშელობს. და მას დაამარცხებს ამის-
+                <lb n="10"/>თვის რომე ნადირსა ნირცერსა მინა
+                <lb n="11"/>მარტო რქასა შ<expan>&#x0360;<ex></ex></expan>ა დიდი აქუს ძალი მი-
+                <lb n="12"/>ერ ყოვლისავე შხამისა დასაწამლავისა-
+                <lb n="13"/>თვის კაცისა მისცემია:
+            </p>
+            <pb n="61v"/>
+            <p>  
+                <lb n="1"/>კუნძული იავა არს მრავლობით. არა
+                <lb n="2"/>გარნა პილპილითა. ა<expan>&#x0360;<ex></ex></expan>დ და მიხაკითაცა
+                <lb n="3"/>კაკლითა. ჯავზითა. და ყუავილითა.
+                <lb n="4"/>და სხვათა ფრიადითა კეთილ სულნელითა
+                <lb n="5"/>განიყოფება აგრევე. მრავალ სამეფო
+                <lb n="6"/>მათგანი დიდი მეთერანი. და ვრალი ბა-
+                <lb n="7"/>ნთამისა. არს თავის სარწმუნოებით
+                <lb n="8"/>რომელნიმე მაჰმადიანნი. სხვანიცა უწ
+                <lb n="9"/>წმინდურნი და კერპთ მსახურნი. ამას კუ-
+                <lb n="10"/>ნძულსა შ<expan>&#x0360;<ex></ex></expan>ა უწინარეს წლისა ოთხმეო-
+                <lb n="11"/>ცისა. აღაშენეს გალიტელთა თავისთვის
+                <lb n="12"/>ციხე ბათვია რომელსა შ<expan>&#x0360;<ex></ex></expan>ა მათ ახლა უზ-
+                <lb n="13"/>ისთ პრეზიდენტი. გინა ნაიბი გინა
+            </p>
+            <pb n="62r"/>
+            <p> 
+                <lb n="1"/>მდურავი. და რაოდენი მე კაცნი მოფიქრალნი
+                <lb n="2"/>და ყოველსა მხარესა ინდოვეთისას წარგზავ-
+                <lb n="3"/>ნიან. ვაჭართა თისთა. და ესრეთ იქ შე-
+                <lb n="4"/>ძლებაში და ძალი არიან რომ შეუძლიათ
+                <lb n="5"/>საომრისა ხვამლდებისა უმეტეს ორმო
+                <lb n="6"/>ცდა ათისა შეკრებად. და სიმდიდრე მა-
+                <lb n="7"/>თი ესეთს ძალიანი რომ ყოველსა წელ-
+                <lb n="8"/>იწადში წარმოგზავნიან თვისსა ჴვამალ-
+                <lb n="9"/>დსა. გალატის ქვეყანაში. რომელსა
+                <lb n="10"/>შ<expan>&#x0360;<ex></ex></expan>ა ესეთი დიდი სამკაული არს. რომ ფა-
+                <lb n="11"/>სითა მიუწვდებიან. ათამდის და თხუ-
+                <lb n="12"/>თმეტს მილიონამდის. და ამით ერთ-
+                <lb n="13"/>ითა საშოვრითა გალატის ქვეყანა
+            </p>
+            <pb n="62v"/>
+            <p> 
+                <lb n="1"/>ფ<expan>&#x0360;<ex></ex></expan>დ მდიდრდება. და სიმდიდრითა მით
+                <lb n="2"/>დიდისა ომისა. მეზობელთა შორის თვის-
+                <lb n="3"/>თა აღძრვად შემძლე არიან:
+            </p>
+                 <p>
+                <lb n="4"/>კუნძული ბანდარისა  არის არს არა დიდი
+                <lb n="5"/>და რ<expan>&#x0360;<ex></ex></expan> ფ<expan>&#x0360;<ex></ex></expan>დ მრავლობით არს კაკლითა ჯ. –
+                <lb n="6"/>ვზისათა. და ესე კუნძული ყოველსა
+                <lb n="7"/>ქვეყანასა აღავსებს ნაყოფითა
+                <lb n="8"/>ამით. ხე მასზედა ნაყოფი ესე იზრდება-
+                <lb n="9"/>მრავლით არს მსგავს ხესა მსხლისასა
+                <lb n="10"/>გარნა უმცირეს. ესე კაკალი იზრდება
+                <lb n="11"/>მათ ხეთა ზ<expan>&#x0360;<ex></ex></expan>ა მსგავს ვაშლთასა. და
+                <lb n="12"/>ოდეს ქერქი ზევითი აღეხდების ქვეშე
+                <lb n="13"/>მისა არს ყუავილი გარემოს ხეჭუჭთა
+            </p>
+            <pb n="63r"/>
+            <p> 
+                <lb n="1"/>მას შიგან ის კაკალი შეუნჯებულ-
+                <lb n="2"/>არს. სამგზის ერთსა ზაფხულსა შ<expan>&#x0360;<ex></ex></expan>ა
+                <lb n="3"/>ერთსა ხესა ზ<expan>&#x0360;<ex></ex></expan>ა დამწიფდების. თვესა
+                <lb n="4"/>აგვისტოსა დეკენბერსა. და უმჯობესად
+                <lb n="5"/>აპრილსა შ<expan>&#x0360;<ex></ex></expan>ა ამა კუნძულსა შ-ა აქვს
+                <lb n="6"/>საკვირველი მფრინველი ვიტყვით სიდიდ-
+                <lb n="7"/>ით მცირითა რითმე უფროს ყუისას
+                <lb n="8"/>ფერითა შავი. თავსა ზ<expan>&#x0360;<ex></ex></expan>ა აქუს ძვალი
+                <lb n="9"/>ვ<expan>&#x0360;<ex></ex></expan>ა საბურველი. ფეხი ფ<expan>&#x0360;<ex></ex></expan>დ მაღლი. და 
+                <lb n="10"/>მით ვ<expan>&#x0360;<ex></ex></expan>ა ცხენი იცემება. შთანთქამს
+                <lb n="11"/>რკინას. და დიდსა რკინას ცხელსა ნაკლებ-
+                <lb n="12"/>ცხალსა და ყინულსა ყოვლითურთ უვნებელად
+            </p>
+            <p>
+                <lb n="13"/>კუნძული მალდიისანი მდებარე არს ქვე-
+            </p>
+            <pb n="63v"/>
+            <p> 
+                <lb n="1"/>შე ევკვაორიისასა. ანუ განმასწორ-
+                <lb n="2"/>ებელთასა) თუმცა და მცირედნი არს
+                <lb n="3"/>და რ<expan>&#x0360;<ex></ex></expan> ყოველსა ქვეყანასა ზ<expan>&#x0360;<ex></ex></expan>ა სახელოვ-
+                <lb n="4"/>ან არს ფ<expan>&#x0360;<ex></ex></expan>დ ამისთვის რ<expan>&#x0360;<ex></ex></expan> მუნ შეკრებენ
+                <lb n="5"/>მიხაკსა რიცხვით. ისინი არს ხუთი მა-
+                <lb n="6"/>თაცა. სახელები არს ესე. თურნათა.
+                <lb n="7"/>თიდორია. მათერ. მახპნ. და ბახიან-
+                <lb n="8"/>ხე მას ზედა ესე ნაყოფ იზრდების
+                <lb n="9"/>მსგავს არს ხეთა ზეთისხილთასა.
+                <lb n="10"/>ყუავილი მისი ესრეთ არს კეთილ სულ-
+                <lb n="11"/>ნელი. რომ ყოველსა კეთილ სულნელებასა
+                <lb n="12"/>ქვეყანასა ზედა უზემთაესობს:
+            </p>
+            <p>
+                <lb n="13"/>ამა კუნძულებსა შ<expan>&#x0360;<ex></ex></expan>ა არაფერი პური
+            </p>
+            <pb n="64r"/>
+            <p> 
+                <lb n="1"/>არცა ბრინჯი არა არს დამოსახლენი
+                <lb n="2"/>მჴრისა ამისნი იზრდებიან. და აკეთებ-
+                <lb n="3"/>ენ ძირთაგან რომლისამე ხეთასა. და გარე-
+                <lb n="4"/>ული თხა მუნ მრავალ არს ფ<expan>&#x0360;<ex></ex></expan>დ
+            </p>
+             <p>
+                <lb n="5"/>აქა იმყოფება გარნა საკვირველი მფრ-
+                <lb n="6"/>ინველი ღამაიყნი რომელსაცა და სამოთხ-
+                <lb n="7"/>ისად უწოდებენ. გინა. იტყვიან.
+                <lb n="8"/>და ფრინავს ჰაერსა შ<expan>&#x0360;<ex></ex></expan>ა. აროდესცა და-
+                <lb n="9"/>იძინებს:
+            </p>
+            <pb n="64v"/>
+            </div>
+       <div type="chapter" n="21">
+              <head>ႠႶႼႤႰႠ<lb/>
+                 ქვეყნადის მესამედის ნაწილისა: - -<lb/>
+                 აფრიკისათვის:
+              </head>
+             <p>  
+                 <lb n="1"/>და ესრეთ აღვასრულე აღწერა მეორ-
+                 <lb n="2"/>ისა ნაწილის ქვეყანისათვის ვიწყებ აღ-
+                 <lb n="3"/>წერასა ქმნად მესამეთა ნაწილთა. აფ-
+                 <lb n="4"/>რიკისათა:
+             </p>
+                <p>
+                 <lb n="5"/>ესე ნაწილი აფრიკა ძეს სამჴრეთი-
+                 <lb n="6"/>საკენ გარეშემორტყმულარს. ყოველთა
+                 <lb n="7"/>მჴარეტაგან ზღვებითა ლუვიანესითა.
+                 <lb n="8"/>და თეთრითა და შავითა გარნა ეგვიპტეს შ<expan>&#x0360;<ex></ex></expan>ა
+                 <lb n="9"/>აზიითურთ გზითა მიწისატა არს მო-
+                 <lb n="10"/>ბმული მიწები და მჴარები მყოფნი
+           </p>
+            <pb n="65r"/>
+            <p> 
+                <lb n="1"/>ნაწილსა ამას შინა ესენი არს. ვარ
+                <lb n="2"/>ვარია. ეგვიპტე. ბილედუნ ღერიდ.
+                <lb n="3"/>ხარადუნი. ეთიოპია. აბესა. აბეს-
+                <lb n="4"/>ალომელნი. მონომთათა:
+            </p>
+                <p>
+                <lb n="5"/>კუნძულნი არს ნაწილსა იმას შ<expan>&#x0360;<ex></ex></expan>ა
+                <lb n="6"/>კანარისა. სუმათრა  და სხვებიცა:
+                </p>
+                <p>
+                <lb n="7"/>ამა ნაწილსა გამოაქუს ევროპას
+                <lb n="8"/>შ<expan>&#x0360;<ex></ex></expan>ა ოქრო. სპილოს კბილი. შაქარი
+                <lb n="9"/>სანელებელი ზეთისხილი ხურმა
+                <lb n="10"/>ღვინო. კენარისა“</p>
+            </div>
+       <div type="chapter" n="22">
+               <head>
+                  ႫႾႠႰႤႧႠႧႥ<lb/>
+                 ის ვარვარ<lb/>
+                 ისათა რ<expan>&#x0360;<ex></ex></expan>ლ არს მისრეფ:
+               </head>
+            <pb n="65v"/>
+            <p>  
+                <lb n="1"/>მჴარე ვარვარისა არს ნაპირთა თეთ-
+                <lb n="2"/>რთა ზღუათასა. და შეეხება ვიდრე
+                <lb n="3"/>მთათამდის. ათლანდისათა:
+            </p>
+                <p>
+                <lb n="4"/>განიყოფება ოთხ სამეფოდ. მრ-
+                <lb n="5"/>აკო. ფეზტუნის. და თელეზინ. უძლ-
+                <lb n="6"/>იერესი მათ შორის ფეზისი ეწოდე-
+                <lb n="7"/>ბა აღმოსავლეთთაგან ქალაქსა.
+                <lb n="8"/>მათსა ფესა. სარწმუნოებით არ-
+                <lb n="9"/>იან მაჰმადიანნი. და ქალაქი მაფ
+                <lb n="10"/>ფ<expan>&#x0360;<ex></ex></expan>დ დიდარს. ] განიგებენ მეჩეთთა მას
+                <lb n="11"/>შ<expan>&#x0360;<ex></ex></expan>ა ხუთასსა. და ერთი მათგანი ეს-
+                <lb n="12"/>რეთ არს ვრცელ. რ<expan>&#x0360;<ex></ex></expan> ოცდაათი დი-
+                <lb n="13"/>დი კარი აქუს:
+            </p>
+            <pb n="66r"/>
+            <p>  
+                <lb n="1"/>მოსახლენი მჴრისა ამისნი ყვითელი შემწვ-
+                <lb n="2"/>არნი და შავნი:
+            </p>
+                <p>
+                <lb n="3"/>მსგავს და სამეფოცა მრაკვლოსი არს დიდ
+                <lb n="4"/>და ენასაცა ხმარობენ ერთსა ფეზელთა შორის
+                <lb n="5"/>და მოსახლენი არიან სარწმუნოებით ერთ-
+                <lb n="6"/>ნი ხშირად აქუსთ ომი მეზობელთა თვის-
+                <lb n="7"/>თა შორის. სამეფოთა ფეზთა შორის. და
+                <lb n="8"/>შემძლებელ არიან ძალსა მინდორთა
+                <lb n="9"/>ზ<expan>&#x0360;<ex></ex></expan>ა გამოყვანად. უმეტეს ორმოცდა ათის
+                <lb n="10"/>ათასის კაცისას:
+                </p>
+                <p>
+                <lb n="11"/>ნაპირთა თეთრთა ზღვისათა. მჴარესა
+                <lb n="12"/>ამას შ<expan>&#x0360;<ex></ex></expan>ა ავაზაკებთა ქალაქნი თუნის ან-
+                <lb n="13"/>ჯორი. და სხვათა. მას შიგან ცხოვრობენ
+            </p>
+            <pb n="66v"/>
+            <p>  
+                <lb n="1"/>ურუმნი. და უმეტეს რრავალ რიგნი ერ-
+                <lb n="2"/>ნი ქრისტიანეთანი. უნებლიეთ მიღებულ-
+                <lb n="3"/>ნი კაცნი. რომელნიცა ცდუნებითა და
+                <lb n="4"/>სატანჯველითა. ზოგნიცა. სიმდიდრისა
+                <lb n="5"/>და პატივისა სოფლისა ამისთვის ცდუნებუ-
+                <lb n="6"/>ლა მიიღებენ. სარწმუნოებს მაჰმად-
+                <lb n="7"/>ისასა დაიცვეთენ და მუნ იქორწინებ-
+                <lb n="8"/>ენ. და ზღუათა შ<expan>&#x0360;<ex></ex></expan>ა ავაზაკობათათვის
+                <lb n="9"/>გამოვლენ და შეუძლიანთ გარნა ერთა
+                <lb n="10"/>ანჯირელებთა უმეტეს ოცდა ათი ანუ
+                <lb n="11"/>ორმოცისა ხვამალდისა გამოყუანა დადი-
+                <lb n="12"/>დსა ყოველთა ერთა ქრისტიანეთასა.
+                <lb n="13"/>აოხრებასა და წარტყვენასა კაცთასა უყო-
+            </p>
+            <pb n="67r"/>
+            <p> 
+                <lb n="1"/>ფენ. ქვეშე ძლევასა იმყოფებიან ხვა-
+                <lb n="2"/>ნთქართა ურუმისატა. და მისგან წლითუ-
+                <lb n="3"/>რთ მიიღებენ. მურავს ( რომელიცა თუ-
+                <lb n="4"/>მცა შემოიწყებს არა მართლიად მსაჯ-
+                <lb n="5"/>ულობს) მალიად მოჰკულენ. მაგრამ
+                <lb n="6"/>ქვანთქარი მათ ვერს ბოროტს უყოფს
+                <lb n="7"/>ამისთვის რომე ზღვასა შ<expan>&#x0360;<ex></ex></expan>ა თვით ისინიც
+                <lb n="8"/>ძლიერნი არიან:</p>
+             </div>
+       <div type="chapter" n="23">
+                 <head>ႤႢႥႨႮႲႨႱႠ<lb/>
+                  სამეფოთათვის
+                 </head>
+             <p>
+                <lb n="9"/>ეგვიპტისა სამეფო არს ფ<expan>&#x0360;<ex></ex></expan>დ აძველი და მდიდარი მჴ-
+                <lb n="10"/>არე და სახელოვან არს დიდათ ყოველსა
+            </p>
+            <pb n="67v"/>
+            <p> 
+                <lb n="1"/>ქვეყანასა გამოიზრდებაცა სახელოვანითა
+                <lb n="2"/>წყლითა. ნილოსითა რომელიცა ზაფხულით
+                <lb n="3"/>ყოველსა მინდორსა მორწყავს. და პურსა
+                <lb n="4"/>მისცემს აღზრდასა. და ოდეს ესე გარდ-
+                <lb n="5"/>ამოვარდა რ<expan>&#x0360;<ex></ex></expan>ლსამე წელსა მწირექნებათ
+                <lb n="6"/>მაშინ მათ პყრიც დიდათ მწირათ
+                <lb n="7"/>ექნებათ. ამისთვის რ<expan>&#x0360;<ex></ex></expan> წვიმა აქ არასოდეს
+                <lb n="8"/>არ იქმნება.
+            </p>
+            <p>
+                <lb n="9"/>ერნი ამა ეგვიპტისანი ჟამით ძველთაგ-
+                <lb n="10"/>ან დიდად იყუნენ მიდრეკილ. ვარსკულავ
+                <lb n="11"/>მრიცხველობად და აქიმობად. ა<expan>&#x0360;<ex></ex></expan>დ უმეტ
+                <lb n="12"/>ეს ყოველთა ერთა კერპთ თაყვანისმც-
+                <lb n="13"/>ემელნი იყუნენ. დიდად დიდს ძალსა
+            </p>
+            <pb n="68r"/>
+            <p> 
+                <lb n="1"/>შ<expan>&#x0360;<ex></ex></expan>ა ძველთაგან წელსა მეფენი ეგვიპტი-
+                <lb n="2"/>სანი ითქოდენ. და მრავალსა მარცხსა
+                <lb n="3"/>კაცთა ღ<expan>&#x0360;<ex></ex></expan>თისათა ისრაელსა უყოფდენ
+                <lb n="4"/>აწცა იმყოფებიან ქვეშე ძლევასა ურუ-
+                <lb n="5"/>მთასა. ამა მხრითგან ხვანთქარი წლი-
+                <lb n="6"/>თურთ შემოკრეფს დიდსა ხაზინასა.
+                <lb n="7"/>განიგებენ უფროს ორის მილიონისას
+                <lb n="8"/>ოქროსას. მუნ იმყოფება სახელოვანი
+                <lb n="9"/>სვეტნი. რომელსა უმოსწრაფედ განი-
+                <lb n="10"/>გებენ გამოსავალთა. მოსესათა აგებ-
+                <lb n="11"/>ულ ყოფილ იყოს და ვერ შემძლებ-
+                <lb n="12"/>ელ არს მიწევნად ჭკუათაგან კაცთა-
+            </p>
+            <pb n="68v"/>
+            <p> 
+                <lb n="1"/>სა. ვითარცა გარჯითა და ძალითა ესე-
+                <lb n="2"/>თი დიდები მთები. ჴელთა კაცთაგან
+                <lb n="3"/>აგებულა და შემძლე არიან დიდად საკვირ-
+                <lb n="4"/>ველებად. ყოველსა ქვეყანასა ზ<expan>&#x0360;<ex></ex></expan>ა მისა-
+                <lb n="5"/>ჩნეველად:</p>
+             </div>
+       <div type="chapter" n="24">
+                <head>
+                   ႤႧႨႭႮႨႱႠႧႥႨႱ                
+                </head>
+             <p>
+                <lb n="6"/>Ⴄთიოპია გინა სამეფო აბესალომ-
+                <lb n="7"/>ისა განავრცობს სამძღუარსა თვისსა
+                <lb n="8"/>ჩრდილოვეთისაკენ ვიდრე ლივამდის
+                <lb n="9"/>და ეგვიპტემდის. დასავლეთიდამე წყ-
+                <lb n="10"/>ლამდის . თიღრისათა დასამეფომდის
+                <lb n="11"/>კონღოისადმდე. სამჴრეთით მთები რო-
+                <lb n="12"/>მელსა მმთოვარისად ეწოდება. აღმ
+            </p>
+            <pb n="69r"/>
+            <p> 
+                <lb n="1"/>სავლეთით სამეფომდის მაღადოქსამდ-
+                <lb n="2"/>ისათა. და მელიღამდის და შავ ზღუამდის
+                <lb n="3"/>ესე სამეფო არს დიდი. და თუმცა დიდის
+                <lb n="4"/>სიცხის გულისათვის მუნ პური არ მოვა-
+                <lb n="5"/>ლს. არც იფქლი. ა<expan>&#x0360;<ex></ex></expan>დ მრავალი მჴარე
+                <lb n="6"/>არს მუნ ჩვენდა. არა უწყებულ რათა
+                <lb n="7"/>მიწასა ნაყოფი მიწისა გამოაქუს სა
+                <lb n="8"/>ზრდოდ კაცთათვის. მოსახლენი მჴრ-
+                <lb n="9"/>ისა და მჴარეთა მისრეთისათა თეთრისა
+                <lb n="10"/>ზღვისა ნაპირსა ზედა მოსახლისათა.
+                <lb n="11"/>ყოველნი მოსახლენი აფრიკისანი შავნი
+            </p>
+            <pb n="69v"/>
+            <p> 
+                <lb n="1"/>მრავალნი ცდილობენ შეტყობასა. რა-
+                <lb n="2"/>სათვის მათ მიდგამობს სიშავე ესეთი.
+                <lb n="3"/>და მის მიერ მიუგებენ მრავალ რიგნი.
+                <lb n="4"/>ძველისა აღმწერლებისაგან. უწყიან.
+                <lb n="5"/>რ-
+                <lb n="6"/>მამისა ნოესათვის. ოდეს წარღუნას
+                <lb n="7"/>უკან მიიცუალებოდა. აკურთხნა ძენი
+                <lb n="8"/>თეისნი. სემ და იაფეთ. და მისცა სემს
+                <lb n="9"/>მემკვიდრობა ასისა. იაფეთსაცა მისცა
+                <lb n="10"/>ევროპა. ქამს. და ძეთა მისთა აფრიკა.
+                <lb n="11"/>მაშინ დადვა წყევა მესამესა ძესა
+                <lb n="12"/>ზ<expan>&#x0360;<ex></ex></expan>ა ქამისათა. ამისთვის განკიცხა შიშლ-
+                <lb n="13"/>ოება მამისა თვისისა. და იქმნა მემკვი-
+                <lb n="14"/>დრენი მისინი მოსახლენი ქვეყანისა
+            </p>
+            <pb n="70r"/>
+            <p>  
+                <lb n="1"/>ამის აფრიკისანი და ამისთვის წყებისა.
+                <lb n="2"/>ვიდრე აქამომდე. ძენი მისნი ყოველნ-
+                <lb n="3"/>ივე შავნი და სხუათა ერთა შორის გამოც-
+                <lb n="4"/>ვლილნი: -
+            </p>
+             <p>
+                <lb n="5"/>სხვანიცა აღსწერენ ვ<expan>&#x0360;<ex></ex></expan>ა მე აერისა ცხელი-
+                <lb n="6"/>საგან არიან ესეთნი შავნი. და რ<expan>&#x0360;<ex></ex></expan> იშობ-
+                <lb n="7"/>ებიან ყოველნივე შემწვარნი. ყვეითე-
+                <lb n="8"/>ლნი. და მცირით გამო თვით ბუნება
+                <lb n="9"/>მისდა მიმართ შემწეობს. ოდისცა
+                <lb n="10"/>იწყებენ აღზრდასა სიშავესა ესეთსა
+                <lb n="11"/>შინა შევლენ.
+             </p>
+                <p>
+                <lb n="12"/>სამეფოსა ამას აბესალომისსა მოსახლ-
+                <lb n="13"/>ენი არიან ქრისტიანენი. აგრევე წინა-
+            </p>
+            <pb n="70v"/>
+            <p>  
+                <lb n="1"/>ცა დაიცვეთენ. უვისთ თვისთვინ მეფე.
+                <lb n="2"/>მასვე ნეღუს ანუ კეისარს უწოდებენ
+                <lb n="3"/>სწერენ თვისსა შესხმასა შ<expan>&#x0360;<ex></ex></expan>ა ყოფად.
+                <lb n="4"/>ძეთა დავითისათა. ამისთვის რამეთუ
+                <lb n="5"/>დედოფალი სამსკისა ოდეს წარმოიქცა
+                <lb n="6"/>სოლომონისაგან. შვა მისგან ძე. მის-
+                <lb n="7"/>განცა ესე მეფენი უწყიან თვისსა ძე არ-
+                <lb n="8"/>ჩამომავლობასა:
+            </p>
+                <p>
+                <lb n="9"/>ძალი აქუს დიდი და თვისსა მჴედრობას
+                <lb n="10"/>გამოიყუანს მინდორთა ზ<expan>&#x0360;<ex></ex></expan>ა უმეტეს ხუთ-
+                <lb n="11"/>ასი  ათასსა. კაცსა და მასთან ხუთას
+                <lb n="12"/>სპილოებს. მეომარს:
+                </p>
+                <p>
+                <lb n="13"/>სულიერნიცა ჰყავთ მათ პატრაქი.
+            </p>
+            <pb n="71r"/>
+            <p> 
+                <lb n="1"/>მონასტერნი მრავალნი. მამაკაცისანი და დე
+                <lb n="2"/>და კაცისანი. ხუცესნი მათნი არიან ბე-
+                <lb n="3"/>რძულებრივ წესითა შეუღველნი. და-
+                <lb n="4"/>იზრდებიან. სარჯლითა ხელთა თვისთაგ-
+                <lb n="5"/>ან. მარხვა თვისი ფ<expan>&#x0360;<ex></ex></expan>დ მტკიცეთ უპყრიათ
+                <lb n="6"/>ერთბამად ორივე რჯული ძველი და ახალი
+                <lb n="7"/>ენა და წიგნი აქუსთ სხვარიგი. და სხვათა
+                <lb n="8"/>ერთა შორის განყოფილი არიან. ბერძე-
+                <lb n="9"/>ნნი უწოდებენ ამათ კოპტად:
+            </p>
+                <p>
+                <lb n="10"/>შესავალსა ამა მეფისასა განიგდებენ
+                <lb n="11"/>ფ<expan>&#x0360;<ex></ex></expan>დ დიდსა. სიმრავლეთათვის მუნ ოქრო-
+                <lb n="12"/>თა. და თვალთა ძვირ ფასთა. ევროპისა
+                <lb n="13"/>მჴარეთაგან მუნ მცირედ იმყოფების
+            </p>
+            <pb n="71v"/>
+            <p> 
+                <lb n="1"/>კაცი ამისთვის ფ<expan>&#x0360;<ex></ex></expan>დ შორს არს. და ბიაბნ-
+                <lb n="2"/>ები ძნელად გასავლელი ყოველსავე
+                <lb n="3"/>ბრძავს:
+            </p>
+                <p>
+                <lb n="4"/>მჴარესა ბილედურღერინდსა სახლითვისი
+                <lb n="5"/>აქუს ხეთა სიმრავლისაგან მუნ მოზარ-
+                <lb n="6"/>დულთა ხურმათასა. დამოსახლენი მხარ-
+                <lb n="7"/>ისა ამისნი მით ნაყოფთა იზრდებიან
+                <lb n="8"/>და უზომოებისა ცხელისა ჰაერისა იქიურ-
+                <lb n="9"/>ისათვის:
+                </p>
+                <p>
+                <lb n="10"/>მოსახლენი. კაცნი გულ დაღვრემი-
+                <lb n="11"/>ლნი. შეერთება და ვაჭრობა აქუსთ სხ-
+                <lb n="12"/>ვათა ერთა შორის. გარნა მიჰყიდიან
+                <lb n="13"/>მათ ხურმასა. და ქუასა მარმარილოსათა
+            </p>
+            <pb n="72r"/>
+            <p>  
+                <lb n="1"/>რომელიცა მუნ ფ<expan>&#x0360;<ex></ex></expan>დ მრავალ არს:</p>
+            </div>
+       <div type="chapter" n="25">
+               <head>ႠႶႼႤႰႠ ႵႥႤ<lb/> 
+                 ყნისა<lb/>
+                 მეოთხედის  ნაწილისა ამერიკისათვის჻
+               </head>
+           <p>  
+                <lb n="2"/>აქამომდე აღვსწერე. სამთა ნაწილთ
+                <lb n="3"/>თვის. ევროპიისათვის. ასიისათვის. და აფ-
+                <lb n="4"/>რიკისათვის. აწცა ვიწყებ აღწერად
+                <lb n="5"/>მეოთხეთა ნაწილთათვის. ამერიკისათ
+                <lb n="6"/>რომელსაცა ახალ ქვეყანად უწოდებთ
+                <lb n="7"/>ამისთვის წელსა არა დიდხანსა შ<expan>&#x0360;<ex></ex></expan>ა იპოვა
+                <lb n="8"/>ესე ნაწილი ამერიკა სხვათა სამთა ნაწ-
+            </p>
+            <pb n="72v"/>
+            <p>  
+                <lb n="1"/>ილთა. ზღვითა ლუკიანესითა განეყო
+                <lb n="2"/>და გამოუცდელობათა განცდა მენაობათა-
+                <lb n="3"/>სა ძველთაგანვე უცოდინრობისათვის
+                <lb n="4"/>ერთაგან. ჩვენთა მჴარეთგან მყოფთა
+                <lb n="5"/>სა. ვიდრე წელთა შვიდ ათასამდის. ოდე-
+                <lb n="6"/>სცა უფალმან ღ<expan>&#x0360;<ex></ex></expan>ნ კეთილი ინება მჴარ-
+                <lb n="7"/>ეთა ერთა ევროპისათვის გამოცხადებად
+                <lb n="8"/>და რ<expan>&#x0360;<ex></ex></expan> მოვიდა ვინმე კოლუმბუსი მოსახლე
+                <lb n="9"/>იტალიისა მჴრისაგან. ლიბანის მეფ-
+                <lb n="10"/>ისა ფერდინანდთან. და გამოსთხოვა
+                <lb n="11"/>რაოდენი მე ხვამალდები და მით.
+                <lb n="12"/>ფ<expan>&#x0360;<ex></ex></expan>დ  მრავლის სარჯლით ათორმეტისა.
+                <lb n="13"/>კვირისა რონინებითა იპოა. ასე მდიდრად
+            </p>
+            <pb n="73r"/>
+            <p>  
+                <lb n="1"/>მდიდარს არს მჴარე კუნძული პირველად
+                <lb n="2"/>იპოა. და მას ღიშპანიოლიღოდ უწ-
+                <lb n="3"/>ოდა არამედ ესე <unclear quantity="6" unit="chars" reason="illegible"/> შესმენელ
+                <lb n="4"/>იქმნა და შებრვილებული მეფესა ღი
+                <lb n="5"/>შპანისასა. მიგუარეს კუალად. რომ-
+                <lb n="6"/>ელიმე ამერიკუს წარგზავნეს. რომელი-
+                <lb n="7"/>ცა თვით მხარე ამერიკა იპოვა. და 
+                <lb n="8"/>თვისითა სახელითა ამერიკად უწოდა
+            </p>
+                <p>
+                <lb n="9"/>განიყოფება ესე ნაწილი ორს მხა-
+                <lb n="10"/>რეთ. ერთი ჩრდილოვეთით მეორეცა
+                <lb n="11"/>სამჴრეთით ჩრდილოვეთისად ითქმ-
+                <lb n="12"/>ის ღიპანია ახალი ფლორიდა ფირღ-
+                <lb n="13"/>ინია ახალი გალილია. ინგ-
+            </p>
+            <pb n="73v"/>
+            <p> 
+                <lb n="1"/>ლიზი. ნედერლანდია. კანდა. თერრა. ახ-
+                <lb n="2"/>ალი. ანუ ქვეყანა ახალი. სამხრეთისა
+                <lb n="3"/>ბრაზილია. პარაღანია. და სხვები-
+                <lb n="4"/>ცა. და აღსაწერად გუაქუს ესე მხ-
+                <lb n="5"/>არები. გამოჩენილები:</p>
+            </div>
+       <div type="chapter" n="26">
+               <head>ႶႨႸႮႠႬႨႱႠ<lb/> 
+                 ახლისათვის
+               </head>
+            <p>
+                <lb n="6"/>ღიშპანიისა ახალსა უპყრია. თვის-
+                <lb n="7"/>თვის მრავალნი მჴარები და ერნი მა-
+                <lb n="8"/>თგანი ყოველნი თვითეულისა ენითა
+                <lb n="9"/>ლაპარაკობენ. ტახტი მხარისა ამის
+                <lb n="10"/>არს მექსიკო და მეპირველე ყოველთა
+            </p>
+            <pb n="74r"/>
+            <p>  
+                <lb n="1"/>ადგილთა ამერიკისათა. პირველ მოსულადმდე
+                <lb n="2"/>ღიშპანელებისათა იყო ამა ქალაქსა შ<expan>&#x0360;<ex></ex></expan>ა სამ-
+                <lb n="3"/>ეოცდა ათი ათასი მოსახლე. ა<expan>&#x0360;<ex></ex></expan>დ ისინი შე-
+                <lb n="4"/>მუსცრილებისა სატანჯველითა მრავალნი.
+                <lb n="5"/>აღოხრდნენ. და აწცა ის ქალაქი. ფ<expan>&#x0360;<ex></ex></expan>დ პატი-
+                <lb n="6"/>ოსან არს ა<expan>&#x0360;<ex></ex></expan>დ არა ესრეთ ვ<expan>&#x0360;<ex></ex></expan>ა პირველ იყო:
+            </p>
+                <p>
+                <lb n="7"/>აქა ცხოვრებს მეპირველე ვლევოდა.
+                <lb n="8"/>გინა მოურავი გინა მამასახლისი. გინა
+                <lb n="9"/>მელიქი. რომელიცა მართავს ყოველსა
+                <lb n="10"/>მოწესებულსა. მჴარებსა ამერიკისასა.
+                <lb n="11"/>სულიერიცა მათნი არს მეპირველე არქი-
+                <lb n="12"/>ეპისკოპოსი:
+            </p>
+            <p>
+                <lb n="13"/>ამა მჴარესა შ<expan>&#x0360;<ex></ex></expan>ა დაიბადება ოქრო ვერცხლი
+            </p>
+            <pb n="74v"/>
+            <p>  
+                <lb n="1"/>მარგალიტი. ბალახამ კოჩენილა. ძირი
+                <lb n="2"/>მეხოაკან. ხე სასათდრი გოგირდი დასხ-
+                <lb n="3"/>ვებიცა. მოსახლენი მხარისა ამისნი წინ-
+                <lb n="4"/>ასწარ ამისა იყვნენ. და ახლაცა მრავალნი
+                <lb n="5"/>არიან კერპთ თაყვანისმცემელნი. აწცა
+                <lb n="6"/>მრავალნი მოიქცენ. და სწამსთ ქ<expan>&#x0360;<ex></ex></expan>ეს მიერ:</p>
+              </div>  
+       <div type="chapter" n="27">
+                 <head>ႫႾႠႰႤႧႠႧႥႨႱ<lb/>
+                  ფლორიდესათა:
+                 </head>
+             <p>
+                <lb n="7"/>ფლორიდა არს მხარე პატიოსანი და ჰაე-
+                <lb n="8"/>რით შეზავებული. და ყოვლითავე თუმცა
+                <lb n="9"/>და მხარებითა. და რ<expan>&#x0360;<ex></ex></expan> პატიოსნითა ნაყო-
+                <lb n="10"/>ფითა აღსავსე არს ეგრეთვდ და ნადირნი
+            </p>
+            <pb n="75r"/>
+            <p> 
+                <lb n="1"/>ც ყოველივე მრავალი. ფ<expan>&#x0360;<ex></ex></expan>დ დათუნი მგელ-
+                <lb n="2"/>ნი. ლეოპადრნი. ფოცხვერნი. ბაბრნი
+                <lb n="3"/>და წყალთა შ<expan>&#x0360;<ex></ex></expan>ა მათთასა მრავალნი გვე-
+                <lb n="4"/>ლნი და კორკოდილონი და სხვა ქვეწარ-
+                <lb n="5"/>მავალნი. საძაგელნი რომელთაცა შორის
+                <lb n="6"/>მოსახლეთა მის მჴრისათა. დაუცხრომ-
+                <lb n="7"/>ელად. აქუსთ ბრძოლა. და მოჰკულენ
+                <lb n="8"/>და შეშჭამენ: ერნი მჴრისა ამისნი  კაც-
+                <lb n="9"/>ნი არიან. გულ ჩაღურემილ-
+                <lb n="10"/>ნი დაიარებიან შიშველნი. და ყოველი კე
+                <lb n="11"/>თილი ჩვეულება განიზრდილობა
+                <lb n="12"/>სამოქალაქო არა აქუსთრა. ერთიერ-
+                <lb n="13"/>თას შორის ბრძოლა დაუცხრომელი
+            </p>
+            <pb n="75v"/>
+            <p> 
+                <lb n="1"/>აქუსთ. და ოდეს შეიპყრობენ მტერსა
+                <lb n="2"/>თვისსა ცოცხალსა აჭმევენ მას. და 
+                <lb n="3"/>განაძღებენ. და თუმცა აღდგომა-
+                <lb n="4"/>სა სულთა კაცთასა აღიარებენ.
+                <lb n="5"/>და რ<expan>&#x0360;<ex></ex></expan> თაყუანისცემენ კერპთა და-
+                <lb n="6"/>შესაყრელად მისრულთა შორის
+                <lb n="7"/>ფ<expan>&#x0360;<ex></ex></expan>დ არიან უგბილნი. და დაუდგინ
+                <lb n="8"/>-ებელნი</p>
+            </div>
+       <div type="chapter" n="28">
+                <head>ႫႾႠႰႧႠႧႥႨႱ<lb/>
+                 პერუანისათა:
+                </head>
+            <p>
+                <lb n="9"/>პერუანისა მჴარე არს. უმდიდრესი
+                <lb n="10"/>ყოველთა ზ<expan>&#x0360;<ex></ex></expan>ა სხვათა. პ<expan>&#x0360;<ex></ex></expan>ლი ქალაქი
+                <lb n="11"/>არს ლ<expan>&#x0360;<ex></ex></expan>მა. და მრავალი ქალაქები
+            </p>
+            <pb n="76r"/>
+            <p> 
+                <lb n="1"/>პატიოსანი და ფ<expan>&#x0360;<ex></ex></expan>დ ესე მჴარი მრავალ
+                <lb n="2"/>ეროვან. და ესე არს სახელოვანი მჴარი
+                <lb n="3"/>იმისგან ესეოდენ სიმდიდრე. ყოვ-
+                <lb n="4"/>ლის წლისათვის მეფესა ღიშპანისა
+                <lb n="5"/>სა. შემოსდის. მუნვე იბადება. მრ-
+                <lb n="6"/>ავალი ოქრო ვერცხლი ესეთის სი-
+                <lb n="7"/>მრავლით. რაც. ოდენ შეიძლებ-
+                <lb n="8"/>ის. თქმად. რ<expan>&#x0360;<ex></ex></expan> ესე მჴარე აღმუწყ-
+                <lb n="9"/>ველსა საუნჯესა იპყრობს თვისთ
+                <lb n="10"/>და ყოვლის წლისათვის გამოდის აქამომდე
+                <lb n="11"/>ოცდა ათი და ორმოცი და უმეტესი
+                <lb n="12"/>ეფიმყოვისა მილიონი. რ<expan>&#x0360;<ex></ex></expan>ლ არს ასლანი
+            </p>
+            <pb n="76v"/>
+            </div>
+       <div type="chapter" n="29">
+               <head>ႫႾႠႰႤႧႠႧ<lb/>
+                 ვის:<lb/>
+                 ხილისათა:
+               </head>
+             <p>  
+                <lb n="1"/>ხილისა მჴარე არს. სამჴრეთით მი-
+                <lb n="2"/>წოლვილი ამა მჴარესა შ<expan>&#x0360;<ex></ex></expan>ა ჯერეთ-
+                <lb n="3"/>ცა მოსახლეთ. ღიშპანელებთა შ<expan>&#x0360;<ex></ex></expan>რის
+                <lb n="4"/>ბრძოლა აქუსთ და მოყმელობასა შა-
+                <lb n="5"/>თსა ქვეშე ყოფნა არ უნდათ. და
+                <lb n="6"/>კაცნი არიან ზრდილობით დიდნი
+                <lb n="7"/>და ოდეს იხილვენ ცეცხლისა სა-
+                <lb n="8"/>ჭურველსა კვამლსა ზ<expan>&#x0360;<ex></ex></expan>ა შესცვიან.
+                <lb n="9"/>ღიშანიკელებსა დაუმარცხებელ. ამი-
+                <lb n="10"/>სთვის აქადამე მცირემოსავალი შემ
+            </p>
+            <pb n="78r"/>
+            <p> 
+                <lb n="1"/>უკრბება. მეფესა ღიშპანისასა.</p>
+            </div>
+       <div type="chapter" n="30">
+               <head>
+                  ႫႾႠႰႤႧႠႧ<lb/>
+                ვის ბრაზილისათა
+               </head>
+          <p>
+            <lb n="2"/>Ⴋხარე ბრაზილისა დღეს. ქვეშე პყრობ-
+            <lb n="3"/>ელობასა მეფესა პორთუთალიისასა.
+            <lb n="4"/>გარდამოაწვა აღმოსავლეთით ზღუა-
+            <lb n="5"/>სა დიდსა ლუვიანესასა მიერ ჰაე-
+            <lb n="6"/>რი აქ ფ<expan>&#x0360;<ex></ex></expan>დ მრთელ და შეზავებულ ამ-
+            <lb n="7"/>ისათვის გამოაქუს მიწასა მრავალი
+            <lb n="8"/>პატიოსანი ნაყოფი. მათგან გვებ-
+            <lb n="9"/>ადება უფროსი ერთი ჩვინ აქ შაქარი.
+            </p>
+            <pb n="78v"/>
+            <p> 
+                <lb n="1"/>და ის შაქარი გამოაქუსთ ყოველსა საბ-
+                <lb n="2"/>ატონოში. და მჴრებში ევროპიისამი
+                <lb n="3"/>დაიბადება ესე ჩალაშიდ. მას მოჰკვე-
+                <lb n="4"/>თენ. და მსუკან წისქვილსა შიგან
+                <lb n="5"/>გამოსწურვენ მისგან წვენს. რომელს-
+                <lb n="6"/>აც დიდროვანს ქვაბებში ადუღებენ
+                <lb n="7"/>და მისგან შაქარი დაჯდება:
+            </p>
+            <p>
+                <lb n="8"/>მოსახლენი მჴრისა ამისანი ფ<expan>&#x0360;<ex></ex></expan>დ ბორ-
+                <lb n="9"/>ოტნი და შევიწროვებულნი სისხლის
+                <lb n="10"/>მსმელნი კაცნი არიან. არიციან
+                <lb n="11"/>ყოველივე სარწმუნოება და მოქალაქო-
+                <lb n="12"/>ბა. და იარებიან კაცნი და ქალნი
+                <lb n="13"/>შიშველნი. უფროსნი ერთნი ნაწილი
+            </p>
+            <pb n="79r"/>
+            <p> 
+                <lb n="1"/>სულ კაცის მჭამელნი არიან შიმკობენ
+                <lb n="2"/>თავის თავს. ბუმბულითა სხვადასხ-
+                <lb n="3"/>ვა ფერითა. სხვადასხვა რიგის თუთ-
+                <lb n="4"/>ისაგან და სხვისაგან და ნებთვითა და ყუ-
+                <lb n="5"/>რითა და ბაგითა საკურები ქუათაგან
+                <lb n="6"/>დააქუსთ. ჴორცითა ისინი არიან
+                <lb n="7"/>ყვითელნი და მასთან მრავლის რიგის
+                <lb n="8"/>საღებავით შეიჭრელებენ თავის თავს ფ<expan>&#x0360;<ex></ex></expan>დ
+                <lb n="9"/>ჩვენ უცხოთათვის საჩვენებლად“
+                <lb n="10"/>ბრძოლა მათ შორის სამარადისოდ და
+                <lb n="11"/>უცხრომელი. იარაღი მათი დიდი
+                <lb n="12"/>და მძიმე ჯოხი მშვილდი ისარი შუ-
+                <lb n="13"/>ბი და შურდულ მას შიგან შთადე-
+            </p>
+            <pb n="79v"/>
+            <p> 
+                <lb n="1"/>ბენ ქუასა. და ფ<expan>&#x0360;<ex></ex></expan>დ ხელოვნებით და სი-
+                <lb n="2"/>შორით შეუძლიათ მით კაცისა მოკულა
+                <lb n="3"/>და რომელსაც თავის მტრისაგან მოჰკულ-
+                <lb n="4"/>ენ მას და შემჭამენ. და ზოგნიცა ამათ-
+                <lb n="5"/>განნი. ყოვლის დღის მუსაბოძის.
+                <lb n="6"/>გულისათვის ქრისტიანეთა შორის მოსაწო-
+                <lb n="7"/>ნებით გამოცხადდებიან მშვიდ ყოფად
+                <lb n="8"/>ამა მჴარეთაგან გამოდის შაქარი. ბოსე-
+                <lb n="9"/>მის ხე. ბანბა. მასტიკა. კასია.
+                <lb n="10"/>დასხვაცა:
+            </p>
+            <pb n="80r"/>
+           </div>
+       <div type="chapter" n="31">
+              <head>Ⴀღწერა მეხუთისა<lb/>
+                ნაწილისა ქვეყ<lb/>
+                ანისათვის
+              </head>
+             <p> 
+                <lb n="1"/>და ესრეთ მეოთხე ნაწილი ქვეყნისა
+                <lb n="2"/>აღვსწერე მცირესა გარნა მოგახსენებთ
+                <lb n="3"/>რომელთამე ნაწილთათვის. რომელსამე 
+                <lb n="4"/>წელსა არა დიდ ხანსა შინა უქინარ-
+                <lb n="5"/>ეს წელთა ორმეოცთასა მენაობითა
+                <lb n="6"/>ხვამლდთასა იპოა. და მეხუთე ნაწი-
+                <lb n="7"/>ლად ეწოდა ესე არს სამხრეთისა:
+             </p>
+               <p>
+                <lb n="8"/>ა<expan>&#x0360;<ex></ex></expan>დ ამისთვის მცირედიმე ნაწილი
+                <lb n="9"/>ნაპირებისა მის მჴრებთასა გამოიცადა
+            </p>
+            <pb n="80v"/>
+            <p>  
+                <lb n="1"/>და რაცა ოშორეს მის ქვეყანისასა ჩვენ-
+                <lb n="2"/>ნი ქრისტიანენი ყოფილად არა უწყე-
+                <lb n="3"/>ბისათვის ენათასა მათთა. გინა სიშო-
+                <lb n="4"/>რისათვის ფრიადისათა შიშისათვის წარ-
+                <lb n="5"/>წყმედისა თვისისათა. ვერვინ ვერ იკად-
+                <lb n="6"/>რა მის მჴრებისა მყოფებთაგანმან გა-
+                <lb n="7"/>ნცდა. და ამა მიზეზისათვის. ნაწილისა
+                <lb n="8"/>ამის მეხუთისა მჴრებთათვის და ერთა-
+                <lb n="9"/>თვის უწყებით აღწერას ვერ შემძლ-
+                <lb n="10"/>ებელ ვართ. და დაუტევებთ მომავა-
+                <lb n="11"/>ლთა ნათესავთათვის მათთვისცა უფ-
+                <lb n="12"/>ალმან ღ<expan>&#x0360;<ex></ex></expan>ნ კეთილი ინებოს თვისსა
+                <lb n="13"/>ჟამსა შ<expan>&#x0360;<ex></ex></expan>ა ესრეთ ვ<expan>&#x0360;<ex></ex></expan>ა და ამერიკუს ამცნო
+            </p>
+            <pb n="81r"/>
+            <p> 
+                <lb n="1"/>მათდა გამოჩინებად:
+            </p>
+            <p>
+                <lb n="2"/>აწცა კმა ვიქმნებით აღწერითა ამით
+                <lb n="3"/>მოკლითა რომელიცა ყოველთა გამოჩ-
+                <lb n="4"/>ენილთა ადგილებთათვის ქვეყანი-
+                <lb n="5"/>სათა მაღლად ამისა მოკლედ მიმი-
+                <lb n="6"/>ხსენებია. და ყოველსავე მკითხველსა
+                <lb n="7"/>ვლოცავ რათა ესე ჩემი ნამუშავები
+                <lb n="8"/>სასჯელი წარიკითხოთ კეთილ საყუარ-
+                <lb n="9"/>ლად მიიღოთ. თუმცა ენებისთვი-
+                <lb n="10"/>თვითეულთა საბატონოსათვის და მჴარეთა
+                <lb n="11"/>თვის უწყებ. წარიკითხოს დიდროვანი
+                <lb n="12"/>ქარტები. გინა კოხმოღრაფია. რ<expan>&#x0360;<ex></ex></expan>ლ
+                <lb n="13"/>არს წიგნი წერილი ს<expan>&#x0360;<ex></ex></expan>დ ქვეყანისა
+            </p>
+            <pb n="81v"/>
+            <p> 
+                <lb n="1"/>სადაცა ფ<expan>&#x0360;<ex></ex></expan>დ განვირცელებით ყოველთა
+                <lb n="2"/>ნაწილთათვის და ყოველთა ქალაქთა
+                <lb n="3"/>თვის აღწერა დადებულ არს:
+            </p>
+            <p>
+                <lb n="4"/>ესე მოკლეთ აღწერა გვიქმნია. გარნა
+                <lb n="5"/>შემწეობათ. ესეთებისათვის რომელნიცა
+                <lb n="6"/>მომდომნე არიან გაგებად განსაზღუ-
+                <lb n="7"/>რებისათვის ქვეყანისა. სიმრგულისათვის
+                <lb n="8"/>და ნაწილებისა და საბატონოებისა მას
+                <lb n="9"/>შიგან მპყრობელ მქნელებთათვის ა<expan>&#x0360;<ex></ex></expan>დ
+                <lb n="10"/>ესოდენი დრო. გინა მოცალეობა
+                <lb n="11"/>სარჯელთა თვისთა წოდებულთა.
+                <lb n="12"/>ხარისხთაგან წარსაკითხავად დიდროანი
+                <lb n="13"/>წიგნები არა აქუთ ოდესცა ესე თუმ
+            </p>
+            <pb n="82r"/>
+            <p> 
+                <lb n="1"/>ცა და მცირე აქუსთ წასაკითხავად არს
+                <lb n="2"/>შემაგნებელ. შეიძლება ცოტა.
+                <lb n="3"/>და სხვებისაც. გამოცდილებისა მიღ-
+                <lb n="4"/>ება. და ყოველთა შორის. მოსრულ-
+                <lb n="5"/>თა მიერ. გამოცდილებით ყოველთა
+                <lb n="6"/>მჴარეთათვის სიტყუა მიგებისათვის
+                <lb n="7"/>ქნებად:
+            </p>
+            <p>
+                <lb n="8"/>დასრულდა წიგნი ესე ღეოღრაფია ანუ მო
+                <lb n="9"/>კლედ ქვეყნის სიმრგულისათვის აღწერა
+                <lb n="10"/>პირველ ლათნთა ენისაგან რუსულად
+                <lb n="11"/>თარგმნილი. ხ<expan>&#x0360;<ex></ex></expan> რუსულისაგან ქართულად:
+                <lb n="12"/>ხელითა: ზ ე შ: 177 ჩ:
+            </p>
+        </div>
+    </body>
+</text>
 </TEI>
