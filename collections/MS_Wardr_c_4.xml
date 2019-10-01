@@ -434,193 +434,753 @@
               <pb f="vii" n="7"/>
               <pb f="viii" n="8"/>
               <div type="contents">
-              <pb n="1"/>
-                  <head>
-                      <hi rend="color(FFFF00)">ა</hi>
-                  </head>
                   <list>
+                      <pb n="1"/>
+                      <head>
+                          <hi rend="color(FFFF00)">ა</hi>
+                      </head>
                       <item><hi rend="color(FFFF00)">ა</hi>ღდგომა დღისა პყრობილის განთავის უფლებისათვისა <ptr target="#num12"/>იბ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ვის თქმისათვის მოსამართლისთანა <ptr target="#num12"/>ტე <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>სოთა ჭრილობისათვის თუ რა სისხლი რა გაუჩნდება <ptr target="#num12"/>ტი <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>სოთა ჭრილობისათვისვე სხვისაგან სხვისა <ptr target="#num12"/>ტიე <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>მოწყვეტილის კაცისა ვის ცოლი ვი დარჩის <ptr target="#num12"/>უა <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისათვის მომაკვდავისა <ptr target="#num12"/>უნა <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>მოვარდნილის ვის ვაჟი არ დარჩის და ქალი და ქალის ქალი დარჩეს <ptr target="#num12"/>უგ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>მოვარდნილისავე თუ ცოლი ცოცხალი დარჩის <ptr target="#num12"/>უე <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>მოწყვეტილის ნასყიდის ყმის საქონლისა <ptr target="#num12"/>უვვ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>მოვარდნილისავე უშვილოდ და მათის საქონლისა <ptr target="#num12"/>უვე <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისათვისავე მოხამიანისა <ptr target="#num12"/>უნბ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა უფროსისაგან დაბეჭდვისა <ptr target="#num12"/>უნგ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისავე მოწმობისა <ptr target="#num12"/>უნდ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა დამწერისაგან მოწმობისა <ptr target="#num12"/>უნე <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისავე მემრუშისაგან მოწმისა დაიჯერება თუ არა <ptr target="#num12"/>უნვ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისათვისავე <ptr target="#num12"/>უნზ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა ურმისაგან თუ ვითარ უჴამს <ptr target="#num12"/>უნჱ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისათვის საიდუმლოსა <ptr target="#num12"/>უნთ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისათვის შვილი ტყუილ აყვანდის <ptr target="#num12"/>უჲ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა მხედართა ლაშქარში დაჭრილისა <ptr target="#num12"/>უჲა <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა ორსულის დედაკაცისა <ptr target="#num12"/>უჲბ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა წიგნის გამოუჩენლობისა. საიდუმლოსათვის <ptr target="#num12"/>უჲგ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა ავად მყოფისაგან <ptr target="#num12"/>უჲდ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა მეორისა და პირველის მოშლისა <ptr target="#num12"/>უჲე <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძის უცოდინარის კაცისაგან <ptr target="#num12"/>უჲვ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძი თუ რის ხნის ვაჟს ეთქმის <ptr target="#num12"/>უჲზ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა მამისაგან შვილისა <ptr target="#num12"/>უჲჱ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა თავისი ქონება ვისაცა მისცეს <ptr target="#num12"/>უჲთ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძის გაუტეხლობისა <ptr target="#num12"/>ურ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა მომაკვდავისაგან თავის ნაქონებასა <ptr target="#num12"/>ურა <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძი მეფე გაწყრომილისა <ptr target="#num12"/>ურბ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძი უთქმელად. ვინ მიიცვალის <ptr target="#num12"/>ურდ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძი უთქმელად. ცოლქმარნი ვინ მიიცვალნენ <ptr target="#num12"/>ურგ <note>12</note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძი უთქმელად. მიცვალებულთავე <ptr target="#num12"/>ურე <note>12</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ვის თქმისათვის მოსამართლისთანა <ptr target="#num305"/>ტე <note>305</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>სოთა ჭრილობისათვის თუ რა სისხლი რა გაუჩნდება <ptr target="#num310"/>ტი <note>310</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>სოთა ჭრილობისათვისვე სხვისაგან სხვისა <ptr target="#num315"/>ტიე <note>315</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>მოწყვეტილის კაცისა ვის ცოლი ვი დარჩის <ptr target="#num401"/>უა <note>401</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისათვის მომაკვდავისა <ptr target="#num451"/>უნა <note>451</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>მოვარდნილის ვის ვაჟი არ დარჩის და ქალი და ქალის ქალი დარჩეს <ptr target="#num403"/>უგ <note>403</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>მოვარდნილისავე თუ ცოლი ცოცხალი დარჩის <ptr target="#num405"/>უე <note>405</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>მოწყვეტილის ნასყიდის ყმის საქონლისა <ptr target="#num426"/>უკვ <note>406</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>მოვარდნილისავე უშვილოდ და მათის საქონლისა <ptr target="#num425"/>უკე <note>465</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისათვისავე მოხამიანისა <ptr target="#num452"/>უნბ <note>452</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა უფროსისაგან დაბეჭდვისა <ptr target="#num453"/>უნგ <note>453</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისავე მოწმობისა <ptr target="#num454"/>უნდ <note>454</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა დამწერისაგან მოწმობისა <ptr target="#num455"/>უნე <note>455</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისავე მემრუშისაგან მოწმისა დაიჯერება თუ არა <ptr target="#num456"/>უნვ <note>456</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისათვისავე <ptr target="#num457"/>უნზ <note>457</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა ურმისაგან თუ ვითარ უჴამს <ptr target="#num458"/>უნჱ <note>458</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისათვის საიდუმლოსა <ptr target="#num459"/>უნთ <note>459</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისათვის შვილი ტყუილ აყვანდის <ptr target="#num460"/>უჲ <note>460</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა მხედართა ლაშქარში დაჭრილისა <ptr target="#num461"/>უჲა <note>461</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა ორსულის დედაკაცისა <ptr target="#num462"/>უჲბ <note>462</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა წიგნის გამოუჩენლობისა. საიდუმლოსათვის <ptr target="#num463"/>უჲგ <note>463</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა ავად მყოფისაგან <ptr target="#num464"/>უჲდ <note>464</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა მეორისა და პირველის მოშლისა <ptr target="#num465"/>უჲე <note>465</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძის უცოდინარის კაცისაგან <ptr target="#num466"/>უჲვ <note>466</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძი თუ რის ხნის ვაჟს ეთქმის <ptr target="#num467"/>უჲზ <note>467</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა მამისაგან შვილისა <ptr target="#num468"/>უჲჱ <note>468</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა თავისი ქონება ვისაცა მისცეს <ptr target="#num469"/>უჲთ <note>469</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძის გაუტეხლობისა <ptr target="#num470"/>უო <note>470</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძისა მომაკვდავისაგან თავის ნაქონებასა <ptr target="#num471"/>უოა <note>471</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძი მეფე გაწყრომილისა <ptr target="#num472"/>უობ <note>472</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძი უთქმელად. ვინ მიიცვალის <ptr target="#num474"/>უოდ <note>474</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძი უთქმელად. ცოლქმარნი ვინ მიიცვალნენ <ptr target="#num473"/>უოგ <note>473</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ნდერძი უთქმელად. მიცვალებულთავე <ptr target="#num475"/>უოე <note>475</note></item>
                       <pb n="2"/>
-                      <item><ptr target="#num12"/>ურფ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატი ყმისა </item>
-                      <item><ptr target="#num12"/>ურზ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატი ყმისა პაემნით </item>
-                      <item><ptr target="#num12"/>ურჱ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატი ყმისა პაემნით რას დროს გათავისუფლებასა </item>
-                      <item><ptr target="#num12"/>ურთ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატი ყმისა მისთანავე მყოფისა და მოახლის შერთვისა </item>
-                      <item><ptr target="#num12"/>უპ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატისავე თუ რას ქონებით უყრის აზატი </item>
-                      <item><ptr target="#num12"/>უპა <note> </note><hi rend="color(FFFF00)">ა</hi>ზატის სახლი ვარიან მამულით </item>
-                      <item><ptr target="#num12"/>უპბ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატისა ის ყმა სათავისთავო. იყო ანუ სამამულო </item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ზატისავე რომელ გააზატებული გაღარიბებულიყოს <ptr target="#num12"/>უპგ <note> </note></item>
-                      <item><ptr target="#num12"/>უპდ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატისა მხლებლისა თუ როგორ ჴამს </item>
-                      <item><ptr target="#num12"/>უპე <note> </note><hi rend="color(FFFF00)">ა</hi>ზატ ნაქნარის კაცისა უმადურობისა </item>
-                      <item><ptr target="#num12"/>უპვ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატ ნაქნარისა პატრონის შვილის გინებისა </item>
-                      <item><ptr target="#num12"/>უპზ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატ ნაქნარისა თავის პატრონის ურიგოს თქმისა </item>
-                      <item><ptr target="#num12"/>უპჱ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატი უშვილოსაგან და მერმე შვილყოლილისა </item>
-                      <item><ptr target="#num12"/>უპთ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატ ნაქნარის გასყიდვისა ან სყიდვისა გაცვლისა გაცემისა. </item>
-                      <item><ptr target="#num12"/> <note>უჟ </note><hi rend="color(FFFF00)">ა</hi>ზატი ვაჟისა და ქალისა მისისა </item>
-                      <item><ptr target="#num12"/>უჟა <note> </note><hi rend="color(FFFF00)">ა</hi>ზატისა შვილითა და შვილის შვილითა </item>
-                      <item><ptr target="#num12"/>უჟბ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატი ნაპოვნისა ან აყვანილის ყმარწვილისა </item>
-                      <item><ptr target="#num12"/>უჟგ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატი ნაპოვნისა ანუ ნაშვილებისა ან ნასყიდისა და თავს საქონლისაც მისთვის ნაანდერძებისა </item>
-                      <item><ptr target="#num12"/>უჟდ <note> </note><hi rend="color(FFFF00)">ა</hi>ზატი ვინ თავი დაასნევინოს წიგნი და მოწამე იყო თუ არა </item>
-                      <item><ptr target="#num12"/>ქმჱ <note> </note><hi rend="color(FFFF00)">ა</hi>მხანაგად შეყრისა გაყრისა და გაუყრელისა </item>
-                      <item><ptr target="#num12"/>ქმთ <note> </note><hi rend="color(FFFF00)">ა</hi>მხანაგისაგან სავაჭროდ საქონლის წაღებისა </item>
-                      <item><ptr target="#num12"/>ქნ <note> </note><hi rend="color(FFFF00)">ა</hi>მხანაგისაგან საქონლის დაკარგვისა ან სიკუდილისა და დამკარგველის სახლისა </item>
-                      <item><ptr target="#num12"/>ქნბ <note> </note><hi rend="color(FFFF00)">ა</hi>მხანაგთა ერთად ნავაჭართა რა ერთმან ერთს უმტყუნონ </item>
-                      <item><ptr target="#num12"/>ქნგ <note> </note><hi rend="color(FFFF00)">ა</hi>მხანაგთა ტყვილის ფიცით შეატყონ რამე </item>
-                      <item><ptr target="#num12"/>ქნდ<note> </note><hi rend="color(FFFF00)">ა</hi>მხანაგი ვინ იშრიყოს და მალე უყრის </item>
-                      <item><ptr target="#num12"/>ოლდ <note> </note><hi rend="color(FFFF00)">ა</hi>შენებისა და ახლის სოფლისა და სამმღვრის გარიგებისა </item>
-                      <item><ptr target="#num12"/>ოლე <note> </note><hi rend="color(FFFF00)">ა</hi>შენებისა ჴელმწიფის ალაგში. თავადთაგან სოფლისა და გლეხთა მიერ გატეხისა </item>
-                      <item><ptr target="#num12"/>ოლბ <note> </note><hi rend="color(FFFF00)">ა</hi>გლეხთა მთის გატეხისა </item>
-                      <item><ptr target="#num12"/>ოლზ <note> </note><hi rend="color(FFFF00)">ა</hi>შენებისა ახლის სახლისა და გაფრთხილებისა ვაცის დაუშავებლობისა </item>
-                      <item><ptr target="#num12"/>ოლჱ <note> </note><hi rend="color(FFFF00)">ა</hi>შენებისა სხვის ალაგზე სახლის და სხვის სახლზე მაღლისა </item>
-                      <item><ptr target="#num12"/>ოლთ <note> </note><hi rend="color(FFFF00)">ა</hi>შენებისა მაღლის სახლისა თავის ალაგში. მეზობლის სახლის დაუშლელობისა </item>
-                      <item><ptr target="#num12"/>ომ <note> </note><hi rend="color(FFFF00)">ა</hi>შენებისა სახლისა დაქცეულისა და მეზობლისავე დაუშლელობისა </item>
-                      <item><ptr target="#num12"/>ომა <note> </note><hi rend="color(FFFF00)">ა</hi>შენებისა სახლისა საქვეყნო ალაზე და მეზობლის დაუშლელობისა </item>
-                      <item><ptr target="#num12"/>ომბ <note> </note><hi rend="color(FFFF00)">ა</hi>შენებისა სახლისა და მეზობლის ვაის სახლის წახდენისა და წყენისა </item>
+                      <item><ptr target="#num476"/>უოვ <note>476</note><hi rend="color(FFFF00)">ა</hi>ზატი ყმისა </item>
+                      <item><ptr target="#num477"/>უოზ <note>477</note><hi rend="color(FFFF00)">ა</hi>ზატი ყმისა პაემნით </item>
+                      <item><ptr target="#num478"/>უოჱ <note>478</note><hi rend="color(FFFF00)">ა</hi>ზატი ყმისა პაემნით რას დროს გათავისუფლებასა </item>
+                      <item><ptr target="#num479"/>უოთ <note>479</note><hi rend="color(FFFF00)">ა</hi>ზატი ყმისა მისთანავე მყოფისა და მოახლის შერთვისა </item>
+                      <item><ptr target="#num480"/>უპ <note>480</note><hi rend="color(FFFF00)">ა</hi>ზატისავე თუ რას ქონებით უყრის აზატი </item>
+                      <item><ptr target="#num481"/>უპა <note>481</note><hi rend="color(FFFF00)">ა</hi>ზატის სახლი ვარიან მამულით </item>
+                      <item><ptr target="#num482"/>უპბ <note>482</note><hi rend="color(FFFF00)">ა</hi>ზატისა ის ყმა სათავისთავო. იყო ანუ სამამულო </item>
+                      <item><ptr target="#num483"/>უპგ <note>483</note><hi rend="color(FFFF00)">ა</hi>ზატისავე რომელ გააზატებული გაღარიბებულიყოს </item>
+                      <item><ptr target="#num484"/>უპდ <note>484</note><hi rend="color(FFFF00)">ა</hi>ზატისა მხლებლისა თუ როგორ ჴამს </item>
+                      <item><ptr target="#num485"/>უპე <note>485</note><hi rend="color(FFFF00)">ა</hi>ზატ ნაქნარის კაცისა უმადურობისა </item>
+                      <item><ptr target="#num486"/>უპვ <note>486</note><hi rend="color(FFFF00)">ა</hi>ზატ ნაქნარისა პატრონის შვილის გინებისა </item>
+                      <item><ptr target="#num487"/>უპზ <note>487</note><hi rend="color(FFFF00)">ა</hi>ზატ ნაქნარისა თავის პატრონის ურიგოს თქმისა </item>
+                      <item><ptr target="#num488"/>უპჱ <note>488</note><hi rend="color(FFFF00)">ა</hi>ზატი უშვილოსაგან და მერმე შვილყოლილისა </item>
+                      <item><ptr target="#num489"/>უპთ <note>489</note><hi rend="color(FFFF00)">ა</hi>ზატ ნაქნარის გასყიდვისა ან სყიდვისა გაცვლისა გაცემისა. </item>
+                      <item><ptr target="#num490"/>უჟ <note>490</note><hi rend="color(FFFF00)">ა</hi>ზატი ვაჟისა და ქალისა მისისა </item>
+                      <item><ptr target="#num491"/>უჟა <note>491</note><hi rend="color(FFFF00)">ა</hi>ზატისა შვილითა და შვილის შვილითა </item>
+                      <item><ptr target="#num492"/>უჟბ <note>492</note><hi rend="color(FFFF00)">ა</hi>ზატი ნაპოვნისა ან აყვანილის ყმარწვილისა </item>
+                      <item><ptr target="#num493"/>უჟგ <note>493</note><hi rend="color(FFFF00)">ა</hi>ზატი ნაპოვნისა ანუ ნაშვილებისა ან ნასყიდისა და თავს საქონლისაც მისთვის ნაანდერძებისა </item>
+                      <item><ptr target="#num494"/>უჟდ <note>494</note><hi rend="color(FFFF00)">ა</hi>ზატი ვინ თავი დაასნევინოს წიგნი და მოწამე იყო თუ არა </item>
+                      <item><ptr target="#num648"/>ქმჱ <note>648</note><hi rend="color(FFFF00)">ა</hi>მხანაგად შეყრისა გაყრისა და გაუყრელისა </item>
+                      <item><ptr target="#num649"/>ქმთ <note>649</note><hi rend="color(FFFF00)">ა</hi>მხანაგისაგან სავაჭროდ საქონლის წაღებისა </item>
+                      <item><ptr target="#num650"/>ქნ <note>650</note><hi rend="color(FFFF00)">ა</hi>მხანაგისაგან საქონლის დაკარგვისა ან სიკუდილისა და დამკარგველის სახლისა </item>
+                      <item><ptr target="#num652"/>ქნბ <note>652</note><hi rend="color(FFFF00)">ა</hi>მხანაგთა ერთად ნავაჭართა რა ერთმან ერთს უმტყუნონ </item>
+                      <item><ptr target="#num653"/>ქნგ <note>653</note><hi rend="color(FFFF00)">ა</hi>მხანაგთა ტყვილის ფიცით შეატყონ რამე </item>
+                      <item><ptr target="#num654"/>ქნდ<note>654</note><hi rend="color(FFFF00)">ა</hi>მხანაგი ვინ იშრიყოს და მალე უყრის </item>
+                      <item><ptr target="#num734"/>ღლდ <note>734</note><hi rend="color(FFFF00)">ა</hi>შენებისა და ახლის სოფლისა და სამმღვრის გარიგებისა </item>
+                      <item><ptr target="#num735"/>ღლე <note>735</note><hi rend="color(FFFF00)">ა</hi>შენებისა ჴელმწიფის ალაგში. თავადთაგან სოფლისა და გლეხთა მიერ გატეხისა </item>
+                      <item><ptr target="#num736"/>ღლგ <note>736</note><hi rend="color(FFFF00)">ა</hi>გლეხთა მთის გატეხისა </item>
+                      <item><ptr target="#num737"/>ღლზ <note>737</note><hi rend="color(FFFF00)">ა</hi>შენებისა ახლის სახლისა და გაფრთხილებისა ვაცის დაუშავებლობისა </item>
+                      <item><ptr target="#num738"/>ღლჱ <note>738</note><hi rend="color(FFFF00)">ა</hi>შენებისა სხვის ალაგზე სახლის და სხვის სახლზე მაღლისა </item>
+                      <item><ptr target="#num739"/>ღლთ <note>739</note><hi rend="color(FFFF00)">ა</hi>შენებისა მაღლის სახლისა თავის ალაგში. მეზობლის სახლის დაუშლელობისა </item>
+                      <item><ptr target="#num740"/>ღმ <note>740</note><hi rend="color(FFFF00)">ა</hi>შენებისა სახლისა დაქცეულისა და მეზობლისავე დაუშლელობისა </item>
+                      <item><ptr target="#num741"/>ღმა <note>741</note><hi rend="color(FFFF00)">ა</hi>შენებისა სახლისა საქვეყნო ალაზე და მეზობლის დაუშლელობისა </item>
+                      <item><ptr target="#num742"/>ღმბ <note>742</note><hi rend="color(FFFF00)">ა</hi>შენებისა სახლისა და მეზობლის ვაის სახლის წახდენისა და წყენისა </item>
                       <pb n="3"/>
-                      <item><hi rend="color(FFFF00)">ა</hi>შენებისა მეზობლის გვერდითა. ახლის მარნისა ან სამზარეულოსი სახლის სხვისა <ptr target="#num12"/>მგ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>შენების სახლისა ვის სახლზე სახლი ედგას და იქცეოდეს, როგორ ჴამის აშენება <ptr target="#num12"/>ომდ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>შენებისა ახლის სახლისა და ლაშქარს მყოფისა <ptr target="#num12"/>ომე <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>თეულის შეწირვისა <ptr target="#num12"/>შმდ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ქიმთათვის სულიერთა გინა ხორციელთა <ptr target="#num12"/>შნდ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ქიმთათვისავე წამლის მიცემისა <ptr target="#num12"/>შნვ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ა</hi>ქიმთა მონაცემის გამოურთმევლობისა <ptr target="#num12"/>შნზ <note> </note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>შენებისა მეზობლის გვერდითა. ახლის მარნისა ან სამზარეულოსი სახლის სხვისა <ptr target="#num43"/>მგ <note>43</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>შენების სახლისა ვის სახლზე სახლი ედგას და იქცეოდეს, როგორ ჴამის აშენება <ptr target="#num744"/>ღმდ <note>744</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>შენებისა ახლის სახლისა და ლაშქარს მყოფისა <ptr target="#num745"/>ღმე <note>745</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>თეულის შეწირვისა <ptr target="#num944"/>შმდ <note>944</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ქიმთათვის სულიერთა გინა ხორციელთა <ptr target="#num954"/>შნდ <note>954</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ქიმთათვისავე წამლის მიცემისა <ptr target="#num956"/>შნვ <note>956</note></item>
+                      <item><hi rend="color(FFFF00)">ა</hi>ქიმთა მონაცემის გამოურთმევლობისა <ptr target="#num957"/>შნზ <note>957</note></item>
                   </list>
                   <list>
                       <head>
                           <hi rend="color(FFFF00)">ბ</hi>
                       </head>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ჭის მოსამართლისათვის თუ როგორი მართების ბჭეს სამართალი <ptr target="#num12"/>ნთ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ჭის სამართალი ვინცა არ დაიჯერის რა უნდა გარდახდის <ptr target="#num12"/>ჲ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ჭისა და მეფის სამართალი სწორია <ptr target="#num12"/>ჲა <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ერთა ტყვილად მოარულთა და ცრუ წინასწარმეტყუელთა <ptr target="#num12"/>რლმ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ერთაგან ხორცის ჭამისა და უჭმელებისა <ptr target="#num12"/>რლზ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ერთა და მღვდელთა ტანისამოსისათვისა <ptr target="#num12"/>რლჱ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ერთა შეწირულისა და აღთქმის გატეხისა <ptr target="#num12"/>რმვ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ატონ ყმათ შუა ჩხუბის ჩამოვარდნისა <ptr target="#num12"/>სიბ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ოროტის თქმისა და გრმნელობის წამახებისა <ptr target="#num12"/>ტდ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ერად შემდგარის სამკვიდრებელის მიცემისა <ptr target="#num12"/>ყმ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ატონზედ სამსხები რამე მიუმღოდის და ის საქმემ რამ მოგივანოს <ptr target="#num12"/>ყით <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ეგრისათვის თუ რა სდებდის ქუეყანასა<ptr target="#num12"/>ყპდ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ეგრისათვისავე და ღალისა რამდენზე უნდა <ptr target="#num12"/>ყპე <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>აჟისათვის <ptr target="#num12"/>ყჟ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>აჟისათვის <ptr target="#num12"/>ყჟა <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>აჟის მოპარვით მიუცემლობისა <ptr target="#num12"/>ყჟბ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">ბ</hi>ატონისაგან ორის ვაჟისათვის ნაშობების რასმე და ერთისა მომკვდარისა <ptr target="#num12"/>შნბ <note> </note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ჭის მოსამართლისათვის თუ როგორი მართების ბჭეს სამართალი <ptr target="#num59"/>ნთ <note>59</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ჭის სამართალი ვინცა არ დაიჯერის რა უნდა გარდახდის <ptr target="#num60"/>ჲ <note>60</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ჭისა და მეფის სამართალი სწორია <ptr target="#num61"/>ჲა <note>61</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ერთა ტყვილად მოარულთა და ცრუ წინასწარმეტყუელთა <ptr target="#num133"/>რლგ <note>133</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ერთაგან ხორცის ჭამისა და უჭმელებისა <ptr target="#num137"/>რლზ <note>137</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ერთა და მღვდელთა ტანისამოსისათვისა <ptr target="#num138"/>რლჱ <note>138</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ერთა შეწირულისა და აღთქმის გატეხისა <ptr target="#num146"/>რმვ <note>146</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ატონ ყმათ შუა ჩხუბის ჩამოვარდნისა <ptr target="#num212"/>სიბ <note>212</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ოროტის თქმისა და გრმნელობის წამახებისა <ptr target="#num304"/>ტდ <note>304</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ერად შემდგარის სამკვიდრებელის მიცემისა <ptr target="#num840"/>ყმ <note>840</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ატონზედ სამსხები რამე მიუმღოდის და ის საქმემ რამ მოგივანოს <ptr target="#num819"/>ყით <note>819</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ეგრისათვის თუ რა სდებდის ქუეყანასა<ptr target="#num884"/>ყპდ <note>884</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ეგრისათვისავე და ღალისა რამდენზე უნდა <ptr target="#num885"/>ყპე <note>885</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>აჟისათვის <ptr target="#num890"/>ყჟ <note>890</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>აჟისათვის <ptr target="#num891"/>ყჟა <note>891</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>აჟის მოპარვით მიუცემლობისა <ptr target="#num892"/>ყჟბ <note>892</note></item>
+                      <item><hi rend="color(FFFF00)">ბ</hi>ატონისაგან ორის ვაჟისათვის ნაშობების რასმე და ერთისა მომკვდარისა <ptr target="#num952"/>შნბ <note>952</note></item>
                       <item><hi rend="color(FFFF00)">ბ</hi></item> 
                       <item><hi rend="color(FFFF00)">ბ</hi></item>
                       <item><hi rend="color(FFFF00)">ბ</hi></item>
                   </list>
                   <list>
                       <head><hi rend="color(FFFF00)">გ</hi></head>
-                      <item><hi rend="color(FFFF00)">გ</hi>ალახვის ღირსისა <ptr target="#num12"/>რმზ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>აჭირებით და კაცთ მოთმენებით მონათლულისა <ptr target="#num12"/>რმჱ <note> </note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>ალახვის ღირსისა <ptr target="#num147"/>რმზ <note>147</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>აჭირებით და კაცთ მოთმენებით მონათლულისა <ptr target="#num148"/>რმჱ <note>148</note></item>
                       <pb n="4"/>
-                      <item><ptr target="#num12"/>რნ <note> </note> გიჟისა ანუ უცნობობით გარდავარდნით ანუ ყელ-გამოჭრით მკვდრისა</item>
-                      <item><ptr target="#num12"/>სჟ <note> </note> გულ შილწობისა და გულ შედგრომისა</item>
-                      <item><ptr target="#num12"/>სჟვ <note> </note> გინებისათვის. განწესებული</item>
+                      <item><ptr target="#num150"/>რნ <note>150</note> გიჟისა ანუ უცნობობით გარდავარდნით ანუ ყელ-გამოჭრით მკვდრისა</item>
+                      <item><ptr target="#num290"/>სჟ <note>290</note> გულ შილწობისა და გულ შედგრომისა</item>
+                      <item><ptr target="#num296"/>სჟვ <note>296</note> გინებისათვის. განწესებული</item>
                       
-                      <item><ptr target="#num12"/>სჟზ <note> </note> გინებისათვის ღ&#x0360;თის სახელისა</item>
-                      <item><ptr target="#num12"/>სჟჱ <note> </note> გინებისათვის უღირსისაგან უაღრესისა</item>
-                      <item><ptr target="#num12"/>სჟთ <note> </note> გინებისათვის უსამართლოდ</item>
-                      <item><ptr target="#num12"/>ტ <note> </note> გინებისა დიაცისა კაცისაგან კაცისა</item>
-                      <item><ptr target="#num12"/>ტა <note> </note> გინებისათვისავე</item>
-                      <item><ptr target="#num12"/>ტშ <note> </note> გინებისათვისაც და მალვით გამორთმევით შერიგებისა</item>
-                      <item><ptr target="#num12"/>ტიდ <note> </note> გერბის საქმისა</item>
-                      <item><ptr target="#num12"/>ტმთ <note> </note> გიჟისაგან კაცის სიკუდილისა</item>
-                      <item><ptr target="#num12"/>ფნე <note> </note> გფნდეგიაფრის გასყიდვისა</item>
-                      <item><ptr target="#num12"/>ფნზ <note> </note> გირაოს სახლის დაწვისა</item>
-                      <item><ptr target="#num12"/>ფნჱ <note> </note> გირაოსათვისავე</item>
-                      <item><ptr target="#num12"/>ფრბ <note> </note> გასყიდულის შვილს მამის ვალი არ ეთხოვება</item>
-                      <item><ptr target="#num12"/>ფნთ <note> </note> გირაოს მამულისაგან ბევრის ჭამისა</item>
-                      <item><ptr target="#num12"/>ყიზ <note> </note> გლეხისა თუ სხვასა წარმავალისა გასწიოს</item>
-                      <item><ptr target="#num12"/>ყიჱ <note> </note> გლეხსა თუ სხვის შვილი წაუვიდის</item>
-                      <item><ptr target="#num12"/>ყვ <note> </note> გლეხი რომ აიყაროს ექვს წელიწადს სხვაგან დაჰყვის მერმე ხელმწიფეს მოუვიდეს</item>
-                      <item><ptr target="#num12"/>ყვა <note> </note> გლეხივე თავადისა ყმა აიყაროს ოცდაათს წელიწადს სხვაგან დაჰყრის, მერმე სხვას მიყვიდის</item>
-                      <item><ptr target="#num12"/>ყვბ <note> </note> გლეხივე აყრილი თუ თავის შეტანის მოუვიდეს</item>
-                      <item><ptr target="#num12"/>ყტდ <note> </note> გაყრისათვის დიდებულთა სახლისა</item>
-                      <item><ptr target="#num12"/>ყნე <note> </note> გაყრისათვის მამათა და მამულისა</item>
-                      <item><ptr target="#num12"/>ყნვ <note> </note> გაყრისათვის მამათა და ნაღალატევისა</item>
-                      <item><ptr target="#num12"/>ყნზ <note> </note> გაყრისათვის შვილთა მამულიანთა</item>
-                      <item><ptr target="#num12"/>ყნჱ <note> </note> გაყრისათვის მამათა სხვა დედისაგანთა</item>
-                      <item><ptr target="#num12"/>ყნთ <note> </note> გაყრაში მამის საქონლის გაყოფისა როგორ უნდა</item>
-                      <item><ptr target="#num12"/>ყჲ <note> </note> გაყრას უწინ რომლების ზითვის გარდადებისა</item>
-                      <item><ptr target="#num12"/>ყჲა <note> </note> გაყრაში მართლის შვილებისადმი ნაბიჭვრისა წილისა</item>
-                      <item><ptr target="#num12"/>ყჲბ <note> </note> გაყრის შიდა მამის სულთა</item>
-                      <item><ptr target="#num12"/>ყჲგ <note> </note> გაყრასა თავადთასა საყდროვანთ წილში ჩაუგდებლობისა</item>
-                      <item><ptr target="#num12"/>ყჲდ <note> </note>გაყრასა დიდებულთასა საუფროსასა და სახემცრისათვის</item>
-                      <item><ptr target="#num12"/>ყჲე <note> </note>გაყრაში გასამყრელისათვის</item>
-                      <item><ptr target="#num12"/>ყჲვ <note> </note>გაყრაში შუათანა მამებს რა უნდა მიეცეს</item>
+                      <item><ptr target="#num297"/>სჟზ <note>297</note> გინებისათვის ღ&#x0360;თის სახელისა</item>
+                      <item><ptr target="#num298"/>სჟჱ <note>298</note> გინებისათვის უღირსისაგან უაღრესისა</item>
+                      <item><ptr target="#num299"/>სჟთ <note>299</note> გინებისათვის უსამართლოდ</item>
+                      <item><ptr target="#num300"/>ტ <note>300</note> გინებისა დიაცისა კაცისაგან კაცისა</item>
+                      <item><ptr target="#num301"/>ტა <note>301</note> გინებისათვისავე</item>
+                      <item><ptr target="#num302"/>ტბ <note>302</note> გინებისათვისაც და მალვით გამორთმევით შერიგებისა</item>
+                      <item><ptr target="#num314"/>ტიდ <note>314</note> გერბის საქმისა</item>
+                      <item><ptr target="#num349"/>ტმთ <note>349</note> გიჟისაგან კაცის სიკუდილისა</item>
+                      <item><ptr target="#num555"/>ფნე <note>555</note> გფნდეგიაფრის გასყიდვისა</item>
+                      <item><ptr target="#num557"/>ფნზ <note>557</note> გირაოს სახლის დაწვისა</item>
+                      <item><ptr target="#num558"/>ფნჱ <note>558</note> გირაოსათვისავე</item>
+                      <item><ptr target="#num552"/>ფნბ <note>552</note> გასყიდულის შვილს მამის ვალი არ ეთხოვება</item>
+                      <item><ptr target="#num559"/>ფნთ <note>559</note> გირაოს მამულისაგან ბევრის ჭამისა</item>
+                      <item><ptr target="#num817"/>ყიზ <note>817</note> გლეხისა თუ სხვასა წარმავალისა გასწიოს</item>
+                      <item><ptr target="#num818"/>ყიჱ <note>818</note> გლეხსა თუ სხვის შვილი წაუვიდის</item>
+                      <item><ptr target="#num820"/>ყკ <note>820</note> გლეხი რომ აიყაროს ექვს წელიწადს სხვაგან დაჰყვის მერმე ხელმწიფეს მოუვიდეს</item>
+                      <item><ptr target="#num821"/>ყკა <note>821</note> გლეხივე თავადისა ყმა აიყაროს ოცდაათს წელიწადს სხვაგან დაჰყრის, მერმე სხვას მიყვიდის</item>
+                      <item><ptr target="#num822"/>ყკბ <note>822</note> გლეხივე აყრილი თუ თავის შეტანის მოუვიდეს</item>
+                      <item><ptr target="#num824"/>ყკდ <note>824</note> გაყრისათვის დიდებულთა სახლისა</item>
+                      <item><ptr target="#num855"/>ყნე <note>855</note> გაყრისათვის მამათა და მამულისა</item>
+                      <item><ptr target="#num856"/>ყნვ <note>856</note> გაყრისათვის მამათა და ნაღალატევისა</item>
+                      <item><ptr target="#num857"/>ყნზ <note>857</note> გაყრისათვის შვილთა მამულიანთა</item>
+                      <item><ptr target="#num858"/>ყნჱ <note>858</note> გაყრისათვის მამათა სხვა დედისაგანთა</item>
+                      <item><ptr target="#num859"/>ყნთ <note>859</note> გაყრაში მამის საქონლის გაყოფისა როგორ უნდა</item>
+                      <item><ptr target="#num860"/>ყჲ <note>860</note> გაყრას უწინ რომლების ზითვის გარდადებისა</item>
+                      <item><ptr target="#num861"/>ყჲა <note>861</note> გაყრაში მართლის შვილებისადმი ნაბიჭვრისა წილისა</item>
+                      <item><ptr target="#num862"/>ყჲბ <note>862</note> გაყრის შიდა მამის სულთა</item>
+                      <item><ptr target="#num863"/>ყჲგ <note>863</note> გაყრასა თავადთასა საყდროვანთ წილში ჩაუგდებლობისა</item>
+                      <item><ptr target="#num864"/>ყჲდ <note>864</note>გაყრასა დიდებულთასა საუფროსასა და სახემცრისათვის</item>
+                      <item><ptr target="#num865"/>ყჲე <note>865</note>გაყრაში გასამყრელისათვის</item>
+                      <item><ptr target="#num866"/>ყჲვ <note>866</note>გაყრაში შუათანა მამებს რა უნდა მიეცეს</item>
                       <pb n="5"/>
-                      <item><hi rend="color(FFFF00)">გ</hi>აყრაში საუმცროსისათვის <ptr target="#num12"/>ყჲვ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>ასაყრელის და საუფროსის გარდა გლეხთ შეფარდებისა <ptr target="#num12"/>ყჲზ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>აყრაში სათავს თავის ნასყიდობისა <ptr target="#num12"/>ყჲ<del rend="overwritten">ზ</del><add place="inline">ჱ</add> <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>აყრაში თავის თავად ნაშოვნ ნასყიდისა <ptr target="#num12"/>ყრა <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>აყრაში ნასისხლისა რასმე გაყოფისა <ptr target="#num12"/>ყრგ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>აყრისათვის უშვილოს კაცისა და წილისა <ptr target="#num12"/>ყრდ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>აყრისა დარბაისლისაგან სისხლმცირე სახლის კაცისა <ptr target="#num12"/>ყრე <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>აყრა ვინცა მოინდომის თავისი წილი არ დაეჭირვის <ptr target="#num12"/>ყრვ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>აყოფისათვის სულადისა <ptr target="#num12"/>ყრზ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>აყრისათვის შვილთასა <ptr target="#num12"/>ყრჱ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>აყრისა მამათასა და დაყვებულის მამის გამოსვლისა <ptr target="#num12"/>ყრთ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>აყრისათვის გლეხის კაცისა <ptr target="#num12"/>ყპ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>აყრისათვის შვილიშვილისა <ptr target="#num12"/>ყპა <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>იჟისა და ეშმაკეულისათვის სახლის კაცთაგან მოსვლისა <ptr target="#num12"/>ყჟე <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>ასაგიჟებელი წამალი ვინ ვის აჭამოს <ptr target="#num12"/>შდ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>ლეხისა და პატრონ ყმათა და მამულისა <ptr target="#num12"/>შლ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>ლეხთა უდიერად მოპყრობისა <ptr target="#num12"/>შლა <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>ლეხთა და უქონელთა მალისა და შებრალებისა <ptr target="#num12"/>შლბ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>ლეხის უსამართლოდ გაცარცვისა <ptr target="#num12"/>შლგ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>ლახაკთა შებრალებისა <ptr target="#num12"/>შმა <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>გაგიჟება პირუტყვთა <ptr target="#num12"/>შნჱ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>გაყრისა და შეყრისა უშვილისა <ptr target="#num12"/>შპდ <note> </note></item>
-                      <item><hi rend="color(FFFF00)">გ</hi>გაყრაში სასაფლაოსა ხატისა და ჯვარის გაუყოფლობისა <ptr target="#num12"/>ყჲჱ <note> </note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>აყრაში საუმცროსისათვის <ptr target="#num866"/>ყჲვ <note>866</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>ასაყრელის და საუფროსის გარდა გლეხთ შეფარდებისა <ptr target="#num867"/>ყჲზ <note>867</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>აყრაში სათავს თავის ნასყიდობისა <ptr target="#num868"/>ყჲ<del rend="overwritten">ზ</del><add place="inline">ჱ</add> <note>867</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>აყრაში თავის თავად ნაშოვნ ნასყიდისა <ptr target="#num871"/>ყოა <note>871</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>აყრაში ნასისხლისა რასმე გაყოფისა <ptr target="#num873"/>ყოგ <note>873</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>აყრისათვის უშვილოს კაცისა და წილისა <ptr target="#num874"/>ყოდ <note>874</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>აყრისა დარბაისლისაგან სისხლმცირე სახლის კაცისა <ptr target="#num875"/>ყოე <note>875</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>აყრა ვინცა მოინდომის თავისი წილი არ დაეჭირვის <ptr target="#num876"/>ყოვ <note>876</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>აყოფისათვის სულადისა <ptr target="#num877"/>ყოზ <note>877</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>აყრისათვის შვილთასა <ptr target="#num878"/>ყოჱ <note>878</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>აყრისა მამათასა და დაყვებულის მამის გამოსვლისა <ptr target="#num879"/>ყოთ <note>879</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>აყრისათვის გლეხის კაცისა <ptr target="#num880"/>ყპ <note>880</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>აყრისათვის შვილიშვილისა <ptr target="#num881"/>ყპა <note>881</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>იჟისა და ეშმაკეულისათვის სახლის კაცთაგან მოსვლისა <ptr target="#num895"/>ყჟე <note>895</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>ასაგიჟებელი წამალი ვინ ვის აჭამოს <ptr target="#num904"/>შდ <note>904</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>ლეხისა და პატრონ ყმათა და მამულისა <ptr target="#num930"/>შლ <note>930</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>ლეხთა უდიერად მოპყრობისა <ptr target="#num931"/>შლა <note>931</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>ლეხთა და უქონელთა მალისა და შებრალებისა <ptr target="#num932"/>შლბ <note>932</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>ლეხის უსამართლოდ გაცარცვისა <ptr target="#num933"/>შლგ <note>933</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>ლახაკთა შებრალებისა <ptr target="#num941"/>შმა <note>941</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>გაგიჟება პირუტყვთა <ptr target="#num958"/>შნჱ <note>958</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>გაყრისა და შეყრისა უშვილისა <ptr target="#num984"/>შპდ <note>984</note></item>
+                      <item><hi rend="color(FFFF00)">გ</hi>გაყრაში სასაფლაოსა ხატისა და ჯვარის გაუყოფლობისა <ptr target="#num868"/>ყჲჱ <note>868</note></item>
                   </list>
                   <list>
                       <head><hi rend="color(FFFF00)">დ</hi></head>
-                      <item>დედაკაცთა ვინცა ვისი ყმა ქმრად შეირთოს <ptr target="#num12"/>ლდ <note> </note></item>
-                      <item>დდედავაჟის აზატისა და უაზატოს ყმის შერთვისა <ptr target="#num12"/>ლდ <note> </note></item>
-                      <item>დდედავაჟის მოსამართლეთ დაყენებისა <ptr target="#num12"/>ჲბ <note> </note></item>
-                      <item>დდედავაჟის სამართალში მისულის არა ჯერ არსობისა <ptr target="#num12"/>ჲგ <note> </note></item>
-                      <item>დედავაჟისათვის ავის მოჩივრისა <ptr target="#num12"/>ჲ <note> </note></item>
-                      <item> <ptr target="#num12"/> <note> </note></item>
-                      
-                      <item><ptr target="#num12"/> <note> </note></item>
-                      
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცთა ვინცა ვისი ყმა ქმრად შეირთოს <ptr target="#num34"/>ლდ <note>34</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>დედავაჟის აზატისა და უაზატოს ყმის შერთვისა <ptr target="#num34"/>ლდ <note>34</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>დედავაჟის მოსამართლეთ დაყენებისა <ptr target="#num62"/>ჲბ <note>62</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>დედავაჟის სამართალში მისულის არა ჯერ არსობისა <ptr target="#num63"/>ჲგ <note>63</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედავაჟისათვის ავის მოჩივრისა <ptr target="#num60"/>ჲ <note>60</note></item>
+                      <pb n="6"/>
+                      <item><ptr target="#num10"/>ი <note>10</note> <hi rend="color(FFFF00)">დ</hi>იდ მარხვაში მოსამართლისაგან სამართლის უქნელობისა</item>
+                      <item><ptr target="#num87"/>პზ <note>87</note> <hi rend="color(FFFF00)">დ</hi>ამნაშავეთა მაშინვე არ გარდახდევინება</item>
+                      <item><ptr target="#num88"/>პჱ <note>88</note> <hi rend="color(FFFF00)">დ</hi>ამნაშავეთა კაცთა შებრალებისა</item>
+                      <item><ptr target="#num89"/>პთ <note>89</note> <hi rend="color(FFFF00)">დ</hi>ამნაშავეთა გარდახდევინებისა იასაულთაგან დაცლევინებისა</item>
+                      <item><ptr target="#num90"/>ჟ <note>90</note> <hi rend="color(FFFF00)">დ</hi>ამნაშავეთა თუ მეფემ შეუნდოს ერთაცა შენდობისა</item>
+                      <item><ptr target="#num96"/>ჟვ <note>96</note> <hi rend="color(FFFF00)">დ</hi>ანაშაული შვილისა მამას არ ეკითხოს და არცა მამისაშვილსა</item>
+                      <item><ptr target="#num99"/>ჟთ <note>99</note> <hi rend="color(FFFF00)">დ</hi>ანაშაულის ქალისა მერმე ნდომისა და უნდომლობისა</item>
+                      <item><ptr target="#num100"/>რ <note>100</note> <hi rend="color(FFFF00)">დ</hi>ანიშნული კაცი ანუ მოკვლის ანუ ბერად შედგის</item>
+                      <item><ptr target="#num101"/>რა <note>101</note> <hi rend="color(FFFF00)">დ</hi>ანიშნული ნავაცნთა და ერთის მომკვდრის ნიშნის თხზვნისა და არ თხოვნისა</item>
+                      <item><ptr target="#num102"/>რბ <note>102</note> <hi rend="color(FFFF00)">დ</hi>ანიშნვნისათვის ცხრილსა უზომოდ</item>
+                      <item><ptr target="#num103"/>რგ <note>103</note> <hi rend="color(FFFF00)">დ</hi>ანიშნულის თუ რამდენის საქმისაგან გაიყრებიათ</item>
+                      <item><ptr target="#num104"/>რდ <note>104</note> <hi rend="color(FFFF00)">დ</hi>ანიშნულნი რომელნიც პირებმავეულ იქმნან მიშლება თუ არა</item>
+                      <item><ptr target="#num112"/>რიბ <note>112</note> <hi rend="color(FFFF00)">დ</hi>იდი ხუთშაფათს წმინდა ზიარების გარდა ზმელის პურს გარდა უჭმელობისა</item>
+                      <item><ptr target="#num113"/>რიგ <note>113</note> <hi rend="color(FFFF00)">დ</hi>ამნაშავეთა მოკვდელთათვის</item>
+                      <item><ptr target="#num184"/>რპდ <note>184</note> <hi rend="color(FFFF00)">დ</hi>ეკანოზისათვის</item>
+                      <item><ptr target="#num149"/>რმთ <note>149</note> <hi rend="color(FFFF00)">დ</hi>ამნაშავისაგან თავისთავ მოკლულისა წირვის ღირსებისა ანუ არა</item>
+                      <item><ptr target="#num171"/>როა <note>171</note> <hi rend="color(FFFF00)">დ</hi>ანაშავეთა კაცთა ეკლესიასა შინა შეხიზნისა</item>
+                      <item><ptr target="#num253"/>სნგ <note>253</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცი თუ ვინმე საავვაზოდ დაატყოს</item>
+                      <item><ptr target="#num265"/>სჲე <note>265</note> <hi rend="color(FFFF00)">დ</hi>ედის ნაცვლათან ანუ მამის ხასასთან დაცემისა</item>
+                      <item><ptr target="#num266"/>სჲვ <note>266</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცისაგან ნდომით ბოზობისა</item>
+                      <item><ptr target="#num269"/>სჲთ <note>269</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცმან თუ მეზობლის ცოლს უმაჭავლოს</item>
+                      <item><ptr target="#num270"/>სო <note>270</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცისაგან თავის ბოზობის თქმა სამართალში</item>
+                      <item><ptr target="#num271"/>სოა <note>271</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცისაგან მუცლის წახდენისა</item>
+                      <item><ptr target="#num272"/>სობ <note>272</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცს ბოზობით დაგდებულს თუ ბოზობით შექნილი შვილი ჰყვანდეს</item>
+                      <item><ptr target="#num273"/>სოგ <note>273</note> <hi rend="color(FFFF00)">დ</hi>ატყუპება ცოლისა ანუ ქმრისა</item>
+                      <item><ptr target="#num274"/>სოდ <note>274</note> <hi rend="color(FFFF00)">დ</hi>ატყუპებისათვის ცოლისა ანუ ქმრისა რა მართებით</item>
+                      <item><ptr target="#num339"/>ტლთ <note>339</note> <hi rend="color(FFFF00)">დ</hi>აშავებისათვის ვაჟკაცთა ნამლევში ეთმან ერთისა</item>
+                      <item><ptr target="#num358"/>ტნჱ <note>358</note> <hi rend="color(FFFF00)">დ</hi>აშავებისა ანუ სიკვდილისა ცხენისა ჯორისა ანუ სხვისაგანმე</item>
+                      <item><ptr target="#num384"/>ტპდ <note>384</note> <hi rend="color(FFFF00)">დ</hi>იდებულნი თავადნი ესენი არიან</item>
+                      <item><ptr target="#num406"/>უვ <note>406</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცისათვის ქვრივსა შვილი ჰყვეს თუ არა</item>
+                      <item><ptr target="#num407"/>უზ <note>407</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცსა ქვრივსა რა უჴმს</item>
+                      <item><ptr target="#num408"/>უჱ <note>408</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცისა ქვრივისა ვიდრემდე ჴამს ქმრისშერთულობა</item>
+                      <item><ptr target="#num409"/>უთ <note>409</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცისა დაქვრივებულისა ცხრა დღემდე შეუწყინლობისა</item>
+                      <item><ptr target="#num410"/>უი <note>410</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცსა დაქვრივებულსა ქმრის შერთვის მდგომისა სადამდინარ უნდა შეირთოს</item>
+                      <pb n="7"/>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცის დაქვრივებულისა ნაქორწინებისა და განუხრწნელისა <ptr target="#num411"/>უია <note>411</note> </item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცისთვისავე ქვრივისა შვილ მკვდრისა თავის სახლმიდგომისა<ptr target="#num412"/>უიბ <note>412</note> </item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცის ქვრივისა რომლის პატრონისა და ზითვისა<ptr target="#num413"/>უიგ <note>413</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცისა ქვრივისა ზითევზე სხვის დაპატრონებისა<ptr target="#num414"/>უიდ <note>414</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცისა ქვრივისა საქონლის საყდარს შეწირვისა<ptr target="#num415"/>უიე <note>415</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცის ქვრივისა სამაზრის მიცემისა<ptr target="#num416"/>უივ <note>416</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცსა ქვრივსა გლეხის კაცის ცოლის მალით ნუ გაათხებენ<ptr target="#num417"/>უიზ <note>417</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცის მიცვალებულის და ქმარშვილთ დარჩენისა<ptr target="#num418"/>უიჱ <note>418</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცსა მიცვალებულსა თუ მე მრავლად მისცემოდის<ptr target="#num419"/>უით <note>419</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცსა მიცვალებულსა და შვილის დარჩენისა<ptr target="#num420"/>უკ <note>420</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცისა უშვილოდ მიცვალებულისა და მისის ზითვისა<ptr target="#num421"/>უკა <note>421</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცი საყდროვანი ვინ უშვილოდ მიიცვალოს<ptr target="#num422"/>უკბ <note>421</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცმა და თავის შვილის შვილი დააპატრონოს საქონელზეც<ptr target="#num435"/>ულე <note>435</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>აჰპატრონებისათვისვე სამკვიდრებელისა<ptr target="#num436"/>ულვ <note>436</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>აპატრონებისა ახლოს ნათესავისა<ptr target="#num437"/>ულზ <note>437</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>აპატრონებისა სიკუდილის უკან ცოლქმართასა<ptr target="#num438"/>ულჱ <note>438</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>აპატრონებისა დედაშვილთა მიცვალებას უკან<ptr target="#num440"/>უმ <note>440</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედ მამისაგან ზითვის მლევისა ქმრის შერთვისა და ქალის გაუგონრობისა<ptr target="#num506"/>ფვ <note>506</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედას არ შესწევს ხელი ავად მოსაპყრობლად შვუკად არამედ მამას<ptr target="#num508"/>ფჱ <note>508</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედ მამათ შუა ავის რასამე მოხდენისა<ptr target="#num509"/>ფთ <note>509</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცთაგან აღებული ვალი დედაკაცთავე უნდა მისცენ<ptr target="#num585"/>ფპე <note>585</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცისაგან გამოტყუებისა რასმე<ptr target="#num587"/>ფპზ <note>587</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცის უჯერია თავდებობა<ptr target="#num599"/>ფჟთ <note>599</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცისაგან თავის ქმრის თადებობისა<ptr target="#num600"/>ქ <note>600</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>ედაკაცის თავდებობით თეთრით გავალებისა<ptr target="#num601"/>ქა <note>601</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>აწვისათვის ვის სახლს ეკიდებოდეს და სხვის სახლს წაეკიდოს<ptr target="#num701"/>ღა <note>701</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>აწვისათვის თავს ნებით ნამჯისა და სხვა შენობის შეკიდებისა<ptr target="#num702"/>ღბ <note>702</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>აწვისა მიტერებით სხვის სახლისა ანუ რისაცაა<ptr target="#num703"/>ღგ <note>703</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>აწვისათვის ვინ სხვა კაცს სახლი დააწვევინოს<ptr target="#num704"/>ღდ <note>704</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>აწვისა სახლის ცეცხლის შეკიდების გასინჯვა ვისგან შეეკიდა<ptr target="#num705"/>ღე <note>705</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>აწვისა თავისის სახლის მორჩენისათვის ქალაში სხვის სახლის დაქცევისა<ptr target="#num706"/>ღვ <note>706</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>აწვისა სახლის გირაოდ ქონებაში<ptr target="#num707"/>ღზ <note>707</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>აწვას ვინ ვის ეხამებოდის და იგი უარობდის<ptr target="#num708"/>ღჱ <note>708</note></item>
+                      <item><hi rend="color(FFFF00)">დ</hi>აწვისა ვინ მტერობით საყდარსა და საყდრის საქონელს ცეცხლი შეუდგას<ptr target="#num709"/>ღთ <note>709</note></item>
+                      <pb n="8"/>
+                      <item><ptr target="#num801"/>ყა <note>801</note> <hi rend="color(FFFF00)">დ</hi>ამნაშავეთა შებრალებისათვის</item>
+                      <item><ptr target="#num809"/>ყთ <note>809</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცი დანაშაულზედ საპყრობილეში არ შეიგდება</item>
+                      <item><ptr target="#num844"/>ყმდ <note>844</note> <hi rend="color(FFFF00)">დ</hi>ედ მამასთან ღ&#x0360;თის ჟამის ყოფის დაპატიჟებისა</item>
+                      <item><ptr target="#num908"/>შჱ <note>908</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცს თუ ორსულობის წამალი მისცეს და ის დედაკაცი მოკვდეს</item>
+                      <item><ptr target="#num909"/>შთ <note>909</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცმა თუ დედაკაცს წამლით მუცელი წაუხდინოს</item>
+                      <item><ptr target="#num910"/>ში <note>910</note> <hi rend="color(FFFF00)">დ</hi>ედაკაცმა თუ მუცელში წამლით შვილი მოიკლას</item>
+                      <item><ptr target="#num915"/>შიე <note>915</note> <hi rend="color(FFFF00)">დ</hi>აბეზღებისათვის სამღვდელოთასა</item>
+                      <item><ptr target="#num916"/>შივ <note>916</note> <hi rend="color(FFFF00)">დ</hi>აბეზღებისათვის მოსამართლესთან და საბუთი იერ უყრის</item>
+                      <item><ptr target="#num917"/>შიზ <note>917</note> <hi rend="color(FFFF00)">დ</hi>აბეზღების მსგავსად მოსამართლესთან საჯაროდ ნაგაზების და ცივის <gap reason="illegible" quantity="6" unit="character"/></item>
+                      <item><ptr target="#num918"/>შიჱ <note>918</note> <hi rend="color(FFFF00)">დ</hi>აბეზღებისა უსამართლოდ შატინთან</item>
+                      <item><ptr target="#num970"/>შო <note>970</note> <hi rend="color(FFFF00)">დ</hi>აზეთვისა შორიელის კაცისაგან</item>
+                      <item><ptr target="#num971"/>შოა <note>971</note> <hi rend="color(FFFF00)">დ</hi>აზეთვისა კაცისას გაგზავნილის კაცისასა</item>
+                  </list>
+                  <list>
+                      <head><hi rend="color(FFFF00)">ე</hi></head>
+                      <item><ptr target="#num67"/>ჲზ <note>67</note>ებისკოპოზთა კურთხევისა ეპიზკოპოსათაგანვე სიჩქარით</item>
+                      <item><ptr target="#num68"/>ჲჱ <note>68</note>ებისკოპოზთაგან თავის სახლის კაცის კურთხევისა</item>
+                      <item><ptr target="#num69"/>ჲთ <note>69</note>ებისკოპოზთა და მღდელთაგან მიცემა თავის სახლის კაცისა</item>
+                      <item><ptr target="#num70"/>ო <note>70</note>ებისკოპოზთა საქვეყნოს საქმეში გაურევლობისა</item>
+                      <item><ptr target="#num71"/>ოა <note>71</note> <hi rend="color(FFFF00)">ე</hi>ბისკოპოზთა და საყდროვანთა და მღველთაზე სამართალი</item>
+                      <item><ptr target="#num72"/>ობ <note>72</note> <hi rend="color(FFFF00)">ე</hi>ბისკოპოზთა წინაშე მოწმობა ერთით არ ირწმუნება</item>
+                      <item><ptr target="#num73"/>ოგ <note>73</note> <hi rend="color(FFFF00)">ე</hi>ბისკოპოზთა და მღვდელთა მეორეთ კურთხევის მინდოებისა</item>
+                      <item><ptr target="#num74"/>ოდ <note>74</note> <hi rend="color(FFFF00)">ე</hi>ბისკოპოზთა ახლად დაჯდომილისა საეპისკოპოზისა ზედა</item>
+                      <item><ptr target="#num75"/>ოე <note>75</note> <hi rend="color(FFFF00)">ე</hi>ბისკოპოზთა და მღვდელთაგან სხვის სამწყსოს ცილებისა</item>
+                      <item><ptr target="#num76"/>ოვ <note>76</note> <hi rend="color(FFFF00)">ე</hi>ბისკოპოზთაგან სხვის საყდრის წაურთმევლობისა და თავის შემატებისა რაც <gap reason="illegible" quantity="5" unit="character"/></item>
+                      <item><ptr target="#num105"/>რე <note>105</note> <hi rend="color(FFFF00)">ე</hi>ბისკოპოზთაგან სხვის სამწყსოს კურთხევისა ანუ სხვის შეჩუენების გახსნისა</item>
+                      <item><ptr target="#num106"/>რვ <note>106</note> <hi rend="color(FFFF00)">ე</hi>ბისკოპოზთაგანვე სხვის შეჩუნებელის გაუხსნელობისა</item>
+                      <item><ptr target="#num107"/>რზ <note>107</note> <hi rend="color(FFFF00)">ე</hi>ბისკოპოზთა სამდურავისა და ურიგოს თქმისა</item>
+                      <item><ptr target="#num108"/>რჱ <note>108</note> <hi rend="color(FFFF00)">ე</hi>ბისკოპოზთა და ქორებისკოპოზთა მარხვისა და წინამღდეგების</item>
+                      <item><ptr target="#num119"/>რით <note>119</note> <hi rend="color(FFFF00)">ე</hi>ბისკოპოზთა მეთე თე განურისხდეს მეცილებისათვის</item>
+                      <item><ptr target="#num126"/>რვვ <note>126</note> <hi rend="color(FFFF00)">ე</hi>ბისკოპოზთა თუ უღირსი ან უცოდინარი მღვდელი აკურთხეს</item>
+                      <item><ptr target="#num131"/>რლა <note>131</note> <hi rend="color(FFFF00)">ე</hi>ბისკოპოზთაგან რომელნი მღვდლად იკურთხნენ და მათის წესით უქცევდებისა</item>
+                      <pb n="9"/>
+                      <item><hi rend="color(FFFF00)">ე</hi>ბისკოპოზთა მიცვალებულთა საქონლისათვის <ptr target="#num140"/> რმ<note>140</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>ბისკოპოზთაგან საყდრის ვარის დავლეტისა<ptr target="#num141"/> რმა<note>141</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიაში მაღლის გალახის თქმისა<ptr target="#num144"/> რმდ<note>144</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიაში შენებისა და აუშენებლის დარჩენისა<ptr target="#num154"/> რნდ<note>154</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიისა წინა აღმდეგობით სხვის ეკლესიის აშენებისა<ptr target="#num155"/> რნე<note>155</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიის შესაწირავი და სამლოცველო დეკანოზს მიებარის<ptr target="#num157"/> რნზ<note>157</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიის შეწირულებისა სხვა სხვისას ჭამისა<ptr target="#num159"/> რნთ<note>159</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიათა შუა საცილებელისა<ptr target="#num160"/> რჲ<note>160</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიის მამულში ვინრა დასთეს მის მისის ღალისა<ptr target="#num164"/> რჲდ<note>164</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიის მამულში ქირით დამთესავისა ქირის არ მიცემა<ptr target="#num165"/> რჲე<note>165</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიის მამულში აშენებისა მალით ანუ ქირით<ptr target="#num166"/>რჲვ <note>166</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიის მამულის შენების შერიგებით ქირისა<ptr target="#num167"/> რჲზ<note>167</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიის მამულში ვინ რა დანერგოს<ptr target="#num169"/> რჲთ<note>169</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიის მამულისა მწვალებელთა ქირით არ მიცემისა<ptr target="#num170"/> რო<note>170</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიასა შინა დამნაშავეთა კაცთა შეხიზვნისა<ptr target="#num171"/> როა<note>171</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიასა შინა ვინც შეიხიზნოს იარაღით<ptr target="#num172"/> რობ<note>172</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიასა შინა შეხიზნულმა დანაშაული მისი მღვდელს უთხრას<ptr target="#num173"/> როგ<note>173</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიაში შეხიზნულის კაცისათვის კრებულთ უნდა ინაღვლონ<ptr target="#num174"/> როდ<note>174</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიის მამულში სადმე შეხიზნებისათვის<ptr target="#num175"/> როე<note>175</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიაში შეხიზნულის კაცის გამოყვანისა<ptr target="#num176"/> როვ<note>176</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიაზედ უწესოდ ქცევისა საყდროვანთა და მოხელეთამან<ptr target="#num177"/> როზ<note>177</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიასა და მონასტერსა შინა მალად დგომისა და ჭამისა მოლაშქრეთაგან და აზნაურთა<ptr target="#num178"/> როჱ<note>178</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიასა შინა მკვდრის დამარხვისა<ptr target="#num179"/> როთ<note>179</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიის საფლავის ფასის თხოვნისა<ptr target="#num180"/> რპ<note>180</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>ბისკოპოზმა თუ მეფეს შესცოდეს რამე<ptr target="#num205"/> სე<note>205</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიის მოწესეთ თუ იჩივლონ თავდების გამოურთმევლობისა<ptr target="#num593"/> ფჟგ<note>593</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიათა მკრებელთათვის<ptr target="#num793"/> ღჟგ<note>793</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესია მტრის კაცმა თუ გატეხვის<ptr target="#num794"/> ღჟდ<note>794</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიის საქონელი თუ მოიპარის<ptr target="#num795"/> ღჟე<note>795</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>კლესიის შესაწირავად განმზადებულის საქონლისა ან სხვის საქონლევე ეკლესიანიებრის<ptr target="#num796"/> ღჟვ<note>796</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>შმაკეულად ვინ თქვას თავი თვისი<ptr target="#num894"/> ყჟდ<note>894</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>ქსორიობისათვის გზების ჩუენება<ptr target="#num981"/> შპა<note>981</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi>ქსორიობისა თავადთა და დიდებულთა<ptr target="#num982"/> შპბ<note>982</note></item>
+                      <item><hi rend="color(FFFF00)">ე</hi></item>
+                  </list>
+                  <list>
+                      <pb n="10"/>
+                      <head><hi rend="color(FFFF00)">ვ</hi></head>
+                      <item><ptr target="#num447"/>უმზ <note>447</note><hi rend="color(FFFF00)">ვ</hi>ექილი უნდა დაუყენოს პატრონმა მემკვიდრის ყმის შვილისა</item>
+                      <item><ptr target="#num448"/>უმჱ <note>448</note><hi rend="color(FFFF00)">ვ</hi>ექილი უნდა იყოს ოცდახუთისა წლისა</item>
+                      <item><ptr target="#num449"/>უმთ <note>449</note><hi rend="color(FFFF00)">ვ</hi>ექილად მხედარი არ დაიყენება</item>
+                      <item><ptr target="#num450"/>უნ <note>450</note><hi rend="color(FFFF00)">ვ</hi>ექილად ყრუ და მუნჯი არ დაიყენება</item>
+                      <item><ptr target="#num511"/>ფია <note>511</note><hi rend="color(FFFF00)">ვ</hi>ალისა და სისხლისათვის უჴელმწიფოდ დაუბუთაობისა</item> <!-- -->
+                      <item><ptr target="#num513"/>ფიგ <note>513</note><hi rend="color(FFFF00)">ვ</hi>ალისათვისავე საჴელმწიფო საქონლისა ანუ სხვისა</item>
+                      <item><ptr target="#num514"/>ფიდ <note>514</note><hi rend="color(FFFF00)">ვ</hi>ალისათვისავე გაცემულისა</item>
+                      <item><ptr target="#num515"/>ფიე <note>515</note><hi rend="color(FFFF00)">ვ</hi>ალისავე თამასუქისა და ბეჭდის გასინჯვისა</item>
+                      <item><ptr target="#num516"/>ფივ <note>516</note><hi rend="color(FFFF00)">ვ</hi>ალისავე და სარგებლის თხოვნისა</item>
+                      <item><ptr target="#num517"/>ფიზ <note>517</note><hi rend="color(FFFF00)">ვ</hi>ალისავე დაცლევინებისა</item>
+                      <item><ptr target="#num518"/>ფიჱ <note>518</note><hi rend="color(FFFF00)">ვ</hi>ალისავე გირაოდ მამულის ქონებისა</item>
+                      <item><ptr target="#num519"/>ფით <note>519</note><hi rend="color(FFFF00)">ვ</hi>ალისავე რომელ გირაო თამასუქში სახელდობრივ არ ჩაიწერებდის</item>
+                      <item><ptr target="#num547"/>ფმზ <note>547</note><hi rend="color(FFFF00)">ვ</hi>ალისავე თავდებისა და გირაოს მიცემისა</item>
+                      <item><ptr target="#num548"/>ფმჱ <note>548</note><hi rend="color(FFFF00)">ვ</hi>ალისავე და გირაოს აღებლობისა</item>
+                      <item><ptr target="#num549"/>ფმთ <note>549</note><hi rend="color(FFFF00)">ვ</hi>ალისათვის გირაოს სახლით გამოტანისა უსამართლოდ</item>
+                      <item><ptr target="#num550"/>ფნ <note>550</note><hi rend="color(FFFF00)">ვ</hi>ალისა ვინ გირაო ქვრივის სახლით გამოიტანოს</item>
+                      <item><ptr target="#num551"/>ფნა <note>551</note><hi rend="color(FFFF00)">ვ</hi>ალისა გაცემით და პაემანს უწინ თხოვნისა</item>
+                      <item><ptr target="#num552"/>ფნბ <note>552</note><hi rend="color(FFFF00)">ვ</hi>ალისა ფლური ან თეთრი ევალოს ისეთივე უნდა მისცემს ან პირობისა</item>
+                      <item><ptr target="#num553"/>ფნგ <note>553</note><hi rend="color(FFFF00)">ვ</hi>ალისა ოცდა ათს წელიწადს გავლილისა</item>
+                      <item><ptr target="#num554"/>ფნდ <note>554</note><hi rend="color(FFFF00)">ვ</hi>ალისათვის გირაო რასმე მიცემულის გასყიდვისა</item>
+                      <item><ptr target="#num555"/>ფნე <note>555</note><hi rend="color(FFFF00)">ვ</hi>ალისავე და დაჭირებით გირაოდ გასყიდვისა</item>
+                      <item><ptr target="#num556"/>ფნვ <note>556</note><hi rend="color(FFFF00)">ვ</hi>ალის გირაოს თხოვნისა უმრავისა საქონლისა</item>
+                      <item><ptr target="#num557"/>ფნზ <note>557</note><hi rend="color(FFFF00)">ვ</hi>ალისავე გირაო სახლის დაწვისა</item>
+                      <item><ptr target="#num558"/>ფნჱ <note>558</note><hi rend="color(FFFF00)">ვ</hi>ალისა და გირაოსთვისავე</item>
+                      <item><ptr target="#num559"/>ფნთ <note>559</note><hi rend="color(FFFF00)">ვ</hi>ალისა და მამულის გირაოსაგან შეკრის ჭამისა</item>
+                      <item><ptr target="#num560"/>ფჲ <note>560</note><hi rend="color(FFFF00)">ვ</hi>ალისა ამღების მეტი იერ ვინ გახარჯავს იერცა მამაშვილს აღებულისა</item>
+                      <item><ptr target="#num561"/>ფჲა <note>561</note><hi rend="color(FFFF00)">ვ</hi>ალის აღების გაპარვისა და სახლის კაცთ ნადაიებისა</item> <!-- -->
+                      <item><ptr target="#num562"/>ფჲბ <note>562</note><hi rend="color(FFFF00)">ვ</hi>ალისა ამღების მალმომკვდრისა და მოვალეობის პასუხისა</item>
+                      <item><ptr target="#num563"/>ფჲგ <note>563</note><hi rend="color(FFFF00)">ვ</hi>ალისავე ვინ ვის ურჩიოს კაი კაცი მიეც და მერმე ის ამღები გაიპაროს</item>
+                      <item><ptr target="#num564"/>ფჲდ <note>564</note><hi rend="color(FFFF00)">ვ</hi>ალი ვის დარჩეს და მამულიც ვინც საპატრონოს დაეპატრონოს პასუხის გაცემისა</item>
+                      <item><ptr target="#num565"/>ფჲე <note>565</note><hi rend="color(FFFF00)">ვ</hi>ალისათვის ნაანდერძევისა ვისთვისმე საქონლისა და პასუხისა უნდობლობისა</item>
+                      <item><ptr target="#num566"/>ფჲვ <note>566</note><hi rend="color(FFFF00)">ვ</hi>ალიანის ვალის გაზრდისა და მერმე ვალისა და მამულის <gap reason="illegible" quantity="5" unit="character"/></item>
+                      <item><ptr target="#num567"/>ფჲზ <note>567</note><hi rend="color(FFFF00)">ვ</hi>ალისათვის ვალის დატანებით მამულის გასყიდვისა</item>
+                      <item><ptr target="#num568"/>ფჲჱ <note>568</note><hi rend="color(FFFF00)">ვ</hi>ალისათვის მამულის გასყიდვისა თუ ვის მართებს იყიდვა</item>
+                      <pb n="11"/>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალის მიცემის შეუძლებლობა სიღარიბით <ptr target="#num569"/>ფჲთ <note>569</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალის ამღებისა და წვრილშვილების დარჩენისა <ptr target="#num570"/>ფო<note>570</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალის ამღებისა და ვარგულისა და მისი საქონლისა მოყვარეს ნაშერ<gap reason="illegible" quantity="2" unit="character"/> <ptr target="#num571"/>ფოა <note>571</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალი გასყიდულის შვილის ანუ მამას არ ეთხოვება<ptr target="#num572"/>ფობ <note>572</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალის აღების ქალის დარჩენისა და მრავალის პასუხი საქონლიდამ<ptr target="#num573"/>ფოგ <note>573</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალის ამღებისა ამოვარდნილისა და ქალის შემრთველის პასუხისა<ptr target="#num574"/>ფოდ <note>574</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალიანის ამოვარდნილისა დედისა და დის მქონებისა მათის პასუხი<ptr target="#num575"/>ფოე <note>575</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალისა უცხოს ქუვანას ლოთობით აღებულისა ძმისა და შვილს მიუდ<gap reason="illegible" quantity="4" unit="character"/> <ptr target="#num576"/>ფოვ <note>576</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალისათვის პაპისა და მამის მამისა და რა შვილი შვილნი ბევრად გაყრილი<ptr target="#num577"/>ფოზ <note>577</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალისათვის ეპტიმრით უთამასუქოდ და უთავდებოდ ამღებისა და მერმე ამა მქნეველსა<ptr target="#num578"/>ფოჱ <note>578</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალის ამღები რომ იურ აუვიდეს ამისთვის კაცის მიცემისა<ptr target="#num579"/>ფოთ <note>579</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალისა სხვას ქუეყანას აღებულისა და თამასუქისა შვილისა სახლის კაცითაგან გამოგზავნისა<ptr target="#num580"/>ფპ <note>580</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალის გაცემისა ღვინოზე<ptr target="#num581"/>ფპა <note>581</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალისა პურზე<ptr target="#num581"/>ფპა <note>581</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალისა მუშაზე<ptr target="#num582"/>ფპბ <note>582</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალის აღებისა დედაკაცისაგან ქორწილის უწინ<ptr target="#num583"/>ფპგ <note>583</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალი დედაკაცთაგან აღებული დედა ვადავ უნდა მისცენ<ptr target="#num584"/>ფპდ <note>584</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალისა დედაკაცის თავდებობისა<ptr target="#num585"/>ფპე <note>585</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ალის გაცემისა ან აღებისა ნასყიდის კაცისა<ptr target="#num586"/>ფპვ <note>586</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>აჭართა გარიგებისა ადლისა ლიტრისა და სასწორისა<ptr target="#num588"/>ფპჱ <note>588</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>აჭართა კაცი უჩინონ სწორედ გასასყიდლად<ptr target="#num640"/>ქმ <note>640</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>აჭართა გასინჯვისა ერთმან ერთის შეუცილებლობის<ptr target="#num641"/>ქმა <note>641</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>აჭართა ნავლებით საწყაო საწონით გასყიდვისა<ptr target="#num642"/>ქმბ <note>642</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>აჭართა სასწორით ვაჭრობისა<ptr target="#num643"/>ქმგ <note>643</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ენახში შეპარვისა<ptr target="#num788"/>ღპჱ <note>788</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ინც ვისი რა შეჭამოს<ptr target="#num789"/>ღპთ <note>789</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>არსკვლავ მეტყველებისა და მრიცხველობისა<ptr target="#num912"/>შიბ <note>912</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>არსკვლავთ მეტყველობა<ptr target="#num913"/>შიგ <note>913</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ენახის ახლის აშენებისა<ptr target="#num915"/>შიდ <note>915</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ენახში ყანის თესვისა<ptr target="#num916"/>შიე <note>916</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ენახისა ბაღის ყანისა და მისის ღობისა<ptr target="#num12"/>შივ <note></note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ენახისა და ყანის გამოვნისა<ptr target="#num917"/>შიზ <note>917</note></item>
+                      <item><hi rend="color(FFFF00)">ვ</hi>ენახის ვრეფასა ანუ ზეთის ხილისასა უკან ნუღარ მიიქცევი<ptr target="#num943"/>შმგ <note>943</note></item>
+                  </list>
+                  <list>
+                      <pb n="12"/>
+                      <head><hi rend="color(FFFF00)">ზ ზ</hi></head>
+                      <item><ptr target="#num40"/>მ <note>40</note><hi rend="color(FFFF00)">ზ</hi>ითვისა და ნიშნისა </item>
+                      <item><ptr target="#num41"/>მა <note>41</note><hi rend="color(FFFF00)">ზ</hi>ითვის წიგნის უქონლობისა</item>
+                      <item><ptr target="#num42"/>მბ <note>42</note><hi rend="color(FFFF00)">ზ</hi>ითვის მიცემის დაგვიანებისა</item>
+                      <item><ptr target="#num43"/>მგ <note>43</note><hi rend="color(FFFF00)">ზ</hi>ითვის გაუცემლობისა დედაკაცისაგან</item>
+                      <item><ptr target="#num44"/>მდ <note>44</note><hi rend="color(FFFF00)">ზ</hi>ითვისათვისვე გარეთ ზითევისა</item>
+                      <item><ptr target="#num45"/>მე <note>45</note><hi rend="color(FFFF00)">ზ</hi>ითვისათვისავე</item>
+                      <item><ptr target="#num46"/>მვ <note>46</note><hi rend="color(FFFF00)">ზ</hi>ითვისათვისავე</item>
+                      <item><ptr target="#num47"/>მზ <note>47</note><hi rend="color(FFFF00)">ზ</hi>ითვისათვისავე თუ რომელი არს გარეთ ზითევი</item>
+                      <item><ptr target="#num187"/>რპზ <note>187</note><hi rend="color(FFFF00)">ზ</hi>იარების ერის კაცთაგან წაუღებლობისა</item>
+                      <item><ptr target="#num278"/>სოჱ <note>278</note><hi rend="color(FFFF00)">ზ</hi>ითვის გამრავლება ქმარს მართებს თუ არა</item>
+                      <item><ptr target="#num94"/>ჟდ <note>94</note><hi rend="color(FFFF00)">ზ</hi>არაფხანაში შესასვლელის ვერცხლის სხვისაგან შესყიდვისა</item>
+                      <item><ptr target="#num361"/>ტჲა <note>361</note><hi rend="color(FFFF00)">ზ</hi>ედ დამსხმელისა სადაოსა რაზედმე</item>
+                      <item><ptr target="#num362"/>ტჲბ <note>362</note><hi rend="color(FFFF00)">ზ</hi>ედ დამსხმელისავე სასაფლაოზე ანუ ეკლესია გატეხის</item>
+                      <item><ptr target="#num363"/>ტჲგ <note>363</note><hi rend="color(FFFF00)">ზ</hi>ედ დამსხმელისავე სასახლეში ანუ ცოლშვილში</item>
+                      <item><ptr target="#num364"/>ტჲდ <note>364</note><hi rend="color(FFFF00)">ზ</hi>ედ დამსხმელისავე სასახლეზე ახლოს მყოფის გლეხისა</item>
+                      <item><ptr target="#num365"/>ტჲე <note>365</note><hi rend="color(FFFF00)">ზ</hi>ედ დამსხმელისავე უსახლოდ სხვაგან სადმე და იქ მიმ <gap reason="illegible" quantity="2" unit="character"/> მოკუდისა</item>
+                      <item><ptr target="#num366"/>ტჲვ <note>366</note><hi rend="color(FFFF00)">ზ</hi>ედ დამსხმელისა სოფლის დარბევისა და იქ წამოდგეს სადმე</item>
+                      <item><ptr target="#num367"/>ტჲზ <note>367</note><hi rend="color(FFFF00)">ზ</hi>ედ დასხმა ესე ან ნათლობა ან ქორწილი ან ჭირის დღე ქონდის ვისმე</item>
+                      <item><ptr target="#num368"/>ტჲჱ <note>368</note><hi rend="color(FFFF00)">ზ</hi>ედ დასხმა ესე თუ უმცროს უფროსმა უყრის</item>
+                      <item><ptr target="#num369"/>ტჲთ <note>369</note><hi rend="color(FFFF00)">ზ</hi>ედ დასხმისავე ერთისაგან მეორეს მორევისა და შეპყრობისა</item>
+                      <item><ptr target="#num370"/>ტო <note>370</note><hi rend="color(FFFF00)">ზ</hi>ედ დასხმისა სწორისაგან სწორისა</item>
+                      <item><ptr target="#num373"/>ტოგ <note>373</note><hi rend="color(FFFF00)">ზ</hi>ედ დასმაში თუ ორსულის შვილი მოსწყდეს</item>
+                  </list>
+                  <list>
+                      <head><hi rend="color(FFFF00)">თ</hi></head>
+                      <item><ptr target="#num14"/>იდ <note>14</note><hi rend="color(FFFF00)">თ</hi>ავადთა მოსამართლის ქრთამი არ ააღებინონ</item>
+                      <item><ptr target="#num93"/>ჟგ <note>93</note><hi rend="color(FFFF00)">თ</hi>ეთრის მალვით მოჭრისა</item>
+                      <item><ptr target="#num311"/>ტია <note>311</note><hi rend="color(FFFF00)">თ</hi>ეთრის გამოთხრისა და ვბილის ჩაგდებინებისა სისხლისა</item>
+                      <item><ptr target="#num547"/>ფმზ <note>547</note><hi rend="color(FFFF00)">თ</hi>ავდებისა და გირაოსა</item>
+                      <item><ptr target="#num592"/>ფჟბ <note>592</note><hi rend="color(FFFF00)">თ</hi>ავდებისა ეკლესიის მოწესეთაგანისა</item>
+                      <item><ptr target="#num594"/>ფჟდ <note>594</note><hi rend="color(FFFF00)">თ</hi>ავდებობისა ქრთამით</item>
+                      <item><ptr target="#num595"/>ფჟე <note>595</note><hi rend="color(FFFF00)">თ</hi>ავდებობისათვისავე ვინ ვისთვისამე</item>
+                      <item><ptr target="#num596"/>ფჟვ <note>596</note><hi rend="color(FFFF00)">თ</hi>ავდებობისა გლეხთაგან თუ რა ერთზე ჴამს</item>
+                      <pb n="13"/>
+                      <item><hi rend="color(FFFF00)">თ</hi>ავდებით თუ შვილმა მამა დააყენოს<ptr target="#num12"/>ფჟზ <note>597</note></item>
+                      <item><hi rend="color(FFFF00)">თ</hi>ავდებით ნებით უნდა მივიდეს არა მალით<ptr target="#num12"/>ფჟჱ <note>598</note></item>
+                      <item><hi rend="color(FFFF00)">თ</hi>ავდებობითა დედაკაცისაგან ქმრისა<ptr target="#num12"/>ქ <note>600</note></item>
+                      <item><hi rend="color(FFFF00)">თ</hi>ავდებობა უჭერია დედაკაცთაგან<ptr target="#num12"/>ფჟთ <note>599</note></item>
+                      <item><hi rend="color(FFFF00)">თ</hi>ავდებობისა დედაკაცისა თეთრის გავალებისა<ptr target="#num12"/>ქა <note>601</note></item>
+                      <item><hi rend="color(FFFF00)">თ</hi>ეთრისა მოჭრისათვის უჴელმწიფოდ<ptr target="#num12"/>ქმდ <note>644</note></item>
+                      <item><hi rend="color(FFFF00)">თ</hi>ათართა და ურიათ ქალის მიუცემლობისა და ქალის მოუყვანლიბსა<ptr target="#num12"/>ყნ <note>850</note></item>
+                      <item><hi rend="color(FFFF00)">თ</hi>ვალის დაწვისა<ptr target="#num12"/>შობ <note>972</note></item>
+                      <item><hi rend="color(FFFF00)">თ</hi>ვალი თუ დაიწვას ვინმე მისის გარდახდევინებისა<ptr target="#num12"/>შოდ <note>974</note></item>
+                      <item><hi rend="color(FFFF00)">თ</hi>ვალის დაწვისა ძმისა და ქრისტიანისაგან<ptr target="#num12"/>შოე <note>975</note></item>
+                      <item><hi rend="color(FFFF00)">თ</hi>ავდებით ვინ ვის უნდოდის ბატონს უნდა მეეკითხოს<ptr target="#num12"/>შპე <note>985</note></item>
+                      <item><hi rend="color(FFFF00)">თ</hi>უ ამავ ქუეყანაში ერთი მეორის ყმა მიყვიდის<ptr target="#num12"/>შპვ <note>986</note></item>
+                  </list>
+                  <list>
+                      <head><hi rend="color(FFFF00)">კ</hi></head>
+                      <item><hi rend="color(FFFF00)">კ</hi>ვირასა და უქმეს მოსამართლე სამართალს ნუ იქს<ptr target="#num10"/>ი <note>10</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>აცის მკვლელნი დიდ მარხვაშიაც განიკითხვიან<ptr target="#num11"/>ია <note>11</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>ვირა უქმის დაცვისა<ptr target="#num181"/>რპა <note>181</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>აცთან და პირ უტყვთან დაცემისა<ptr target="#num261"/>სჲა <note>261</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>ათალიკოზთა კურთხევისა. და მიცვალებისათვის და აქავმისთა კრებათა<ptr target="#num65"/>ჲე <note>65</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>ათალიკოზის კურთხევით და შორგანებით დასხდომისა ეპისკოპოსთა<ptr target="#num66"/>ჲვ <note>66</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>ათალიკოზთა ებისკოპოზთა და მღვდელთა ურიგის კადრებისა და გინებისა<ptr target="#num109"/>რთ <note>109</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>ათალიკოზის მორჩილისა და ურჩის ებისკოპოზისასა<ptr target="#num129"/>რკთ <note>129</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>აცისაგან სადედაკაცოს ტანისამოსის შეუგებლობისა<ptr target="#num248"/>სმჱ <note>248</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>აცს მართებს ცოლის ზითვის გამრავლება თუ არა<ptr target="#num278"/>სოჱ <note>278</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>ბილის ჩაგდიბინებისა სისხლისა<ptr target="#num311"/>ტია <note>311</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>აცის გულისათვის<ptr target="#num316"/>ტივ <note>316</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>აცის მკულელთათვის შურით<ptr target="#num317"/>ტიზ <note>317</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>აცმა თუ გამოსტყუოს რამე<ptr target="#num587"/>ფპზ <note>587</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>აცისა და კოდის განწესებისა რამდენ ლიტრაობისა<ptr target="#num590"/>ფჟ <note>590</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>ალატოზთა ავის კედლის დადგმისა თუ იქ ართა და მტარვალთა<ptr target="#num698"/>ქჟჱ <note>698</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>აცი თუ ხესა სჭრიდეს პირუტყვს დაეცეს და მოკლას<ptr target="#num921"/>შკა <note>921</note></item>
+                      <item><hi rend="color(FFFF00)">კ</hi>აცმა შორიელმა თუ კაცი დაიხუთოს<ptr target="#num970"/>შო <note>970</note></item>
+                      <pb n="14"/>
+                      <item><ptr target="#num971"/>შოა <note>971</note><hi rend="color(FFFF00)">კ</hi>აცისას მიმავალის კაცის დახუთვისა</item>
+                  </list>
+                  <list>
+                      <head><hi rend="color(FFFF00)">ლ</hi></head>
+                      <item><ptr target="#num83"/>პგ <note>83</note><hi rend="color(FFFF00)">ლ</hi>აშქარს მოწყულის დაკლებისა</item>
+                      <item><ptr target="#num85"/>პე <note>85</note><hi rend="color(FFFF00)">ლ</hi>აშქარში დარჩენილის კაცის მოსვლისა</item>
+                      <item><ptr target="#num591"/>ფჟა <note>591</note><hi rend="color(FFFF00)">ლ</hi>იტრა რამდენის საწონისა ჯამს</item>
+                  </list>
+                  <list>
+                      <head><hi rend="color(FFFF00)">მ</hi></head>
+                      <item><ptr target="#num1"/>ა <note>1</note><hi rend="color(FFFF00)">მ</hi>ოსამართლეთათვის სწავლა თუ ვითარ უჴმს სამართლის ქმა</item>
+                      <item><ptr target="#num2"/>ბ <note>2</note><hi rend="color(FFFF00)">მ</hi>ართლ მსაჯულობისათვის</item>
+                      <item><ptr target="#num3"/>გ <note>3</note><hi rend="color(FFFF00)">მ</hi>ოსამართლემ თუ უსამართლო ქნას</item>
+                      <item><ptr target="#num4"/>დ <note>4</note><hi rend="color(FFFF00)">მ</hi>ოსამართლისათვისავე</item>
+                      <item><ptr target="#num5"/>ე <note>5</note><hi rend="color(FFFF00)">მ</hi>ოსამართლეთა უსამართლოს დამტკიცებისათვის</item>
+                      <item><ptr target="#num6"/>ვ <note>6</note><hi rend="color(FFFF00)">მ</hi>ოსამართლე თუ ყმარწვილი იყოს და ოცდა ხუთის წლისა არ იყოს</item>
+                      <item><ptr target="#num7"/>ზ <note>7</note><hi rend="color(FFFF00)">მ</hi>ოსამართლობა ყოველს კაცს არ შეუძლიან</item>
+                      <item><ptr target="#num8"/>ჱ <note>8</note><hi rend="color(FFFF00)">მ</hi>ოსამართლისაგან სჯულის კანონით სიმართლის მოუშლელობისათვის</item>
+                      <item><ptr target="#num9"/>თ <note>9</note><hi rend="color(FFFF00)">მ</hi>ოსამართლეთა კვირას და უქმეს სამართლის უქნელობისათვის</item>
+                      <item><ptr target="#num10"/>ი <note>10</note><hi rend="color(FFFF00)">მ</hi>ოსამართლეთაგან დიდ მარხვაში სამართლის უქნელობისა</item>
+                      <item><ptr target="#num11"/>ია <note>11</note><hi rend="color(FFFF00)">მ</hi>ოსამართლეთაგან მკვლელთა და ავაზაკთა მარხვა მიეც გაკითხვა</item>
+                      <item><ptr target="#num13"/>იგ <note>13</note><hi rend="color(FFFF00)">მ</hi>ოსამართლეთა და თავადთაგან ქრთამის აუღებლობის</item>
+                      <item><ptr target="#num14"/>იდ <note>14</note><hi rend="color(FFFF00)">მ</hi>ოსამართლეთა თავადთა ქრთამი არ ააღებინონ</item>
+                      <item><ptr target="#num15"/>იე <note>15</note><hi rend="color(FFFF00)">მ</hi>ოსამართლეთა სამდივანბეგო რა უნდა აიღონ</item>
+                      <item><ptr target="#num16"/>ივ <note>16</note><hi rend="color(FFFF00)">მ</hi>ოსამართლესთან საჩივრისათვის</item>
+                      <item><ptr target="#num17"/>იზ <note>17</note><hi rend="color(FFFF00)">მ</hi>ოსამართლის წინაშე დაბეზღებისათვის</item>
+                      <item><ptr target="#num49"/>მთ <note>49</note><hi rend="color(FFFF00)">მ</hi>ოსამართლის საეჭვო რამ მოხსენდის უნდა შეიწყნაროს და გასინჯოს</item>
+                      <item><ptr target="#num50"/>ნ <note>50</note><hi rend="color(FFFF00)">მ</hi>ოსამართლისათვის საეჭვოს ვარგათ გაშინჯვისა</item>
+                      <item><ptr target="#num51"/>ნა <note>51</note><hi rend="color(FFFF00)">მ</hi>ოსამართლისაგან სიგელის წეირლის ვერ მიხდომისა</item>
+                      <pb n="15"/>
+                      <item><hi rend="color(FFFF00)">მ</hi>ეპატრონისაგან თავის ყმისა სადაც სასამართლოდ და სალაპარაკოდ გაგზავნიან<ptr target="#num55"/>ნე <note>55</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოსამართლისაგან მოჩივნის ოცის დღის დაცლევინება <ptr target="#num56"/>ნვ <note>56</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოსამართლედ დედაკაცის დაყენებისათვის<ptr target="#num62"/>ჲბ <note>62</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ეფისაგან დამნაშავის ტანჯვის ბრძანებისა და იასაულთაგან დაცვა<ptr target="#num89"/>პთ <note>89</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ეფემან დამნაშავეს თუ შეუნდოს ერთგანცა ზომის შენდობა<ptr target="#num90"/>ჟ <note>90</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ალვით თეთრის მოჭრისა<ptr target="#num93"/>ჟგ <note>93</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ღვდლის ურიგოდ მიმპყრობისა გინებისა და გაცარცვისა<ptr target="#num110"/>რი <note>110</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ღვდლისავე და მოსამართლის ავის თქმისა და გაუგონლობისა<ptr target="#num111"/>რია <note>111</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ღვდელთათვის დამნაშავეთა<ptr target="#num113"/>რიგ <note>113</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ღვდელთა სამწყსოს მკვიდრად დაპატრონებისა და დაჩემებისა<ptr target="#num120"/>რკ <note>120</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ღვდელთავე სამწყსოს გაუყოფლობისა<ptr target="#num121"/>რკა <note>121</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ღვდელთა სამწყსოდამე შესავლისა და მიცემისა<ptr target="#num122"/>რკბ <note>122</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ღვდლისა სხვაგნით მისულისა<ptr target="#num123"/>რკგ <note>123</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ღვდლად კურთხევისა სხვის ყმისა<ptr target="#num128"/>რკჱ <note>128</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ღვდელთა ცრუთ მქცევთა და მოქმედთა ანუ ტყვილად ზეცობდის და რიყოს<ptr target="#num132"/>რლბ <note>132</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ეუდაბნოეთა მამათათვის<ptr target="#num134"/>რლდ <note>134</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოქადარეთა და მომღვართათვის ანუ როგორნი ჯერ არიან<ptr target="#num135"/>რლე <note>135</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>აღლის გალობის თქმისა ეკლესიაში<ptr target="#num144"/>რმდ <note>144</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ონასტრის საძირკვლის დადგინებისა<ptr target="#num153"/>რნგ <note>153</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ონასტრის შეწირვის და მირთმევისა ვითარ ხამს<ptr target="#num156"/>რნვ <note>156</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ონასტრის შესავლისა და შეწირულის წართმევისა<ptr target="#num158"/>რნჱ <note>158</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ონასტრის სხვისა სხვას არ მიცემისა<ptr target="#num161"/>რჲა <note>161</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ონასტრის მღვდელნი განწესებანი არ ცვალონ<ptr target="#num162"/>რჲბ <note>162</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ონასტერთა მეუდაბნოეთა და საყდროვანთა საწესოს გაყოფისა<ptr target="#num163"/>რჲგ <note>163</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ღვდელთა მეორეთ კურთხევისა მონდომებისა<ptr target="#num73"/>ოგ <note>73</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ღვდელთაგან სხვის სამწყსოს ცილებისა<ptr target="#num75"/>ოე <note>75</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ჴრდლის კაცისათვის<ptr target="#num86"/>პვ <note>86</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ონასტერთა მამულისა ქირით შერიგებისა პატრონთაგან<ptr target="#num168"/>რჲჱ <note>168</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ომღვრისა მღვდლისა და მონაზონისაგან მეფის შეცოდებისა<ptr target="#num206"/>სვ <note>206</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ეფეთა გინებისათვის<ptr target="#num207"/>სზ <note>207</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ეფეთა გინებისათვისავე<ptr target="#num208"/>სჱ <note>208</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>თავარ დიაკონთაგან ბოზობისათვის ცოლის გამგებისა<ptr target="#num247"/>სმზ <note>247</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოახლის წაგვრისა<ptr target="#num261"/>სჲა <note>261</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოახლის წაგვრისავე მამისაგან მამისა და გაბილწებისა<ptr target="#num262"/>სჲბ <note>262</note></item>
+                      <pb n="16"/>
+                      <item><ptr target="#num263"/>სჲგ <note>263</note><hi rend="color(FFFF00)">მ</hi>ღვდელთაგან ბოზობისა</item>
+                      <item><ptr target="#num264"/>სჲდ <note>264</note><hi rend="color(FFFF00)">მ</hi>ამათ მავალთათვის</item>
+                      <item><ptr target="#num269"/>სჲთ <note>269</note><hi rend="color(FFFF00)">მ</hi>აჭაკლობისათვის</item>
+                      <item><ptr target="#num305"/>ტე <note>305</note><hi rend="color(FFFF00)">მ</hi>ოსამართლისთან ვინ ვისი ავი თქვას</item>
+                      <item><ptr target="#num307"/>ტზ <note>307</note><hi rend="color(FFFF00)">მ</hi>უქარის დათხოვნისათვის უსამართლოდ</item>
+                      <item><ptr target="#num355"/>ტნე <note>355</note><hi rend="color(FFFF00)">მ</hi>ღვდელთაგან ყაზახისა ანუ უსჯულოს სიკუდილისა</item>
+                      <item><ptr target="#num376"/>ტოვ <note>376</note><hi rend="color(FFFF00)">მ</hi>ღვდელი ანუ მონაზონი ვინცა მძლავრებით შეიპყრას</item>
+                      <item><ptr target="#num400"/>უ <note>400</note><hi rend="color(FFFF00)">მ</hi>იცვალებულის კაცს თუ შვილი დარჩის დედასთან</item>
+                      <item><ptr target="#num401"/>უა <note>401</note><hi rend="color(FFFF00)">მ</hi>იცვალებულის თუ შვილი დარჩის და ისიც მოკუდის და დედა ცოცხალი დარჩის</item>
+                      <item><ptr target="#num402"/>უბ <note>402</note><hi rend="color(FFFF00)">მ</hi>იცვალებულის კაცისა და ქალის დარჩენისა და ქალის ზითვისა</item>
+                      <item><ptr target="#num403"/>უგ <note>403</note><hi rend="color(FFFF00)">მ</hi>იცვალებულისა ვაჟისა და ქალის არ დარჩენისა და ქალის ქალის დარჩენისა</item>
+                      <item><ptr target="#num404"/>უდ <note>404</note><hi rend="color(FFFF00)">მ</hi>იცვალებულის უშვილოსა და ცოლის ორსულად დარჩენისა</item>
+                      <item><ptr target="#num405"/>უე <note>405</note><hi rend="color(FFFF00)">მ</hi>იცვალებულისა უშვილოსა და ცოლისა ცოცხლად დარჩენისა</item>
+                      <item><ptr target="#num424"/>უკდ <note>424</note><hi rend="color(FFFF00)">მ</hi>იცვალებულისა უსახლოს კაცისა და ცოლშვილის დარჩენისა</item>
+                      <item><ptr target="#num425"/>უკე <note>425</note><hi rend="color(FFFF00)">მ</hi>იცვალებულისა უშვილოს კაცისა ანუ დედაკაცისა საქონლისა</item>
+                      <item><ptr target="#num427"/>უკზ <note>427</note><hi rend="color(FFFF00)">მ</hi>იცვალებულისა სულის საქმის გადახდისა სახლის კაცთაგან</item>
+                      <item><ptr target="#num428"/>უკჱ <note>428</note><hi rend="color(FFFF00)">მ</hi>ამისა და დედის საქონელზედ ქალისა და ვაჟის დაპატრონებისა</item>
+                      <item><ptr target="#num429"/>უკთ <note>429</note><hi rend="color(FFFF00)">მ</hi>უცლით დანარჩომის ყმარწვილის დაპატრონებისა</item>
+                      <item><ptr target="#num430"/>ულ <note>430</note><hi rend="color(FFFF00)">მ</hi>ართლის შვილისა და ხასის შვილის დაპატრონებისა და ქალისა</item>
+                      <item><ptr target="#num443"/>უმგ <note>443</note><hi rend="color(FFFF00)">მ</hi>წვალებელი შვილი თავისმე ჰყვანდეს</item>
+                      <item><ptr target="#num444"/>უმდ <note>444</note><hi rend="color(FFFF00)">მ</hi>წვალებლის შვილისათვისვე</item>
+                      <item><ptr target="#num447"/>უმზ <note>447</note><hi rend="color(FFFF00)">მ</hi>ემკვდრის კაცის შვილისა პატრონისაგან იექილის დაყენება</item>
+                      <item><ptr target="#num472"/>უობ <note>472</note><hi rend="color(FFFF00)">მ</hi>ეფე ვის გაუწყროს მისი ანდერძი მოიშლება თუ არა</item>
+                      <item><ptr target="#num495"/>უჟე <note>495</note><hi rend="color(FFFF00)">მ</hi>ამისაგან შვილის კარგად გაზრდისა</item>
+                      <item><ptr target="#num496"/>უჟვ <note>496</note><hi rend="color(FFFF00)">მ</hi>ამის ურჩის შვილისა</item>
+                      <item><ptr target="#num497"/>უჟზ <note>497</note><hi rend="color(FFFF00)">მ</hi>ამა დედაზედ ავად მოპყრობისა შვილისა</item>
+                      <item><ptr target="#num498"/>უჟჱ <note>498</note><hi rend="color(FFFF00)">მ</hi>ამა დედის ურჩისა და უარბიოს შვილისა</item>
+                      <item><ptr target="#num499"/>უჟთ <note>499</note><hi rend="color(FFFF00)">მ</hi>ამის შეგინებისა შეუშლელობისა შვილისაგან</item>
+                      <item><ptr target="#num500"/>ფ <note>500</note><hi rend="color(FFFF00)">მ</hi>ამა დედათ მძრახვისა და მაგინებელისავე</item>
+                      <item><ptr target="#num501"/>ფა <note>501</note><hi rend="color(FFFF00)">მ</hi>ამის დამტევებელისა შვილისა მორწმუნესია ანუ ურწმუნოსი</item>
+                      <item><ptr target="#num502"/>ფბ <note>502</note><hi rend="color(FFFF00)">მ</hi>ამის ურჩი შვილი მამას გაეყაროს სიცოცხლეშივე</item>
+                      <item><ptr target="#num503"/>ფგ <note>503</note><hi rend="color(FFFF00)">მ</hi>ამის ალაგს შვილის პატივი არა აქვს და არც სამართალში სწორად დადგნენ</item>
+                      <item><ptr target="#num504"/>ფდ <note>504</note><hi rend="color(FFFF00)">მ</hi>ამა დედათა ღარიბთა და სნეულთა შვილისა მნ. მოუვლოლობისა</item>
+                      <item><ptr target="#num505"/>ფე <note>505</note><hi rend="color(FFFF00)">მ</hi>ამისა შვილისაგან თავდებად დაყენებისა</item>
+                      <pb n="17"/>
+                      <item><hi rend="color(FFFF00)">მ</hi>შობელთა ზითვის მიცემისა და ქალისა და მისგან გაუგონლობისა<ptr target="#num506"/>ფვ <note>506</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ორჩილების შვილის შვილთაგან პაპისა<ptr target="#num507"/>ფზ <note>507</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ამისაგან რომს ავად მოპყრობისა შვილისა და არა დედისაგან<ptr target="#num508"/>ფჱ <note>508</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>შობელთ შუა ავის რასმე მოხდენისა<ptr target="#num509"/>ფთ <note>509</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ამისაგან შვილისა ანუ შვილობილის გაგდებისა<ptr target="#num510"/>ფი <note>510</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწმობისათვის მწვალებელისა<ptr target="#num520"/>ფკ <note>520</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწმობისა ურწმუნოსა და მოჩხუბარისა<ptr target="#num521"/>ფკა <note>521</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწამისა სარწმუნოსა და ღირსისა<ptr target="#num522"/>ფკბ <note>522</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწმობისა ერთისაგან უჯერისა და მოწმებისაგან დაფიცებისა<ptr target="#num523"/>ფკგ <note>523</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწამენი რამდენი ჯერ არიან თეთრის მართებაზე<ptr target="#num524"/>ფკდ <note>524</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწამე თვალით ნანახისა ჴამს არა სმენელისა<ptr target="#num525"/>ფკე <note>525</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწამისავე თვალით უნახულისა<ptr target="#num526"/>ფკვ <note>526</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწმობისა სამმღვრისა და სახლის აშენებისა<ptr target="#num527"/>ფკზ <note>527</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწამისა წიგნის მიწერით და მოწმებითა და უნებურისა<ptr target="#num528"/>ფკჱ <note>528</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწმობისა ღარიბთ კაცთაგან არა ჯერისა<ptr target="#num529"/>ფკთ <note>529</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწმობისა მემკვიდრე კაცისა<ptr target="#num530"/>ფლ <note>530</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწმობისა ყმისაგან ან ნააზატევისა თავის ბატონის შვლისათჳს<ptr target="#num531"/>ფლა <note>531</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწმობისა ოცის წლის ნაკლების უჯერობისა<ptr target="#num532"/>ფლბ <note>532</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწმობისა დამნაშავეთა მღვდელთა ანუ ერთათვისა<ptr target="#num533"/>ფლგ <note>533</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწმობისა მამისაგან შვილისა და შვილისაგან მამისა<ptr target="#num534"/>ფლდ <note>534</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწმობისა და მოხელებისა დედაკაცისა<ptr target="#num535"/>ფლე <note>535</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>თხრობლობისათვის<ptr target="#num536"/>ფლვ <note>536</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>თხრობლობისა სწორედ მცოდნისათვის<ptr target="#num537"/>ფლზ <note>537</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>თხრობლობისა ავის კაცისა და გაპატიჟებულისა<ptr target="#num538"/>ფლჱ <note>538</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>თხრობლისა მტყუვანის გარდახდევინებისა<ptr target="#num539"/>ფლთ <note>539</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>თხრობლის სამთხრობლის მიცემისა<ptr target="#num540"/>ფმ <note>540</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>თხრობელი დედაკაცი არა ჯერ არს<ptr target="#num541"/>ფმა <note>541</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>თხრობლებისავე დედაკაცის უჯერობისა<ptr target="#num542"/>ფმბ <note>542</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ამას შვილის აღებულის ვალის უთხოვნელობისა<ptr target="#num560"/>ფჲ <note>560</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწმობისათვის თუ რა რიგი კაცი უნდა იყოს<ptr target="#num602"/>ქბ <note>602</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწამისავე გასინჯვისა თუ რას სიძეთანი კაცია<ptr target="#num603"/>ქგ <note>603</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოწამეთა ორთა ვარგად გასინჯვისა<ptr target="#num604"/>ქდ <note>604</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>დუღარე როგორ უნდა ან რაზედ უნდა<ptr target="#num605"/>ქე <note>605</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ამულის შეცილებისა და სამმღვრის დაქცევისა<ptr target="#num634"/>ქლდ <note>634</note></item>
+                      <pb n="18"/>
+                      <item><ptr target="#num635"/>ქლე <note>635</note><hi rend="color(FFFF00)">მ</hi>ამულის წართმევისათვისვე</item>
+                      <item><ptr target="#num636"/>ქლვ <note>636</note><hi rend="color(FFFF00)">მ</hi>ამულის წართმევისა და ჩხუბისა</item>
+                      <item><ptr target="#num637"/>ქლზ <note>637</note><hi rend="color(FFFF00)">მ</hi>ამულში სხვისაში ვის ხე ხილი ედგას</item>
+                      <item><ptr target="#num638"/>ქლჱ <note>638</note><hi rend="color(FFFF00)">მ</hi>ამული რა გინდა რა ვის ვისი ეჭიროს რისაც მიზეზით</item>
+                      <item><ptr target="#num639"/>ქლთ <note>639</note><hi rend="color(FFFF00)">მ</hi>თაში მოჭრილის ხე ტყისა სხვისა</item>
+                      <item><ptr target="#num698"/>ქჟჱ <note>698</note><hi rend="color(FFFF00)">მ</hi>კერვალთა და თეიქორთა</item>
+                      <item><ptr target="#num699"/>ქჟთ <note>699</note><hi rend="color(FFFF00)">მ</hi>უშათა და მოჯამაგირეთ მის დროს მუშაობისა</item>
+                      <item><ptr target="#num700"/>ღ <note>700</note><hi rend="color(FFFF00)">მ</hi>ეწისქველეთა საფქვავით წახდენისა და მოპარვისა</item>
+                      <item><ptr target="#num715"/>ღიე <note>715</note><hi rend="color(FFFF00)">მ</hi>იბარებისათვის</item>
+                      <item><ptr target="#num716"/>ღივ <note>716</note><hi rend="color(FFFF00)">მ</hi>იბარებისა ბორბლისა ჭერისა. ღვინისა და ზეთისა</item>
+                      <item><ptr target="#num717"/>ღიზ <note>717</note><hi rend="color(FFFF00)">მ</hi>იბარებულის სახელდობრივ წიგნის გამორთმევის</item>
+                      <item><ptr target="#num718"/>ღიჱ <note>718</note><hi rend="color(FFFF00)">მ</hi>იბარებულის სახლის ცეცხლის შეკიდებისა ან თარებისა</item>
+                      <item><ptr target="#num719"/>ღით <note>719</note><hi rend="color(FFFF00)">მ</hi>იბარებულის საქონლის ყაზახის წაღებისა</item>
+                      <item><ptr target="#num720"/>ღკ <note>720</note><hi rend="color(FFFF00)">მ</hi>იბარებულის საქონლის ქურდისაგან წაღებისა</item>
+                      <item><ptr target="#num721"/>ღკა <note>721</note><hi rend="color(FFFF00)">მ</hi>იბარებულის სიკუდილისა და შემნახავისაცა</item>
+                      <item><ptr target="#num724"/>ღკდ <note>724</note><hi rend="color(FFFF00)">მ</hi>იბარებულის საქონლისას რა მეორე ცოლი ჰყვანდეს და კაცი ვიმკიდეს</item>
+                      <item><ptr target="#num725"/>ღკე <note>725</note><hi rend="color(FFFF00)">მ</hi>იბარებულის პირუტყვის დაშიებისა</item>
+                      <item><ptr target="#num727"/>ღკზ <note>727</note><hi rend="color(FFFF00)">მ</hi>იწის თხოების საყანედ</item>
+                      <item><ptr target="#num728"/>ღკჱ <note>728</note><hi rend="color(FFFF00)">მ</hi>იწის ქირით თხოებისა და ქირის მთლად მიუცემლობისა</item>
+                      <item><ptr target="#num736"/>ღლვ <note>736</note><hi rend="color(FFFF00)">მ</hi>ინდვრის გაღმა გამოღმა შენობისა და წყლით ან იქითა ნაქათ მოვარდნისა</item>
+                      <item><ptr target="#num779"/>ღოთ <note>779</note><hi rend="color(FFFF00)">მ</hi>ოპარულის და მოტაცებულის პირუტყვისა</item>
+                      <item><ptr target="#num780"/>ღპ <note>780</note><hi rend="color(FFFF00)">მ</hi>ოტაცებისა პირუტყვისა</item>
+                      <item><ptr target="#num781"/>ღპა <note>781</note><hi rend="color(FFFF00)">მ</hi>ოპარვისა რასმე პატრონისაგან გავლენისა</item>
+                      <item><ptr target="#num782"/>ღპბ <note>782</note><hi rend="color(FFFF00)">მ</hi>ოპარულის ნასყიდისა და პატრონისაგან ნაცნობისა</item>
+                      <item><ptr target="#num785"/>ღპე <note>785</note><hi rend="color(FFFF00)">მ</hi>ოპარულის საქონლის ცნობისა</item>
+                      <item><ptr target="#num790"/>ღჟ <note>790</note><hi rend="color(FFFF00)">მ</hi>ოპარვისა ხე ხინლართა და თავის სახლში დარგვისა</item>
+                      <item><ptr target="#num791"/>ღჟა <note>791</note><hi rend="color(FFFF00)">მ</hi>ოპარვისა ყმარწვილისა შვილისა და გასყიდვის შეჩნევისა</item>
+                      <item><ptr target="#num792"/>ღჟბ <note>792</note><hi rend="color(FFFF00)">მ</hi>ოპარვისა თუ წართმევისა კაცის ცოლისა და გასყიდვისა</item>
+                      <item><ptr target="#num799"/>ღჟთ <note>799</note><hi rend="color(FFFF00)">მ</hi>კვდრის გაცრცვისა ან მკვდრის საქონლის დამალვისა</item>
+                      <item><ptr target="#num800"/>ყ <note>800</note><hi rend="color(FFFF00)">მ</hi>კვდრის გაცრცვისა თავისაგან მოკლულისა</item>
+                      <item><ptr target="#num804"/>ყდ <note>804</note><hi rend="color(FFFF00)">მ</hi>ამისაშვილის ნაცვლად დანაშაულზედ მოკლულევდობისა</item>
+                      <item><ptr target="#num825"/>ყკე <note>825</note><hi rend="color(FFFF00)">მ</hi>ოახლეთ თუ ვინმე თავის თავად შევიდის თავის უფალი</item>
+                      <item><ptr target="#num844"/>ყმდ <note>844</note><hi rend="color(FFFF00)">მ</hi>ამა დედათაგან ღ&#x0360;თის ყარის ყოფის დაპატიჟებისა</item>
+                      <item><ptr target="#num846"/>ყმვ <note>846</note><hi rend="color(FFFF00)">მ</hi>წვალებელთათვის</item>
+                      <pb n="19"/>
+                      <item><hi rend="color(FFFF00)">მ</hi>წამლებლობისათვისვე<ptr target="#num847"/>ყმზ <note>847</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ართლ მადიდებელთაგან მწვალებელის ქალის მიუცემლობისა<ptr target="#num848"/>ყმჱ <note>848</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>წვალებელთა და ქრისტიანის შეუღვლის უჯერობისა<ptr target="#num849"/>ყმთ <note>849</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ამულის ნასყიდობისათვის<ptr target="#num872"/>ყობ <note>872</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ისნობისა და მკითხაობისა<ptr target="#num896"/>ყჟ<del rend="overstrike">ჱ</del>ვ <note>896</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ისნობისა მსხვრპრელთა ზედა<ptr target="#num897"/>ყჟზ <note>897</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ისნობისა და სიტყვარულის წამლის ჭმევისა<ptr target="#num898"/>ყჟჱ <note>898</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოგობის ქმნისა<ptr target="#num899"/>ყჟთ <note>899</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ისნობითა კაცთა ზედა ანუ სხვათ რათმე შემლოცველთა<ptr target="#num900"/>შ <note>900</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ისანი რა იმის ვნიდეს და ჴელმწიფეს არ მოახსენონ<ptr target="#num901"/>შა <note>901</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ისანთა და მწამლელთა გადახდევინებისა<ptr target="#num902"/>შბ <note>902</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>წამლვლელობის საწამლავის მისყიდვისა<ptr target="#num903"/>შგ <note>903</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>წამვლეობისა დედაკაცისაგან<ptr target="#num906"/>შვ <note>906</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ახით ოთხ თეზის სიკუდილისა ყანასა და ვენახში<ptr target="#num924"/>შკდ <note>924</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ისაცემელის მოუშლელობისათვის<ptr target="#num946"/>შმვ <note>946</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ინაცემის მაგიერის დაპირებისა და უმადურობისა<ptr target="#num947"/>შმზ <note>947</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ისაცემელი მოწმით წიგნი ჯერ არს<ptr target="#num948"/>შმჱ <note>948</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ოყვრობით მინაცემისა ისევ თხოვნისა<ptr target="#num949"/>შმთ <note>949</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>იმცემი თხუთმეტ წელიწადს ნაკლები იყოს ან გიჟი იყოს არა<gap reason="illegible" quantity="4" unit="character"/><ptr target="#num950"/>შნ <note>950</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>იცემ მოცემა ვალია ერთმან ერთისა<ptr target="#num951"/>შნა <note>951</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ეფემ რომ კაცს გაუგზავნოს რამე და ის კაცი. მკუდარი დახუდეს<ptr target="#num953"/>შნგ <note>953</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ებაღეთათვის<ptr target="#num963"/>შჲგ <note>963</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ეცხვარეთ და ნადირს წაახდენინონ<ptr target="#num964"/>შჲდ <note>964</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ეცხვარემ თუ მოაპარვინოს<ptr target="#num965"/>შჲე <note>965</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ეცხვარემ თუ თითონ დაჰკრას ნადირს წაახდენინოს ქვა ეცეს<ptr target="#num966"/>შჲვ <note>966</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ეცხვარემ თუ შენებაზე მართლა იერ მოუაროს<ptr target="#num967"/>შჲზ <note>967</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ეცხვარემ თუ მწყემსმა რომელმაცა წაახდინოს რამე<ptr target="#num968"/>შჲჱ <note>968</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ფრინველთა მპოვნისა შედისა ზედა<ptr target="#num976"/>შრვ <note>976</note></item>
+                      <item><hi rend="color(FFFF00)">მ</hi>ცნებისა გარდამავალთათვის<ptr target="#num983"/>შპგ <note>983</note></item>
+                  </list>
+                  <list>
+                      <head><hi rend="color(FFFF00)">ნ</hi></head>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ათესავთა უზდურობისა და შეგმანებისათვის<ptr target="#num704"/>ღდ <note>704</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ათესავთ უზდურობისა და შეუღლელობისავე<ptr target="#num705"/>ღე <note>705</note></item>
+                      <pb n="20"/>
+                      <item><ptr target="#num706"/>ღვ <note>706</note><hi rend="color(FFFF00)">ნ</hi>ათესავთა უხდურობისავე</item>
+                      <item><ptr target="#num707"/>ღზ <note>707</note><hi rend="color(FFFF00)">ნ</hi>ათესავთა უხრობისავე</item>
+                      <item><ptr target="#num40"/>მ <note>40</note><hi rend="color(FFFF00)">ნ</hi>იშნისა და ზითვისა</item>
+                      <item><ptr target="#num41"/>მა <note>41</note><hi rend="color(FFFF00)">ნ</hi>იშნის წიგნის უქონლობისა</item>
+                      <item><ptr target="#num91"/>ჟა <note>91</note><hi rend="color(FFFF00)">ნ</hi>ასყიდს ყმას ცოტას დანაშაულისათვის შენდობა მიეცემა</item>
+                      <item><ptr target="#num97"/>ჟზ <note>97</note><hi rend="color(FFFF00)">ნ</hi>ასყიდი ყმა არ მოიკვლის</item>
+                      <item><ptr target="#num148"/>რმჱ <note>148</note><hi rend="color(FFFF00)">ნ</hi>ებით თავ მოკვლისათვის წირვის ღირსება ანუ არა</item>
+                      <item><ptr target="#num149"/>რმთ <note>149</note><hi rend="color(FFFF00)">ნ</hi>ებითვე თავმოკლულისა დამნაშავის წირვისათვის</item>
+                      <item><ptr target="#num647"/>ქმზ <note>647</note><hi rend="color(FFFF00)">ნ</hi>ასყიდის კაცის სავაჭროდ გაგზავნისა</item>
+                      <item><ptr target="#num655"/>ქნე <note>655</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა მკვიდრობისათვის</item>
+                      <item><ptr target="#num656"/>ქნვ <note>656</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობის დიდის გამოძიებით სყიდვისა</item>
+                      <item><ptr target="#num657"/>ქნზ <note>657</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა ვინც ან გლეხი ან მამულის ვისგანაც იყიდოს</item>
+                      <item><ptr target="#num658"/>ქნჱ <note>658</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობის პატრონის უდასტურად და უბეჭდოდ</item>
+                      <item><ptr target="#num659"/>ქნთ <note>659</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა ფუმისა კაცრულისა ან უკაცურისა</item>
+                      <item><ptr target="#num660"/>ქჲ <note>660</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა ვინც მამა ვალისაგან დაიხსნას</item>
+                      <item><ptr target="#num661"/>ქჲა <note>661</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა ქალაქში გალავნის შიგნით</item>
+                      <item><ptr target="#num662"/>ქჲბ <note>662</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა მღვდელთაგან გასყიდულის სახლისა</item>
+                      <item><ptr target="#num663"/>ქჲგ <note>663</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისათვის წისქვილისა</item>
+                      <item><ptr target="#num664"/>ქჲდ <note>664</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობის ერთთან შერიგებისა და ისევ შეშლისა</item>
+                      <item><ptr target="#num665"/>ქჲე <note>665</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა ფასის გადაწყვეტის და შეის აღებისა</item>
+                      <item><ptr target="#num666"/>ქჲვ <note>666</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა სხვისაგან სხვისათვის და თეთრის მავან მიცემისა</item>
+                      <item><ptr target="#num667"/>ქჲზ <note>667</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა ღვინოში სიმთვრალით და ან სხვას ქუეყანას იყოს და მამული გაყიდოს აქაური</item>
+                      <item><ptr target="#num668"/>ქჲჱ <note>668</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობის უჯერობისა თუ ოცდა ხუთის წლის კაცი არ იყოს</item>
+                      <item><ptr target="#num669"/>ქჲთ <note>669</note><hi rend="color(FFFF00)">ნ</hi>ასყიდს მამულში საქონლის პოვნისა</item>
+                      <item><ptr target="#num670"/>ქო <note>670</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა ყმისა პირობით ვარგისი და ავი გამოდგის</item>
+                      <item><ptr target="#num671"/>ქოა <note>671</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისავე ყმისა პირობით და ბორჯით და შორ ქალს უკან სიავე შეეტყოს</item>
+                      <item><ptr target="#num672"/>ქობ <note>672</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისავე ყმისა პირობით და ბორჯლით</item>
+                      <item><ptr target="#num673"/>ქოგ <note>673</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა ყმისა და მოახლის რასაც პირობით</item>
+                      <item><ptr target="#num674"/>ქოდ <note>674</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობისათვის სხვის რჯულისა და მათის აზატისა</item>
+                      <item><ptr target="#num675"/>ქოე <note>675</note><hi rend="color(FFFF00)">ნ</hi>ასყიდის ყმისა ან მოახლის სხვაგან გაუსყიდლობისა</item>
+                      <item><ptr target="#num676"/>ქოვ <note>676</note><hi rend="color(FFFF00)">ნ</hi>ასყიდის ყმისა მოსამართლესთან უჩივლობისა</item>
+                      <item><ptr target="#num677"/>ქოზ <note>677</note><hi rend="color(FFFF00)">ნ</hi>ასყიდის ყმის საქონლის გაბარებისა და ბატონის შეტყობისა</item>
+                      <item><ptr target="#num678"/>ქოჱ <note>678</note><hi rend="color(FFFF00)">ნ</hi>ასყიდის ყმის საქონლის გაბარებისავე</item>
+                      <item><ptr target="#num679"/>ქოთ <note>679</note><hi rend="color(FFFF00)">ნ</hi>ასყიდობის ოთხ თეზის საქონლის პირობით მიცემისა</item>
+                      <pb n="21"/>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ასყიდისა საქონლისა ზარისა მოწმით და პირობით შერიგებისა <ptr target="#num680"/>ქპ <note>680</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ასყიდის ფურისა აგრევე მოწმით და პირობითი <ptr target="#num681"/>ქპა <note>681</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ასყიდისა ცხენისათვის <ptr target="#num682"/>ქპბ <note>682</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ათხრობისა ჭურჭლისა და ვარგვისა ან წახდენისა<ptr target="#num683"/>ქპგ <note>683</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ათხრობის კაცისათვის <ptr target="#num684"/>ქპდ <note>684</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>აშოვრის ნასყიდისა პირუტყვისა თუ რასაცა <ptr target="#num710"/>ღი <note>710</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა თუ ვინმე ეცადოს ეს საქონელი სხვასა არის <ptr target="#num711"/>ღია <note>711</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა ნაპარევისა და ნაქურდალისა <ptr target="#num712"/>ღიბ <note>712</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ასყიდის ქვევრისა ანუ ჭურჭლისა <ptr target="#num713"/>ღიგ <note>713</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ასყიდობისა ერთის წლის მოსავლისა ვენახისა თუ ბაღისა<ptr target="#num714"/>ღიდ <note>714</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ასყიდის ყმისაგან საქონლის გაბარებისა <ptr target="#num722"/>ღკბ <note>722</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ასყიდისა თუ აზატ ნაქნარისა საქონლის გაბარებისავე <ptr target="#num723"/>ღკგ <note>723</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ასყიდისა ნაშოვრის საქონელისა <ptr target="#num783"/>ღპგ <note>783</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>უ აუკრავთ პირსა ხარსა მევალისა <ptr target="#num959"/>შნთ <note>959</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ადირობაზე შეცილებისა <ptr target="#num977"/>შოზ <note>977</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ადირობისა დაჭრილის ნადირის ცილებისა <ptr target="#num978"/>შოჱ <note>978</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ადირის პირველ დამჭრელისა <ptr target="#num979"/>შოთ <note>979</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ადირობასა და სახუნდარსა ცილებისა <ptr target="#num980"/>შპ <note>980</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ადირს რქიანს ვისიც ისარი უწინ მოხვდა რქაზე <ptr target="#num981"/>შპა <note>981</note></item>
+                      <item><hi rend="color(FFFF00)">ნ</hi>ადირობისა ჭალის საზუნდარში <ptr target="#num11"/>ია <note>11</note></item>
+                  </list>
+                  <list>
+                      <head><hi rend="color(FFFF00)">ო</hi></head>
+                      <item>ომში ნაშოვნი საქონლისა <ptr target="#num80"/>პ <note>80</note></item>
+                      <item>ომში დანარჩუნებულისა კაცისა და იარაღისა <ptr target="#num81"/>პა <note>81</note></item>
+                      <item>ომში დანარჩუნებულისა კაცის იაღაღისავე და დანარჩუნებულის მკვდრის <ptr target="#num82"/>პბ <note>82</note></item>
+                      <item>ომში თუ კაცს თვალი და ხელი დაუშავდეს <ptr target="#num313"/>ტიგ <note>313</note></item>
+                      <item>ორსულის დედაკაცს ვინ დაკრას რამე და მუცელი წაუხდინოს <ptr target="#num348"/>ტმჱ <note>348</note></item>
+                      <item>ორსულობის წამალი ვინ აჭამოს და ის დედაკაცი მოკვდის <ptr target="#num908"/>შჱ <note>908</note></item>
+                      <item>ოთხნი წიგნი არიან სასწავლნი <ptr target="#num914"/>შიდ <note>914</note></item>
+                      <item>ორმოს ვინ მოახოს და არ დახუროს და შიგ პირუტყვი ჩავარდეს მოკვდის <ptr target="#num925"/>შკე <note>925</note></item>
+                      <pb n="22"/>
+                      <item><ptr target="#num83"/> <note></note></item>
+                      <item><ptr target="#num83"/> <note></note></item>
+                      <item><ptr target="#num83"/> <note></note></item>
+                      <item><ptr target="#num83"/> <note></note></item>
+                      <item><ptr target="#num83"/> <note></note></item>
+                      <item><ptr target="#num83"/> <note></note></item>
+                      <item><ptr target="#num83"/> <note></note></item>
+                      <item><ptr target="#num83"/> <note></note></item>
                       
                   </list>
+                  
               </div>
+              <div>
             <pb n="9"/> <!-- გვერდის ნომერი, ნაბეჭდი გვერდის ნომერი -->
                      <table rows="4" cols="8"><head>ზანდუკი</head>
                      <row role="label">
@@ -3682,7 +4242,7 @@
                      <cell role="data">130</cell>   
                      </row>
                      <row role="data">    
-                     <cell role="label">554.ქორწილს უწინ ვალის აღება დედაკაცთგან თუ აეღოს,თანვე უნდა მისცეს.</cell>
+                     <cell role="label">554.ქორწილს უწინ ვალის აღება დედაკაცთგან თუ აეღოს, თანვე უნდა მისცეს.</cell>
                      <cell role="data">90</cell>   
                      </row>
                      <row role="data">    
@@ -7319,7 +7879,7 @@
                 <lb n="27"/>და საკუირველი სოლომონ იტყუის და გვაყენებს, რათა
                 <lb n="28"/>არა სიხარბით შევიძინოთ საფასე იგი, რომელიცა არა ჯერ იყოს.
                 <lb n="29"/>„უკეთეს არს მისა, რათამცა მცირედი რამე მიიღოს სიმართლით,
-                <lb n="30"/>ვიდრეღა<p><app><lem>XXX</lem><rdg wit="#W1">ვიდრეღა] + რა</rdg></app></p> მიიღოს ბევრი უსამართლოდ“.<note>შდრ. იგავნი 15, 30 </note>    </p>
+                <lb n="30"/>ვიდრეღა<p><app><lem>XXX</lem><rdg wit="#W1">ვიდრეღა] + რა</rdg></app></p> მიიღოს ბევრი უსამართლოდ“.<note>შდრ. იგავნი 15, 30</note>    </p>
             <p>
                 <lb n="31"/>ამისთვისცა ბრძანებს ბრძენი<p><app><lem>XXX</lem><rdg wit="#W2">ბრძენი] წმიდა</rdg></app></p> ზირაქ:<note>შდრ. ქრაქ 40, 13.</note> რამეთუ „საქონელი 
                 <lb n="32"/>რომ ესრეთ მისდიოდეს კაცსა, ვითარცა წვიმისაგან ღვარი და  </p>
@@ -7381,7 +7941,7 @@
                 <lb n="9"/>სიმართლე ქნას, დასწყევლოს ვინმე, არა რა არს. არამედ, თუ ქნას
                 <lb n="10"/>უსამართლო ვისზედმე, და იმან რომ დასწყევლოს, წყევლა მისი
                 <lb n="11"/>გეყავნ. რამეთი უტყუის მაცხოვარი: „ნეტარ იყუნენ დევნულნი
-                <lb n="12"/>სიმართლისათვის, რამეთუ მათუ არს სასუფეველი ცათა“.<note>მათე 5, 10, </note>  </p>
+                <lb n="12"/>სიმართლისათვის, რამეთუ მათუ არს სასუფეველი ცათა“.<note>მათე 5, 10,</note>  </p>
             <p>
                 <lb n="13"/>უკეთი იყოს მართალი მოსამართლე და უყუარდეს მას სა-
                 <lb n="14"/>მართალი სამართალი უნდა დაიმკვიდროს მან.<p><app><lem>XXX</lem><rdg wit="#W1">სამართალი უნდა დაიმკვიდროს მან] მართალი არა უნდა დაიმკვიდროს მან </rdg></app></p> რამეთუ<p><app><lem>XXX</lem><rdg wit="#W1">რამეთუ] რათა </rdg></app></p> [59v]
@@ -16867,7 +17427,7 @@
         <p>  
                 <lb n="22"/>328. ქ. თუ ვინ ვის დაუწვას შეკაზმული ჭირნახული, აზღვე-
                 <lb n="23"/>ვინონ მას ერთისათვის სამი, თუ არადა ათს წლამდინ ინანოს, საკა-
-                <lb n="24"/>ნონო გარდიჴადოს და პატრონს თავისი მისცეს<note>88-ე კანონი ბასილი კესარიელისა</note> ეს- რიგისაგან
+                <lb n="24"/>ნონო გარდიჴადოს და პატრონს თავისი მისცეს<note>88-ე კანონი ბასილი კესარიელისა</note> <hi rend="color(FFFF00)">ე</hi>ს- რიგისაგან
         </p>
       </div>
       <div><head>ქ. თავი სამასოცდაცხრა</head>
@@ -17420,7 +17980,7 @@
                 <lb n="16"/>ამრიგი სამართალი უეფისკოპოზოთ და უმოქადაგოთ არ
                 <lb n="17"/>იქნას, ამგვარის ბოზობის ჯარიმა, რაც რომ ებისკოპოზის ჴელთ
                 <lb n="18"/>მიეცა ჯარიმა, მისგან ნახევარი მაინც<rdg wit="#W1">ნახევარ</rdg> გლახას უნდა გაუყონ. თუ
-                <lb n="19"/>მართლა სხვის ნათხოვნი ყოფილიყოს, მას უფროსად გარდაჴდეს<note>,,თუ მართლა გარდაჴდეს" B-ში არ არის, ხოლო A-შ მიწერილია სხვა ხელით </note>.
+                <lb n="19"/>მართლა სხვის ნათხოვნი ყოფილიყოს, მას უფროსად გარდაჴდეს<note>,,თუ მართლა გარდაჴდეს" B-ში არ არის, ხოლო A-შ მიწერილია სხვა ხელით</note>.
             </p>
       </div>
       <div><head>ქ. თავი სამასორმოცდაცხრა</head>
@@ -20417,7 +20977,7 @@
       <div><head>უწინ სისხლის საქმე გავაჩინეთ<note>კიდეზე გადამწერის ხელით სწერია: ,,სისხლი"</note></head>
         <app><lem>XXX</lem> <rdg wit="#W1"><pb n="426"/>
        <p>        
-         <lb n="1"/>1.<note>ამ ხელნაწერში ტექსტი მუხლებად მუხლებად გაკვეთილი არ არის. ჩვენ ვყოფთ A-ს მიხედვით</note> თუ შერისხდეს ღმერთი ეშმაკსა და კაცმან კაცი მოკლას, დიდე-
+         <lb n="1"/>1.<note>ამ ხელნაწერში ტექსტი მუხლებად მუხლებად გაკვეთილი არ არის. ჩვენ ვყოფთ A-ს მიხედვით</note><hi rend="color(FFFF00)">თ</hi>უ შერისხდეს ღმერთი ეშმაკსა და კაცმან კაცი მოკლას, დიდე-
           <lb n="2"/>ბულმან დიდებული, სადამდის პატრონის კაცი და მაწყუერელისა დაესწრას და
          <lb n="3"/>ყოვლად  წმიდისა ხატი დააწყოს<rdg wit="#W1">+ და</rdg>, თუ ემტეროს, იგი სისხლსა შიგან
        </p>
@@ -20819,7 +21379,7 @@
                    <lb n="2"/>[ჰმართებს] ქედთა  ყოფა და გარდახუეწა, ღარიბობა, არავისგან უნდა მოჴსენებად.
                    <lb n="3"/>ებისკოპოზმან მისი წესი იცის რაცა მართებს, მან უყოს. </p>
                    <p>
-                   <lb n="4"/>23<note> კიდეზე გადამწერის ხელით სწერია: "გაწბილება".</note> თუ დედა-წულმან დედა-წულისა ცოლსა უარშიო უყოს და მოაყივ
+                   <lb n="4"/>23<note> კიდეზე გადამწერის ხელით სწერია: "გაწბილება".</note><hi rend="color(FFFF00)">თ</hi>უ დედა-წულმან დედა-წულისა ცოლსა უარშიო უყოს და მოაყივ
                    <lb n="5"/>ნოს, გინა ნებითა, გინა უნებლითა, და გამჟღავნდეს, და გინა მეყჳისისაგან, დაუ-
                    <lb n="6"/>ურვოს ცოლის ქმარსა სრული სისხლი, მისცეს, და [5v] ბატონმან მისმან
                    <lb n="7"/>ნიფხვით ოდენ, შიშველი, და ყელ-საბლიანი უბანთა ზედა განჭირებული მო-
@@ -23024,7 +23584,7 @@
             <p>
             <lb n="25"/>ვინ იცის ორნივე გარდავარდეს, უნდა დააცალონ ქვეითათ
             <lb n="26"/>ერთმანერთზე მიუშვან, და რომელიც წააქცევს, სამართალი ძმას
-            <lb n="27"/>დარჩება.<note>,,ვინც იცის... იმას დარჩება'', A-ში მიწერილია კიდეზე სხვა ხელით, ხოლო B-ში არ არის. </note></p>
+            <lb n="27"/>დარჩება.<note>,,ვინც იცის... იმას დარჩება'', A-ში მიწერილია კიდეზე სხვა ხელით, ხოლო B-ში არ არის.</note></p>
             <div>
                 <head>[მდუღარე ასრე უნდა]</head></div> 
             <p>
@@ -25403,7 +25963,7 @@
             <p>
                  <lb n="4"/>თუ თავის ნატამალში ყოფილა ის ორმო, ნახევარს სისხლს შეუვა კაცი-
                  <lb n="5"/>სას თუ პირუტყვისას; თუ სასოფლოს ადგილს ყოფილა, მთელი ეთხოების, ამი-
-                 <lb n="6"/>ტომ რომ იცოდა, გზა იყო, რად არ დაბურა?" (იხ. ვახტანგ VI, სამართლის წიგნი, 1955).</p> </note>[შდრ. მუხლ. 256].</p>
+                 <lb n="6"/>ტომ რომ იცოდა, გზა იყო, რად არ დაბურა?" (იხ. ვახტანგ VI, სამართლის წიგნი, 1955).</p></note>[შდრ. მუხლ. 256].</p>
             <div>
                 <head>[მრჩოლელი პირუტყვისა ასრე იქნას]</head></div> 
             <p>
@@ -25583,7 +26143,7 @@
             <lb n="5"/>ლად, სად ენებოს, მუნ დაწეროს და იგიც ეგოს.</p>
             <p>
             <lb n="6"/>ხოლო რომელმან არა ისმინოს ვედრება ესე და მოიშალოს სამართლები
-            <lb n="7"/>ჩვენი, სხვებრ შეცვალნეს, ცოდვათა ჩვენთა მიერ იგიმცა დაისჯების <note>აქ მთავრდება სამართლის წიგნის თავდაპირველი ტექსტი. აქედან ბოლომდე ტექსტი გადაწერილია სხვა ხელით (ალბათ კრებულის საძიებლის გადამწერის ხელით). </note></p>
+            <lb n="7"/>ჩვენი, სხვებრ შეცვალნეს, ცოდვათა ჩვენთა მიერ იგიმცა დაისჯების <note>აქ მთავრდება სამართლის წიგნის თავდაპირველი ტექსტი. აქედან ბოლომდე ტექსტი გადაწერილია სხვა ხელით (ალბათ კრებულის საძიებლის გადამწერის ხელით).</note></p>
             <div>
                 <head>თუ ვითარ ჴამს დაწერა განაჩენისა</head></div> 
             
@@ -25689,7 +26249,7 @@
             <lb n="8"/>ის [რ]ომ უთხრა, რატომ არ გააცალა?</p>
             <p>
             <lb n="9"/>თუ წაყვანა არ უთქვამს და ისრე დაუკარგა, თავისი თავნი
-            <lb n="10"/>მისცეს <note>ეს მუხლი A ნუსხაში მიწერილია ვახტანგის ხელით. </note>.</p>
+            <lb n="10"/>მისცეს <note>ეს მუხლი A ნუსხაში მიწერილია ვახტანგის ხელით.</note>.</p>
             <p>
             <lb n="11"/>[330v]. 208. ქ. კაცმა რომ კაცს მიაბაროს რამე, და მას
             <lb n="12"/>კაცს ცოლი ყუანდეს და ის კაცი მოკუდეს, და თუ მას მის ცოლ-
