@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "file:/D:/Git/georgian-mss/collections/MS_Georg_d_2.dtd">
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_82">
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
             <title type="full">
                <title type="main">MS. Wardr. f. 2</title> 
                <title type="alt" xml:lang="en">Geography or Brief Description of the Environment</title>
@@ -14,11 +15,6 @@
             </title>
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
-            <respStmt xml:id="IL">
-               <persName>I. Lobzhanidze</persName>
-               <resp>transcribed from original MS and converted to XML format</resp>
-               <resp>markup and encoding</resp>
-            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="1">First publication edition, TEI P5.
