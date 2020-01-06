@@ -1722,99 +1722,208 @@
                         <cell></cell>
                         <cell>ბ</cell>
                     </row>
+                    
+                    
+                    <row>
+                        <cell role="label">მოსამართლემ თუ უსამართლო ქნას.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">კიდევ თუ მოსამართლემ უსამართლო ქნას.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">ავი სამართლის დამტკიცებისათვის.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">კაცი რომ ოცდახუთის წლის არ იყოს,ის მოსამართლედ არ დაიყენება.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">ყოველს კაცს მოსამართლობა არ შეუძლია,თუ ვისგანმე არ მიეცეს.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">მოსამართლემ რომ სჯულის კანონით სამართალი ქნას,ის აღარ მოიშლება.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">კუირასა და უქმეს და ბედნიერს დღეს მოსამართლე სამართალს ნუ იქს.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">დიდ მარხვაში მოსამართლე სამართალს ნუ იქს.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">კაცის მკულელნი და ავაზაკნი დიდ მარხვაშიაც განიკითხვიან.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">აღდგომას პყრობილის განთვისუფლებისათვის.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label"></cell>
+                        <cell role="label">დაბადება</cell>
+                        <cell role="label">ბერძნული</cell>
+                        <cell role="label">სომხური</cell>
+                        <cell role="label">კათალიკოზისა</cell>
+                        <cell role="label">მეფის გიორგისა</cell>
+                        <cell role="label">აღბუღასი</cell>
+                        <cell role="label">ბატონისშვილის ვახტანგისა</cell>
+                        <cell role="label"></cell>
+                    </row>
+                    <row>
+                        <cell role="label">მოსამართლეთა და თვადთაგან ქრთამის აუღებლობისა და სამართლის გაუსყიდველობისათვის.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">თვადთდა მოსამართლეს ქრთამი არ ააღებინონ.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">მოსამართლეთა სამდივანბეგო რა უნდა აიღონ,ანუ რომელს უნდა გამოართვან-თეთრის მიმცემსა თუ ვალის ამღებსა,აქავ გარჩევით მოგახსენებთ.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">მოსამართლესთან საჩივრისათვის.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">მოსამართლის წინაშე დაბეზღებისათუის თუ რამე ნახოს,წიგნით მოახსენოს.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">ქალაქთა და ალაგთა სასამართლო წესისა და რიგისა.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell role="label">მოსამართელს საეჭვო რომ მოხსენდეს,უნდა შეიწყნაროს და გასინჯოს.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
                 </table>
                 
-                
-                       7   
-                       393 
-                       100           
-                     </row>
-                     <row role="data">    
-                     <cell role="label">3.მოსამართლემ თუ უსამართლო ქნას.
-                     2   
-                     188,278   
-                     20   
-                     3   
-                       </row> 
-                     <row role="data">    
-                     <cell role="label">4.კიდევ თუ მოსამართლემ უსამართლო ქნას.
-                     194   
-                       </row>   
-                       <row role="data">    
-                     <cell role="label">5.ავი სამართლის დამტკიცებისათვის.
-                     133   
-                        </row>   
-                         <row role="data">    
-                     <cell role="label"><pb n="2r"/>6.კაცი რომ ოცდახუთის წლის არ იყოს,ის მოსამართლედ არ დაიყენება.
-                     187   
-                       </row>   
-                       <row role="data">    
-                     <cell role="label">7.ყოველს კაცს მოსამართლობა არ შეუძლია,თუ ვისგანმე არ მიეცეს.
-                     186   
-                       </row>   
-                       <row role="data">    
-                     <cell role="label">8.მოსამართლემ რომ სჯულის კანონით სამართალი ქნას,ის აღარ მოიშლება. 
-                     157   
-                       </row>   
-                        <row role="data">    
-                     <cell role="label">9.კუირასა და უქმეს და ბედნიერს დღეს მოსამართლე სამართალს ნუ იქს.
-                     188   
-                     44 
-                       </row>   
-                        <row role="data">    
-                     <cell role="label">10.დიდ მარხვაში მოსამართლე სამართალს ნუ იქს.
-                     189   
-                       </row> 
-                      <pb n="10"/>
-                       <row role="data">    
-                     <cell role="label">11.კაცის მკულელნი და ავაზაკნი დიდ მარხვაშიაც განიკითხვიან.
-                     190   
-                      </row>   
-                        <row>
-                           <cell role="label">დაბადება               
-                       <cell role="label">ბერძნული               
-                       <cell role="label">სომხური                
-                       <cell role="label">კათალიკოზისა
-                       <cell role="label">მეფის გიორგისა
-                       <cell role="label">აღბუღასი
-                       <cell role="label">ბატონისშვილის ვახტანგისა
-                        </row>
-                       <row role="data">    
-                       <cell role="label" xml:id="num12">12. აღდგომას პყრობილის განთვისუფლებისათვის.
-                     191   
-                      </row>   
-                      
-                       <row role="data">    
-                     <cell role="label">13.მოსამართლეთა და თვადთაგან ქრთამის აუღებლობისა და სამართლის გაუსყიდველობისათვის.
-                     196   
-                       </row> 
-                       <row role="data">    
-                     <cell role="label">14.თვადთდა მოსამართლეს ქრთამი არ ააღებინონ.
-                     197   
-                        </row>   
-                       <row role="data">    
-                     <cell role="label">15.მოსამართლეთა სამდივანბეგო რა უნდა აიღონ,ანუ რომელს უნდა გამოართვან-თეთრის მიმცემსა თუ ვალის ამღებსა,აქავ გარჩევით მოგახსენებთ.
-                     198   
-                       </row>   
-                       <row role="data">    
-                     <cell role="label">16.მოსამართლესთან საჩივრისათუის.
-                     48   
-                     212 
-                       </row>   
-                       <row role="data">    
-                     <cell role="label">17.მოსამართლის წინაშე დაბეზღებისათუის თუ რამე ნახოს,წიგნით მოახსენოს. 
-                     213   
-                     </row>   
-                       <row role="data">    
-                     <cell role="label"><pb n="4r"/>18.ქალაქთა და ალაგთა სასამართლო წესისა და რიგისა.
-                     209   
-                        </row>   
-                        
-                       <row role="data">    
-                     <cell role="label">19.მოსამართელს საეჭვო რომ მოხსენდეს,უნდა შეიწყნაროს და გასინჯოს.
-                     27   
-                     212 
-                        </row>   
                       
                        <row role="data">    
                      <cell role="label">20.კიდევ საეჭვო საქმის კარგად გასინჯვა.
