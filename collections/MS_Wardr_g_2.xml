@@ -16,14 +16,14 @@
             <principal>Gillian Evison</principal>
          </titleStmt>
          <editionStmt>
-            <edition n="1">First publication edition, TEI P5.
-               <date when="2019-12-20">20 December 2019</date>
+            <edition n="1">First digital edition, TEI P5.
+               <date>20 December 2019</date>
             </edition>
             <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
          </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="#Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">2019-12-11</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -56,10 +56,10 @@
                   <collection type="main">Oriental Manuscripts Wardrop Collection</collection>
                   <idno>MS. Wardr. g. 2</idno>
                </msIdentifier>
-               <head>Ḳalvažiani is a folk tale about a woman and a man</head>
+               <head>Ḳalvažiani</head>
                <msContents>
                   <summary>
-                     <title>Kalvažiani</title>
+                     <title>Kalvažiani is a famous folk tale.</title>
                   </summary>
                   <msItem xml:id="MS_Wardr_g_2-item1" n="1">
                      <locus from="1" to="42"/>
@@ -96,11 +96,7 @@
                               </dimensions>
                            </seg>
                         </extent>
-                        <foliation xml:id="original">
-                           <p>There is not any kind of original pagination.</p>
-                        </foliation>
-                        <foliation xml:id="modern">
-                           <p>Pencil pagination is added probably by the library.</p>
+                        <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library.
                         </foliation>           
                         <collation>The book has not title page.</collation>
                         <condition>All leaves of manuscript are damaged with dark water stains.</condition>
@@ -115,6 +111,9 @@
                      <handNote scope="major" xml:id="h1">Hand I writes the whole text of manuscript in Mkhedruli script</handNote>
                      <handNote scope="minor" xml:id="h2">Hand II writes on bottom margin on 19v in Mkhedruli script with pencil</handNote>
                   </handDesc>
+                  <decoDesc>
+                     <decoNote>The Manuscript has not decorations.</decoNote> 
+                  </decoDesc>
                   <bindingDesc>
                      <binding notAfter="1950" notBefore="2005">
                         <p>The panel without ornaments is not old.</p>
@@ -251,15 +250,15 @@
                   <damage><gap quantity="2" unit="chars" reason="illegible"/></damage>
             </p>
             <pb f="2v" n="4"/>
-            <p hand="#h1">
+            <p hand="#h1">               
                დაბერებულნი და შვი<lb/>
-               ლი არა. და ყვანდათ. და დღ<gap reason="illegible" quantity="1" unit="character" n=""/> <lb/>
-               და ღამე ღმერთს ეხე ენ<gap reason="illegible" quantity="1" unit="character" n=""/> <lb/>
-               ებოდნენ. ღმერთი ვარო <gap reason="illegible" quantity="2" unit="character" n=""/> <lb/>
-               ე მოგვეციო. ისმინა. ღ <gap reason="illegible" quantity="1" unit="character" n=""/><lb/>
+               ლი არა. და ყვანდათ. და დღ<gap quantity="1" unit="chars" reason="illegible"/> <lb/>
+               და ღამე ღმერთს ეხე ენ<gap quantity="1" unit="chars" reason="illegible"/> <lb/>
+               ებოდნენ. ღმერთი ვარო <gap quantity="2" unit="chars" reason="illegible"/> <lb/>
+               ე მოგვეციო. ისმინა. ღ <gap quantity="1" unit="chars" reason="illegible"/><lb/>
                რთმან. ვედრება. მათი. და <lb/>
                ეცა. ვაჟი. მშვენიერი. დ <lb/>
-               გჳიდრებული. და. ღმერ<gap reason="illegible" quantity="1" unit="character" n=""/> <lb/>
+               გჳიდრებული. და. ღმერ<gap quantity="1" unit="chars" reason="illegible"/> <lb/>
                დიდი. მადლობა. შესწირ <lb/>
                და. თაყვანისცეს.<lb/>
                <damage><gap quantity="5" unit="chars" reason="illegible"/></damage>  ეს გაიზარდა. წა<lb/>
@@ -276,7 +275,7 @@
                საჭმელი. პური. აღარა <damage><gap quantity="2" unit="chars" reason="illegible"/></damage><lb/>
                ონდათ. და. სთქვა <damage><gap quantity="2" unit="chars" reason="illegible"/></damage> <lb/>
              <pb f="3v" n="6"/> 
-               <gap reason="illegible" quantity="2" unit="character" n=""/> ხეილმა. რომ. დედ<lb/>
+               <gap quantity="2" unit="chars" reason="illegible"/>ხეილმა. რომ. დედ<lb/>
                მამას. ამდენი. სარჩო. და<lb/>
                ხაზინა.  სულ. ჩემს. სწავლ<lb/>
                ებაზედ. გარდაუგიათო.<lb/>
@@ -288,7 +287,7 @@
                ონო რამეო. რომ. ჩემს<lb/>
                ოჯახის. საყვედურს. მე<lb/>
              <pb f="4r" n="7"/>
-               მოვითმენო. და. ამ <gap reason="illegible" quantity="4" unit="character" n=""/><lb/>
+               მოვითმენო. და. ამ <gap quantity="4" unit="chars" reason="illegible"/><lb/>
                გათ. შეწუხებული. დაი<lb/>
                არებოდა. და. უთხრეს <lb/>
                დედმამამ. ყმაწვილს. <lb/>
@@ -303,7 +302,7 @@
                მა. თავის. დედმამისა <lb/>
                მე. ერთი. საქმე <damage><gap quantity="5" unit="chars" reason="illegible"/></damage><lb/> 
              <pb f="4v" n="8"/>
-               <gap reason="illegible" quantity="2" unit="character" n=""/>ო. მე. ამ. ქვეყანას. ვე<lb/>
+               <gap quantity="2" unit="chars" reason="illegible"/>ო. მე. ამ. ქვეყანას. ვე<lb/>
                ღარ. დავდგებიო. მერმე. დედმამამ. მიუგო. რაიცა.<lb/>
                გნებავს. იმოქმედეო.
             </p>
@@ -331,7 +330,7 @@
                მრავალი. იტირეს. და<lb/>
              <pb f="5v" n="10"/> 
                ამწუხარეს. მაგრამ. უა<lb/>
-               რს. ვერ. ეტyოდნენ. ეს.<lb/>
+               რს. ვერ. ეტყოდნენ. ეს.<lb/>
                უპასუხა. ნება. გაქვს. შ<lb/>
                ვილო. მივიდა. იმ. ქალა<lb/>
                ქში. კარზედა. სარიას. ქვ<lb/>
@@ -661,7 +660,7 @@
             </p>
             <p hand="#h1">
                <damage><gap quantity="6" unit="chars" reason="illegible"/></damage> უგო. ეგ. კალია. ა<lb/>
-               <gap reason="illegible" quantity="5" unit="character" n=""/> 
+               <gap quantity="5" unit="chars" reason="illegible"/> 
             </p>
             <p hand="#h1">
                ქალმა. ჱკითხა. ის. რა. ი<lb/>
@@ -1243,7 +1242,7 @@
                კარისაგან. მანამდის <lb/>
                <damage><gap quantity="5" unit="chars" reason="illegible"/></damage>. შენ. არ გნახამთ. <lb/>
                <pb f="35r" n="69"/> 
-               და. ვაჟმა. შეუშვა. <gap reason="illegible" quantity="2" unit="character" n=""/><lb/>
+               და. ვაჟმა. შეუშვა. <gap quantity="2" unit="chars" reason="illegible"/><lb/>
                ა. შევიდა. შიგნით. ქა<lb/>
                ლი. და. აიღო. ფარდა. დ<lb/>
                ა როდესაც. ნახა. ვაჟმა. <lb/>
@@ -1395,7 +1394,7 @@
                <pb f="40v" n="80"/>
                იერი. იყო. როგორათა<lb/>
                ც. როგორც. უეცრათ. გა<lb/>
-               ფრინდა. და. წაიდ<del rend="overstrike">ა</del>ა. თუ. <lb/>
+               ფრინდა. და. წაიდ<del rend="strikethrough">ა</del>ა. თუ. <lb/>
                არ. დამიჯერებთ. ბუმბულ<lb/>
                ს. მოვიდტან. რომ. ნახ<lb/>
                ოთ. და შეიტყოთ. შეშ<lb/>

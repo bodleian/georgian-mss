@@ -16,8 +16,8 @@
             <principal>Gillian Evison</principal>
          </titleStmt>
          <editionStmt>
-            <edition n="1">First publication edition, TEI P5.
-               <date when="2019-12-15">15 December 2019</date>
+            <edition n="1">First digital edition, TEI P5.
+               <date>15 December 2019</date>
             </edition>
             <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
          </editionStmt>
@@ -100,13 +100,10 @@
                               </dimensions>
                            </seg>
                         </extent>
-                        <foliation xml:id="original">
-                           <p>There is not any kind of original pagination.</p>
-                        </foliation>
-                        <foliation xml:id="modern">
-                           <p>Pencil pagination is added probably by the library.</p>
+                        <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library.
                         </foliation>           
-                        <collation>The written leaves are preceded by title pages for akathistos and thanksgiving separately.</collation>
+                        <collation>The written leaves are preceded by title pages for akathistos and thanksgiving separately. Catchwords are written horizontally in center
+                           or towards the right lower margin.</collation>
                         <condition>Several leaves of manuscript are damaged with dark stains.</condition>
                      </supportDesc>
                      <layoutDesc>
@@ -259,6 +256,7 @@
    </facsimile>
    <text>
       <body>
+         <div type="original">
          <div type="chapter" n="1">
             <pb f="2r" n="3"/>
             <head hand="#h1">ი<hi rend="color(FF0000)">ბაკნი წმინდისა <lb/>
@@ -268,15 +266,15 @@
             <p hand="#h1">
                <hi rend="color(FF0000)">ზ</hi>ეშთა მბრძოლისა ჩემისათვის დამო<lb/>
                ღვაწისა უძლეველისა ვითარცა შენ <lb/>
-               მიერ ხსნინლნი განსაცდელისაგან სამ<lb/>
+               მიერ ხსნილნი განსაცდელისაგან სამ<lb/>
                ადლობელსა შევსწირავთ რთის მ<supplied reason="omitted">შობე</supplied><lb/>
-               ლო ქალწულო შენდა მომართ მოანანი <lb/>
+               ლო ქალწულო შენდა მომართ მონანი <lb/>
                <fw type="catch">შენნი</fw>
                <pb f="2v" n="4"/>
                შენნი არამედ ვითარცა გაქვს ძლიე<lb/>
                რება უბრძოლველი ყოველთაგან ვნება<lb/>
                თა განმათავისუფლენ ჩვენ რათა გ<lb/>
-               იგალობდეთ შენ კურთხეულო გხნ <lb/>
+               იგალობდეთ შენ კურთხეულო გ&#x035B;ხნ <lb/>
                სძალო უსძლოო 
             </p>
             <p hand="#h1">
@@ -464,7 +462,7 @@
                დელო მონაცვლეო მანანასაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მსახუ<lb/>
                რო საშებელისა წმინდაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ქვეყანაო <lb/>
                აღთქმისაო რომლისაგან დის სძე და იცფლი <lb/>
-               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სძალო უსძლოო:   იბ <note>12</note>: 
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სძალო უსძლოო:   <num value="12">იბ</num>: 
             </p>
             <p hand="#h1"> ეგულებოდა რა სჳმეონს აქაისა საუკუნოსა <lb/>
                მიცვალება საცთურისაგან მიეცა მას ვითარცა <lb/>
@@ -619,7 +617,7 @@
                <fw type="catch">ქ&#x035B;ეს</fw>
                <pb f="16r" n="31"/>
                ქრისტეს სულნელებისაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ცხოვრებისა საი<lb/>
-               დუმლოსა სერობაო გიხნ სძალო უსძლოო კბ<note>22</note>  
+               დუმლოსა სერობაო გიხნ სძალო უსძლოო <num value="22">კბ</num>  
             </p>
             <p hand="#h1">
                <hi rend="color(FF0000)">მ</hi>ადლისასა მიცემისა მნებებელი შეცოდება<lb/>
@@ -627,7 +625,7 @@
                ნელი მოვიდა თავისა მიერ თჳსისა მადლისა <lb/>
                მისისა განშორებულთა მიმართ და განხეთქა <lb/>
                რა ხელით წერილი ესმის უნელთა ესრეთ <lb/>
-               ალილუია჻ :კგ<note>23</note>
+               ალილუია჻ :<num value="23">კგ</num>
             </p>
             <p hand="#h1"> 
                <hi rend="color(FF0000)">მ</hi>გალობელნი შობისა შეგასხამთ <lb/>
@@ -651,7 +649,7 @@
                რომელისა მიერ მტერნი დაეცემიან.  <lb/>
                <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ნათლისა ჩემისა სრულებაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
                სულისა ჩემისა სასოებაო გიხნ სძალ<lb/>
-               ო უსძლოო     : კ&#x035B;დ <note>24</note> 
+               ო უსძლოო     : <num value="24">კ&#x035B;დ</num> 
             </p>
             <p hand="#h1"> 
                <hi rend="color(FF0000)">ჵი</hi> ყოველად სარგებელო დედაო მშ<lb/>
@@ -777,7 +775,7 @@
                შენ. გხედავ. ღვთის მშობელისა სარწმუნ<lb/>
                ოვებითა გულისა და სიყვარულითა <lb/>
                სულიათა შევრდომუთა თაყვანის.<lb/>
-               გცემ თანა საუკუნისა ჴელითა შენთა<del rend="overstrike">ტვ</del><lb/>
+               გცემ თანა საუკუნისა ჴელითა შენთა<del rend="strikethrough">ტვ</del><lb/>
                ვირთულისა ყმისა თანა უფლისა ჩვე<lb/>
                ნსა იესო ქრისტესა ღვთივ შვენიერო<lb/>
                და. პატივ. გცემთ და სამადლობელისა გალ<lb/>
@@ -996,8 +994,14 @@
                ძისა შენისა და ღვთისა ჩემისა და რათა ვმს<lb/>
                <fw type="catch">ახურ</fw>
                <pb f="30v" n="60"/> 
+               <add place="margin-top" hand="#h4">
+                  სათვისგ
+               </add>
                ახურ. მას ვითარცა ჯერ არს და ესრეთ აღ<lb/>
                ვასრულოო დედოფალო ჩემო ღ&#x035B;თის მშო.<lb/>
+               <add place="margin-left" hand="#h4">
+                  სინა თავის დიდები
+               </add>
                .ბელო წმინდათაანგელოზთა მიე.<lb/>
                .რ ძღომილი ვქნა მისი.<lb/>
                .სამის წმინდისა.<lb/>
@@ -1008,33 +1012,27 @@
                ნის ცემა ს&#x035B;კნეთა უკ&#x035B;ე.<lb/>
                ამინ : <lb/>
                ქ
-               <note place="margin-top" hand="#h4">
-                  სათვისგ
-               </note>
-               <note place="margin-left" hand="#h4">
-                  სინა თავის დიდები
-               </note>
-               <note place="margin-bottom" hand="#h4">
+               <add place="margin-bottom" hand="#h4">
                   ნისათვის
-               </note>
+               </add>
                <pb f="31r" n="61"/>
-               <note place="margin-top" hand="#h2">
+               <add place="margin-top" hand="#h2">
                   ახაური მას ვითარცა
                   ვა
-               </note>
-               <note place="margin-bottin" hand="#h4">
+               </add>
+               <add place="margin-bottom" hand="#h4">
                   მწ ღთქა და ქვეყანა
-               </note>
+               </add>
             </p>
          </div>
          <div type="chapter" n="4">
             <pb f="31v" n="62"/>
-            <note place="margin-top" hand="#h2">
+            <add place="margin-top" hand="#h2">
                ესწ<lb/>
                იგნი<lb/>
                ვისი<lb/>
                ა
-            </note>
+            </add>
             <head hand="#h5">
                წმინდაო: სამებაო: შეგვიწ<lb/>
                ყალენ: უფალო: გვისსენ: და გვილხინე <lb/>
@@ -1290,7 +1288,7 @@
                ურნენ დასულსა ჩვენისა სნეულებანი჻ 
             </p>
             <p hand="#h1"> 
-               <hi rend="color(FF0000)">ა</hi>ქა <hi rend="color(FF0000)">ი</hi>თქმის შეგვიწყალენ჻ ჴმა : ბ&#x035B; <note>2</note>  ჻ 
+               <hi rend="color(FF0000)">ა</hi>ქა <hi rend="color(FF0000)">ი</hi>თქმის შეგვიწყალენ჻ ჴმა : <num value="2">ბ&#x035B; </num>  ჻ 
             </p>
             <pb f="39v" n="78"/> 
             <p hand="#h1"> 
@@ -1424,10 +1422,10 @@
                <hi rend="color(FF0000)">ე</hi>სენი ზემოთ წერია: 
             </p> 
             <p hand="#h1">  
-               <hi rend="color(FF0000)">უ</hi>ფალო შეგვიწყალენ.   :ი&#x035B;ე <note>15</note>:  
+               <hi rend="color(FF0000)">უ</hi>ფალო შეგვიწყალენ.   : <num value="15">ი&#x035B;ე</num>:  
             </p> 
             <p hand="#h1">  
-               <hi rend="color(FF0000)">და</hi> ზედა მუხლი ესე <hi rend="color(FF0000)">ჴ</hi>მა:     :ბ&#x035B;<note>2</note>჻    
+               <hi rend="color(FF0000)">და</hi> ზედა მუხლი ესე <hi rend="color(FF0000)">ჴ</hi>მა:     : <num value="2">ბ&#x035B;</num>჻    
             </p>  
             <p hand="#h1">  
                <hi rend="color(FF0000)">ს</hi>ასოო და შესავედრებელო ქრისტიანეთაო <lb/>
@@ -1502,7 +1500,7 @@
                ჯულოება ჩვენი და შეგვიწყალე ჩვენ ღ&#x035B;თი჻  
             </p>  
             <p hand="#h1">  
-               და <hi rend="color(FF0000)">ზ</hi>ედა ესე - <hi rend="color(FF0000)">ჴ</hi>მა   - ბ <note>2</note>: <hi rend="color(FF0000)">გ</hi>&#x035B;ი 
+               და <hi rend="color(FF0000)">ზ</hi>ედა ესე - <hi rend="color(FF0000)">ჴ</hi>მა   - <num value="2"> ბ </num>: <hi rend="color(FF0000)">გ</hi>&#x035B;ი 
             </p>  
             <p hand="#h1">  
                <hi rend="color(FF0000)">ნუ</hi> მიმანდობ კაცობრიესა განზრახვასა ყო<lb/>
@@ -1601,7 +1599,7 @@
                <fw type="catch">ოფალო</fw>
                <pb f="48v" n="96"/>
                ოფალო განკურნე მოწყალებით დამისხენ <lb/>
-               <del rend="overstrike">მოწყალებით</del> ყოელთა განსაცდელთაგან რა<lb/>
+               <del rend="strikethrough">მოწყალებით</del> ყოელთა განსაცდელთაგან რა<lb/>
                თა გიღაღადებდე და აღგამაღლებდე შენ. <lb/>
                უკუნისამდე ჻  <hi rend="color(FF0000)">ა</hi>წდა 
             </p>  
@@ -1741,7 +1739,7 @@
                წმუნე <hi rend="color(FF0000)">დ</hi>ედოფალი (<hi rend="color(FF0000)">დარეჯან</hi>) ძენი <lb/>
                და ასულნი მათნი აცხოვნე და შეიწყალენ დე<lb/>
                დოფალნი მონანი შენნი და წმინსა პატრიარხი ჩ<lb/>
-               ვენი <del rend="overstrike">ანტონი</del> (<hi rend="color(FF0000)">ანტონი</hi>) წმინდანი მიტროპოლ<lb/>
+               ვენი <del rend="strikethrough">ანტონი</del> (<hi rend="color(FF0000)">ანტონი</hi>) წმინდანი მიტროპოლ<lb/>
                იტნ ეფისკოფოსნი დაყოელნი სამღვდელო დას<lb/>
                ამონაზვნო წესნი მთავარნი და ქრისტეს მ<lb/>
                ოყვარე მხედრობა და კეთილის მყოფელნი<lb/>
@@ -1752,7 +1750,7 @@
                სნითა დაიფარენ ევედრე დედოფალო შენ<lb/>
                გან უთესლოდ  განხორცებულსა ქრი<lb/>
                სტესა ღ&#x035B;თის ჩვენისა რათა შეგვჭურნეს <lb/>
-               ჩვენ ძალითა თვისთა <del rend="overstrike">მაღლითა</del> უძლეველთა<lb/> 
+               ჩვენ ძალითა თვისთა <del rend="strikethrough">მაღლითა</del> უძლეველთა<lb/> 
                ხილულისა თა უხილავდა მტერთა ჩვენსა ზ&#x035B;ა 
             </p>   
             <p hand="#h1">   
@@ -1801,6 +1799,7 @@
                ულებათ<lb/>
                აგან.
             </p>
+         </div>
          </div>                  
       </body>
    </text>

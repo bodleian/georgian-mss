@@ -16,8 +16,8 @@
             <principal>Gillian Evison</principal>
          </titleStmt>
          <editionStmt>
-            <edition n="1">First publication edition, TEI P5.
-               <date when="2019-12-19">19 December 2019</date>
+            <edition n="1">First digital edition, TEI P5.
+               <date>19 December 2019</date>
             </edition>
             <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
          </editionStmt>
@@ -80,13 +80,9 @@
                               </dimensions>
                            </seg>
                         </extent>
-                        <foliation xml:id="original">
-                        <p>There is not any kind of original pagination.</p>
-                        </foliation>
-                        <foliation xml:id="modern">
-                           <p>Pencil pagination is added probably by the library.</p>
+                        <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library.
                         </foliation>           
-                        <collation>The beginning and end pages as well as some portions of manuscript are missing.</collation>
+                        <collation>The beginning and end pages as well as some portions of manuscript are missing. Catchwords are written horizontally towards the right lower margin.</collation>
                         <condition>Several leaves of manuscript are damaged with dark stains.</condition>
                      </supportDesc>
                      <layoutDesc>
@@ -97,7 +93,7 @@
                   </objectDesc>
                   <handDesc hands="3">
                      <handNote scope="major" xml:id="h1">Hand I writes the whole text of manuscript with black ink</handNote>
-                     <handNote scope="minor" xml:id="h2">Hand II writes on marginalia indicating numbers of psalms in numerical values with pencil</handNote>
+                     <handNote scope="minor" xml:id="h2">Hand II writes on margin indicating numbers of psalms in numerical values with pencil</handNote>
                      <handNote scope="minor" xml:id="h3">Hand III writes on 27v Paternoster with black ink, the fragment is overstriked</handNote>
                    </handDesc>
                   <decoDesc>
@@ -233,6 +229,7 @@
    </facsimile>
    <text>
       <body>
+         <div type="original">
          <div type="chapter">
          <pb f="1r" n="1"/> 
             <p hand="#h1">
@@ -430,7 +427,7 @@
                გ&#x035B;ხნ. სამოსელო. შიშველთაო. უხრ<lb/>
                წნელო. გ&#x035B;ხნ. წადიერებაო. ყოველთა. ს<lb/>
                ურვილთა. მძლეო. გ&#x035B;ხნ. სძალო უს<lb/>
-               ძლოო. ი&#x035B;დ <add hand="#h2" place="marginalia-left">14</add>
+               ძლოო. ი&#x035B;დ <add hand="#h2" place="margin-left">14</add>
             </p>
             <p hand="#h1"> 
                უცხოსა. შობისა. მხილველნი. უ<lb/>
@@ -441,7 +438,7 @@
                <pb f="8v" n="16"/>
                დაბლად. მგულებელნი მიზიდვისა სიმაღ<lb/>
                ლედ მიმართთვისთა. მღაღადებელსა ალ<lb/>
-               ილუია:  ი&#x035B;დ <add hand="#h2" place="marginalia-left">15</add>
+               ილუია:  ი&#x035B;დ <add hand="#h2" place="margin-left">15</add>
             </p>
             <p hand="#h1"> 
                ყოვლად. იყო. ქვეყნისათა. თანა და. ზე<lb/>
@@ -468,7 +465,7 @@
                გარადა. სვლა. რომლისა. მიერ. განეღ<lb/>
                ო. სამოთხე. გ&#x035B;ხნ. კლიტეო. ქრისტეს. სა<lb/>
                მეუფესაო. სასოებაო. კეთილთა. საუკუნე<lb/>
-               თა. გ&#x035B;ხნ. სძალო უსძლოო   ი&#x035B;ვ <add hand="#h2" place="marginalia-left">16</add>
+               თა. გ&#x035B;ხნ. სძალო უსძლოო   ი&#x035B;ვ <add hand="#h2" place="margin-left">16</add>
             </p>
             <p hand="#h1"> ყოველი. ბუნება. ანგელოზთა. განაკ<lb/>
                ვირვა. დიდბემან. განკაცებისა. შენისა ს<lb/>
@@ -476,7 +473,7 @@
                ა. ღმერთსა. გხედვიდეს. ყოველთა შესახებე<lb/>
                ლად. კაცთა: უკვე ჩვენთა მქცეველად <lb/>
                მსმენელად. ყოველთა. მიერ ესრეთ ალილუია<lb/>
-               <fw type="catch">ი&#x035B;ზ <note>17</note></fw>
+               <fw type="catch"><num value="17">ი&#x035B;ზ </num></fw>
                <pb f="10r" n="19"/> 
                რიტორთა. მრავალ . ჴხმათავითარცა თ<lb/>
                ევზთა. უჴმოთა. ჴედავთ. შენდამი ღ&#x035B;თის. <lb/>
@@ -501,7 +498,7 @@
                მნთლებელო. გ&#x035B;ხნ. ნავო. მენებებელთა. ც<lb/>
                ხოვნებისაო. გ&#x035B;ხნ. ნავთსაყუდელო. საწ<lb/>
                უთოსა. ღელვა. გვრემულთა. გ&#x035B;ხნ. სძალ<lb/>
-               ო უსძლოო:  - იჱ <note>18</note>.  <lb/>
+               ო უსძლოო:  - <num value="18">იჱ </num>.  <lb/>
                <fw type="catch">ცხონება</fw>
             </p> 
             <pb f="11r" n="21"/> 
@@ -511,7 +508,7 @@
                თ. აღძვრით. მოიწია.დარომელი. მწყემს<lb/>
                ი. იყო. ვითარცა. რთი. ჩვენთვის. გამოჩნდა. <lb/>
                და მსგვსსა. მოუწოდა. ვითარცა. მნებ<lb/>
-               ებელმან. სმენად. ალილუია჻  ი&#x035B;თ <add hand="#h2" place="marginalia-right">19</add><lb/>
+               ებელმან. სმენად. ალილუია჻  ი&#x035B;თ <add hand="#h2" place="margin-right">19</add><lb/>
             </p>
             <p hand="#h1"> 
                ზღუდე. ჴარ. ქალწულთა. ღთისმშობ<lb/>
@@ -537,7 +534,7 @@
                სძლობისაო. გ&#x035B;ხნ. მორწმუნეთა. უფლისათა. <lb/>
                სამკაულო. გ&#x035B;ხნ. შვენიერო. სიკეთეო. ქალწ<lb/>
                ულთაო. გ&#x035B;ხნ. სულთა. წმინდათა, სასძლო. შე<lb/>
-               სამოსელო. გ&#x035B;ხნ. სძალო უსძლოო჻  ი&#x035B;თკ&#x035B;<add hand="#h2" place="marginalia-right">20</add>
+               სამოსელო. გ&#x035B;ხნ. სძალო უსძლოო჻  ი&#x035B;თკ&#x035B;<add hand="#h2" place="margin-right">20</add>
             </p>
             <p hand="#h1"> 
                გალობა. ყოველი. იძლევის. თანა. განვრ<lb/>
@@ -548,7 +545,7 @@
                ვერარა. სრულვყოფ. ღირსსა. რომელნი <lb/>
                <fw type="catch">მომცენ჻</fw>
                <pb f="12v" n="24"/> 
-               მღაღადებელთა. შენთა. ალილუია჻ <add hand="#h2" place="marginalia-left">21</add><lb/>
+               მღაღადებელთა. შენთა. ალილუია჻ <add hand="#h2" place="margin-left">21</add><lb/>
                ნათლისა მტვირთველად. ლამპრად <lb/>
                ბნელისათვის. - გამოჩინებულად. ვხედა<lb/>
                ვთ. წმინდასა. წალწულსა. რამეთუ. <lb/>
@@ -570,7 +567,7 @@
                <hi rend="color(FF0000)">გ&#x035B;ხნ</hi>. საბანელოს. განმწმდელო. სვინდისისაო. <lb/>
                <hi rend="color(FF0000)">გ&#x035B;ხნ</hi>. მირონო. ქრისტეს. სულ<lb/>
                ნელებისაო. გ&#x035B;ხნ. ცხოვრებისა. საიდუმლოს <lb/>
-               სერობაო. გ&#x035B;ხნ. სძალო. უსძლოო჻  კ&#x035B;ბ <add hand="#h2" place="marginalia-right">22</add><lb/>
+               სერობაო. გ&#x035B;ხნ. სძალო. უსძლოო჻  კ&#x035B;ბ <add hand="#h2" place="margin-right">22</add><lb/>
                <fw type="catch">მადლის</fw>
             </p>
             <pb f="13v" n="26"/>
@@ -580,7 +577,7 @@
                მხსნელო. მოვიდა. თავსა. მიერ. თვისისა. მად<lb/>
                ლისა. მისისა. განშორებულთა. მომართ. <lb/>
                და განხეთქა. რა ჴელით. წერილი. ესმი<lb/>
-               ს. ყოველთა. მიერ. ესრეთ. ალილუია჻ კ&#x035B;გ <add hand="#h2" place="marginalia-right">23</add>
+               ს. ყოველთა. მიერ. ესრეთ. ალილუია჻ კ&#x035B;გ <add hand="#h2" place="margin-right">23</add>
             </p>
             <p hand="#h1">
                <hi rend="color(FF0000)">მგალობელნი</hi> შობისა. შენისა შევასხა<lb/>
@@ -604,7 +601,7 @@
                <fw type="catch">ჩემისა</fw>
                <pb f="14v" n="28"/>
                სრულებაო. სულისა. ჩემისა სასოებაო. <lb/>
-               <hi rend="color(FF0000)">გ&#x035B;ხნ</hi>. სძალო. უსძლოო  ჻<add hand="#h2" place="marginalia-left">24</add>
+               <hi rend="color(FF0000)">გ&#x035B;ხნ</hi>. სძალო. უსძლოო  ჻<add hand="#h2" place="margin-left">24</add>
             </p> 
             <p hand="#h1"> 
                <hi rend="color(FF0000)">ჵ</hi>იყოვლად. საგალობელო. დედაო. მშობე<lb/>
@@ -753,7 +750,7 @@
                ონება. მთავარი. მას. შინა. სუფევად. და <lb/>
                <fw type="catch">ყოველთა</fw>
                <pb f="20r" n="39"/> 
-               ყოველთას ასმენელთა. ზედა. განმაძ<del rend="overstrike">რიე</del><lb/>
+               ყოველთას ასმენელთა. ზედა. განმაძ<del rend="strikethrough">რიე</del><lb/>
                ლიერე. შეურხებელ. დასაშინელ  ეშმაკთა<lb/>
                გამომარჩინე. რათა. ყოველთა. ცნან. რამე<lb/>
                თუ. შენ. მიერ. პყრობლილვარ ჴსნაი<lb/>
@@ -893,7 +890,7 @@
                 ისა. ღ&#x035B;თისა. მოგიგე. შენ. შემიწყალე. მე. შენ.<lb/>
                 შემეწიე. მე. შენ. იყავ. თანა. მოქმედ. ჩემდა.<lb/>
                 ყოველსა. შინა. საქმესა. კეთილსა. ვნებისავ<lb/>
-                ებრ. ძისა. შენსა. <del rend="overstrike">და.</del> და. ღთისა. ჩემისა. შენ <lb/>
+                ებრ. ძისა. შენსა. <del rend="strikethrough">და.</del> და. ღთისა. ჩემისა. შენ <lb/>
                 უწყი. ზესთა. სახიერო. დედოფალო. რ&#x035B;უ<lb/>
                 სიჩჩოთაგან. ფრჩხილთათა. ჩემთა. და. დედო<lb/>
                 ბრივთა. წიაღთათ. შენდა. შევვარდი. და. შენ.<lb/>
@@ -1048,6 +1045,7 @@
                <fw type="catch">ა</fw>      
             </p>
          </div>             
+         </div>
       </body>
    </text>
 </TEI>

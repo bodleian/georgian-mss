@@ -8,6 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
             <title type="full">
                <title type="main">MS. Wardr. e. 1</title> 
                <title type="alt" xml:lang="en">Life of Saint Nisime</title>
@@ -18,8 +19,8 @@
             <principal>Gillian Evison</principal>
          </titleStmt>
          <editionStmt>
-            <edition n="1">First publication edition, TEI P5.
-               <date when="2019-02-21">21 February 2019</date>
+            <edition n="1">First digital edition, TEI P5.
+               <date>21 February 2019</date>
             </edition>
             <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
          </editionStmt>
@@ -158,12 +159,8 @@
                               </dimensions>
                            </seg>                           
                         </extent>
-                        <foliation xml:id="original">
-                           <p>Original foliation in black roman numerals on the first page and arabic numbers on other pages
-                              in the top corners of each page</p>
-                        </foliation>
-                        <foliation xml:id="modern">
-                           <p>Pencil pagination is added probably by the library</p>
+                        <foliation>Original foliation in black roman numerals on the first page and arabic numbers on other pages
+                              in the top corners of each page. Pencil pagination is added probably by the library.
                         </foliation>           
                         <collation>The written leaves preceded by title page. 
                         I (2-22); II (22-32); III (32); IV (1-8)
@@ -213,30 +210,6 @@
                   </adminInfo>
                </additional>               
             </msDesc>
-            <listWit>
-               <witness xml:id="W1"><!-- to be filled -->    
-               </witness>
-            </listWit>
-            <listPerson  type="saints"> <!-- to be filled -->               
-               <person xml:id="person111">
-                  <persName xml:lang="ka">კოზმან</persName>
-                  <persName xml:lang="oge">ⴉⴍⴆⴋⴀⴌ</persName>
-                  <persName xml:lang="en">
-                     <forename>Cosmas</forename>
-                     <roleName>Saint Martyr, brother of St. Damian</roleName>
-                  </persName>
-               </person>
-            </listPerson>                  
-            <listPlace type="places"><!-- to be filled -->    
-               <head xml:lang="ka">გეოგრაფიული სახელწოდებები</head>
-               <head xml:lang="en">Geographical Places</head>
-               <place xml:id="place001">
-                  <placeName xml:lang="ka">პალესტინა</placeName>
-                  <placeName xml:lang="oge">ⴎⴀⴊⴄⴑⴒⴈⴌⴀ</placeName>
-                  <placeName xml:lang="en">Palestine</placeName>
-                  <idno></idno>
-               </place>
-            </listPlace>            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -335,7 +308,7 @@
        <div type="original">
           <div type="chapter"  n="1">                                                         
             <pb n="11"/>
-           <head>ცხოუ<expan>&#x0302;<ex></ex></expan>რება წ&#x0360;ისა ნისიმესი.</head>
+           <head>ცხოუ&#x0302;რება წ&#x0360;ისა ნისიმესი.</head>
             <p>
                 <hi rend="color(FF0000)">Ⴋ</hi>აშინ თქუ&#x0302;ა მე წერილთა მრავალთა წარჳღე წიგნები<lb/>
                სპარსეთით საბერძნეთად, დაკ&#x0360;დ წიგნები საბერძნეთით სპარ<lb/>

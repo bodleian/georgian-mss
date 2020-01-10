@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. c. 14</title> 
+               <title type="alt" xml:lang="en">Four charters</title>
+               <title type="alt" xml:lang="ka">ოთხი სიგელი</title>
+               <title type="alt" xml:lang="ka-la">otʻxi sigeli</title> 
+            </title>
+            <funder>JISC</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">First digital edition, TEI P5.
+               <date>20 December 2019</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">2020-01-07</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>OCIMCO</idno>
+            <idno type="msID">MS_Wardr_c_14</idno>
+            <idno type="catalogue">Georgian</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Wardr_c_14" xml:lang="en" type="composite">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection type="main">Oriental Manuscripts Wardrop Collection </collection>
+                  <idno>MS. Wardr. c. 12</idno>
+               </msIdentifier>
+               <head>Four charters</head>
+               <msContents>
+                  <summary>Four charters</summary>
+                  
+                  
+                  <!-- 
+                  
+                  <msItem xml:id="MS_Wardr_c_14-item1" n="1">
+                     <locus></locus>                    
+                     
+                     <title xml:lang="ka-Latn-x-lc" key="work_106">Arč'iliani</title>
+                     <title xml:lang="ka" key="work_106">არჩილიანი</title>
+                     <textLang mainLang="ka">Georgian</textLang>
+                  </msItem>
+                  <msItem xml:id="MS_Wardr_c_12-item2" n="2">
+                     <locus>ff. 26-32</locus>
+                     
+                     
+                     <title xml:lang="ka-Latn-x-lc" key="work_108">Miscellaneous verses</title>
+                     
+                     <listBibl>
+                        <bibl>CWC, 311</bibl>
+                     </listBibl>
+                     <textLang mainLang="ka">Georgian</textLang>
+                  </msItem>
+                  
+                  -->
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="chart">
+                        <p>
+                           Item No 1: form roll, material velum, dimensions cm. 31x19.
+                        </p>
+                        <p>
+                           Item No 2: form roll, material paper, dimensions cm. 45x28.
+                        </p>
+                        <p>
+                           Item No 3: form roll, material paper, dimensions cm. 75x26.
+                        </p>
+                        <p>
+                           Item No 4: form roll, material paper, dimensions cm. 42x29.
+                        </p>
+                     </supportDesc>
+                  </objectDesc>
+                     <handDesc hands="9">
+                        <handNote scope="major" xml:id="h1">Hand I writes the whole text of item No 1 in Mkhedruli script</handNote>
+                        <handNote scope="major" xml:id="h2">Hand II writes the whole text of item No 2 in Mkhedruli script</handNote>
+                        <handNote scope="minor" xml:id="h3">Hand III writes addition to the item No 2 in Mkhedruli script</handNote>
+                        <handNote scope="minor" xml:id="h4">Hand IV writes Russian text of the item No 2 in Cyrillic script</handNote>
+                        <handNote scope="major" xml:id="h5">Hand V writes the whole text of the item No 3 and of the item No 4 in Mkhedruli script</handNote>
+                        <handNote scope="minor" xml:id="h6">Hand VI writes addition to the item No 4 in Mkhedruli script</handNote>
+                        <handNote scope="minor" xml:id="h7">Hand V writes additiom to the item No 4 in Mkhedruli script</handNote>
+                        <handNote scope="minor" xml:id="h8">Hand VIII writes additiom to the item No 4 in Mkhedruli script</handNote>
+                        <handNote scope="minor" xml:id="h9">Hand IX writes additiom to the item No 4 in Mkhedruli script</handNote>
+                     </handDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Item No 1: <origDate calendar="#Gregorian" when="1653">1653</origDate></p>
+                     <p>Item No 2: <origDate calendar="#Gregorian" when="1700">1700</origDate></p>
+                     <p>Item No 3: <origDate calendar="#Gregorian" when="1795">1795</origDate></p>
+                     <p>Item No 4: <origDate calendar="#Gregorian" when="1699">1699</origDate></p>
+                  </origin>
+                  <acquisition>Don. J. O. Wardrop</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="local_class">
+               <category xml:id="commentary">
+                  <catDesc>Commentary</catDesc>
+               </category>
+               <category xml:id="supercommentary">
+                  <catDesc>Supercommentary</catDesc>
+               </category>
+               <category xml:id="indices">
+                  <catDesc>Indices</catDesc>
+               </category>
+               <category xml:id="translation">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="multipleWorks">
+                  <catDesc>multipleWorks</catDesc>
+               </category>
+               <category xml:id="abridgement">
+                  <catDesc>Abridgement</catDesc>
+               </category>
+               <category xml:id="supplement">
+                  <catDesc>Supplement</catDesc>
+               </category>
+               <category xml:id="papers">
+                  <catDesc>Papers</catDesc>
+               </category>
+               <category xml:id="documents">
+                  <catDesc>Documents</catDesc>
+               </category>
+               <category xml:id="extract">
+                  <catDesc>Extract</catDesc>
+               </category>
+               <category xml:id="gloss">
+                  <catDesc>Gloss</catDesc>
+               </category>
+               <category xml:id="selection">
+                  <catDesc>Selection</catDesc>
+               </category>
+               <category xml:id="diagrams">
+                  <catDesc>Diagrams</catDesc>
+               </category>
+               <category xml:id="notes">
+                  <catDesc>Notes</catDesc>
+               </category>
+               <category xml:id="letters">
+                  <catDesc>Letters</catDesc>
+               </category>
+               <category xml:id="versification">
+                  <catDesc>Versification</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term key="subject_sh18507042">Georgian historical documents</term>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ka" usage="98">Georgian Language</language>
+            <language ident="ru" usage="2">Russain Language</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-01-07">
+            <persName>Irina Lobzhanidze</persName>Expanded meta-annotation and provided the transcription.
+         </change>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl">https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl</ref>
+         </change>
+         <change when="2011-05-12">
+            <persName>Nikoloz Aleksidze</persName>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="folio1r.png"/>
+      <graphic url="folio1v.png"/>
+      <graphic url="folio2r.png"/>
+      <graphic url="folio2v.png"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="original">
+            <div type="charter" n="1">
+               <pb n="1"/>
+               <p hand="#h1">
+                  ქ. ესე჻  წყალობის წიგნი჻  და჻  ნიშანი჻  შეგი <lb/> 
+                  წყალეთ჻ და჻ გიბოძეთ ჻ჩვენ჻ მეფე<lb/>  
+                  მან჻ ჴელმწიფემან჻ პატრონმან჻ როსტომ჻ და჻ თანა <lb/>  
+                  მეცხედრემან჻  ჩვენმან ჻დედოფალთ჻ დედოფ<lb/>  
+                  ალმან჻ პატრონმან჻ მარიამ჻ შენ჻ სურამელს჻ ჩვენს჻<lb/>  
+                  მეღუნეს჻ მექვაბი჻ შვილსა჻ იარაღის჻ ბიმა჻ შე<lb/> 
+                  ნს჻ დოვლათიარსა჻ ნასუ<add place="above">პ</add>დასა჻ როსტევანსა჻ ნ<lb/>  
+                  ურაღ არა჻ ბასუასა჻  შვილიც჻ და჻ მომავალთა჻ სახ <lb/> 
+                  ლისა჻ თქვენისა჻ ყოველთავე჻ მას჻ ჟამსა ჻ ოდეს჻<lb/>  
+                  მოგედებით჻ კარსა჻ და჻ მიწის჻ წყალობას჻ გავსენ <lb/> 
+                  ით჻ ვისმინეთ჻ ავსა჻ და჻ მოხსენება჻ თქვენი჻ და჻ რაც჻ ჩემ <lb/> 
+                  ი჻ სახასო ჻ გაუცემელი჻ მიწა჻ აჯაბედაურში ჻იყოს჻ და჻  ან჻ <lb/> 
+                  რაც჻  ტყე჻ გაყენთ჻ თქენთვის჻ და჻ <del rend="strikethrough"/> შვილის჻ ჩვენი჻ <lb/> 
+                  ს჻  ზინდრის჻ სარუხანასათვინ჻ გებოძებია჻ ყოველის჻ კა <lb/> 
+                  ცის჻ უცილებრად჻ ქნდეს჻ და჻გიმდნურის჻ ღ&#x0360;თნ჻ აწე <lb/> 
+                  გ&#x0360;იბძთ჻ კარისა჻ ჩვენისა჻ ვექილ჻ ვეზირნო჻ და჻ სხუა჻<lb/> 
+                  ნო჻ მოსაქმენო჻  სურავის჻  ციხისთავნო჻  და჻  მოჴელენო჻ <lb/> 
+                  თქვენცა჻  ასრე჻  დაუმკვიდრეთ჻  და ჻ ნურაოდეს჻ ნუ჻ მო<lb/>
+                  უშლით჻ და჻ შეცილებით჻ თჳინიერი჻ შეწევნის჻ და჻ <lb/>
+                  თანა჻ დგომისაგან჻ კიდე჻ დაიწერა჻ ბრძანება჻ და჻ ნიშა<lb/>ნი჻ 
+                  ესე჻ ქ&#x0360;კრა჻ ტ&#x0360;მა჻ ჴელითა჻ კარისა჻ ჩვენისა჻ მდი<lb/>
+                  ვან჻ მწიგნობრის჻ თუმანი჻ შვილის჻ ბირთუელის<lb/>
+                  ითა჻ ერთის჻ მჴრით჻ <gap quantity="7" unit="chars" reason="illegible"/>჻ სამ მღურედი჻ და჻ მეორეს჻ მ<lb/>
+                  ჴრით <gap reason="illegible" quantity="2" unit="character"/>რინეკა჻ შვილის჻ მიწის჻ გუ<gap reason="illegible" quantity="2" unit="character"/>რიდამდი჻  
+               </p>
+               <figure>
+                  <p>Seal</p>
+               </figure>
+            </div>
+            <div type="charter" n="2">
+               <pb n="2"/>               
+               <p hand="#h2">
+                  ნებითა჻ და჻ შეწევნით჻ა ღთისათა჻ მეოხებითა჻ ყოვლად჻ უხრწნელისა჻ <lb/> 
+                  უფროსად჻ კურთხეულისა჻ დედოფლისა჻ ჩვენისა჻ ღ&#x0360;თის჻ მშობელისა჻ მარა <lb/>
+                  დის჻ ქალწილისა჻ მარიამისთანა჻ თავადებობითა჻ მინდობითა჻ და჻ შუამდგომელო <lb/> 
+                  ბითა჻ ძლიერებითა჻ პატიოსანისა჻ ცხოველს჻ მყოფელისა჻ ჯვარისათა჻ წმიდათა჻ <lb/>  
+                  უსხეულოთა჻ ზეცისა჻ ძალთა჻ ანგელოზთა჻ და჻ მთავარ჻ ანგელოზთა჻ მი<lb/> 
+                  ქიელი჻ და჻ გაბრიელისათა჻ თავადებობითა჻ მინდობითა჻ და჻ შუამდგომელობ჻ <lb/>
+                  ითა წმინდისა჻ დიდებულისა჻ წინასწარ჻ მეტყველისა჻ წინა჻ მორბედისა჻ <lb/> 
+                  ნათლის჻ მცემელის჻ იოვანესი჻ და჻ იოვანე჻ ქალწულ჻ მახარებლ<lb/> 
+                  ისათა჻ თავადებოდითა჻ მინდობითა჻ და჻ შუამდგომელობითა჻ წმინდათა჻ მღდე <lb/>
+                  ლთ჻ მოძღვართა჻ მოწამეთა჻ და჻ ყოველთა჻ წმინდათა჻ ღ&#x0360;თისათა჻ რომელი჻ <lb/> 
+                  საუკუნითგან჻ სათნო჻ ეყოფნეს჻ უფალსა჻ ჩვენსა჻ იესოს჻ ქრისტეს჻ და჻ კავა<lb/> 
+                  ლადაცა჻ სათნო჻ ყოფად჻ არიან჻  ამათის჻ თავადებითა჻ მინდობითა჻ და჻ შუამდგო <lb/>
+                  მელობითა჻ ესე჻ ამიერ჻ უკუნისამდი჻ ჟამთა჻ და჻ ხანთა჻ გასათავებელი჻ მტკიც<lb/>
+                  ე჻ და უცილებელი჻ ნასყიდობისა჻ წიგნი჻ და჻ ნიშანი჻ მოგეცით჻ ჩვენ჻ მირზა <lb/> 
+                  შავილმა჻ მანთაშამ჻ ამირამ჻ ელიზაბარამ჻ და჻ ბიძა჻ შავილმა჻ ჩემა჻ თამაზამ჻ შა<lb/> 
+                  ვილთა჻ და჻ მომავალთა჻ - სახლაისა჻ ჩემისათა჻ ყოველთა჻ თქვენ჻  დოლმაზა჻ <lb/>
+                  <add place="margin-left-vertical" hand="#h3">
+                     ქ. არის ამისი მოწმე  ჯივს <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> შვაი ატა <lb/>
+                     <figure><p>Seal</p></figure>
+                     ქ: არის: ამისი მოწმე შვაინა<gap reason="illegible" quantity="2" unit="character"/> არუთინა        
+                     <figure><p>Seal</p></figure>
+                  </add>
+                  შავილების჻ ნასყიდას჻ როსტომას჻ დავითს჻ მანდენას჻ ავთანდილას჻ შავილთა჻ და჻ მო <lb/>
+                  მავალთ჻ სახლისა჻ თქვენისათა჻ ყოველთავე჻ ასე჻ და჻ ამა჻ პირსა჻ ზედან჻ <lb/> 
+                  ჩვენის჻ ნება჻ მყოფლობით჻  მოგყიდეთ჻ ჩვენი჻ სამკვიდრო჻ მიწა჻ ბაინურა჻ შა <lb/>
+                  ვილის჻ ახალშენს჻  ღობე჻  გაიტანს჻ ავიღეთ჻ ფასი჻ სრული჻ და჻ უკალე<lb/> 
+                  ბელი჻ რაითაც჻ ჩვენი჻ გული჻ შეგჯერდებოდათ჻  ჩვენსა჻ და჻ თქვენს჻ <lb/> 
+                  შუა჻  სალაპარაკო჻ აღარა჻ დარჩომილარა჻ არიან჻ ამისი჻ დამხდური჻ და჻ მოწამენი჻ <lb/> 
+                  თავად჻ ღმერთი჻ და჻ ყოველნი჻ მისი჻ წმინდანი჻ კაცთაგან჻ მურადოშავილი჻ ნ <lb/>
+                  აზარა჻ ესტატაშავილი჻ თამაზა჻ ფარსადანა჻ შავილი჻ ბეგთაშა჻ ოსტატო჻ ყარიბჯანა჻  ნადი<lb/>
+                  რაშავილი჻ ოთარ჻ და჻ სულ჻ ერთობილნი჻ საკუნდრელნი჻ ამისი჻ მოწამენი჻ <lb/>
+                  არიან჻ ამას჻ გარდა჻ ამისი჻ მოწამენი჻ ზავარა჻ შავილი჻ მათარსი჻ რობანა჻ შა <lb/>
+                  ვილი჻ შავარდო჻ ზემობოლნისის჻ მამასახლისი჻ ვართანა჻ და჻ სულ჻ ამ჻ ჴეო<lb/>
+                  ბის჻ კაცნი჻ ამისი჻ დამსდურნი჻ და჻ მოწამენი჻ არიან჻ მე჻ ბოლნისის჻ სიონითა჻<lb/> 
+                  ღთის჻ მშობლის჻  დეკანოზის჻ ოქროპირის჻ დამიწერია჻ და჻ მოწამეც჻ ვარ჻ ამისი჻ და჻<lb/> 
+                  დაიწერა჻ ქ&#x0360;კს჻ ტ&#x0360;პზ჻ მარიამობისთვეს჻ ცხრამეტს჻ გასულს჻ ††††
+                  
+               </p>
+               <pb n="3"/>
+               <p hand="#h4">
+                     1820 года февраля 20 <damage><gap quantity="11" unit="chars" reason="illegible"/></damage>
+                     мень верховнаго Грузинскаго Правительст <lb/>
+                     въ Експедицiи Суда и Расправы явленъ <damage><gap quantity="2" unit="chars" reason="illegible"/></damage><lb/>
+                     Книгу подлинникомь подъ N38м записанъ<lb/>
+                     Въ чемъ Экспедицiй на основании Предло
+                     женiя 2. Главноуправляющего въ Грузiи <lb/>
+                     от 12го апреля 1817го года свидетельст
+                     вуетъ Советникъ <gap reason="illegible" quantity="10" unit="character"/><lb/>     
+                     <gap reason="illegible" quantity="14" unit="character"/><lb/>
+                     <gap reason="illegible" quantity="18" unit="character"/> 
+               </p>
+            </div>
+            <div type="charter" n="3">
+               <pb n="4"/>
+               <p hand="#h5">
+                  ქ჻ წყალობითა ღ&#x0360;თისათა და  მეოხებითა ყოვლად წმინდისა ღ&#x0360;თ<lb/>
+                  ის მშობელისათა და წმინდათა დედისა ჩუ&#x0302;ჱნისა და ყოვლად ქებ<lb/>
+                  ულისა მოციქულისა ნინასითა, ესე წყალობის წიგნი და გიწერე სი <lb/>
+                  გელი და მოგეცით, ჩუ&#x0302;ჱ ყოვლად  სამღუ&#x0302;დელომ, ნინოწმინდელ <lb/> 
+                  მიტრაპოლიტმა მაყაშვილმა იოანემ, შენ ინა შვილს კავთუ <lb/> 
+                  ას შვილის გიორგის, და შვილთა შენთა, იაკობს, ანდრიას, ისაკს, და ზაქარი <lb/> 
+                  ას და მომავალთა სახლისა შენისათა, ასე რომ მამა შენი კავთუა ხი <lb/> 
+                  ზნად მყოფი საგარეჯო-სა შინა მათია შვილს ყაზახას ეყიდნა, და წმი <lb/> 
+                  ნდის ნინოს ეკლესიათვის შემოეწირა, და რადგან უმამულო ყოფილ იყო, <lb/> 
+                  მის ყოვლად სამღუ&#x0302;დელოებას ნინოწმინდელ მიტრაპოლიტს საბას, <lb/> 
+                  ქურთის შვილის ნასჴიდს მამულზედ და კუჭუაშვილის ხუხილას ბე <lb/> 
+                  ითალმანზე და ესახლებინე, რომელიც მოყალნის მამულები იყო, და მამა <lb/> 
+                  თქვენი რომ გარდაიცვალა. სამნი შვილნი დარჩით მამა თქუ&#x0302;ჱნს, და <lb/>
+                  იმ მამულზე ერთად დგომა ვეღარ მოგიხდათ და გაიყარენით, იმ მამ <lb/> 
+                  ულს რომ მიხედეთ, ის სამთ ძმათ სამყოფი არ იყო და ვერც იცხო <lb/> 
+                  ვრებდით, და ორთ შენთ ძმათ დავანებეთ და შენ უწილოდ გამოგიყვანეთ, და<lb/>
+                  მოკითხულობა ვქენით ჩუ&#x0302;ჱნის ეკლესიის მამულისა რომელთაც მოყალნის მამ<lb/>
+                  ული ეჭირათ და ის და ვადებინეთ, და კუჭუაშვილს სალთხუცეს აღდგომელს <lb/>                 
+                  წყალობად ნაშოვნი ტურაშვილების ნაქონი მოყალნის მამული რომ ჰქონოდა ის მა <lb/>
+                  მული თავის შესავლის გასავლით წმინდის გიორგის ნაზვრეს მამულზე გაე <lb/> 
+                  ცვალა ერთმანეთის ნება მყოფლობით, და რომელიც წმინდა გიორგის ნაზვრე <lb/>
+                  ვი იყოს თავის შესავალ გასავლით სალთხუცეს ძმის წულებმა წესომ და კიკომ,  <lb/> 
+                  და შვილთა მათთა წმინდას ნინოს მართუ&#x0302;ჱს, და რადგან უმამულო იყავ იმ <lb/> 
+                  ის წყალობა შენ ინა შვილს გიორგის და შვილთა შენთა გიყავით, რომ  შენთ <lb/> 
+                  ძმათ როანეს და დავითს და შვილთა მათთა, ამ ჩუ&#x0302;ჱნგან მოცემულს მამულში <lb/>  
+                  ჴელი არა აქვსთ მხოლოდ შენ და შენთა შვილთა არის, და რადგან უწ <lb/> 
+                  ინაც მოყალნის მამულზე ესახლე ახლაც მოყალნედ უნდა მსახური ეკლეს <lb/>
+                  იას, და ეგ მამული რომლისაც გამონაცვალი იყო ტურაულასი ისიც ძველ <lb/> 
+                  ადგანვე მოყალნე ყოფილიყო, და ამ მიზეზით მართუ&#x0302;ჱს ეკლესიას კუჭუაშვილთ, <lb/> 
+                  და შენც მოყალნედ და გვისახლებიხარ, როგორც სხუ&#x0302;ანი მოყალნენი იმსახურებ <lb/>
+                  იან, შენც იმ წესით უნდა იმსახურო, თჳნიერენ პურის ცხობისა, და პურის <lb/> 
+                  ცხობა არც უწინ გდებოდა, და ჩუ&#x0302;ჱნც  ამოგიკუ&#x0302;ჱთეთ, და ამმას გარდა სრუ <lb/>
+                  <pb n="5"/>
+                  ლად რაც მოყალნის  რიგია იმ წესით უნდა მსახურო ეკლესიას, ამას გარდა <lb/>
+                  ვიდენ სახნავს მამულზე და ნაკლებად  იყავ ოთხის დღის მიწა ჩუ&#x0302;ჱნს ხო<lb/>
+                  დაბუნთან საღარიბოში მოგეცით, გქონდეს და გიბედნიეროს ღ&#x0360;თნ ჩუ&#x0302;ჱნის <lb/>
+                  ეკლესიის სამსახურისა შინა, არ მოგეშალოს ჩუ&#x0302;ჱგან, და არცა შემდგომთა <lb/>
+                  ჩუ&#x0302;ჱნთა ნინოწმინდელ მიტრაპოლიტთაგან, და ვითხოვთ ვედრებით შემდგომი<lb/>
+                  ნ ჩუ&#x0302;ჱნნო ყოვლად სამღ&#x0360;უდელნო ნინოწმინდელო მიტროპოლიტნო, რათა ჩვ<lb/>
+                  ენგან მოცემული ესე სიგელი არ მოუშალოთ  და დაუმტკიცონ, რათა თქუ&#x0302;ჱნი <lb/> 
+                  ცა განგებული ღ&#x0360;თმან უნაკლულო ჰყოს, არიან ამისნი და მხდომნი და მო <lb/> 
+                  წამენი, ჩუ&#x0302;ჱნის ეკლესიის მღუ&#x0302;დელნი დეკანოზი ლაზარე, ვანდელაკი იოანე, ს <lb/>
+                  ლთხუცესი ბედიაშვილი იოანე, და თჳთ მომრთმევნი და შემომწირველნი მამ<lb/> 
+                  ულისა ამის, კუჭუაშვილი წესი და კიკო და ერთობით ეკლესიისა ჩუ&#x0302;ჱნისა <lb/> 
+                  ყმანი სეკდემბრის, ა, ქ&#x0360;კს უპგ, 
+               </p>
+               <figure><p>Seal</p></figure>
+            </div>
+            <div type="charter" n="4">
+               <pb n="4"/>
+               <p hand="#h5">
+                  <add place="margin-top" hand="#h6">
+                     ვენ჻  ბატონი჻ ასლან჻ ამისი჻  მოწამე჻ ვართ჻ <figure><p>Seal</p></figure> 
+                     უფლანიშვილი჻ ერასტი჻ <figure><p>Seal</p></figure><lb/>  
+                     ჩვენ჻ ბატონი჻  სარდალი჻ ლუარსაბ჻ ამისი჻ მოწამე჻ ვართ჻ <figure><p>Seal</p></figure>
+                     სულხან჻ მდივან ბეგიშვილი ჻<lb/> 
+                     გიორგიშვილი჻ პაპ <damage><gap quantity="2" unit="chars" reason="illegible"/></damage>  ამის჻ მოწამე჻ ვართ჻
+                  </add><lb/>  
+                  ქ. ნებითა჻ და჻ შეწევნითა჻ ღ&#x0360;თისათა჻ მეოხებითა჻ ყოვალადა჻ უხრწნელი <lb/>  
+                  სა჻ უფროსადა჻ კურთხეულისა჻ დედოფალისა჻ ჩვენისა჻ ღთის჻ მშობელისა჻ <lb/> 
+                  მარადის჻ ქალწულისა჻ მარიამისათა჻ ძლიერებითა჻ პატიოსანისა჻ ცხოველს჻ მყოფელ <lb/> 
+                  <add place="margin-left-vertical" hand="#h7"> 
+                     ქ ჻ ასლუა჻  შვილს჻ და჻ დოლმაზა჻  შვილს჻ ერთმანეთისათვის჻  ვენახი჻ და჻ მიწა჻ გაეცვალ჻ და჻  ჩვენს჻  ყმას჻ ცოტა჻ კიდეც჻ გამო჻ ერთმა჻ და჻  მოვიდენ჻  ჩვენ჻  ბოვნელს჻  მაქსიმეს: <lb/>
+                     მოგვახსენა჻  და჻  ჩვენ჻  დაგვიმტკიცებია჻  ერთმანეთში჻  სადა჻ საქმე჻  არა არი რა჻ ვერც჻  დოლმაზა჻  შვილ჻ სთხოვს჻ ღალას჻ და჻ არც჻ ვენახს჻ ეთხოვება჻ ველუხი჻ <figure><p>Seal</p></figure><lb/>
+                  </add>
+                  ისა჻ ჯვარისთა჻ რომელსა჻ ზედ<add place="above">ა</add>჻ განიპყრა჻ ქრისტემა჻ ღმერთმა჻ ჩვენმა჻ <del rend="strikethrough"/><lb/>
+                  მკალავანი჻ თვისნი჻ თავადებითა჻ მინდობითა჻ და჻ შუამგომელობითა჻ წმი <lb/>
+                  დათა჻ უსხეულოთა჻ ზეცისა჻ ძალთა჻  ანგელოზთა჻ და჻ მათავარ჻ ანგელოზთა჻ მიქ <lb/> 
+                  იელ჻ და჻გაბრიელისათა჻ წმინდისა჻ დიდებულისა჻ წინასწარ჻ მეტაყუელ <lb/> 
+                  ისა჻ წინა჻ მორბედისა჻ ნათლის჻ მცემელისა჻ იოვანესი჻ და჻ იოვანე჻ ქალწულ჻ მა <lb/>
+                  მახარებლისათა჻ თავადებობითა჻ მინდობითა჻ და჻ შუამდგომელობითა჻ წმინდათა჻ <lb/> 
+                  მღვდელთა჻ მოძღვართა჻ მოწამეთა჻ მოწამეთა჻ მამათა჻ და჻ ყოველთა჻ წმინდათა჻ ღთისათა჻ რო <lb/>
+                  მელნი჻ სათნო჻ ეყავენ჻ უფალსა჻ ჩვენსა჻ იესოს჻ ქრისტეს჻ და჻ კავალადაცა჻ სა <lb/> 
+                  თნო჻ ყოფად჻ არიან჻  ამათის჻ თავადებობითა჻ მინდობითა჻ და჻ შუამდგომელობითა჻ <lb/> 
+                  ესე჻ ამიერ჻ უკუნისამდი჻ ჟამთა჻ და჻ ხანთ჻ გასათავებელი჻ მტკიცე჻ და჻ მიზეზ჻ <lb/>
+                  შემოუღებელი჻ სამკავიდარო჻ და჻ საბოლო჻ წიგნი჻ და჻ ნიშანი჻ მოგეცით჻ ჩ <lb/>
+                  ვენ ასლუა჻ შავილებმა჻ ხოსუამ჻ მანდუამ჻ და჻ ფეშაბამ჻ <damage><gap quantity="2" unit="chars" reason="illegible"/></damage>მა჻ ბიძა჻ შავილმა჻ <lb/> 
+                  დავარიშამა჻ შავილთა჻ და჻ მომავალთა჻ სახლისა჻ ჩვენისათა჻ თქვენ჻ დოლმაზა჻ <lb/> 
+                  შავილების჻  სასყიდარს჻ როსტომას჻ დავითს჻  მანდენას჻ ავათანდილს჻ შავილთა჻ და჻ <lb/> 
+                  მომავალთა჻ სახლისა჻ თქვენისათა჻ ასე჻ და჻ ამა჻ პირისა჻ ზედა჻ რომ჻ ჩვენი჻ ქვემო჻ <lb/> 
+                  <add place="margin-left-vertical" hand="#h8"> 
+                     ქ჻ ჩვენ჻ ბოვნელს჻ რევის჻ შვილს჻ იოვანეს჻  ჩვენცა჻ ასე჻ დაგვიმტკიცებია჻ რაგვარათაც჻ ესე჻ სიგელი჻ არის჻<figure><p>Seal</p></figure>
+                  </add>
+                  ახალშენი჻ ზოგი჻ უწინ჻ მამა჻ ჩვენს჻ მამის჻ თქვენისათვის჻ გაეცვალა჻ მამუ <lb/>
+                  ლზედა჻ და჻ ცოტარამ჻ კიდევა჻ ჩვენ჻ გვეჭირა჻ თქვენ჻ გემჴარობდათ჻ და჻ ჩვენზედ჻ <lb/> 
+                  უმაჴაროთ჻ იყო჻ ჩვენ჻ ჩვენის჻ ბატონის჻ ბძანებითა჻ და჻ ჩემის჻ მჴელების჻ <lb/> 
+                  შეკითხულობით ჻ მისი჻ ორი჻ ზომა჻ მიწა჻ ავიღეთ჻ რაგვარადაც჻ ჩვენი჻ გუ <lb/>
+                  ლი჻ შესჯერდებოდა჻ იმგვარადა჻ შევრიგენით჻ და჻ გარდავიწყვიტეთ჻ და჻ ის჻ ვენა <lb/> 
+                  ჴ჻ თქვენ჻ დაგანებეთ჻ რომ჻ მისი჻ მაცილე჻ და჻ მოდავე჻ არავინ჻ იყოს჻ ვიცინის჻ <lb/>
+                  ჩემი჻ ბიძა჻ შაველები჻ მოვიდნენ჻ და჻ წამოგედონ჻ მისი჻ პასუხის჻ მიმაცემანი჻ ჩ <lb/> 
+                  ვენ჻ ვიყუნეთ჻ არაიან჻ ამისნი჻ დამახდურნი჻ და჻ მოწამენი჻ თავად჻ ღმერთი჻ <lb/> 
+                  და჻ ყოველნი჻ მისნი჻ წმინდანი჻ ზეცისანი჻ და჻ ქვეყანისანი჻ ჴორციელნი჻ და჻ უჴორც<lb/>  
+                  ონი჻ კაცმან჻ თუმანი჻ შვილი჻ ბახუტა჻<figure><p>Seal</p></figure> ნაცვალი჻ კაცია჻ დო<lb/>
+                  <pb n="5"/>
+                  <add place="margin-left-vertical" hand="#h9">
+                     ნაზირი჻ ედიმერ჻ ამის჻ მხპყ჻ <figure><p>Seal</p></figure>  ალავერდიშვილი ჻ დ<gap reason="illegible" quantity="1" unit="character"/>მხანა჻<figure><p>Seal</p></figure> უძმღშვილი჻ ბეჟან჻ <figure><p>Seal</p></figure><lb/>
+                     თუმნიშვილი჻  მდივანი჻  შოთარ ჻ <figure><p>Seal</p></figure> მანმიაშვილი჻ ბეჟან჻ <figure><p>Seal</p></figure> არღუთაშვილია჻  <gap reason="illegible" quantity="3" unit="character"/> ანა<gap reason="illegible" quantity="1" unit="character"/><lb/>
+                     მდივარნი: <gap reason="illegible" quantity="3" unit="character"/>  <figure><p>Seal</p></figure>
+                     ქ ჻ ამისი჻ მოწმე჻ მე჻ მდი <figure><p>Seal</p></figure><lb/>
+                     ვანი჻ თუმანიშვილი჻  გივი჻
+                  </add>
+                  ლენჯაშავილი჻ წმიდის჻ დოდოს჻ საფლავზედა჻ მყოფ჻ ბერი჻ არსენ჻ ყორღანა჻ <lb/>  
+                  შავილი჻ ბერუა჻ ქვემო჻ ბოლნისის჻ მამა჻ სახლისი჻ პაპუა჻ + მათავარი჻ მარი჻ <lb/>  
+                  მარკოზ჻ ზემო჻ ბოლნელი჻ მოურავი჻ მახარიბელი჻ მამასახლისი჻ ვართანა჻ + ალა <lb/> 
+                  გორდა჻ შავილი჻ პეტროზა჻ + ტერტეს჻ შავილი჻ ავათანდილა჻ + მახარა჻ შავილი჻ + <lb/>
+                  ზალა჻ ახოთელი჻  მამასახლისი჻ თამაზა჻ და჻ სულ჻ ერთობილნი჻ საყდრის჻ ყამანი჻ <lb/> 
+                  ამისი჻ დამხდურნი჻ და჻ მოწამენი჻ არიან჻ <del rend="strikethrough"/> ვინცა჻ და჻ რამანც჻ ადამის჻ <lb/>
+                  მონათესავემ჻ კაცმა჻ დიდამა჻ ანუ჻ მაცირემა჻ ამისადა჻ ჴელყოდ჻ მასმაც჻ <lb/> 
+                  რისხავს჻ დაუსაბამო჻ დაუსრულებელი჻ მამა჻ ძედ჻ სული჻ წმიდა჻ ნურას჻ სინანუ <lb/> 
+                  ლითამაც჻ ნუ იქნების჻ გახსნა჻ სულისა჻ მისისა჻ იუდას჻ თანამაც჻ იქნების჻ ნაწ<lb/> 
+                  ილი჻ და჻ სამკავიდრებელი჻ მისი჻ ხოლო჻ გამათავენი჻ და჻ დამამატაკიცებელნი჻ ამისნი჻<lb/> 
+                  ღმერთმა჻ აკურთხნეს჻ დაიწერა჻ ეკენისთვეს჻ ოცდა჻ შვიდას჻ გასულს჻ <lb/> 
+                  დაიწერა჻ ქ&#x0360;კს჻ ტ&#x0360;პზ჻ სიონთა჻ ღთის჻ მშობელის჻ დეკანოზს჻ ოქროპირს჻ დამიწ<lb/> 
+                  ერია჻ და჻ მოწამეც჻ ვარ. ††††<figure><p>Seal</p></figure>
+                  
+               </p>
+               <p hand="#h10">
+                  1820 года февраля 20го дня сей документъ Вер<lb/>
+                  ховнаго Грузинскаго Правительства въ Экспедицiю <lb/>
+                  Суда и Расправы явленъ и в Книгу подлинникомъ подъ<lb/>
+                  <gap reason="illegible" quantity="4" unit="character"/> въ чемъ Экспедицiя на основанiи пред-<lb/>
+                  ложенiя 2. Главноуправляющего въ Грузiи отъ 12го ап- <lb/>
+                  реля 1817го года свидетельствуетъ<lb/>
+                  Советникъ <gap reason="illegible" quantity="10" unit="character"/><lb/>     
+                  სოვეტნიკი <gap reason="illegible" quantity="8" unit="character"/>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

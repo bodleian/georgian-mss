@@ -16,8 +16,8 @@
             <principal>Gillian Evison</principal>
          </titleStmt>
          <editionStmt>
-            <edition n="1">First publication edition, TEI P5.
-               <date when="2019-12-16">16 December 2019</date>
+            <edition n="1">First digital edition, TEI P5.
+               <date>16 December 2019</date>
             </edition>
             <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
          </editionStmt>
@@ -90,11 +90,7 @@
                               </dimensions>
                            </seg>
                         </extent>
-                        <foliation xml:id="original">
-                           <p>There is not any kind of original pagination.</p>
-                        </foliation>
-                        <foliation xml:id="modern">
-                           <p>Pencil pagination is added probably by the library.</p>
+                        <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library.
                         </foliation>           
                         <collation>Catchwords are written horizontally towards the right lower margin.</collation>
                         <condition>The first part of manuscript is written on stained dark muddy paper, while the others have a lot of dark stains.</condition>
@@ -249,6 +245,7 @@
    </facsimile>
    <text>
       <body>
+         <div type="original">
          <div type="chapter">
             <pb f="2r" n="1"/>
             <pb f="2v" n="2"/>
@@ -452,10 +449,10 @@
              <hi rend="color(FF0000)">დამთქმელო. გ&#x035B;იხნ. კლდეო. წყურივ <lb/>
             ლთატვის. ცხოვრებისა. მწდეველთ <lb/>
             გ&#x035B;იხნ. სუეტო. ცეცხლისაო. წინამ <lb/>
-            ძღვარო. ბნელისათაო. გ&#x035B;იხნ. სოფ <lb/>
+            ძღვარო. ბნელისათაო. გ&#x035B;იხნ. სოფ</hi> <lb/>
             <fw type="catch">ლისა</fw>
             <pb f="10r" n="17"/>
-            ლისა.</hi> საფარველო. უვრცელესო. ღრ <lb/>
+             <hi rend="color(FF0000)">ლისა.</hi> საფარველო. უვრცელესო. ღრ <lb/>
             უბელთაო. გ&#x035B;იხნ. საზრდელო. მონაცვ <lb/>
             ალეო. მანანასაო. გ&#x035B;იხნ. მსახურო. საშვ <lb/>
             ებელისა. წმინდისაო. გ&#x035B;იხნ ქვეყანაო. ა. <lb/>
@@ -1052,7 +1049,7 @@
             ვიცი. დედოფალო. რამეთუ. უ <lb/>
             სიტყველ. ვარ. . და. უღირს. ყ <lb/>
             ოვლისა. ტანჯვსადა. რამა <lb/>
-            ქვს. სიტყვა. სიტყჳის. მიცემად
+               ქვს. სიტყვა. სიტყჳის. მიცემად<lb/>
             ამისთჳისცა. მოწყალებისა. მიმარ <lb/>
             თ. ძისა. და. ღუთისა. შენისა. მოვლ <lb/>
             ტი. და. სახიერისა. მეუფისა. და. შემოქ <lb/>
@@ -1168,7 +1165,7 @@
             Ⴀ&#x035B;Ⴍ Ⴗ&#x035B;ႬႭ <hi rend="color(FF0000)">Ⴐ</hi>&#x035B; ႸႤႬႨ ႠႰႱ ႱႳႴႤ <lb/>
             ႥႠ <hi rend="color(FF0000)">Ⴓ&#x035B;Ⴍ Ⴘ&#x035B;ႤႼ ႨႡ Ⴃ</hi>&#x035B;ႡႠ <hi rend="color(FF0000)">Ⴀ</hi>Ⴜ&#x035B;Ⴀ <lb/>
             <hi rend="color(FF0000)"><del rend="strikethrough"/> ႫႭႤႣႨႧ ႧႠ</hi>ႷႥႠႬႨႱ Ⴅ <lb/>
-            ႺႤႧ <hi rend="color(FF0000)">Ⴂ<note>3</note> ႢႦႨႱ</hi> <lb/>
+               ႺႤႧ <hi rend="color(FF0000)"><num value="3">Ⴂ</num> ႢႦႨႱ</hi> <lb/>
             </p>
             <p hand="#h8">
             <hi rend="color(FF0000)">ႳႷ</hi>ო შეისმინე ლოცვისა ჩ&#x035B;ისა ყ&#x035B;დ იღე ვედრება <lb/>
@@ -1307,7 +1304,7 @@
             <fw type="catch">და სამღთოდ</fw>
             <pb f="39r" n="75"/>
             დ სამღთოდ კეთილთა მიზეზო და მორწმუ <lb/>
-            ნეთა სიმტკიცეო მხოლო ყ&#x035B;დ დიდებ <lb/>
+            ნეთა სიმტკიცეო მხოლო ყ&#x035B;დ დიდებუ <lb/>
             ლო.  <hi rend="color(FF0000)">ႷႣ ⴜⴍ:</hi> <lb/>
             <hi rend="color(FF0000)">Ⴕ</hi>ველის მოქმედი ღ&#x035B;ი და მიზეზი ყ&#x035B;თა კეთი <lb/>
             ლთა გიშევ ამისთჳს გევედრებით მოგვმად <lb/>
@@ -1760,6 +1757,7 @@
             ურჳლით მგალობელთა <hi rend="color(FF0000)">Ⴀⴜ&#x035B;ⴢ</hi> <lb/>
                <fw type="catch">ნათლთა</fw>
             </p>
+         </div>
          </div>
       </body>
    </text>

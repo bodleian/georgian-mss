@@ -7,7 +7,7 @@
          <titleStmt>
             <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
             <title type="full">
-               <title type="main">MS. Wardr. g. 5</title> 
+               <title type="main">MS. Wardr. f. 5</title> 
                <title type="alt" xml:lang="en">Philosophy of David Udzleveli (The Invincible)</title>
                <title type="alt" xml:lang="ka">წიგნი საზღვართა დავითისი</title>
                <title type="alt" xml:lang="ka-la">cigni sazġvartʻa davitʻisi</title> 
@@ -16,8 +16,8 @@
             <principal>Gillian Evison</principal>
          </titleStmt>
          <editionStmt>
-            <edition n="1">First publication edition, TEI P5.
-               <date when="2019-12-15">15 December 2019</date>
+            <edition n="1">First digital edition, TEI P5.
+               <date>15 December 2019</date>
             </edition>
             <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
          </editionStmt>
@@ -89,11 +89,7 @@
                               </dimensions>
                            </seg>
                         </extent>
-                        <foliation xml:id="original">
-                           <p>There is original pagination indicating numerical values by means of Mkhedruli alphabet and all pages are marked with catchwords in the right/left corners.</p>
-                        </foliation>
-                        <foliation xml:id="modern">
-                           <p>Pencil pagination is added probably by the library.</p>
+                        <foliation>There is original pagination indicating numerical values by means of Mkhedruli alphabet and all pages are marked with catchwords in the right/left corners. Pencil pagination is added probably by the library.
                         </foliation>           
                         <collation>The written leaves are preceded by titles written in Asomtavruli.</collation>
                         <condition>The manuscript is not damaged</condition>
@@ -261,7 +257,7 @@
             </head>
             <p>
                <add place="margin-top">
-                  გიორგი აბაშიძის წიგნებიდამ
+                  გიორგი არეშიძის წიგნებიდამ
                </add>
             </p>
             <pb f="2r" n="3"/>  
@@ -269,6 +265,11 @@
                Ⴐომელნი ერთ_გზის ეტრფიან სიტყუ&#x0302;ათა სი_ <lb/>
                <add place="margin-right">Ⴀ</add>
                ბერძნისათა, და მხოლოდ მწუ&#x0302;ჱრიცლითა თითი_<lb/>
+               <add place="margin-right-vertical" hand="#h2">
+                  &#xb0; მოთხრობითად უნდა ესენი, მრავალი გულს_მოდგინება <lb/> 
+                  და მრავალ_მცნობერ_ზრუნვა და მეცნიერ გულის_თქმა’ <lb/> 
+                  ამად რომ უფალნი არიან, მოგვაქცია, ზმ&#x0360;ნისა: 
+               </add>
                სათა შეემთხუ&#x0302;ჱვიან გემბად, და მის სიტკ_ <lb/>
                ბოსა გამო’ Ⴗ&#x0360;ლთა საცხოვრებელთა სოფლი_ <lb/>
                სა ამის ზრუნვათა’ იყავნ მშვიდობით ეტყჳ_ <lb/>
@@ -283,11 +284,7 @@
                უ&#x0302;არება არს: Ⴀწ უკუ&#x0302; ჱ ვინათგან ǁ მ<add place="above">&#xb0;</add>რავალმან <lb/>
                <add place="margin-right">Ⴃ</add>
                გულს_მოდგინებამან და მრთელ_მცნობელ ზ&#x0360;რ_ <lb/>
-               <add place="margin-right-vertical" hand="#h2">
-                  &#xb0; მოთხრობითად უნდა ესენი, მრავალი გულს_მოდგინება <lb/> 
-                  და მრავალ_მცნობერ_ზრუნვა და მეცნიერ გულის_თქმა’ <lb/> 
-                  ამად რომ უფალნი არიან, მოგვაქცია, ზმ&#x0360;ნისა: 
-               </add>
+               
                უნვამან და მეცნიერ_გულის_თქმამან ამათ შ&#x0360;ს <lb/>               
                <fw type="catch">მოგვაქ_</fw>               
                <num value="1">ა</num>
@@ -2018,6 +2015,12 @@
                <fw type="catch">ღუ&#x0302;არ_</fw> <lb/>
                <num value="74">ოდ</num>
                <pb f="39r" n="77"/>                  
+               <add place="margin-right-vertical">&#xb0; x სომხურში ჲ სულ არ არის. ჲ ეს <lb/>
+                  მაგიერ, მათ’ სწერია, ესე იგი, Ⴑიბრძნის_მოყვარება არს მყოფთა მათ. ამ მათ <lb/>
+                  ნაცვალ სახელსა, სომხურში პირ განრჩევითი ჰქვიან. მინიშნვითი ხომ სულ არ არის. სომეხთ აიბ ბიბში ჲ სულ <lb/>
+                  ’არ არის და არც მოვა. და მთარგმნელთ ქართულზე მიუწებებიათ ჲ. დავითისა კი არ არის და <lb/>
+                  აბა როგორ მოვა:
+               </add> 
                ღუ&#x0302;არნი სიბრძნის_მოყუ&#x0302;არებისანი, და მიზეზნი <lb/>
                რაოდენობისა მათისა და განწესება და მომპოვ_ <lb/>
                ნებელი მათი: Ⴋოვიდეთ და დავამტკიცოთ თით_ <lb/>
@@ -2041,8 +2044,6 @@
                <add place="margin-right">მათ:</add>
                რ&#x0360;ლნიმე რ&#x0360;ლნიცა იტყვიან, ვ&#x0360;დ რათა აუწყოსო <lb/>
                ჲ<add place="above">x</add> <add place="above">&#xb0;</add> ესა მ&#x0360;რ ზიარება არსთა რ&#x0360;ლ ურთიერთისადმი <lb/>
-               <add place="margin-right-vertical">&#xb0; x სომხურში ჲ სულ არ არის. ჲ ეს <lb/> მაგიერ, მათ’ სწერია, ესე იგი, Ⴑიბრძნის_მოყვარება არს მყოფთა მათ. ამ მათ <lb/> ნაცვალ სახელსა, სომხურში პირ განრჩევითი ჰქვიან. მინიშნვითი ხომ სულ არ არის. სომეხთ აიბ ბიბში ჲ სულ <lb/> ’არ არის და არც მოვა. და მთარგმნელთ ქართულზე მიუწებებიათ ჲ. დავითისა კი არ არის და <lb/>
-                  აბა როგორ მოვა:</add>               
                <fw type="catch">ზე გარ_</fw> <lb/>
                <num value="75">ოე</num>
                <pb f="39v" n="78"/>               
@@ -2599,6 +2600,9 @@
                ’არა რაზომ რაჲცა ნებავს ძალ_უცსცა, Ⴐ&#x0360; უკეთუ <lb/>
                ენებოს ჴელითა შეხება მზისა, და ანუ დაბადება <lb/>
                <del rend="strikethrough"/> ცისა’ ’არა ძალ_უცს: Ⴞ&#x0360;უკეთუ ვინ თქვას <lb/>
+               <add place="margin-right-vertical">&#xb0; ყოველს ადგილს დიალიკტიკა <del rend="strikethrough"/> ფედრონად სწერია. ამ წიგნში. <lb/>
+                  მაგრამ ტყუის. <lb/>
+                  სომხურში სულ დიალიკტიკა სწერია. ფედრონი ’არ უნდა. ეს ასე იპყარ:</add>
                ვ&#x0360;დ ’არა ნებავს შეუძლებელი რაჲმე საქმე ს&#x0360;რ <lb/>
                ულსა სიბრძნის_მოყუ&#x0302;არესა, ა&#x0360;დ მათ ეტრფის <lb/>
                რ&#x0360;ლთა მიწევნადცა ძალ_უცს, &#x0360;რ Ⴑტელთა დი_ <lb/>
@@ -2609,8 +2613,7 @@
                ძლე არს; Ⴀწ ესენი ესრეთ: Ⴞ&#x0360; უღონოებენ ვი_ <lb/>
                ეთნიმე მეტყუ&#x0302;ჱლნი’ ვ&#x0360;დ სადა განსაზღუ&#x0302;რა Ⴎლა_ <lb/>
                ტონ სიბრძნის_მოყუ&#x0302;არება მსგავსებად Ⴖ&#x0360;ისა ძალ_ <lb/>
-               ისა_მებრ კაცთა. Ⴞ&#x0360; მივუგებთ, ვ&#x0360;დ Ⴇევდიას Ⴔე<add place="above">&#xb0;</add>დ_ <lb/>
-               <add place="margin-right-vertical">&#xb0; ყოველს ადგილს დიალიკტიკა <del rend="strikethrough"/> ფედრონად სწერია. ამ წიგნში. <lb/> მაგრამ ტყუის. <lb/> სომხურში სულ დიალიკტიკა სწერია. ფედრონი ’არ უნდა. ეს ასე იპყარ:</add>
+               ისა_მებრ კაცთა. Ⴞ&#x0360; მივუგებთ, ვ&#x0360;დ Ⴇევდიას Ⴔე<add place="above">&#xb0;</add>დ_ <lb/>               
                რონსა შ&#x0360;ა, &#x0360;რ მუნ თეოდორისისა მიმართ რ&#x0360;ლისამე <lb/>
                ქვეყნის მზომელისა ზრახვა ყოფითა იტყოდა ესრ_ <lb/>                  
                <fw type="catch">ეთ</fw> <lb/>

@@ -17,7 +17,7 @@
             <principal>Gillian Evison</principal>
          </titleStmt>
          <editionStmt>
-            <edition n="1">First publication edition, TEI P5.
+            <edition n="1">First digital edition, TEI P5.
                <date>20 December 2019</date>
             </edition>
             <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
@@ -112,13 +112,9 @@
                               </dimensions>
                            </seg>
                         </extent>
-                        <foliation xml:id="original">
-                           <p>There is not any kind of original pagination.</p>
-                        </foliation>
-                        <foliation xml:id="modern">
-                           <p>Pencil pagination is added probably by the library.</p>
+                        <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library.
                         </foliation>           
-                        <collation>Title pages are missing.</collation>
+                        <collation>Title pages are missing. Catchwords are written horizontally towards the right lower margin.</collation>
                         <condition>Several leaves of manuscript are damaged with dark stains.</condition>
                      </supportDesc>
                      <layoutDesc>
@@ -617,7 +613,7 @@
                ნთებარესა საღთოსა მეცნიერება<lb/>
                სა მიმართ მიძღვს ყოველთა ცი<lb/>
                სკარი განმანათლებელი გონებისა<lb/>
-               ხოლო ღაღადები<del rend="overstrike">ს</del>თ პატივ ცემულ<lb/>
+               ხოლო ღაღადები<del rend="strikethrough">ს</del>თ პატივ ცემულ<lb/>
                ი ესრეთ გ&#x0360;ხნ შარავან დედი<lb/>
                აცნაურისა მზისაო გ&#x0360;ხნ ლამპა<lb/>
                რი წყალისა ნათლისაი გ&#x0360;ხნ ელ<lb/>
@@ -985,7 +981,7 @@
                   და უნებლიეთნი მეცნიერებითი და უმეცრებითნი<lb/>
                   და არცხვნენ ბოროტსა ბრძოლსა საწყა<lb/>
                   ლობელისი და ცოდვისა სულისა ჩემისა  <lb/>
-                  უფალო მოიხსენ<del rend="overstrike">ე</del> მე ყოვლისა დავიწყებისა<lb/>
+                  უფალო მოიხსენ<del rend="strikethrough">ე</del> მე ყოვლისა დავიწყებისა<lb/>
                   და უმეცრებისა გან და ყოვლისა განსაცდელ  <lb/>
                   <fw type="catch">ისგან</fw><lb/>
                   <pb f="28v" n="56"/>
