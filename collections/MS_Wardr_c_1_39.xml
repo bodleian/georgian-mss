@@ -6,12 +6,22 @@
       <fileDesc>
          <titleStmt>
             <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. c. 1 (39)</title> 
+               <title type="alt" xml:lang="en">Recommendations of the Preliminary Committee appointed by the International Congress at the Hague on 9th August 1907, to propose arrangements for organizing the Subject Races Joint Committee on a permanent and effective international basis.</title>
+             </title>
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
+         <editionStmt>
+            <edition n="1">First digital edition, TEI P5.
+               <date>10 January 2020</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="#Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">2020-01-10</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -28,11 +38,11 @@
                </address>
             </pubPlace>
             <idno>OCIMCO</idno>
-            <idno type="msID">MS_Wardr_c_1_35</idno>
+            <idno type="msID">MS_Wardr_c_1_39</idno>
             <idno type="catalogue">Georgian</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Wardr_c_1_35" xml:lang="en">
+            <msDesc xml:id="MS_Wardr_c_1_39" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -42,29 +52,34 @@
                   <collection type="main">Oriental Manuscripts Wardrop Collection </collection>
                   <idno>MS. Wardr. c. 1 (35)</idno>
                </msIdentifier>
+               <head>Recommendations of the Preliminary Committee appointed by the International Congress at the Hague on 9th August 1907.</head>
                <msContents>
-                  <summary>'Georgia of the Caucasus': article by A. R. Dryhurst</summary>
-                  <msItem xml:id="MS_Wardr_c_1_35-item1" n="1">
-                     <author key="person_19"><persName>A. R. Dryhurst</persName></author>
-                     
-                     <title xml:lang="en-Latn-x-lc" key="work_34">Georgia of the Caucasus</title>
+                  <summary>Recommendations of the Preliminary Committee appointed by the International Congress at the Hague on 9th August 1907, to propose arrangements for organizing the Subject Races Joint Committee on a permanent and effective international basis.</summary>
+                  <msItem xml:id="MS_Wardr_c_1_39-item1" n="1">
+                     <title xml:lang="en-Latn-x-lc" key="work_39">Recommendations of the Preliminary Committee appointed by the International Congress at the Hague on 9th August 1907, to propose arrangements for organizing the Subject Races Joint Committee on a permanent and effective international basis.</title>
                      
                      <textLang mainLang="en">English</textLang>
-                     <note>This article was published in The Women's Tribune, 24 July 1906</note>
+                     <note>This article was reproduced from typescript and circulated in 1907</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="leaf">
                      <supportDesc material="chart">
-                        <extent>
+                     <support>The Manuscript is written on paper.</support>
+                     <extent>3 ff. <dimensions type="leaf" unit="cm"/>
+                        <seg type="leaf">
+                           <num type="leaf" value="3">3</num>
+                        </seg>
+                        <seg type="dimensions">
                            <dimensions type="leaf" unit="cm">
-                              <height>32</height>
-                              <width>20</width>
+                              <height quantity="26.5">26.5</height>
+                              <width quantity="21.2">21.2</width>
                            </dimensions>
-                           <dimensions type="folia">
-                              <dim type="folia">6</dim>
-                           </dimensions>
-                        </extent>
+                        </seg>
+                     </extent>
+                     <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library.</foliation>           
+                     <collation>The folios are represented on three unbound pages.</collation>
+                     <condition>Leaves of manuscript are not damaged.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
@@ -73,17 +88,30 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major" script="unknown"/>
+                     <handNote scope="major" xml:id="h1">The manuscript is typesetted.</handNote>
                   </handDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="#Gregorian" when="1906">1906</origDate>
+                     <origDate calendar="#Gregorian" when="1907">1907</origDate>
                   </origin>
                   <acquisition>Don. Nov. 1920 J. O. Wardrop</acquisition>
                </history>
                <additional>
                   <adminInfo>
+                     <recordHist>
+                        <source>
+                           Description adapted (2019) from the following source:
+                           <listBibl>                 
+                              <bibl>
+                                 <title>David Barret's Catalogue of the Wardrop Collection and of other Georgian Books and Manuscripts in the Bodleian Library</title>
+                                 <publisher>Published by the Marjory Wardrop Fund by Oxford University Press</publisher>
+                                 <date when="1973">1973</date>
+                                 <idno type="VIAF">216536082</idno>
+                              </bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
@@ -151,12 +179,23 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term key="subject_sh18507042">Georgian historical documents</term>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">English Language</language>
+         </langUsage>
+      </profileDesc>
       <revisionDesc>
-         <change when="2017-07-26">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl">https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl</ref>
-         </change>
-         <change when="2011-05-12">
-            <persName>Nikoloz Aleksidze</persName>
+         <change when="2020-01-10">
+            <persName>Irina Lobzhanidze</persName>Expanded meta-annotation and provided the transcription.
          </change>
       </revisionDesc>
    </teiHeader>
@@ -168,14 +207,15 @@
    </facsimile>
    <text>
       <body>
+         <div type="original">
          <div n="1">
             <pb n="1"/>
             <head rend="center">
-               <hi rend="superscript">RECOMMENDATIONS OF THE PRELIMINARY COMMITTEE APPPOINTED</hi><lb/>
-               <hi rend="superscript">BY THE INTERNATIONAL CONGRESS AT THE HAGUE OF 9TH</hi><lb/>
-               <hi rend="superscript">AUGUST, 1907, TO PROPOSE ARRANGEMENTS FOR ORGANISING</hi><lb/>
-               <hi rend="superscript">THE SUBJECT RACES JOINT COMMITTEE ON A PERMANENT AND</hi><lb/>
-               <hi rend="superscript">EFFECTIVE INTERNATIONAL BASIS</hi><lb/>   
+               RECOMMENDATIONS OF THE PRELIMINARY COMMITTEE APPPOINTED<lb/>
+               BY THE INTERNATIONAL CONGRESS AT THE HAGUE OF 9TH<lb/>
+               AUGUST, 1907, TO PROPOSE ARRANGEMENTS FOR ORGANISING<lb/>
+               THE SUBJECT RACES JOINT COMMITTEE ON A PERMANENT AND<lb/>
+               EFFECTIVE INTERNATIONAL BASIS 
             </head>
             <p n="1"> <!-- amaze mosafiqrebelia -->
                <list rend="numbered">
@@ -248,6 +288,7 @@
                      but not of voting.</item>
                </list>
             </p>
+         </div>
          </div>
       </body>
    </text>

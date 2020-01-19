@@ -197,6 +197,9 @@
                </list>
             </keywords>
          </textClass>
+         <langUsage>
+            <language ident="ka">Georgian Language</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
          <change when="2020-01-10">
@@ -218,6 +221,7 @@
    </facsimile>
    <text>
       <body>
+         <div type="original">
          <div n="1">
             <pb n="1"/>
             <head rend="center">მწევრის შვილი.</head>
@@ -336,6 +340,7 @@
                მთქმელსაც და გამგონებელსაც<lb/>
                ძილი გაამოთ ყველასა.
             </p>
+         </div>
          </div>
       </body>
    </text>
