@@ -6,12 +6,24 @@
       <fileDesc>
          <titleStmt>
             <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. c. 1 (1)</title> 
+               <title type="alt" xml:lang="en">Mcevris shvili</title>
+               <title type="alt" xml:lang="ka">მწევრის შვილი</title>
+               <title type="alt" xml:lang="ka-la">mcevris švili</title> 
+            </title>
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
+         <editionStmt>
+            <edition n="1">First digital edition, TEI P5.
+               <date>10 January 2020</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="#Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">2020-01-10</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -41,9 +53,10 @@
                   <collection type="main">Oriental Manuscripts Wardrop Collection</collection>
                   <idno>MS. Wardr. c. 1 (1)</idno>
                </msIdentifier>
-               <msContents>
+               <head>Mcevris shvili</head>
+               <msContents>                  
                   <summary>
-                     <title>Mcevris shvili</title> A Georgian folk-tale</summary>
+                     <title>Mcevris shvili</title> is a Georgian folk-tale</summary>
                   <msItem xml:id="MS_Wardr_c_1_1-item1" n="1">
                      
                      
@@ -58,12 +71,23 @@
                <physDesc>
                   <objectDesc form="leaf">
                      <supportDesc material="chart">
-                        <extent>3 ff. <dimensions type="leaf" unit="cm">
-                              <height>21</height>
-                              <width>15</width>
-                           </dimensions>
+                        <support>The Manuscript is written on paper.</support>
+                        <extent>3 ff. <dimensions type="leaf" unit="cm"/>
+                           <seg type="leaf">
+                              <num type="leaf" value="3">3</num>
+                           </seg>
+                           <seg type="dimensions">
+                              <dimensions type="leaf" unit="cm">
+                                 <height quantity="21">21</height>
+                                 <width quantity="15">15</width>
+                              </dimensions>
+                           </seg>
                         </extent>
-                     </supportDesc>
+                        <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library.
+                        </foliation>           
+                        <collation>The folios are represented on three unbound pages.</collation>
+                        <condition>Leaves of manuscript are not damaged.</condition>
+                     </supportDesc>             
                      <layoutDesc>
                         <layout columns="1">
                            <dimensions type="line-height" unit="mm"/>
@@ -71,7 +95,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major" script="unknown"/>
+                     <handNote scope="major" xml:id="h1">The whole text of manuscript is written by hand No 1.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -83,6 +107,19 @@
                </history>
                <additional>
                   <adminInfo>
+                     <recordHist>
+                        <source>
+                           Description adapted (2019) from the following source:
+                           <listBibl>                 
+                              <bibl>
+                                 <title>David Barret's Catalogue of the Wardrop Collection and of other Georgian Books and Manuscripts in the Bodleian Library</title>
+                                 <publisher>Published by the Marjory Wardrop Fund by Oxford University Press</publisher>
+                                 <date when="1973">1973</date>
+                                 <idno type="VIAF">216536082</idno>
+                              </bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
@@ -155,13 +192,19 @@
             <keywords scheme="#LCSH">
                <list>
                   <item>
-                     <term key="subject_sh88005779">Folk literature, Georgian</term>
+                     <term key="subject_sh88005779">Georgian folk literature</term>
                   </item>
                </list>
             </keywords>
          </textClass>
+         <langUsage>
+            <language ident="ka">Georgian Language</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2020-01-10">
+            <persName>Irina Lobzhanidze</persName>Expanded meta-annotation and provided the transcription.
+         </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl">https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl</ref>
          </change>
@@ -178,7 +221,127 @@
    </facsimile>
    <text>
       <body>
-         <p><!--Body paragraph provided for validation and future transcription--></p>
+         <div type="original">
+         <div n="1">
+            <pb n="1"/>
+            <head rend="center">მწევრის შვილი.</head>
+            <p n="1">
+               იყო ერთი ხელმწიფე იმას შვილები არა ჰყავდა. ერთმა მკითხავმა<lb/>
+               ურჩია, დაეკლა მას მტრედები, <del rend="strikethrough">რომელნიც იყვნ</del> რომელთაც ბუდე<lb/> <!--  -->
+               ჰქონდათ ხელმწიფის ბაღში. თელი მტრედი თვითონ შეჭამა, მხოლოდ<lb/>
+               ბარკლები მისცა მოსამსახურეს და ნელები მიუგდო თავის მწევარს.<lb/>
+               გავიდა პატარა ხანი და ხელმწიფესაც <del rend="strikethrough">ეყ</del> ეყოლა შვილი, იმის მოსამსა-<lb/>
+               ხურესაც და მწევარსაც. ხელწიფემ სამნივ თვითონ იშვილა.<lb/>
+               <pb n="2"/>
+               მალე იმათ მო<subst><del rend="corrected">უ</del><add place="above">ი</add></subst>დომეს თოფები და სხვა იარაღი. ხელმწიფემ<lb/>
+               გააკეთებინა უშველებელი თობები, მაგრამ მწევრის შვილმა <lb/>
+               დაამტვრია და გადაყარა. ხელმწიფემ გაუკეთებინა უფრო დიდი<lb/>
+               თოფები და მწევრის შვილმა მოინდომა თავისი ძმებით მოევლო<lb/>
+               მთელი თავისი სახელმწიფო. <del rend="strikethrough">იარა</del> ხელმწიფემ ასწავლა გზა<lb/>
+               და ანიშნა ერთი ალაგი, სადაც <del rend="strikethrough">იტი</del> იდვადიდი ქვა დაზედ ეწერა:<lb/>
+               "ვინც ამქვას იქით გადავა, ცოცხალი ვეღარ დაბრუნდება".<lb/>
+               და უთხრა, რომ იმას იქით მდევების სახელმწითოაო.<lb/>
+               მწევრის შვილი მალე გაუდგა გზას. მალე იმ ქვასთანტ მივიდა.<lb/>
+               იმის ძმების არ უნდოდათ იმას იქით გადასვლა, მაგრამ<lb/>
+               მწევრის შვილმა ძალად წაიყვანა. იარა, იარა და მიადგა ერთ<lb/>
+               <pb n="3"/>
+               უშველებელ სახლს. ნახა გაშლილი სუფრა, რომელზედაც<lb/>
+               ელაგა ექვსი თეფში. ექვსი ნაჭერი პური და ექვსი კოვზი და<lb/>
+               შიგ კი არავინ იყო. მწევრის შვილმა იცოდა, რომ ის სახლი<lb/>
+               სამი ყველაზედ ღონიერი მდევისა იყო და გაგზავნა თავისი ერთი <lb/>
+               ძმა თეთრი მდევის მოსაკლავად. იმან იცოდა, რომ მდევს უნდა <lb/>
+               ხიდზედ გამოეარნა. იმის ძმა წავიდა და ჩასაფრდა, მაგრამ<lb/>
+               რა წამს მდევი დიანახა, დაიმალა. მწევრის შვილმა ეს იცოდა<lb/>
+               და თვითონ ჩასაფრდა. მდევმა რომ გამოიარა, მწევრის შვილმა<lb/>
+               ჩაახველა. მედვის ცხენი <del rend="strikethrough">დამ</del> დაფრთხა და და მდევმა შეჰყვირა:<lb/>
+               "შე ოხერო, რა გახტუნებს? სამნი ძმანი ვართ, სამი ცოლი გვყავს და<lb/>
+               ჩვენი შიშით ზეცას ფრინველს და ქვეშკნელს ჭიანჭველს <lb/>
+               ვერ გაუვლია, ერთი ვიღაც მწევრის შვილია და ჯერ ხოჭიჭიდან<lb/>
+               არ არის ამოსული". "მწევრის შვილი მე ვარ"<lb/>
+               შესძახა მწევრის შვილმა და გადმოხტა. იძრო ხმალი<lb/>
+               შემოჰკრა და ცხენიდან გადმოაგდო. მერე ყური მოსჭრა <del rend="strikethrough">ჭი</del> ჯიბეში<lb/>
+               ჩაიდო და მდევი ხიდს იქით გადააგდო. მივიდა ძმებთან და<lb/>
+               უთხრა: "რა ჰქენ? ვერ მოკალიო?" "მე იქ ვერაფერი ვნახეო" უპასუხა.<lb/>
+               ძმამ. მერე უნდა გამოეარა შავ მდევს. მწევრის შვილმა<lb/>
+               <pb n="4"/>  
+               გაგზავნა მეორე ძმა. მაგრამ იმასაც შ<del rend="overstrike">ა</del><hi rend="color(FF0000)">ე</hi>შინდა. ისიც მწევრის შვილმა <lb/>
+               მოჰკლა, მოსჭრა ყური მდევს, ჩაიდვა ჯიბეში, მოსწყვიტა იმის რაშს ძუა.<lb/>
+               შეჰკრა და გაგზავნა მდევების სახლში. ახლა მოვიდა მწევრის შვილის <lb/>
+               ჯერი. ძმებს უთხრა: "როცა ცხენმა წილხი <del rend="strikethrough">ვ</del> ჩაგკრათ აუშვით და<lb/>
+               გამოგზავნეთო". მესამეთაც ჩასაფრდა. პატარა ხანს უკან გამოჩნდა<lb/>
+               მდევი. რამდენსაც ამოისუნთქებდა იმდენი ნაკვერჩხალი სცვივოდა პირითგან.<lb/>
+               თვითონ იყო წითელი, წითელ რაშზედ იჯდა და უკან ქორ-მეძებრები მოსდევდნენ.<lb/>
+               მწევრის შვილმა კიდევ ისე ჩაახველა და მდევმა ისევე შეუტია ცხენს.<lb/>
+               <del rend="strikethrough">მმ</del>მწევრის შვილმა და იმან დაიწყეს ბრძოლა იმ პირობით, რომ მდევს<lb/>
+               ქორ-მეძებრები არ მოშვილებოდნენ. დაიქნია მდევმა და მწევრის შვილი <lb/>
+               მუხლამდის ჩასვა მიწაში. დაიქნია <del rend="strikethrough">ხ</del> ახლა მწევრის შვილმა და<lb/>
+               იმანაც მუხლამდის ჩასვა. მდევმა <del rend="strikethrough">წელ</del>მუცლამდის ჩასმა, მწევრის<lb/>
+               შვილმა წელამდის. მერე მდევმა წელამდის ჩასვა და მწევრის შვილმა<lb/>
+               ყელამდის. <del rend="strikethrough">გამიხსნა</del>მდევმა ქორ-მეძებრები მიიშველია, მაგრამ<lb/>
+               მწევრის შვილმა გამოხსნა ძუა და პატარა ხანს უკან მოვარდა<lb/>
+               შავი მდევის რაში და თან დიდ <del rend="strikethrough">ტი</del> ბოძს მოათრევდა. მოხვდა მდევს<lb/>
+               თავში და მოკლა. ამაზედ ქორ-მეძებრებიც გაიფანტნენ და მწევრის<lb/>
+               შვილმა ყველანი თვითონ დაისაკუთრა. მწევრის შვილის ძმები<lb/>
+               <pb n="5"/>
+               დამთვრალიყვნენ <add place="margin">მდევების ღვიწით</add> და დასძინებოდათ ძუის გამოხსნაზედ. ცხენს რამდენ-<lb/>
+               ჯერმე წიხლი ჩაეკრა, მაგრამ იმათ არ გამოჰღვიძებოდათ და ამიტომ<lb/>
+               ცხენს ბოძი, <del rend="strikethrough">გადმო</del> რომელზედაც თვითონ ება, გადმოეგო და გამოქცეულიყო.<lb/>
+               <del rend="strikethrough">მწე</del> მწევრის შვილმა იმასაც მოსჭრა ყური და ჯიბეში ჩაიდო.<lb/>
+               მერე დაბრუნდა და აჩვენა <del rend="strikethrough">ყვლ</del>ყველა ყურები. იმათ შერცხვათ, მაგრამ<lb/>
+               რას იზამდნენ? პატარა ხანს უკან <del rend="strikethrough">მს</del> მწევრის შვილმა ძმები<lb/>
+               შინ გაგზავნა. თვითონ კარგად იქცა და დასკუპდა მდევების ტახტზეც.<lb/>
+               მოვიდნენ მდევების ცოლები და გაუკვირდათ, რომ იქაურობა არეული იყო.<lb/>
+               და ამბობდნენ "ვინა ქნაო?" კატა კნაოდა "მიაუ!" "შენ <del rend="strikethrough">რა</del><lb/>
+               <del rend="strikethrough">მაგ</del> სად შეგიძლიან ესა" დაუყვირეს მდევის ცოლებმა და სცემეს.<lb/>
+               კატა ისევ მწევრის შვილად იქცა და უთხრა ყველაფერი.<lb/>
+               მერე ისინი დადგნენ დიდი ქვის ერთ ნაპირზედ, მწევრის შვილი<lb/>
+               მეორეზედ და ჩასჭიდეს ხელები. <del rend="strikethrough">რომელ</del> თუ მდევები გადაიტაცებდნენ,<lb/>
+               მწევრის შვილი იმათი იქნებოდა და თუ მწევრის შვილი<lb/>
+               გადაიტაცებდა, მდევები იმისი იქმნებოდნენ. მწევრის შვილი<lb/>
+               ახტა და მუხლამდის ქვაში ჩაჯდა. ჩასჭირდა ხელი მდევებს<lb/>
+               და ყველანი თავისთან გადაყარა. უფროსი თვითონ შეირთო,<lb/>
+               შვათან შერთო ხელმწიფის შვილს და უმცროსი მოსამსა<lb/>
+               <pb n="6"/> 
+               ხურის შვილს. მერე ის დაბრუნდა თავის სახელმწი-<lb/>
+               ფოში. გზაზედ გადიარა ერთ მდევების სახელმწიფოზე.<lb/>
+               იქ ეგდო დიდი, ერთი სოფლის ტოლი ქვა. ვინც იმ ქვის <del rend="strikethrough">ბოლოს</del><lb/>
+               <del rend="strikethrough">ა</del> ერთ თავს ასწევდა ის უნდა ყოფილიყო იმათი მეფე.<lb/>
+               უქმე დღე იყო, როცა მივიდა მწევრის შვილი იქ.<lb/>
+               მივიდა მდევების ხელმწიფე და აუწია ერთი თავი<lb/>
+               ამ ქვას. მწევრის შვილმა დაავლო ქვას ხელი<lb/>
+               და ისეთი მაღლა მეისროა, რომ ქვა ძლივს გა-<lb/>
+               მოჩნდა. მდევები მიეხვივნენ და ეხვეწებოდნენ,<lb/>
+               შენ იყავ ჩვენი ხელმწიფეო, მაგრამ მწევრის შვილი<lb/>
+               დიდ უარზედ იდგა. ადგა მერე და იქიდან წავიდა<lb/>
+               თავის სახლში. იქ გაიგო, რომ ხელმწიფეს დაჰბადებია<lb/>
+               კიდევ ერთი შვილი, რომელიც გაგიჟებულიყო და<lb/>
+               ყველას ჰკლავდა, ვისაც სახლში ცეცხლი<lb/>
+               ენთო. ეშმაკები ხართო. 
+            </p>
+            <p>
+               მწევრის შვილი დაეფიცა თავის მამას<lb/>
+               უთუოდ მოგიყვანო და წავიდა საძებნელად.<lb/>
+               იარა, იარადა მივიდა ერთ სახლთან.<lb/>
+               <pb n="7"/> 
+               იქ იმან დაინახა, რომ ხალხი წიოკობდა და <lb/>
+               ტიროდა. <del rend="strikethrough">მე</del> მივიდა და ჰკითხა: "რა ამბავიაო?<lb/>
+               იმათ უთხრეს. "ხელმწიფეს ჰყავს ერთი შვილი,<lb/>
+               გიჟი და ესე გვხოცავს ყველას, ვის სახლშიც<lb/>
+               ცეცხლა ნახავსო". მწევრის შვილი შევიდა და<lb/>
+               და იჭირია თავისი ძმა. გაჰკრა ორიოდე სილა და გაუჯავრდა<lb/>
+               მერე შეჰკრა და მოჰგვარა თავის მამას.<lb/>
+               ხელმწიფე როცა მოკვდა ტახტზედ მწევრის შვილი<lb/>
+               ავიდა <del rend="strikethrough">და გახდა მშვ.</del> და თავისი გმირობით და ჭკუით<lb/>
+               ყველგან სახელი გაითქვა.
+            </p>
+            <p>
+               ელასა მელასა<lb/>
+               <del rend="strikethrough">ძილი</del>გუდა მეკიდა ყელასა<lb/>
+               მთქმელსაც და გამგონებელსაც<lb/>
+               ძილი გაამოთ ყველასა.
+            </p>
+         </div>
+         </div>
       </body>
    </text>
 </TEI>

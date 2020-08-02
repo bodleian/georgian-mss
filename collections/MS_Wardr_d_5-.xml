@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_53">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xml:id="manuscript_53">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. d. 5</title> 
+               <title type="alt" xml:lang="en">Oppozicia</title>
+               <title type="alt" xml:lang="ka">ოპპოზიცია</title>
+               <title type="alt" xml:lang="ka-la">oppozicʻia</title> 
+            </title>
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
+         <editionStmt>
+            <edition n="1">First digital edition, TEI P5.
+               <date>20 December 2019</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="#Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">2020-01-07</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -42,6 +57,7 @@
                   <collection type="main">Oriental Manuscripts Wardrop Collection </collection>
                   <idno>MS. Wardr. d. 5-</idno>
                </msIdentifier>
+               <head>Oppozicia is a Journal secretly prepared by and circulated amongst the boys of Kutaisi grammar school.</head>
                <msContents>
                   <summary>'Oppozicia' No. 4, Dec. 1894. Journal secretly prepared by and circulated amongst the boys of Kutais grammar school: copy specially written for M. and O. Wardrop when they visited Kutais in Dec. 1894</summary>
                   <msItem xml:id="MS_Wardr_d_5-item1" n="1">
@@ -57,12 +73,27 @@
                </msContents>
                <physDesc>
                   <objectDesc form="leaf">
-                     <supportDesc material="chart">
-                        <extent>27 ff. <dimensions type="leaf" unit="cm">
-                              <height>27</height>
-                              <width>22</width>
+                     <supportDesc material="chart">                        
+                     <support>The Manuscript is written on paper.</support>
+                     <extent>27 ff. <dimensions type="leaf" unit="cm"/>
+                        <seg type="leaf">
+                           <num type="leaf" value="55">27</num>
+                        </seg>
+                        <seg type="dimensions">
+                           <dimensions type="leaf" unit="cm">
+                              <height quantity="27">27</height>
+                              <width quantity="22">22</width>
                            </dimensions>
-                        </extent>
+                        </seg>
+                     </extent>
+                        <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library.
+                        </foliation>           
+                        <collation>The manuscript has not title page. The cover has a title 
+                        "ოპპოზიცია, ჟურნალი ხელნაწერი<lb/>
+                           # დ. ჩყჟდ წელსა<lb/>
+                        ქუთაისში."
+                        </collation>
+                        <condition>The manuscript is well preserved.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
@@ -70,9 +101,15 @@
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc>
-                     <handNote scope="major" script="unknown"/>
+                  <handDesc hands="2">
+                     <handNote scope="major" xml:id="h1">Hand I writes the whole text of manuscript in Mkhedruli script</handNote>
+                     <handNote scope="minor" xml:id="h2">Hand II writes the initial page in English</handNote>
                   </handDesc>
+                  <bindingDesc>
+                     <binding notAfter="1894" notBefore="1911">
+                        <p hand="#h1">The panel without ornaments is not very old.</p>
+                     </binding>
+                  </bindingDesc>  
                </physDesc>
                <history>
                   <origin>Undated</origin>
@@ -80,8 +117,21 @@
                </history>
                <additional>
                   <adminInfo>
+                     <recordHist>
+                        <source>
+                           Description adapted (2019) from the following source:
+                           <listBibl>                 
+                              <bibl>
+                                 <title>David Barret's Catalogue of the Wardrop Collection and of other Georgian Books and Manuscripts in the Bodleian Library</title>
+                                 <publisher>Published by the Marjory Wardrop Fund by Oxford University Press</publisher>
+                                 <date when="1973">1973</date>
+                                 <idno type="VIAF">216536082</idno>
+                              </bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
                      <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
+                        <p hand="#h1">Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
                </additional>
@@ -157,8 +207,14 @@
                </list>
             </keywords>
          </textClass>
+         <langUsage>
+            <language ident="ka">Georgian Language</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2020-01-07">
+            <persName>Irina Lobzhanidze</persName>Expanded meta-annotation and provided the transcription.
+         </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl">https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl</ref>
          </change>
@@ -175,7 +231,771 @@
    </facsimile>
    <text>
       <body>
-         <p><!--Body paragraph provided for validation and future transcription--></p>
+         <div type="original">            
+            <div type="chapter">
+               <pb n="1"/>
+               <p hand="#h2">
+                  A copy of a Ms. journal secretly prepared by and circulated amongst the Grammar<lb/>
+                  shcool boys in Kutais.
+               </p>
+               <p hand="#h2">
+                  This copy was specially written for us and presented to us by some boys<lb/>
+                  whe we were staying in Kutais in December 1894.
+               </p>
+               <p hand="#h2">
+                  The above written by M.W.
+               </p>
+            </div>
+            <div type="chapter">
+               <pb n="2"/>
+               <head>
+                  <hi rend="dropcap">პ</hi>ატივსაცემ და სათაყვანებელ ინგლისელ <lb/>
+                  <hi rend="dropcap">და ძმას,</hi><lb/>
+                  როგორც მცირე ნიმუში მათთადმი განუსაზღვრელი <lb/>
+                  მადლიერებისა და გულით და სულით დანდობისა<lb/>
+                     ქუთაისის ქართველთ გიმნაზიელთაგან.
+               </head>
+               <p hand="#h1">
+                  <add place="margin-left-vertical">ჰხამს მოყვარე მოყვრესა ხვაშიადს არ უფარავდეს.</add>
+                  <hi rend="dropcap">პ</hi>ატივსაცემ და სათაყვანებელ ინგლისელ<lb/>
+                  <hi rend="dropcap">დ</hi>ა-<hi rend="dropcap">ძ</hi>მას,<lb/>
+                  როგორც მცირე ნიმუში მათთადმი განუსაზღვრელი <lb/>
+                  მადლიერებისა და გულით და სულით დანდობისა<lb/>
+                  ქუთაისის ქართველთ გიმნაზიელთაგან.
+               </p>            
+               <lg>
+                  <l><hi rend="dropcap">ვ</hi>აჲ,  სოფელო  რაშიგან ხარ, რას გვაბრუნებ, რა ზნე გჭირსა?!</l>
+                     <l>ყოველმც შენგან მონდობილი ნიადაგმცა ჩემებრ ტირსა.</l>
+                     <l>სად წაიყვან სადაურსა, სად აღუთხრვრი სადით ძირსა! </l>
+                     <l>და მაგრა(მ) ღმერთი არ გასწირავს კაცსა შენგან განაწირსა</l>
+               </lg>
+               <p hand="#h1">შოთა რუსთაველი.</p>
+               <p hand="#h1"> 
+                  ა, ბ, გ, დ, ე, ვ, ზ, ჱ,თ,  ი, კ, ლ, <lb/>
+                  ა, ბ, გ, დ, ე, ზ, ჱ, თ,  ი, კ, ლ,<lb/>
+                  მ,  ნ, ჲ, ო, პ, ჟ, რ, ს, ტ, უ ფ, ქ,<lb/>
+                  მ,  ნ, ჲ, ო, პ, ჟ, რ, ს, ტ, უ ფ, ქ,<lb/>
+                  ღ, ყ, შ, ჩ, ც, ძ, წ, ჭ, ხ, ჴ, ხ , ჵ.<lb/>
+                  ღ, ყ, შ, ჩ, ც, ძ, წ, ჭ, ხ, ჴ, ხ , ჵ.
+               </p>
+               <p hand="#h1">
+                  კოკასა შიგან რასაცა დგას, იგივე წარმოსდინდების.<lb/>
+                 კოკასა შიგან რასაცა დგას, იგივე წარმოსდინდების.
+                  
+               </p>               
+            </div>
+            <div type="chapter">
+               <pb f="4r" n="ა"/>
+               <figure>
+                  <head><hi rend="dropcap">ოპპოზოცია</hi> N <num value="4">დ</num></head>
+                  <p hand="#h1">                        
+                        განათლება, ერთობა  ძმობა  ამხანაგობა, სიყვარული,  მუდმივი მეგობრობა.<lb/>
+                        განამტკიცე აზრი წმინდა, გულს სიწრფელით ახურვებდე ! 
+                  </p>
+               </figure>
+               <p hand="#h1">
+                  <num value="1894">ჩყჟდ</num>-სა წელსა, ქრისტეშობისათვის <num value="1">ა</num>-ს დღესა.
+               </p>
+               <p hand="#h1">
+                  გამოდის ორ თვეში ერთჯერ.
+               </p>
+               <div type="subchapter">
+                  <head><hi rend="dropcap">ო</hi>პოზიცია </head>
+                  <lg>
+                     <l>„<hi rend="dropcap">ო</hi>პპოზიცია“ ვართ სწორეთ,</l>
+                     <l><hi rend="dropcap">შ</hi>ეჭურვილ- მომზადებული,</l>
+                     <l><hi rend="dropcap">მ</hi>უდამ სიბნელის მდევნელი,</l>
+                     <l><hi rend="dropcap">ნ</hi>ათლისთვის დავდადებული.</l>
+                     <l><hi rend="dropcap">ხ</hi>ანჯალი, ხმალი მარტყია;</l>
+                     <l><hi rend="dropcap">თ</hi>უმც ჯერ არა აქვთ კარგი ჭრა,</l>
+                     <l><hi rend="dropcap">მ</hi>აგრამ  თან-და-თან მოვპირავ:</l>
+                     <l><hi rend="dropcap">ნ</hi>ათლისთვის არა მშურს განჯა.</l>
+                     <l><hi rend="dropcap">დ</hi>ა შეიძლება ოდესმე </l>
+                     <l><hi rend="dropcap">მ</hi>ოლესილ-ამოპირული </l>
+                     <l><hi rend="dropcap">ი</hi>სინი წყვდიადს შეებან,</l>
+                     <l><hi rend="dropcap">ა</hi>სტეხონ ომი გმირული. </l>     
+                  </lg>
+                  <p hand="#h1"> ამხანაგი. </p>
+               </div>
+            </div>
+            <div type="chapter">
+               <pb f="4v" n="ბ"/>
+                  <head>                     
+                     <hi rend="dropcap">ს</hi>ასიამოვნო შემთხვევა. სამშობლო ენა ყველასთვის<lb/>
+                     სავალდებულოა. - <hi rend="dropcap">ს</hi>ამშობლო ენა ადამიანის ბუნების ძიძაა- <lb/>
+                     (მზრდელია). - <hi rend="dropcap">რ</hi>ატომ უნდა გიყვარდეს იგი სხვა ენაზედ უფრო? 
+                  </head>
+               <div type="subchapter">
+               <head>I</head>
+               <p hand="#h1"> 
+                  <hi rend="dropcap">ვ</hi>ისაც ჩვენის ლიტერატურის მოძრაობისთვის <lb/>
+                  ამ ათი წლის განმავლობაში თვალი უდევნებია, უთუოდ შენიშ-<lb/>
+                  ნავდა მასში ერთ სასიამოვნო მოვლენას ქართულმა ლიტერა-<lb/>
+                  ტურამ უფრო ჩქარი ნაბიჯით იწყო წინ მსვლელობა და მიი-<lb/>
+                  ღო ნამდვილი ლიტერატურის ფერი და ხასიათი: ამ ათ წე-<lb/>
+                  ლიწადში გამოვიდა ზედი-ზედ წაწყობილი მრავალი<lb/>
+                  შესანიშნავი პოეტური და ბელლეტრისტური ნაწარმოები, <lb/>
+                  ტომებად დაყოფილი, და დაარსდა რამოდენიმე ლიტერა-<lb/>
+                  ტურული ჟურნალ-გაზეთი (თვიური სალიტერატურო ჟურ-<lb/>
+                  ნალი „<hi rend="dropcap">მ</hi>ოამბე“ , საკვირაო, სალიტერატურო გაზეთი „<hi rend="dropcap">კ</hi>ვალი“<lb/>
+                  და სამეურნეო გაზეთი „<hi rend="dropcap">მ</hi>ეურნე“) სასიამოვნოთ და ღირს-<lb/>
+                  სახსოვრათ დღევადნელი ქართველის ცხოვრებიდგან უნდა <lb/>
+                  დარჩეს ეს შემთხევა, მით  უფრო, რომ ეს დრო არის ნამდვი-<lb/>
+                  ლი ერის სათავე გონებრივი მოძრაობისა, რომელსაც ეწო-<lb/>
+                  დება „ლიტერატურა“ კიდევ მით არის სასიამოვნო ეს შემ-<lb/>
+                  თხვევა ჩვენს ცხოვრებაში, რომ მან ახლავე იქონია სასურ-<lb/>
+                  ველი გავლენა საზოგადოდ ქართველობაზე, ნამეტურ ქარ-<lb/>
+                  თველ მოზარდ თაობაზედ, ანუ მოსწავლე ახალგაზრდობა-<lb/>
+                  ზედ. <hi rend="dropcap">მ</hi>ოსწავლე ახალგზარდობა დიდის სიამოვნებით მიეგე-<lb/>
+                  ბა ამ შემთხვევას და მწყურვალეთ დაეწაფა მშობლიურ სწავლა-<lb/>
+                  მოძღვრებას. მაშ გაიჩინეს  სამშობლო მწერლები და პოე-<lb/>
+                  ტები  და გატაცებით დაიწყეს მათი კითხვა. ახალგაზრდობის ამ <lb/>
+                  <pb f="5r" n="გ"/>
+                  გვარმა ლტოლვილებამ სამშოვლო მწერლებისადმი (რო-<lb/>
+                  მელსაც აქვს მიზნად ნათლათ და დაუმხატოს თავის ერს სა-<lb/>
+                  ქართველოს ძველი დიდება და ნაციონალურ სიამაყე, რომ <lb/>
+                  მით გამოაფხიზლოს სიტორიული უიმედობით გულ-<lb/>
+                  გატეხილი ქართველობა და ააშოროს ამით გადაგვარება,)<lb/>
+                  უნაყოფოთ არ ჩაიარა ამათთვის. ამან აალაპარაკა ერთ-<lb/>
+                  ხმად მოზარდი თაობა თავის ნაციონალურ ღირსებაზე და <lb/>
+                  გაუძღვა მას ენის შესწავლის და სამშობლოს კეთილ-<lb/>
+                  მდგომარეობისათვის შრომის და მეცნიერების სურვილი. 
+               </p>
+               <p hand="#h1">
+                  დღეს ჩვენი მოსწავლე ახალგაზრდობა დიდი ინტერესით  <lb/>
+                  კითხულობს ქართულ  ჟურნალ-გაზეთებს. მან შეიგნო,  <lb/>
+                  რომ ამდენ ხანს ის სრულიად მოკლებული, დაშორებუ-<lb/>
+                  ლი იყო სამშობლო ნიადაგზედ აღზრდა-განვითარებას, <lb/>
+                  და ამიტომ წიგნების კითხვასთან დაებადა ენის საფუძვლი-<lb/>
+                  ანად შესწავლის სურვილი. ამ  მოზარდ თაობამ განიზ-<lb/>
+                  რახა ქართული ხელნაწერი  ჟურნალის დაარსება, რის <lb/>
+                  საშვალებითაც  შეიძლება ურთიერთობისადმი გულნადების, <lb/>
+                  აზრების გაზიარება და შემუშავება, რომ  ამ ნაირათ საერთო <lb/>
+                  მეცადინეობით განვითარდენ დედა-ენაზედ. <hi rend="dropcap">ს</hi>იამოვნებით ვე-<lb/>
+                  გებები ამ სასიამოვნო სურვილს და ვუცხადებ თანაგრძნო-<lb/>
+                  ბას ჩვენი ჟურნალის თანამშრომლებს და მზადა ვარ შე-<lb/>
+                  ძლების-და-გვარათ ვემსახურო ამ ჩვენს კეთილაზროვან საქ-<lb/>
+                  მეს.
+               </p>
+               </div>
+               <div type="subchapter">
+                  <head>II</head>
+                  <p hand="#h1">
+                     <hi rend="dropcap">ე</hi>ნა იგივეა ერისათვის, რაც ყოველ ბავშვისთვის <lb/>
+                     ძუძუ; ენა ერს ზრდის ზნეობრივად და გონებრივად; ამიტომ, <lb/>
+                     უყვარს სამშობლო და აზრათ აქვს თავისი მშობე- <lb/>
+                     <pb f="5v" n="დ"/>
+                     ბელი ერის წარმატება, ის უპირველეს მოვალეობათ უნდა სთვლი-<lb/>
+                     დეს დედა-ენის შესწავლას. აქედამ ცხადია, რომ დედა-ენის შეს-<lb/>
+                     წავლა ყოველი ჭეშმარიტი  მამულიშვილისთვის სავალდე-<lb/>
+                     ბულო უნდა იყოს. 
+                  </p>
+                  <p hand="#h1">
+                     <hi rend="dropcap">ს</hi>ამშობლო ენა ყველა ენაზედ უფრო საჭირო არის ამიტომ არის, <lb/>
+                     რომ მხოლოდ ამ ენაზედ შეიძლება სრულიათ განვითარება გო-<lb/>
+                     ნებრივათ და ზნეობრივათ და ბოლოს ძეშმარიტი აზრების გამოთქმა. <lb/>
+                     მსოფლიიო გენიოსები, რომლებიც ბრწყინავდენ კაცობრიობის <lb/>
+                     თვალში, აღიზარდენ სამშობლო ნიადაგზედ. ამ აზრის და-<lb/>
+                     სამტკიცებლათ საკმაოა, მოვიყვანოთ მაგალითად ჩვენი უკ-<lb/>
+                     ვდავი გენიოსი <hi rend="dropcap">შ</hi>ოთა <hi rend="dropcap">რ</hi>უსთაველი, <hi rend="dropcap">ნ</hi>იკოლოზ <hi rend="dropcap">ბ</hi>ა-<lb/>
+                     რათაშვილი, <hi rend="dropcap">ა</hi>კაკი <hi rend="dropcap">წ</hi>ერეთელი - სულყველა ესენი <lb/>
+                     დედა-ენის ღრმად მცოდნეებია. არნაკლებ თვალსაჩი-<lb/>
+                     ნო მაგალითს წარმოადგენს რუსების კრიტიკოსი <hi rend="dropcap">ბ</hi>ელინ-<lb/>
+                     სკი, რომელზედ უკეთ, როგორც საყურადღებო პირები ამ-<lb/>
+                     ტკიცებენ, არც მის წინეთ, არც შემდეგ არავის ცოდნია <lb/>
+                     სამშობლო ენა. 
+                  </p>
+                  <p hand="#h1">
+                     <hi rend="dropcap">ქ</hi>ართველები ღვთით, ბუნებით დიდი ნიჭიერი ხალ-<lb/>
+                     ხია, მაგრამ ძალიან აქვეითებს მათ ის, რომ სამშობლო ნია-<lb/>
+                     დაგზედ აღზრდა-განათლებას მოკლებული არიან. ადამია-<lb/>
+                     ნი, ამ უფლებას მოკლებული, კარგავს სულის სიმტკიცეს, <lb/>
+                     ბუნების სიძლიერეს; მისი გონება ილახება, უძლურდება, სხვა, <lb/>
+                     მისთვის გაუგებარ ენაზედ სიტყვების ზეპირობით; მაგ:  <lb/>
+                     მთელ თავის აძლევს ნიჭიერი, სიცოცხლით სავსე <lb/>
+                     ქართველი ყმაწვილი უმცროს კლასში, რომ გაიზეპიროს<lb/>
+                     მისთვის გაუგებარ ენაზე გაკვეთილი; ის ასრულებს მას<lb/>
+                     წავლებლის ყოველგვარ მოთხოვნილებას და აღწევს<lb/>
+                     <pb f="6r" n="ე"/>
+                     უფროს კლასებს, მაგრამ დაღალულს. გონება გალახულს<lb/>
+                     აღარ შეუძლია უფროსი კლასების მოთხოვნილებების ასრუ-<lb/>
+                     ლება: ან სიკვდილამდის ებრძვის ის თავის მდგომა-<lb/>
+                     რეობას, ან იძულებულია თავი დაანებოს სწავლას და <lb/>
+                     წყალწაღებულივით დარჩეს ცხოვრებაში. სიტყვას „წყალ-<lb/>
+                     წაღებულივით“ მიტომ ვხმარობ, რომ ნამდვილ შედარე-<lb/>
+                     ბათ მიმაჩნია ამ გვარი ყმაწვილის წყალწაღებულთან<lb/>
+                     შედარება: მას, ზნეობრივვათ და გონებრივათ გალახულს, <lb/>
+                     აღარ შეუძლია სრულებით ცხოვრებასთან ბრძოლა, <lb/>
+                     კეთილდღეობისადმი სიყვარული სრულიად ეკარგება, ბუნე-<lb/>
+                     ბით ისე უძლურია და ცხოვრებაში იმდენათ სასოწარ-<lb/>
+                     კვეთილი, როგორც წყალწაღებული, რომელსაც თავის <lb/>
+                     შვილის იმედი დაკარგვია. ბევრი ამ გვარი ყმაწვილ-<lb/>
+                     თაგანი თავს აღარ იზოგავს, რომ არ შეუერთდეს ამ <lb/>
+                     წყალწაღებულების გუნდს, და იღუპება ნამეტანი თავგანწირულის, <lb/>
+                     უზომო შრომისგან. მაგ: დიდი ხანი არაა, რაც ერთი <lb/>
+                     სამწუხარო ამბავი მოხდა: ერთი ყმაწვილი ქართველი,<lb/>
+                     რომელიც ამ ჩვენის გიმნაზიაში სწავლობდა, თავგანწირუ-<lb/>
+                     ლი შრომით და მეცადინეობით მივიდა უფროს კლასებამდის.  <lb/>
+                     აქ მეტი შრომა მოთხოვა კლასმა; ყმაწვილმაც მეტი თავ-<lb/>
+                     განწირულებით მიდგა გაკვეთილების უაზროთ ზეპი-<lb/>
+                     რობას და ამ ნაირათ დიდი ვაი-ვაგლახებით მიაღწია <lb/>
+                     მერვე კლასს, მაგრამ ამ გვარი მეცადინეობით ყმაწ-<lb/>
+                     ვილს ტვინი სულმთლიანათ გამოულაყდა და საცოდ-<lb/>
+                     ვავი ჭკუიდან შეცდა. ამის მიზეზი, რასაკვირველია,<lb/>
+                     ზემოთ მოყვანილს გარდა სხვაც იყო სახელდობრ: მასწავ-<lb/>
+                     ლებელ, რომელსაც სრულიად დავიწყებია, ან<lb/>
+                     <pb f="6v" n="ვ"/>
+                     არ სცოდნია ჭეშმარიტი პედაგოგის მოვალეობა. <hi rend="dropcap">ა</hi>ი რას <lb/>
+                     მოასწავლებს სამშობლო ნიადაგზე აღზრდა-განათლებას <lb/>
+                     მოკლებულობა, რომელსაც (აღზრდა-განათლებას) უნდა <lb/>
+                     ჰქონდეს ნიადაგათ დედა-ენა. დღეს განათლებული ქართვე-<lb/>
+                     ლობის ბევრი ნაწილი აბუჩად იდგებს დედა-ენას და თავი <lb/>
+                     მოსწონს მით, რომ სხვა ენაზედ შეუძლია მსჯელობა. სადღაა <lb/>
+                     აქ ნაციონალური ღირსებისადმი პატივისცემა და სიყვა-<lb/>
+                     რული? განათლებული დედა, რომელიც საქალებო გიმ-<lb/>
+                     ნაზიაში მიუღია სწავლა, ხშირად თავის გარშემო მყოფთ<lb/>
+                     ქართულად ელაპარაკება და თავის შვილებს კი რუსულათ <lb/>
+                     და აგონებს შემდეგ აზრებს: „ჩემმა შვილმა რუსული უნდა<lb/>
+                     იცოდეს, თორემ უმისოდ არ არგიაო, განათლებას ვერ<lb/>
+                     შეიძენსო. რასაკვირველია, ყმაწვილი ამ-გვარ აღზრდა-<lb/>
+                     ში ვერავითარ ზნეობრივ საზრდოს ვერ ჰპოვებს. დე-<lb/>
+                     დამ ძუძუსთან ერთათ ზნეობრივი საზრდო უნდა აძლიოს<lb/>
+                     ბავშვს: მისი გული და გონება უნდა იზრდებოდეს სამშობ-<lb/>
+                     ლოს ნიადაგზე, როგორც ზევითა ნაჩვენები ისეთი აღზრდის გამო<lb/>
+                     ამ საშუალებას, რასაკვირველია, ყმაწვილი მოკლებუ-<lb/>
+                     ლია.  <hi rend="dropcap">ი</hi>ს ამ ნაირათ გადაგვარდება და ამასთან გამო-<lb/>
+                     დის გონებით ჩლუნგი, უგრძნობი, რადგან გრძნობებს <lb/>
+                     აწოვებს ის წრე ბავშვს, სადაც იზრდება მისი ბუნება <lb/>
+                     ათ წლამდე. . . . . . . . . . . . . . . . . . . . . 
+                  </p>
+                  <p hand="#h1">
+                     <hi rend="dropcap">ა</hi>ი ამისათვის ვაარსებთ ჩვენ ამ ჟურნალს, და, <lb/>
+                     იმედია, ეს შემთხვევა მხურვალე თანაგრძნობას გა-<lb/>
+                     მოიწვევს ყველა იმათის მხრით, ვინც კი დარწმუ-<lb/>
+                     ნებულია სამშობლო ენის დიდ მნიშველობაზედ. <lb/>
+                     <hi rend="dropcap">ა</hi>წ სიამოვნებით ვეგებები მეც ამ სურვილის აზრის <lb/>
+                     განხორციელებას და გულით მსურს ვემსახურო ამ<lb/>
+                     <pb f="7r" n="ზ"/>
+                     წმინდა (აზრს) მიზანს, რომელიც ჩვენ ჟურნალს აქვს <lb/>
+                     შრომა და ვარჯიშობა ყოველი საქმის დამაგვირგვინე-<lb/>
+                     ბელია, და ნურც ჩვენ დავიზარებთ შრომას. ჩვენზედ, <lb/>
+                     მოზარდ თაობაზედაა დამოკიდებული ჩვენი არსებო-<lb/>
+                     ბის აღდგება და ნუ დავიშურავთ ნურაფერს ამისთა-<lb/>
+                     ნა საქმის ასასრულებლად.
+                  </p>
+                  <p hand="#h1"><hi rend="dropcap">ი</hi>. ს-ღ</p>
+               </div>
+            </div>
+            <div type="chapter">
+                  <div type="subchapter">
+                     <head><hi rend="dropcap">ვ</hi>უძღვნი ჟურნალ „<hi rend="dropcap">ო</hi>პპოზიციას “ </head>
+                  <lg>
+                     <l><hi rend="dropcap">ძ</hi>მანო! გვეყოფა რაცა ვიგრძენით, </l>
+                     <l><hi rend="dropcap">გ</hi>ამოვიღვიძოთ, ვაჭყიტოთ თვალი ! </l>
+                     <l><hi rend="dropcap">მ</hi>შობელს დაცემულს ხელი ვუწვდინოთ </l>
+                     <l><hi rend="dropcap">დ</hi>ა ავასრულოთ შვილისა ვალი! </l>
+                  </lg>
+               </div>
+               <div type="subchapter">
+                  <head>* * *</head>
+                  <lg>
+                     <l><hi rend="dropcap">მ</hi>ას მივეშველოთ, რიცთ შეგვიძლია,</l>
+                     <l><hi rend="dropcap">ა</hi>ღარ დავკარგოთ ნაქები კვალი! </l>
+                     <l><hi rend="dropcap">მ</hi>შობელს რითამე რომ გამოადგეს, - </l>
+                     <l><hi rend="dropcap">ე</hi>ს არის შვილის პირველი ვალი ! </l>
+                  </lg>
+               </div>
+               <div type="subchapter">
+                  <head>* * *</head>
+                  <l><hi rend="dropcap">ა</hi>ქამდე მშობელმა გვზარდა, გვიარა, </l>
+                  <l><hi rend="dropcap">გ</hi>ვიკაფა ფართე შარა სავალი, </l>
+                  <l><hi rend="dropcap">ა</hi>წ დაუძლურდა, და ჩვენც ვუწიოთ </l>
+                  <l><hi rend="dropcap">ს</hi>ამაგიეროთ შვილისა ვალი. </l>
+                  <p hand="#h1">გარეშე.</p>
+               </div>
+               <div type="subchapter">
+                  <pb f="7v" n="ჱ"/>
+                  <head><hi rend="dropcap">ნ</hi>ადსონიდგან (თარგმანი)</head>
+                  <lg>
+                     <l><hi rend="dropcap">გ</hi>ასწი, ივიწყე მწუხარებანი! </l>
+                     <l><hi rend="dropcap">ა</hi>რ შედრკე არა შიშის წინაშე! </l>
+                     <l><hi rend="dropcap">ი</hi>ბრძოლე, ბოლოს მაინც გაბრწყინდეს - </l>
+                     <l><hi rend="dropcap">ც</hi>ისკარი, ღამე მოსხივ-კაშკაშე ! </l>
+                  </lg>
+               </div>
+               <div type="subchapter">
+                  <head>* * *</head>
+                  <lg>
+                     <l><hi rend="dropcap">ი</hi>შრომე, სანამ ძალ-ღონე შეგწევს, </l>
+                     <l><hi rend="dropcap">ც</hi>ხად იმედები ტყვილა არ ჰფანტო: </l>
+                     <l><hi rend="dropcap">ს</hi>ჯობს განათლების, სწავლის სახელზე </l>
+                     <l><hi rend="dropcap">პ</hi>ატიოსნების ლამპარი ანთო.</l>
+                  </lg>
+               </div>
+               <div type="subchapter">
+                  <head>* * *</head>
+                  <lg>
+                     <l><hi rend="dropcap">დ</hi>აე ჩირქი გცხონ, ზიზღით გიყურონ,</l>
+                     <l><hi rend="dropcap">დ</hi>აე განგრისხონ ბრბოს განჩინებამ,</l>
+                     <l><hi rend="dropcap">დ</hi>აე უაზრო საყვედურიც გხვდეს, - </l>
+                     <l><hi rend="dropcap">ა</hi>რ შეგაშინოს განწირულებამ ! </l>
+                  </lg>
+               </div>
+               <div type="subchapter">
+                  <head>* * *</head>
+                  <lg>
+                     <l><hi rend="dropcap">გ</hi>ასწი, სულითა არ დაჯაბანდე </l> 
+                     <l><hi rend="dropcap">დ</hi>ა დაადექი შეგან თელილ გზას ! </l>
+                     <l><hi rend="dropcap">გ</hi>ასწი! ... აპობდე ყმაწვილის მკერდით </l>
+                     <l><hi rend="dropcap">ა</hi>მა ცხოვრების ყოველ გვარ ტალღას ! </l>
+                  </lg>
+               </div>
+               <div type="subchapter">
+                  <head>* * *</head>
+                  <lg>
+                     <l><hi rend="dropcap">ა</hi>ღვიძე შავი ღრუბელით მოსილნი ! </l>
+                     <l><hi rend="dropcap">დ</hi>აცემულთ შევლად ხელი აწვდინე ! </l>
+                     <l><hi rend="dropcap">ს</hi>იტყვა მაღალი შეშმარიტების </l>
+                     <l><hi rend="dropcap">ხ</hi>ალხში, ვიღ სხივი ცქვიტი, მოჰფინე ! </l>
+                  </lg>
+                  <p hand="#h1">ამხანაგი.</p>
+               </div>
+               <div type="subchapter">
+                  <pb f="8r" n="თ"/>                  
+                  <head><hi rend="dropcap">ნ</hi>ეტარ არს ისა . . . .</head>
+                  <lg>
+                     <l><hi rend="dropcap">ნ</hi>ეტარ არს ისა. ვინაც რომ </l>
+                     <l><hi rend="dropcap">ე</hi>რთ გზას აგდია მტკიცედა,</l>
+                     <l><hi rend="dropcap">ვ</hi>ის ვერ აფერხებს ვერა-რა, </l>
+                     <l><hi rend="dropcap">გ</hi>ინდ ჭირი მიხვდეს ჭირზედა ! </l>
+                  </lg>
+               </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">მ</hi>ის თავს იგრგვინოს, იქუხოს, </l>
+                        <l><hi rend="dropcap">ბ</hi>ედმა  უმუხთლოს უწყალოდ,</l>
+                        <l><hi rend="dropcap">ი</hi>გი მარად სდგეს, არ შედრკეს,</l>
+                        <l><hi rend="dropcap">თ</hi>ავსა არ ხრიდეს უბრალოდ, -</l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">მ</hi>ან მიაღწიოს წადილსა,</l>
+                        <l><hi rend="dropcap">რ</hi>აზომცა იყოს ძნელია:</l>
+                        <l><hi rend="dropcap">მ</hi>ოთმინება და სიმტკიცე</l>
+                        <l><hi rend="dropcap">ყ</hi>ველაფერის საფუძველია.</l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">მ</hi>ხოლოდ ვაი მას, ვინცაა </l>
+                        <l><hi rend="dropcap">ყ</hi>ოველგან გული ერჩევა,</l>
+                        <l><hi rend="dropcap">ვ</hi>ინც იტყვის: „ეს გზა არ მომწონს: </l>
+                        <l><hi rend="dropcap">ა</hi>ქ კრულვა მესმის და წყევა.“ </l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">დ</hi>ა სხვაგან მიდის: „ვინ იცის, </l>
+                        <l><hi rend="dropcap">ბ</hi>ედი რამ შემხვდეს კარგიო,“ </l>
+                        <l><hi rend="dropcap">მ</hi>აგრამ ვერც იქ სძლებს დიდ-ხანსა </l>
+                        <pb f="8v" n="ი"/>
+                        <l><hi rend="dropcap">დ</hi>ა სხვაგან მიაქვს ბარგიო.</l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">ი</hi>ს დაჩვეული წანწალსა, </l> 
+                        <l><hi rend="dropcap">ე</hi>რთს ადგილს ვეღარ ჩერდება </l>
+                        <l><hi rend="dropcap">დ</hi>ა გაჭირვება-შიმშილში </l>
+                        <l><hi rend="dropcap">ა</hi>სე უდროვოთ ბერდება. </l>
+                     </lg>
+                     <p hand="#h1">ს. მ-ღ.</p>
+                  </div>
+                  <div type="subchapter">
+                     <head><hi rend="dropcap">მაშინ იქმნება ეს ჩემი ქნარი . . .</hi></head>
+                     <lg>
+                        <l><hi rend="dropcap">მ</hi>აშინ იქმდება ეს ჩემი ქნარი </l>
+                        <l><hi rend="dropcap">ს</hi>ულის დამტკბობუ, რუსთაველური, </l>
+                        <l><hi rend="dropcap">რ</hi>ოს განიღვიძებს ხალხი მძინარი, </l>
+                        <l><hi rend="dropcap">გ</hi>რძნობა მაღალი, აზრი ქველური. </l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">მ</hi>ანამდი უნდა ქნარი ვატირო, </l>
+                        <l><hi rend="dropcap">მ</hi>ეც ზედ ვაკვნესო მწველი ოხვრითა, </l>
+                        <l><hi rend="dropcap">ბ</hi>ოროტის გული ვგმო და ვამცირო, </l>
+                        <l><hi rend="dropcap">დ</hi>ავმდუღრო მართლის ცრემლების ღვრითაა. </l>
+                     </lg>
+                     <p hand="#h1">ი. ს-ღ.</p>
+                  </div>
+                  <pb f="9r" n="ია"/>
+                  <div type="subchapter">
+                     <head>
+                        <hi rend="dropcap">ბატები.</hi>
+                        (<hi rend="dropcap">კ</hi>რილოვიდგან).
+                     </head>
+                     <lg> 
+                        <l><hi rend="dropcap">გ</hi>ვარიშვილობა რათ გინდა, </l>
+                        <l><hi rend="dropcap">კ</hi>აცო, თუ თვითონ არ ვარგიხარ ?! </l>
+                        <l><hi rend="dropcap">ბ</hi>ატებს ნუ დაემსგავსები: </l>
+                        <l><hi rend="dropcap">შ</hi>ენ მათი ტოლი არა ხარ ! </l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>                              
+                        <l><hi rend="dropcap">გ</hi>რძელი წნელით ხელში გლეხი </l>
+                        <l><hi rend="dropcap">ბ</hi>ატებს მიერეკებოდა.</l>
+                        <l>(<hi rend="dropcap">მ</hi>ართალია მოგახსენოთ - </l>
+                        <l><hi rend="dropcap">კ</hi>არგად კი ვერ ეპყრობა!) </l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>         
+                        <l><hi rend="dropcap">ქ</hi>ალაქისკენ იჩაქრის, </l>
+                        <l><hi rend="dropcap">ი</hi>ქ მოგებას მოელის. </l>
+                        <l><hi rend="dropcap">ს</hi>აქმე მოგებაშია . . . . </l>
+                        <l><hi rend="dropcap">რ</hi>ა ვქნათ . . . . მიეტოვების . . . . </l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>         
+                        <l><hi rend="dropcap">ჩ</hi>ემის მხრით არას ვამბობ, </l>
+                        <l><hi rend="dropcap">გ</hi>ლეხს თითქმის არც ვამტყუნებ; </l>
+                        <l><hi rend="dropcap">ბ</hi>ატები კი დამჩხავის:</l>
+                        <l><hi rend="dropcap">ყ</hi>ურს რათ არ აბარტყუბევ? </l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">ხ</hi>ომ ხედავ შენ ამ უგუნურს, </l>
+                        <l><hi rend="dropcap">რ</hi>ა ბრიყვულათ გვეპყრობა, </l>
+                        <pb f="9v" n="იბ"/>
+                        <l><hi rend="dropcap">თ</hi>ითქოს უბრალო ბატებს </l>
+                        <l><hi rend="dropcap">ს</hi>ადმე მიერეკება! </l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">ი</hi>ს კი სულსაც არ არის </l>
+                        <l><hi rend="dropcap">ა</hi>მ  ტვინ გამოლეულმა,</l>
+                        <l><hi rend="dropcap">რ</hi>ომ მოწიწება შეგვფერსს, </l>
+                        <l><hi rend="dropcap">თ</hi>ითქოს გამოლეულა. </l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">ი</hi>ს ჩვენ წინაპართ ღვაწლი,</l>
+                        <l><hi rend="dropcap">რ</hi>ომელთ რომ დაიცვეს,</l>
+                        <l><hi rend="dropcap">რ</hi>ის სამაგიეროთაც </l>
+                        <l><hi rend="dropcap">მ</hi>ათ პატივი დაიდვეს.</l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">ი</hi>ქ თითქმის მათ სახელზე </l>
+                        <l><hi rend="dropcap">დ</hi>ღესასწაულებია.</l>
+                        <l><hi rend="dropcap">ა</hi>მას თუ არა ესმის, </l>
+                        <l><hi rend="dropcap">შ</hi>ენა გესწავლებია !“ </l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l>- „<hi rend="dropcap">კ</hi>არგი . . . ყველა გავიგეთ,</l>
+                        <l><hi rend="dropcap">ა</hi>ქამდისაც ვიცოდით, </l>
+                        <l><hi rend="dropcap">მ</hi>აგრამ , ჩემო ბარტყებო, </l> 
+                        <l><hi rend="dropcap">თ</hi>ქვენ მისგან რას ელოდებით ? ! </l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">მ</hi>ართლაც თქვენ წინაპრებმა </l>
+                        <l><hi rend="dropcap">რ</hi>ომი გადაარჩინეს </l>
+                        <l><hi rend="dropcap">დ</hi>ა სწორეთ კარგი საქმე </l>
+                        <l><hi rend="dropcap">ი</hi>მათ გადაგვირჩინეს.</l>
+                     </lg>
+                  </div>
+                  <pb f="10r" n="იგ"/>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">მ</hi>ხოლოდ ეს კი მაკვირვებს, </l>
+                        <l><hi rend="dropcap">თ</hi>ქვენ რა ჰქენით ისეთი, </l>
+                        <l><hi rend="dropcap">რ</hi>ომ პატივი მიიღეთ? </l>
+                        <l><hi rend="dropcap">რ</hi>ათ ვარგიხართ ანცერთი ?!“ </l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l>„<hi rend="dropcap">ჩ</hi>ვენა? ჩვენ . . . არაფერი . . . </l>
+                        <l><hi rend="dropcap">მ</hi>აგრამ ჩვენი მამები . . . „ </l>
+                        <l>- <hi rend="dropcap">ე</hi>ს ხომ ჩვენც გავიგონეთ ! </l>
+                        <l><hi rend="dropcap">ი</hi>ს თქვენი წინაპრები </l> 
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">ღ</hi>ირსნი იყვნენ პატივის, </l>
+                        <l><hi rend="dropcap">ხ</hi>ალხიც კარგად იგონებს; </l>
+                        <l><hi rend="dropcap">თ</hi>ქვენ რაც ტყვილათ არ ყვირით,</l>
+                        <l><hi rend="dropcap">ა</hi>რავინ გავიგონებსთ. </l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">მ</hi>ეტს კი არ შეგაწუხებთ; </l>
+                        <l><hi rend="dropcap">რ</hi>აც ვსთქვი, მისც უკაცრავათ ! </l>
+                        <l><hi rend="dropcap">ე</hi>ს კი იცოდეთ,  მხოლოდ</l>
+                        <l><hi rend="dropcap">ვ</hi>არგიხართ თქვენ შესაწვავათ . </l>
+                     </lg>
+                  </div>
+                  <div type="subchapter">
+                     <head>* * *</head>
+                     <lg>
+                        <l><hi rend="dropcap">ა</hi>რავის გაგიძნელდება </l>
+                        <l><hi rend="dropcap">თ</hi>უმცა კი შეიძლება, </l>
+                        <l><hi rend="dropcap">მ</hi>აგრამ ბატების ხათრით </l>
+                        <l><hi rend="dropcap">ვ</hi>ინმე დამემდურება. </l>
+                     </lg>
+                     <p hand="#h1">კირავოზათ ნამყოფი.</p>
+                  </div>
+               </div>
+               <div type="chapter">
+                  <pb f="10v" n="იდ"/>
+                  <head> 
+                     <hi rend="dropcap">რ</hi>ამოდენიმე მოქმედი პირი ე. ნინოშვილის<lb/>
+                     მოთხრობა „<hi rend="dropcap">ქრისტინე</hi>“-სი 
+                  </head>
+                  <p hand="#h1">
+                     <hi rend="dropcap">უ</hi>დროოთ დაკარგული ნიჭიერი ბელლეტრის-<lb/>
+                     ტი ნინოშვილი მრავალი მხრით შეეხო ჩვენს ცხოვ-<lb/>
+                     რებას; მან მრავალი ახალი ტიპი გამოიყვანა მიმა-<lb/>
+                     ლულ კუნჭულიდან და დაგვანახა მისი კარგი და <lb/>
+                     ცუდი მხარეები. მოთხრობა „<hi rend="dropcap">ქ</hi>რისტინეში“  ის ეხე-<lb/>
+                     ბა გურიის ცხოვრებას და გვაძლევს მისი ავ-კარ-<lb/>
+                     გის უტყუარ სარკეს, რომელშიც ზიზღით ვუყუ-<lb/>
+                     რებთ უქმაძეებს, ძველისუნიძეებს, პირიმზისა და ნატა-<lb/>
+                     ლიას მსგავს  ბებრუხანებს, რაოდენიმე  პატივის ცე-<lb/>
+                     მით მაშოს და განუსაზღვრელი სიბრალულით ქრი-<lb/>
+                     სტინეს, მის მშობლებს, აგრეთვე სონასაც, თუმცა მი-<lb/>
+                     სი ხასიათი რაღაც ძლიერ მკრძალათ არის გამოხა-<lb/>
+                     ტული. ამ მოთხრობის  უმთავრესი პირები არიან <lb/>
+                     <hi rend="dropcap">ქ</hi>რისტინე და <hi rend="dropcap">ი</hi>ასონ უქმაძე, მაგრამ უკეთესი იქმნე-<lb/>
+                     ბა, მგონია, ჯერ მათი მშობლები გავიცნოთ, რად-<lb/>
+                     გან ქართული ანდაზა ამბობს: „დედანახე, მამა ნახე, <lb/>
+                     შვილი ისე გამონახეო.“ 
+                  </p>
+                  <p hand="#h1">
+                     <hi rend="dropcap">ი</hi>ასონის მამა, ბეჟან უქმაძე, არის შეძლე-<lb/>
+                     ბული, თავმომწონე და ამაყი აზნაური; სწავლა-განა-<lb/>
+                     თლებას ის არ შეუწუხებია და არც თვითონ აწუხებს <lb/>
+                     მით შვილს: იმდენ სწავლას აძლევს მას, რომ წე-<lb/>
+                     რა-კითხვა და ცოტა რუსული ლაპარაკი შეიძლოს,<lb/>
+                     <pb f="11r" n="იდ"/>
+                     თავი ირჩინოს, „ ფილოსოფიათ კი არ უნდა!“ რო-<lb/>
+                     გორც ძლიერ თავმოყვარე, ამაყი აზნაურები, ბეჟა-<lb/>
+                     ნი „უმალ სასიკვდილოთ გაიმეტებს თავის ია-<lb/>
+                     სონს, სანამ გლეხი-ქალის შერთვის ებას მისცემს; “ <lb/>
+                     ის ზრდის შვილს ფუფუნება-თავისუფლელბაში; თა-<lb/>
+                     ვის დღეში არ წარმოიდგენს, რომ შვილს ჩაუნერ-<lb/>
+                     გოს გულში მოძმის სიყვფარული, ღარიბების სიბ-<lb/>
+                     რალული.
+                  </p>
+                  <p hand="#h1">
+                     <hi rend="dropcap">გ</hi>ასაკვირვი არაა ასეთ მამას ცუდი <lb/>
+                     შვილი გამოუვიდეს. <hi rend="dropcap">ი</hi>ასონი მამას ბევრითაც <lb/>
+                     ასწრებს თავის ცუდი ზნე-ჩვეულებებით. ფუფუნე-<lb/>
+                     ბაში აღზრდილს „დისციპლინა“ მას არაფრათ ეპი-<lb/>
+                     ტნავება, სწავლა სძულს, დიდგულობს, მასწავლე-<lb/>
+                     ბელი ლახავს. სკოლიდან გამოგდებული ის დგე-<lb/>
+                     ბა მწერლად მაზრის სამმართველოში, მის <lb/>
+                     დაუდეგარ გაფუჭებულ ხასიათს არც მწერლო-<lb/>
+                     ბა ეჭაშიკება, იქაც მაყობას იწყებს და იქიდამაც<lb/>
+                     მალე გამოაბრძანებენ; მუშაობა სძულს, არ <lb/>
+                     კადრულობს; ზის უქმად მამის ოჯახში; ჭამა, სმა, <lb/>
+                     ჩაცმა, დახურვა, ძილი, მთქნარება და უთავბოლო<lb/>
+                     ზმორებაც ხდება მის მუდმივ საქმე. ამ გვარი ცხო-<lb/>
+                     ვრებაც მალე მოსწყინდა <hi rend="dropcap">ი</hi>ასონს; ის იწყებს <lb/>
+                     სოფელ-სოფელ ხეტიალს, გაიცნობს გლეხების <lb/>
+                     ოჯახობას, ახშირებს მათთან სიარულს, უახლოვ-<lb/>
+                     დება გლეხის ახლაგზარდა ქალებს, ბევრ ოჯახს<lb/>
+                     ბღალავს, ბევრ ქალს ნამუსს ხდის, ბევრ ცოლ-ქმარს <lb/>
+                     ჰყრის; მიზნის მისაღწევად ყოველ გვარ უსვინ-<lb/>
+                     დისობას ეწევა; უარ ჰყოფს პატიოსან სიტყვას,<lb/>
+                     <pb f="11v" n="ივ"/>
+                     უარ ჰყოფს ნათესაობის წეს-რიგს, უარ ჰყოფს <lb/>
+                     ფიცს, თუკი <hi rend="dropcap">ქ</hi>რისტინეს ჩაიგდებს ხელში და თა-<lb/>
+                     ვის მხეცურ სურვილს მოიკლავს. როგორც (ქრი-<lb/>
+                     სტინეს დედის) შვილობილი, <hi rend="dropcap">ი</hi>ასონი ხშირათ და-<lb/>
+                     დის <hi rend="dropcap">ქ</hi>რისტინეს დედასთან, თუმცა გულში კი <lb/>
+                     იცინის: "რამდენი დედა მყავსო!" ის ეძებს შემ-<lb/>
+                     თხვევას სიყვარული გამოუხადოს <hi rend="dropcap">ქ</hi>რისტინეს და, <lb/>
+                     როდესაც იშოვნის, მაცდურ გველივით შეუჯდება<lb/>
+                     მას გულში და, ბევრი ცდის შემდეგ, პოულობს ალაგს<lb/> 
+                     და თან-და-თან უფრო მკვრივდება შიგ;  აძლევს  ქრის-<lb/>
+                     ტინეს პატიოსან სიტყვას, აძლევს ფიცს, ცოლათ შე-<lb/>
+                     გირთავ და გაგაბედნიერებო; მაგრამ ატყუებს; სად <lb/>
+                     არის მასში ამდენი პატიოსნება, იმდენი სვინდისი და <lb/>
+                     ვაჟკაცური გრძნობა, რომ გაიფიქროს <hi rend="dropcap">ქ</hi>რისტინეს მშობ-<lb/>
+                     ლების გაბედნიერება, რომ წარმოიდგინოს, რა<lb/>
+                     მოელის მისგან ნამუს ახდილ <hi rend="dropcap">ქ</hi>რისტინეს?! ია-<lb/>
+                     სონი ლეჩაქს ხდის <hi rend="dropcap">ქ</hi>რისტინეს, სამუდამოდ მოუ-<lb/>
+                     შორებელ ჩირქს სცხებს მის ქალწულობას, მის პა-<lb/>
+                     ტიოსნებას და რა მიაღწევს მიზანს <hi rend="dropcap">ქ</hi>რისტინეს თავს <lb/>
+                     ანებებს, და მდიდარ აზნაურის ქალზედ იწერს ჯვარს, <lb/>
+                     <hi rend="dropcap">ქ</hi>რისტინეს კი სრულიად ივიწყებს; მხოლოდ თუ <lb/>
+                     სადმე ჩამოაგდებენ  ლაპარაკს <hi rend="dropcap">ქ</hi>რისტინეს სილამა-<lb/>
+                     ზეზედ, <hi rend="dropcap">ი</hi>ასონი თავმომწონეთ ამბობს: „მე შევაცდი-<lb/>
+                     ნე ასეთი ლამაზი ქალიო.“  ერთხელ, როდესაც ია-<lb/>
+                     სონი და მისი მეუღლე ცხენებით დასეირნობენ, <lb/>
+                     გზაზე შეხვდა მათ <hi rend="dropcap">ქ</hi>რისტინე, რომელმაც მოღალატე <lb/>
+                     <pb f="12r" n="იზ"/>
+                     და გაუტანელი უწოდა <hi rend="dropcap">ი</hi>ასონს. ეს აირია და გაჯავრე-<lb/>
+                     ბით წარმოსთქვა: „ნეტა რა უნდა ჩემგან ამ უნამუსო  <lb/>
+                     დედაკაცს? მომშორდი, თორემ?!..“ შეიძლება, ამ სი-<lb/>
+                     ტყვებს  სხვა რამ უწესობააც მოჰყოლოდა, რომ ცოლს<lb/> 
+                     არ დაემშვიდებია <hi rend="dropcap">ი</hi>ასონი. - არ ვიცი ამ კაცს საგუ-<lb/>
+                     ლეში კაცის გული უძევს, თუ არა ქვა! არა, ქვა <lb/>
+                     უნდა ედვას: <hi rend="dropcap">ი</hi>ასონი თამოყვარეა, ამაყია, <lb/>
+                     თავმომწონეა; მაგრამ ეს კი მაკვირვებს, რისთვის ვერ <lb/>
+                     წარმოუდგენია მას, ამ თავმოყვარე ყმაწვილს, რომ <lb/>
+                     სხვებსაც ექნება ასეთი თავმოყვარეობაო! <hi rend="dropcap">თ</hi>უ ეს წარ-<lb/>
+                     მოდგენილი აქვს, მაგრამ თავისას მაინც არ იშლის,<lb/>
+                     ჩვენ უნდა ვუწოდოთ  მას მხეცი, რომელსაც  თავის  მძო-<lb/>
+                     რის დაკმაყოფილების მეტი არა ახსოვს რა; თუ კი <lb/>
+                     ადამიანის რიცხვში მივიღეთ - მაშინ უნდა დავარ-<lb/>
+                     ქვათ გარყვნილი თვით მოყვარე (себялюбивый), რო-<lb/>
+                     მელიც ცოტათი განსხვავდება მხეცისგან.
+                  </p>
+                  <p hand="#h1">
+                     <hi rend="dropcap">ა</hi>ი ასეთ კაცს უვარდება ხელში <hi rend="dropcap">ქ</hi>რისტინე, <lb/>
+                     გლეხის <hi rend="dropcap">დ</hi>ათია ხელმოკლიძის ასული. <hi rend="dropcap">დ</hi>ათია <lb/>
+                     ერთი ღატაკი, ცოლ-შვილით დატვირთული,<lb/>
+                     მუდმივი მუშა, მეზობლობის მცოდნე, ცოლ-შვი-<lb/>
+                     ლის მოყვარული გლეხია, მასთან სავსე პატი-<lb/>
+                     ოსნური თავმოყვარეობით. <hi rend="dropcap">ო</hi>ფლის  ღვრით, წე-<lb/>
+                     ლებზე ფეხის დგმით <hi rend="dropcap">დ</hi>ათია შოულობს ლუკმა <lb/>
+                     პურს; ნახევარს ბეჟან უქმაძის ადგილში მუ-<lb/>
+                     შაობს; სცდილობს, ბეჟანი არ გადაიმტეროს, <lb/>
+                     ოჯახი წმინდათ პატიოსანი შეინახოს, ერიდება<lb/>
+                     სოფლის ხმების, სოფლის ყბათ აღებას.<lb/>
+                     <pb f="12v" n="იჱ"/>
+                     რაც ღარიბ გლეხს მოეთხოვება, <hi rend="dropcap">დ</hi>ათია კარგათ ინა-<lb/>
+                     ხავს ცოლ-შვილს; თავი მოსწონს შვილებით, მეტადრე <lb/>
+                     <hi rend="dropcap">ქ</hi>რისტინეთი, და მხიარულია, როდესაც სადმე შეკრები-<lb/>
+                     ლობაში მისი ქება ისმის. <hi rend="dropcap">თ</hi>უმცა მას  ძლიერ უყვარს <lb/>
+                     <hi rend="dropcap">ქ</hi>რისტინე, მაგრამ ოჯახის შებღარვას კი ვერ უთბენს; მისი<lb/>
+                     ცუდი ყოფაქცევით თავზარდაცემული <hi rend="dropcap">დ</hi>ათია თითქმის სა-<lb/>
+                     სიკვდილოთ იმეტებს თავის საყვარელ, სასიქადულო ქრის-<lb/>
+                     ტინეს, არ აკლებს ცემა-ტყეპას, თმით თრევას; ის არ უთმენს<lb/>
+                     ოჯახის დამცირებას, გაუპატიურებას <hi rend="dropcap">ი</hi>ასონ უქმაძეს; უგზავ-<lb/>
+                     ნის მოციქულებს, <hi rend="dropcap">ქ</hi>რისტინე შეირთეო; სასამართლოშიაც<lb/>
+                     უჩივის, მაგრამ ვერას ხდება თავის გამოუცდელობის და <lb/>
+                     სიღატაკის გამო; <hi rend="dropcap">ი</hi>ასონი თავს იმართლებს ვექილის <lb/>
+                     შემწეობით. <hi rend="dropcap">დ</hi>ათია ხდება ყბად აღებული, წყალწაღებუ-<lb/>
+                     ლი; <hi rend="dropcap">ი</hi>ასონზე ჯავრს ვერ იყრის; ისევ მიდგება საბრა-<lb/>
+                     ლო <hi rend="dropcap">ქ</hi>რისტინეს და ლანძღვა-გინებით და წყრომით სიცო-<lb/>
+                     ცხლეს უმწარებს. ბოლოს მაინც თან-და-თან ლბება მშო-<lb/>
+                     ბლის გული, <hi rend="dropcap">დ</hi>ათია თან-და-თან იბრალებს <hi rend="dropcap">ქ</hi>რისტინეს. <lb/>
+                     ხანდახან გოგის ტირილით გაჯავრებული<lb/>
+                     ის უწყრება <hi rend="dropcap">ქ</hi>რისტინეს, ბავშვებს ნუ ატირებ და ნუ მაწუხებო. <lb/>
+                     როდესაც <hi rend="dropcap">ქ</hi>რისტინე შინიდგან <hi rend="dropcap">თ</hi>ბილისს იპარება, <hi rend="dropcap">დ</hi>ათია<lb/>
+                     ვიღაცის რჩევით მიდის იქ და გულმოდგინეთ ეძებს ქრის-<lb/>
+                     ტინეს, მაგრამ ვერას ხდება, რადგან გამოუცდელი, კარში<lb/>
+                     გამოუვალი კაცია;  ბრუნდება შინ ხელცარიელი და მიეცე-<lb/>
+                     მა უზომო ჯავრს: ვეღარ მუშაობს, ვერც სვამს და ჭამს მო-<lb/>
+                     სვენებით; ხანდისხან ისე ღრმათ, გულსაკლავათ ამოიოხრავს, <lb/>
+                     „ვაი ჩემ დღეს, რა შვილი დამეღუპაო, რომ გეგონება, გუ-<lb/>
+                     ლი შუაზედ გაუსკდაო. 
+                  </p>
+                  <pb f="13r" n="ით"/>
+                  <p hand="#h1">
+                     <hi rend="dropcap">ა</hi>მ პატიოსან პირს ჰყავს სწორეთ შესაფერი<lb/>
+                     მეუღლე, <hi rend="dropcap">მ</hi>არიკა. ეს, როგორც <hi rend="dropcap">დ</hi>ათია. არის ერთი <lb/>
+                     ალალ-მართალი ადამიანი, უფროსთან თავდაბალი, <lb/>
+                     ქმარ-შვილისათვის თავგადადებული, ხანდისხან<lb/>
+                     ფიცხი, (როგორც გურული ქალი,) მაგრამ ძლიერ მგრძნო-<lb/>
+                     ბიარე, სუსტი გულის არსება.  <hi rend="dropcap">ქ</hi>რისტინეს ყოფაქცე-<lb/>
+                     ვით თავზარდაცემული <hi rend="dropcap">მ</hi>არიკა სწყევლის მას და<lb/>
+                     ეხვეწება ღმერთს მის მალე სიკვდილს, მაგრამ ის, <lb/>
+                     როგორც დედა, სწყევლის <hi rend="dropcap">ქ</hi>რისტინეს მხოლოდ ენით,<lb/>
+                     გულში  კი უთუოთ ხელს იცემს, რა წარმოსთქვა ეს <lb/>
+                     ჩემმა ბოროტმა ენამო! როდესახ <hi rend="dropcap">ქ</hi>რისტინე ეუბნე-<lb/>
+                     ბა <hi rend="dropcap">მ</hi>არიკას, „შენ და მამა-ჩემს ჩემი სიკვდილი გინდათ<lb/>
+                     ბარემ მომკალითო,“ <hi rend="dropcap">მ</hi>არიკას ფული უსკდება, თვალებზე <lb/>
+                     ცრემლები ადგება და გულამოსკვნით ამბობს: „მე მინდა შე-<lb/>
+                     ნი სიკვდილი, მე?! თუ გიწყრებით მე და მამა შენი, ისევ<lb/>
+                     შენი გულიზა, თავი რეიზა წეიხდინეო.“ <hi rend="dropcap">ქ</hi>რისტინეს <lb/>
+                     დაკარგვა  შუა უყოფს სიცოცხლეს დედას: „ის<lb/>
+                     მიუჯდება ღოჯეს, სადაც <hi rend="dropcap">ქ</hi>რისტინეს უყვარდა ჯდომა, <lb/>
+                     და მოსთქვამდა თავის ბედკრულ შვილს.“ მხოლოდ მარჩი-<lb/>
+                     ელის სიტყვებით აიმედებს თავს და მოთმინებით ელის <lb/>
+                     <hi rend="dropcap">ქ</hi>რისტინეს დაბრუნებას; რამდენი ქალი გაივლის გზაზე,<lb/>
+                     <hi rend="dropcap">მ</hi>არიკას ყველა <hi rend="dropcap">ქ</hi>რისტინე ჰგონია და წინ ეგებება, მაგრამ <lb/>
+                     <hi rend="dropcap">ქ</hi>რისტინე არ ჩნდება. <hi rend="dropcap">დ</hi>აჯავრიანდება <hi rend="dropcap">მ</hi>არიკა, შეს-<lb/>
+                     ძულდება უ<hi rend="dropcap">ქ</hi>რისტინეოთ ცხოვრება, შესძულდება სმა-<lb/>
+                     ჭამა, მის თვალებს ძილი არ ეკარება; თუ ხანდისხან <lb/>
+                     მილულავს ის თვალს, ათას ნაირი სიზმარი  გულს <lb/>
+                     უღრღნის და მოსვენებას არ აძლევს.
+                  </p>
+                  <p hand="#h1">(შემდეგი იქნება)</p>
+                  <p hand="#h1">ქ-რელი.</p>
+               </div>
+            <div type="chapter">
+               <pb f="13v" n="კ"/>
+               <div type="subchapter">
+                  <head><hi rend="dropcap">გაბრიელი</hi></head>
+                  <lg> 
+                     <l><hi rend="dropcap">ა</hi>მა  სამოთხებრ შემკულ ქვეყაბას </l>
+                     <l><hi rend="dropcap">ა</hi>ნათებს ერთი დიდი ვარკლავი,</l>
+                     <l><hi rend="dropcap">ღ</hi>ვთით მოვლენილი, მოხუცი ბრძენი, </l>
+                     <l><hi rend="dropcap">ღ</hi>ვთის სიყვარულის გულს დამნერგველი,</l> 
+                     <l><hi rend="dropcap">ჭ</hi>კუით მაღალი, გულით დაბალი, </l>
+                     <l><hi rend="dropcap">ა</hi>ნგელოზებრივ პირმოცინარი, - </l>
+                     <l><hi rend="dropcap">ყ</hi>ოვლად სამღვდელო ეპისკოპოსი </l>
+                     <l><hi rend="dropcap">გ</hi>აბრიელ დიდი, მშვიდი ვით კრავი. </l>
+                  </lg>
+                  <p hand="#h1">ვინმე</p>
+               </div>
+               <div type="subchapter">
+                  <head><hi rend="dropcap">ყანწს</hi> (ხალხური ლექსი). </head>
+                  <lg>                  
+                     <l><hi rend="dropcap">კ</hi>ახური ღვინით აღვსილო,</l>
+                     <l>გული მიგრილე; </l>
+                     <l>როს მტრის საბრძოლათ წავიდე, </l>
+                     <l>სიმხნევე მომე! </l>
+                  </lg>                  
+               </div>
+               <div type="subchapter">
+                  <head> * * *</head>
+                  <lg> 
+                     <l><hi rend="dropcap">მ</hi>ტერს ვძლიო სამშობლოსი, </l>
+                     <l>მტერი ორგული; </l>
+                     <l><hi rend="dropcap">ა</hi>რ დავბრუნდე შერცხვენილი,</l>
+                     <l>თავსლაფ დასხმული. </l>
+                  </lg>
+               </div>
+            </div>
+         </div>            
       </body>
    </text>
 </TEI>

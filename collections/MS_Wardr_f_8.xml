@@ -6,12 +6,24 @@
       <fileDesc>
          <titleStmt>
             <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. f. 8</title> 
+               <title type="alt" xml:lang="en">Table of affinities and prohibited marriages</title>
+               <title type="alt" xml:lang="ka">ქორწინებისჲ თავისჲჳს</title>
+               <title type="alt" xml:lang="ka-la">kʻorcinebisy tʻavisyws</title> 
+            </title>
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
+         <editionStmt>
+            <edition n="1">First publication edition, TEI P5.
+               <date>20 December 2019</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="#Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">2020-01-08</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -56,21 +68,44 @@
                </msContents>
                <physDesc>
                   <objectDesc form="leaf">
-                     <supportDesc material="chart">
-                        <extent>47 ff. <dimensions type="leaf" unit="cm">
-                              <height>16</height>
-                           </dimensions>
+                     <supportDesc material="chart">                        
+                        <support>The Manuscript is written on paper.</support>
+                        <extent>47 ff. <dimensions type="leaf" unit="cm"/>
+                           <seg type="leaf">
+                              <num type="leaf" value="47">47</num>
+                           </seg>
+                           <seg type="dimensions">
+                              <dimensions type="leaf" unit="cm">
+                                 <height quantity="16">16</height>
+                                 <width quantity="9">9</width>
+                              </dimensions>
+                           </seg>
                         </extent>
+                        <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library.
+                        </foliation>           
+                        <collation>The book has not title page. Catchwords are written horizontally in center
+                           or towards the right lower margin.</collation>
+                        <condition>The lists of manuscripts are not damaged.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
                            <dimensions type="line-height" unit="mm"/>
                         </layout>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
-                     <handNote scope="major" script="unknown"/>
+                  </objectDesc>            
+                  <handDesc hands="2">
+                     <handNote scope="major" xml:id="h1">Hand I writes the text of manuscript starting from 2r and finishing with 39r in Mkhedruli script</handNote>
+                     <handNote scope="minor" xml:id="h2">Hand II writes an addition on 2r in English with pencil</handNote>
+                     <handNote scope="minor" xml:id="h3">Hand III writes the text from 41r up to 47r in Mkhedruli script</handNote>
                   </handDesc>
+                  <decoDesc>
+                     <decoNote>The Manuscript has not decorations, but 44v, 45r and 45v have figures of crosses</decoNote> 
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding notAfter="1950" notBefore="2005">
+                        <p>The panel without ornaments is not old.</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
                <history>
                   <origin>
@@ -81,6 +116,19 @@
                </history>
                <additional>
                   <adminInfo>
+                     <recordHist>
+                        <source>
+                           Description adapted (2019) from the following source:
+                           <listBibl>                 
+                              <bibl>
+                                 <title>David Barret's Catalogue of the Wardrop Collection and of other Georgian Books and Manuscripts in the Bodleian Library</title>
+                                 <publisher>Published by the Marjory Wardrop Fund by Oxford University Press</publisher>
+                                 <date when="1973">1973</date>
+                                 <idno type="VIAF">216536082</idno>
+                              </bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
@@ -160,6 +208,9 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change when="2020-01-08">
+            <persName>Irina Lobzhanidze</persName>Expanded meta-annotation and provided the transcription.
+         </change>         
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl">https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl</ref>
          </change>
@@ -176,7 +227,2216 @@
    </facsimile>
    <text>
       <body>
-         <p><!--Body paragraph provided for validation and future transcription--></p>
+         <div type="original">
+            <div type="chapter">
+               <pb f="2r" n="3"/>
+               <p>
+                  <add type="margin-left" hand="#h2">Marjory Wardrop</add>
+               </p>
+               <head>                  
+                  Ⴕ<hi rend="color(FF0000)">ႭႰႼႨႬႤႡႨႱ&#x0312;Ⴢ ႧႠႥႨႱჂ&#x0312;ჃႱ჻</hi><lb/>
+                  ႱჃႠ჻
+               </head>               
+               
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴞ&#x0312;</hi> არისხნი ქორწინებისანი ამას ვიდრე ი<lb/>
+                  წოდებიან ხარისხად რ&#x0312;ვითარ იგი ვიბ<lb/> 
+                  ეთაზა აღვდენ ხარისხად დაშთამოვდენ ეგრე<lb/> 
+                  თვე არს ნათესაობაჲაცა ხარისხად Ⴂანიყოფებ<lb/>
+                  ის  უკვე ნათესაობაჲ ხუთ წესად დააღირაცხ<lb/>  
+                  ვოს ხუთ ნაწილად჻
+               </p>
+               <p hand="#h1">
+                  ႱႰ რომელნიცა ერთისა დამისვ მამისა: დაერ<lb/>
+                  თისა დამისვ დედისაგან იშვებიან ორ<lb/>
+                  ნი ძენი იბმნებიან ძმა და ანუ ერთისა მამისა და<lb/>   
+                  ორისა დედისაგან იშვენიან  ესენიცა იწოდები<lb/> 
+                  ან ძმად დავერავინ შემძლებელ არს თქმად ერთ<lb/> 
+                  ვერბჲსა ძის ძმიის თვისისა  დ ვ&#x0312;დ ესე<lb/> 
+                  არა არს ძმაჲ ჩ&#x0312; ვინათგან სხვისი დედისაგან <lb/>
+                  <pb f="2v" n="4"/>  
+                  იშვა჻ თუთუ ორისა მამისა  და ერთისა იშვ<lb/> 
+                  ბიან დედისაგან ვერცა ძით ძალუმს თქმად  არა<lb/>
+                  ვართ ძმა ვინათგან სხვის მამისაგან ვართ  და<lb/>   
+                  სრულიად  ძმანი არიან იგინი ერთისა დამისვე ან <lb/> 
+                  უ მამისა გინა დედისაგან შობილებითა   
+               </p>
+               <p hand="#h1">
+                  Ⴄსე უკვე  ძმანი არიან თავნი ორნი და შვილთა<lb/>  
+                  ამათთა ეწოდების (ულრტოლექსა დელფი) ესე <lb/> 
+                  იგი პირველნ გინა შვილნი დაუქმნებიან<lb/>  
+                  თავნი ორნი჻  ერთი მე Ⴋეორე  ჩემი ძმა჻<lb/>  
+                  Ⴎირველთა გინა შვილთაგან იშვებიან რა ძე<lb/>  
+                  ნი იწოდებიან (Ⴘევიტისა ექვსა დელჶო) ესე<lb/> 
+                  მეორე გინა შვილნი და იქმნებიან თავნი მეექ<lb/> 
+                  Ⴞ&#x0312;  მეორეთა ამათ გინა გინა შვილთაგან<lb/>
+                  რომელნიც იშვებიან ეწოდების მათ (჻
+                  <fw type="catch">დრ</fw>
+                  <pb f="3r" n="5"/>
+                  (იტა ექსა დელფია) ესე იგი მესმე ბიძა შვილნი და<lb/>
+                  იქმნებიან თავნი მერვედ჻
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi>  ႱჃ Ⴁ ჻<lb/>
+                  Ⴂ<hi rend="color(FF0000)">ანყოფილება ნათესაობისა ჻</hi>
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴂ</hi>ანიყოფილების ნათესაობ&#x0312;ჲ ხუთად ყორველთ არ <lb/> 
+                  ს სისხლისა Ⴋეორე მძახლობისა჻  ჳ Ⴋესამე სამ<lb/> 
+                  ნათესაობის: ჻ Ⴄსეცა მძახლობითვე არს მაგრა <lb/>   
+                  ს:მ ნათესაობისაგან  იქმნების. ⴕ Ⴋეოთხე ე ჩ<lb/> 
+                  &#x0312;ისა ნათლის ღებისა : კ და მეხუთე შვილად ვალდ<lb/> 
+                  ებულების჻  ესე იგი რომელიცა სამღთოჲთა წერილ <lb/> 
+                  ითა შვილს აღიყვანს დაიქმნების შვილი იგი ვ&#x0312;<lb/> 
+                  შობილი მისგან დადაიმკვიდრებს საცხოვრებელს<lb/>
+                  <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> შვილად აღმიყვანილის: თვისასა ჻ 
+               </p>
+            </div>
+            <div type="chapter">
+               <head>
+                  Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi> ႱჃ Ⴂ <lb/>
+                  ს<hi rend="color(FF0000)">ისხლის ნ&#x0312;თესაობისათვის ჻ </hi>
+               </head>
+               <pb f="3v" n="6"/>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">ს</hi>ისხლის჻  უკვე ნათესაიბაჲ განიყოფების<lb/> 
+                  სამად ქ Ⴀღმავლად შთამომავალად და<lb/> 
+                  განმავალად.) აღმავალნი არიან Ⴋამა ჩ<lb/>
+                  ემი პაპა ჩემი და წინა პარნი ჩემი<lb/> 
+                  ბებია ჩემი და ბებიის დედა ჩემი Ⴞ&#x0312; შთამ<lb/> 
+                  ომავალნი შვილნი ჩემი შვილის შვილი და სხვ<lb/>
+                  ანი. ვ და გვერდ განმავალ არიან რომელთ<lb/> 
+                  აგან არცა მე ვარ შვლ მათგან და არცა იგინი<lb/>
+                  ჩემგან გარნა ერთისა ნათესავსაგან ვართ<lb/> 
+                  ესე იგი არს ძმა ჩემი დაჲ ჩემი ბიძა შვი<lb/>
+                  ლი და ბიძა ჩემი და სხვანი჻ 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi>  ႱჃ Ⴃ <lb/>
+                  ს<hi rend="color(FF0000)">ისხლის ნათესაობისათჳს რ&#x0312;ლისა შ&#x0312;ა მეშვიდეთ თა<lb/>  
+                  ვი დაყენებულ არს და არა დაქორწინდების ჻ </hi>
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴑ</hi>ისხლის ნათესაობისა მეშვიდე დაყენებული არ 
+                  <fw type="catch">ს</fw>
+                  <pb f="4r" n="7"/>
+                  ყოვლითურთ და არა იქორწინების და არცაღა სწესს<lb/> 
+                  სჯული შერთვად ვისგანმე თვისისა მეორისა შინა<lb/> 
+                  შვილისა ასულისა ცოლად <del rend="strikethrough"/> -
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴋ</hi>უჱლსა ჻ დროსა შ&#x0312;ა უკეთუ იკითხვიდეს ვინმე<lb/>
+                  არა მისცემენ ქორწინებისა ნებასა და უკეთუ და<lb/>  
+                  ფარვით  იქმოდის შემდგომად სცნობდიან ვან<lb/> 
+                  ონსა მისცემდიან და დაუტევებდიან ხ&#x0312;  დაყე<lb/> 
+                  ნება არ რაჲმე აქვნდა მაშიდ ეკკლიისაგან ჻ 
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴈ</hi>ტყვის სჯული ვერვის ჳელეწიფების შერთ<lb/> 
+                  ვად ცოლად მეორისა ბიძა შვილისა ასულისა<lb/> 
+                  და არცა მე&#x0312;რისა ბიძისა ასულის ასულისა და<lb/> 
+                  ვინათგან დაფარულად მოქმედებენ ქორწი<lb/> 
+                  ნებისა ესე ვითარსა ვცათ ვუ<damage><gap quantity="1" unit="chars" reason="illegible"/></damage>თამე მახსე<lb/>
+                  ნეს ჳ&#x035B;ებისა ყ&#x0312;დ უწმინდესისა ივუმენ ივოს პა <lb/>  
+                  ტრო არხისა სოფლისა Ⴊუვასსა და მაშინ უვთ<lb/>
+                  <fw type="catch">ვ</fw>
+                  <pb f="4v" n="8"/>
+                  შარშანა ყ&#x0312;დ უწმინდესობამან ვერბ<lb/>  
+                  ითურთ რა არღარა იქმანს უსჯულო ესე ქორწინ<lb/> 
+                  ება უკეთუ იკადროს ვინ ქმნად ფარულად და<lb/> 
+                  ცნან შემდგომად განაშორონ შეერთებულნი იგი<lb/> 
+                  და ქორწინებისა მის საიდუმლოჲსა აღმასრულებ<lb/> 
+                  ელი მღვდელი განაყენონ ყოვლისა სამღვდელოჲსა წე<lb/>
+                  სისაგან჻ Ⴞ&#x0312; უკეთუ არა უწყოდა მღვდელმან<lb/>
+                  მან  და შეაცდუნეს ნუ განაყენებენ მის მ<lb/> 
+                  ღვდელობისგან: გარნა კანონი და სდვა<lb/>
+                  ნვე჻  Ⴃა რ&#x0312;ლთაცა უწყოდენ ქორწინებულთ<lb/> 
+                  ა მათ მეშვიდე თაობაჲ ვითარმედ არაჯერ<lb/>  
+                  იყო  შერთვად იგინი. და მათითა შუამდგომ<lb/> 
+                  ელობითა იქმნა ქორწინება იგი შეაჩვენენ<lb/> 
+                  იგინი ვინაჲცა სჯულისა გა<del rend="strikethrough">ა</del>რდამავალ არი<lb/> 
+                  ან - Ⴃაასდვა სჯული ესე მისმან ყ&#x0312;დ უწმინ <lb/> 
+                  დესობამან ბრძანებითა 
+                  <pb f="5r" n="9"/>
+                  დადამტკიცებითა მეფისა უფლისა მანუელ კორ<lb/> 
+                  ფოროვან  შობილისათა დაგანემტკიცას<lb/> 
+                  ჯული ესე რა არავინ მიიყვანოს ცოლად თვისი<lb/> 
+                  სა მეორისა ბიძა შვილისა ასული ვ&#x0312;ა ვს<lb/> 
+                  თქუთ ზემორე ჻ 
+               </p>
+               <p hand="#h1">
+                  Ⴄგრეთვე პატრი არხმან  <gap quantity="1" unit="chars" reason="illegible"/>ფალმან ალექსიოს ბრძ<lb/>
+                  ანა ქერუბიმთა რა არა იქმნას ესე და დასწერა<lb/> 
+                  სული დელსა 65t6 ვ&#x0312;დ ვ&#x0312;ა  აღვირნი არნ<lb/>  
+                  ცხენთათვის ეგრეთვე სჯული. ჩვენ მართლა<lb/> 
+                  მადიდებელთა და ქრისტიანეთა დათ&#x0312;ა მდებვართ<lb/> 
+                  რა ვჰყოთ ვ&#x0312;ა გვიბრძანებს განგვიცხადებ<lb/>   
+                  ს ჻ <gap quantity="2" unit="chars" reason="illegible"/>ორფოროვან ამად უკვეწოდა მანუი<lb/> 
+                  ლის მამამან მისმან შობასა მისსა პო<lb/> 
+                  <gap quantity="2" unit="chars" reason="illegible"/>ფოროვან პ<gap quantity="2" unit="chars" reason="illegible"/> ქალაქი იგი მეწამულითა<lb/>
+                  მავრა ჻
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi>  <del rend="strikethrough"/>ႱჃ Ⴄ <lb/>
+                  <pb f="5v" n="10"/>
+                  ს<hi rend="color(FF0000)">ისხლის ნათესაობისათვის჻  თუ ვითარ მერე თ<lb/>
+                  ავი განხსნილ არს ქორწინებისათვის და რაოდენსა<lb/> 
+                  შავსა შ&#x0312;ა დაიყენების ჻ </hi>
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">ს</hi>ისხლით ნათესაობის მერვე თავი იქმნების.<lb/>  
+                  ესრეთ Ⴋამან რაოდენნიცა შვნეს შვილნი<lb/> 
+                  ყოველივე ორთავედ აღირაცხვნიან და ღათუმრა<lb/> 
+                  თუ მრავლცა იყვნენ Ⴄსრეთ ვ&#x0312;დ მამა<lb/> 
+                  მან ჩემან მშვა მე დარს ერთი ნათესაო<lb/> 
+                  ბა დაართითავე Ⴃა შვა მამაჲცა ჩე<lb/>
+                  მი და იქმნა ორნი ნათესაობა და ორი<lb/> 
+                  თავი დარაოდენიცა შთამოვაინ ნათ<lb/>
+                  ნათესაობა ეს ოდენად  აღირაცხვია 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-right" hand="#h1">1</add>
+                  Ⴞ&#x0312; იხილე ესრეთ Ⴋამამან  ჩემან<lb/> 
+                  მშვა მე ღირს ნათესაობა ერთი და თ<lb/>
+                  ავი ერთი 
+               </p>
+               <p hand="#h1">
+                  Ⴃავშევ მე ძე ერთი და იქმნა<lb/>
+                  <pb f="6r" n="11"/>
+                  ნათესაობა ოთხი და თავი ოთხი:
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴁ</add>   
+                  <hi rend="color(FF0000)">Ⴉ</hi>&#x0312;დ მამამან ჩემმან ჰშვა ძმა ჩემი რო&#x0312;მელი<lb/> 
+                  ცა იქმნა ორნი ნათესაობაჲ დამამისა ჩე<lb/>
+                  მისა თ&#x0312;ა არს თავი ერთი და ჩემთა რომელიცა<lb/> 
+                  ძმა ვარ მისა იქმნა თავი ორი
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴂ</add>
+                  Ⴋამამან ჩემმან ჰშვა  მე რ&#x0312;ლ არს ძმის წული<lb/>
+                  ჩემი რ&#x0312;ლ მამისა თვისისა თ&#x0312;ა არს თავი ერთი <lb/>
+                  ხ&#x0312;     ჩემ თ&#x0312;ა ვინაჲთგან ბიძა ვარ მისი<lb/>
+                  იქმნა თავი სამი Ⴄსრეთ ვ&#x0312;დ  შობა ჩემი ე<lb/>
+                  რთი და ძმისა ჩემისა ორი დაძმის წულისა ჩემი<lb/>
+                  მისა სამი჻
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴃ</add>
+                  Ⴅშევ მეცა და არს ძმის წულისა ჩემისა და<lb/>
+                  შვილისა ჩემისა შობა მეოთხე და თავიცა <lb/>
+                  მეოთხე ჻ 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴄ</add> Ⴉ&#x0312;დ ძმისწულისა ჩემან შვა ძე და იქმნა<lb/>
+                  <pb f="6v" n="12"/>
+                  <add place="margin-left" hand="#h1">ნ</add>
+                  ნათესაობა სამი მამისა და თავიცა სამი ხ&#x0312;   <lb/> 
+                  ჩემთა ბიძისა მისისა იქმნა ნათესაობა ო<lb/>
+                  თხი სათვიცა ოთხი დაშვილისა ჩემთა<lb/>
+                  თავი მეხუთე  და შვილის შვულის ჩემისათა<lb/>
+                  რომელიცა მეორე ბიძა შვილი არს მიი იქმნა თა<lb/>
+                  ვი მეექვსე ჻
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴅ</add>
+                  Ⴉვალად ძმისწულისა ჩემისა შვილმან შვა<lb/>
+                  ასული რომელიცა არს ძმისა ჩემისა თ&#x0312;ა<lb/>                  
+                  თავი მეოთხე და ჩემთა მეხუთე და შვილისა ჩე<lb/>
+                  მისა თ&#x0312;ა მეექვსე ჻  
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴆ</add>  
+                  Ⴃაშვილის შვილისა ჩემისა თა მეშვიდე ჻<lb/>
+                  Ⴞ&#x0312; ჩემისა შვილის შვილისა შვილისა თ&#x0312;ა რო <lb/>                
+                  მელისაცა იქმნების მისდა მესამე ბიძა შვილი <lb/>
+                  თქმნა თავი მერვე 
+               </p>
+               <p hand="#h1">
+                  Ⴃა ესრეთ იქმნების ქორწინება დაუბრკოლებელად <lb/>    
+                  <pb f="7r" n="13"/>
+                  რვესა თავსა <add place="above" hand="#h1">ა</add>ზ&#x0312;ა჻ 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">Ⴤ ხილვა შეერთებათათვის ჻ </hi>
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">ს</hi>ისხლითა ვიდრემე ნათესაობაჲ მერვეთავამდე<lb/> 
+                  ჯერ არს წმინდად დაცვალდ ყოველთაგან დარა გარდავ<lb/>
+                  დეს მერვესა თავსა განხსნილარს დაუბრვოლებად 
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴘ</hi>ევირაც მე ცოლად მსამისა ბიძისა ჩემისა ასულსა<lb/>
+                  თვინიერ <gap reason="illegible" quantity="1" unit="character" n=""/>ისა სავანობოჲსა ვითარ იგი ვსთქუთ 
+               </p>
+               <p hand="#h1">
+                  Ⴈ<hi rend="color(FF0000)">ხილე</hi> Ⴄგრეთვე შევირთავ მეორესა ბიძისა ჩემისა<lb/>
+                  ასულის ასულის ასულისა჻  
+               </p>  
+               <p hand="#h1">  
+                  <hi rend="color(FF0000)">Ⴞ&#x0312;</hi> მძახლობითი ნათესაობა განხსნილ ას მე<lb/>
+                  შვიდესა თავსა შ&#x0312;ა დამეექვსესაცა჻  
+               </p>  
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴂ</hi>არნა შვილად სახელ დებულებისა და ნათლის ღების<lb/>
+                  ა მერვესა თავსა შ&#x0312;ა განისხნების ვ&#x0312;ა სისხლითისა<lb/>
+                  ნათესაობისა ჻  <hi rend="color(FF0000)">Ⴞ&#x0312; </hi>   ტრუღენია ესე იგი გვარო<lb/>
+                  ბიათ იქნების მეხუთესა შ&#x0312;ა და მერვესაცა჻ 
+               </p>
+               <fw type="catch">Ⴀ ႧႠႥႨ Ⴄქსან</fw>
+               <pb f="7v" n="14"/>
+            </div>
+            <div type="chapter">
+               <head>
+                  Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi>  ႱჃ Ⴅ<lb/>  
+                  Ⴄ<hi rend="color(FF0000)">ქსან ტისტიისთვის ესე იგი მძახლ<lb/> 
+                  ობისა ნათესაობის ჻ </hi>
+               </head>               
+               <pb f="8r" n="15"/>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">სისხლითა</hi> უკეუჱ ნათესაობაჲ განსარ<lb/>
+                  ევე არს დანებითა მხთ&#x0312;ისათა დიდვა იგი ზემორ<lb/>
+                  ე ჻ <hi rend="color(FF0000)">Ⴞ&#x0312;</hi>  თავნი მძახლობითსანი არიან ძნი<lb/>
+                  ანდ განსარჩევ და ამისათვის თ&#x0312;ა და მდებვართ<lb/>
+                  უფროსად განვრძალვით გამოჩიებად რ&#x0312;ა არი<lb/>
+                  მ<gap reason="illegible" quantity="2" unit="character" n=""/> მივიღოთ შეცთომილება რაჲმე.<lb/>
+                  და უსჯულოსა საქმესა ვეზიარეთ დასუკუნო<lb/>
+                  სა ს&#x0312;ტანჯულსა მივეცნეთ ამისთვის უ<lb/>
+                  კვე ვ&#x0312;ყოთ გამოძიება ნამდვილ და რაოდენ<lb/>
+                  საცა შეუნდობდეს სჯული ვჰყოთ იგი და<lb/>
+                  რომელნიცა ნებსით ჰყოფენ წინა აღმდგომ<lb/>
+                  სა სჯულისა ქრთამითა ნუ ნუ<damage><gap quantity="2" unit="chars" reason="illegible"/></damage>ით<lb/>
+                  <fw type="catch">ყ</fw>
+                  <pb f="8v" n="16"/>
+                  გინა კაცთ მოთმინებისათვს იგინიცა და ცოლ<lb/>
+                  ქმარნიცა იგი რომლითაცა სისხლისა აღრევა ქ<lb/>
+                  მნეს შეერთებულნიცა და შუამდგომელნიცა<lb/>
+                  მაკურთხეველისათა მათისა ერთ ბაშად მიეც <lb/>
+                  ნენ სატანჯველსა რ&#x0312;ლ უმეტესსა ღ<del rend="strikethrough"/>რ<lb/>
+                  ღრმასა შ&#x0312;ა დანახეთქსა შთაცვივიან მწ<lb/>
+                  ყემსნა ად ამად ვითარმედ უცთომელი თვალი <lb/>
+                  <gap reason="illegible" quantity="1" unit="character" n=""/>ეთისა ყოველსამე ხედავს და ყოველივე უწყის ჻
+               </p>
+               <p hand="#h1">
+                  Ⴐყლნი მამანი დამოძღვარნი განხსნოდენ მე <lb/>
+                  ყოველისა თავსა ახალთა <del rend="strikethrough">მ</del> მეშვიდე და აყენეს<lb/>
+                  და განხსნეს <del rend="strikethrough">მ</del> მეექვსე (:::) ამა ვ&#x0312;დ ვითარმედ<lb/>
+                  და განხსნენ მექვსე ამად ვ&#x0312;დ ვითარმედ <lb/>
+                  მეექვსესა თავსა არა აქვს ეს ოდენ აღრეულო<lb/>
+                  ბა რაოდე&#x0312;ცა აქვს თავას მეშვიდესა ჻ <lb/> 
+               </p>  
+               <p hand="#h1">  
+                  Ⴋრავალს ადგილსა მეექვსე განიხსნების და<lb/>
+                  მეშვიდე დაეყენების დამრავალს ადგილს მეექვ
+                  <fw type="catch">სეს</fw>
+                  <pb f="9r" n="17"/>
+                  სეს  და ეყენების და მეშვიდეს  განიხსნების დამი<lb/>
+                  ზეზი  ამისი არს აღრევათვთა დააღურეველობ ჻
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴈ </add> 
+                  სჯული დააყენებს კაცსა მის რომ<lb/>
+                  ელსაცა შეირთავს დედასა და სულსა Ⴀნუ ბებ<lb/>
+                  <add place="margin-left" hand="#h1">Ⴀ</add>
+                  იასა და ასულსა ასულსა Ⴀნუ ბებიასა დედასა
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">შ</add>
+                  და ასულისა ასულისა ასულისა Ⴀნუ ვ&#x0312;დ ბებია <lb/>
+                  სი ბებიასა დასულისა ასულის ასულის ასულსა: 
+               </p>
+               <p hand="#h1">
+                  Ⴂინა ცოლსა დისა Ⴀნუ ცოლის ძმისა ასულისა 
+               </p>
+               <p hand="#h1">
+                  Ⴂინა ცოლისა მეორეს ბიძისა ასულისა჻<lb/>
+                  ამად ვითარმედ არა <add place="above">არს</add> თავი მეშვიდე ვ&#x0312;ა აღრიცხენ<lb/>
+                  ვითარმეიმე჻
+               </p>  
+               <p hand="#h1">  
+                  <add place="margin-left" hand="#h1">Ⴈ </add>
+                  ხოლო და ქმრი ერთიჳორც არიან დ&#x0312;ე<lb/>
+                  რთსა თავად აღირიცხვიან჻ 
+               </p>
+               <p hand="#h1">
+                  Ⴠკითხა ვინმე ესე პატრი არხმა ნიკოლოზს დასა<lb/>
+                  მღვდელოსა კრებასა მისისა დარა ინებეს შენდობა<lb/>
+                  <pb f="9v" n="18"/>
+                  მიცემისა დაწარსცეს ბრძანებაცა სამეფოჲ და <lb/>
+                  საპატრიარხო რ&#x0312;ა ესე ვითარი ქორწინება არა ოდ<lb/>
+                  ეს იქმნეს჻ Ⴞ&#x0312;   მძახლობისა მეშვიდესა თავსა<lb/>
+                  შა ქორწინებანი და  შეერთებანა არა ჯერ არიან<lb/>
+                  ქმნად ამად ვითარმედ ერთი ბუნება <del rend="strikethrough">არს</del> არს<lb/>
+                  დიდება იგი ჻ 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1"><hi rend="color(FF0000)">Ⴈხილე</hi></add>
+                  <hi rend="color(FF0000)">Ⴁ</hi>უნება არს კაცი ერთი და დიდება <lb/>
+                  არს ვ&#x0312;ა ქმარ ცოლნი  შეერთებულ<lb/>
+                  არიან ერთ ჳორცობით ვითარ იგი<lb/>
+                  იტყვის წერილი჻ 
+               </p>  
+               <p hand="#h1">  
+                  Ⴘეირთავს  ცოლად კაცი ვინმე<lb/>
+                  ცოლისა თვისისა მეორისა ბიძისა<lb/>
+                  ასულისა
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi>  ႱჃ Ⴆ<lb/>
+                  Ⴁ<hi rend="color(FF0000)">იძისა სახელისათვის რომელიცა<lb/>
+                  სამად ითქმის და სამად განიყოფ</hi><lb/> 
+                  <pb f="10r" n="19"/>
+                  <hi rend="color(FF0000)">ის და რომელიცა ქორწინებიან და რომე<lb/> 
+                  ლნიცა <damage><gap quantity="5" unit="chars" reason="illegible"/></damage>არა</hi>
+               </head>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">I</add>
+                  <hi rend="color(FF0000)">Ⴁ</hi>იძად იწოდების ძმაჲ მამისა<lb/>
+                  ჩემისა და დაჲ მისი 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴁ</add>
+                  Ⴁიძა დიდი ეწოდების პაპისა ჩემი<lb/>
+                  სა ძმასა ანუ ბებიისა ჩემისა ძმასა
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">ჳ</add>
+                  Ⴞ&#x0312;  ბიძა მცირე ეწოდების მამისა ჩემი<lb/>
+                  სა პირველისა ბიძა შვილისა჻ Ⴞ&#x0312;  მამისა<lb/>
+                  ჩემისა ძმა აღირაცხვის ჩემთან მერმედ<lb/>
+                  თავად და პაპისა ჩემისა ძმა ანუ ბები<lb/>
+                  სა ჩემისა აღირაცხვის ჩემთა მეოთხ<lb/>
+                  ედ თავად ხ&#x0312; პირველი ბიძა შვილი მა<lb/>
+                  მისა ჩემის არს ჩემთანა აღრიცხულ მე<lb/>
+                  ხუთეს თავად ...    ..  .   .  ..  
+               </p>
+               <pb f="10v" n="20"/>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴀ</add> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>ამა დამე ვერ შეირთვენ ცოლად დედ<lb/>
+                  ასა დასულსა 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴁ</add> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>ამა ჩემი ვერ შეირთავს ცოლისა ჩემისა<lb/>
+                  ბებიასა 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴂ</add> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>ამა მამა შეირთავს ცოლისა ჩემისა ბების<lb/>
+                  დასა  
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴃ</add> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>ამა ჩემი ვერ შეირთავს ცოლის ჩემის დას  
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴄ</add> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>ამა ჩემი ვერ შეირთავს ცოლისა ჩემის მამის<lb/>
+                  დასა 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴅ</add>    
+                  <hi rend="color(FF0000)">Ⴋ</hi>ამა ჩემი ვერ შეირთავს ცილად ცო<lb/>
+                  ლისა ჩემისა დედის ბიძა შვილსა დაესე <lb/>
+                  ვითარი ქორწინება შენდობილი არს .... 
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴋ</hi>ამა ჩემი ვერ შეირთავს ცოლისა ჩემ<lb/>
+                  ისა მეორისა ბიძისა ასულსა და მისთვის<lb/>
+                  <pb f="11r" n="21"/>
+                  უკვე მივეცით შენდობა ბრძანებს სჯ<lb/>
+                  ული რ&#x0312;ა შეირთოს ძემან ქალი ერთი<lb/>
+                  და მამან მისგან შეირთოს თვისისა<lb/>
+                  მის ძისა სიდედრისა ბიძა შვილი ამად <lb/>
+                  ვითარმედ აქვსთ მათ ვ&#x0312;დ მამა შვილი<lb/>
+                  ძისა ადგილი . . 
+               </p>
+               <p hand="#h1">
+                  Ⴃა ოდესცა მამამან და შვილმა ორნი<lb/> 
+                  ბიძა შვილნი შეირთონ ნაცვლად მამ<lb/>
+                  ა შვილობისა თანა სიძე იქმნებიან<lb/>
+                  და მისთვის დაუენებს სჯული. 
+               </p>
+               <p hand="#h1">
+                  Ⴋამისა და შვილისა სახელნი არა აღი<lb/>
+                  სევიან ოდესცა შვილი შეირთავს ქალ <lb/>
+                  სა ვისმე და მამა შეირთავს თვისისა<lb/>
+                  ძის ძისა სიდედრისა ბიძაშვილსა -
+               </p>
+               <pb f="11v" n="22"/>
+               <p hand="#h1">
+                  Ⴋაგრა უკეთუ შეირთვენ ორსა ბ<lb/>
+                  იძაშვილსა აღირევიან ვითარ იგი ვს<lb/>
+                  თქუ ზემორე ნაცვლად მამაშვილი<lb/>
+                  ბისა თანა სიძე იქმნებიან და მის<lb/>
+                  თვის არა ჯერ არს დარომელსა ზედ <lb/>
+                  ა თავსა სახელები აღირეოდებ მაშინ<lb/>
+                  უკვე და ეყენების ქორწინება იგი და უ<lb/>
+                  კეთუ ვინმე ფარულად იქმან განდგომი<lb/>
+                  ლიქმნებიან სჯულისაგან...
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴄ</hi>სეცა ესრეთ ჯერ არს ყოფილად უკე<lb/>
+                  თუ მამამან შვილის სიდედრისა<lb/>
+                  ბიძა შვილი შეირთის და შვილმან<lb/>
+                  ასული ჯერ არს.   Ⴃაუკეთუ შვილმან<lb/>
+                  თვისისა მამისა სიდედრისა ბიძა შვი<lb/>
+                  ლი შეირთავს ესე არა ჯერ არს ამისათვის<lb/>
+                  <pb f="12r" n="23"/>
+                  ვითარმედ შორის ამათსა აღირევიან სა<lb/>
+                  ხელნი მამაშვილად იქმნების და შვ<lb/>
+                  ილი მამად ჻
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴋ</hi>ამად და შვილი ვერ შეირთავენ ცოლად<lb/>
+                  ძმის წულსა და მამის დასა ჻ 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  Ⴎ<hi rend="color(FF0000)">აპისა და შვილის შვილთას </hi>
+               </head>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴀ</add>    
+                  <hi rend="color(FF0000)">Ⴅ</hi>ერცაღა პაპა შეირთავს შვილის შვ<lb/>
+                  <add place="margin-left"  hand="#h1">Ⴁ</add>     
+                  ილისა თვისისა სიდერსა <hi rend="color(FF0000)">Ⴉ</hi>&#x0312;დ პაპა<lb/>
+                  ვერ შეირთავს შვილის შვილისა თვის<lb/>
+                  ისა სიდედრისა დასა 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴂ</add>  
+                  <hi rend="color(FF0000)">Ⴅ</hi>ერცა შეირთავს პაპა შვილის შვილი<lb/>
+                  სა თვისისა სიდედრსა ბებიასა ჻
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴃ</add>    
+                  <hi rend="color(FF0000)">Ⴎ</hi>აპა ვერ შეირთავს შვილის შვილისა<lb/>
+                  თავისისა ცოლის დასა ჻ 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴄ</add>   
+                  <hi rend="color(FF0000)">Ⴎ</hi>აპა  ვერ <del rend="strikethrough">შემძლებელრს</del> შეირთავს 
+                  <pb f="12v" n="24"/>
+                  შვილის შვილისა თვისისა ცოლის პაპ<lb/>
+                  ისა დასა  
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴅ</add>
+                  Ⴞ&#x0312;  პაპა და შვილის შვილი შეირთავენ<lb/>
+                  მამის დასა და ძმისწულსა჻
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴆ</add>
+                  <hi rend="color(FF0000)">Ⴎ</hi>აპა  და შვილის შვილი ვერ შეირთ<lb/>
+                  ვენ ორთა პირთა ბიძა შვილთა 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴡ</add>
+                  <hi rend="color(FF0000)">Ⴃ</hi>ავერც პაპის მამა და შვილის შ<lb/>
+                  ვილის შვილი შეირთვენ ორთა პირველ<lb/>
+                  თა ბიძაშვილთა჻ 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴇ</add>
+                  <hi rend="color(FF0000)">Ⴞ&#x0312;</hi>  პაპის მამა და შვილის შვილის<lb/> 
+                  შვილი შეირთავენ ბებიის დედასა<lb/> 
+                  და შვილის შვილსა
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴋ</hi>ე შევირთავ ქალსა ვისმე და მამის ჩემ<lb/> 
+                  <add place="margin-left"  hand="#h1"><hi rend="color(FF0000)">იხილე</hi></add>
+                  ისა მამა შეირთავს ცოლსა მისი ჩ<lb/> 
+                  ემისა ბებიის დედასა.. 
+               </p>
+               <pb f="13r" n="25"/>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴈ</add>
+                  <hi rend="color(FF0000)">Ⴎ</hi>აპისა ჩემისა მამა შეირთავს ცოლისა<lb/>  
+                  ჩემისა მამიდასა . .
+               </p>
+            </div>
+            <div type="chapter">
+               <head>
+                  <hi rend="color(FF0000)">Ⴍრთა ძმათა თვის</hi> 
+               </head>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴀ</add>
+                  <hi rend="color(FF0000)">Ⴍ</hi>რნი ძმანი ვერ შეირთავენ ორთა დათა
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴁ</add>
+                  <hi rend="color(FF0000)">Ⴍ</hi>რნი  ძმანი ვერ შეირთავენ ძმის ასულსა<lb/> 
+                  და მამისდასა 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴃ</add>
+                  <hi rend="color(FF0000)">Ⴍ</hi>რნი  ორნი ძმანი ვერ შეირთავენ ორთა პირველთ<lb/> 
+                  ა  ბიძა შვილთა
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴈ</add>
+                  <hi rend="color(FF0000)">Ⴍ</hi>რნი ძმანი შერთვენ ორთა მეორეთა ბიძ<lb/> 
+                  აშვილთა 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴅ</add>
+                  <hi rend="color(FF0000)">Ⴍ</hi>რნი ძმანი ვერ შეირთავენ დედასა და ასულსა
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴍ</hi>რნი ძმანი ვერ შეიღთვენ ასულის ასულსა<lb/> 
+                  და ბებიას დედასა ..... 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴌ</add>
+                  <hi rend="color(FF0000)">Ⴍ</hi>რნი   ძმანი ვერ შეირთვნ   პაპის<lb/> 
+                  დასა და ძმის წულისა ასულსა ..
+               </p>
+            </div>
+            <pb f="13v" n="26"/>
+            <div type="chapter">
+               <head hand="#h1">
+                  Ⴁ<hi rend="color(FF0000)">იძა და ძმისწულისა ჻</hi> 
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴁ</hi>იძა და ძმისწული შეირთვენ მამის დასა<lb/> 
+                  დაძმის ასულსა
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴋ</hi>აგრა უკეთუ ბიძამან მამის დაჲ<lb/> 
+                  <add place="margin-left"  hand="#h1"><hi rend="color(FF0000)">Ⴈხილე</hi></add>
+                  შეირთოს დაძმის წულმან გაჲასული<lb/> 
+                  ჯერ არს. Ⴞ&#x0312;  უკეთუ ბიძამან ძმის ასულ<lb/> 
+                  ის შეირთოს და ძმის წულმან მამის დას<lb/> 
+                  არა ჯერ არს ამად ვითარმედ აღირევა<lb/> 
+                  სახელნი ბიძა მამის წულად შეირაცხება<lb/> 
+                  და ძმის წული ბიძად:
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴁ</add>
+                  <hi rend="color(FF0000)">Ⴠ</hi>ბრძანებს დიდი ვასილი რომელსაცა <lb/> 
+                  შინა ხარისხსა სახელნი აღირევიან<lb/> 
+                  ქორწინება იგი უჯერო არს და რა ჯე<lb/> 
+                  რ არს ჻
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴁ</add>
+                  <hi rend="color(FF0000)">Ⴁ</hi>იძა და ძმის წული შეირთიენ ორთა<lb/> 
+                  <pb f="14r" n="27"/>
+                  პირველთა ბიძაშვილთა და უბრკოლებ<lb/> 
+                  ლად. .
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴂ</add>
+                  რ&#x0312;ნი პირველნი ბიძა შვილნი შეირთავენ<lb/> 
+                  ორთა პირველთა ბიძა შვილთა ჻ 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1"> Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi>  ႱჃ Ⴌ<lb/> 
+                  Ⴑ<hi rend="color(FF0000)">ამ ნათესაობისათვის </hi>
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴅ</hi>სთქვა სამ ნათესაიბისა თავისა<lb/> 
+                  წ უკვე სამ ნათესაობა მძახლობით<lb/> 
+                  ივე არს მაგრამ სამისა ნათესავისაგან<lb/> 
+                  იქმნების. . 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴄ</add>
+                  ერთი ნათესავი მე ვარ.  Ⴍ&#x0312;   სხვა ნა<lb/> 
+                  თესავი არს ცოლი ჩემი  ჳ Ⴃასხვა <lb/> 
+                  ნათესავი არს ცოლისა ძმისა ჩემისა<lb/> 
+                  ცოლი. .
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴀ</add>
+                  <hi rend="color(FF0000)">Ⴓ</hi>  კეთუ მოკვდების ჩოლი ჩ&#x0312;ი შავირთა<lb/> 
+                  <fw type="catch">ვ</fw>
+                  <pb f="14v" n="28"/>
+                  ვ მე ცოლისა ძმის ჩემისა ცოლის დ<lb/> 
+                  ასა დაუბრკოლებლად. 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴁ</add>
+                  Ⴞ&#x0312;    უკეთუ მოკვდეს ცოლის ძმა ჩემი<lb/> 
+                  ვერ შევირთავ მეცოლსა ძისა გარნა ძმა<lb/> 
+                  ჩემი შევირთავ.  
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴂ</add>
+                  <hi rend="color(FF0000)">Ⴓ</hi>კეთუ მყვანდეს მე Ⴂერი ქალი<lb/> 
+                  და მომიკვდეს ცოლი  ჩ&#x0312;ი შევირთავ მე
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴃ</add>
+                  ძმისა ჩ&#x0312;ისა გერის ცოლს. დედისა ნაც<lb/> 
+                  ვალსა ვისამე ოდეს მოკდეს ქმ<lb/> 
+                  არი დადედისა ნაცვალსა მას ჰყავს გე<lb/> 
+                  რად ქალთდა მოვიდეს გერი იგი ვე <lb/> 
+                  შეირთავს ქმრად თავისისა ძის მომ<lb/> 
+                  კვდრისა გერი ქმარსა 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴄ</add>
+                  Ⴓკეთუ მოკვდების ცოლი ჩ&#x0312; ვერ შევი<lb/> 
+                  რთავ მე ცოლად მომკვდარისა მის ცოლ<lb/>
+                  <pb f="15r" n="29"/>                  
+                  ისა ჩემისა Ⴁიძის ცოლსა .. 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴅ</add>
+                  Ⴉ&#x0312;დ შეირთავს ცოლსა ჩემისა ძმისა ბ<lb/> 
+                  იძის ცოლსა  ჻ 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴆ</add>
+                  <hi rend="color(FF0000)">Ⴋ</hi>ე მივეც დაჲ ჩემი კაცსა ვისმე <lb/> 
+                  ცოლსა სიძის მის ჩემისა ძმის ცო<lb/> 
+                  ლი მერგების მე ცოლად჻ 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴡ</add>
+                  <hi rend="color(FF0000)">Ⴉ</hi>&#x0312;დ მივეც ასული ჩემი კაცსა ვისმე <lb/> 
+                  ცოლად დასიძემან მან ჩემმან ძმ<lb/> 
+                  ისა თვის თვისისა ითხოვა ქალი ცოლ<lb/> 
+                  ას ოდესღა მოვიდეს სიძის ძმა ჩე<lb/> 
+                  მი და მომიკდეს მეცა ცოლი არა<lb/> 
+                  მერგების მე სიძისა ჩემისა ცოლი ჻ 
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴇ</add>
+                  <hi rend="color(FF0000)">Ⴀ</hi>&#x0312;დ დაჲ სიძისა ძმისა ჩემისა ცო<lb/> 
+                  ლისა   მომეცემისდა უბრკოლებელ<lb/> 
+                  ად.
+               </p>
+               <pb f="15v" n="30"/>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴃ</hi>აესეცა ჯერ არს უკეთუ ორთა ძმა<lb/> 
+                  თა ერთსა ჰყვანდეს ცოლი მამა და<lb/> 
+                  მეორეს ცოლის დაჲ მიეცემიან იგინი<lb/> 
+                  ერთი ერთსა ცოლ ქმრად.
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴈ</hi>ტყვის ბრძანება პატრი არხისა<lb/> 
+                  Ⴊელობისა და პატრიარხისა ჻ Ⴀრსე<lb/> 
+                  ნისა რა შეირთვიდენ ორნი ძმანი დაუ<lb/> 
+                  ბრკოლებლად სძალ მულსა ჻ 
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴠ</hi>ყავს მამისა ჩემისა ასულსა ქმარი<lb/> 
+                  უკეთუ მოკვდეს ასული იჰი ძმისა ჩემ<lb/> 
+                  ისა  ქმარი მისი და მე შევირთავ ორსა<lb/> 
+                  დათა ჻ 
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴞ&#x0312;</hi> ბრძანება პატრი არხისა მიხეი<lb/>
+                  ილისა იტყვის ასული ჩემი პირველის<lb/> 
+                  ცოლისაგან შობილი და მეორისა დე<lb/> 
+                  <pb f="16r" n="31"/>
+                  დისა ჩემის ძმის ასული შეირთ<lb/> 
+                  ვენ ორთა ძმათა ჻ 
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴑ</hi>იძე  და ცოლის ძმა შეირთნ ორთა <lb/> 
+                  პიერლთა  ბიძა შვილთა ჻
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴞ&#x0312;</hi> განჩინება  Ⴎატრი არხისა სტა<lb/> 
+                  ისა აღმოაჩინებს შერთვასა სიძის და <lb/> 
+                  ცოლის ძმისაგან ორთა დათას ჻
+               </p>
+            </div>
+            <div type="chapter">
+               <head>
+                  Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi>  ႱჃ Ⴇ<lb/> 
+                  Ⴘ<hi rend="color(FF0000)">ვავილად სახელისა თვის ნათესაობისა<lb/> 
+                  რომელიცა არს ესრეთ რ&#x0312; აღიყვანენ შვილსა<lb/> 
+                  სხვის&#x0312;სა და შვილად თვისად დააწესებენ<lb/> 
+                  ეკლესიურითა ლოცვათა და განგებითა ამისი<lb/> 
+                  უვ&#x0312;ს ბრძანება ასჯულისაგან თუ რაოდ<lb/>
+                  ენსა თვისა შ&#x0312;ა ჯერ არს<lb/> 
+                  შეუღლეობა და  <lb/> 
+                  რაოდენსა შ&#x0312;ა დაიყენების </hi>
+               </head>
+               <pb f="16v" n="32"/>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴘ</hi>ვილად სახელისა დებასა ჰყეფენ ვი<lb/> 
+                  ეთნი მე რომელნიცა არა ყავსთ შვილი ჻   <lb/> 
+                  Ⴆოგნი ვიდრე მე უშვილო არიან და ბე<lb/> 
+                  რწ და Ⴆოგთა ვიეთთა მე ეშვისთ <del rend="strikethrough"/><lb/> 
+                  დ მუვვვდებისთ დაშთებიან უშვილოდ<lb/> 
+                  და საწყალობელნი ესე იგი ვითარნი მშობელ<lb/> 
+                  ნი აღიყვანენ შვილსა სხვათასა დაშვილად<lb/> 
+                  თვისად დაწესებენ დაიქმნიან ესე ვითა <lb/> 
+                  რნი შვილნი ვ&#x0312;ა ჴორციელად შობილნი<lb/> 
+                  შვილი მათად ნათესაობათაცა შორის და<lb/> 
+                  თაობათაცა შ&#x0312;ა ეგრე აღისრა<lb/> 
+                  ცხვიან და მემკვიდრეობისაცა მს<lb/> 
+                  გავსადვე მიიღებენ ყოვლითურთ:<lb/> 
+                  Ⴠბრძანებს სჯული ვერ შევი<lb/> 
+                  რთავ მე ცოლად პაპისაგან ჩემ<lb/> 
+                  ისა აღყვანილსა სულიერსა: ასულსა: მად<lb/> 
+                  ვითარმედ მამისა ჩემისა სულიერ დ&#x0312;თ არს იგი<lb/> 
+                  Ⴅერ შ&#x0312;ვირთავ ცოლდ ჩემგან აღყვანილს<lb/> 
+                  <fw type="catch">შვილსა</fw>
+                  <pb f="17r" n="33"/>
+                  შვილსა ასულსა Ⴃა ვერცა ჩემგან აღყვანილი <lb/> 
+                  იგი შვილი შეირთავს ცოლსა ჩემსა რ&#x0312;  სული<lb/> 
+                  ერი დედა არს მისი ჻
+               </p>
+               <p hand="#h1">
+                  Ⴠბრძანებს მეოცე ნერეო მეფისა Ⴊეონ ბრძნის <lb/> 
+                  ა ვ&#x0312;დ ვერავინ შემძლებელ  არს რა მისცეს ასული<lb/> 
+                  თვისი ცოლად აღყვანილსა შვილსა თვისსა ამად ვითა<lb/> 
+                  რმედ არიან იგინი დაძმანი სულიერნი ჻ 
+               </p>
+               <p hand="#h1">
+                  Ⴄსე უწოდეს რ&#x0312; დროთა რომელთაცა ე<lb/> 
+                  ნეების აღყვანებაჲ შვილად თჳნიერ ლოცვისა და <lb/> 
+                  სამღთჲსა   Ⴄკკლესიურისა განგებასა აღოყვანდ<lb/> 
+                  ონ მხოლოდ სიტყვა ოდენ ჻
+               </p>
+               <p hand="#h1">
+                  <hi rend="dropcap">Ⴞ&#x0312;</hi> აწ რომელნიცა ენებოსთ აღყვანაჲ სულიერის<lb/> 
+                  ა შვილისა ჯერ არს მათდა რა სამღთჲთო ლიტურ<lb/> 
+                  ლიითა და განგებითა და განგებითა და Ⴒითა წერილითა აღუყ<lb/> 
+                  ვანიან დაიქმნებიან აღმყვანებელნი <del rend="strikethrough">ყ</del> ყრმისა<lb/> 
+                  <fw type="catch">Ⴂ</fw>
+                  <pb f="17v" n="34"/>
+                  მის ნადვილ მშობელნი ხ&#x0312; ყმაჲცა იგი იქ<lb/> 
+                  მნების ნამდვილ შვილ მათდა ჻ 
+               </p>
+               <p hand="#h1">
+                  Ⴃაესრეთ უკეთუ შვნენ მათ ჳორციელნიცა შ<lb/> 
+                  ვილნი სულიერისა მას შვილსა ვერ მისცემენ თ<lb/> 
+                  <del rend="strikethrough"/> მათ ცოლად ვიდრე მერვედ თავადმდე ჻ 
+               </p>
+               <p hand="#h1">
+                  Ⴈ<hi rend="color(FF0000)">ხილე   Ⴌ</hi>ათესაობაჲ შვილად სახელ დებულისა<lb/> 
+                  აღირაცხვს ვიდრე მერვედ თავადმდე ვ&#x0312;ა  წილის<lb/> 
+                  ღებისა აღმ&#x0312;ვალთა მხოლოდ და შთამომავალთა ჻
+               </p>
+               <p hand="#h1">
+                  Ⴞ&#x0312; გვედ განმავალთა თ&#x0312; ა არა  აქვს ნათესაობაჲ<lb/> 
+                  რ<del rend="strikethrough"/> რაჲმე რ&#x0312;ლ არიან ძმანი დანი და სხვანი<lb/> 
+                  Ⴀღყვანილ ჩემნგან სულიერი შვილი და შვილი ძმის <lb/> 
+                  ა ჩემისა მიეცემიან ერთი ერთსა და ცოლად ჻
+               </p>
+               <p hand="#h1">
+                  Ⴇწყოდეთ უკუ&#x0302;ჱ ესეცა რ&#x0312; მონაზონნიცა და ქალწ<lb/> 
+                  ულნი აღიყვანენ სულიერსა შვილსა და ესნიცა<lb/> 
+                  იქმნებიან სულიერთა დედათა მათთა გინა მამ<lb/>
+                  <fw type="catch">ათა</fw>
+                  <pb f="18r" n="35"/>
+                  მათთა მემკვიდრენი თვინიერ ურვისა. ცოლობისა და მს<lb/>   
+                  ჯავრისა ბრძანებისაებრ მეოცისა ნერეა მეფისა
+               </p>
+               <p hand="#h1">
+                  Ⴊეონ ბრძნისა჻ 
+               </p>
+            </div>
+            <div type="chapter">
+               <head>
+                  Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi> ႱჃ Ⴒ<lb/>
+                  Ⴌ<hi rend="color(FF0000)">ათლის  დღებისა ნათესაობათვის ჻</hi>  
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴜ</hi>მინდა ნათლისა ღება არს შობასა ღ&#x0312;თა და სულიერისა გა<lb/>                     
+                  წ<gap reason="illegible" quantity="2" unit="character" n=""/>დება და რომელმანცა აღმოშვას ჩჩვილი წი&#x0312;დისა<lb/>   
+                  გან <del rend="strikethrough"/> ემბ<add place="above">ა</add>ზისა იქმნების ჩჩვილისა მის სულიერი<lb/>   
+                  მამა და ჩჩვილი მის: ღმომქმედი უფროსღა<lb/>   
+                  ნათესავი არს ჴორციელისაგან მამისა მისისა და <lb/>   
+                  შუამდგომელობითა ყ&#x0312;დ დი&#x0312;სა სულისათა აღმომქმ<lb/>   
+                  ელი იგი მისი იქმნების ძმა აღმო<lb/>   
+                  მქმელისა თვისისა მამისა ჴორციელ<lb/>   
+                  ისა. Ⴃა ოირაცხებიან ჴორციელი იგ
+                  ი მამა და სულიერი იგი მამა თავ<lb/>   
+                  ად ორად ვინაჲთგან ძმა არს მისი<lb/>
+                  <pb f="18v" n="36"/>
+                  ზ&#x0312; ჩვილისა თანა აღირაცხების სული<lb/>   
+                  ერი მამად ჩვილისა თანა ერთად თა<lb/>   
+                  ვად რაოდენიცა ჩვილნი აღმექვას <lb/>   
+                  ანუ ვ&#x0312;დ აღმოქვას იგინიცა ერთ თავა<lb/>   
+                  დ აღირაცხვიან მის თანა. Ⴞ&#x0312; აღგ<lb/>   
+                  ქმულისა მის ძმანი აღირაცხვიან მის<lb/>   
+                  თანა სამად თავად ვითარცა ძმის<lb/>   
+                  წულნი მისნი ვინაჲთგან ნათლულ<lb/>   
+                  ი მას იგი ძმა არს სურიელი მა<lb/>   
+                  მისა მათისა და მომნათლავისა მის<lb/>   
+                  შვილნი მისთა ნათლულთათა <lb/>   
+                  აღირაცხავენ ორთავად.
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴋ</hi>ე ვარ მამა შვილთა ჩემთა    რომელნი <lb/>   
+                  <add place="margin-left"  hand="#h1">იხილე</add> 
+                  მე ვშვენ ჳორციელად კაცობრივი<lb/>   
+                  და რომელნი მე სულიერად წმინდისა<lb/>   
+                  გან ემბაზისა და ჩემნი ესე სული<lb/>  
+                  <pb f="19r" n="37"/>
+                  ერნი შვილნი და ჳორციელნი აღი<lb/>   
+                  რიცხვიან ორთავად:  Ⴞ&#x0312; სხვანი<lb/>   
+                  იგი შვილნი ნათკუს მამის ჩემ<lb/>   
+                  ისანი რომელნიცა მე არ მომინათ<lb/>   
+                  ლავნ აღირაცხვიან ჳორციელად შო<lb/>   
+                  ბილთა შვილთა ჩემთა თანა მეოხ<lb/>   
+                  ედ თავად ვითარცა ორთა ძმათა<lb/>   
+                  შვილნი რომელნიცა ეწოდების<lb/>   
+                  Ⴎროტა ექსა დელფია (ესე იგი არს)<lb/>   
+                  პირველი ბიძა შვილი და მისგა<lb/>   
+                  ნ შთამოსრულნი აღირიცხვიან ვ&#x0312;ა<lb/>   
+                  სისხლითისა ნათესაობისა ვიდრე<lb/>   
+                  მეორედ თავამდე და დაუყენებულ არს ქორ<lb/>   
+                  წინება ამათი ვიდრე არა გარდ<lb/>   
+                  ახსეს მერვესა თავსა <hi rend="color(FF0000)">Ⴐ&#x0312;</hi> იტყვის ოცად<lb/>
+                  <fw type="catch">ა</fw>
+                  <pb f="19v" n="38"/>
+                  ა მეათ სამეტე კანონი მექვსისა კრე<lb/>   
+                  ბისა ვითარმედ უდიდეს არს ნათესა<lb/>   
+                  ობითი ნათესაობა სისხლისა ნა<lb/>   
+                  თესაობისაგან და ვინათგან კანონი<lb/>   
+                  საგან და სჯულისვი ესრეთ <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> მანუ <add place="below">გებრ</add><lb/>   
+                  ბის მამა სა<add place="above">დ</add>ამე თანა მდებ ვართ რა<lb/>
+                  თა უფროსად Ⴜმინდად და ვიმარხ<lb/>   
+                  ოთ და განვემკაცრეთ რათა მერვედ<lb/>   
+                  თავამდე არა ვპყროთ შერთებათ და<lb/>   
+                  შვილად სახლდებისა რ&#x0312; ესეცა ერთ<lb/>   
+                  სა პირსა ზა აღირაცხვის აღმავლთა დ<lb/>   
+                  აშთამავალთა ოდენ... Ⴞ&#x0312; გვერდ<lb/>   
+                  განმაკალთათვის არა აღირაცხ<lb/>   
+                  ვის და დაუბრკოლებელად შემოკ<lb/>   
+                  ლენ ქორწინებასა შინა  Ⴛმის წული<lb/>
+                  <pb f="20r" n="39"/>
+                  ჩემი  ჩემგან აღმოქმულსანათლულსა ქლადა შეირთვ<lb/>   
+                  ას ცოლად Ⴄგრეთვე მეცა შევირთავ ცოლად ნათლისა<lb/>   
+                  მამის ჩემისა დასა Ⴞ&#x0312; რომელმანცა შვილი თვისა<lb/>   
+                  მონათლის თანა : მს მას დატეობა ცოლისა თვისისა ამ<lb/>   
+                  ად ვით<damage><gap reason="illegible" quantity="4" unit="character" n=""/></damage> დაჲ იქმნა მისდა სულიერ ცოლი მისი <lb/>   
+                  აღმშობითა შვილისა თვისისათა დაესრეთ არღარ ჯერ <lb/>   
+                  არს ცოლ ქმრობა მათი
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1"> 
+                  Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi> ႲႠ <lb/>   
+                  ყ<hi rend="color(FF0000)">რმათათვის რომელნიცა აღმოიქმენ წმი<lb/>   
+                  ნდისაგან ემბაზისა Ⴑვიმეონ თესალონი<lb/>   
+                  კელისა</hi>
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴀ</hi>რიან ორნი ვინმე კაცნი რომელთაცა შორის<lb/>   
+                  არა არს ნათესაობაჲ რაჲმე უკეთუ შვილნი <lb/>   
+                  მათნი ერთმან და მანვე კაცმან მონათ<lb/>   
+                  ლოს არღარა მიცემიან იგინი ცოლ ქმრად<lb/>  
+                  <pb f="20v" n="40"/>
+                  ერთი ერთსა  Ⴄსრეთ ვ&#x0312;დ შვილი   მონათლა<lb/>   
+                  <add place="margin-left"  hand="#h1"><hi rend="color(FF0000)">იხილე</hi></add> 
+                  კაცმან ვინმე და შვილისა ჩემისა მომ<lb/>   
+                  ნათლავსა კაცსა სხვისაცა ვიზიმე  კაცის<lb/>   
+                  მოუნათლავს შვილი ორბი ესე ვინათ<lb/>   
+                  გან ერთის კაცის ნათლ<del rend="strikethrough"/>ულ<lb/>   
+                  არიან არღარა ერგების ცოლ ქმრობა <lb/>   
+                  მათი რ&#x0312; ერთის სულიერისაგან მამი<lb/>   
+                  სა აღმოშობილ არიან წმინდისაგან ემბაზისა. . . . . . . . . . . .
+               </p>
+            </div>
+            <div type="chapter">
+               <head> 
+                  Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi> Ⴒ.Ⴁ <lb/>   
+                  Ⴌ<hi rend="color(FF0000)">ათელ ღებულისათვის ვითარმეს მემ<lb/>   
+                  კვიდრედ არა აღირაცხების და ვერცაღა<lb/>   
+                  დაიმკვიდრებს თვისისა ემბაზისა ამომშ<lb/>   
+                  ბელისა სამკვიდრებელისა უკეთუ არა აღ<lb/>   
+                  უკანილ იქმნის მის მიერ <damage><gap quantity="4" unit="chars" reason="illegible"/></damage></hi>
+               </head>
+               <pb f="21r" n="41"/>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴌ</hi>ათესაობა Ⴜ&#x0312;ისა ნათლის ღები<lb/>   
+                  სა არა მემოვალს. მემკვიდრეობით ვ&#x0312;ა<lb/>   
+                  სისხლისა ნათესაობისა და შვილად სა<lb/>   
+                  ხელ დებულებისათვის არს შემოსრულ<lb/> 
+                  ა&#x0312;დ მხოლოდ თავებად აღირაცხვის ქო<lb/>   
+                  რწინებისათვის ოდენ ესრეთ ვიდრემდი<lb/> 
+                  ს მერვე თავსა არა გარდახდეს ვერ <lb/>   
+                  შემოვლენ ქორწინებად და ესეცა მხოლ
+                  ოდ შთამავალთათვის დაღმავალთა. .
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1"> 
+                  Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi>  Ⴒ Ⴂ<lb/>   
+                  Ⴂ<hi rend="color(FF0000)">ანთავის უფლებულის მონისათვის <lb/>   
+                  ვ&#x0312;დ ვერ შეირთავს დედოფალსა თვისა<lb/>   
+                  ცოლად . .  </hi>
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴂ</hi>ანთავის უფლებილი განა ვერ<lb/>   
+                  შემძლებელ არს შერთვად ცოლად ცოლსა <lb/>  
+                  <pb f="21v" n="42"/>
+                  ა უფლისა თვისისა შ&#x0312;დ სიკვდილისა<lb/>   
+                  უფლისა თვისისა და ღათუ  ენებისცა<lb/>   
+                  დედოფალსა მისას ამად რომელ სხვათა კ<lb/>   
+                  აცთა იჭვი არა შეუჴდეს დროსა დფი<lb/>   
+                  ისა მისისასა კაცისა მის დედოფლისა<lb/>   
+                  მისისა მეძაობისა
+               </p>
+            </div>
+            <div type="chapter">
+               <head> 
+                  Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi>  Ⴒ Ⴃ<lb/>   
+                  Ⴇ<hi rend="color(FF0000)">ჳსი ვითარ  არა ჯერ არს შერთვად ცო<lb/>   
+                  ლად ვექილისაგან ქალი <gap reason="illegible" quantity="1" unit="character" n=""/>ოფალი მონაგებითა</hi>
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴃ</hi>ამთების რა უასაკო ვინმე ობლა<lb/>   
+                  დ და ნუ იგი და გინა მონათესავე ვინმე<lb/>   
+                  მისი იქმს დაგინებასა კაცისა ვისამე<lb/>   
+                  ზედა მხედველად და ნაქონებასაცა მისა<lb/>   
+                  მოანდობს მას რომელსა ეწოდების <lb/>   
+                  ეპიტროპისი Ⴄსე იპიტროპოსი ვერ შე<lb/>
+                  <pb f="22r" n="43"/>
+                  ირთავს თვით და ვერცაღა შვილსა თვისა<lb/>   
+                  შეირთავს ობოლსა მას უფლისა მონა<lb/>   
+                  გებთასა ვიდრე არა განთავისუფლდეს<lb/>
+                  ეპიტროპოსობისაგან მისისად.
+               </p>
+               <p hand="#h1">
+                  Ⴐ&#x0312; აღსრულდებოს რ&#x0312;ა ოცდა ხუთი წელი<lb/>   
+                  მივალს უასაკო იგი უფალთ მონაგებითა<lb/>   
+                  ასაკად და შ&#x0312;დ ოცთა ხუთისა წლისა<lb/>   
+                  შემძლებელ იქმნების მოკითხვად საქონ<lb/>   
+                  ელისა თვისისა ოთხთა შინა წელთა<lb/>   
+                  რომლის შორის შეიქმნების წელნი ოცდა <lb/>   
+                  ცხრანი და ოცდა მეათესა წელსა განთავის<lb/>   
+                  უფლდების Ⴄპიტროპოსი იგი და შე<lb/>   
+                  მდგომადღა ოცდა ათისა წლისა უკეთუ <lb/>   
+                  ნება ორთავ შეირთავს ცოლად ქალსა <lb/>   
+                  მას სეპიტროპოსისასა თვისისასულ<lb/>
+                  <pb f="22v" n="44"/>
+                  Ⴞ&#x0312; დედასა მის ქალისასა აქვს უკვე<lb/>   
+                  უფლება რათა შეირთოს ქმრად თავი<lb/>   
+                  სასა ასულისა Ⴄპიტროპოსი პირველ <lb/>   
+                  ოცდა ათისაცა წლისა. 
+               </p>
+            </div>
+            <div type="chapter">
+               <head>
+                  Ⴇ<del rend="strikethrough"/><hi rend="color(FF0000)">ႠႥႨ</hi> ႲႤ<lb/>
+                  ს<hi rend="color(FF0000)">ასყიდლით დადგინებულთათვის თუ ვითარცა<lb/>   
+                  შეირთავენ დედოფალსა თჳსსა ჻</hi>
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴑ</hi>სასყიდლით დადგინებულთა არა აქ<lb/>   
+                  ვსთ წელმწიფება რათა შეირთონ ცოლ<lb/>   
+                  ად დედუფალნი თვისნი რათა არა იჭვნ<lb/>   
+                  ეულ იქმნენ მათზედა ვითარმედ მემა<lb/>   
+                  ობდენი პირველ ესენი დაწ იქორწინ<lb/>   
+                  ეს 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi> Ⴒ Ⴅ .<lb/>  
+                  Ⴋ<hi rend="color(FF0000)">როკველთათვის და მომღერლთა ჻ </hi> 
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴋ</hi>როკველთა და მომღერალთა არა აქვს<lb/>   
+                  ხელმწიფება რათა შეირთონ ცოლად<lb/>
+                  <pb f="23r" n="45"/>
+                  სიღვლიტიკოსთა კაცთა ტოლნი<lb/>   
+                  გინა ასულნი დარცაღა შვილნი მომ<lb/>   
+                  ღერალთა და მროკველთა მიყვანონ<lb/>   
+                  მათდა ცოლად რ&#x0312; უპატიოება<lb/>   
+                  არს მათი და ბრძანებს სჯული არა<lb/>   
+                  თუ მხოლოდ ეკკლესიურთა სჯულთა <lb/>   
+                  ოდენ ღვაწასა ა&#x0312;დ სარკითა თვისცა.
+               </p>
+            </div>
+            <div type="chapter">
+               <head> Ⴇ<hi rend="color(FF0000)">ႠႥႨ</hi>.   Ⴒ Ⴆ.<lb/>   
+                  Ⴉ<hi rend="color(FF0000)">აცმან ვინმე უკეთუ იმრუშოს რომ<lb/>   
+                  ლისამე დედაკაცისა თანა თუ ვითარ ვერ შეირთ<lb/>   
+                  ავს დედისა ნაცვალსა მისსა჻    </hi>
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴉ</hi>აცმან რომელმან მე უკეთუ იმრუშოს<lb/>   
+                  დედა კაცისა ვის თანამე ვეღარა შე<lb/>   
+                  ირთავს მემრუშისა მის დედაკაცისა დედ<lb/>   
+                  ის ნაცვალსა ა&#x0312;დ  შეირთავს მეორესა<lb/>  
+                  <pb f="23v" n="46"/>
+                  ბიძა შვილსა მისსა 
+               </p>
+               <p hand="#h1">
+                  Ⴀ<hi rend="color(FF0000)">აა  მაგალნითიცა ქორწინებისანა რომელიცა<lb/>   
+                  დახსნა უბრძანესმან და უსიტყვერესმან დიდმან<lb/>   
+                  Ⴞარატჶილაქსმან ესე იგი წიგნთა მცველმან <lb/>   
+                  უწმინდესისა ქრისტეს დიდისა ეკლესიისა კო<lb/>   
+                  ნსტანტინე პოლის ამან Ⴈ  ერი დიავო&#x0312;თა შორის<lb/>   
+                  დედოფანმან მანუილ ქსანთინოს ჻ </hi>
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴀ</add>   
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არ არს შერთვად ცოლად <lb/>   
+                  დისა თვისისა ჻</hi>
+               </p>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1"><hi rend="color(FF0000)">Ⴂ</hi></add>
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტერ მამა არს : 
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴂ</hi>იორგი Ⴃ: Ⴛ Ⴛ<hi rend="color(FF0000)">მანი Ⴋ</hi>არიამ ჻
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴁ  <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს ჻ 
+               </head>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴁ</add>
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს შერთვად ძმისწულ<lb/>   
+                  ისა გინა დისწულისა თჳსისა ჻</hi>
+               </p>
+               <pb f="24r" n="47"/>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე   Ⴋამა არს ჻
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴂ</hi>იორგი <hi rend="color(FF0000)">ა</hi> Ⴃა Ⴛ<hi rend="color(FF0000)">მანი Ⴋ</hi>არიამ ჻<lb/> 
+                  Ⴈრინა ჻
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴂ <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს ჻ 
+               </head>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴂ</add>
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს შერთვად პირველისა ბი<lb/>   
+                  ძისა შვილისა თვისისა ჻</hi>
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴂ</hi>იორგი. Ⴛ<hi rend="color(FF0000)">მანი</hi>. <hi rend="color(FF0000)">Ⴈ</hi>ოანე.<lb/>   
+                  <hi rend="color(FF0000)">ძ</hi>მა  Ⴁ<hi rend="color(FF0000)">იძა შვილნი</hi>. <hi rend="color(FF0000)">Ⴋ</hi>არიამ჻  
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1"> 
+                  თავი Ⴃ <del rend="strikethrough"/> <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს ჻ 
+               </head>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴂ</add>
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს შერთვად პირველისა ბიძა჻  <lb/>   
+                  შვილისა თვისისა შერთვად  ჻</hi>
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴂ</hi>იორგი. Ⴛ<hi rend="color(FF0000)">მანი. Ⴈ</hi>ოანე჻<lb/>   
+                  <hi rend="color(FF0000)">Ⴇ</hi>ომა <hi rend="color(FF0000)">Ⅰ</hi> Ⴁ<hi rend="color(FF0000)">იძა შვილნი  Ⴄ</hi>მმანუილი <hi rend="color(FF0000)">Ⴄ</hi>რინე჻ 
+               </p>
+            </div>
+            <pb f="24v" n="48"/>
+            <div type="chapter">
+               <head> 
+                  <add place="margin-left"  hand="#h1">Ⴄ</add> 
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴄ. <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს჻ 
+               </head>
+               <p hand="#h1">
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს შერთვად მეორისა ბიძა<lb/>   
+                  შვილისა თვისის: </hi>
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე  <lb/>   
+                  <hi rend="color(FF0000)">Ⴂ</hi>იორგი. Ⴛ<hi rend="color(FF0000)">მანი.  Ⴈ</hi>ოანე.<lb/>   
+                  <hi rend="color(FF0000)">Ⴇ</hi>ომა <hi rend="color(FF0000)">Ⅰ</hi> Ⴁ<hi rend="color(FF0000)">იძა შვილნი  Ⴄ</hi>მმანუილი჻<lb/>   
+                  <hi rend="color(FF0000)">Ⴃ</hi>იმიტრი <hi rend="color(FF0000)">2</hi> ბ<hi rend="color(FF0000)">იძა შვილნი Ⴀ</hi>ნნა Ⅰ
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1"> 
+                  თავი. Ⴅ  <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს ჻
+               </head>
+               <p hand="#h1">
+                  <add place="margin-left"  hand="#h1">Ⴆ</add>  
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს შერთვად მეორისა <lb/>   
+                  ბიძა შვილისა თვისისა</hi>
+               </p>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე  მამა არს ჻<lb/>   
+                  <hi rend="color(FF0000)">Ⴂ</hi>იორგი. Ⴛ<hi rend="color(FF0000)">მანი. Ⴈ</hi>ოანე ჻  <lb/>   
+                  <hi rend="color(FF0000)">Ⴇ</hi>ომა Ⴁ<hi rend="color(FF0000)">იძა შვილი  Ⴇ</hi>ეოდორე ჻<lb/>   
+                  <hi rend="color(FF0000)">Ⴃ</hi>იმიტრი Ⴁ<hi rend="color(FF0000)">იძა შვილნი  Ⴋ</hi>არიამ ჻ <lb/>    
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა ჻
+               </p>
+            </div>
+            <pb f="25r" n="49"/>
+            <div type="chapter">
+               <head>
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა჻ <hi rend="color(FF0000)">თ</hi>ავი Ⴊ <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს .. 
+               </head>
+               <p hand="#h1">
+                  ყ<hi rend="color(FF0000)">ოველივე შეირთვენ მესამესა ბიძა შვილს<lb/>   
+                  ა თვისსა : Ⴎ</hi>ეტრე ჻   მამა .  არს<lb/> 
+                  <hi rend="color(FF0000)">Ⴂ</hi>იორგი. Ⴛ<hi rend="color(FF0000)">მანი჻ Ⴈ</hi>ოანე჻  <lb/>   
+                  <hi rend="color(FF0000)">Ⴇ</hi>ომა  <hi rend="color(FF0000)">Ⅰ</hi> Ⴁ<hi rend="color(FF0000)">იძა შვილნი  Ⴄ</hi>მმანუილი჻<lb/>   
+                  <hi rend="color(FF0000)">Ⴃ</hi>იმიტრი <hi rend="color(FF0000)">2</hi>  Ⴁ<hi rend="color(FF0000)">იძა შვილნი Ⴇ</hi>ეოდორე჻<lb/>   
+                  <hi rend="color(FF0000)">Ⴀ</hi>ლექსი <hi rend="color(FF0000)">3</hi> Ⴁ<hi rend="color(FF0000)">იძა შვილნი Ⴈ</hi>რინა.
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴌ: <hi rend="color(FF0000)">ჯ</hi>ერ არს <hi rend="color(FF0000)">Ⴅ</hi>იდრე აქამო<lb/>   
+                  მდე არს სისხლითა ნათესაობა შეკრულ. .
+               </head>
+               <p hand="#h1">
+                  Ⴀთასი <hi rend="color(FF0000)">ნათესაობისა მაგალითნი ჻ </hi>
+               </p>  
+               <p hand="#h1">  
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს შეირთოს დედ და ასული</hi>
+               </p>  
+               <p hand="#h1"> 
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე: <hi rend="color(FF0000)">Ⴋ</hi>არიამ. <hi rend="color(FF0000)">Ⴈ</hi>რინა 
+               </p>
+               <fw type="catch">Ⴃ</fw>
+            </div>
+            <pb f="25v" n="50"/>
+            <div type="chapter">
+               <head> 
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴁ <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს   
+               </head>
+               <p hand="#h1">  
+                  <add place="margin-left"  hand="#h1">Ⴁ</add> 
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს რათა შეირთოს ბებია<lb/>   
+                  და სულის Ⴀსული: </hi>
+               </p>  
+               <p hand="#h1">  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე:  <hi rend="color(FF0000)">Ⴋ</hi>არიამ:<lb/>   
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა :<lb/>   
+                     <hi rend="color(FF0000)">Ⴀ</hi>ნნა: 
+               </p> 
+            </div>
+            <div type="chapter">
+               <head hand="#h1"> 
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴂ <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს    
+               </head>
+               <p hand="#h1"> 
+                  <add place="margin-left"  hand="#h1">Ⴂ</add> Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს რა შეირთოს Ⴁების<lb/>   
+                  დედ დაასულის ასულის სული.</hi><lb/>   
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე: <hi rend="color(FF0000)"> Ⴋ</hi>არიამ<lb/>   
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა <lb/>   
+                  <hi rend="color(FF0000)">Ⴀ</hi>ნნა<lb/>   
+                  <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა <lb/>
+                  <hi rend="color(FF0000)">Ⴇ</hi>
+               </p>  
+            </div>
+            <pb f="26r" n="51"/>
+            <div type="chapter">
+               <head> 
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴃ <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს 
+               </head>
+               <p hand="#h1">  
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს რა შეირთოს Ⴁების Ⴃ<lb/>      
+                  ბებია და Ⴀ სულის Ⴀსულის Ⴀსული ჻ </hi><lb/>   
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე:  <hi rend="color(FF0000)">Ⴋ</hi>არიამ:<lb/>  
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა:<lb/>   
+                  <hi rend="color(FF0000)">Ⴀ</hi>ნნა:<lb/>   
+                  <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა: 
+               </p>    
+            </div>
+            <div type="chapter">
+               <head hand="#h1">  
+                  Ⴅ ავი Ⴃ <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს
+               </head>
+               <p hand="#h1">  
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს რა შეირთოს Ⴁების Ⴃ<lb/>   
+                  ბებია და Ⴀ სულის Ⴀსულის Ⴀსული ჻ </hi><lb/>   
+                  <hi rend="color(FF0000)">Ⴎ  Ⴋ</hi>არიამ:<lb/>   
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა:<lb/>   
+                  <hi rend="color(FF0000)">Ⴀ</hi>ნნა:  
+               </p>   
+            </div>
+            <pb f="26v" n="52"/>            
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">Ⴄ</hi>ლენა: თავი Ⴄ <hi rend="color(FF0000)">ა</hi>რა ჯერ არს
+               </head>
+               <p hand="#h1">  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს რა შეირთონ ორნ<lb/>   
+                  იდანი ჻  Ⴎ</hi>ეტრე.   მამა  არს :<lb/>   
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ. Ⴃ<hi rend="color(FF0000)">ანი. თე</hi>ოდორა: 
+               </p>  
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი. Ⴄ <hi rend="color(FF0000)">ა</hi>რა ჯერ არს჻
+               </head>
+               <p hand="#h1">  
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს რა შეირთოს ბების Ⴃ<lb/>    
+                  დედ და დისწულის ასული ჻</hi><lb/>   
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე:  <hi rend="color(FF0000)">Ⴋ</hi>არიამ<lb/>   
+                  <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა<lb/> 
+                  <hi rend="color(FF0000)">Ⴃ</hi>ანი<lb/>  
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა<lb/>   
+                  <hi rend="color(FF0000)">Ⴀ</hi>ნნა
+               </p> 
+            </div>
+            <pb f="27r" n="53"/>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი. Ⴂ  <hi rend="color(FF0000)">ა</hi>რა ჯერ არს ჻
+               </head>
+               <p hand="#h1">  
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს რა შეირთოს ორნი<lb/>   
+                  ძმათა შვილნი გინა დათა შვილნი ჻ </hi>
+               </p>   
+               <p hand="#h1"><hi rend="color(FF0000)">Ⴎ</hi>ეტრე<lb/>   
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ: Ⴛ<hi rend="color(FF0000)">მათა შვილნი ანუ დათა შვილნი</hi><lb/>   
+                  <hi rend="color(FF0000)">თ</hi>ეოდორა 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი.  Ⴃ  <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს:  
+               </head>
+               <p hand="#h1">  
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს რა შეირთოს ბიძა<lb/>   
+                  შვილნი  და ბიძა შვილის ასული ჻</hi> </p>   
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე<lb/>   
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ<lb/>   
+                  Ⴁ<hi rend="color(FF0000)">იძა შვილი Ⴇ</hi>ეოდორა<lb/>  
+                  <hi rend="color(FF0000)">Ⴀ</hi>ნნა  
+               </p>
+            </div>
+            <pb f="27v" n="54"/>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴈა <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს:  
+               </head>
+               <p hand="#h1">  
+                  Ⴅ<hi rend="color(FF0000)">ერავინ შემძლებელ არს რა შეირთოს<lb/>   
+                  ორნი მეორენი Ⴁიძა შვილნი.</hi>
+               </p> 
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე<lb/>   
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ <hi rend="color(FF0000)">2</hi> Ⴁ<hi rend="color(FF0000)">იძა შვილი Ⴇ</hi>ეოდორა
+               </p>   
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴅ  <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს:  
+               </head>
+               <p hand="#h1">  
+                  Ⴘ<hi rend="color(FF0000)">ემძლებელ  არიან რა შეირთნ ცოლისა თვ<lb/>   
+                  იხსა მეორისა ბიძა შვილისა Ⴀსული . .   </hi>
+               </p>    
+               <p hand="#h1">  
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე Ⴚ<hi rend="color(FF0000)">ოლქმარი Ⴋ</hi>არიამ Ⴁ<hi rend="color(FF0000)">იძა</hi><lb/>   
+                  შვილნი ავი : ბ:  <hi rend="color(FF0000)">ჯ</hi>ერ არს </p>    
+               <p hand="#h1">  Ⴋ<hi rend="color(FF0000)">ამა ძისა თვისი :</hi>  </p>  
+               <p hand="#h1">  Ⴋ<hi rend="color(FF0000)">ამა და ძე ვერ შეირთვენ დედასა და ა<lb/>   
+                  სულსა  Ⴎ</hi>ეტრე: <lb/>   
+                  <pb f="28r" n="55"/>
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ <hi rend="color(FF0000)">Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა 
+               </p> 
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴁ  <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს  
+               </head>
+               <p hand="#h1">  
+                  Ⴋ<hi rend="color(FF0000)">ამა და ძე ვერ შეირთვენ ბებიასა და ასულის  <lb/>   
+                  ასულსა:</hi><lb/>   
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე: <hi rend="color(FF0000)">Ⴋ</hi>არიამ:<lb/>   
+                  <hi rend="color(FF0000)">Ⴈ</hi>ოანე: <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა:<lb/>   
+                  <hi rend="color(FF0000)">Ⴀ</hi>ნნა: 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი:  Ⴂ  <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს:
+               </head>
+               <p hand="#h1">   
+                  <add place="margin-left"  hand="#h1">Ⴂ</add>
+                  Ⴋ<hi rend="color(FF0000)">ამა და ძე ვერ შეირთვენ ბიძის<lb/>   
+                  დედასა და ასულის ასულის ასულსა:</hi>
+               </p>  
+               <p hand="#h1">     
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე: <hi rend="color(FF0000)">Ⴋ</hi>არიამ:<lb/>   
+                  <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა:<lb/>   
+                  <hi rend="color(FF0000)">Ⴀ</hi>ნნა: 
+               </p> 
+            </div>
+            <pb f="28v" n="56"/>
+            <div type="chapter">
+               <head>
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა  თავი Ⴃ  <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს:  
+               </head>
+               <p hand="#h1"> 
+                  <add place="margin-left" hand="#h1">Ⴃ</add>
+                  Ⴋ<hi rend="color(FF0000)">ამა და ძე ვერ შეირთვენ ბების ბებიასა<lb/>   
+                  დაასულის ასულის ასულის ასულსა:</hi> <lb/>   
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე: <hi rend="color(FF0000)">Ⴋ</hi>არიამ:<lb/>   
+                  <hi rend="color(FF0000)">Ⴈ</hi>ოანე: <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა:<lb/>   
+                  <hi rend="color(FF0000)">Ⴀ</hi>ნნა:<lb/>   
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა:<lb/>   
+                  <hi rend="color(FF0000)">Ⴄ</hi>ლენა: 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴄ  <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს:  
+               </head>
+               <p hand="#h1"> 
+                  <add place="margin-left"  hand="#h1">Ⴄ</add>
+                  Ⴋ<hi rend="color(FF0000)">ამა და Ⴛე ვერ შეირთვენ ორთა დათა</hi>
+               </p>  
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე   <hi rend="color(FF0000)">Ⴈ</hi>ოანე :<lb/>   
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ <hi rend="color(FF0000)">Ⴃ</hi>ანი <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა:
+               </p>  
+            </div>
+            <pb f="29r" n="57"/>
+            <div type="chapter">
+               <head>
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴅ  <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არსა  
+               </head>
+               <p hand="#h1"> 
+                  <hi rend="color(FF0000)">ამა და Ⴛე ვერ შეირთვენ მამის დასა ა<lb/>   
+                  და Ⴋამის Ⴀსულსა :</hi>
+               </p>  
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე   <hi rend="color(FF0000)">Ⴈ</hi>ოანე<lb/>   
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ Ⴃანი <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა<lb/>   
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა 
+               </p> 
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴆ:  <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არსა  
+               </head>
+               <p hand="#h1"> 
+                  <add place="margin-left"  hand="#h1">Ⴜ</add> 
+                  Ⴋ<hi rend="color(FF0000)">ამა და Ⴛე ვერ შეირთვენ ბიძა შვილსა<lb/>   
+                  და ბიძა შვილის შვილსა: </hi>
+               </p>  
+               <p hand="#h1">   
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴈ</hi>ოანე<lb/>   
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ <hi rend="color(FF0000)">Ⅰ</hi> Ⴁ<hi rend="color(FF0000)">იძ შვილნი Ⴀ</hi>ნნა<lb/> 
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა
+               </p>
+            </div>
+            <pb f="29v" n="58"/>
+            <div type="chapter">
+               <head>                  
+                  თავი Ⴌ  <hi rend="color(FF0000)">ჯ</hi>ერ არს :  
+               </head>
+               <p hand="#h1"> 
+                  Ⴋ<hi rend="color(FF0000)">ამა და Ⴛე  შეირთვენ ბები დასა : <lb/>
+                     დადისწულისა ასულსა: </hi>
+               </p> 
+               <p hand="#h1">     
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე  <hi rend="color(FF0000)"> Ⴈ</hi>ოანე :<lb/>  
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ Ⴃანი <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა:<lb/>  
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა<lb/> 
+                  <hi rend="color(FF0000)">Ⴀ</hi>ნნა 
+               </p>  
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴅა   <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არსა
+               </head>
+               <p hand="#h1"> 
+                  <add place="margin-left"  hand="#h1">Ⴀ</add> 
+                  Ⴎ<hi rend="color(FF0000)">აპისა და შვილის შვილთა თვის:</hi> 
+               </p>  
+               <p hand="#h1"> 
+                  Ⴎ<hi rend="color(FF0000)">აპა და შვილის  შვილის შვილი ვერ შეირ<lb/> 
+                  თ ვენ და დედასა და ასულსა </hi>
+               </p>   	
+               <p hand="#h1">  
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴂ</hi>იორგი:<lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ:<lb/> 
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა:
+               </p> 
+            </div>
+            <pb f="30r" n="59"/>
+            <div type="chapter">
+               <head>
+                  თ<hi rend="color(FF0000)">ავი</hi> Ⴂ  <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს 
+               </head>
+               <p hand="#h1">
+                  <add place="margin-left" hand="#h1">Ⴁ</add> 
+                  Ⴎ<hi rend="color(FF0000)">აპა და შვილის  შვილი ვერ შეირთვენ<lb/> 
+                  Ⴁებიასა დასულის ასულსა: </hi>
+               </p>  
+               <p hand="#h1">  
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე. <hi rend="color(FF0000)">Ⴈ</hi>ოანე. <hi rend="color(FF0000)">Ⴂ</hi>იორგი :<lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ. <hi rend="color(FF0000)">Ⴈ</hi>რინა. <hi rend="color(FF0000)">Ⴀ</hi>ნნა :
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  თ<hi rend="color(FF0000)">ავი</hi> Ⴃ <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს. 
+               </head>
+               <p hand="#h1"> 
+                  <add place="margin-left" hand="#h1">Ⴂ</add> 
+                  Ⴎ<hi rend="color(FF0000)">აპა და შვილის შვილი ვერ შეირთვენ<lb/> 
+                  Ⴁებიასა დედასა დასულის ასულის ასულსა</hi>
+               </p>    
+               <p hand="#h1">  
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე. <hi rend="color(FF0000)">Ⴈ</hi>ოანე. <hi rend="color(FF0000)">Ⴂ</hi>იორგი.<lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ. <hi rend="color(FF0000)">Ⴈ</hi>რინა. <hi rend="color(FF0000)">Ⴀ</hi>ნნა.<lb/> 
+                  <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა 
+               </p>
+            </div>
+            <pb f="30v" n="60"/>
+            <div type="chapter">
+               <head>
+                  თ<hi rend="color(FF0000)">ავი</hi> Ⴃ  <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს. 
+               </head>
+               <p hand="#h1">     
+                  Ⴎ<hi rend="color(FF0000)">აპა და შვილის  შვილი ვერ შეირთვენ<lb/> 
+                  პირველთა ბიძა შვილთა: </hi>
+               </p>  
+               <p hand="#h1"> 
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე. <hi rend="color(FF0000)">Ⴈ</hi>ოანე. <hi rend="color(FF0000)">Ⴂ</hi>იორგი.<lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ. ბი<hi rend="color(FF0000)">ძა შვილნი Ⴇ</hi>ეოდორა ჻
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი  Ⴅ    <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს. 
+               </head>
+               <p hand="#h1"> 
+                  <add place="margin-left"  hand="#h1">Ⴄ</add> 
+                  Ⴎ<hi rend="color(FF0000)">აპა და შვილის  შვილი ვერ შეირთვენ დედას<lb/> 
+                  დასა დადის ასულსა</hi>
+               </p>  
+               <p hand="#h1">  
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე. <hi rend="color(FF0000)">Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴂ</hi>იორგი<lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ  დ<hi rend="color(FF0000)">ანი Ⴄ</hi>ლენა<lb/> 
+                  Ⴀნნა.
+               </p>    
+            </div>
+            <div type="chapter">
+               <head>
+                  თ<damage><gap quantity="3" unit="chars" reason="illegible"/></damage> Ⴄ Ⴀრა ჯერ არს. 
+               </head>
+               <p hand="#h1"> 
+                  Ⴎ<hi rend="color(FF0000)">აპა და შვილის  შვილი ვერ შეირთვენ მამის დასა<lb/> 
+                  და  Ⴋამის ასულსა </hi>
+               </p>   
+               <pb f="31r" n="61"/>
+               <p hand="#h1">  
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴂ</hi>იორგი<lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ Ⴃ<hi rend="color(FF0000)">ანი Ⴄ</hi>ლენა<lb/> 
+                  <hi rend="color(FF0000)">Ⴀ</hi>ნნა. 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი  Ⴅ    <hi rend="color(FF0000)">ჯ</hi>ერ არს. <hi rend="color(FF0000)">Ⴂ</hi>რნი რალობით
+               </head>
+               <p hand="#h1"> 
+                  Ⴎ<hi rend="color(FF0000)">აპა და შვილის  შვილი ვერ შეირთვენ ბი<lb/> 
+                  ძის შვილის შვილთა დადედის ბიძა შ<lb/> 
+                  ვილთა. Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴂ</hi>იორგი<lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ  <hi rend="color(FF0000)">Ⴁიძა შვილნი თ</hi>ეოდორა<lb/> 
+                  <hi rend="color(FF0000)">Ⴀ</hi>ნნა
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი    <hi rend="color(FF0000)">ჯ</hi>ერ არს:  
+               </head>
+               <p hand="#h1"> 
+                  <add place="margin-left"  hand="#h1">ბ</add>
+                  Ⴎ<hi rend="color(FF0000)">აპა და შვილის  შვილი ვერ შეირთვ<lb/> 
+                  ენ  ორთა  ბიძა შვილთა: </hi>
+               </p>  
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴂ</hi>იორგი<lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ
+               </p>    
+               <pb f="31v" n="62"/>
+               <p hand="#h1"> 
+                  <hi rend="color(FF0000)">ბიძა შვილთა Ⴄ</hi>ლენა
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴊ <hi rend="color(FF0000)">Ⴀ</hi>რა    ჯერ არს:  
+               </head>
+               <p hand="#h1">  
+                  Ⴎ<hi rend="color(FF0000)">აპა და შვილის  შვილის შვ<lb/> 
+                  ილი  ვერ შეირთვენ ორთა პირ&#x0312;ლთა ბი<lb/> 
+                  ძა შვილთა : </hi>
+               </p>  
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴂ</hi>იორგი <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა <lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ  Ⴁ<hi rend="color(FF0000)">იძა შვილნი Ⴀ</hi>ნნა.
+               </p>    
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴊ <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს:  
+               </head>
+               <p hand="#h1">  
+                  Ⴎ<hi rend="color(FF0000)">აპა და შვილის  შვილის შვილი  <lb/> 
+                  ვერ შეირთვენ: </hi>
+               </p>   
+               <p hand="#h1">  
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴂ</hi>იორგი <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა <lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ  <hi rend="color(FF0000)">Ⴈ</hi>რინა <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა <hi rend="color(FF0000)">Ⴀ</hi>ნნა
+               </p>
+            </div>
+            <pb f="32r" n="63"/>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი ბ. <hi rend="color(FF0000)">Ⴀ</hi>რა ჯერ არს  
+               </head>
+               <p hand="#h1">  
+                  Ⴎ<hi rend="color(FF0000)">აპა და შვილის  შვილის შვილი  <lb/> 
+                  ვერ შეირთვენ ორთა დათა: </hi>
+               </p>  
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴂ</hi>იორგი <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა <lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ  <hi rend="color(FF0000)">Ⴁიძა შვილნი თ</hi>ეოდორა<lb/> <hi rend="color(FF0000)">Ⴀ</hi>ნნა.
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი ბ. Ⴀრა <hi rend="color(FF0000)">ჯ</hi>ერ არს  
+               </head>
+               <p hand="#h1">  
+                  Ⴎ<hi rend="color(FF0000)">აპა დაშვილის  შვილის შვილი <lb/>  
+                  შეირთვენ ბიძისა დედასა დაშვილის შვილის შვ<lb/> 
+                  ილის შვილი.</hi>
+               </p>  
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴂ</hi>იორგი <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა <lb/> <lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ <hi rend="color(FF0000)">Ⴈ</hi>რინა <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა <hi rend="color(FF0000)">Ⴀ</hi>ნნა
+               </p>  
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴊ   <hi rend="color(FF0000)">ჯ</hi>ერ არს 
+               </head>
+               <pb f="32v" n="64"/>
+               <p hand="#h1">  
+                  Ⴎ<hi rend="color(FF0000)">აპა მამა  დაშვილის  შვილის <lb/> 
+                  შვილი  ვერ შეირთვენ ორთა დათა </hi>
+               </p>
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴂ</hi>იორგი <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა <lb/> 
+                  <hi rend="color(FF0000)">Ⴇ</hi>ეოდორად<hi rend="color(FF0000)">ანი Ⴀ</hi>ნნა 
+               </p>  
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი  Ⴄ  <hi rend="color(FF0000)">Ⴀ</hi>რ ჯერ არს  </head>
+               <p hand="#h1">  
+                  <add place="margin-left"  hand="#h1">Ⴈ</add>
+                  Ⴎ<hi rend="color(FF0000)">აპას მამა და შვილის  შვილის შვი<lb/> 
+                  ლი რთვენ დედის დასა დადისა ასულსა</hi> 
+               </p>
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴂ</hi>იორგი <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა <lb/> <lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ  Ⴃ<hi rend="color(FF0000)">ანი Ⴈ</hi>რინა <hi rend="color(FF0000)">Ⴀ</hi>ნნა
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი  Ⴅ  <hi rend="color(FF0000)">ჯ</hi>ერ არს  
+               </head>
+               <p hand="#h1">  
+                  <add place="margin-left"  hand="#h1">Ⴀ</add>
+                  <hi rend="color(FF0000)">ორთ ძმათათვს:</hi>
+               </p>  
+               <p hand="#h1">   
+                  ო<hi rend="color(FF0000)">რნი ძმანი ვერ შეირთვენ მამის და <lb/> 
+                  ძმის ასულსა გინა დედა დასა დადის </hi>
+               </p>
+               <pb f="33r" n="65"/>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">დადის ასულსა Ⴎ</hi>ეტრე     Ⴛ<hi rend="color(FF0000)">მანი<lb/> 
+                  Ⴎ</hi>ავლეა <hi rend="color(FF0000)">Ⴋა</hi>რიამ  Ⴃ<hi rend="color(FF0000)">ანი Ⴇ</hi>ეოდორა<lb/> 
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა: 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  თ<hi rend="color(FF0000)">ავი Ⴃ  Ⴀ</hi>რა ჯერ არს:  
+               </head>	
+               <p hand="#h1">   
+                  ო<hi rend="color(FF0000)">რნი ძმანი ვერ შეირთვენ ორთა<lb/> 
+                  დათა Ⴎ</hi>ეტრე     Ⴛ<hi rend="color(FF0000)">მანი Ⴎ</hi>ავლე:<lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ  Ⴃ<hi rend="color(FF0000)">ანი Ⴇ</hi>ეოდორა
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი <hi rend="color(FF0000)">Ⴄ Ⴀ</hi>რა ჯერ არს:  
+               </head>
+               <p hand="#h1">   
+                  ო<hi rend="color(FF0000)">რნი ძმანი ვერ შეირთვენ ბიძა შვი<lb/> 
+                  Ⴃ ლსა Ⴎ</hi>ეტრე     Ⴛ<hi rend="color(FF0000)">მანი Ⴎ</hi>ავლე <hi rend="color(FF0000)">Ⴋ</hi>არიამ  <lb/> 
+                  Ⴁ<hi rend="color(FF0000)">იძა შვილნი Ⴇ</hi>ეოდორა <hi rend="color(FF0000)">Ⴈ</hi>რინა  ა 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴄ <hi rend="color(FF0000)">ჯ</hi>ერ არს:  
+               </head>
+               <p hand="#h1">   
+                  Ⴍრ<hi rend="color(FF0000)">ნი ძმანი შეირთვენ ორთა მე<lb/> 
+                  ორეთა ბიძა შვილთა. </hi>
+               </p>    
+               <pb f="33v" n="66"/>
+               <p hand="#h1">  
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴛ</hi>მანი <hi rend="color(FF0000)">Ⴎ</hi>ავლე<lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ  Ⴁ<hi rend="color(FF0000)">იძა შვილნი</hi><lb/>  
+                  <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა
+               </p> 
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴌ  <hi rend="color(FF0000)">ჯ</hi>ერ არს:  
+               </head>
+               <p hand="#h1">   
+                  Ⴍ<hi rend="color(FF0000)">რნი ძმანი ვერ შეირთვენ დედასა დასულსა</hi>
+               </p>    
+               <p hand="#h1">   
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴛ</hi>მანი <hi rend="color(FF0000)">Ⴎ</hi>ავლე<lb/> 
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა  <lb/> 
+                  <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴂ  <hi rend="color(FF0000)">Ⴀ</hi>რა  ჯერ არს: 
+               </head>
+               <p hand="#h1">   
+                  Ⴍ<hi rend="color(FF0000)">რნი ძმანი ვერ შეირთვენ ბებიას <lb/> 
+                  და ასულის დასულს</hi>
+               </p>   
+               <p hand="#h1">
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴛ</hi>მანი <hi rend="color(FF0000)">Ⴎ</hi>ავლე<lb/> 
+                  <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა <hi rend="color(FF0000)">Ⴈ</hi>რინა <hi rend="color(FF0000)"> Ⴀ</hi>ნნა 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴃ  <hi rend="color(FF0000)">Ⴀ</hi>რა  ჯერ არს  
+               </head>
+               <pb f="34r" n="67"/>
+               <p hand="#h1">  
+                  <hi rend="color(FF0000)">Ⴍრნი ძმანი ვერ შეირთვენ ბების დედ<lb/> 
+                  ასა დასულის ასულსა  ასულსა:</hi>
+               </p>
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე Ⴛ<hi rend="color(FF0000)">მანი Ⴎ</hi>ავლე <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა <lb/> 
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა  <hi rend="color(FF0000)">Ⴀ</hi>ნნა  <hi rend="color(FF0000)">Ⴋ</hi>არიამ
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴄ     <hi rend="color(FF0000)">Ⴀ</hi>რა  ჯერ არს  
+               </head>
+               <p hand="#h1">   
+                  Ⴍ<hi rend="color(FF0000)">რნი ძმანი ვერ შეირთვენ დედისა დასა<lb/> 
+                  დადის სულსა ჻ </hi>
+               </p>
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴛ</hi>მანი <hi rend="color(FF0000)">Ⴎ</hi>ავლე <hi rend="color(FF0000)">Ⴋ</hi>არიამ.  <lb/> 
+                  <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა. <hi rend="color(FF0000)">Ⴈ</hi>რინა. 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴄ <hi rend="color(FF0000)">Ⴀ</hi>რა  ჯერ არს  
+               </head>
+               <p hand="#h1">   
+                  Ⴁ<hi rend="color(FF0000)">იძისა და ძმისწულისთვის</hi>
+               </p>    
+               <p>  
+                  <add place="margin-left" hand="#h1">Ⴂ</add>  
+                  Ⴁ<hi rend="color(FF0000)">იძა დაძმისწული შეირთვენ დედისდასა<lb/> 
+                  დადის ასულსა</hi>
+               </p>    
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე     Ⴛ<hi rend="color(FF0000)">მანი Ⴎ</hi>ავლე <hi rend="color(FF0000)">Ⴈ</hi>ოანე<lb/> 
+                  <pb f="34v" n="68"/>                  
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ.  <lb/> 
+                  <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა. <hi rend="color(FF0000)">Ⴈ</hi>რინა. 
+               </p>  
+               <p hand="#h1">  
+                  Ⴓ<hi rend="color(FF0000)">კეთუ ბიძამან დედის დაჲ <lb/> 
+                  შეირთოს და Ⴋანის წულმან დის<lb/> 
+                  ასული  ჯერ არს ხ&#x0312;   უკეთუ ბიძამან <lb/> 
+                  დის ასული შეირთოს და ძმის წულმან<lb/> 
+                  დედის დაჲ არა ჯერ არს მით<lb/> 
+                  რ&#x0312;    აღირევიან სახელნი</hi>
+               </p>  
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴅ <hi rend="color(FF0000)">Ⴀ</hi>რა  ჯერ არსა  
+               </head>
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴁ</hi>იძა <hi rend="color(FF0000)">დაძმისწული შეირთვენ ორთა<lb/> 
+                  პირველთა  ბიძა შვილთა ჻ </hi>
+               </p>    
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე     Ⴛ<hi rend="color(FF0000)">მანი </hi><lb/> 
+                  <hi rend="color(FF0000)">Ⴎ</hi>ავლე <hi rend="color(FF0000)">Ⴈ</hi>რინა <lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ Ⅰ  <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა
+               </p>
+            </div>
+            <pb f="35r" n="69"/>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴊ   <hi rend="color(FF0000)">ჯ</hi>ერ არს  
+               </head>
+               <p hand="#h1"> 
+                  Ⴍ<hi rend="color(FF0000)">რნი პირველი ბიძა შვილნი<lb/> 
+                  შეირთვენ ორთა პირველთა ბიძა შ<lb/> 
+                  ვილთა ჻</hi>
+               </p>
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე     Ⴁ<hi rend="color(FF0000)">იძა შვილნი Ⴈ</hi>ოანე<lb/> 
+                  <hi rend="color(FF0000)">Ⴄ</hi>ლენე <hi rend="color(FF0000)">Ⴋ</hi>არიამ. 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴌ   <hi rend="color(FF0000)">ჯ</hi>ერ არს  
+               </head>
+               <p hand="#h1"> 
+                  Ⴀ<hi rend="color(FF0000)">ქა სრულ იქმნა ორ ნათესაო<lb/>
+                  ბაი  </hi>
+               </p>  
+               <p>
+                  <hi rend="color(FF0000)">Ⴑ</hi>ამ ნათესაობისა მაგალითნი
+               </p>  
+               <p hand="#h1"> 
+                  <add place="margin-left" hand="#h1">Ⴀ</add>
+                  Ⴘ<hi rend="color(FF0000)">ემძლებელ არს კაცი შერთვად ცო<lb/> 
+                  ლის ძმისა თვისისა ცოლის დი<lb/> 
+                  სა ოდეს მოკვდეს ცოლი </hi>
+               </p>   
+               <p hand="#h1">  
+                  Ⴚ<hi rend="color(FF0000)">ოლ ქმარი და ძმანი  ცოლ</hi><lb/> 
+                  <pb f="35v" n="70"/>
+                  <hi rend="color(FF0000)">ქმარნი დანი Ⴎ</hi>ეტრე     <hi rend="color(FF0000)">Ⴋ</hi>არიამ<lb/> 
+                  <hi rend="color(FF0000)">Ⴂ</hi>იორგი <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა <hi rend="color(FF0000)">Ⴀ</hi>ნნა ჻
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴃ <hi rend="color(FF0000)">ჯ</hi>ერ არს  
+               </head>
+               <p hand="#h1"> 
+                  Ⴀ<hi rend="color(FF0000)">სა ჯერ არს შერთვად ჩემგან ცო<lb/> 
+                  ლის ძმისა ჩემის ცოლისა Ⴂარნა ძმა<lb/> 
+                  ჩემი შეირთავს</hi> Ⴛ<hi rend="color(FF0000)">მანი</hi>  Ⴋ<hi rend="color(FF0000)">აზლი</hi><lb/> 
+                  ს<hi rend="color(FF0000)">ძალნი Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴎ</hi>ავლე <hi rend="color(FF0000)">Ⴋ</hi>არ<lb/> 
+                  იამ   <hi rend="color(FF0000)">Ⴂ</hi>იორგი <hi rend="color(FF0000)"> დაძმანი Ⴀ</hi>ნნა  
+               </p> 
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴃ  <hi rend="color(FF0000)">ჯ</hi>ერ არს:   
+               </head>
+               <p hand="#h1">   
+                  Ⴅ<hi rend="color(FF0000)">ერ ხელ ეწიფების შერთვად  ცოლისა ვერისა <lb/> 
+                  ჩემისა ძმის ჩემისა </hi>
+               </p>  
+               <p hand="#h1"> 
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴋ</hi>არიამ  Ⴈრინა Ⴚ<hi rend="color(FF0000)">ოლ<lb/> 
+                     ქმარნი  Ⴀ</hi>ნნა <hi rend="color(FF0000)">Ⴂ</hi>იორგი
+               </p>
+            </div>
+            <pb f="36r" n="71"/>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი  Ⴂ  <hi rend="color(FF0000)">Ⴀ</hi>რა<lb/> 
+                  ჯერ არს:   
+               </head>
+               <p hand="#h1">    
+                  Ⴘ<hi rend="color(FF0000)">ევირთავ მე ძმისა ჩემ<lb/> 
+                  ისა გერისა ცოლისა</hi>
+               </p>  
+               <p hand="#h1"> 
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე Ⴛ<hi rend="color(FF0000)">მანი Ⴎ</hi>ავლე Ⴚ<hi rend="color(FF0000)">ოლ<lb/> 
+                     ქმარნი  Ⴋ</hi>არიამ <hi rend="color(FF0000)">Ⴈ</hi>რინე <hi rend="color(FF0000)">Ⴀ</hi>ნნა
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  თავი Ⴃ <hi rend="color(FF0000)">ჯ</hi>ერ არს:  
+               </head>
+               <p hand="#h1"> 
+                  Ⴅ<hi rend="color(FF0000)">ერ შემძლებელ არს დედის ნაცვალი<lb/> 
+                  გერისა თვისისა ქრმისა შერთვად:<lb/> 
+                     Ⴈ</hi>რინა  Ⴚ<hi rend="color(FF0000)">ოლ. ქმრის Ⴂ</hi>იორგი <lb/> 
+                  <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა <hi rend="color(FF0000)">Ⴈ</hi>რინე 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴂ    <hi rend="color(FF0000)">Ⴀ</hi>რა  ჯერ არს:   
+               </head>
+               <p hand="#h1"> 
+                  Ⴘ<hi rend="color(FF0000)">&#x0312;დ სიკვდილისა ცოლისა ჩემისა ჴელ შე</hi><lb/>
+                  <pb f="36v" n="72"/>
+                  <hi rend="color(FF0000)">წიფებისა შერთვას მამის ცოლისა მის<lb/> 
+                  ისა </hi>
+               </p>
+               <p hand="#h1">   
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე ც<hi rend="color(FF0000)">ოლ ქმარნი</hi><lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ  Ⴚ<hi rend="color(FF0000)">ოლ ქმარნი Ⴈ</hi>ოვანე <lb/> 
+                  Ⴀნნა 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  თავი Ⴃ <hi rend="color(FF0000)">ჯ</hi>ერ არს.   
+               </head>
+               <p hand="#h1"> 
+                  Ⴘ<hi rend="color(FF0000)">ევირთავ მე ცოლად  ჩემისა<lb/> 
+                  ძმისა გერსა</hi>
+               </p>
+               <p hand="#h1">    
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე Ⴚ<hi rend="color(FF0000)">ოლ ქმარნი Ⴋ</hi>არიამ<lb/> 
+                  <hi rend="color(FF0000)">Ⴂ</hi>იორგი  Ⴚ<hi rend="color(FF0000)">ოლ ქმარნი Ⴀ</hi>ნნა<lb/> 
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა
+               </p>  
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴄ <hi rend="color(FF0000)">ჯ</hi>ერ არს.   
+               </head>
+               <pb f="37r" n="73"/>
+               <p hand="#h1">
+                  Ⴘ<hi rend="color(FF0000)">ევირთავ მე დის ჩემისა ქმრისა ძმის ცო<lb/> 
+                  ლსა.</hi> Ⴃ <hi rend="color(FF0000)">ძმანი. </hi> Ⴚ<hi rend="color(FF0000)">ოლ ქმარნი<lb/> 
+                  Ⴎეტრე Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴂ</hi>იორგი  <hi rend="color(FF0000)">Ⴋ</hi>არი<lb/> 
+                  ამ 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი   Ⴃ    <hi rend="color(FF0000)">ჯ</hi>ერ არს ჻    
+               </head>
+               <p hand="#h1"> 
+                  Ⴅ<hi rend="color(FF0000)">ერ შემძლებელ ვარ ასული<lb/> 
+                  სა ჩემისა ქმრისა ძმის ქალისა შ<lb/> 
+                  ერთვად ჻</hi>
+               </p>    
+               <p hand="#h1"> 
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე Ⴚ<hi rend="color(FF0000)">ოლ ქმარნი Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴂ</hi><lb/> 
+                  იორგი Ⴚ<hi rend="color(FF0000)">ოლ ქმარნი  Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴋ</hi><lb/> 
+                  არიამ
+               </p>  
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴂ  .  <hi rend="color(FF0000)">Ⴀ</hi>რა  ჯერ არს:   
+               </head>
+               <p hand="#h1">
+                  <hi rend="color(FF0000)"><hi rend="dropcap">Ⴞ&#x0312;</hi>   დასა მარიამისა შევირთავ და<lb/> 
+                  უბრკოლებლად, Ⴎ</hi>ეტრე   Ⴚ<hi rend="color(FF0000)">ოლ</hi><lb/> 
+                  <pb f="37v" n="74"/>
+                  <hi rend="color(FF0000)">ქმარნი   Ⴈ</hi>რინა Ⴛ<hi rend="color(FF0000)">მანი</hi>  Ⴚ<hi rend="color(FF0000)">ოლ<lb/> 
+                  ქმარნი</hi>. Ⴃ<hi rend="color(FF0000)">ანი Ⴂ</hi>იორგი  <hi rend="color(FF0000)">Ⴈ</hi>ოანე <lb/> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>არიამ <hi rend="color(FF0000)">Ⴀ</hi>ნნა . .
+               </p>
+            </div>
+            <div type="chapter">
+               <head>
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴃ .  ჯერ არს:   
+               </head>
+               <p hand="#h1">
+                  Ⴚ<hi rend="color(FF0000)">ოლის ძმა ჩემი შეირთავს ძმის<lb/> 
+                     ა ჩემისა ცოლის დასა. </hi> Ⴚ<hi rend="color(FF0000)">ოლ ქმარნი</hi><lb/> 
+                  Ⴃ<hi rend="color(FF0000)">აძმანი჻ Ⴂ</hi>იორგი Ⴛ<hi rend="color(FF0000)">მა</hi> Ⴚ<hi rend="color(FF0000)">ოლ
+                     ქმარნი</hi> დ<hi rend="color(FF0000)">ანი Ⴂ</hi>იორგი <hi rend="color(FF0000)">Ⴋ</hi>არიამ<lb/> 
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე <hi rend="color(FF0000)">Ⴎ</hi>ავლე <hi rend="color(FF0000)">Ⴀ</hi>ნნა <hi rend="color(FF0000)">Ⴇ</hi>ეოდორა. 
+               </p>  
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი  Ⴄ.  ჯერ არს:   
+               </head>
+               <p hand="#h1">
+                  Ⴋ<hi rend="color(FF0000)">ოკვდა მარიამ შეირთო Ⴎეტრ<lb/> 
+                  ემ   Ⴈრინა და პეტრეს Ⴚოლისა მა<lb/> 
+                  რიაამი ძმამან Ⴂიორგი   შეირთო <lb/> 
+                  Ⴈრინას დაჲ ანნა</hi>
+               </p>    
+               <p hand="#h1"> 
+                  Ⴚ<hi rend="color(FF0000)">ოლისა ჩემისა პირველისა<lb/>
+                  <pb f="38r" n="75"/>
+                  ქმრისა ძმან შეირთო ცოლი ოდეს<lb/>   
+                  მოკვდეს კაცი იგი ვერ შევირთავ მე <lb/> 
+                  ცოლისა მისა. ხ&#x0312;   შევირთავ დასა ც<lb/> 
+                  ოლისა მისისასა . . .</hi>
+               </p>    
+               <p hand="#h1"> 
+                  <hi rend="color(FF0000)">Ⴎ</hi>ეტრე  <hi rend="color(FF0000)">Ⴋ</hi>არიამ  <hi rend="color(FF0000)">Ⴎ</hi>ავლე Ⴇეოდორა.<lb/> 
+                  <hi rend="color(FF0000)">Ⴈ</hi>რინა <hi rend="color(FF0000)">Ⴈ</hi>ოანე <hi rend="color(FF0000)">Ⴋ</hi>არიამ 
+               </p>
+            </div>
+            <div type="chapter">
+               <head hand="#h1">
+                  <hi rend="color(FF0000)">თ</hi>ავი Ⴄ .  ჯერ არს --   
+               </head>
+            </div>
+            <pb f="38v" n="76"/>
+            <pb f="39r" n="77"/>
+            <pb f="39v" n="78"/>
+            <pb f="40r" n="79"/>
+            <pb f="40v" n="80"/>
+            <pb f="41r" n="81"/>
+            <div type="chapter">
+               <p hand="#h3"> 
+                  Ⴃ  <hi rend="color(FF0000)">Ⴉ</hi>ითხუა: Ⴅინათგან მაცნობე არსებისა თავს და გუამი<lb/> 
+                  სა განრჩევით ესეცა მაუწყე თუ ღთისათჳს ვითარ ით<lb/> 
+                  <add place="margin-left"  hand="#h1">Ⴃ</add>
+                  ქმნას არსება და ბუნება დაანუ პირი და გუამი:
+               </p>
+               <p hand="#h3">
+                  <hi rend="color(FF0000)">Ⴋ</hi>იგება <hi rend="color(FF0000)">Ⴖ</hi>თისთჳს ესრეთ ითქმის ბუნებით და არსები<lb/> 
+                  ერთ იგი უბრძანებს ღ&#x0312;ი ვ&#x0312;ა   ვუწყით წერილისაგან სამღთოსა<lb/> 
+                  გან იგი უბრძანებს ღ&#x0312;ი მოსეს წარმავნელენი ისრა<lb/> 
+                  ილთა მიმართ მეტყულ ესრეთ არქუ ძეთა ის Ⴂაბასა<lb/> 
+                  <gap reason="illegible" quantity="1" unit="character" n=""/>აღსათა რ&#x0312;ლ იგი არს მან მომავლინა მეორედაცა.<lb/> 
+                  ესე ერთსა ცხად ჰყოფ და არა მრავალსა: მრავალსა:
+               </p>
+               <p hand="#h3">
+                  ი<hi rend="color(FF0000)">Ⴉ</hi>ით: <hi rend="color(FF0000)">Ⴅ</hi>ითარ ჯ&#x0312;რ არს ერთისა ღ&#x0312;ის აღსარებად<lb/> 
+                  <add place="margin-left"  hand="#h1">Ⴄ</add>  
+                  <hi rend="color(FF0000)">Ⴋ</hi>ამა <hi rend="color(FF0000)">Ⴄ</hi>რთისა ღ&#x0312;ისა ესრეთ ჯეარს, რათა გერწმუნე<lb/> 
+                  ს და აღვიარებდეთ, ერთსა ღ&#x0312;სა<lb/> 
+                  არსებით ვ&#x0312;ა ზემო აღმოაჩინა ხ&#x0312; გუამოვნებით და<lb/> 
+                  პირებით სამთა (ესე იგი) ბიამსა და Ⴛესა დაწასა სუ<lb/> 
+                  ლსა Ⴋამასა უმობელად რ&#x0312; არავისგან იშვებას
+               </p>
+               <p hand="#h3">
+                  <hi rend="dropcap">Ⴛ</hi>ესა <hi rend="dropcap">Ⴋ</hi>ამასაგან შობილისა, ხ&#x0312; სულსა Ⴋამისაგან<lb/> 
+                  მხოლოდ გამომავალსა და არა შიისაგან ეს არს გუ#x0302;ამოვნება<lb/> 
+                  და თჳთება სამთა მათ ჩ&#x0312;თა არსებით და ბუნებით და<lb/> 
+                  უფლებით <lb/>
+               <fw type="catch">და ღ&#x0312;თა</fw>
+               <pb f="41v" n="82"/>
+                  და ღვთაებით ერთ არიან  მხოლოდ პირებითა განიყო<lb/> 
+                  ფიან განუყოფელად  რ&#x0312; მხოლოდ სათელთა დდა თჳთებითა<lb/> 
+                  ვიტყვით განულთასა და არა თჳს თჳსადადაყენებითა, და<lb/> 
+                  არცა განყოფა ვ&#x0312;ა ყავით იტყვის წ&#x0312;წარამეტყუ&#x0302;ჱლ<lb/> 
+                  სალა სამ გუამოვნებისათჳს ა<gap reason="illegible" quantity="1" unit="character" n=""/> არ&#x0312;თებისა, ვ&#x0312;დ სიტყ<lb/> 
+                  ჳ<gap reason="illegible" quantity="3" unit="character" n=""/> ყნა ჳთა უ&#x0302;ისათა ცანი დიემტკიცნეს, და სულ<lb/> 
+                  ითა პირისა მისისათა ყიგალ მათი რ&#x0312; თქმითა უისითა Ⴋ<lb/> 
+                  ამა მოასწავა ხ&#x0312; სიტყვისა თქმითა Ⴛე და სულისა თქ<lb/> 
+                  მითა სულ იგი ყ&#x0312;დ წ&#x0312;ა რ&#x0312;ლ მაგისაგან გამოვალს და მის<lb/> 
+                  ა თანა განისუეჱნებს:
+               </p>    
+               <p hand="#h3"> 
+                  <hi rend="color(FF0000)">Ⴉ</hi>ით <hi rend="color(FF0000)">Ⴅ</hi>ითარ ათების ესე რათა სამად იცნობდეა <lb/> 
+                  რაჲმე და სამად ას განიყოფოდეს თჳს  თჳსად მაცნ<lb/> 
+                  ობე ესე მაგალითათა 
+               </p>  
+               <p hand="#h3"> 
+                  <hi rend="color(FF0000)">Ⴋ</hi>ამა <hi rend="color(FF0000)">Ⴋ</hi>იხედე მზესა რ&#x0312;  ერთ ერს ა&#x0312;დ სამად ოცნ ობების<lb/> 
+                  ერთი თჳთ იგი სიმგრგულე მზისა რ&#x0312;ლსაცა ეზედ წოდების<lb/> 
+                  დისკო. მეორე მისგან გმოაბრწყინვი შასვანდედო რ&#x0312;ლ <lb/> 
+                  არს სხივი.დამესამე ნათელ აჰაერთსა მზეს უდავ დ&#x0312;სა<lb/> 
+                  მადცა იხილვების დაურთუერთს შ&#x0312;ს ფან დატევნილ<lb/> 
+                  დარცა განიყოფიან თჳს თჳსად და არცა შეირვიან<lb/> 
+                  ესრეთვე   Ⴋამის და ძისა და სულისა წ&#x0312;ისათჳს იგულკმე<lb/> 
+                  მსაუაცა მსვალ ითქმის მაგალთი ა&#x0312;დ გულის ჴმის მყოფ<lb/>
+                  <fw type="catch">ით</fw>
+                  <pb f="42r" n="83"/>
+                  <add place="margin-top">Ⴎ</add>
+                  ესე ევმაოდენ მაგალითი ესე ვ&#x0312;არე ამისთჳს მოიღების<lb/> 
+                  ღ&#x0312;თსა   ზედან რ&#x0312; დ&#x0312;ნ ჯაცთა მონების მზისა<lb/> 
+                  უბრწყინვალესსა ვერასასა მაიგონებს და არხღა<lb/> 
+                  თვალთ ჩ&#x0312;თა უხილავს მისსსა უმშვენიერესი ა&#x0312;დ თჳთ<lb/> 
+                  ბუნებასა ღთისსასა ვერა რათ მოსწუთების<lb/> 
+                  და არცა რა ეშესაბამების მას მაგალთი და ვერ <lb/>  
+                  ცა გონება კაცობრივი მისწუთების რად ვიტ<lb/> 
+                  ყვი     კაცთა ვერცაღა თუ ანგელოზნი მისწუთებან ღთის<lb/> 
+                  ბუნებასა  რაჲ არს ანუ ვითარი არს დ ა &#x0312;დრათა <lb/>        
+                  არა სრულიად  უმეცრებასა შ&#x0312;ა    ღთისასა შეს გონება<lb/> 
+                  ჩ&#x0312;ნთ ამისთჳს მივიღებთ ესე ვითართა მაგალითთა<lb/> 
+                  დავ&#x0312;დ ესე ვართ რა ვიტყვით ღთისათჳს  ვ&#x0312;ა მარ<lb/> 
+                  ტივი არს უსხეულო და მიუწთომელ, ესე არა თუ <lb/> 
+                  ბუნეისა მისსა ცნობა არს ა&#x0312;დ ესე ყ&#x0312;ნი გარემინთ      <lb/> 
+                  <gap reason="illegible" quantity="2" unit="character" n=""/>ვან ღ&#x0312;თისა დამხოლოდ ესე არს ცნობა ღთისა<lb/> 
+                  ს&#x0312;დ   მიუწთომელობა  რ&#x0312;დ არს ცნობობა მისა
+                  <add place="margin-right"><hi rend="dropcap">Ⴞ&#x0312;</hi></add>
+               </p>
+               <p hand="#h3">
+                  <hi rend="color(FF0000)">Ⴄ</hi>სთავდ სამ გუაშოვნება, და რეთ უფლება ისწავე სერაფ<lb/> 
+                  ნ ჳიბთგან რ&#x0312;ლნი იტყოდეს წ&#x0312;ა არს წ&#x0312;ა არს     <lb/> 
+                  წ&#x0312;ა არს უ&#x0302;ი სავალთ და ბებერნი რას მგზის წა<lb/> 
+                  არს სამ გამოვნებასა გუასწავებს ღვთაებისას -<lb/> 
+                  ხ&#x0312;   უფლებისა თქმაჲ ერთსა ბუნებასა მისსა და
+                  <fw type="catch">ვ&#x0312;დ</fw>
+                  <pb f="42v" n="84"/>
+                  დ ვ&#x0312;დ იოანე ღთის მეტყვლ იტყვის
+               </p>
+               <p hand="#h3">
+                  <hi rend="color(FF0000)">Ⴈ</hi>ოანე <gap reason="illegible" quantity="2" unit="character" n=""/>&#x0312;ღდგან იყო სიტყუა და სიტყუ&#x0302;ა იგი იყო<lb/> 
+                  ღთისა განა და ღთი იყო სიტყუ&#x0302;ა იგი  Ⴛის
+               </p>
+               <p hand="#h3">
+                  <hi rend="color(FF0000)">Ⴈ</hi>ოანეა თანა ცხოვრება იყო და ცხოვრება იგიუ&#x0302;ა <gap reason="illegible" quantity="4" unit="character" n=""/>  <lb/> 
+                  ნათელ კაცთა ა სიტყუად სთქუ&#x0302;ა Ⴋე ღთისთანა
+               </p>
+               <p hand="#h3">
+                  <hi rend="color(FF0000)">Ⴋ</hi>ამისთჳს ჰთქუა ხ&#x0312; ცხოვრება იგი სულსა წისთ<lb/> 
+                  ჳსა რ&#x0312;ლ  უ&#x0312;ა მყოფთა   ცხოვრება არს Ⴃაღ<lb/> 
+                  თობ იტყჳს სულისათჳს სულთა ჳ<del rend="strikethrough"/> Ⴈობთ<lb/> 
+                  ღ&#x0312;თისათა ვ&#x0312;დ სულმან ღთისმან მყო მე სა <add place="margin-right">339</add> <lb/> 
+                  მშვინველმან ყ&#x0312;ისა მპყრობელმან მაწავა<lb/> 
+                  მე ესები არიან წამებანი წ&#x0312;თა წეულთანი და<lb/> 
+                  ესე ვ&#x0312;რთასა ვერ მივსწუთებით და ვერ<lb/> 
+                  ცაღა სხუასა რაჲმესა შეუძლებთ ცნოებად<lb/> 
+                  ღთისა უკეთუ ვცთათჳს მეტყუჱლებასა <lb/> 
+                  ამს&#x0312;დ მსგ&#x0312;ვსსა მაგალითასა ვერ ვპოებთ ღთის<lb/> 
+                  მეტყუ&#x0302;ელებას შ&#x0312;ა ვართ ეგების პოვნად სურ<lb/> 
+                  ლად მოძავსსა მისსა მაგალითსა რ&#x0312;ლ იგი უხილ<lb/> 
+                  ავ არს თუალთაგან და მიუწთომელ გონებით <lb/> 
+                  Ⴊ  <hi rend="color(FF0000)">Ⴉ</hi>ით <hi rend="color(FF0000)">Ⴐ</hi>&#x0312;ლ&#x0312;ნი
+               </p>  
+            </div>
+            <div type="chapter">
+               <pb f="43r" n="85"/>
+               <head>
+                  არ&#x0312;ან მოწმობანი წ&#x0312;და წერიდან ვ&#x0312;დ მისვლად მამისაგა<lb/> 
+                  ნ გამოვალს სულ იგი ყ&#x0312;დ წ&#x0312;ა და არა მისაგან
+               </head>
+               <p hand="#h3">
+                  Ⴠ <hi rend="color(FF0000)">Ⴋ</hi>იგა <hi rend="color(FF0000)">Ⴓ</hi>ჳთ უტყუელ იგი პირთ ბრძანებს თქო ჩ<lb/> 
+                  ნი ე&#x0312;ქ ქუ მოციქულთა მიმართ ოდეს იგი
+               </p>
+               <p hand="#h3">
+                  <hi rend="color(FF0000)">Ⴈ</hi>ოანე ეგულვა ვნებად ჩ&#x0312;ნთჳს სული იგი ჭ&#x0312;ტებისა<lb/> 
+                  Ⴈწონის რ&#x0312;ლ Ⴋამისაგან გამომავალს მან სწამს ჩემთ<lb/> 
+                  ვს Ⴃა ვ&#x0312;დ მეორესა შ&#x0312;ა კრებასა მსოაფლოსა ეს<lb/> 
+                  ევე დამტკიცებულ იქმნა ჭ&#x0312;ტო ესე  აღსარება კეთი <lb/> 
+                  ლ მსახურებითი ვ&#x0312;დ გურწამსსულ წ&#x0312;ა  Ⴍ&#x0312;ქთ და ცხოველს<lb/> 
+                  მყოფელ რ&#x0312;ლ მამისაგან გამოვალს და შემდგომი ა და<lb/> 
+                  ესე უწყოთ წ&#x0312;თ მამათა წერილთაგან რ&#x0312; არი მიზეზი<lb/> 
+                  არა ემების რათამცა მამა და ძეცა ორნივე სულსა<lb/> 
+                  მიზეზნი იყ&#x0312;უნენ ა&#x0312;დ მხოლოდ შუა ოდენ არს მიზეზი ძის <lb/> 
+                  და სულსა ჩ&#x0312;ისა ხ&#x0312; ესე ორნი მიზეზგანნი არავინ <lb/> 
+                  Ⴋამისა და ვ&#x0312;დ რ&#x0312; უშობელობა შობილება და გამოვლინება<lb/> 
+                  არა არს საზოგადო და უნებითი Ⴖთისა ა&#x0312;დ გუ&#x0302;ამოვნ<lb/> 
+                  ებითი და თჳთებითა უკეთუ ბუნებათი არს დასა<lb/> 
+                  ზოგადო უთხა გამოვლინება მაშა სჯამ&#x0312;ნცა წ&#x0312;ნ შუ&#x0312;ას<lb/> 
+                  ძე რ&#x0312;ლ ესე ნუ იყონეონ ხ&#x0312; ვინადგან გუ&#x0302;ამოვნებ<lb/> 
+                  ითი არს და თჳთებითი მაშა სადამე მარადის ამამა<lb/>
+                  <pb f="43v" n="86"/>
+                  უშობელ იყოს ვ&#x0312;ა არს Ⴛე Ⴋამისაგან მხოლოდ შო<lb/> 
+                  ბილ ხ&#x0312; სული წ&#x0312;ა მხოლოდ Ⴋამისაგან გამავალი<lb/> 
+                  რ&#x0312; თჳთება და გუ&#x0302;ამოვნება Ⴋამის და Ⴛის და სულ<lb/> 
+                  ისა ჩ&#x0312;მისა არა იცუალებიან ურთიერთარს<lb/> 
+                  მამა სადმე მამა მარადის უშობელ არს რ&#x0312; არავის<lb/> 
+                  გან იშობ იშოების და Ⴛემარადის Ⴋამისაგან იშუ<lb/> 
+                  ების ხ&#x0312; სული და მარადის მამისაგან გამავალს დაარა<lb/> 
+                  მისაგან ხ&#x0312; Ⴛისა თანა განისუჱნებს ესე არს მართლი<lb/> 
+                  და უცთომელი და ჭ&#x0312;ტი კეთილ მსახურებითი აღსარება კუთ<lb/> 
+                  <add place="margin-left"  hand="#h1">Ⴜ</add>ის მეტყუჱლებისათჳს
+               </p>    
+               <p hand="#h3"> 
+                  <add place="margin-left"  hand="#h1">Ⴜ</add>
+                  <hi rend="color(FF0000)">Ⴉ</hi>ით   <hi rend="color(FF0000)">Ⴉ</hi>უ&#x0302;ალად  მაწავე ვ&#x0312;რ არს ესე რ&#x0312; Ⴋამა<lb/> 
+                  სხუ&#x0302;ა გუ&#x0302;ამი არს Ⴛე სხუ&#x0302;ა გუ&#x0302;ამი და სული წ&#x0312;ა<lb/> 
+                  სხუა გუამი და არა განიყფიან სხუად და სხად ბუ<lb/> 
+                  ნებითა და ბუებით ერთ ახან და არცაღა სხუ&#x0302;ასა<lb/> 
+                  და სხუასა ადგილასა არიან და არცა პლ&#x0312;ბა  და უკანასვ<lb/> 
+                  ლ ეობა არს მათ შს ვ&#x0312;რ არს ესე ა
+               </p>  
+               <p hand="#h3">
+                  <add place="margin-left"  hand="#h1"><hi rend="color(FF0000)">Ⴋ</hi></add>  
+                  <hi rend="color(FF0000)">Ⴋ</hi>ით: <hi rend="color(FF0000)">Ⴄ</hi>სრეთ იმეცენ ამის პირისათჳს ვ&#x0312;ა <del rend="strikethrough">ვ&#x0312;ა</del> იყო კაცი ერთ <lb/> 
+                  ბუნება არს და გუამოვნებით სხუ&#x0302;ა დასხუა ვარ<lb/> 
+                  ადამ აბელ დასეით რ&#x0312; ბუნებით ერთ არიან Ⴊ&#x0312;<lb/> 
+                  გუამოვნებით სხუ&#x0302;ა დასხუ&#x0302;ა ესრეთ არს ღთაებ<lb/> 
+                  ისათჳსცა დაღათუ სამ გუამოვნებითა უცნობის <lb/> 
+                  <damage><gap quantity="8" unit="chars" reason="illegible"/></damage>ზ&#x0312; კაცთა შ&#x0312;ს ესრეთ არს რ&#x0312; ადამს 
+                  <damage><gap quantity="30" unit="chars" reason="illegible"/></damage> ჟამი <gap reason="illegible" quantity="4" unit="character" n=""/> 
+               </p> 
+               <pb f="44r" n="87"/>
+               <pb f="44v" n="88"/>
+               <figure><p>Cross</p></figure>
+               <pb f="45r" n="89"/>
+               <figure><p>Cross</p></figure>
+               <pb f="45v" n="90"/>
+               <figure><p>Cross</p></figure>
+               <pb f="46r" n="91"/>
+               <pb f="46v" n="92"/>
+               <p hand="#h3">    
+                  ნეტარ თუ ღირს მყოფთ ვ&#x0312;სევას მონა  თქ&#x0312;ნი ა<lb/> 
+                  Ⴈ<gap quantity="1" unit="chars" reason="illegible"/>&#x0312;ლთ მვედრე მრჩობლ სიბრძნის მყუარენო჻ 
+               </p>  
+               <p hand="#h3"> 
+                  Ⴞ&#x0312; ესე იამბვონიცა მისგანიე არს ნათქვი რომლსაცა<lb/> 
+                  სახელ არს გამო<lb/> 
+                  წერელ აკრისტა<lb/> 
+                  სურად 
+               </p>  
+               <p hand="#h3">
+                  ზესთა მის ნათლისა დაზესთა ბუნებისა ნათელთ მეო<lb/> 
+                  რეთა მანათლისა და გონიერთა ზესთა გონებად არსა მაარ<lb/>
+                  ცისა. პ&#x0312;დ გონებად უპირატესისა დასამ ვეცოლთ<lb/> 
+                  მენავთ მამყოფისა უნივთოთა ჟ უნივ<damage><gap quantity="1" unit="chars" reason="illegible"/></damage> მისა მეთქვისა<lb/> 
+                  დიდისა მისაებრ არცა ნათლისა დაარცა წინა <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> უკმდ <damage><gap quantity="4" unit="chars" reason="illegible"/></damage><lb/> 
+                  ა ზედ წოდებულსა და ამისთჳს მმსაზღურებელს<lb/> 
+                  მეცადინ<damage><gap quantity="2" unit="chars" reason="illegible"/></damage> რაჲცა იგიობა უხმს მყოფისა<lb/> 
+                  Ⴞ&#x0312;  ამისისა უვითარსა არცა ეს ჴმა და ზესთა არს<lb/>
+                  თა არსისა. არსასა ზედა მეტყუ&#x0302;ჱლსა შეეპყრობის<lb/> 
+                  არღანო შინაგან მდებარესა ვერ გამოჩენისა მღთ<lb/> 
+                  Ⴀმის დამი მეტყუ&#x0302;ჱლისა საშუალთა ორღანოს უძაღ<lb/> 
+                  ებს ვინჲდგან თუალ იგი წყართა მ მაწყარეცა გნხ<lb/> 
+                  ნელ იქმნების და უზესთაესის მეც&#x0312;დინე მცენავი უნათლ<lb/> 
+                  ებს ვ ვინაოდგან აღგრცჳლთაცა იგი მთავარი მიუწ<lb/> 
+                  <damage><gap quantity="5" unit="chars" reason="illegible"/></damage> 
+                  <pb f="47r" n="93"/>
+                  და  მრჯგუჲს და უკეთუ ესენი ესრეთ მშობელ ამასი<lb/> 
+                  რამოდენ მერმედიცა მრუშითა იპყრობს <gap reason="illegible" quantity="2" unit="character" n=""/>ბლთა ვა<gap reason="illegible" quantity="1" unit="character" n=""/>ედ<lb/> 
+                  რასა მღთისა სატების <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> გარნა ესე ვითარესა<lb/> 
+                  უაღრესისა არისასა ჩემისა ყლ<damage><gap quantity="1" unit="chars" reason="illegible"/></damage> მყოლ მინდობილ<lb/> 
+                  ერ წარწყმეველთა მეძიებელს დაცემულთა აღმმართებ<lb/> 
+                  ელსა დადცემ<gap reason="illegible" quantity="2" unit="character" n=""/>თა არა დამტეველსა ხ&#x0312; მტკიცედ მდგ<lb/> 
+                  მდგომთა შემწისა ყისა შემძლებელსა სახიერის <damage><gap quantity="2" unit="chars" reason="illegible"/></damage> გვირ
+               </p>    
+               <p hand="#h3">    
+                  უსსენოჲსა დაუსტყუ&#x0302;იცა ოდემე სიტყჳს მცემელსა<lb/> 
+                  უგონებითა დაუგიელხმა ამათ მით <damage><gap quantity="2" unit="chars" reason="illegible"/></damage> მთქ<damage><gap quantity="1" unit="chars" reason="illegible"/></damage> ებელს <lb/> 
+                  <damage><gap quantity="5" unit="chars" reason="illegible"/></damage> არისის <damage><gap quantity="5" unit="chars" reason="illegible"/></damage> ბისა სამ <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> გრე<lb/> 
+                  <damage><gap quantity="4" unit="chars" reason="illegible"/></damage>აივნდ ცნობისა Ⴋამისა და <lb/> 
+                  ძისა და სულისა  Ⴜ&#x0312;ისათა<lb/> 
+                  და წ&#x0312;თა ლოცუ&#x0302;ათა<lb/> 
+                  ინძძ ვეწყო<lb/> 
+                  აწ პ&#x0312;დ<lb/> 
+                  აღ<lb/> 
+                  თქმულსა მის აღ
+                  წერად დათ
+                  ქმად.
+               </p>   
+            </div>
+         </div>
       </body>
    </text>
 </TEI>

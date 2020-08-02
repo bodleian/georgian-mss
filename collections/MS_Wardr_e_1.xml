@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="MS_Georg.css"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_55">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. e. 1</title> 
+               <title type="alt" xml:lang="en">Life of Saint Nisime</title>
+               <title type="alt" xml:lang="ka">ცხოვრება წმიდისა ნისიმესი</title>
+               <title type="alt" xml:lang="ka-la">cʻxovreba cmidisa nisimesi</title> 
+            </title>
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
+         <editionStmt>
+            <edition n="1">First digital edition, TEI P5.
+               <date>21 February 2019</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
             <date calendar="#Gregorian">[Date when first made available]</date>
@@ -27,6 +42,9 @@
                   </addrLine>
                </address>
             </pubPlace>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
             <idno type="msID">MS_Wardr_e_1</idno>
             <idno type="catalogue">Georgian</idno>
          </publicationStmt>
@@ -41,43 +59,85 @@
                   <collection type="main">Oriental Manuscripts Wardrop Collection</collection>
                   <idno>MS. Wardr. e. 1</idno>
                </msIdentifier>
+               <head>The life of Saint Nisime.</head>
                <msContents>
-                  <summary>Life of St. Nisime</summary>
+                  <summary>The life of Saint Nisime is well known for its different fragments in Syriac, Persian and Georgian languages. 
+                     This manuscript belongs to XVIIIth century in accordance with watermark indicating "1784". This Manuscript consists of four parts with few additions and ornaments. 
+                     The text is written in Mkhedruli script, while Asomtavruli script is used for titles, the first letters of paragraphs and sometimes for decoration. 
+                  </summary>
+                  <textLang mainLang="ka">Georgian</textLang>
                   <msItem xml:id="MS_Wardr_e_1-item1" n="1">
-                     
-                     
+                     <locus from="2" to="222">pp. 2-22</locus>                     
                      <title xml:lang="en-Latn-x-lc" key="work_5">Life of St. Nisime</title>
-                     
+                     <title xml:lang="ka" key="work_83">ცხოვრება წი&#x0360;სა ნისიმესი</title>
+                     <incipit>              
+                        <hi rend="color(FF0000)">Ⴋ</hi>აშინ თქუ&#x0302;ა მე წერილთა მრავალთა წარჳღე წიგნები<lb/>
+                        სპარსეთით საბერძნეთად, დაკ&#x0360;დ წიგნები საბერძნეთით სპარ<lb/>
+                        სეთად, და აღჳღი ქუ&#x0302;ჱლის საქმე ფ&#x0360;დ ალექსანდრიით, რ&#x0360; იყო ბერი ერთი<lb/>
+                        შუ&#x0302;ჱნიერი, და კურთხეული და ყ&#x0360;ითურთ შემკობილი საქმითა ყოუ&#x0302;<lb/>
+                        ლითა და იგი <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> და ეკკლესიასა ალექსანდრიისასა:
+                     </incipit>
+                     <explicit>
+                        რომლისა<lb/>
+                        არს დიდება უ<lb/>
+                        კუნითი უ&#x0360;კე<lb/>
+                        რომლ’-<lb/>
+                        ისა არს დიდე-<lb/>
+                        ბა უკუნითი უკუ<lb/>
+                        ნისამდე ამ<lb/>
+                        ინ<lb/>
+                       ..
+                     </explicit>
                      <listBibl>
                         <bibl>CWC, 341</bibl>
-                     </listBibl>
+                     </listBibl>                     
                      <textLang mainLang="ka">Georgian</textLang>
                   </msItem>
-                  <msItem xml:id="MS_Wardr_e_1-item2" n="2">
-                     
-                     
-                     <title xml:lang="ka-Latn-x-lc" key="work_6">c'xovreba da mok'alak'eoba evp'emianesi da żisa misisa alek'sisa kac'isa ġvt'isa</title>
+                  <msItem xml:id="MS_Wardr_e_1-item2" n="2">                     
+                     <locus from="23" to="32">pp. 23-32</locus>   
+                     <title xml:lang="ka-Latn-x-lc" key="work_6">cʻxovreba da mokʻalakʻeoba evpʻemianesi da żisa misisa alekʻsisa kacʻisa ġvtʻisa</title>
                      <title xml:lang="ka" key="work_6">ცხოვრება და მოქალაქეობა ევფემიანესი და ძისა მისისა ალექსისა კაცისა ღვთისა</title>
+                     <incipit>              
+                        ვინმე რომს ქალაქსა შ&#x0360;ა, კაცი მორწმუნე, და მართალი <lb/>
+                        და მდიდარი ფ&#x0360;დ და სახელი მისი ავფემიანე, ამას ესხნეს მონანი...
+                     </incipit>
+                     <explicit>
+                        უნთქუ&#x0302;ჱსვე აღმოჴდა სული სურნელებისა ადგილსა მისგან. ხ&#x0360; აღე-<lb/>
+                        სრულა ნეტარი ესე, Ⴇთუ&#x0302;ჱსა მარტსა ათჩჳდმეტსა, და მიჳდა იგი<lb/>
+                        წ&#x0360;ე ყ&#x0360;ისა, სადიდებელად მამისა და ძისა და წმიდისა სულისა ა&#x0360;წ და<lb/>
+                        მარადის და უ&#x0360;კი უ&#x0360;ვე ამინ : Ⴋეოც მეყავ წ&#x0360;ო ღ&#x0360;ისბო, ცრლ<lb/>
+                        ჳლს ზირაქს :
+                     </explicit>
                      <listBibl>
                         <bibl>CWC, 341</bibl>
                      </listBibl>
                      <textLang mainLang="ka">Georgian</textLang>
                   </msItem>
                   <msItem xml:id="MS_Wardr_e_1-item3" n="3">
-                     
-                     
+                     <locus from="32" to="32">pp. 32</locus>                      
                      <title xml:lang="en-Latn-x-lc" key="work_8">Acrostic on the name Aleksi, followed by a prayer for the scribe Zirak'i</title>
-                     
+                     <title xml:lang="ka" key="work_6">ცხოვრება და მოქალაქეობა ევფემიანესი და ძისა მისისა ალექსისა კაცისა ღვთისა</title>
                      <listBibl>
                         <bibl>CWC, 341</bibl>
                      </listBibl>
                      <textLang mainLang="ka">Georgian</textLang>
                   </msItem>
                   <msItem xml:id="MS_Wardr_e_1-item4" n="4">
-                     
-                     
+                     <locus from="1" to="8">pp. 1-8</locus> 
                      <title xml:lang="ka-Latn-x-lc" key="work_9">galoba moc'ik'ulisa</title>
                      <title xml:lang="ka" key="work_9">გალობა მოციქულისა</title>
+                     <incipit>
+                        <hi rend="color(FF0000)">Ⴑ</hi>ასუფეველი ცათა ღირსო რ&#x0360;ლიცაჲ და იმკჳდრე.<lb/>
+                        და მზრახუ&#x0302;ჱლ ზეციერ. იქმენ შენ სიტყუ&#x0302;ასა;, მრწ-<lb/>
+                        მუნებელნი ღ&#x0360;ის-მეტყუ&#x0302;ჱლებათა’ შენთა’, და ქადაგების-<lb/>
+                        ანი’, და იფარენ ვედრებითა შენითა:
+                     </incipit>
+                     <explicit> 
+                        Ⴑ&#x0360;ნსა შემცუ&#x0302;ჱლსა, სად ნა <damage><gap quantity="1" unit="chars" reason="illegible"/></damage><lb/>
+                        Ⴞარდაქცეულებ, რტო დაცჳენ <damage><gap quantity="1" unit="chars" reason="illegible"/></damage><lb/>
+                        Ⴈანი შენნი, ა’ღარ ჰფშვან სუნელთა,<lb/>
+                        Ⴃავბილთა ფერი, ბაგითურთ <gap reason="illegible" quantity="1" unit="letter"/>გხდომ<gap reason="illegible" quantity="2" unit="letter"/> <damage><gap quantity="1" unit="chars" reason="illegible"/></damage>
+                     </explicit>                     
                      <listBibl>
                         <bibl>CWC, 341</bibl>
                      </listBibl>
@@ -86,22 +146,42 @@
                </msContents>
                <physDesc>
                   <objectDesc form="leaf">
-                     <supportDesc material="chart">
-                        <extent>15 ff. <dimensions type="leaf" unit="cm">
-                              <height>21</height>
-                              <width>15</width>
-                           </dimensions>
+                     <supportDesc material="paper">
+                        <support>The Manuscript is written on paper. The first and the last page is damaged</support>
+                        <extent>
+                           <seg type="leaf">
+                              <num type="leaf" value="15">15</num>
+                           </seg>
+                           <seg type="dimensions">
+                              <dimensions type="leaf" unit="cm">
+                                 <height quantity="21">21</height>
+                                 <width quantity="15">15</width>
+                              </dimensions>
+                           </seg>                           
                         </extent>
+                        <foliation>Original foliation in black roman numerals on the first page and arabic numbers on other pages
+                              in the top corners of each page. Pencil pagination is added probably by the library.
+                        </foliation>           
+                        <collation>The written leaves preceded by title page. 
+                        I (2-22); II (22-32); III (32); IV (1-8)
+                        </collation>
+                        <condition>Several leaves of manuscript are damaged and have dark stains</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
                            <dimensions type="line-height" unit="mm"/>
                         </layout>
-                     </layoutDesc>
+                     </layoutDesc>                     
                   </objectDesc>
                   <handDesc>
                      <handNote scope="major" script="Mkhedruli">Mkhedruli</handNote>
-                  </handDesc>
+                  </handDesc>                  
+                  <decoDesc>
+                     <decoNote>The Manuscript has two decorations in the form of text written in ligatures on p. 22 and
+                     rotating ornaments in red, blue and green ink on p. 23. Beginnings of paragraps are decorated generally
+                     with Asomtavruli letters in red ink and, sometimes, in the form of ligatures.
+                     </decoNote> 
+                  </decoDesc>
                </physDesc>
                <history>
                   <origin>
@@ -111,11 +191,24 @@
                </history>
                <additional>
                   <adminInfo>
-                     <availability status="restricted">
-                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
-                     </availability>
+                     <recordHist>
+                        <source>
+                           Description adapted (2019) from the following sources:
+                           <listBibl>                 
+                              <bibl>
+                                 <title>David Barret's Catalogue of the Wardrop Collection and of other Georgian Books and Manuscripts in the Bodleian Library</title>
+                                 <publisher>Published by the Marjory Wardrop Fund by Oxford University Press</publisher>
+                                 <date when="1973">1973</date>
+                                 <idno type="VIAF">216536082</idno>
+                              </bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted"><p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact Bodleian Admissions). 
+                        Contact specialcollections.enquiries@bodleian.ox.ac.uk for further information on the availability of this manuscript</p>
+                     </availability> 
                   </adminInfo>
-               </additional>
+               </additional>               
             </msDesc>
          </sourceDesc>
       </fileDesc>
@@ -177,7 +270,7 @@
                </category>
             </taxonomy>
          </classDecl>
-      </encodingDesc>
+      </encodingDesc>      
       <profileDesc>
          <textClass>
             <keywords scheme="#LCSH">
@@ -187,16 +280,22 @@
                   </item>
                </list>
             </keywords>
-         </textClass>
+         </textClass>         
+         <langUsage> 
+            <language ident="ka">Georgian Language</language>
+         </langUsage>         
       </profileDesc>
       <revisionDesc>
+        <change when="2019-03-01">
+           <persName>Irina Lobzhanidze</persName>Updated the transcription and added all references to wiki-data.
+        </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl">https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl</ref>
          </change>
          <change when="2011-05-12">
             <persName>Nikoloz Aleksidze</persName>
          </change>
-      </revisionDesc>
+      </revisionDesc>      
    </teiHeader>
    <facsimile>
       <graphic url="folio1r.png"/>
@@ -204,9 +303,855 @@
       <graphic url="folio2r.png"/>
       <graphic url="folio2v.png"/>
    </facsimile>
-   <text>
-      <body>
-         <p><!--Body paragraph provided for validation and future transcription--></p>
-      </body>
-   </text>
+<text>
+    <body>
+       <div type="original">
+          <div type="chapter"  n="1">                                                         
+            <pb n="11"/>
+           <head>ცხოუ&#x0302;რება წ&#x0360;ისა ნისიმესი.</head>
+            <p>
+                <hi rend="color(FF0000)">Ⴋ</hi>აშინ თქუ&#x0302;ა მე წერილთა მრავალთა წარჳღე წიგნები<lb/>
+               სპარსეთით საბერძნეთად, დაკ&#x0360;დ წიგნები საბერძნეთით სპარ<lb/>
+               სეთად, და აღჳღი ქუ&#x0302;ჱლის საქმე ფ&#x0360;დ ალექსანდრიით, რ&#x0360; იყო ბერი ერთი<lb/>
+               შუ&#x0302;ჱნიერი, და კურთხეული და ყ&#x0360;ითურთ შემკობილი საქმითა ყო|უ<lb/>
+                ლითა და იგი <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> და ეკკლესიასა ალექსანდრიისასა: 
+            </p>
+            <p>                                                                                           
+               <hi rend="color(FF0000)">Ⴃ</hi>ა <gap reason="illegible" quantity="8" unit="letter"/> მრავალთა, მედა იგი წარუ&#x0302;ედით საჴმრისათ&#x0360;ს<lb/>
+                მაშინ იწტო დამრქუ&#x0302;ა მე : 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴋ</hi>ნებავს მე რა’ მიგითხრა რაჲმე ხ&#x0360; მე ვარქუ&#x0302; ჰე თქუ&#x0302;მა-<lb/>
+               ......რც. გნებავს და ჩ&#x0360;ნ ჳდოდით გზასა მაშინ აღიღო პირი და ა-<lb/>
+               მბავ მიყო და მითხრობდა კაცთა წ&#x0360;თასა, რ&#x0360;ნი იყუ&#x0302;ნეს ქუ&#x0302;ჱყანასა<lb/>
+               ჩუ&#x0302;ჱნსა აწ მე ჳყავ მათთ’ა და მესმა მათგან ცხოვრება მამათა რ&#x0360;ნი<lb/>
+                იყუ&#x0302;ნეს ქუ&#x0302;ჱტანასა მათსა დამე ვარქუ&#x0302; მას ჰე მამათა: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴋ</hi>აშინ სულთ-ითქუ&#x0302;ნა დატიროდა ცრემლითა დამრ-<lb/>
+                ქუ&#x0302;ა მე. 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴥ</hi>  შვილო ჩემო გითხრა შ&#x0360;ნ საფასე ერთი იყო ჩემთა’ სუ-<lb/>
+               ლიერი, და უთმინოებითა შემითა წარვსწყმიდნე, ვ&#x0360;ა მესმა სიტყუ&#x0302;ა<lb/>
+               ესე ტრფილ-ჳქმენ რა’ ვჰსცან მიზეზი, რ&#x0360; ა’რა საფასისა თქუ&#x0302;ა რა’<lb/>
+               წავსწყმიდე მაშინ იწყო დათქუ&#x0302;ა ტირილითა მრავლითა ათორმეტსა <lb/>
+               <gap reason="illegible" quantity="11" unit="letter"/> ვმსახურე და, მე ეკკლესიასა ვ&#x0360;ა მე დღესა ესე მხედავ<lb/>
+               <gap reason="illegible" quantity="13" unit="letter"/>დ წ&#x0360;ა კკ&#x0360;სა შ&#x0360;დ ცისკრისა ლოცჳსა, და გალობისა განშორ-<lb/>
+               <gap reason="illegible" quantity="10" unit="letter"/>წარჳდა ყ&#x0360;ი ერი საყოფელად თვისად, და დავშთი მე დამეს-<lb/>
+                <gap reason="illegible" quantity="10" unit="letter"/> მარტოდ, და დავვშენით ვარნ. ეკკლესისანი გარეგანი 
+            </p>
+          <pb n="12"/>
+            <p>
+               დაშინანი, და ჳკრძალენით დაჳწყეთ რა’ შევკაზმოთ ეკკლესია და-<lb/>
+               საკურთხეველი ჟამისწირვად დღისა მის თჳს წ&#x0360;ისა აღდგომისა[<lb/>
+               თუ&#x0302;ისა ჩ&#x0360;ნისა Ⴈ&#x0360;ჳ  Ⴕ&#x0360;სა’, რ&#x0360; აღ|უსება იყო, დავჳდებით კანდლებსა<lb/>
+               დაეზოებსა რა’ განვაშვენოთ წა’ეკკლესია დღისა მისთჳს დადებულ-<lb/>
+               ისა მაშინ ვარქუ&#x0302; ძმასა მას შჳლო მოვედ, და შევკაზმოთ ჭურჭელნი’<lb/>
+               ეკკლესიისა და განჳსუენოთ მცირედ, დაგუეცა <gap reason="illegible" quantity="4" unit="letter"/> სა.მე <gap reason="illegible" quantity="6" unit="letter"/> სული<lb/>
+               ა’რაჳს ეყნოსა კაცთაგან მისებრიჳ ყ&#x0360;დუ ს&#x0360; ჩ&#x0360;ნ გუშინ’და დაგუ&#x0302;ჱგონა ნ<gap reason="illegible" quantity="4" unit="letter"/>-<lb/>
+               უ&#x0302;ჱ სახლსა საკმეველისასა შეედვა ცეცხლი, ვ&#x0360;ა ჩ&#x0360;ნ გულსა უტყოდით<lb/>
+               მაშინვ&#x0360;ა გუ&#x0302;ჱსმა შინათ.. გამო რ&#x0360;ი გუტყოდა ძმანო, <gap reason="illegible" quantity="3" unit="letter"/> <gap reason="illegible" quantity="5" unit="letter"/> <gap reason="illegible" quantity="5" unit="letter"/><lb/>
+                სართ მეცა ვარ თქუ&#x0302;ენებრიჳ: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴃა</hi> ესე სული სულნელებისა არს მაშინ მივედ დაგანხაღეკა-<lb/>
+               რო საჭურჭლისა ეკკლესიისა რ&#x0360;ა ჳხილო რაჲ მიზემი აეს,<lb/>
+               დაჳხილე ნათელი დიდი უფროს მზისა მუ&#x0302;ალისა და კაცი ბერი თაყუ&#x0302;ანის-<lb/>
+               ცემით ილოცჳდა დაგანეპყრნეს ხელნი ზეცაც დაშ&#x0360;დ მცირედ იქმნდა ხილ<lb/>
+               ვა მისი, მსგავსად ალისა ცეცხლისა, და სახე მისი ვ&#x0360;ა ანგელოზი <gap reason="illegible" quantity="7" unit="letter"/><lb/>
+               დაიყო ხილვა მისი საზარელ ნ მე დამეცა შიში ვ&#x0360;ა მიხილა მე რ&#x0360; შემე-<lb/>
+               შინა დააცადა ლოცუ&#x0302;ა დამრქუ&#x0302;ა მეცა კაცი ვარ ნუ გეშინინ სიწმიდისა<lb/>
+               უმიებ შენგან, და შიშითა ფ&#x0360;დითა მიუც ჴორცი დასისხლი წმიდა რ&#x0360; ეზიარნ<lb/>
+               დამუნთქუ&#x0302;ჱსუ მ&#x0360;დ ზიარების აღჳ <gap reason="illegible" quantity="3" unit="letter"/> ხუნა <gap reason="illegible" quantity="4" unit="letter"/> <gap reason="illegible" quantity="8" unit="letter"/> რ&#x0360; <damage><gap quantity="1" unit="chars" reason="illegible"/></damage><lb/>
+               მას, ხ&#x0360; მან მისწრო დაგანჳდა გარდ ეზოდ დამიუწია აწ ვარქუ&#x0302; შენ <damage><gap quantity="1" unit="chars" reason="illegible"/></damage><lb/>
+                და მიიხუ&#x0302;ჱნ ორნი ესე სეფისკუ&#x0302;ჱრი ევლოგიად შენთანა: 
+            </p>
+            <p>
+                <hi rend="color(FF0000)">Ⴞ</hi>&#x0360;  მან მექუ&#x0302;ამე საკმარი ჩემი მიმიღებიეს არამედ <gap reason="illegible" quantity="6" unit="letter"/> <gap reason="illegible" quantity="1" unit="letter"/> <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> 
+            </p>
+          <pb n="13"/>
+            <p>                                                                                                            
+               რათა აღჳღო შ&#x0360;ნგან ევლოგია მომეცმე სიმინდი მხჳმელად საწყ-<lb/>
+               აული ორიქსესტისა დანახე მეოთხედი ღჳნო ზედაშედ ო&#x0360;რ მწ მიჴ-<lb/>
+               მეს იგი, და ვარქუ&#x0302; მას, ჰე უფალო მიგცე შენ, მაშინ წარვედ წის-<lb/>
+               ქჳლსათანა, და მოვართუ&#x0302; მას სახარი თჳსი, დამან ვითარცა მიიღო<lb/>
+               მრქუ&#x0302;ა მე შემინდევ ძმაო, და მომართ.უ&#x0302; კარსა თანა ქალაქისათა, და მე ვარქუ&#x0302;<lb/>
+               ჰე, უკეთუ სათნო გიჩნს მე მოგყვე ადგილადცა შენადმდე, დაგანვედ<lb/>
+               მისთანა დავარქუ&#x0302; მას, მაუწყე მე უ&#x0360;ო, რასათჳს გიხმს ეგე, და მრქუ&#x0302;ა<lb/>
+               მე ჩემო შვილო, რ&#x0360; ჩემთანა არს ერი მძოვართა უდაბნოს და მე’ ვმსახუ-<lb/>
+               რებ მათ და ვწეურჳ შესაწირავსა წლითი წლად, ერთგზის დღისა ამ-<lb/>
+               ისათჳს წ&#x0360;ისა რ&#x0360;ლ არს აღდგომა Ⴓ&#x0360; სა ჩ&#x0360;ნისა Ⴈ&#x0360;ჳ Ⴕ&#x0360;სი, დავარქუ&#x0302; მას<lb/>
+               რაოდენი არს რიცხჳ მათი ხ&#x0360; მან მრქუ&#x0302;ამე არ’ნ იგინი ოთხას, ხ&#x0360; მე-<lb/>
+                ვკითხე რაზომ შორს არ&#x0360;ნ აქეთ, და მრქუ&#x0302;ა მე : 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴍ</hi>თხას ოდენ ფარასას, ხ&#x0360; მე ვარქუ&#x0302; მას ჵიი, მამაო დღეს კჳრია-<lb/>
+               კე არს აღდგომა Ⴓ&#x0360;ისა ოდეს მიიწიო მათთანა ამას სიშ-<lb/>
+                რესა: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴃ</hi>ა მრქუ&#x0302;ა მე ჵი', შჳლო არღარა აღმოგიკითხავსაა’ რ&#x0360;ლი,<lb/>
+               რქუ&#x0302;ა გაბრიილ <supplied reason="illegible">ა</supplied>ნგელოზმან Ⴖ&#x0360;სამან, წ&#x0360; ქალწულისა მარიამს ვ&#x0360;დ<lb/> 
+               შჳ შენ სულისა მიერ წმისისა, რ&#x0360; ა’რ საჲთა შეუძლებელ არს.<lb/>
+               წ<gap reason="illegible" quantity="6" unit="letter"/> და მიჳნ..ნით კარსა, და ვ&#x0360;ა განვა<gap reason="illegible" quantity="3" unit="letter"/> მრქუ&#x0302;ა მე მერმან <lb/>
+               ნ&#x0360;ნ მომეც შჳლო, რ&#x0360;ლი ეგე გაქუ&#x0302;ს დაშენ უ<gap reason="illegible" quantity="3" unit="letter"/> იქეც მშჳდობით,<lb/>
+               ეკკლესიად მაშნ დაუტევე მშვდობაჲ დამოჳქეც ეკკლესიად, აწ გა<lb/>
+                <damage><gap quantity="1" unit="chars" reason="illegible"/></damage><gap reason="illegible" quantity="3" unit="letter"/>ბულჳქმენ რ&#x0360;ლ ესე მესმა მისგან : 
+            </p>
+          <pb n="14"/>
+            <p>                
+               <hi rend="color(FF0000)">Ⴋ</hi>აშინ ჳწყე მოცუ&#x0302;ად, და ვეძიებდი ღ&#x0360;ისაგან, რათა ცხო-<lb/>
+               ველ-ჳყო წელსა სხუ&#x0302;ასა, რათა ჳხილო ბერი ესე და ვეკურთხო<lb/>
+               მისგან, და ვ&#x0360;ა გასრულდა წელიწადი წარმოდგა წ&#x0360;ე ჩ&#x0360;ა დიდსა შაბათ-<lb/>
+               სა ბერი იგი ვ&#x0360;ხლი, ხ&#x0360; მე განჳხარე, ვ&#x0360;ა ჳხილე მე იგი და მივეც <lb/>
+                დ&#x0360;ბა ღ&#x0360;ა, აწ მოჳკითხეთ ურთიერთს: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴋ</hi>რქუ&#x0302;ა მე მომეც მე აწცა ვ&#x0360;ა მომეც.არ,ა, მე ვარქუ&#x0302; ჰე, მე მხოლო მხი-<lb/>
+               არილებით წარვედ დამოვართუ&#x0302; მას მასწრაფლ საჴმარი იგი, ვ&#x0360;ა ჩუ&#x0302;ჱულ<lb/>
+                ჳყავ, და აღჳღე დაწარვყევ მას ვ&#x0360;ე კარადმდე ქალაქისა : 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴋ</hi>აშინ ვევედრე, და ვარქუ&#x0302; მას ჵიი, მამო ჰყავ ჩემთანა <gap reason="illegible" quantity="7" unit="letter"/><lb/>
+               ული დაწარმიყუ&#x0302;ანე მე შენთანა, წმიდათა მათ მამათა თანა, რა&#x0360;თა ჳ-<lb/>
+                კურთხო მათგან : 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴋ</hi>ომიგო მე ბერმან და მრქუ&#x0302;ა მხიარულად, ჵიი შვილო სჯო-<lb/>
+               ბს უკეთუ სადჯდე შუ&#x0302;ჱნიერად, დაუკეთუ კულა რამე ვერ ეგების <lb/>
+                დაუნდესთუ ღ&#x0360;ა წარგიყუ&#x0302;ანო შენ წელსა სხუ&#x0302;ასა, რ&#x0360;ლი მოვალს : 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴞ&#x0360;</hi> რ&#x0360;ლი მე გაზრახო შ&#x0360;ნ ჰყო, და ვ&#x0360;ა გარდახდა წელიწად <gap reason="illegible" quantity="4" unit="letter"/><lb/>
+                ერთი რომელი მრქუ&#x0302;ა მე : 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴋ</hi>ოჳიდა ბერი იგი, და ვარქუ&#x0302;,ას უფალო რასა უკუ&#x0302;ჱ მა-<lb/>
+                ზრახებს სიწმიდე შენი რ&#x0360;ლი იგი მიქადე ღირსი : 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴞ&#x0360;</hi> მან მრქუ&#x0302;ამე ვე’რ ეგების აწ რათამცა იქმნა ესე, და ვ&#x0360;ა ჰრქუ&#x0302;ა<lb/>
+               დავ&#x0360;ა თქუ&#x0302;ა ისმინე ჩემო შჳლო ჩემო ა&#x0360;რ წარგიყუ&#x0302;ანებ შენ აწ ჩემთანა<lb/>
+               დაა’რა მოჳდე დღესა შაბათსა, გარნა დღესა ხუთშაბათსა დიდსა <lb/>
+               <hi rend="color(FF0000)">Ⴅ</hi>&#x0360;ა  მაუწყამე დაგანმეშრა წარჳდა უდაბნოსა, ხ&#x0360; მი <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> 
+            </p>
+          <pb n="15"/>
+            <p>                
+               კლესიად დამხუარულ-ჳყავ რათა განსრულდეს წელიწადი ესე მეს-<lb/>
+               წრაფლ, რათა მოჳდე წმიდა იგი შენი, და წარმიყუ&#x0302;ანოს მისთანა ვ&#x0360;ა<lb/>
+               იგი აღმითქუ&#x0302;ა :<lb/>
+               <hi rend="color(FF0000)">Ⴃ</hi>Ⴀ ვ&#x0360;ა განსრულდა წელიწადი იგი ნებითა Ⴓ&#x0360;ისა ჩ&#x0360;ნისა Ⴈ&#x0360;ჳს,<lb/>
+               Ⴕ&#x0360;სითა, დამოჴდა დიდი ხუთშაბათი, შეჳკაზმე საკმარი ყ&#x0360;ლ რ&#x0360;ლსა <lb/>
+               იგი ჩუ&#x0302;ჱულ-ჳყავ, და წული ჩემი განმზადებულ-იყო, რათა მოჳდეს<lb/>
+               ბერი იგი წმიდა, ვ&#x0360;ა აღმითქუ&#x0302;ა და დღესა ხუთშაბათსა დიდსა აჰამოჳ<lb/>
+               და ბერი იგი წმიდა, დაგანჳხარემე მისთჳს სიხარულითა დიდითა, დამოჳ<lb/>
+               კითხე იგი მწლედ შეჳტკბენით მშჳდობით, და ვარქუ&#x0302; მას, ჵიი ამაო რა-<lb/>
+               სა ვეკურთხო მე მათგან ხ&#x0360; მან მრქუ&#x0302;ა აღდეგ: Ⴋაშინ მიჳრტყენ<lb/>
+               წელნი ჩემნი, და განვძლიერდი სარწმუნოებითა დააღჳღე სახმარი ჩემი<lb/>
+               დაწარვიყვ მამასა მას, დაჳხილე გზასა ვ&#x0360;ა ნავსა აჰყვანდა რითა ჳდი-<lb/>
+                დოთ: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">ႣႠ</hi> ვ&#x0360;ა ვლეთ ჩ&#x0360;ნ ზომით მილ<gap reason="illegible" quantity="1" unit="letter"/>იონი ერთი მექუ&#x0302;ამე ბერმან<lb/>
+               ვ&#x0360;დ გაუწყებ შ&#x0360;ნ მიწევნულ-ვართ ადგილსა ჩ&#x0360;ნსა, და ვარქუ დ&#x0360;ბა ღ&#x0360;ა სი-<lb/>
+               შორე რ&#x0360;ლ აჴსენე მსწრაფლ განევლთა’ მყის, დათქუ&#x0302;ა ბერმან ა’რა გარქუ&#x0302;ა პდ&#x0360;<gap reason="illegible" quantity="2" unit="letter"/>,<lb/>
+               ვ&#x0360;დ ა’რა რა შეუძლებელ-არს ღ&#x0360;ისაგან რათამცა ა’რა ყოს ნებათჳსი მსწრაფლ : Ⴃავა-<lb/>
+               რქუ&#x0302; მას ვყო მამაო. ხ&#x0360; მან მექუ&#x0302;ამე დაჯედ გუ&#x0302;ჱრდით კლდესა ამას რ&#x0360;სა წ’ყ-<lb/>
+               არო გამოსდის, და დადუმენ და დაიმალე რ&#x0360; ა’რაჳნ გნახს ყ&#x0360;დვე და ჰა იწტეს მო-<lb/>
+                სლვად ყ&#x0360;თა მამათა თჳთოეულმან და შეჳდეს ტაძარსა ლოცვად : 
+            </p>
+            <p>
+                <hi rend="color(FF0000)">Ⴋ</hi>აშინ მოჳდა ბერი იგი წმიდა დამრქუ&#x0302;ა ნუ შეხუ&#x0302;ალ შ&#x0360;ნ ყ&#x0360;დ უკანა 
+            </p>
+          <pb n="16"/>
+            <p>
+               მათსა რათა ა’რა ცნან შენთვის, და ივლტოდიან და რ&#x0360;ლი გესმეს<lb/>
+               დაიცილო, და იმარხე გულსა შ&#x0360;ნსა, დავყავ ვ&#x0360;ა მამცნო მე ბერ-<lb/>
+               მან, და ვ&#x0360;ა წარხდა ჟამი მეცხრე იწყეს მამათა მოსლვად თითოდ <lb/>
+               ვ&#x0360;ა მრქუ&#x0302;ა მე დაჳხილე ყ&#x0360;ისა თჳთოეულისა მათგანსა სახე იგი ვ&#x0360;ა<lb/>
+               რ&#x0360;ი მეხილვა ბერსა მას ზ&#x0360;ა პ&#x0360;ლსა რ&#x0360;ლი მოჳდა ჩემდა, და იგინი იყ-<lb/>
+               უ&#x0302;ნეს კაცნი ჭ&#x0360;ტნი რ&#x0360;ნი მომკუ&#x0302;დარ იყუ&#x0302;ნეს სოფლისაგან ა&#x0360;დ სულ<lb/>
+                ნი მათნი ცხოველ ცათა შ&#x0360;ა: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">ႠႰ&#x0360;Ⴀ</hi> იხილვებდა ჴორცი მათ თანა ყ&#x0360;დვე, ა&#x0360;დ ძარღჳ, და ტყაჳ ძუ&#x0302;ა<lb/>
+               ლთა მათთა ზ&#x0360;ა, შევჴმარ-იყუ&#x0302;ნეს, და ხილვა მათი ვ&#x0360;ა აჩრდილი და სა-<lb/>
+                მოსელი მათი ვ&#x0360;ა ძონძი ძველი : 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴃ</hi>ა ვ&#x0360;ა შეჳდა ერთი მათგანი მოიკითხეს მამა და დასხდეს დუმილით<lb/>
+                  <add place="margin-right">
+                     Ⴐ&#x0360;Ⴢ
+                  </add><lb/>
+               და ვ&#x0360;აშეკრბეს ყ&#x0360;ნივე მაშინ ჳხილე ბერი ერთი დიდი, დაძველებული დღითა<lb/>
+               ე&#x0360;ლთა წელთა სიმრავლისაგან დადრევილ-იყო ზურგი მისი, და მუჴლთა  მისი<lb/>
+               ჩაჩრილი იყო, და იყო ხილვა მისი, დას&#x0360;ლი სურნელი მიეფინებოდა უ&#x0360;თა ვ&#x0360;ა სა-<lb/>
+                კმეველისა ფ&#x0360;დ სურნელისა: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴃ</hi>ა ჳხილე მე უდაბნოსა მას აღმოსავალით ბრწყინუ&#x0302;ალება ფ&#x0360;დი<lb/>
+               რ&#x0360;ლი განანათლებდა გულსა მათსა, და ზოგნი მათგანნი მსგავს იყ-<lb/>
+               უნეს ანგელოზთა, დაჳხილე ბერი იგი დიდი მიყრდნობილი ორთა <lb/>
+               არგანთა და ორთა ძმათა დაემჭირა ერთსა მარჯუჱნით, და ერთსა მა-<lb/>
+                რცხენით : 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴃ</hi>ა ვ&#x0360;ა იხილეს მამათა შესავალი აღდგეს ყ&#x0360;ნი ერთბამად, და თაყუ&#x0302;ა-<lb/>
+               ნისცეს მას და იკითხეს დაიწყეს წ&#x0360;ე მისა ჟამობად : <lb/>
+                Ⴞ&#x0360; იგი 
+            </p>
+          <pb n="17"/>
+            <p>
+               <hi rend="color(FF0000)">Ⴞ&#x0360;</hi> იგი ჳდოდა მცირედ მცირედ უძლურებისაგან გუ&#x0302;ამისა ვ&#x0360;დისა<lb/>
+               შეიყუ&#x0302;ანეს წ&#x0360;ა ეკკლესიასა, და იყო ეკკლესია იგი შეკრუ-<lb/>
+                ლი კამარედად :  
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴋ</hi>აშინ იწყეს ჟამის წირჳსა გალობასა, ხ&#x0360; მე შვედ უკა-<lb/>
+               ნასკნელ მათსა შეშინებული, და დავდეგ უკანასკნელი ყ&#x0360;თასა, რათა<lb/>
+               ა’რაჳნ მნახოს მათგანმან, და ვ&#x0360;ა ეზიარნოს მოიკითხნეს ერთმანერ-<lb/>
+               თი მაშინღა მიხილეს მე, დაჰრქუ&#x0302;ა მამასახლისმან მოუწოდეთ,<lb/>
+               ძმასა მას მსახურსა, და ვ&#x0360;ა მოჳდა ჰრქუ&#x0302;ა მას, რასა მოაშურე,<lb/>
+               ძმაზე ესე დამოიყუ&#x0302;ანე აქა მიუგო მან დაჰრქუ&#x0302;ა შემინდევ მე მამაო<lb/>
+               ღ&#x0360;ნ ჩ&#x0360;ნ გამოგირჩივნა, და შეგ<supplied reason="illegible">ჱ</supplied>კრიბნა ადგილსა ამას. მან უწ-<lb/>
+               ყის რ&#x0360; მრავალგზის დავაყენე ეგე, რ&#x0360;ა ა’რა მოვიდეს ჩემთანა <lb/>
+                და ა’რა შეიწყნარა ჩ&#x0360;ი : 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴋ</hi>აშინ ჰრქუ&#x0302;ა მას მოუწოდე აქა ჩემდა, და ვ&#x0360;ა მივედ<lb/>
+               მას თანა, რ&#x0360;ლსა იგიწარყოლილ ჳყავ, და მიხილამე რ&#x0360; ვიძ-<lb/>
+               რ<supplied reason="illegible">წოდი</supplied> შეშისაგან საკჳრუ&#x0302;ჱლებისა რ&#x0360;ლი ჳხილე, დამეს-<lb/>
+               მა, რ&#x0360; ჳხილე ბრწყინუ&#x0302;ალება ზარი, და დიდება გამოუთქმელი,<lb/>
+               და ჴმა საიდუმლორ&#x0360;ლი ა’რაჳს სადა სმენილ იყო, და ვ&#x0360;ა <lb/>
+               მიწოდა წ&#x0360;ნ მას თავმან მის კრებულისამან და მდუ&#x0302;ა ჴელი<lb/>
+               თავსა, და მაკურთხა ნე. და ეგრეთ ყ&#x0360;თა მკითხეს ერთობით და მ-<lb/>
+               რქუ&#x0302;ჱს წაევედ მშჳდობით, ღ&#x0360;ნ წარგიმართეს სლვანი შენნი.<lb/>
+               ხ&#x0360; მეთაყუ&#x0302;ანის-ვეც მათ, გამოვედ, და დავდეგ პ-ლსავე მას ადგილ-<lb/>
+                სა წყაროსა მასთანა, და ვ&#x0360;ა მიიღეს მამათა წ&#x0360;ა საიდუმლო განჳდეს  
+            </p>
+          <pb n="18"/>
+            <p>
+               ყ&#x0360;ნი ერთბაშად, და დარჩა ბერი იგი მეცნიერი ჩ&#x0360;ი მარტო ვ&#x0360;ა მიყო,<lb/>
+               დათქუ&#x0302;ა მოვედ დაეზიარე, და ვ&#x0360;ა ვეზიარე დამიგო მე საზრდელი დამრ-<lb/>
+               ქუ&#x0302;ამე, ჭამე მამაო ნაშობი ღ&#x0360;სა დასუ წყალი დაგანესვენე მცირედ:<lb/>
+               Ⴞ&#x0360; მე მიჳღე საზრდელი და შ&#x0360;დ ამისა მოჳდა, დავკითხე მე<lb/>
+               სადა უკუ&#x0302;ჱ არიან წმიდანი მამანი მომიგო მან უკეთუმცა ა’რა ეხი-<lb/>
+               ლვე მ&#x0360;ნ, აქა კაცი უცხო ა’რა წარჳდოდეს ა&#x0360;დ ღამესა ათევდეს ყოველ-<lb/>
+               ნი ერთბამად, ხ&#x0360;აწ ჳნათგან გიხილეს შ&#x0360;ნ არრარა მოიქცეჳან აქაღა-<lb/>
+                მისთევად იგინი, ვიდრემდის წარხჳდე მწუხრი მაშინ ვევედრე დავრქჳ: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴜ</hi>&#x0360;ი მამაო შემინდევ მე ღ&#x0360;ისათჳს, და მაუწყე ჳნ უკუ&#x0302;ჱ ამას <gap reason="illegible" quantity="4" unit="letter"/><lb/>
+               სახლისი თქუ&#x0302;ჱნ ზ&#x0360;ა გინა ვ&#x0360;ა შეკრბეს აქა ანუ რაჲ არს წესი მათი ანუ<lb/>
+               სადა იყოფიან ანუ სადათ არს საზრდელი მათი, და ვ&#x0360;ა ისწავეს დრეს ესე <lb/>
+                წმიდა, და შეკრბეს ხ&#x0360; მან მრქუ&#x0302;ა მე გითხრა შენ საქმე ამათ წმიდათა: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴁ</hi>ერი ესე რ&#x0360;ლი იხილე, რ&#x0360;ლნ იგი პირვეკად გაკურთხა, მამა სახლ-<lb/>
+               ისი არს, ყ&#x0360;თა რ&#x0360;ნ იგი დაგ<supplied reason="illegible">ი</supplied>დვა  ჴელი თავსა, პ&#x0360;დ არს გი ბუნებით ა’რა<lb/>
+               მამაკაცნი ა&#x0360;დ დედაკაცნი, და არს ამას უდაბნოსა ჯამსა <gap reason="illegible" quantity="3" unit="letter"/><lb/>
+                ელთა  :- 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴅ</hi>&#x0360;ა მესმა ესე გულის-ჴ&#x0360;ა-ვყავ ვ&#x0360;დ, არს იგი ასული მეფი<lb/>
+               სა მეგჳპტელისა : Ⴌისიმე, დავარქუ&#x0302; მაუწყე მე სრულიად ჳნ არს იგი<lb/>
+               ხ&#x0360; მან მრქუ&#x0302;ა მე ჰე არს იგი ასული მეგჳპტელისა მეფისა Ⴌისიმე<lb/>
+               ვ&#x0360;ა მოჳდა ამას იდაბნოსა დადყო ორმეოცი წელი, და ვყაჳთ იგი წინ-<lb/>
+               ამძღუ&#x0302;არ ჩ&#x0360;ნდა, ვ&#x0360;ა გამოჳდა სახლისაგან, და დაუტევა ყ&#x0360;ი დიდება<lb/>
+                თჳსი დაწარჳდა უდაბნოს დადაყო ორმეოცი წელი, და იზრდებოდა 
+            </p>
+          <pb n="19"/>
+            <p>  
+               მწუ&#x0302;ანეთაგან მციენართა, და სმიდა წყალსა კნინსა მაშინ იხილა თავი თჳსი<lb/>
+               დაყუდებასა შ&#x0360;ა გამოირჩია რათა წარჳდეს და დაითმინოს ყუ&#x0302;ჱდრება დამე-<lb/>
+               უხაცხება, და ჭირი კაცთაგან დაწარჳდა ეგჳპტეს დაშეჳდა მონასტე-<lb/>
+               რსა დედათასა, დადაყო მას შ&#x0360;ა ორმეოცი წელი დასიტყჳთა ყოვლითა<lb/>
+               მოთმინებითა ღუ&#x0302;აწლისათა, რ&#x0360; აღუსრულა ღ&#x0360;ნ ნება, და იყოფოდა ყ&#x0360;ითა<lb/>
+               სიმდაბლითა ყ&#x0360;თა მათ წელთა დაშურებოდა სიმდაბლითა შიმშილითა,<lb/>
+               და წყურილითა დასიციჳთა დასიცხითა, და ითმინა ესე ყოველი Ⴕ&#x0360;ს<lb/>
+               თვის. დაწუნობდეს მას ყ&#x0360;ნი მყოფნი მონასტრისანი, და ვ&#x0360;ა განსრულდა<lb/>
+               ღუ&#x0302;აწლი მისი, გამოუცხადა რ&#x0360;ნ საქმე მისი კეთილი ჴელია წ&#x0360;ისა<lb/>
+               პიტირუმისათა მაშინ წტყეს პატიჳს-ცემად მისა, ხ&#x0360; მან ა’რა თავსიდუ&#x0302;ა.<lb/>
+               დაგანჳდა მონასტრით ფარულად, და უჩინო იქმნა მონასტრით დამოჳდა<lb/>
+               უდაბნოსა ამას, და არს ესე აქა მრავით ჟამითგან და მე მ<supplied reason="illegible">ი</supplied>კრბეს 5 შიდანი<lb/>
+               ესე მამანი დანუგეშის იცემენ ლოცჳსაგან მისისა, დაარიან იგინი წე-<lb/>
+               სისა.. ზ&#x0360;ა წ&#x0360;ისა ანტონისსა, დასენაკები მათი ა’რა მოსავს ურთიერთას<lb/>
+               <gap reason="illegible" quantity="7" unit="letter"/> მათდა წესი რომელმაანცა იხილა მოყუ&#x0302;ასი თჳს გა-<lb/>
+               რნა ერთგზის წელიწადსა მ&#x0360;<gap reason="illegible" quantity="2" unit="letter"/>, და ამას ღამესა წმიდასა შეკრბიან <lb/>
+                და იხილიან ერთმანეთი : 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴃ</hi>Ⴀ ა’რა არს მათდა ჟამი ზიარებისა გარნა დიდსა ხუთშაათ<lb/>
+               სა და კუ&#x0302;ალად უკეთუ რამე მოუჳდის გულის სიტყუ&#x0302;ა მიმო-<lb/>
+               ლისაგან მტერისა მივიდიან ამის წ&#x0360;ისა დაულოცის, და აღუმცირდის<lb/>
+               დაგანუქარდის ლოცვითა ამის წმიდისათა, და ამას დღესა წ&#x0360;ა ყოველ-<lb/>
+                თა მამათა წმიდათა ულოცის დაგანისუ&#x0302;ჱნიან ბრძოლისა მისგან. ხ&#x0360; 
+            </p>
+          <pb n="20"/>
+            <p>                
+               წელსა წირუ&#x0302;ჱლსა მოჳდიან, რ&#x0360; სწადოდა მამათა რათა აზიარ-<lb/>
+               ნენ საიუმლსა დრესა კჳრიაკესა აღდგომასა ქ&#x0360;ს ღ&#x0360;ისა ჩ&#x0360;ნისა-<lb/>
+               სა, და წარმომავლინეს შენდა, დამათ წელთა ვ&#x0360;დ მრქუ&#x0302;ჱს, მომარ<lb/>
+               თჳ ჩუ&#x0302;ჱნ სახმარი რათა ა’რა დავშთეთ ჩუ&#x0302;ჱნ, ამას ორსა დღესა<lb/>
+               უზიარებლად წიმიდასა საიდუმლოსა ქრისტესსა, და ამისთჳს მოვედ<lb/>
+               შენდა დღესა ხუთშაბათსა, დაგაუწყო შენ ჵ’ი საყუ&#x0302;არელო რ&#x0360; ა’რა <lb/>
+               საჴმრისათვჳს მოვედ შენდა, დღესა ხუთშაბათსა შემძლებელ-არს ღ&#x0360;ი<lb/>
+               რათა მიუძღუ&#x0302;ანო საჴმარი მათი ანგელოზისა მ&#x0360;რ თჳსისა არამედ<lb/>
+               ესრეთ სათნო იჩინა Ⴕ&#x0360;ნ, რათა ჴელითა შენითა გამოაცხადნეს საქ-<lb/>
+               მე ესე ამათ ღირსთა, დაიჯერე შვილო ვ&#x0360;დ, შ&#x0360;დ დღისა ამის,<lb/>
+               ა’რღარა იხილნეს ესენი თუ&#x0302;ალმან ადამიანთამან ყ&#x0360;დვე ვ&#x0360;დის მოჳ-<lb/>
+               დეს ქ&#x0360;ე ღ&#x0360;ი ჩ&#x0360;ნი, დავკითხე უკუ&#x0302;ჱ, იციანაა’ დღე ესე წმიდა, დათქუ&#x0302;ა სუ-<lb/>
+               ლი წმიდა აუწყებს მათ, რათა შეკრბეს ერთად, და ვ&#x0360;ა განთენა მოჳდა,<lb/>
+               დამრქუ&#x0302;ამე გნებავსაა, რათა წარხჳდე ადგილად თჳსად დამე<lb/>
+               ვარქუ&#x0302; მას, ჰე უ&#x0360;ო დამრქუ&#x0302;ა მე აღდეგ დაწარვედ მშვიდობით,<lb/>
+               და ვ&#x0360;რ ვლე მილიონ ერთ. დამოჳკითხეთ ურთიერთას დაწარჳდა<lb/>
+                ბერი იგი ადგილად თჳსად : 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴞ</hi>&#x0360; მე მივენდევ უ&#x0360;ა ი&#x0360;ჳს ქ&#x0360;სა, ლოცჳთა მათ წ&#x0360;თათა რათა მიმ-<lb/>
+                იყუ&#x0302;ანოს ადგილსა ჩ&#x0360;ა თჳნიერ შრომისა, ვ&#x0360;რ მისრულ-ჳყავ ვით მე  
+            </p>
+          <pb n="21"/>
+            <p>
+               და წმიდა იგი, და ვიდოდი დაკჳრუ&#x0302;ჱბული რომელი ვიხილე და<lb/>
+               <add place="margin-left">
+                  1<lb/>
+                  2<lb/>
+                  3<lb/>
+                  4<lb/>
+                  5<lb/>
+                  6<lb/>
+                  7<lb/>
+                  8<lb/>
+                  9<lb/>
+                  10<lb/>
+                  11<lb/>
+                  12<lb/>
+                  13<lb/>
+                  14<lb/>
+                  15<lb/>
+               </add><lb/>
+               ..მესმა ღირსთა მათგან, და ჰა ჳპოვე კარსა ეკკლესიისა ჩემი-<lb/>
+               სასა Ⴞ&#x0360; მე შევედ და <hi rend="color(FF0000)">ჳლოცე და თაყუ&#x0302;ნის</hi>-ვეც ღმერთსა დავმად-<lb/>
+               ლობდი რომელმან <hi rend="color(FF0000)">ღირს მყომე ცოდჳლი</hi> ესე, რ&#x0360; ჳხილენ ესე <lb/>
+               ჳთარნი წმიდანი, <hi rend="color(FF0000)">და მოჳლე ლოცუ&#x0302;ა მათი</hi>, და დავჯედ დაწერ-<lb/>
+               მიუთხარ ესე ყოველი <hi rend="color(FF0000)">შჳლთა ეკკლესისა ჩემისათა</hi>, ხ&#x0360; მათ და-<lb/>
+               უკჳრდა ესე ვითარი საქ<hi rend="color(FF0000)">მე შ&#x0360;თა და ადიდებ</hi>დეს ღმერთსა : Ⴃაშ&#x0360;დ<lb/>
+               ამისა კუ&#x0302;ალად ჳლოცე<hi rend="color(FF0000)">ვდი, რათა მოჳდეს ბე</hi>რი იგი დღესა მას აღ-<lb/>
+               <hi rend="color(FF0000)">დგომასა Ⴓ&#x0360;ისა, და მხსნელისა ჩ&#x0360;ნისა Ⴈ&#x0360;ჳს Ⴕ&#x0360;სსა, წელსა <lb/>
+                  სხუ&#x0302; ასა რათა ჳკურთხო მას შ&#x0360;ა : Ⴃა მიჳწიე ჟამსა მას ა’რა<lb/>
+                  მოვიდია, მაშინ  მომეხსენა რა იგი თქუ&#x0302;ა, ვითარმედ<lb/>
+                  არღარა ჳხილო იგი. ყოვლადვე და ესეცა მომე ჴსენა რა.</hi><lb/>
+               იგი თქუ&#x0302;ა ვ&#x0360;დ არა გი<hi rend="color(FF0000)">ნებს შენ წარსლუ&#x0302;ა</hi> მათთა’ო, რ&#x0360; სჯობს ჩუ&#x0302;ჱ-<lb/>
+               ნთჳს რათა, და სდგე ა<hi rend="color(FF0000)">ქა, და გულის ჴმა</hi>-ვყავ ვ&#x0360;დ წავრსწყმიდე<lb/>
+               გან.დ მადლისა მათი<hi rend="color(FF0000)">სა, რაჟამს ვერ’ დაჳ</hi>თმინე ყოფა მათთანა:<lb/>
+               მაშინ მეჩუ&#x0302;ენა ბერ<hi rend="color(FF0000)">ი იგი დამრქუ&#x0302;ა მე ნ</hi>უ გულ კლებულ-ხარ<lb/>
+               მამაო რ&#x0360; ესე ა’რა ჩემ <hi rend="color(FF0000)">მიერ იყო, ა&#x0360;დ დაიჯ</hi>ერე რომელ გრქუ&#x0302;ა შენ<lb/>
+               ეს’რეთ სათნო უჩნდა ქ&#x0360;ა <hi rend="color(FF0000)">რათა გამოცხადნეს შე</hi>ნ მიერ საქმე ესე ამათ<lb/>
+               წმიდა’თა, და აწ <hi rend="color(FF0000)">დ’აწერე რათა იყოს</hi> სახსენებელად მათ<lb/>
+               წმიდათა რა<hi rend="color(FF0000)">თა თვითხვიდენ მართლ მორწ</hi>მუნენი შვი-<lb/>
+               ლნი წმი<hi rend="color(FF0000)">დისა ეკკლესისანი მართლ მადი</hi>დებელნი,<lb/>
+                 მამისა <hi rend="color(FF0000)">და ძისა, და სულისა წმიდისანი:</hi> Ⴓ&#x0360;Ⴍ Ⴈ&#x0360;Ⴄ  Ⴚ&#x0360;Ⴈ ႨႰ&#x0360;Ⴕ
+            </p>
+          <pb n="22"/>
+            <p>
+               რომლისა <lb/>
+               არს დიდება უ<lb/>
+               კუნითი უ&#x0360;კე<lb/>
+               რომლ’-<lb/>
+               ისა არს დიდე-<lb/>
+               ბა უკუნითი უკუ<lb/>
+               ნისამდე ამ<lb/>
+               ინ<lb/>
+               ..<lb/>
+               ,<lb/>
+               ႳႴႠႪ&#x0360;Ⴍ ႤႤ&#x0360; Ⴓ <gap reason="illegible" quantity="4" unit="letter"/> ႸႤ&#x0360; <lb/>
+               ႺႨ&#x0360; <gap reason="illegible" quantity="4" unit="letter"/>
+            </p> 
+        </div>
+       <div type="chapter"  n="2"> 
+          <pb n="23"/>                                                                                   
+          <head><hi rend="color(FF0000)">Cხოვრება <lb/>
+             და მოქალაქო- <lb/>
+             ბა ევფემიანესი და ძისა მისი <lb/>
+                სა ალექსისა კაცისა ღ&#x0360;ისა Ⴂ&#x0360;ვხნ მამაო:</hi>
+            </head>
+           <p>
+              <hi rend="color(FF0000)">Ⴍ</hi> ვინმე რომს ქალაქსა შ&#x0360;ა, კაცი მორწმუნე, და მარტალი <lb/>
+               დამდიდარი ფ&#x0360;დ და სახელი მისი ავფემიანე, ამას ესხნეს მონანი 
+            </p>
+       <pb n="24"/>
+            <p>
+               სამასნი სახელოვანნი დაშემოსილნი ხაბიდითა, დამოწეულითა, და მელ.<lb/>
+               სულნი სარტყლითა ოქროსითა, ესე იყო უშვილო, და იმარხჳდა იგი <lb/>
+               დღითი დღედ, <supplied reason="illegible">ვე’</supplied> მწუხრადმდე, და მხუხრი ეზიარებოდა ჟ&#x0360;ა, და დააგე<lb/>
+               ბდეს სამსა ტრაპეზსა, სახლსა შ&#x0360;ა მისსა ობოლთა დაუცხროთათჳს, დაე<lb/>
+               გრეთუ&#x0302;ჱ მისცემდა გლახაკთათჳს, და თქუ&#x0302;ა ევფემიანე ა’რარა ღირს-<supplied reason="illegible">ვიყო</supplied><lb/>
+               მე სლუ&#x0302;ად ამას საწუთოსა ქ&#x0360;ყნასა ზედა ღ&#x0360;ისასა რათამცა ღირს-ჳქმენ<lb/>
+                მისლუ&#x0302;ად, და თქმად მადლითა ჩემითა არს ესე : 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">ႤႢ</hi> რეთ’უ&#x0302;ჱ მეუღლე მისი, რომლისა სახელი მისი ელნასი, ესეცა<lb/>
+               იყო მოწრმუნე, და მოსაჳ ღ&#x0360;ისა, რ&#x0360;ლი მარადის ილოცავნ და ევედრებიან ღ&#x0360;ისა<lb/>
+               და იტყჳნ მომმადლე მე უღირსსა ამას მჴევალსა შენსა შჳლიერება მეუღლისა-<lb/>
+               გან ჩემისა, რატა იყოს იგი ჩემდა სიხარულ, და მხიარულება ცხოვრებასა<lb/>
+               ამას, და წინამძღუ&#x0302;არ სულისა ჩემისა, დაუმეტესად წარემატებოდა მო-<lb/>
+               წყალება გლახაკთა მ&#x0360;რთ და შეისმინა ღმერთმან ლოცჳსა მათისა <lb/>
+               და მისცა მათ ყრმა წული. დაგანიხარეს ფრიად, ევფემიანე და ცოლმან<lb/>
+               მისმან, ღ&#x0360;ისა მ&#x0360;რ, დაუწოდეს სახელი მისი Ⴀლექსი, და აღეს მ<supplied reason="illegible">ო</supplied>-<lb/>
+               იწიფა ყრმა იგი მისცეს სასწავლოდ, და ისწავა ყ&#x0360;ლი წიგნები სა-<lb/>
+               მოძღუ&#x0302;რო და წსავლა სიბრძნისა, და ვ&#x0360;ა განიმწყსნა ღირსად ყრმა<lb/>
+               იგი : Ⴛრქუ&#x0302;ა ევფემიანე ცოლსა თჳსსა მოვედ, და ვყოთ ქორწილი <lb/>
+               ძისა ამის ჩუ&#x0302;ჱნისათჳს, ხ&#x0360; მან ჰრქუ&#x0302;ა, დამტკიცენ უფალმან სიტ-<lb/>
+               ყუ&#x0302;ა შენი მაშინ მითხოვედ სძლად ტომთაგან მედისათა, და შეუქმნეს<lb/>
+               კუბო ოქრსა, და დაადგნნეს გჳრგჳნი ეკკლესიასა მა&#x0360;, წ&#x0360;ისა ვონიფანტეს <lb/>
+               და პატიოსანთა მღუ&#x0302;დელთა შეიყუ&#x0302;ანეს იგინი კუბოსა მას და იყო <lb/>
+                საზარელი  
+            </p>
+          <pb n="25"/>
+            <p>
+               სიხარული მას დღესა შ&#x0360;ა, და ვ&#x0360;ა დამწუხრდა რქუ&#x0302;ა ევფემიანე მესა თჳ<lb/>
+               სსა აღდეგ შვილო ჩემო შევედ დაიხილე მის ცოლი ჩემი და შეისწავე<lb/>
+               მეუღლე შენი:<lb/>
+               <hi rend="color(FF0000)">Ⴋ</hi>აშინ აღდგა და შევიდა და პოვა ცოლი თჳსი, მჯდომარე კუბო-<lb/>
+               სა შ&#x0360;ა, და განიჴადა ბეჭედი თჳსი სამეფო, და სარტყელი დაშეხჳა<lb/>
+               იგი შარითა, და მისცა იგი ცოლსა თჳსსა ნამარხევად, დარჰქუ&#x0302;ა მას<lb/>
+               ნუ გამოაცხადებ ამას ვ&#x0360;დის ღ&#x0360;ნ ა’რა გამოაცხადოს ჩემ შორის <gap reason="illegible" quantity="1" unit="letter"/>ნმენ შორ-<lb/>
+               ის, დაგამოჳდეს კუბოსა მისგან, და შეჳდეს სარეცელსა თჳსსა,<lb/>
+               და იყო სულიერი სიხარული კრავთა ამათ ღ&#x0360;ისათა, ვ&#x0360;ე შუ&#x0302;ადღედ-<lb/>
+               მოდე,და ვ&#x0360;რ მიემინა ცოლსა მისსა განიპარა ქმარი მისი მისგან,<lb/>
+               და არიღო ოქრო დაწარჳდა რომით, და ვლო ღამე ყოველი დაშე-<lb/>
+               ჳდა მას შ&#x0360;ა, და ჰრქუა მენავეთა მათ, მნებავს წარსულა <lb/>
+               ასურეთად სადა იგი არს ხერთჳსი, და ხატი <supplied reason="illegible">მ</supplied>ღუ&#x0302;თისა, და წა-<lb/>
+               რემართნეს ნებითა ღ&#x0360;ისათა, და ვ&#x0360;რ მიიწინეს იგინი ადგილთა<lb/>
+               მათ, ლავდიფისათა განჳდა ნაჳსა მისგან ჴმელად, და პოვნა მუნ<lb/>
+               მოგზაურნი მიმავალნი ასურეთისასა,სადა იგი არს ხატი ღ&#x0360;ისა, და გა-<lb/>
+               ნყიდა ყ&#x0360;ი მონაგები თჳსი, და მისცა გლახაკთა დაშეიმოსა და-<lb/>
+               მოსელი საგლახაკო, და მოჳდა ეკკლესიასა მარიამ წმიდისასა.<lb/>
+               და შედგა იგი საწვეთესა ქუ&#x0302;ჱშე, ვ&#x0360;ა ერთ გლახაკთაგანი, და აღ<lb/>
+                იღო მარხუ&#x0302;ა ძლიერთ, და ლოცუ&#x0302;ა დასულთქმა დაუცადებელი, 
+            </p>
+          <pb n="26"/>  
+            <p>
+               და შესძინებდა ყ&#x0360;ა დღესა სათნოებასა, და იყო საზრდელად მისა<lb/>
+               ორი უნკია პური, და ეგრეთვე წყალი. და მიიღის იგი კჳრ-<lb/>
+               იაკით კჳრიაკედ, დანამეტნაჳ მისცის გლახაკთა :<lb/>
+               <hi rend="color(FF0000)">Ⴋ</hi>აშინ იყო მისთჳს რმს შ&#x0360;ა ძიება დიდი  დატირილი <lb/>
+               დაამბოხება მშობელთა მისთა და ა’რა გპოვეს და მამამან მისმან <lb/>
+               წარავლინნა სახლეულნი თჳსნი ყ&#x0360;ა ადგილსა გულმჴურვალ-<lb/>
+               ედ, და ა’რა პოვეს ა&#x0360;ლნიმე მათგანნი მიწინეს ასურეთ-<lb/>
+               სა, დაიხილეს იგი, მჯდომარე ყურესა აკკლესიისასა და ვე’რ იც-<lb/>
+               ნეს თუ ვ&#x0360;დ იგი არს, Ⴓ&#x0360;ი მათი, ხ&#x0360; მან იცნა სახლეულ-<lb/>
+               ნი იგი თჳსნი, და მისცეს მას საღუ&#x0302;აწი ვ&#x0360;ა გლახაკსა, ხ&#x0360; მ<gap reason="illegible" quantity="2" unit="letter"/><lb/>
+               ვ&#x0360;ა მოიღო სათხოველი იგი სახლეულთა მათგან თჳსთა,<lb/>
+               აღიპყრნა ჴელნი თჳსნი ზეცად, და მადლობდა ღ&#x0360;თსა, და ი-<lb/>
+               ტყოდა გმადლობ შენ უფალო ღ&#x0360;თო ჩემო, რ&#x0360;ნ ღორს-მტავ<lb/>
+               მე, სათხოველსა ამას მოღებად სახლეულთა ჩემთაგან, მაში-<lb/>
+               ინ მოიქცეს მონანი იგი, და აუწყეს ევფემიანეს ვ&#x0360;დ ა'რა <gap reason="illegible" quantity="2" unit="letter"/><lb/>
+               და იპოვა მე იგი შ&#x0360;ნ საყუ&#x0302;არელი. ხ&#x0360; ევფემიანე სულთ-ით<supplied reason="illegible">ქ</supplied>-<lb/>
+               უ&#x0302;ნა, და თქუ&#x0302;ა უწყის ღ&#x0360;ნ, ა’რა მივაქციო სარეცელსა მოლისა<lb/>
+               ჩემისასა ვ&#x0360;ე ა’რა მომგუ&#x0302;აროთ მე იგი ჩემი, ა&#x0360;დ ვჰსტიროდე დავ-<lb/>
+               გოდენდე დღეთა ცხოვრებისა ჩემისათა, ეგრეთვე დედა მისა<lb/>
+               და ცოლი მის ყრმისა შეითქუ&#x0302;ნეს ურთიერთას, და შეიმოსნეს შაჳთ<lb/>
+               და შე<supplied reason="illegible">ე</supplied>ყენნეს სვეტსა, და დაცჳნეს პირ და ქცეჳთ მაშინ ტიროდა<lb/>
+               დედა მისი, და იტყოდა ა’რა განვეშორო ამიერ ადგილით, ვ&#x0360;ე ა’რა <lb/>
+                ვა.. 
+            </p>
+          <pb n="27"/>
+            <p>
+               ვჰსცნა თუ ვ&#x0360;რე წარმიწყმდა მე იგი ჩემი საყ|უარელი, ეგრეთვე მი ცო-<lb/>
+               ლი იგი მისი გოდებდა დატიროსა, და იტყოდა ა’რა განვეშორო ამიერ<lb/>
+               ადგილით, ვ&#x0360;ე ა’რა ვჰსცნა თუ ჳეთ მომინადირეს კეთილი იგი მეუღლე<lb/>
+               ჩემი საყუ&#x0302;არელი, ა&#x0360;დ მივემგზავრო მე. გუ&#x0302;რიტსა მას უდაბნოსასა, და ა’რა<lb/>
+               დავკდე ხესა ნედლსა, გარნა მარტო ვღაღადებდე დავგოდებდე.ვ&#x0360;დის<lb/>
+               გამომიცხადოს მე ღ&#x0360;ნ მეუღლე ჩემი, და ვ&#x0360;რ დაყო ყრმამან შჳდი წელი<lb/>
+               საწუ&#x0302;ჱთესა მას შ&#x0360;ა, მარიამ წმიდისასა, მაშინ ანგელოზმან ჴმა უყო <lb/>
+               ზეცით მსახურსა ეკკლესიისასა, და რქუ&#x0302;ა კაცი ეგე რ&#x0360;ლი დგას ეკკლესი’ისა<lb/>
+               საწუ&#x0302;ჱთესა ქუ&#x0302;ჱშე , და განუკჳრდა ეკკლესიისა მსახურსა მას, და თქუ&#x0302;ა ჳნ<lb/>
+               არს კაცი ესე ღ&#x0360;ისა, და უპურა ჴელი დამიიყუ&#x0302;ანა იგი ეკკლესიად<lb/>
+               მაშინ გულის-ჴმა-ჰყო ვ&#x0360;დ, განცხადნების კაცთა შ&#x0360;ს საქმე მისი,<lb/>
+               და იცვალა მ&#x0360;რ ადგილი, და ვ&#x0360;დ მოჳდა ლავდიკიად ასურეთისად, და მო-<lb/>
+               ჳდა ზღჳს კიდესა, და პოვა ნავი და შეჳდა, და თქუ&#x0302;ა კულსა თჳ<lb/>
+               სსა წარჳდე პავლე წმიდას, რ&#x0360;თა მუნ ა’რაჳბ მიცნას მე, და ვ&#x0360;რ წა-<lb/>
+               რემართნეს განგებითა ღ&#x0360;ისათა, მოჰბერა ქარმან, და აღიტაცა ნავ იგი,<lb/>
+               და გამოაგდო იგი მახლობელად ქალაქსა რომსა, სადა იგი იყუ&#x0302;ნეს მა-<lb/>
+               მა დედანი და ცოლი მისი, და გამოჳდა ხმელად, დაშეჳდა ქალაქად,<lb/>
+               და აჰა შესლუ&#x0302;ასა ოდენ, შეემთხვა მამა მისი და ვერ იცნა იგი ხ&#x0360; ძემ-<lb/>
+               ან იცნო, და თაყუ&#x0302;ანის-სცა მამასა თჳსსა, და რქუ&#x0302;ა  მას მონაო ღ&#x0360;ისაო<lb/>
+               ჰყავ ჩემანა კეთილი გლახაკისა ამის დამიმიყუ&#x0302;ანე სახლად შენდა, რათა<lb/>
+                სახლეულთა შენთაჰან რ&#x0360;ლ ნეშტი და შთებოდის, ჳზარდებოდე მე დაიხა- 
+            </p>
+          <pb n="28"/>  
+            <p>
+               რებდეს სული ჩემი, რ&#x0360; ღ&#x0360;თ<gap reason="illegible" quantity="2" unit="letter"/>ნ ავ&#x0360;ხნეს დღენი შენნი დამ<lb/>
+               ოგუმადლოს მეფობაჲ ცათა შ&#x0360;ა, და რ&#x0360;ლი იგი შენგან უც-<lb/>
+               ხო ქმნილ-არს, მოგუმადლოს მისიცა ნაწილი მეუთემან ცა-<lb/>
+               თამან, და ვ&#x0360;ა ესმნეს ევფემიანეს ესე ვ&#x0360;რნი სიტყუ&#x0302;ანი უცხოსა.<lb/>
+               მისგან, განმხიარულდა გული მისი და წარიყუ&#x0302;ანა იგი სახ-<lb/>
+               ლად თჳსთა, ჳნცა ამას ვა-<lb/>
+               ცსა მსახურებდეს კ’დევა უ&#x0360;ისაგან მოიღოს, და სახლისა ჩემი-<lb/>
+               საგან ნაწილი აქუ&#x0302;ნდეს, მაშინ წარიყუ&#x0302;ანეს სახლად მისა,<lb/>
+               და აღიშენეს სადგური რ&#x0360;ლისა შეჳდოდა და გამოჳდოდა ევ<lb/>
+               ფემიანე, და ეტყოდა მსახურთა თჳსთა, ვ&#x0360;დ ტრაპეზისაგან ჩ...<lb/>
+               იყავნ საზრდელი მისი, და ჰუუ&#x0302;თა მონათა მისთა, ხ&#x0360; ჳნათგან<lb/>
+               მოჳდა იგი სახლსა მამისა თჳსისასა, და ჰუა ათჩჳდმეტი<lb/>
+               წელი, და ყუდებულად, დააღიღო მაეხუ&#x0302;ა კჳრიაკით კჳრი-<lb/>
+               აკედ, და საჭმელად მისა იყო ორი უნია პირი, და ეგრეთვე<lb/>
+               წყალი, ხ&#x0360; სახლეულნი გულსა ალმობდეს ზოგნი წყალსა ასხუ<lb/>
+               რებდეს, და ზოგნი პინავთა ვ&#x0360;დ ესე ყ&#x0360;ო, ეშმაკისა მ&#x0360;რ აღიძრ<supplied reason="illegible">ეს</supplied><lb/>
+               კეთილის მოზულისა, და ამას ყ&#x0360;ა სიხაულით მოითმენდა და შეი-<lb/>
+               წყნარებდა ხ&#x0360; რაჟამს მოიწია ჟამი ზეცით წოდებისა მისისა<lb/>
+               Ⴓ&#x0360;ისა მ&#x0360;რ რქუ&#x0302;ა მსახურსა თჳსსა მმაო წარვედ დამომართუ&#x0302;,<lb/>
+               ქარტა დამელანი, და კალამი, და მან ჰყო ეგრეთ დადარე-<lb/>
+                რა ყ&#x0360;ი საქმე მისი, და ნისანი რ&#x0360;ლი იყო ლოლისა მისისა თანა 
+            </p>
+          <pb n="29"/>    
+            <p> 
+               სარტყელი დაბეჭედი.არიდია შეხუ&#x0302;ჱული, რ&#x0360;ლი საიდუმლ-<lb/>
+               ოდ ყოფილ-იყო მისთანა, და იპყრა იადგარი ჴელსა მისსა, დამე<lb/>
+               ისუ&#x0302;ჱნა დღესა კჳრიაკესა მაშინ ზეცით ჴმა-ჰყო ანგეოზმ-<lb/>
+               ან, სადა იგი პატრიაქი, და ყ&#x0360;ი ერი კრებულად იყო, და რქუ&#x0302;ა <lb/>
+               მოიძიეთ კაცი ღ&#x0360;ისა, და ჴმა ჰყუ&#x0302;ჱს კირიელ’ეისონ, მაშინ<lb/>
+               ბრძანა მეფემან და პატრიარქმან, რათა განთიად დრესა ორ&#x0360;<lb/>
+               შაბათსა ყ&#x0360;ი ერი შემოკრბეს ეკკლესიად, პეტრე წმიდად და ლო-<lb/>
+               ცუ&#x0302;ა-ჰყონ, და ვ&#x0360;ა შეკრბეს ჴმობდეს ლიტანიითა კირიელეისო-<lb/>
+               ნსა, და იტყოდეს ღ&#x0360;თიო გამოგჳცხადე ჩ&#x0360;ნ კაცი იგი ღ&#x0360;ისა, სადა <lb/>
+               არს ა’რა უწყით ჩ&#x0360;ნ, მაშინ მეორედ ჴმა ჰყო ანგელოსმან, და რქუ&#x0302;ა<lb/>
+               სახლსა შ&#x0360;ა ევფემიასასა არს კაცი იგი ღ&#x0360;ისა, მაშინ რქუ&#x0302;ა <lb/>
+               მეფემან ევფემიანეს, ჵი’ მეგობარო ჩემო ოდეს ესე ვ&#x0360;რი კაცი <lb/>
+               სახლსა შ&#x0360;ა შენსა იყო ვ&#x0360;რ ა’რა ჳცოდე. მაშნ მრაწრაფლ მოუწ-<lb/>
+               ოდა მსახურსა მჳსსა, რ&#x0360;ლისადა გკახაკი იგი იყო საზრდელად <lb/>
+               მიეცა, და რქუ&#x0302;ა მას, ჳნ არს სახლეულთა ჩ&#x0360;ნთაგანი ესე ვ&#x0360;რი კაცი’<lb/>
+               ხ&#x0360; მან რქუ&#x0302;ა ა’რაჳნ უწყი, რ&#x0360; ყოველნივე ერთ არ’ნ გარნა გლახა-<lb/>
+               კი იგ, რომელი მომეც მე, რ&#x0360; ფრიადნი სათნოებანი არ’ნ მისთანა,<lb/>
+               რ&#x0360; იმარხავს იგი კჳრიაკით კჳრიაკედ, და საზრდელად მისა არს,<lb/>
+               ორი უნვია პური და ეგრეთვე წყალი, მაში  წარჳდა ევფემიანე,<lb/>
+               და მოჳდა ნეტარსა მას გუ&#x0302;ამსა მისსა, და ჴმაუყო ხ&#x0360; მან ა’რა.<lb/>
+                მიუგო სიტყუ&#x0302;ა, და მიეახლა მას, და აღჳადა პირსა მისსა და 
+            </p>
+          <pb n="30"/>
+            <p>
+               იხილა მრწყინუ&#x0302;ალება ვ&#x0360;ა მზისა, და დაწერილი იგი იადგარი აქ-<lb/>
+               უნდა ჴელსა მისსა, და მიყო ჴელი მისი ევფემიანე, რათამცა<lb/>
+               გამოუღო ქარტა იგი, და ვე’რ უძლო გამოღებად ჴელისაგან მისი-<lb/>
+               სა მაშინ მსწრაფლ წარჳდა მეფისა და რქუ&#x0302;ა კაცსა რ&#x0360;ლსა ვეძებდ-<lb/>
+               ით ვპოვე, და დაეყო ათჩჳდმეტი წელი სახლსა შ&#x0360;ა მამისა მისი-<lb/>
+               სასა, და ა’რა უწყოდა ვ&#x0360;დ შჳლი მისი არს, მაშინ უბრძანა მეფე-<lb/>
+               მან, გარდაგდებად ცხედარსა ზ&#x0360;ა, წმიდა იგი გუ&#x0302;ამი მისი, და აღ&#x0360;<lb/>
+               დგა მე’ფე დაპატრიაქი, და ყ&#x0360;ი სიმრავლე ფ&#x0360;დი, დამოჳდეს რვნ-<lb/>
+               ებითა დასაკმეველითა ადგილსა მას, სადა მდებარე იყო წმიდა <lb/>
+               იგი გუ&#x0302;ამი მისი, მახლობელად ადგილსა ამას, სადა იგი შეყენე-<lb/>
+               ბულ იყუ&#x0302;ნეს დედა მისი და ცოლი, და ვ&#x0360;ა ესმა ჴმა ოხრისა დედასა <lb/>
+               მისსა, გაბაღო სარკმელი და იხედჳდა და უკჳრდა, და თქუ&#x0302;ა რაჲმე<lb/>
+               არს ესე, რ&#x0360; მეფე დამღყდელნი და ერნი მოვლენან ჩ&#x0360;ნთა ვართ ზ&#x0360;ა<lb/>
+               მაშინ მოჳდა მეფე დაპატრიაქი, გუნდითურთ მისით, და ზ&#x0360;ა მაიდ-<lb/>
+               გეს გუ&#x0302;ამსა მას ზ&#x0360;ა წმიდისასა მაშინ იწყო მეფემან დარქუ&#x0302;ა ჵი’<lb/>
+               წმიდაო დაღაცათუ მე ცოდჳლვარ ა&#x0360;დ მეფე ვარ, და ესე პატრიაქი<lb/>
+               არს, და მამა ყ&#x0360;ისა სოფლისა მოგუ&#x0302;ჱც ქარტა ეგე რათა ვჰსცნათ თუ<lb/>
+               ჳნ ხარ მაშინ მისცა ქარტა იგი პატრიაქსა, და პატრიაქმა მისცა დეკა-<lb/>
+               ნოზსა ეკკლესი’სასა და უბრძანა წარკითხუ&#x0302;ა წ&#x0360;ე მის ყ&#x0360;ისა ერისა.<lb/>
+               და ვრ ესმა მამასა მისსა, იკითხჳდა რა ქარტასა მას, ჴმაყო დადა-<lb/>
+               ვარდა მკერდსა ვ&#x0360;ა მისსა, გოდებდა დამჴცეთა მისთა იფხვრიდა, და იტყ-<lb/>
+                ოდა ვაჲმე უბედრუკსა ამას შელო ჩემო სასურველო, ჳნაღანენ. 
+            </p>
+          <pb n="31"/>
+            <p>              
+               ველოდი აწ’, ხ&#x0360; ვ&#x0360;ა ესმა დედასა მისსა’ მეყუ&#x0302;სეულად განხეთქნასა’-<lb/>
+               რკმელსა მისნი, და გარდამოგფრინდა ვ&#x0360;ა ორბი’ ჴობდა საწყალო-<lb/>
+               ბელად დაიტყო&#x0360;და, გზამეცით და რათა ჳხილო წარწყმედული კრაჳ<lb/>
+               ჩუმი, და დავარდა მკერდსა მისსა; ზ&#x0360;ა, ტიროდა დაიტყოდა ვა<supplied reason="illegible">ი</supplied>მე საყ-<lb/>
+               უარელო შჳლო ჩემო, სადა ღამე’ ვესჳდე მოსლვასა შენსა ან’უ<lb/>
+               ჳნაღა მოგელოდე’ გლახაკი’ ესე, და დავრდომილი დაეგრეთ-<lb/>
+               უ&#x0302;ჱ ცოლი მისი მოჳდა, და დავარდა ფერჴთა თანა მისთა გო-<lb/>
+               დებდა დაესრეთ იტყოდა, ვაჲმე ვ&#x0360;რღა დაბნელდა&#x0360; გონე’-<lb/>
+               ბა ჩემი, და დავარგერ მოსალოდებელსა საწუთოსასა, ხ&#x0360; შენ <lb/>
+               სანატრელო მძლე ექმენ ყ&#x0360;თავე საშუ&#x0302;ჱბელთა სოფლისათა’,<lb/>
+               დაგანა<supplied reason="illegible">ყ</supplied>ენე ცნობა შენი, ყ&#x0360;ისაგან წარმავალისა, საწუთოსა,<lb/>
+               სამგზის სანატრელო, და ყ&#x0360;ითა სიბრძნითა შემკობილო, ნეტარ ხარ<lb/>
+               შენ რ&#x0360; დაუტევე სახსენებელი ვ&#x0360; ხეჳსა შენისა საუკუნო განუქარვე<lb/>
+               ბელი ყ&#x0360;ლსა ქ|უჱყანასა მაშინ აღდგა მეფე დაპატრიაქი და ყ&#x0360;ი<lb/>
+               ერი, და აღიღეს პატიოსან<supplied reason="illegible">ნ</supplied>ი იგი გუ&#x0302;ამი, და მიაქუ&#x0302;ნდა ეკკლესიად,<lb/>
+               და რაოდენნი უძლურნი დასნეულენი შეემთხუ&#x0302;ჱოდეს განიკ-<lb/>
+               ურნებოდეს მწუხართა ნათელი მიეფინებოდა ბრმანი ხედჳდ-<lb/>
+               ეს, და ყ&#x0360;ნი ჭირუ&#x0302;ჱულნიa<supplied reason="illegible">ა</supplied>  ლხინებასა ჰპოებდეს, დიდისა მი-<lb/>
+               სგან შემთხუ&#x0302;ჲჳსა ა’რა აუფლებდეს დამარხუ&#x0302;ად პატიოსანთა<lb/>
+               დაწმიდათა ნაწილთა მისთა, მაშინ უბრძანა მეფემან დიდ<lb/>
+               ძალისა ოქროსა დავეცხლითა მითენა ერსა ზ&#x0360;ა, და ყ&#x0360;ი ერი მას<lb/>
+                მისდევდეს დაწარიღეს პაიოსანი იგი გუ&#x0302;ამი საფლავად ეკკლ- 
+            </p>
+          <pb n="32"/>
+            <p>
+               ესიასა ვონიფანტე წმიდასა, დაიყო კრება შჳდსა დრესა, და ყ&#x0360;ა<lb/>
+               რასაცა ჳნ ითხოვდა მიეცემოდა მის წ&#x0360;ისა მ&#x0360;რ, მაშინ ბრძანა მეფე-<lb/>
+               მან დამეამკუ&#x0302;ჱს ლუსკუმა იგი ოქროთა დამარგალიტითა დათუ&#x0302;ალით<lb/>
+                პატიოსნითა, და შთავეს პატიოსანი იგი გუ&#x0302;ამი მისი მას შა დ..<lb/>
+               უნთქუ&#x0302;ჱსვე აღმოჴდა სული სურნელებისა ადგილსა მისგან. ხ&#x0360; აღე-<lb/>
+               სრულა ნეტარი ესე, Ⴒთუ&#x0302;ჱსა მარტსა ათჩჳდმეტსა, და მიჳდა იგი<lb/>
+                წ&#x0360;ე ყ&#x0360;ისა, სადიდებელად მამისა და ძისა და წმიდისა სულისა ა&#x0360;წ და
+                მარადის და უ&#x0360;კი უ&#x0360;ვე ამინ : Ⴋეოც მეყავ წ&#x0360;ო ღ&#x0360;ისბო, ცრლ
+                ჳლს ზირაქს :
+            </p>
+       </div> 
+       <div type="chapter" n="3">
+          <p>
+             <hi rend="color(FF0000)">Ⴀ</hi>ხალთა მადლთა, აღტჳფრულნი’ სულითა,<lb/>
+             <hi rend="color(FF0000)">Ⴊ</hi>ოცჳთა მომღე, სულთა მამისა მი’ერ,<lb/>
+             <hi rend="color(FF0000)">Ⴄ</hi>სეღა მაგე, მუშაკობას წარმართუ&#x0302;ა’,<lb/>
+             <hi rend="color(FF0000)">Ⴕ</hi>&#x0360;ს მჰსგავსადრა, მარადღე იღენი’რწმენით,<lb/>
+             <hi rend="color(FF0000)">Ⴑ</hi>რულად რა თაჳ, Ⴖ&#x0360;ისადმი’ უკუნ სწირე’,<lb/>
+             <hi rend="color(FF0000)">Ⴈ</hi>ოხდ ჩუ&#x0302;ნთჳსცა, მონისდმი’ მუხმარის;’<lb/>
+                <hi rend="color(FF0000)">Ⴋ</hi>ეოხ მეყავ წმიდაო ღ&#x0360;ისაო ცოდჳლს ზ<gap reason="illegible" quantity="2" unit="letter"/>იაქს : 
+            </p>      
+       </div> 
+       <div type="chapter" n="4">
+           <pb n="1"/>
+          <head><hi rend="color(FF0000)">Ⴂალობა მოციქულისა იეღო-ჟე ტრეღრანელიე Ⴛე ქუბ<lb/>
+              ილისა Ⴕრისტესა შუ&#x0302;ჱნიერად Ⴈგალობს, Ⴂ</hi>ალობა,
+           </head>
+          <head><hi rend="color(FF0000)">Ⴑ</hi>ძლის-პირი. <hi rend="color(FF0000)">Ⴈ</hi>გიუ&#x0302;ჱ, <hi rend="color(FF0000)">Ⴃ</hi>აანთქენ ვნებანი <lb/>
+              სულისა ჩემისანი :&#x0360;
+           </head>
+           <p>                   
+              <hi rend="color(FF0000)">Ⴑ</hi>ასუფეველი ცათა ღირსო რ&#x0360;ლიცაჲ <add place="above">იჰქადაგე</add> და იმკჳდრე.<lb/>
+              და მზრახუ&#x0302;ჱლ ზეციერ. იქმენ შენ სიტყუ&#x0302;ასა;, მრწ-<lb/>
+              მუნებელნი ღ&#x0360;ის-მეტყუ&#x0302;ჱლებათა’ შენთა’, და ქადაგების-<lb/>
+              ანი’, და იფარენ ვედრებითა შენითა:
+           </p>
+           <p>
+              <hi rend="color(FF0000)">Ⴛ</hi>ალსა’ გულის-ხმის-ყოფისასა. მჩუ&#x0302;ჱნებელმან ყო<lb/>
+              ველნი. მიწიერნი შეურაცხ-ჰყუ&#x0302;ჱნ საკრუ&#x0302;ჱლთა’ თ’ა ბუნ-<lb/>
+              ებისა’ ბრძენნი, და სიტყჳიერობით შედგომილმან სიტყ<lb/>
+              ჳსამან უსიტყობისაგან, განმათაჳსუფლენ უსიტყუ&#x0302;ჱლ-<lb/>
+              ქმნილნი’ : 
+           </p>
+           <p>
+              <hi rend="color(FF0000)">Ⴆ</hi>ეციერი’ ცნობა’ მოიგე, ღ&#x0360;ის-მეტყუ&#x0302;ჱლო’, და ღ&#x0360;თისა<lb/>
+              სიტყუ&#x0302;ა ღ&#x0360;თი ქადაგე, და საბამსა იყო სიტყუ&#x0302;ა და, და სიტყუ&#x0302;ა იგი’ <lb/>
+              იყო მშბელისა მისისათ’ა, და ღ&#x0360;თი იყო სიტყუ&#x0302;ა, მახარე<lb/>
+              ბელო ასწაუ&#x0302;ჱ ყოველთა :          <hi rend="color(FF0000)">Ⴀ</hi>’წა<lb/>
+              <hi rend="color(FF0000)">Ⴕ</hi>ალწულთა განწყობილი სამღთ, ყ&#x0360;დ პატიოსანი, შენ-
+           </p>
+          <pb n="2"/>
+           <p>
+              შუ&#x0302;ჱნიერსა’  შ&#x0360;ს’, დედათა გიგალობს’ ღ&#x0360;თის მშბელო<lb/>
+              ქალწულო’ საღმთოთა სიკეთითა განშუ&#x0302;ჱნებულსა’, რ&#x0360; უად- <lb/>
+              რეს სიტყჳსა ჰშევ კეთილ მყოფელი სიტყუ&#x0302;ა: <hi rend="color(FF0000)">Ⴂ</hi>ალობა <hi rend="color(FF0000)">Ⴂ.</hi> <hi rend="color(FF0000)">Ⴑ</hi>ძლის 
+           </p>
+           <p>
+              პირი, <hi rend="color(FF0000)">Ⴈ</hi>გიუ&#x0302;ჱ  <hi rend="color(FF0000)">Ⴀ</hi>ღყუ&#x0302;აჳლნა:<lb/>
+              <hi rend="color(FF0000)">Ⴁ</hi>უნებათა უაღრესი’, საიდუმლო სამებისა’, ღ&#x0360;ის მეტყუ&#x0302;ჱ-<lb/>
+              ლითა’ ენითა განაცხადე ბრძენო Ⴈოანე, რ&#x0360;ისა მ&#x0360;რ განა-<lb/>
+              ძლიერე გული ჩუ&#x0302;ჱნი: 
+           </p>
+           <p>
+              <hi rend="color(FF0000)">Ⴄ</hi>&#x0360;ნა შ&#x0360;ნი კალამ იქმნა’ მწიგნობრისა ჴელოვნისა, ყ&#x0360;დწ&#x0360;ისა<lb/>
+              სულისა’, და ღ&#x0360;თივ წერილი კეთილად, დამსახუ&#x0302;ჱლ ყ&#x0360;დწ&#x0360;ისა<lb/>
+              სულისა’ დასამღთოსა სახარებისა: 
+           </p>
+           <p>
+              <hi rend="color(FF0000)">Ⴂ</hi>ამსჰჩნდი შ&#x0360;ნ უფსკრულად, ყ&#x0360;დ ბრძნისა’ სიბრძნისად ღი-<lb/>
+              რსო. მიეყრდენ კადნიერად მკერდსა წყაროს მას სიბრძნი<lb/>
+              სასა, და სამღთოდ ქადაგ მისსა განჩინებულ იქმენ:   <hi rend="color(FF0000)">Ⴀ</hi>’წა 
+           </p>
+           <p>
+              <hi rend="color(FF0000)">Ⴘ</hi>&#x0360;ნ მხოლოსა. ქწ&#x0360;ად’, და დედად გქადაგებთ, ვ&#x0360;ა ცხოუ&#x0302;რების მომატყ<lb/>
+              უ&#x0302;ჱბელსა სოფლისასა.  ჵი’ ყ&#x0360;დ უბიწოო’ დიდებულითა’ მით მეო’- 
+           </p>
+           <p>
+              ხებითა შ&#x0360;ითა. <hi rend="color(FF0000)">Ⴂ</hi>გალობა<hi rend="color(FF0000)">Ⴃ</hi>   <hi rend="color(FF0000)">Ⴑ</hi>ძლის პირი.  <hi rend="color(FF0000)">Ⴈ</hi>გიუ&#x0302;ჱ  <hi rend="color(FF0000)">Ⴋ</hi>ოხუ&#x0302;ედ:<lb/>
+              <hi rend="color(FF0000)">Ⴘ</hi>&#x0360;ნ ს’იტყუ&#x0302;მან, ღ&#x0360;ის მეტყუ&#x0302;ჱლად’ დიდად გადიდა’ რ&#x0360; ღ&#x0360;თაებისა’ მისისა ქად<lb/>
+              აგ იქმენ ღ&#x0360;თივ ბრწყინუ&#x0302;ალე, და კაცთა მ&#x0360;რთ მისი გამუთ-<lb/>
+              ქმელ 
+           </p>
+          <pb n="3"/>
+           <p>
+              ქმელი განგებულება ასწავა:
+           </p>
+           <p>
+              <hi rend="color(FF0000)">Ⴋ</hi>ომგებელი’ გულსა წმიდასა, და ჳორცთა ქ&#x0360;წთა  ტაძრად გამო-<lb/>
+              სჩნდი ცხოუ&#x0302;ჱლად’, და სულიერად დიდებული და საუ&#x0302;ანედ რჩე-<lb/>
+              ულად’ ყ&#x0360;დ საგალობელისა ერთ  ღ&#x0360;თაებისად: 
+           </p>
+           <p>
+              <hi rend="color(FF0000)">Ⴛ</hi>ეობითა უხრწნელისა’ ქალწულისათა’ პატივ გეცა’, Ⴑან-<lb/>
+              ატრელოო  ქწ&#x0360;ო’, და ძმად გამოსჩნდი მისსა რ&#x0360;ლნ გამოგირ-<lb/>
+              ჩია ბრძენო, და მოწაფედ ღ&#x0360;სა-მეტყუ&#x0302;ჱლად’ განსრულებულ</p>
+           <p>
+              გყო: <hi rend="color(FF0000)">Ⴀ</hi>წა<lb/>
+              <hi rend="color(FF0000)">Ⴎ</hi><supplied reason="illegible">ირუ&#x0302;ჱსა</supplied>  გარდასლვასა განკურნებული შ&#x0360;ნ ყდ უბიწო-<lb/>
+              სა შ&#x0360;ს, დაემკჳდრა ყოვლითურთ განახლებად ჩ&#x0360;ნდა, დაც-<lb/>
+              ემულისა კაცისა ზესთა ხატისა: </p>
+           <p>
+              <hi rend="color(FF0000)">Ⴆ</hi>ეცისა გონებად გამოჩნდი, ღ&#x0360;ის-მეტყუჱლო მადლით ყ&#x0360;დ ნათელ<lb/>
+              ქმნილი მიახლებითა ნათლითა, დასაბამისათა, და გ&#x0360;ლის სიტყ-<lb/>
+              ჳსა მისდა აღსლჳთა განათლებული: </p>
+           <p>
+              <hi rend="color(FF0000)">Ⴜ</hi>მიდითა გონებითა: და უბიწოთა ბაგითა დაპირითა, სამღთოთა<lb/>
+              გონებითა: ჰქადაგე ყ&#x0360;დ ქებულო. სახარება შ&#x0360;ნი, და ყ&#x0360;თა მორწმ-<lb/>
+              უნეთა მიეც მაცხოუ&#x0302;არებად : </p>
+           <p>
+              <hi rend="color(FF0000)">Ⴕ</hi>&#x0360;ს თანა მკჳდრი, სიჭაბუკეთგან ორღანოდ’ მადლს და მის მ&#x0360;რ 
+           </p>
+          <pb n="4"/> 
+            <p>
+               განიჩინე წარმართებული ღ&#x0360;ის-მეტყუ&#x0302;ჱლებისა, და დიდე-<lb/>
+              ბა სამებისა განსთქუ&#x0302; ზესთა ცნობასა:      <hi rend="color(FF0000)">Ⴀ</hi>წა 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴑ</hi>იტყუ&#x0302;ათა მათ შენთა მოხსენებითა გნატრით შ&#x0360;ნ, სამღთოთა,<lb/>
+               ნეტარებითა, და დაუბარებელითა მით ცხოვრებითა ქწ&#x0360;ო ჭ&#x0360;ტე- <lb/>
+               ბით, მდიდარ ქმნილი შ&#x0360;ნ მ&#x0360;რ:   <hi rend="color(FF0000)">Ⴂ</hi>ალობა  <hi rend="color(FF0000)">Ⴅ</hi> <hi rend="color(FF0000)">Ⴑ</hi>ძლის-პირი <hi rend="color(FF0000)">Ⴈ</hi>გიუ&#x0302;ჱ <hi rend="color(FF0000)">Ⴖ</hi>ელუ&#x0302;ა 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴈ</hi>ესო ღ&#x0360;თო ჩუ&#x0302;ჱნმან, და ႳႵ&#x0360;ნ. საკუთარ მყოფელმან სიწმიდისა შ&#x0360;ისა<lb/>
+              და სრულისა ღირსებისამან ძმად თუსად აღგიარა შ&#x0360;ნ ღის-მეტყუ&#x0302;ჱლ: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴂ</hi>ჳრგჳნოსან ჰყავ წმიდა ცხოუ&#x0302;რებაში’ მიეყრდენ შ&#x0360;ნ კადნიერად<lb/>
+               სამღთოსა მკერდსა, სიბრძნისასა დიდებულოო, და სამგზითა’ ნათ-<lb/>
+              ლითა განბრწყინუ&#x0302;ჱბულ-ჰყავ: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴃ</hi>იდთა მცხინ|უარებათა შარავანდედთა, ღ&#x0360;სა-მეტყუ&#x0302;ჱლებისა შ&#x0360;ისა<lb/>
+               თა, განანათლეს მკჳდრ-ანი დიდებულოო, და მათ მ&#x0360;რ ღელავს მად-<lb/>
+              ლთა უფსკრულით. <hi rend="color(FF0000)">Ⴀ</hi>წა 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴚ</hi>ათა გარდამთხმელმან ჯერ ჩინებითა’ ცად ახლად, ქყ&#x0360;ნასა ზ&#x0360;ა გამ-<lb/>
+               გაჩინა ღ&#x0360;ისა დედაო უხრწნელოო, და შენგან გამობრწყინ-<lb/>
+               უ&#x0302;ჱბულად იცილუ&#x0302;ა <hi rend="color(FF0000)">Ⴂ</hi>ალობა <hi rend="color(FF0000)">Ⴅ</hi> <hi rend="color(FF0000)">Ⴑ</hi>ძლის-პირი  <hi rend="color(FF0000)">Ⴈ</hi>გიუჱ <hi rend="color(FF0000)">Ⴁ</hi>რძანებამან:<lb/>
+               <hi rend="color(FF0000)">Ⴑ</hi>მღთოთა ელუ&#x0302;არებითა ნათელქმნულმან შენ მ&#x0360;რ, სულიწმი-<lb/>
+              და უფროსად განცხადებულად, ღ&#x0360;სა-მეტყუ&#x0302;ჱლე, დაუსაბამოსა მა- 
+            </p>
+          <pb n="5"/>
+            <p>  
+               მისა გამოსრული, და მისა თანა განსუ&#x0302;ჱნებული, განუყოფ-<lb/>
+              ელად ვ&#x0360;ა ერთ არსი: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴘ</hi>ენ შ&#x0360;ს აღდგა ნეტარო, სიმართლისა მზემან კარაჳ<lb/>
+               თჳსი. ცად მარადის მოძრაუ&#x0302;ად’, შ&#x0360;ნ გჰქმნა, და ღ&#x0360;სა-მეტყუ&#x0302;ჱ-<lb/>
+              ლითა ენითა შენითა ჰქადაგე ქ&#x0360;ე შეყუ&#x0302;არებულო მეგობარო მისო: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴖ</hi>&#x0360;თივ ბრწყინუ&#x0302;ალე ჳმა თქმულთა შ&#x0360;ნთა ძალისაგანისმა’ სა-<lb/>
+               ნატრელოო’ ღ&#x0360;ისა-მეტყუ&#x0302;ჱლოო, და ზესთა სოფლისა, სახა-<lb/>
+               რებამან შენმან გარე შეცჳთ, და ფარა სრულად სავსე <lb/>
+              ბა ქუ&#x0302;ჱყანასა, სიმაღლითა მოძღუ&#x0302;რებისა’ სჯულთა: <hi rend="color(FF0000)">Ⴀ</hi>’წა’ 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴓ</hi>თესლოდ მუცლად ღება, და  უხრწნელი შობა<lb/>
+               შენ მხოლომან აჩუ&#x0302;ჱნე ქწ&#x0360;დ რა’ჲ ეგე რ’ ყოველ-<lb/>
+               თა ღ&#x0360;თი ჰშევ ყ&#x0360;დ უბიწო-ვო, განკაცებული მორწმ-<lb/>
+              უნეთა მაცხოუ&#x0302;რად’ და გამომხსნელად: 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴂ</hi>ალო-ბა <hi rend="color(FF0000)">Ⴅ</hi> <hi rend="color(FF0000)">Ⴑ</hi>ძლის-პირი <hi rend="color(FF0000)">Ⴈ</hi>გვიუ&#x0302;ჱ <hi rend="color(FF0000)">Ⴑ</hi>აკმილი იგი:<lb/>
+               <hi rend="color(FF0000)">Ⴅ</hi>ითარცა ელუა, სათლისა მავალი, მკჳდროანსა გამოუ<lb/>
+               ჩნდი ნეტარო, და სიწმიდისა მზითა, ქალწულებისა გჳრ-<lb/>
+               გჳნოსნო-ბითა, და კეთილ მსახურებისა სჯულითა განა-<lb/>
+               ბრწყინუ&#x0302;ჱ, სო-ფელი ქ&#x0360;ს შეყუ&#x0302;არებულო: 
+            </p>
+          <pb n="6"/>
+            <p>
+               <hi rend="color(FF0000)">Ⴑ</hi>ულით დაჴორცით, და გონებით წმიდამან ახარეშ&#x0360;ნ<lb/>
+               ზეცისა იგი ქრისტეს საჳარება, დაცათა შინა ანგელო-<lb/>
+               სთა მწყო-ბრსა თანა მოქალაქედ ჩინებული ღაღადებ<lb/>
+              აჳხ&#x0360;დით, საქმენი უფლისანი უფალსა:
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴞ</hi>ატ შუ&#x0302;ჱნიერ, და შესაწირავ სამღთო, ზეცათა ტაძრ-<lb/>
+               ისა იქმენ, და საყდარ გრძნობისა დასაუ&#x0302;აბე განსუ&#x0302;ჱნებუ<lb/>
+               ლისა ბრძნისა, Ⴞ&#x0360; ო-რღანო ღ&#x0360;თის-მეტყუ&#x0302;ჱლებისა, მჴმობ’-<lb/>
+              არე, აჳხ’დით საქმენი უფლისაი უფალსა: <hi rend="color(FF0000)">Ⴀ</hi>’წა 
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴐ</hi>ათა პირუ&#x0302;ჱლისა წყევა უჩინო-ყო, და სიკ|უდილისა იგი და|<lb/>
+               სჯილება, პირუ&#x0302;ჱლისა დედისა, ქწ’ლისაგან ღ&#x0360;თისა დედისა,<lb/>
+               იშევ სიტყუ&#x0302;აო- ღ&#x0360;თისაო-, ყ&#x0360;თა მონიჭებად უკუ&#x0302;დაებისა და მ-<lb/>
+              ჴსნელისა: <hi rend="color(FF0000)">Ⴂ</hi>ალობა <hi rend="color(FF0000)">Ⴇ</hi> <hi rend="color(FF0000)">Ⴑ</hi>ძლის-პირი <hi rend="color(FF0000)">Ⴈ</hi>გიუ&#x0302;ჱ <hi rend="color(FF0000)">Ⴃ</hi>აუსაბამისაგან.
+            </p>
+          <p>
+             <hi rend="color(FF0000)">Ⴀ</hi>წ არღარა იგავით, ა&#x0360;დ პირის-პირ პირითა მიხედუ&#x0302;ად ღი-<lb/>
+             რს იქმნები ღუ&#x0302;არსა საშუ&#x0302;ჱბელთასა, და წყალოსა მშჳდობ-<lb/>
+             ისასა, და მდინარესა უკუ&#x0302;დავებისასა რ&#x0360;ლითაცა მორწყული მი-<lb/>
+              იღებ ნეტარსა განღთობასა:  
+            </p>
+            <p>
+               <hi rend="color(FF0000)">Ⴕ</hi>უ&#x0302;ჱყანისა ითხოუ&#x0302;ჱ ქ&#x0360;სგან მოღებად. საყდარი ხ&#x0360;მან სამღთო<lb/>
+               მკერდი თჳსი მოგანიჭა შენ, რ&#x0360;ჟს ინაჴიდგ ღ&#x0360;ისა-მეტყუ&#x0302;ჱლო- უქ<lb/>
+              ცე...  
+            </p>
+          <pb n="7"/>
+            <p>
+               Ⴀ’ რ მრცხუ&#x0302;ჱნის თქმანი’, თქჳენთჳს მე გლისანი,<lb/>
+               <add place="margin-left">
+                  839
+               </add><lb/>
+               Ⴅინცა ისმინონ, ა’რ მჴდემის ა’რაჳსგან,<lb/>
+               Ⴀმად ჳ&#x0360;დ, თქ&#x0360;ნ შჳლნი Ⴋეფეთანი,<lb/>
+               Ⴍრ- მეფობითა, ძირთაგან ნაწარმ-ნი,<lb/>
+               Ⴗრმანი ჰასაკით, შუ&#x0302;ჱნიერ მ-რფ ნაკუ&#x0302;ჱთით:<lb/>
+               Ⴀნასტასი’ა, Ⴀღდგომის თან სახელითა,<lb/>
+               <add place="margin-left">
+                  840
+               </add><lb/>
+               Ⴄს ჰჴამდა შენდა, რა’ გრძელს ცხოოვრებასა,<lb/>
+               Ⴋიჰსწუ&#x0302;ჱთ სიმრთელი, მოგეზღო ჩემდა ცრემლნი’,<lb/>
+               Ⴗ&#x0360;ნ დაჰჴედ ადგილ, დაჳწყებისად მწარედ,<lb/>
+               Ⴋე’ დამიტე<supplied reason="illegible">ვე</supplied>, მ<supplied reason="illegible">ე</supplied>ცნთაგან <supplied reason="illegible">უ</supplied>საწყალად:<lb/>
+               Ⴘ&#x0360;ნდამი ჩ&#x0360;ი, იცოდი ტრფიალება,<lb/>
+               <add place="margin-left">
+                  841
+               </add><lb/>
+               Ⴀ&#x0360;რ მცირე იყო, განჰდიდნებოდა ფ&#x0360;დ <lb/>
+               Ⴀმად ვ&#x0360;დ, Ⴋეფეთა შენთა მეშუ&#x0302;თა,<lb/>
+               Ⴘ&#x0360;ნ ჩემდა მოგცეს, საკუთარ უსაკუთრეს,<lb/>
+               Ⴋწყუროდი, გტრფოდი, ვხარობდი გახარებდი:<lb/>
+               Ⴘ&#x0360;ნ მიყუ&#x0302; <damage><gap quantity="1" unit="chars" reason="illegible"/></damage>არდ დამყნილი, <supplied reason="illegible">Ⴑ&#x0360;ნ მრმა <gap reason="illegible" quantity="3" unit="letter"/> ყრით</supplied>,<lb/>
+               <add place="margin-left">
+                  842
+               </add>
+               Ⴘ&#x0360;ნ მრ-მან <damage><gap quantity="1" unit="chars" reason="illegible"/></damage>არევ ყარამფილ,<lb/>
+               Ⴘ&#x0360;ნ მთ <damage><gap quantity="1" unit="chars" reason="illegible"/></damage>ნაზავ Ⴋარგარიტ,<lb/>
+               Ⴘ&#x0360;ნ <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> ეცნიერ მჳა.ვ <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> ხით დამცუ&#x0302;ჱლი,<lb/>
+              <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> ალობ <gap reason="illegible" quantity="3" unit="letter"/> მით: 
+            </p>
+          <pb n="8"/>
+            <p>                                                                                        
+               Ⴘ&#x0360;ნ ჩემდა სუნნელ<gap reason="illegible" quantity="1" unit="letter"/> <gap reason="illegible" quantity="1" unit="letter"/> ჩემდა შუ&#x0302;ჱნიერება,<lb/>
+               <add place="margin-left">
+                  843
+               </add><lb/>
+               Ⴚhემდა დიდება, ჩემდა ნათელ სიხარულ,<lb/>
+               Ⴙემდა Ⴋზე მნათობ, ჩემდა დღე საუღამო,<lb/>
+               Ⴙემდა სიკეთე, ჩემდა ბედნიერება, <lb/>
+               Ⴀ’რღარა მიჳოვარ საწყალობელ ამით:<lb/>
+               Ⴋარიამ’ Ⴉეთილ, Ⴒრედო სოლომონით,<lb/>
+               <add place="margin-left">
+                  844
+               </add><lb/>
+               Ⴋადლის თან-სეხნავ, მოკრძალულო სიმკალურით,<lb/>
+               Ⴙემო წალკოტო, საცილებო ა’რ ჳსგან,<lb/>
+               Ⴋე შენსა შენდა, ნასაკუთრევს Ⴁუნებით,<lb/>
+               Ⴋახარე’ შენად, იხარე’ ჩემდა მომართ :<lb/>
+               Ⴘ&#x0360;ნ Ⴀსულობა, Ⴃაჳთისი სამართლად,<lb/>
+               <add place="margin-left">
+                  845
+               </add><lb/>
+               Ⴋოგმადლა Ⴖ&#x0360;თნ, რ&#x0360; მუ&#x0302;ჱნიერად,<lb/>
+               Ⴞარ შენ აღგებულ, ლამაზ მიმადლებულად<gap reason="illegible" quantity="1" unit="letter"/>,<lb/>
+               Ⴂშუ&#x0302;ჱნის შრომანი, ნახავ ხერით ვარდსა,<lb/>
+               Ⴃამარგარიგნი, Ⴈაკინთს თანა გფშინავ :<lb/>
+               Ⴅთი არს ჩემდა, მივხედო რა საფლ<supplied reason="omitted">ავ</supplied> <damage><gap quantity="1" unit="chars" reason="illegible"/></damage><lb/>
+               Ⴘ&#x0360;ნსა შემცუ&#x0302;ჱლსა, სად ნა <damage><gap quantity="1" unit="chars" reason="illegible"/></damage><lb/>
+               Ⴂარდაქცეულებ, რტო დაცჳენ <damage><gap quantity="1" unit="chars" reason="illegible"/></damage><lb/>
+               Ⴈანი შენნი, ა’ღარ ჰფშვან <supplied reason="illegible">სუნელთა</supplied>,<lb/>
+              Ⴃავბილთა ფერი, ბაგითურთ <gap reason="illegible" quantity="1" unit="letter"/>გხდომ<gap reason="illegible" quantity="2" unit="letter"/> <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> 
+            </p>
+       </div>
+       </div>
+    </body>
+</text>
 </TEI>

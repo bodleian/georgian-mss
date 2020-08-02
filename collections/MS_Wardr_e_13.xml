@@ -41,8 +41,17 @@
                   <collection type="main">Oriental Manuscripts Wardrop Collection</collection>
                   <idno>MS. Wardr. e. 13</idno>
                </msIdentifier>
+               <head>
+                  Georgian dictionary by Sulḥan-Saba Orbeliani.
+                  The first written dictionary available for Georgian language.
+               </head>
                <msContents>
-                  <summary>Georgian dictionary by <persName key="person_52">Orbeliani, Sulxan-Saba</persName>
+                  <summary>Georgian dictionary by <persName key="person_52">Orbeliani, Sulxan-Saba</persName>.
+                     This manuscript consists of seventh parts. The first page includes information of manuscript in English;
+                     the second part - the list of numerical values for Georgian characters; the third part is an introduction to the 
+                     dictionary; the fourth part is the biggest one and conists of a dictionary starting from A up to H with 
+                     initial letters marked in read; the fifth part is a list of saints; the sixth part is a list of 
+                     business people and the last, the seventh part is information on provenance.  
                   </summary>
                   <msItem xml:id="MS_Wardr_e_13-item1" n="1">
                      <author key="person_52"><persName>Orbeliani, Sulxan-Saba</persName> (<persName>ორბელიანი, სულხან-საბა</persName>)</author>
@@ -50,24 +59,101 @@
                         <persName>monk Ep'rem</persName>
                          (<persName xml:lang="ar">ეფრემ</persName>)
                      </editor>
-                     <title xml:lang="en-Latn-x-lc" key="work_91">Georgian dictionary</title>
-                     
+                     <title xml:lang="en-Latn-x-lc" key="work_91">Georgian dictionary</title>                     
                      <listBibl>
                         <bibl>CWC, 342</bibl>
                      </listBibl>
                      <textLang mainLang="ka">Georgian</textLang>
                      <note>At the beginning some pages lack: initials and first heading in red</note>
-                  </msItem>
+                  </msItem>                  
+                  <msItem xml:id="MS_Wardr_e_13-item2" n="2">
+                     <locus from="1r" to="2r">ff. 1r-2r</locus>
+                     <title>List of Numerical values</title>
+                     <incipit>  
+                        126 რვვ
+                     </incipit>
+                     <explicit>
+                        100000 ჵ
+                     </explicit>
+                     <bibl type="MS">MS. Wardr. e. 13</bibl>
+                     <textLang mainLang="ka">Written in Mkhedruli Script</textLang>
+                  </msItem>              
+                  <msItem xml:id="MS_Wardr_e_13-item3" n="3">
+                     <locus from="2r" to="7r">ff. 2r-7r</locus>
+                     <incipit>  
+                        ეს ნელა ყვითელთა რიცხვს...
+                     </incipit>
+                     <explicit>
+                        სადა არ ჯდეს...
+                     </explicit>
+                     <bibl type="MS">MS. Wardr. e. 13</bibl>
+                     <textLang mainLang="ka">Written in Mkhedruli Script</textLang>
+                  </msItem>                  
+                  <msItem xml:id="MS_Wardr_e_13-item4" n="4">
+                     <locus from="8r" to="410v">ff. 8r-410v</locus>
+                     <title>Introduction</title>
+                     <incipit>  
+                        ეს ნელა ყვითელთა რიცხვს...
+                     </incipit>
+                     <explicit>
+                        ესღა ჩვენს ენაში ეგოდენ საჴმარ არ არის, მაგრამ სხვათა ენის თარგმანებისათვს დიდად საჴმარია.
+                     </explicit>
+                     <bibl type="MS">MS. Wardr. e. 13</bibl>
+                     <textLang mainLang="ka">Written in Mkhedruli Script</textLang>
+                  </msItem> 
+                  <msItem xml:id="MS_Wardr_e_13-item5" n="5">
+                     <locus from="410r" to="412v">ff. 410r-412v</locus>
+                     <incipit>  
+                        1 წი&#x0303;სა აბასი:
+                     </incipit>
+                     <explicit>
+                        72 წი&#x0303;სა ეპიფანე: იტყვს: სტეფანე: მოწაფე ითვ:
+                     </explicit>
+                     <bibl type="MS">MS. Wardr. e. 13</bibl>
+                     <textLang mainLang="ka">Written in Mkhedruli Script</textLang>
+                  </msItem>              
+                  <msItem xml:id="MS_Wardr_e_13-item6" n="6">
+                     <locus from="410r" to="412v">ff. 410r-412v</locus>
+                     <title>საქმიანთს სახელები ესეც გარდაცვლილი</title>
+                     <incipit>  
+                        თათრული...
+                     </incipit>
+                     <explicit>
+                        ტყაპუნი
+                     </explicit>
+                     <bibl type="MS">MS. Wardr. e. 13</bibl>
+                     <textLang mainLang="ka">Written in Mkhedruli Script</textLang>
+                  </msItem> 
+                  <msItem xml:id="MS_Wardr_e_13-item7" n="7">
+                     <locus from="412r" to="415v">ff. 412r-415v</locus>
+                     <incipit>  
+                        ამ წიგნის <gap reason="damage"/>
+                     </incipit>
+                     <explicit>
+                        წელსა 1735...
+                     </explicit>
+                     <bibl type="MS">MS. Wardr. e. 13</bibl>
+                     <textLang mainLang="ka">Written in Mkhedruli Script</textLang>
+                  </msItem> 
                </msContents>
                <physDesc>
                   <objectDesc form="leaf">
-                     <supportDesc material="chart">
-                        <extent>415 ff. <dimensions type="leaf" unit="cm">
+                     <supportDesc material="paper">
+                        <extent>415 ff.
+                           <dimensions type="leaf" unit="cm">
                               <height>21</height>
                               <width>17</width>
                            </dimensions>
                         </extent>
-                     </supportDesc>
+                        <foliation xml:id="original">
+                           <p>There is not any kind of original pagination</p>
+                        </foliation>
+                        <foliation xml:id="modern">
+                           <p>Pencil pagination is added probably by the library</p>
+                        </foliation>           
+                        <collation>The written leaves preceded by title page</collation>
+                        <condition>Several leaves of manuscript are damaged with small holes and have dark stains</condition>
+                     </supportDesc>                     
                      <layoutDesc>
                         <layout columns="1">
                            <dimensions type="line-height" unit="mm"/>

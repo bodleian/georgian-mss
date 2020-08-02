@@ -6,12 +6,24 @@
       <fileDesc>
          <titleStmt>
             <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. g. 5</title> 
+               <title type="alt" xml:lang="en">Hymns with a later addition of a Russian-Georgian word-list and prayers</title>
+               <title type="alt" xml:lang="ka">ჰიმნები: დაუჯდომელი და პარაკლისი</title>
+               <title type="alt" xml:lang="ka-la">himnebi: daujdomeli da paraklisi</title> 
+            </title>
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
+         <editionStmt>
+            <edition n="1">First digital edition, TEI P5.
+               <date>15 December 2019</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="#Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">2019-12-11</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -29,7 +41,10 @@
             </pubPlace>
             <idno type="msID">MS_Wardr_g_5</idno>
             <idno type="catalogue">Georgian</idno>
-         </publicationStmt>
+            <availability>
+               <p>Available according to the terms of the <ref target="https://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) </ref>.</p>
+            </availability>
+         </publicationStmt>         
          <sourceDesc>
             <msDesc xml:id="MS_Wardr_g_5" xml:lang="en">
                <msIdentifier>
@@ -41,47 +56,55 @@
                   <collection type="main">Oriental Manuscripts Wardrop Collection</collection>
                   <idno>MS. Wardr. g. 5</idno>
                </msIdentifier>
+               <head>Hymns with a later addition of a Russian-Georgian word-list and prayers.</head>
                <msContents>
-                  <summary>Hymns with a later addition of a Russian-Georgian word-list and prayers</summary>
+                  <summary>The book consists of hymns: akathistos, thanksgiving and some other prayers and additions in the form of Russian - Georgian word list written in Mkhedruli script.</summary>
                   <msItem xml:id="MS_Wardr_g_5-item1" n="1">
                      <locus from="2" to="18r">2-18r ff</locus>
-                     <locus from="19v" to="30v">19v-30v ff</locus>
-                     
-                     
+                     <locus from="19v" to="30v">19v-30v ff</locus>   
                      <title xml:lang="ka-Latn-x-lc" key="work_36">Daujdomeli</title>
                      <title xml:lang="ka" key="work_36">დაუჯდომელი</title>
+                     <title xml:lang="eng" key="work_36">Akathistos</title>
                      <textLang mainLang="ka">Georgian</textLang>
                   </msItem>
                   <msItem xml:id="MS_Wardr_g_5-item2" n="2">
                      <locus from="33" to="55">33-55 ff</locus>
-                     
-                     
                      <title xml:lang="ka-Latn-x-lc" key="work_38">Paraklisi</title>
                      <title xml:lang="ge" key="work_38">პარაკლისი</title>
+                     <title xml:lang="ge" key="work_38">Prayer of thanksgiving</title>
                      <textLang mainLang="ka">Georgian</textLang>
                   </msItem>
                   <msItem xml:id="MS_Wardr_g_5-item3" n="3">
                      <locus from="18v" to="19r">18v-19r</locus>
-                     
-                     
                      <title xml:lang="ka-Latn-x-lc" key="work_53">Russian-Georgian word-list</title>
-                     
                      <textLang mainLang="ka">Georgian</textLang>
                   </msItem>
                   <msItem xml:id="MS_Wardr_g_5-item4" n="4">
                      <locus from="31" to="32">31-32 ff</locus>
-                     
-                     
                      <title xml:lang="ka-Latn-x-lc" key="work_54">The Lord's Prayer and other prayers</title>
-                     
                      <textLang mainLang="ka">Georgian</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="leaf">
                      <supportDesc material="chart">
+                        <support>The Manuscript is written on paper.</support>
                         <extent>55 ff. <dimensions type="leaf" unit="cm"/>
+                           <seg type="leaf">
+                              <num type="leaf" value="55">55</num>
+                           </seg>
+                           <seg type="dimensions">
+                              <dimensions type="leaf" unit="cm">
+                                 <height quantity="8">8</height>
+                                 <width quantity="9">9</width>
+                              </dimensions>
+                           </seg>
                         </extent>
+                        <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library.
+                        </foliation>           
+                        <collation>The written leaves are preceded by title pages for akathistos and thanksgiving separately. Catchwords are written horizontally in center
+                           or towards the right lower margin.</collation>
+                        <condition>Several leaves of manuscript are damaged with dark stains.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
@@ -89,9 +112,23 @@
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc>
-                     <handNote scope="major" script="unknown"/>
+                  <handDesc hands="5">
+                     <handNote scope="major" xml:id="h1">Hand I writes starting from f. 2r including f. 18r and continues from 19v till 30v in Mkhedruli script</handNote>
+                     <handNote scope="minor" xml:id="h2">Hand II writes on 18v, 30v, 31r-31v, 32v in Mkhedruli script with pencil</handNote>
+                     <handNote scope="minor" xml:id="h3">Hand III writes on 18v-19r in Mkhedruli script with black ink</handNote>
+                     <handNote scope="minor" xml:id="h4">Hand IV writes on 30v, 31r, 32v in Mkhedruli script with black ink</handNote>
+                     <handNote scope="minor" xml:id="h5">Hand V writes on 31v in Mkhedruli script with black ink</handNote>
                   </handDesc>
+                  <decoDesc>
+                     <decoNote>The title pages of Akathistos and Thanksgiving are decorated with ornament in red and black and the end of chapters is formed with triangles.</decoNote> 
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding notAfter="1700" notBefore="1800">
+                        <p>The panel is covered with brown leather. Leather is covered with ornament.
+                           Sewing is visible.</p>
+                        <decoNote>The cover has similar ornaments on both sides consisting of rombs placed in a square and surrounded by flowers.</decoNote>
+                     </binding>
+                  </bindingDesc>                  
                </physDesc>
                <history>
                   <origin>
@@ -102,6 +139,19 @@
                </history>
                <additional>
                   <adminInfo>
+                        <recordHist>
+                           <source>
+                              Description adapted (2019) from the following source:
+                              <listBibl>                 
+                                 <bibl>
+                                    <title>David Barret's Catalogue of the Wardrop Collection and of other Georgian Books and Manuscripts in the Bodleian Library</title>
+                                    <publisher>Published by the Marjory Wardrop Fund by Oxford University Press</publisher>
+                                    <date when="1973">1973</date>
+                                    <idno type="VIAF">216536082</idno>
+                                 </bibl>
+                              </listBibl>
+                           </source>
+                        </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
@@ -174,7 +224,7 @@
             <keywords scheme="#LCSH">
                <list>
                   <item>
-                     <term key="subject_sh2006003480">Christian Literature, Georgian</term>
+                     <term key="subject_sh2006003480">Georgian Christian literature</term>
                   </item>
                   <item>
                      <term key="subject_sh2009125844">Georgian language-dictionaries-Russian</term>
@@ -182,8 +232,14 @@
                </list>
             </keywords>
          </textClass>
+         <langUsage>
+            <language ident="ka">Georgian Language</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2019-12-15">
+            <persName>Irina Lobzhanidze</persName>Expanded meta-annotation and provided the transcription.
+         </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl">https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl</ref>
          </change>
@@ -200,7 +256,1551 @@
    </facsimile>
    <text>
       <body>
-         <p><!--Body paragraph provided for validation and future transcription--></p>
+         <div type="original">
+         <div type="chapter" n="1">
+            <pb f="2r" n="3"/>
+            <head hand="#h1">ი<hi rend="color(FF0000)">ბაკნი წმინდისა <lb/>
+               ღვთისმშობლისანი რომელსა დაუჯდო<lb/>
+               მელი ეწოდების ამინ</hi>
+            </head>         
+            <p hand="#h1">
+               <hi rend="color(FF0000)">ზ</hi>ეშთა მბრძოლისა ჩემისათვის დამო<lb/>
+               ღვაწისა უძლეველისა ვითარცა შენ <lb/>
+               მიერ ხსნილნი განსაცდელისაგან სამ<lb/>
+               ადლობელსა შევსწირავთ რთის მ<supplied reason="omitted">შობე</supplied><lb/>
+               ლო ქალწულო შენდა მომართ მონანი <lb/>
+               <fw type="catch">შენნი</fw>
+               <pb f="2v" n="4"/>
+               შენნი არამედ ვითარცა გაქვს ძლიე<lb/>
+               რება უბრძოლველი ყოველთაგან ვნება<lb/>
+               თა განმათავისუფლენ ჩვენ რათა გ<lb/>
+               იგალობდეთ შენ კურთხეულო გ&#x035B;ხნ <lb/>
+               სძალო უსძლოო 
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">ანგელოზი</hi> წინა მდგომი ზეცით მოი<lb/>
+               ვლინა ჰრქმად ღთის მშობელისა <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               დაუსსელოსა სიტყვისა სხეულეგან ქმნი<lb/>
+               ლისა შენი მხილეველნი უფალო განკვ<lb/>
+               ირდა და დადგა მხმობელი ესე ვითართა <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ<lb/>
+               <fw type="catch">რ&#x035B;ისა</fw>
+               <pb f="3r" n="5"/> 
+               რომლისა მიერ სიხარული გამობრწყი<lb/>
+               ნდების <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რომლისა მიერ წყევა <lb/>
+               მაკლდების. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ დაცემულისა ადამ<lb/>
+               ის აღდგომაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ცრემლთა კაცს<lb/>
+               თა ხსნაო, <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სიმაღლეო ძლით აღ<lb/>
+               საცლო  კაცობრიეთა გულის სიტყვათა<lb/>
+               ო. <hi rend="color(FF0000)">გ&#x035B;</hi>იხნ სიღმეო ძლით სახელველო <lb/>
+               ანგელოსთაცა თვალებისაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რ&#x035B;<lb/>
+               მტვირთველო ყოველთა მტვირთველთა  <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ვარსკლაო მომფერელო მზისაო<lb/>
+               <pb f="3v" n="6"/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ წიაღო ღთისა გამხორციელებისაო<lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რომლისა მიერ განახლდების დაბადებულო<lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რომლისა მიერ თაყვან იცემების და <lb/>
+               მბადებელი. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სძალო უსძლოო.
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">მ</hi>ხილველი წმინდა თავისა თვისისა უბიწოებით <lb/>
+               ეტყოდა გაბრიილს  საკვირველება ჴმისა შენ<lb/>
+               ისა ძნიად მისათვალველ ურთს სულსა ჩემ<lb/>
+               სა რამეთუ უთესლოსა მიდგომილებასა <lb/>
+               შობასა წინასწარ ვიტყჳ მხმობელი ალილუია<lb/>
+               ცნობისა უცნაურისა ცნობისა მეძიებელმ<lb/>
+               <pb f="4r" n="7"/> 
+               ან ქალწმულმან ხმა ყო მსახურისა მიმართ <lb/>
+                წიაღთაგან უბიწოსა მისა ვითარ არს შო<lb/>
+                ბა შესაძრწუნებელი მითხარ მე რომლისა <lb/>
+               მიმართ იტყოდა იგი შიშით გარნა მხმ<lb/>
+               ობელი ესრეთ <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მესაიდუმლეო <lb/>
+               განძრახვისა გამოუთქმელო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               წყარო მოიხსენენ სარწმუნოებისაო <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ დასაბამო ქრისტეს საკვირველებ<lb/>
+               ათაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ თაო რჯულთა მიხდაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               კიბენო ზეცისაო რომლისა მიერ გარდამოსდა <lb/>
+               <pb f="4v" n="8"/> 
+               და ღ&#x035B;თი <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ჴიდო წიაღ მყვანებელო ქვე<lb/>
+               ყანისათაო ცად  მიმართ <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ანგელოსთა<lb/>
+               მრავალ განთქმულო საკვირველებაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               ეშმაკთა მრავალ საგოდებელო წყლულება<lb/>
+               ო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ თუ ვითარ არავის მასწავლელ<lb/>
+               ო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ბრძენთა ზესთა ქმნილო მეცნიერ<lb/>
+               ებასა. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მორწმუნეთაგან განმაბრწყინვებ<lb/>
+               ელო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სძალო უსძლოო.  :დ&#x035B;: 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ძ</hi>ალი მაღლისა აგრილობდა მაშინ მიდგ <lb/>
+               <pb f="5r" n="9"/> 
+               მიდგომისათვის უქორწინებელისა დანაყოფიერ<lb/>
+               ებისაგან საშოსა მისსა ვითარცა აგარავისაგ<lb/>
+               ან აჩვენა სიტკბოება ყოელთა მოსთლებასა <lb/>
+               მაცხოვარებისასა გალობით ესრეთ ალ<lb/>
+               ილუია. :ე&#x035B; : 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">მ</hi>ქონებელი ღ&#x035B;თის შემწყნარებელისა <lb/>
+               საშოსა ქალწული აღვიდა ელისაბედი<lb/>
+               ს მიმართ ხ&#x035B; ჩჩვილმან მისმან აგრძნა <lb/>
+               რა მეყვსეულად მკითხა მისი კრთებ<lb/>
+               ოდა და კრთომით ვითარცა გალობით ხმ<lb/>
+               ობდა <lb/>
+               <pb f="5v" n="10"/> 
+               ღ&#x035B;თის მშობილისა მიმართ  <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               ვაზო მორჩისა დაუჭნობელისაო გ<lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ქვეყანაო უკვდავისა ნაყოფისაო <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მენერგესა ცხოვრებისა აღმომ<lb/>
+               აცენებელო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ეშმაკისა კაცთ მოყვა<lb/>
+               რისა მომუშაკებელო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ორნატო <lb/>
+               გამომღებელო ნაყოფისა წყალობისასა <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ტანლაო უხვებისა ლხინების<lb/>
+               ა. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რამეთუ აღმოამორჩებ <lb/>
+               ყვავილისა საშვენელთასა. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რამ <lb/>
+               <pb f="6r" n="11"/> 
+               ეთუ განმზადებ ნავთ საყუდელსა სულ<lb/>
+               თასა <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მითვალულო მეოხებისა საკმეველო <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ყოვლისა სოფლისა სალხინებელო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               ღ&#x035B;ისა მოკვდავთა სათნო ყოფაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მოკვდ<lb/>
+               ავთა ღ&#x035B;თისა მიმართ კადნიერებაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სძალო უსძლოო:  : ვ&#x035B; : 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ღ</hi>ელვასა შიგან მქონებელი გულის სიტყ<lb/>
+               ვათა იჭვნეულთასა მართალი იოსებ შეშ<lb/>
+               ფოთნა რ უქორწინებელსა გხედვიდა შენ და ფ<lb/>
+               არულსა ქორწილსა აზნობდა შენთვის უბიწოო <lb/>
+               <pb f="6v" n="12"/> 
+               ხოლო ისწავა რა მიდგომა შენი სულისა <lb/>
+               მიერ წმინდასა ჴმა ყო ალილუია     :ზ:  
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ე</hi>სმა მწყემსთა ანგელოზთა გალობელ<lb/>
+               თა ხორციელისა მოსვლისა ქრისტესსა. <lb/>
+               და ვითარცა მწყედსისა მიმართ მსრბოლ<lb/>
+               თა იხილეს იგი ვითარცა კრავი უმანკო <lb/>
+               მუცელსა შინა. მარიამისსა აღზრდილ<lb/>
+               და. რომლისა მგალობელთა თქვეს. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               ტარიგისა და მწყემსისა დედაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               ქნარო სიტყვიერთა  ცხოვართაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               <fw type="catch">უხილ</fw>
+               <pb f="7r" n="13"/> 
+               უხილავთა მწყემსთა მაოტებელო. <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სამოთხისა ბჭეთა გამღებელო. <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რამეთუ ზეცისა ქვეყნისათანა <lb/>
+               იხარებენ. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რამეთუ ქვეყნისანი <lb/>
+               ზეცისა იცნა მწყობრობენ. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ და უდუმ<lb/>
+               ებელო პირო მოციქულთაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               უძლეველო ახოვნებაო ღვაწლ<lb/>
+               ით შემოსილთაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სარწმუნოებ<lb/>
+               ისა ხარისხო მტკიცეო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               მადლისა საცნაურისა ბრწყვინვალებაო. <lb/>
+               <fw type="catch">გ&#x035B;იხნ </fw>
+               <pb f="7v" n="14"/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რომელისა მიერ განშიშვლდა ჯოჯ<lb/>
+               ოხეთისა მძლავრება, <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რომლისა <lb/>
+               მიერ შევიმოსეთ დიდება. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სძალო <lb/>
+               უსძლოო:  ჱ. 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ღ</hi>ვთივ მავალისა ვარსკლავისა მხედვე<lb/>
+               ლნი. მოგვნი მისა შეუდგეს ბრწყინ<lb/>
+               ვალებისა: და ვითარცა სანთლისა მპყრ<lb/>
+               ობელნი მისნი. მის მიერ გძიებდეს <lb/>
+               ძლიერსა. მეუფესა დამისწუთეს რპ<lb/>
+               მიუწდომელსა განიხარეს მხმობელთა. <lb/>
+               <pb f="8r" n="15"/> 
+               ესრეთ ალილუია:       თ:  
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ი</hi>ხილეს ყმათა ქალდეკეველთა ჴელთა <lb/>
+               ზედა ქალწულისათა ჴელითა დამბადებე<lb/>
+               ლი კაცთა დამეუფედ მცნობელნი მისნი <lb/>
+               დაღაცათუ ხატი მონისა მოიღო ისწრა<lb/>
+               ფეს ძღვნითა მსახურებად მისსა დაღაღად<lb/>
+               ებად კურთხეულისა <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ვარსკლავისა <lb/>
+               დაუღამებელისა. დედაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ცისკარო <lb/>
+               საიდუმლოსა დღისაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სამხილსა <lb/>
+               საცთურისასა და მაცხრობელო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სამებისა <lb/>
+               <fw type="catch">მესაი</fw>
+               <pb f="8v" n="16"/> 
+               მესაიდუმლეთა მცველო იხნ. მძლავრ<lb/>
+               თა კაცთა მოძულეთა მთავრობისა განმდე<lb/>
+               ვნელო. იხნ უფლისა კაცთა მოყვარისა გან<lb/>
+               მდევნელო ქრისტეს გამომაბრწყინვებელო ხნ <lb/>
+               სიხენეშისა საქმეთაგან გამომხსნელო ი&#x035B;ხსნ <lb/>
+               ბარბაროზთა სჯულისა დამხსნელო. ი&#x035B;ხნ ცეც<lb/>
+               ხლისა თაყვანის ცემისა დამაცხრობელო ი&#x035B;ხნ <lb/>
+               ალისა ვნებულისა დამრეტელო. ი&#x035B;ხნ სპარსთ<lb/>
+               ა სიწმინდისა მასწავლელო. ი&#x035B;ხნ ყოველთა ნათ<lb/>
+               ესავთა მხიარულო ი&#x035B;ხნ სძალო უსძლო:    :&#x035B;ი: <lb/>
+               <pb f="9r" n="17"/>
+               <hi rend="color(FF0000)">ქ</hi>ადაგ ღმერთ შემოსილ ქმნილნი მოგ<lb/>
+               ვნი მიიქცეს ბაბილოვნად. სრულ ყვეს <lb/>
+               რა წინა უწყება შენი. ქადაგეს ყოველთა <lb/>
+               შორის. ქრისტედ და მტეველთა ჱგრდ <lb/>
+               ესთა ვითარცა. მოვიცხსულისა არ მეც <lb/>
+               ნიგრისთა გალობად. ესრეთ ალილუია:   ია 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">გ</hi>ამობრწყინდი რა ეგვიპტეს შინა ნა<lb/>
+               თელ ჭეშმარიტებისა განსდევნე  ბნელ <lb/>
+               ტყუილსა რამეთუ კერპნი მისნი <lb/>
+               <fw type="catch">მაცხო</fw>
+               <pb f="9v" n="18"/>
+               მაცხოვარ ვერ თავს მდებელნი ძალ<lb/>
+               ისა შენისა და ეცნეს ხოლო მათგან <lb/>
+               ხსნილნი ხმადეს ღთის მშობელსა მი<lb/>
+               მართ. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ აღმართებაო კაცთაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               დაცემაო ეშმაკთაო გიხნ საცთურისა ც<lb/>
+               თომილებასა დამრთგუნველო. გიხნ კერპთა ზა<lb/>
+               კულებისა მამხილებელო. გიხნ ზღვასა <lb/>
+               საცნაურთა ფარაოს და მთქმელო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ კ<lb/>
+               ლდეო წყურვილთათჳს ცხოვრებისა მწოდ<lb/>
+               ველო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სვეტო ცეცხლისაო წინამძ <lb/>
+               <pb f="10r" n="19"/>
+               ღვარო ბნელისაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სოფლისა საფარვე<lb/>
+               ლო უვრცელესო ღრუბელთაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ საზრ<lb/>
+               დელო მონაცვლეო მანანასაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მსახუ<lb/>
+               რო საშებელისა წმინდაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ქვეყანაო <lb/>
+               აღთქმისაო რომლისაგან დის სძე და იცფლი <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სძალო უსძლოო:   <num value="12">იბ</num>: 
+            </p>
+            <p hand="#h1"> ეგულებოდა რა სჳმეონს აქაისა საუკუნოსა <lb/>
+               მიცვალება საცთურისაგან მიეცა მას ვითარცა <lb/>
+               ჩჩვილი არამედ ღთადცა სრულიად საცნა<lb/>
+               ურ იქმენ მისა რომლისაჳსცა განკვრდა შენ<lb/>
+               <fw type="catch">სა</fw>
+               <pb f="10v" n="20"/>
+               სა გამოუთქმელსა ზედა სიბრძნისა მხობილი ალილუია   :იგ: 
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">ა</hi>ხალი აგებული გვეჩვენა გამოჩნდა რა ამ<lb/>
+               გებელი ჩვენი მის მიერ  ქმნული უთესლო<lb/>
+               საგან მიდგომილმან ნაყოფმან დამცველმან <lb/>
+               მისმან ვითარ იყო უხრწნელად რათა საკვირვე<lb/>
+               ლებისა მხილველნ უგალობდეთ მას ხმობით: გ&#x035B;ხნ <lb/>
+               ყვავილო უხრწნელებისაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ჰვირგვინო კ<lb/>
+               რძალულებისაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ აღდგომისა ხატო ბრწყ<lb/>
+               ინვალეო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ანგელოზთა ცხოვრებისა გამ <lb/>
+               <pb f="11r" n="21"/> 
+               ომაჩინებელო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ხეო ნაყოფ ელვარეო რ<lb/>
+               ომლისასგან იზრდებიან მორწმუნენი. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ნერ<lb/>
+               გო კეთილ ჩრდილ ფურცლოვანო. რომლ<lb/>
+               ისა ქვეშე დაიგრილებენ მრავალნი <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მუ<lb/>
+               ცლად მღებელო გამომხსნილისა ტყვეთასაო. <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ნაყოფად გამომდებელო წინა მძღვრისა<lb/>
+               შეცდომილთასაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მსაჯულისა მართლისა<lb/>
+               სავედრებელი <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მრავლითა ცოდვათა შეს<lb/>
+               ანდობელო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სამოსელო შიშველთა უ<lb/>
+               ხრწნელო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ წადიერებაო ყოველთა სუ<lb/>
+               <fw type="catch">რვილთა</fw>
+               <pb f="11v" n="22"/> 
+               რვილთა მძლეო გიხნ სძალო უსძლოო :ი&#x035B;დ: 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">უ</hi>ცხოსა შობისა მხილველნი უცხო ვიქმნე<lb/>
+               თ სოფლისა ზეცათ მიცვალებულნი გონებითა <lb/>
+               რამეთუ ამისთჳს მაღალი ქვეყანასა ზა გამოჩნ<lb/>
+               და და მდაბლად კაცად მგულებელი მიზიდვისა სიმაღ<lb/>
+               ლედ მიმართ თჳსთა მღაღადებლისა ალილუია <lb/>
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ყ</hi>ოველად იყო ქვეყნისათანა და ზენათგან ყო<lb/>
+               ვლად არა მოკლებულ იყო გარეშე შეუწერილი <lb/>
+               სიტყვა რამეთუ თანაშამოსვლა ღთაებრივი <lb/>
+               და არა ცვალება იქმნა ადგილობბრივი შობა ქალწუ <lb/>
+               <fw type="catch">ლისაგან</fw>
+               <pb f="12r" n="23"/>
+               ლისაგან ღვთი მომადლებულისა მსმენელისა <lb/>
+               ამისათისა <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ღ&#x035B;თისა დაუტევნელისა დამტევნელო <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ პატიოსანისა საიდუმლოსა კარო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               ურწმუნოდა იჭვნეულო სასიქადულო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სა<lb/>
+               ყდარო ყოვლად წმინდაო ზ<lb/>
+               ეშთა ხეხუვიმთასაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სავანეო ყოვლად წ<lb/>
+               მინდაო სერაჳმთა განსვენებულისაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               წინა აღმდგომთა იგი ვეობად  მომყვანებელო <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ქალწულებისა და შობისა შემაუღლებელო <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რომლისა მიერ განეღო სამოთხე. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ კლ<lb/>
+               <fw type="catch">იტეო</fw>
+               <pb f="12v" n="24"/>
+               იტეო ქრისტეს  სამეუფესაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სასოებაო <lb/>
+               კეთილთაო საუკუნეთაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სძალო უსძლოო : ი&#x035B;ვ:  
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ყ</hi>ოველი ბუნება ანგელოსთა განკვირვა დიდმან <lb/>
+               განკაცებისა  საქმემან რამეთუ შეუხებლისა  ვი<lb/>
+               თარცა ღ&#x035B;თისა ხედვიდა ყოველთა შესახებელად კაც<lb/>
+               ად უკვე ჩვენთანა მქცეველად ხოლო მსმენელა<lb/>
+               დ ყოველთა მიერ ესრეთ ალილუია:   ჻ი&#x035B;ზ჻
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">რ</hi>იტორთა მრავალ ხმათა ვითარცა თევზთა უხმო<lb/>
+               თა ვხედავთ შენდამი ღთის მშობელო რამეთუ უ<lb/>
+               ღონი არიან თქმად თუ ვითარ ქალწულთაცა ჰგიე <lb/>
+               <fw type="catch">და შობ</fw>
+               <pb f="13r" n="25"/> 
+               და შობად შეუძლე ხოლო ჩვენ საიდუმლოსა ამის <lb/>
+               ძლით განკვირვებულ სარწმუნეობით ვხმობთ <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სიბრძნისა ღთისა საცნეო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ წინა განგე<lb/>
+               ბისა მისისა სასწაულო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ფილასოფოსთა ს<lb/>
+               ულელად  გამმაჩინებელო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სიტყვასა ხელოვა<lb/>
+               ნთა უსიტყველისა მამხილებელო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რამეთუ <lb/>
+               სულელ იქმნეს მრავალი ღონენი გამომეძიებელნი <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რამეთუ დაჭკნეს მოქმედნი იგი ზღაპართ<lb/>
+               ანი <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ათინელთა თხზულებისა გამხეთქელო<lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მეთევზურთა ბადეთა აღმავსებელო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               <fw type="catch">სიღმი</fw>
+               <pb f="13v" n="26"/> 
+               სიღმით უმეცრებისათ აღმმყვანებელო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მ<lb/>
+               რავალთა მეცნიერებით მასწავლელო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მნე<lb/>
+               ბებელთა ცხოვნებისაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ნავთ საყუდელო  <lb/>
+               ღელვაც გვემულთაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სძალო უსძლოო:   <gap reason="illegible" quantity="3" unit="character" n=""/>
+            </p>
+            <p hand="#h1">
+               ცხოვნება რა სოფელსა ინება ყოველთა შემოქმედ<lb/>
+               მან ამისა მიმართ თჳთ აღძვრით მიიწია და რომე<lb/>
+               ლი მწყემსი იყო ვითარცა ღთი ჩვენთჳს გამ<lb/>
+               ოჩნდა დამსგავს ჩვენდა იქმნა რამეთუ მსგავსით<lb/>
+               ა მსგავსსა მოუწოდა ვითარცა მნებებელმან სმე<lb/>
+               ნად ალილუია: - :      :ი&#x035B;თ჻
+            </p>
+            <pb f="14r" n="27"/>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">ზ</hi>ღუდე ხარ ქალწულთა ღთის მშობელო ქა<lb/>
+               ლწულო და ყოველთ შენდა მოლტოლვილთაო რა<lb/>
+               მეთუ ზეცისა და ქვეყნისა დამბადებელმან აღ<lb/>
+               გაშენა შენ უხრწნელო დაემკვიდრა რა საშოსა <lb/>
+               შენსა და ასწავა ყოველთა ხმობად შენდამი <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ<lb/>
+               ძეგლი ქალწულებისაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ბჭეო ცხოვრ<lb/>
+               ებისაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მომნიჭებელო ღთაებრისა სახიერ<lb/>
+               ებისაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რამეთუ შენ გონიერ ყვენ ცთომ<lb/>
+               ილნი გონებითა <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რამეთუ შენ გულის ხმ<lb/>
+               <fw type="catch">იერ</fw>
+               <pb f="14v" n="28"/>
+               იერ ჰყვენ შეცთომილნი პირველ. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ხრწნ<lb/>
+               ილებისა  საგრძნობელთასა უჩინო მყოფელო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               დამთესველისა უბიწოებისა ყანაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სძალო უ<lb/>
+               თესლოსა სძლობისაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მორწმუნეთა ღთისა სამ<lb/>
+               კაულო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ შვენიერო სიკეთეო ქალქულთაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               სულთა წმინდაო სასძლოო შესამსელო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ სძა<lb/>
+               ლო უსძლო: -    :&#x035B;კ: 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">გ</hi>ალობა ყოველი იძლევის თანა განერცობ<lb/>
+               ად მოსწრაფე სიმრავლესა ფრიად  მოწყალებათ შე<lb/>
+               ნთასა  რიცხვედთა ფსალმუნთა და საგალობელ<lb/>
+               <fw type="catch">თა</fw>
+               <pb f="15r" n="29"/> 
+               თა რომელთა შევსწორავთ შენდა წმიდაო <lb/>
+               მეუფეო რამეთუ სრულ გყოფთ  ვერარასა <lb/>
+               ღირსსა რომელნი მომცენ მღაღადებელთ<lb/>
+               ა შენთა ალილუია.-    :კ&#x035B;ა: 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ნ</hi>ათელსა მტვირთველად  ლამპრად ბნელის<lb/> 
+               ათჳო გამოცინებულად გხედავ წმინდასა ქა<lb/>
+               ლწულსა რამეთუ უნივთოთა ნათლითა <lb/>
+               მთებარე საღთოსა მიცნიერებისა მიმართ <lb/>
+               მიძღვის ყოველთა ცისკარი განმანათლებელი <lb/>
+               გონებისა ბოლო  ხოლო ღაღადებით პატივცემული <lb/>
+               <fw type="catch">ესრეთ</fw>
+               <pb f="15v" n="30"/> 
+               ესრეთ <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ შარავანდედო საცდურისა მზისა<lb/>
+               ო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ლამპარო და თვალისა ნათლისაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               ელვაო სულითა განმანათლეველო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ  ქუხ<lb/>
+               ილო მტერთა განმკვეთელო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ რამეთუ მრა<lb/>
+               ვალ ნათელსა აღმოუბრწყინვებ  განათლებასა <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მრავალ ნეკტარსა აღმოუცენებ მდინ<lb/>
+               არესა <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ემბაზისა მსგავსსა გამომხატველ<lb/>
+               ო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ცოდვილისა  ბინისა წარღვნელო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               საბანელო განმწმენდელო სვინდისასაო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               ტაკუკო განზავებულო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მირონ<lb/>
+               <fw type="catch">ქ&#x035B;ეს</fw>
+               <pb f="16r" n="31"/>
+               ქრისტეს სულნელებისაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ცხოვრებისა საი<lb/>
+               დუმლოსა სერობაო გიხნ სძალო უსძლოო <num value="22">კბ</num>  
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">მ</hi>ადლისასა მიცემისა მნებებელი შეცოდება<lb/>
+               თა პირველთა ყოელთა კაცთა დამხს<lb/>
+               ნელი მოვიდა თავისა მიერ თჳსისა მადლისა <lb/>
+               მისისა განშორებულთა მიმართ და განხეთქა <lb/>
+               რა ხელით წერილი ესმის უნელთა ესრეთ <lb/>
+               ალილუია჻ :<num value="23">კგ</num>
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">მ</hi>გალობელნი შობისა შეგასხამთ <lb/>
+               შენ ყოელნი ვითარცა სულიერსა ტაძარსა <lb/>
+               ღ&#x035B;თის მშობელო რამეთუ შენსა დაემკვიდ<lb/>
+               <pb f="16v" n="32"/>
+               რა საშოსა შენსა მპყრობელი ყოველთა ჴელ<lb/>
+               ითა უფალი განწმინდა  ადიდა და ასწავა <lb/>
+               ყოელთა  ღაღადებად შენდა. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ კარი <lb/>
+               სიტყვისა ღვთისაო. გიხნ წმინდისა წმიდ<lb/>
+               ათასა უაღრესო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ კიდობანო ოქრო<lb/>
+               გან ქმნილო სულითა. გიხნ საუნჯეო ცხოვ<lb/>
+               რებისაო დაულეველო.  გიხნ  პატიოსანო გვრ<lb/>
+               გვინო მეფეთაო კეთილად მსახურო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               სიქადულო წარჩინებულთა მღვდელთაო. გ&#x035B;ხნ <lb/>
+               ეკლესიისა შეურყვნელო გოდოლო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ მ <lb/>
+               <fw type="catch">ეფო</fw>
+               <pb f="17r" n="33"/> 
+               მეფებისა დაურღვეველო გზღუდეო. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               რომლისა მიერ აღდგენ ბაძვანი. <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               რომელისა მიერ მტერნი დაეცემიან.  <lb/>
+               <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ ნათლისა ჩემისა სრულებაო <hi rend="color(FF0000)">გ</hi>&#x035B;იხნ <lb/>
+               სულისა ჩემისა სასოებაო გიხნ სძალ<lb/>
+               ო უსძლოო     : <num value="24">კ&#x035B;დ</num> 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ჵი</hi> ყოველად სარგებელო დედაო მშ<lb/>
+               ობელო ყოელთა წმინათა უწმინდელო ს<lb/>
+               იტყვისა მიმთვალველმან აწინდელსა ამის  <lb/>
+               ძღვნილისა ყოვლისა განსაცდელისაგან იხს<lb/>
+               <fw type="catch">ნენ</fw>
+               <pb f="17v" n="34"/> 
+               ნენ ყოელნი დამერმისა სატანჯველისაგან გამიხ<lb/>
+               სნენ მღაღადებელნი ესრეთ ალილუია: 
+            </p>
+            <p hand="#h1"> 
+               ეს <hi rend="color(FF0000)">მუხლი სამ გზის თქვი და კვალად ანგელოზი <lb/>
+               წინა მდგომი  და ზესთა მბრძოლისა ჻ </hi>
+            </p>
+         </div>
+         <div type="chapter" n="2">
+            <head hand="#h1">
+               ლ<hi rend="color(FF0000)">ოცვა ყ&#x035B;დ წ&#x035B;ისა ღთის მშობელისა მიერ</hi> <lb/>
+               თ <hi rend="color(FF0000)">თქმულნი ღირსისა ფილეთეოს კონსტანტინე<lb/>
+               პოლელ პატრიარქისა჻ ჻ </hi>
+            </head>
+            <p  hand="#h1"> 
+               <hi rend="color(FF0000)">უ</hi>ბიწოო შეუგილებელო უხრწნელო ყოვ<lb/>
+               ლად წმინდაო ღთის მშობელო უქორწინებელ<lb/>
+               ო სძალო ზეცათა დედოფალო დედაო მეუფ <lb/>
+               <fw type="catch">ისა</fw>
+               <pb f="18r" n="35"/> 
+               ისა მაღლისა ძალთასა შემოქმედისა ცათა და ქ<lb/>
+               ვეყნისაო  მხოლოსა სასიხარულო მომატყუე<lb/>
+               ბელო ყოვლისა სოფლისაო მშობელო უფლი<lb/>
+               სა ჩვენისა იესო ქრისტესო ქვეყნისათა ყ<lb/>
+               ოელთა მაცხოვრისაო ვხმობთ შენდამი <lb/>
+               მიიღე  სავედრებელი გალობა უღირსისა მ<lb/>
+               ონისა შენისაგან და შეგინებულთა ბაგეთა ჩემთ<lb/>
+               აგან ნუ უგულებელს მყოფ ყოვლად დიდებუ<lb/>
+               ლო დედოფალო რ არავინ  ხოლო მოლტ<lb/>
+               ოლვილი შენდა უსმენილ იქმნა ანუ ვინ მხმ<lb/>
+               <fw type="catch">ობელი</fw>
+            </p>
+              <pb f="18v" n="36"/> 
+            <p hand="#h2">ქა
+               მგდეზნ<damage><gap quantity="5" unit="chars" reason="illegible"/></damage><lb/>
+               ქ მო დ ი სელია ქია მ
+            </p>
+            <p hand="#h3">
+               კრასნი თუთ ხართუთა ინჯირ <lb/>
+               ლეღვი დინ ნესვი არშუზ საზამ<lb/>
+               თრო <damage><gap quantity="1" unit="chars" reason="illegible"/></damage>ვეკლი ჭარხალი კაბუსტ <lb/>
+               ა კომბოსტო რეტკა ბოლოკი ლ<lb/>
+               უქ ხახვი ჩესნოკ ნიორი უკროფ <lb/>
+               კამა ოგურცი კიტრი ტიკვა გ<lb/>
+               ოგრა ბიკ კარი კოროვა ფურ<lb/>
+               ი ტელონკა ხბო ბრან ცხვარი ბ<lb/>
+               არაშკა ბატკანი კოზოლ თხა <lb/>
+               ბუილა კამეჩი ლოშეტ ცხე<lb/>
+               ნი <lb/>
+               <pb f="19r" n="37"/>
+               ჟერეშონკა კვიცი ლოშატკა ვირი სვი<lb/>
+               ნიე ღორი საბაკა ძაღლი კოშკა კატა <lb/>
+               მიშა თაგვი პტიცა ფრინველი კურ<lb/>
+               იცა ქათამი მოლოდოი კურიცა ვარ<lb/>
+               ია გუსი ბატი პეტუხა მამალი დ<lb/>
+               როვ შეშა  უგლი ნახშირი აროშ უ<lb/>
+               რემი მეკინა: ბზე სენა თივა ტრავა ბ<lb/>
+               ალახი ზელინა მწუანილი ჩელავეკ კ<lb/>
+               აცი ვოლოს თმა <damage><gap quantity="1" unit="chars" reason="illegible"/></damage>ლავა თავი <lb/>
+               რივ წარბი ლოპ შუბლი გლაზ თვა<lb/>
+               ლი ლიცა პირი ნოს ცხვირი უში <lb/>
+               ყურები ზუბ კბილი იაზიკ ენა <damage><gap quantity="1" unit="chars" reason="illegible"/></damage> <lb/>
+               ი წვარი
+            </p>
+            <pb f="19v" n="38"/>
+            <p hand="#h1">   
+               ობელი შენი სირცხვილეულ იქმნა შენ მიერ <lb/>
+               რ&#x035B; ყოელნი მუხლლნი ზეცისანი და ქვეყ&#x035B;ნისანი პე<lb/>
+               რნი დაზღვანი მოუძლურდებიან და ყოელნი წინა <lb/>
+               აღმდგომი ძალნი ძრწიან შეპყრობილნი შიშის<lb/>
+               აგან სახელისა შენისა წმინდისა მცნობელნი შენ <lb/>
+               დედისა ღთისა ვნ კვალად სასოების დამდები <lb/>
+               წარწყმდა თჳნიერ განდგომილისა არა თაყ<lb/>
+               ვანისცემად ხატისა შენისა გამოწერილისა რ<lb/>
+               ომელსა ყოელნი ძალნი ცანი პატივსცემე<lb/>
+               ნ და ყოელნი ტომნი ქვეყნისანი ქრისტიანეთა ნათ <lb/>
+               <fw type="catch">ესავ</fw>               
+               <pb f="20r" n="39"/> 
+               ესავ დაყოელნი პსკნი მორწმინეთანი დიდების <lb/>
+               მეტყველებენ ყოვლად წმინდისა დაძრწოლითა <lb/>
+               პატივსცემთ და არავინ გვუვუს სხვა ღთი გარნა ძე შე<lb/>
+               ნი თანა სამარადისო  მამით დასულით ყოვლად <lb/>
+               წმინდიდურთ ერთ ღთაებით ყოელთა არს<lb/>
+               თაგან თაყვანისჩემულისა დადიდებულისა შ<lb/>
+               ემდგომად ღ&#x035B;თის შენ დედოფალო ღ&#x035B;თის მ      <lb/>         
+               შობელსა აღგიარებთ შეჭმარიტისა ღ&#x035B;თისა დე<lb/>
+               დასა და სურვილით ყოელნი პატივისცემთ მოწყალე <lb/>
+               უკვე ყავ ჩვენ ზა ზე შენი უფროს აჩვენე ჩემზ&#x035B;ა <lb/>
+               <fw type="catch">ჩვეულ</fw>      
+               <pb f="20v" n="40"/>               
+               ჩვეულებრივი შენი მოწაყლება რამეთუ ძალ<lb/>
+               გიც რაოდენიცა გენებოს ევედდრე ჩვენთ <lb/>
+               ჳს რ&#x035B; განვეშორე მისგან ურიცხვთა ბილწთ <lb/>
+               ა უსჯულოებითა ჩემთაგან დაეგოდენ განვ<lb/>
+               არისხე კეთილ სახიერება მისი და განვამწარეკ<lb/>
+               აცთ მოყვარებისა მისისა სიტკბოება დამრავა<lb/>
+               ლი მოწყალება დაწყალობა რ&#x035B; არა ღირს ვარ <lb/>
+               შეწყალებად მისგა უკეთუ შენ არა მოწყალე <lb/>
+               ყო იგი ჩემთჳს დედდოფალო ღ&#x035B;თის მშობელო <lb/>
+               რ&#x035B; შენგან ყოელნი მისა მიმართ შესაძლებელ არ <lb/>
+               <fw type="catch">ს</fw>            
+               <pb f="21r" n="41"/> 
+               ს ამისათჳს შენდა მოვილტვი მხურვალისა მაგის <lb/>
+               შემწისა და მსწრაფლ შუამდგომელისა არავინ გვა<lb/>
+               ქეს გარნა ხოლო შენ მისა მიმართ შუამდგომ<lb/>
+               ელად ჰე დედოფალო შემო ყოვლად წმიდ<lb/>
+               აო ღ&#x035B;თის მშობელო არა არს ჩემ ზ&#x035B;ა სხვა უმ<lb/>
+               აღლეს ქვეყანასა ზ&#x035B;ა და ცათა შ&#x035B;ინა ვითარცა შ<lb/>
+               ენ შემდგომად ღ&#x035B;თისა ჩემისა იესო სი:და <lb/>
+               შენ ზ&#x035B;ა ყოელი სასოება ჩემი და მიც ყოვლა<lb/>
+               დ წმიდაო ქალწულო. რომლისაჳსცა წმიდ<lb/>
+               ასა ხატსა შენსა მივხედავ ვითარცა თვთ <lb/>
+               <fw type="catch">შენ</fw>  
+               <pb f="21v" n="42"/> 
+               შენ. გხედავ. ღვთის მშობელისა სარწმუნ<lb/>
+               ოვებითა გულისა და სიყვარულითა <lb/>
+               სულიათა შევრდომუთა თაყვანის.<lb/>
+               გცემ თანა საუკუნისა ჴელითა შენთა<del rend="strikethrough">ტვ</del><lb/>
+               ვირთულისა ყმისა თანა უფლისა ჩვე<lb/>
+               ნსა იესო ქრისტესა ღვთივ შვენიერო<lb/>
+               და. პატივ. გცემთ და სამადლობელისა გალ<lb/>
+               ობისა მოგვართვამ შენ შევძრწუნდები <lb/>
+               და ვძრწი. უღირსებისა. ჩემისა ჩემისათვს<lb/>
+               და გიხმობ. შენ შემიწყალე. მე დედაო. <lb/>         
+               <fw type="catch">ღ&#x035B;თი</fw>      
+               <pb f="22r" n="43"/> 
+               ღვთისაო და აჩვენე ჩემ ზედა უღირსსა <lb/>
+               ძველთაგანი მოყწალებანი შენნი ვითა<lb/>
+               რცა ხოლო ძველ ოდეს მე ყოვლად ძლიერითა. მხედართ მძღვანე<add hand="#h1" place="above">ბ</add>ლო<lb/>
+               ბითა. შენითა იხსენ სამეუფეო ქა<add hand="#h1" place="above">ლ</add>აქი<lb/> 
+               შენი. სკვითისა მხედართ მთავრისა <lb/>
+               ნადირთა სახისა  ბოროტისა მხე<lb/>
+               ცისა წინა აღმდგომისა ეშმაკისა.<lb/>
+               ვერაგისა ხაღამისაგან განძვინები<lb/>
+               თა. ზღვისათა ბევრ რიცხვნი მედარნი <lb/>
+               <fw type="catch">დანთგე</fw>  
+               <pb f="22v" n="44"/> 
+               დაანთენ მხ<add hand="#h1" place="above">მ</add>ობელნი ძლიერად დამს <lb/>
+               ხმელნი ქალაქისა შენისა ზედა და კვალ<lb/>
+               ად ზეცით ცვრევითა რაოდენი ბევრნ<lb/>
+               ი ნავნი ზღვისა გრიგალითა და ანთქ<lb/>
+               ენ დაწ მხოლო ღ&#x035B;თისა დედაო ერთო  <lb/>
+               ეგე ვითარი ყოფილი აჩვენე ჩემზედა.<lb/>
+               კაცთმოყვარეობისა შენისა შუამდგო<lb/>
+               მელობა სძლიენ უხილავთა ძალთამათ.<lb/>
+               სატანასათა რამეთუ. სულისა ჩემისა <lb/>
+               ქალაქი წარტყვნეს და<add hand="#h1" place="above">სა</add>მეუფეო სული. <lb/>
+               <fw type="catch">ჩემი</fw>  
+               <pb f="23r" n="45"/> 
+               ჩემი მას შ&#x035B;ა ისრითა უსჯულოებისათა გა<lb/>
+               ნმაწონეს დაყოვლი და ყოვლითურთ  ჴრმლითა ანგა<lb/>
+               რებისათა მოწულეს და ცოდვილისა მახვლითა  <lb/>
+               ვაიმე განგმირეს და ძლითუკვე ცოცხალი და <lb/>
+               მიტევეს მოხრებლისა ცოდვისასა შეწყდეულსა <lb/>
+               ამას უსმინოება. და გულ ქვაობა ზვ დამდვე<lb/>
+               ს მე რ&#x035B; კნინღა განვიცდი ვერ ძალმიც მონ<lb/>
+               ებათ მათგან განვრომად არამედ შენდამი  დ<lb/>
+               იდებისა ღ&#x035B;თისა ჩემისა გოდებით და  ცრემლითა გი<lb/>
+               ხმობ  წარმომიდექ მე  მსწრაფლ რათა არა <lb/>
+               <fw type="catch">ს&#x035B;დ</fw>     
+               <pb f="23v" n="46"/> 
+               ს&#x035B;დ წარვმწყდე გნმარინე მე ჴელთა მათთა.<lb/>
+               და აღმომიყვანე მე ცოდვისა მთხ<gap quantity="3" unit="chars" reason="illegible"/>ბელთაგან აღადგ<lb/>
+               ინე ვ&#x035B;დ სულიერი ქალაქი ჩემი და გონება მთავა<lb/>
+               რი მას შ&#x035B;ა სუფევად და ყოველთა სასმენელთა ზ&#x035B;ა<lb/>  
+               განმაძლიერე შეუხებელ და საშინელ ეშმაკთა გამარი<lb/>
+               ნე რ&#x035B;ა ყოელთა ცნან რ შენ მიერ პყრობელ ვარ <lb/>
+               ხსნით იხსენ სული ჩი დედოფალო ვარ შენი ქალ<lb/>
+               აქი ოდესმე შენ ზა მსასოებელი იხსენ სადიდებელ<lb/>
+               ად შენდა და შესაწევნელად მორწმუნეთა: ზ: სურვი<lb/>
+               ლად უპატიოთადაუკუნისამდე დაუსულებელად <lb/>
+               <fw type="catch">მათდა</fw>                    
+               <pb f="24r" n="47"/> 
+               მათდა სატანჯველად და საქებე<lb/>
+               ლა მართლ მორწმუნათა ქრისტიანეთა ნათ<lb/>
+               ესავთა ამისათჳს ხოლო შენსა შეწევნას ვ<lb/>
+               ქადაგებ ხმა მაღლად და შენსა დიდსა მეოხება<lb/>
+               სა საშინელსა მხედართ მძღვანებლობასა მ<lb/>
+               ოვიხსენებ და ზესთა მბრძოლისა ჩემისა უძლეველ<lb/>
+               ისა აღვსწერ მონა შენი თ&#x035B;თის მშობელო და <lb/>
+               სავედრებელსა ამას აკატისროსა მოგართვამ <lb/>
+               სამადლობელად მიიღე ესე და მიართჳ ძესა <lb/>
+               შენსა და ღ&#x035B;თისა ჩემთჳს დედოფალო თანა ზეც<lb/>
+               <fw type="catch">ისა</fw>    
+               <pb f="24v" n="48"/> 
+               ცისა ძალთა დათანა გუნდსა უოელთა წმ<lb/>
+               ინდათასა მას წარმოუდინე ზ&#x035B;. დღესა განკითხვისა<lb/>
+               სა ნუ დამივიწყებ მე დაუღირსსა ამას ვედრებ<lb/>
+               ასა ჩემსა და სარწმუნოებასა რომელ მაქვს შენდ<lb/>
+               ამი  დაყოელი სასოება ჩემი დადებული შენ <lb/>
+               ზ&#x035B;ა მიხსენე დამილხინე შეჭირვებულსა ამ<lb/>
+               ას დახორცილენი აღმისუბუქენ განბოროტ<lb/>
+               ებანი. ნ: სულისა ტკივილნი და ჴართცა ვნ<lb/>
+               ებანი განაქარვენ შენითა უხილავითა <lb/>
+               შეწევნითა და შუამდგომლობითა შენითა <lb/>
+               <fw type="catch">რათა</fw> 
+               <pb f="25r" n="49"/>
+               რათა კნინისა ამის გზა კეთილად დადაუბრ<lb/>
+               კოლებლად უძლო განვლად დასასაუკუ<lb/>
+               ნეთა მათ კეთილთა შინა დავემკვიდრო <lb/>
+               დადიდების ვმეტყველებდე შენსა მტკი<lb/>
+               ცესა შუამდგომლობასა <lb/>
+               და მეოხებასა რამეთ<lb/>
+               უ კურთხეულ <lb/>
+               თანაშე<lb/>
+               ნგან <lb/>
+               შობილით  ძითურთ აწდა  მარადის და უკუნითი ჻ <lb/>
+               <fw type="catch">ათი</fw> 
+            </p>
+         </div>
+         <div type="chapter" n="3">
+            <pb f="25v" n="50"/>
+            <head hand="#h1"> 
+               ლ<hi rend="color(FF0000)">ოცვა დღითი დღე სათქმელი წ&#x035B;ისა ღ&#x035B;თი<lb/>
+               ს მშობელისა მიმართ ვუკეთუ გსურის ხი<lb/>
+               ლვა მისი ჟამსა სულისა შენისა გაყოფისასა </hi>
+            </head>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">შ</hi>ეიწყნარე აწ დიდებულო. დედოფ<lb/>
+               ალო. ჩემო სახიერო. გლახაკ. ვედრება. <lb/>
+               ჩემი უღირსისა პირისაგან შენდა შეწირული.<lb/>
+               ვითარცა ყოვლისა მეცნიერმან დაუფროსღა <lb/>
+               ჩემისა უძლურებისამან  მე უკვე შენ მიერ <lb/>
+               ვიცან გზა ჭეშმარიტებისა შენ მიერ. <lb/>
+               აღმვიწოდე ადგილთაგან სასიკვდინ <lb/>
+               <fw type="catch">ეთა:</fw> 
+               <pb f="26r" n="51"/> 
+               ეთა. რომლისათვის ჩემნი და მოძ<lb/>
+               რაობანი ღამისანი. და დღისანი  საქმითნი.<lb/>
+               და სიტყვითნი მეცნიერებით და უმეცრებით<lb/>
+               ნი შენ უწყი დამეცნიერხარ და შენ შუამ<lb/>
+               დგომელად. ქრისტეს მიმართ. ჭეშმარიტებისა <lb/>
+               ღ&#x035B;თისა მომიგიე. შენ შემეწიე მე შენ  შემიწყ<lb/>
+               ალე მე შენ იყავ თანამოქმედ ჩემდა ყოველსაშინა<lb/>
+               საქმესა კეთი<add hand="#h1" place="above">ლ</add>სა ნებისმიერ ძისა შენისა უწყ<lb/>
+               ზესთა სახიერ დედოფალო რამეთუ საჩ<gap reason="illegible" quantity="3" unit="character" n=""/><lb/> 
+               თაგან ფრჩხი<add hand="#h1" place="above">ლ</add>თა ჩემთა და დედობრივთა წიაღთათ  <lb/>
+               <fw type="catch">შენდა</fw> 
+               <pb f="26v" n="52"/>
+               შენდა შეგივრდები და შენ გევედრე დაღაც<lb/>
+               ათუ ბოროტად დავცევ თავი ჩემი გ<lb/>
+               არნა არა უწყი სხვა შესავედრებელი ან <lb/>
+               უ მწე გინა ჴელისა ამპყრობელი და ღ&#x035B;თი<lb/>
+               სა მიმართ შუა მდგომელი გარნა შენ <lb/>
+               დედოფალო ჩემო ყოელთა საქმეთა <lb/>
+               ჩემთა შენ მიგითხრობ დაშენა<gap reason="illegible" quantity="1" unit="character" n=""/>ო ცენ ყ<lb/>
+               ოველი ცოდვილი ჩემნი შენ უწყი დე<lb/>
+               დოფალო ჩემო ღ&#x035B;თის მშობელო რ&#x035B; მ<lb/>
+               ფრინველი ვარ უცხო დარა მაქვს ად<lb/>
+               <fw type="catch">დგილი</fw> 
+               <pb f="27r" n="53"/> 
+               გილი სადა თავი მივდირიკო გარნა შენ<lb/>
+               დამი დედისა ქრისტესი ღ&#x035B;თისა ჩემისა შე<lb/>
+               ნ ხარ შემწე ჩემი დედოფალო შენ ხარ <lb/>
+               მხსნელი ჩემი შენ ხარ მფარველი ჩემი <lb/>
+               შენ ჩემი <add hand="#h1" place="above">ღ&#x035B;თისა</add> მიმართ თავს მდები შენ მამა <lb/>
+               ჩემი შენ ჩემი წინამძღვარი შენ ჩემი <lb/>
+               მოგზაური შენდამი დამიც ყ&#x035B;ელი სასოება<lb/>
+               ჩემი შენ იცი უღონოება ჩემი რ&#x035B; არა<lb/>
+               ვინ მაქვს გარნა შენ და შენგან შობილი <lb/>
+               ქრისტე ამისთჳს ნუ მიიძაგებ გან<lb/>
+               <fw type="catch">მაგდებ</fw> 
+               <pb f="27v" n="54"/>
+               მაგდებ მე. სახიერ ნუცა სძლევს <lb/>
+               სიმრავლე ბოროტთა ჩემთა შენსასახ<lb/>
+               იერებასა გაქვს უფსკრული მოწყალე<lb/>
+               ბისა გაქვს უფსკრული მოწყალე<lb/>
+               ბისა ვითარცა ზესთა მოწყალისა ღვთისა <lb/>
+               დედისა  მხოლოდ ინებე და მე ვცხოვნდე  <lb/>
+               ვერავინ  წინ ა<add hand="#h1" place="above">ღ</add>გი<add hand="#h1" place="above">დ</add>გების შენ რ&#x035B;. დედა. ხარ <lb/>
+               რომელმან ყოველივე შექმნა ღვთისა. ჩ<lb/>
+               ვენისა იესოსი ვიცი რ<add hand="#h1" place="above">მ</add>რავლა<add hand="#h1" place="above">დ</add> არიან ცოდვა<lb/>
+               ნი ჩემნი დაარა ვარ ღირს ახი<add hand="#h1" place="above">ლ</add>ვა<add hand="#h1" place="above">დ</add> და ხი<add hand="#h1" place="above">ლ</add>ვა<add hand="#h1" place="above">დ</add> სიმ<lb/>
+               ა<add hand="#h1" place="above">ღ</add>ლისა ცისასა სიმრავლისაგან ცოდვათ<add hand="#h1" place="above">ა</add>. <lb/>
+               <fw type="catch">ჩემთასა</fw>     
+               <pb f="28r" n="55"/> 
+               ჩემთასა არამედ მენ თუ. მიხი<add hand="#h1" place="above">ლ</add>ე . ჩემ ზედ<add hand="#h1" place="above">ა</add> არა<lb/>
+               ვინ არს დამყენებელ. შემეწიე წმი<add hand="#h1" place="above">დ</add>აო დე<add hand="#h1" place="above">დ</add><lb/>
+               ოფა<add hand="#h1" place="above">ლ</add>ო. ჩემო. შემეწიე და ნუ. შემერაცხების <lb/>
+               მე ესე ცოდვად. დედოფალო ჩემო. ღვთისმშ<lb/>
+               ობელ ა&#x035B;დ უფპოსღა მომეც მე სინანული. <lb/>
+               მომეც მე წყარო მრემლთა მომეც მე. სულ<lb/>
+               თქმა  და შემუსვრა გულისა რათა ვსტიროდ<lb/>
+               ე უბადრუკ საქმეთა ჩემთა რ&#x035B; მე ვარ რომელ<lb/>
+               მან ყოველთა ზეშთა ბუნებათა ეუსჯუ<lb/>
+               ლოე წინაშე. მისი შენისა და ღვთისა ვიცი <lb/>
+               <fw type="catch">დედ</fw>
+               <pb f="28v" n="56"/> 
+               დედოფალო რ&#x035B; უსიტყველ ვარ და უღირს.<lb/>
+               ყოვლისა კაცთ მოყვარისა და ღირს ყოვლისა <lb/>
+               ტანჯვისა და არა მაქვს სიტყვა სიტყვისა.<lb/>
+               მიცემად ამისთვისცა, მოწყელებისა მიმართ. <lb/>
+               მისა და ღ&#x035B;თისა შენისა მოვივლტვი და სახიერისა <lb/>
+               მეუფისა და შემოქმედისა ჩემისა შენ მიძღოდე.<lb/>
+               მე. და მემართებდე და  განმსწავლე მე ღთისა მშობე<lb/>
+               ლო. უსასყიდლოდ ვეძიებ შენგან მდიდარ<lb/>
+               თა წყა<add hand="#h1" place="above">ლ</add>ობათა. შემიწყალე მე ვითარცა ბრძან<lb/>
+               ებ ნუ განმაგდებ პირდა შენისაგან და ნუ <lb/>
+               <fw type="catch">განმა</fw>
+               <pb f="29r" n="57"/> 
+               და ნუ განმაშორებ მე საფარველსა შენსა.<lb/>
+               ნუ უცხო მყოფ. შენისა მოწყალებისაგან <lb/>
+               შემიწყალე მე. მოსავე. შენი შემიწყალე.<lb/>
+               რომელსა ყოველივე  სასოება ჩემი და მიცშე<lb/>
+               ნდამი დამასწავე. მე ძლიერება შენი ღ&#x035B;თს <lb/>
+               მშობელი და რ&#x035B; უკეთუ. მაცხოვნო ცოდვი<lb/>
+               ლი დიდ არს წყალობა შენი და მოწყალება <lb/>
+               შენი დიდ მგირუხსენებელობა და სულგ<lb/>
+               რძელება და რ&#x035B; უკეთუ. ღირსა შეენი ო.<lb/>
+               და შეიწყალე ესე არრა არს საკვირველ არამედ.<lb/>
+               <fw type="catch">მე შემი</fw>
+               <pb f="29v" n="58"/> 
+               უფროსღა მე შემეწიე. არამედ მე შემიწყალ<lb/>
+               ე მომეც ჴელი შეწევნისა რომელ უკჱ. მ<lb/>
+               დებარე ვარმე. უდებ სამე. და ჴსნისა მე. <lb/>
+               უმადლოსა და უგულისჴმისა. ფიცხელსა <lb/>
+               და უნანელსა და ყოვლითა ძვირითა საქმითა <lb/>
+               და სიტყვითა. შეგინებულითა აღსავსესა. <lb/>
+               და წესითაცა უცხოსა ყოვლისა კეთილის. <lb/>
+               მოქმედებისაგან ჱე დედოფალო ჩემო ღ&#x035B;თისმშობ<lb/>
+               ელო. მიწყალე იქმენ ჩემ ზედა უღონოსა. <lb/>
+               უცხოსა და საწყალობელსა დაყავ. ჩემზედა.<lb/>
+               <fw type="catch">მდიდ</fw>
+               <pb f="30r" n="59"/> 
+               მდიდრად წყალობა შენი რათა ცხოვნე<lb/>
+               ბულმან ვაქ. შენგან. შობილი. ჭე<lb/>
+               შმარიტი. ქრისტე ღ&#x035B;თი ჩემი დაგა<lb/>
+               დიდი შენ ჩემი მაცხოვარი ჩემი.<lb/>
+               ნუ. გეშინის მცემელი. ჩემი ჴელ<lb/>
+               ის ამპყრობელი. და ჩემი. მცველი <lb/>
+               შემეწიე მე წმიდაო. დედოფალო. შემე<lb/>
+               წიე. მე. და ღირს მყავს მე. ყოველთა დღეთა <lb/>
+               ცხოვრებისა ჩემისათა რ&#x035B;ა ვყო ნება <lb/>
+               ძისა შენისა და ღვთისა ჩემისა და რათა ვმს<lb/>
+               <fw type="catch">ახურ</fw>
+               <pb f="30v" n="60"/> 
+               <add place="margin-top" hand="#h4">
+                  სათვისგ
+               </add>
+               ახურ. მას ვითარცა ჯერ არს და ესრეთ აღ<lb/>
+               ვასრულოო დედოფალო ჩემო ღ&#x035B;თის მშო.<lb/>
+               <add place="margin-left" hand="#h4">
+                  სინა თავის დიდები
+               </add>
+               .ბელო წმინდათაანგელოზთა მიე.<lb/>
+               .რ ძღომილი ვქნა მისი.<lb/>
+               .სამის წმინდისა.<lb/>
+               .და ნათლით შე<lb/>
+               მოსილისა საყოფელისა.<lb/>
+               მიმართ. რ&#x035B; მისა შვენის. დი<lb/>
+               დება. პატივი. და თაყვა.<lb/>
+               ნის ცემა ს&#x035B;კნეთა უკ&#x035B;ე.<lb/>
+               ამინ : <lb/>
+               ქ
+               <add place="margin-bottom" hand="#h4">
+                  ნისათვის
+               </add>
+               <pb f="31r" n="61"/>
+               <add place="margin-top" hand="#h2">
+                  ახაური მას ვითარცა
+                  ვა
+               </add>
+               <add place="margin-bottom" hand="#h4">
+                  მწ ღთქა და ქვეყანა
+               </add>
+            </p>
+         </div>
+         <div type="chapter" n="4">
+            <pb f="31v" n="62"/>
+            <add place="margin-top" hand="#h2">
+               ესწ<lb/>
+               იგნი<lb/>
+               ვისი<lb/>
+               ა
+            </add>
+            <head hand="#h5">
+               წმინდაო: სამებაო: შეგვიწ<lb/>
+               ყალენ: უფალო: გვისსენ: და გვილხინე <lb/>
+               ცოდვათა: ჩვენთაგან: შეგვდენ <lb/>
+               უსჯულოებანი: ჩვენი: წმინდაო: მო<lb/>
+               იხილე: და განკურნე: უძლუ<lb/>
+               უძლურებანი: ჩვენი: სახელისა: შენისათვის.
+            </head>
+            <p hand="#h5">
+               ყოვლად: წმინდაო: სამებაო: შეგვიწ<lb/>
+               ყალენ: ჩვენ: უფალო: გვიხსენ: დაგვი<lb/>
+               ლხინე: ცოდვათა: ჩვენთაგან: მეუფეო: <lb/>
+               შეგვინდე: უსჯულოებანი: <lb/>
+               ჩვენნი: წმინდაო: მოიხილ:ე დაგნვე<lb/>
+               რთა: რნე: უძლურებანი: ჩვენი: <lb/>
+               სახელისა: შენისათვს.<lb/>
+               წმინდაო: ღმე<lb/>
+               რთო: წმინდაო: <lb/>
+               ძლიერო: წმინდაო: <lb/>
+               უკვდავო: შეგვიწყალენ.<lb/>
+               უფალო: შეგვიწყალენ: სამგზის. 
+            </p> 
+            <pb f="32r" n="63"/> 
+            <p hand="#h5">
+               ქ: მამაო ჩვენო:  რომელი: ხარ ცათა შინა <lb/>
+               წმინდა იყავ: სახელი: შენი: მოვედინ. სუფევა <lb/>
+               იყავ. ნება. შენი. ვითარცა: ცათაშინა: ეგრეცა <lb/>
+               პური: ჩვენი: არსობისა: მოგვეც: ჩვენ: დღეს: <lb/>
+               დ მოგვიტევენ: ჩვენ თანანადებნი: ჩვენი: ვითა<lb/>
+               რცა: ჩვენ : მიუტევებთ: თანამდებთა: მათ: ჩვენ <lb/>
+               არსობისა: დანუ: შეგვიყვან: ჩვენ: განსაცდელსა:<lb/>
+               არამედ: გვიხსენ: ჩვენ : ბოროტისაგან 
+            </p>
+            <p hand="#h5"> 
+               ქ: ნათელი: ჭეხმარიტი: ვიხილეთ: ზეცათა: ხელთა: მი<lb/>
+               ვიღეთ: ვპოვეთ: სარწმუნეობა: ჭეშმარიტი დგნუ<gap reason="illegible" quantity="2" unit="character" n=""/><lb/>
+               ლსა: სამებისა: წმინდისა: თაყვანისვცემთ: რათა:  გვაცხოვ<lb/>
+               ნეს: ჩვენ: ქ ამინ. აღავსე პირი: ჩემი ქებით. შენითა: <lb/>
+               უფალო: რათა: უგალობდე: დიდებასა: შენსა: რ ღი<lb/>
+               რმსყვენ: ჩვენ: ზიარებად: წმინდათა: შენთა: საღმთოთა <lb/>
+               <gap reason="illegible" quantity="3" unit="character" n=""/>ვთა: დაცხოველს: დაგვამრხენ: ჩვენ: სიწმინდეთა <lb/>
+               შინა: შენთა: ყოველსა: დღესა: გვასწავენ: სიმართლ <lb/>
+               <gap reason="illegible" quantity="3" unit="character" n=""/> შენნი ალილუია ალილუია ალილუია 
+            </p>
+            <pb f="32v" n="64"/> 
+            <p hand="#h4">
+               ჵი სიბრძნით მოყუ<lb/>
+               არეს გო მხედეო<lb/>
+               რას მოგითხრო შ. სიყვ<lb/>
+               ყოსაყური მოგიგდე რას
+            </p>
+            <p hand="#h2">
+               ა ბ გ დ ე ვ ზ ჱ თ ი კ<lb/>
+               ლ მ ნ ო პ უ რ ტ უ ფ<lb/>
+               ქ ღ ყ ო ჩ ი ქ 
+            </p>            
+         </div>
+         <div type="chapter" n="5">
+            <pb f="33r" n="65"/> 
+            <head hand="#h1"> პ<hi rend="color(FF0000)">არაკლასი <lb/>
+               სავედრებელი ყ&#x035B;დ <lb/>
+               წ&#x035B;ისა ღ&#x035B;თის მშობელისა მიმართ჻ </hi>
+            </head>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">მ</hi>ოვედით თაყვანის ვცეთ :გ&#x035B;:  გზის჻
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">უ</hi>ფალო შეისმინე ლოცვისა ჩემისა <lb/>
+               ყურად იღე ვედრება ჩემი ჭეძმარიტ<lb/>
+               <pb f="33v" n="66"/> 
+               ებითა შენითა შეისმინე ჩემი სიმართლი<lb/>
+               თა შენითა და ნუ შეხვალ სასჯელსა მ<lb/>
+               ონისა შენისათანა. რ&#x035B; არა განმართლდეს <lb/>
+               შენ წინაშე ყოელი ცხოვლი რ&#x035B; დევნ<lb/>
+               ა მტერმან სული ჩემი დადამდაბლა ქ<lb/>
+               ვეყანად ცოხვრება ჩემი დამსვა მე ბ<lb/>
+               ნელსა შ&#x035B;ა ვითარცა მკვდარი საუკუნ<lb/>
+               ეთა დამეწყინა ჩემთანა სულსა ჩე<lb/>
+               მსა და ჩემს შორის შემიძრწუნდა გუ<lb/>
+               ლი ჩემი მოვიხსენე დღეთა პირველთა <lb/>
+               <fw type="catch">და ვწ</fw>
+               <pb f="34r" n="67"/> 
+               და ვწვრთიდ ყოელთა მიმართ საქმეთა შენ<lb/>
+               თა და ქმნულსა ჴელთა შენთასა ვზრახ<lb/>
+               ვედ განვიპყრენ შენდამი ჴელნი ჩემნი <lb/>
+               ვითარცა ქვეყანა ურწყული შენდა<lb/>
+               მი მსთვად შეისმინე ჩემი უფალო <lb/>
+               რ&#x035B; მოაკლდა სულსა ჩემსა ნუ გარე მი<lb/>
+               იქცევ პირსა შენსა ჩემგან დავემსგავ<lb/>
+               სო მათ რომელი შთავლენან მღვიმესა <lb/>
+               მასმინე მე განთიად წყალობა შენი <lb/>
+               რ&#x035B; მე შენ გესავ მაუწყე მე უფა<lb/>
+               <fw type="catch">ლო</fw>
+               <pb f="34v" n="68"/> 
+               გზა რომელსაცა ვიდოდე. რ&#x035B; შენდამი აღ<lb/>
+               იღე სული ჩემი მიხსენ მე მტერთაგან <lb/>
+               უფალო რ შენ გევედრები. მასწავე მე <lb/>
+               რათა ვყო ნება შენი. რ&#x035B; შენ ხარ ღ&#x035B;თი.<lb/>
+               ჩემი სული შენი სახიერი მიძღოდეს მე. ქვე<lb/>
+               ყანასა წრფელსა სახელსა შენისათთვის. <lb/>
+               უფალო მაცხოვნე მე და სიმართლითა.<lb/>
+               შენითა. გამომიყვანე ჭირისაგან სული <lb/>
+               ჩემი და წყალობითა მოსრენ მტერ<lb/>
+               ნი ჩემნი. და წარწყმიდენ ყოველნი. მაჭი <lb/>
+               <fw type="catch">რვებ</fw>
+               <pb f="35r" n="69"/> 
+               რვებელნი სულისა ჩემისანი რამეთუ.<lb/>
+               მე მონა შენი. ვარ :  - - - 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">დ</hi>იდება. <hi rend="color(FF0000)">ა</hi>წდა. <hi rend="color(FF0000)">მ</hi>არადის. <hi rend="color(FF0000)">ა</hi>ლულუია. გ<lb/>
+               <hi rend="color(FF0000)">ღ</hi>&#x035B;თი უფალი და გამოგვიჩნდა ჩვენ. <lb/>
+               <hi rend="color(FF0000)">ღ</hi>&#x035B;თის მშობელსა ლმობიერად  შეუვრ<lb/>
+               დეთ ჩვენ ცოდვილნი ესე და გლახაკ<lb/>
+               ნი მჴურვალითა ცრემლითა ღაღადვ<lb/>
+               ყოთ სიღრმით გულისათ: 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ჵ</hi>ი. დედოფალო წყალობით შემწე მე<lb/>
+               ყავნნ ჩვენ სასოო მორწმუნეთაო <lb/>
+               <fw type="catch">მსწრა</fw>
+               <pb f="35v" n="70"/>
+               მსწრაფლ გვეწიენ რ წარვწყმდებით <lb/>
+               ჩვენ სიმრავლისაგან ცოდვათა ჩვენ<lb/>
+               თასა და ნუ გარე მიმაქცევ მონათა შ<lb/>
+               ენთა ცუდად რ&#x035B; შენ ხარ სასო და <lb/>
+               მეოხი ჩვენი წინაშე ძისა შენისა და <lb/>
+               ღ&#x035B;თის ჩვენისა <hi rend="color(FF0000)">დ</hi>&#x035B;ბა <hi rend="color(FF0000)">ი</hi>გივე <hi rend="color(FF0000)">ა</hi>წდა 
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">ა</hi>რა სადა დავდუმნეთ ღ&#x035B;თის მშობელ<lb/>
+               ო ძლიერებათა შენთა ქებად უღირსნი ეს<lb/>
+               ე მონანი შენნი რ&#x035B; არა თუმცა შენ გვფარ<lb/>
+               ვიდი ოხითა შენითა ვინცა სადა გვიხსნას <lb/>
+               <fw type="catch">ჩ&#x035B;ნ</fw>
+               <pb f="36r" n="71"/> 
+               ჩვენ ესე. ოდენითა ჭირთაგან ანუ ვინცა დაგ<lb/>
+               ვიცვა ჩვენ აქამომდე ფლობად არა სად<lb/>
+               ა განგეშორეთ ჩვენ დედოფალო კურთხე<lb/>
+               ულო რ&#x035B; შენ  იხსნი სულთა ჩვენთა ყო<lb/>
+               ელთა განსაცდელთაგან ჻
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">მ</hi>იწყალე სრულიად
+            </p>
+         </div>
+         <div type="chapter" n="6">
+            <head> 
+               გ<hi rend="color(FF0000)">ალობა წ&#x035B;ის ღ&#x035B;თის მშობელისა. ხმა</hi> <lb/>
+               გ<hi rend="color(FF0000)">ალობა პირველი ძილის პირი:</hi>
+            </head>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">ქ</hi>ვეყანასა მწყურნებსა ვითარცა ხმელ<lb/>
+               სა განვიდა და შრომათაგან ეგვიპტისათა გა<lb/>
+               <fw type="catch">ნერა</fw>
+               <pb f="36v" n="72"/> 
+               ნერა ერი ისრაილთა ღაღადებდა მხსნელსა ჩ<lb/>
+               ვენსა უგალობდით ჻ <hi rend="color(FF0000)">ყ</hi>ოვლად წ&#x035B;ო ღ&#x035B;თისმშო 
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">გ</hi>არემოცული მრავლითა განსაცდელთაგან შ<lb/>
+               ენდა მოვილტვი ჵი დედოფალო ვითხოვ წყალ<lb/>
+               ობასა ჭირთა დაურვათაგან მიხსენ მე მხსნელო <lb/>
+               და მაცხოვარო განწირულთაო჻
+            </p>
+         </div>
+         <div type="chapter" n="7">
+            <head hand="#h1"> 
+               <hi rend="color(FF0000)">ყ</hi>ოვლად წ&#x035B; ღ&#x035B;თის მშობელო 
+            </head>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">შ</hi>ემაშფოთე ბენ მე ვნებათა კვეთებანი დამ<lb/>
+               რავლითა ურვათა აღავსებენ სულისა ჩემსა მშ<lb/>
+               ვიდობა  მყუდრო მომადნე სძალო ძისა და ღ&#x035B;<lb/>
+               <fw type="catch">თისა</fw>
+               <pb f="37r" n="73"/>
+               ღ&#x035B;თისა ვედრებითა. <hi rend="color(FF0000)">დ</hi>იდება 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ღ</hi>&#x035B;თისა მაცხოვრისა მშობელო ქალწულო <lb/>
+               შენგან ვთხოვ მე ჭირთაგან განთავისუფლ<lb/>
+               ებასა და სულსა და გინებასა შენდა მომართ <lb/>
+               აღვიპყრობ საგამობელი <hi rend="color(FF0000)">ა</hi>წდა მარადის 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ჭ</hi>ირთა შინა დაგანსაცდელთა შეყენებული <lb/>
+               მოხედვასა შენსა დაზრუნვასა შირს მყა <lb/>
+               ვ ღ&#x035B;თის მშობელო ვითარცა სახიერისა ღ&#x035B;თისა<lb/> 
+               მშობელმან სახიერმან და მოწყალემან჻
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">გ</hi>ალობა჻ <hi rend="color(FF0000)">გ&#x035B;</hi> სძლის პირი჻ 
+            </p>
+            <pb f="37v" n="74"/>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">შ</hi>ენდა მაყარებელ. კამარათა ცისა<lb/>
+               თაო უფალო და აღმაშენებელ ეკლეს<lb/>
+               იათაო. და მამტკიცენ ჩვენ სიყვარულსა <lb/>
+               შენთასა თაო ყოვლისა სიყვარულისა <lb/>
+               და განმაძლიერებელო მორწმუნეთა მხო<lb/>
+               ლო კაცთმოყვარე჻
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ყ</hi>ოვლად წმინდაო გვაცხოვნენ ჩვენ 
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">ს</hi>ასო დასიქადულად და მფარველად ც<lb/>
+               ხოვრებისა ჩვენისა და მხსნელად და ზღ<lb/>
+               უდედ შებ გიცნობ ღ&#x035B;თის მშობელო <lb/>
+               <pb f="38r" n="75"/>
+               ყოვლად უბიწოო შენ მექმენ წინამძ<lb/>
+               ღვარ და ნავთ სადგურად საღმთოდ კეთი<lb/>
+               ლთა  მიზეზო და მორწმუნეთა სიმკტიც<lb/>
+               ეო მხოლოო <hi rend="color(FF0000)">ყ</hi>ოვლად დიდებულო჻
+            </p>
+            <p hand="#h1"> 
+               ყ  ყოვლად წმინდაო 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ქ</hi>ველის მოქმედი ღ&#x035B;თი და მიზეზი ყოელთა <lb/>
+               კეთილთა გვიშევ გევედრები მოგვმად<lb/>
+               ლე სძალო სიმრავლე კეთილთა რ&#x035B; <lb/>
+               ყოველივე ძალგიც ვ&#x035B;ა მშობელსა ქრ<lb/>
+               ისტესსა რომელი იგი არს ძლიერი ძა<lb/>
+               <fw type="catch">ლითა</fw>
+               <pb f="38v" n="76"/>
+               ლითა ხოლო ღთივ სანატრელო <hi rend="color(FF0000)">დ</hi>&#x035B;ბა <lb/>
+               <hi rend="color(FF0000)">ფ</hi>იცხელთა სალმობათა დავნებათაგან ბო<lb/>
+               როტთა განვიცდი შენ შემეწიე ქალწ<lb/>
+               ულო მკურნალო სულთა და ხორცთა ჩვე<lb/>
+               ნთაო რ&#x035B; საუნჯედ ყოველთა კეთილთა და კურ<lb/>
+               ნებათ უკურნებელთა სალმობათა შენ გ<lb/>
+               იცნობთ კრებულნი მორწმუნეთანი჻ აწ&#x035B;და 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">დ</hi>აემკვიდრე საშოსა. ქალწულისასა უფალო <lb/>
+               გამოუჩნდი კაცთა ხორციელად ვ&#x035B; ა სათ<lb/>
+               ნო იყავ დაგამაჩინე იგი ჭეშმარიტად ღ&#x035B;თის <lb/>
+               <fw type="catch">მშობლად</fw>
+               <pb f="39r" n="77"/> 
+               მშობლად და შემწედ ყოელთა მორწმუნეთა <lb/>
+               მხოლოდ კაცთ მოყვარე჻
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">გ</hi>ვიხსენ განსაცდელთაგან  მონანი შენნი ყო<lb/>
+               ვლად წმინდაო ღ&#x035B;თის მშობელო ქალწულო: რ&#x035B;<lb/>
+               ჩვენ ყოელნი შემდგომად <add hand="#h1" place="above">ღ&#x035B;თისა</add> შენნსა მოვლტვით: <lb/>
+               ვ&#x035B;ა  უძლეველისა ზღუდესა და შუამდგომელისა჻ 
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">მ</hi>ოიხილე ჩვენ ზ&#x035B;ა ყ&#x035B;დ ქებულო ღ&#x035B;თის მშო<lb/>
+               ბელო დაჴორცთა ჩვენთა წყლულებანი განკ<lb/>
+               ურნენ დასულსა ჩვენისა სნეულებანი჻ 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ა</hi>ქა <hi rend="color(FF0000)">ი</hi>თქმის შეგვიწყალენ჻ ჴმა : <num value="2">ბ&#x035B; </num>  ჻ 
+            </p>
+            <pb f="39v" n="78"/> 
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">მ</hi>ეხი მხურვალეო და ზღუდეო უბრძოლველ <lb/>
+               ო ყოვლისა სოფლიაო ვედრებით ვხმობთ <lb/>
+               შენდა მომართ მსთვად  გვეწიენ ჩვენ დედო<lb/>
+               ფალო ღ&#x035B;თის მშობელო და გვიხსენ ჩვენ ჭირ<lb/>
+               თაგან მხოლოო კურთხეულო და მოსწრა<lb/>
+               ფე იქმენ ვედრებად და განმზადებად მეოხ<lb/>
+               ებად და ლმობიერ ჴელის ამპყრობელ რომელ<lb/>
+               ი ეგე მარადის იღჳწი პატივის მცემელთ <lb/>
+               შენთათჳს ღ&#x035B;თის მშობელო: <hi rend="color(FF0000)">მ</hi>ესმა჻ 
+            </p>
+           <pb f="40r" n="79"/> 
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">მ</hi>ესმა უფალო განგება საიდუმლოთა მათ <lb/>
+               სენთა გამოუთქმელთა განვიცადენ საქმენი <lb/>
+               შენნი დააღვიარე მე ღ&#x035B;თაება შენი ჻ 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ყ</hi>ოვლად წმინდაო 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ვ</hi>ნებათა ჩემთა აღძრვანი დაღელვანი ცო<lb/>
+               დვათა ჩემთანი დაყუდენ სძალო წმიდა<lb/>
+               ო რომელმან შევ ღ&#x035B;თი ყოვლად ძლიე<lb/>
+               რი: <hi rend="color(FF0000)">ყ</hi>ოვლად წმინდაო 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">მ</hi>ოწყალებისა უფსკრულთ მომანიჭე <lb/>
+               მვედრებელსა ამას შენსა რომელმან შ<lb/>
+               <fw type="catch">ევ</fw>
+               <pb f="40v" n="80"/> 
+               ევ ღ&#x035B;თი მოწყალე და მხსნელი ყოელთა შემ<lb/>
+               სხმელთა შენთა: <hi rend="color(FF0000)">დ</hi>იდება 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">რ</hi>ომელთა მოგვიგიე შენ სასოდ და სიმტ<lb/>
+               კიცედ დაზღუდიდ შეუძრევლად ჭირთა<lb/>
+               გან განთავის უფლებით ჵი საგალობელო <lb/>
+               ღ&#x035B;თის დედაო: <hi rend="color(FF0000)">ა</hi>წდა მარადის 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ს</hi>ალმობისა სარეცელისა დაურვისა ცხედ<lb/>
+               არსა ზედა მდებარე გა არ მრავალ მო<lb/>
+               წყალე შემეწიე სძალო და აღმადგინე ჻  
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ღ</hi>ამითგანი ჻  
+            </p>
+            <pb f="41r" n="81"/> 
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">გ</hi>ანგენათლიენ ჩვენ ნათლია შენითა უ<lb/>
+               ფალო და მკლავითა მაღლითა მორწმუნე<lb/>
+               თა მშვიდობა შენი მომეც ჩვენ კაცთ მოყვ<lb/>
+               არე. <hi rend="color(FF0000)">ყ</hi>ოვლად წმინდაო 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ა</hi>ღავსენ სძალო სიხარულითა ცხოვრ<lb/>
+               ება ჩვენი დასაღმთო მხიარულება საუკუ<lb/>
+               ნო მომანიჭე ჩვენ: მსობელო სიხარულის<lb/>
+               აო: <hi rend="color(FF0000)">ყ</hi>ოვლად წმინდაო 
+            </p>
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">გ</hi>ვიხსენ ჭირთაგან ღთის მშობელო რომე<lb/>
+               ლმან გვიშევ ნათელი საუკუნო და მშვიდობა <lb/>
+               <fw type="catch">უზეშთაესი</fw>
+               <pb f="41v" n="82"/> 
+               უზესთაესი ყოელთა გონებათა ქრისტე: <hi rend="color(FF0000)">დ</hi>&#x035B;ბა
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">დ</hi>ახსენ აალმური ცოდვათა ჩემთა ღ&#x035B;<lb/>
+               თისა მშობელო ნათლითა ბრწყინვალებათ <lb/>
+               შენთათა რომელმან გვშევ ნათელი პირ<lb/>
+               ველ საუკუნეთა: აწდა მარადის჻  
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">გ</hi>ანკურნე სძალო ვნებათა ჩემთა ჩემთა სნე<lb/>
+               ულება დაღირს მყავ მხედვასა შენსა და <lb/>
+               მომანიჭე სიმრავლე ვედრებითა შენითა჻  
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ღ</hi>აღადყავსი 
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">მ</hi>ომიტევენ სახიერ აურაცხელნი ცოდ <lb/>
+               <fw type="catch">ვანი</fw>
+               <pb f="42r" n="83"/>
+               ვანი ჩემნი რომელთაჳს შენ <lb/>
+               ბოროტთაგან ისმინე ჩემი ღთი მაცხოვარ<lb/>
+               ო ჩემი:  <hi rend="color(FF0000)">ყ</hi>ოვლად წ&#x035B;
+            </p> 
+            <p hand="#h1">
+               <hi rend="color(FF0000)">ს</hi>იკვდილისა ხსნილება დახსენ ჩემთჳს სიკ<lb/>
+               ვდილითა ღ&#x035B;თნ მას ევედრე ქალწულო <lb/>
+               რათა ხრწნილებისაგან. იხსნეს ბუნება <lb/>
+               ჩვენი დავნებათაგან ეშმაკთასა განმარინო<lb/>
+               ს მე჻ <hi rend="color(FF0000)">ყ</hi>ოვლად წ&#x035B;ო
+            </p> 
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">წ</hi>ინამძღვრად ცხოვრებისა ჩემისა გიცი <lb/>
+               ღ&#x035B;თის დედაო განსაცდელთა და მხსნელად <lb/>
+               <fw type="catch">და მტერთა</fw>
+               <pb f="42v" n="84"/>
+               და მტერთა შემუსვრელად დაენებათა დაპ<lb/>
+               ირთა მატებელად სასოო განწირულთაო
+            </p>
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">დ</hi>იდება჻ <hi rend="color(FF0000)">ს</hi>ულთა ჩვენთა მაცხოვრა<lb/>
+               დ და ზღუდე შესავედრებლათ ურვათა <lb/>
+               შინა მოგიგებთ ღთის მშობელო და ნათლითა<lb/>
+               შენითა განათლებული ვიხსნებით ყოელთა <lb/>
+               ჭირთაგან: აწდა მარადის ჻ 
+            </p> 
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">ს</hi>ნეული მდებარე ვარ ცხედარსა ზედა ს<lb/>
+               ალმობისასა და არა არს კურნება ჴორცთა <lb/>
+               და ძვალთა ჩემთა ქალწულო რომელმან: შ <lb/>
+               <fw type="catch">ევ</fw>
+               <pb f="43r" n="85"/>
+               ევ  მკურნალი სენთა დააღმადგინე  ხრწ<lb/>
+               ნილებისაგან჻ 
+            </p> 
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">გ</hi>ვიხსენ განსაცდელთაგან. 
+            </p>
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">მ</hi>ოიხილე ჩვენ ზედა: 
+            </p> 
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">ე</hi>სენი ზემოთ წერია: 
+            </p> 
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">უ</hi>ფალო შეგვიწყალენ.   : <num value="15">ი&#x035B;ე</num>:  
+            </p> 
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">და</hi> ზედა მუხლი ესე <hi rend="color(FF0000)">ჴ</hi>მა:     : <num value="2">ბ&#x035B;</num>჻    
+            </p>  
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">ს</hi>ასოო და შესავედრებელო ქრისტიანეთაო <lb/>
+               ურცხვ&#x035B;ნელო და შუამდგომელო და მბად<lb/>
+               ებელსა მიმართ მითვალულო და შეწყნარ<lb/>
+               <fw type="catch">ებულ</fw>
+               <pb f="43v" n="86"/>
+               ებულო ნუ უგულებელს ჴოფ ხმასა ცოდ<lb/>
+               ვლთა ვედრებასა არამედ სიწრაფე შეწევნა<lb/>
+               დ ვ&#x035B;ა სახიერ ხარ და რომელნი ესე <lb/>
+               სარწმუნოებით გიღაღადებთ და მოსწრა<lb/>
+               ფე იქმენ ვედრებად და განმზადებად მე<lb/>
+               ოხებითა და ლმობიერ ჴელის ამპყრონელ <lb/>
+               რომლი  ეგე მარადის იღწვი პატივის მც<lb/>
+               ემელთა შენისათვის ღ&#x035B;თის მშობელო჻  
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">მ</hi>ღვდელმან <hi rend="color(FF0000)">ს</hi>იბრძნით. <hi rend="color(FF0000)">წ</hi>არდგომა: <hi rend="color(FF0000)">ს</hi>ახ<lb/>
+               არებისა <hi rend="color(FF0000)">მ</hi>ოვხსენი სახ&#x035B;ლი შ&#x035B;ი ყოველსა <lb/>
+               შორის თესლთა 
+            </p>
+            <pb f="44r" n="87"/>  
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">ი</hi>სმინე ასულო დაიხილე დამყავ ყური <lb/>
+               შენი: <hi rend="color(FF0000)">ყ</hi>ოველი სული აქებდით უფალსა 
+            </p>  
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">ღ</hi>ირს ყოფად ჩვენდა სმენად წ&#x035B;ისა <lb/>
+               სახარებისა რათა უფალსა ღ&#x035B;თსა ჩვენსა<lb/> 
+               ვევედრეთ: <hi rend="color(FF0000)">ს</hi>იბრძნით აღემართენით 
+            </p>  
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">ს</hi>ახარება.     ლუკასი ჻  
+            </p>  
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">მ</hi>ათ დღეთა შინა აღდგა მარიამ დაწა<lb/>
+               რვიდა მთად კერძო მსწრაფლ ქალაქად ი<lb/>
+               უდასსა და შევიდა სახლსა ზაქარისსა დამოიკით<lb/>
+               ხ ელისაბედ დაიყო ვა ესმა ელისაბედს <lb/>
+               <fw type="catch">მოკითხვა</fw>
+               <pb f="44v" n="88"/>
+               მოკითხვა მარიამისი კრთობით და ყრმა <lb/>
+               იგი მუცელსა მისსა დააღივსო სულითა <lb/>
+               წმინდათა ელისაბედ დაჴმა ყო ჴმითა დიდი<lb/>
+               თა დათქვა კურთხეულ ხარ შენ დედათა შორ<lb/>
+               ის დაკურთხეულ არს ნაყოფი მუცლისა შენ<lb/>
+               ისა დავინა ესე ჩემდა რათა მოვიდა დედა უფ<lb/>
+               ლისა ჩემისა ჩემდა: რ&#x035B; აჰა ესერა ვა იყო <lb/>
+               ხმა მკითხავისა შენისა კრთებოდა ყმა იგი <lb/>
+               სიხარულით მუცლისა ჩემისა და ნეტარ არს <lb/>
+               რომელსა ჰრწმენს რ&#x035B; იყო აღსრულება <lb/>
+               <fw type="catch">თქმულთა</fw>
+               <pb f="45r" n="89"/>
+               თქმულთა მათ მისა მიმართ უფლისა მიერ და <lb/>
+               თქვა მარიამ ადიდებს სული ჩემი უფალსა <lb/>
+               და განიხარა სულმან ჩემმან ღთისა მიმართ მა<lb/>
+               ცხოვრისა ჩემისა რ&#x035B;ა მოხედნა სიმდაბლესა ზ&#x035B;ა<lb/>
+               მხევლისა თვისისასა რ&#x035B; აჰა ესერა მნატრიდ<lb/>
+               ენ მ ყოველნი ნათესავნი დადაგრა მარიამ <lb/>
+               ელისაბედისთანა სამთავე დაწარვიდა სახით თჳ<lb/>
+               სად჻   <hi rend="color(FF0000)">დ</hi>იდება 
+            </p>  
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">მ</hi>ეოხებითა ღ&#x035B;თის მშობელლისა მოწყალეო ახო<lb/>
+               ცენ ცოდვათა ჩვენთა სიმრავლენი <hi rend="color(FF0000)">ა</hi>წ&#x035B;ა <hi rend="color(FF0000)">ი</hi>გივე 
+               <fw type="catch">მიწყალე</fw>
+            </p>
+            <pb f="45v" n="90"/>
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">მ</hi>იწყალე მე ღ&#x035B;თი დიდება წყალობითა შენითა <lb/>
+               და მრავლითა მოწყალებითა შენითა აჴოცე უს<lb/>
+               ჯულოება ჩვენი და შეგვიწყალე ჩვენ ღ&#x035B;თი჻  
+            </p>  
+            <p hand="#h1">  
+               და <hi rend="color(FF0000)">ზ</hi>ედა ესე - <hi rend="color(FF0000)">ჴ</hi>მა   - <num value="2"> ბ </num>: <hi rend="color(FF0000)">გ</hi>&#x035B;ი 
+            </p>  
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">ნუ</hi> მიმანდობ კაცობრიესა განზრახვასა ყო<lb/>
+               ვლად წმინდაო დედოფალო დღეთა ც<lb/>
+               ხოვრებისა ჩემისათა ნუ მომანდობ არა<lb/>
+               მედ მეოხ მეყავ  და გვაცხოვრებ ჩვენ ჭირვ<lb/>
+               ეულნი რ შემწე ხარ ყოვლად ძლიერი ქალწუ<lb/>
+               ლო ღთისა დედაო და მტერთა დამცველი <lb/>
+               <pb f="46r" n="91"/>   
+               დაუცხო თესლთა მომსერელი ექმენ თანა შე<lb/>
+               მწე მეფესა ჩვენსა მორწმუნესა და ერსა დაქა<lb/>
+               ლაქსა შენსა და მგალობელთა და იხსენ განსაცლდ<lb/>
+               ელთაგან ქრისტიანენი ჻ <hi rend="color(FF0000)">მ</hi>ღვდელმან ჻ 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ა</hi>ცხონე უფალო შეგვიწყალდენი:   ია: 
+            </p>  
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">კ</hi>ურთხეულ არსი 
+            </p>  
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">ყ</hi>რმათა ღ&#x035B;თის მსახურთა ბაბილობს შინა <lb/>
+               არამსახურეს. ხატსა ოქროსასა და <lb/>
+               მით სახმილსა შეითხივნეს და შეცვ<lb/>
+               რეულნი. ესრეთ ღაღადებდეს და იტყოდეს <lb/>
+               <fw type="catch">კურთ</fw>
+               <pb f="46v" n="92"/>
+               კურთხეულხარ. შენ უფალო ღ&#x035B;თ მამა<lb/>
+               თა ჩვენთაო: <hi rend="color(FF0000)">ყ</hi>ოვლად წმინდა: 
+            </p>  
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">ი</hi>ნებე რა ცხოვრება ჩვენი მხსნელო და დაემ<lb/>
+               კვიდრე სამსა ქალწულსასა და სასო<lb/>
+               დ სოფლად გამოაჩინე იგი ამისათვის <lb/>
+               გიღაღადებთ და ვიტყვით კურთხეულხარ <lb/>
+               შენ უფალო ღ&#x035B;თი მამათა ჩვენთა:
+            </p>  
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">ყ</hi>ოვლად წმინდაო 
+            </p>  
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">ს</hi>იტყვა მნებებელი წყალობისა რომელი <lb/>
+               ჰშვევ ქალწული მას ევედრე ხსნად ჩვენ <lb/>
+               <fw type="catch">და</fw>
+               <pb f="47r" n="93"/>
+               ნდა ცოდვილთაგან და სულთა ვნებისა რათ<lb/>
+               ა სარწმუნოებით ვიტყოდეთ კურთხეულ <lb/>
+               ხარ შენ უფალო ღ&#x035B;თო მამათა ჩვენთაო: <hi rend="color(FF0000)">დ</hi>&#x035B;ბა
+            </p>
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">წ</hi>ყაროდ უხრწნელებისად. და საუნჯედ: ცხო<lb/>
+               ვრებისად. დაგალობად სიმტკიცისად დავა<lb/>
+               რად სინანულისად გყო შენ ძემან შენ<lb/>
+               მან ქალწულო ამისთჳს ვღაღადებთ დავი<lb/>
+               ტყვით კურთხეულ ხარ შენ უფალო ღ&#x035B;თა<lb/>
+               მამათა ჩვენთაო:    აწდა 
+            </p>  
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">ჴ</hi>ორცთა სენისგან და სულთა ცოდვსა <lb/>
+               <fw type="catch">განკურნე</fw>
+               <pb f="47v" n="94"/>
+               განკურნე ღ&#x035B;თის მშობელო მოსავნი შენნი <lb/>
+               და რომელნი საფარველსა შენსა მოილტვიან <lb/>
+               რ&#x035B; შენ ხარ ყოვლად წმინდაო სულთა და<lb/>
+               ხორცთა ჩვენთა მკურნალი და მაცხოვარი ჻ 
+            </p>  
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">კ</hi>ურთხევსი ჻ 
+            </p>  
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">მ</hi>თასა ზ&#x035B;ა მოსესთანა მზრახველმან მაყლო<lb/>
+               ვანი სახედ გამოაჩინა ქალწულისაგან შობ<lb/>
+               ილისა უვნებელად ყოელნი ვაკურთხებ<lb/>
+               თ და აღვამაღლებთ მას უკუნისამდე ჻ 
+            </p>  
+            <p hand="#h1">  
+               <hi rend="color(FF0000)">ყ</hi>ოვლად წმინდაო 
+               <fw type="catch">შეწევ</fw>
+            </p>  
+            <pb f="48r" n="95"/>
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">შ</hi>ეწევნისასა შენისა მოქნეთა. მუ განგვწ<lb/>
+               ირავ ქალწულო ღთის მშობელო არამედ მო<lb/>
+               გვხედენ თვალითა ტკბილითა რათა გავყ<lb/>
+               ურიხევდეთ დააღგამაღლებდეთ ყ&#x035B;ვე. 
+            </p>  
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">ყ</hi>ოვლად წმინდა 
+            </p>  
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">კ</hi>ურნებასათა უხვებასა მიმადლებ მგალ<lb/>
+               ობელთა შენთა სარწმუნოებით ქალწულო <lb/>
+               დაიხსნი ჭირთა დასამობათაგან რომელნი მ<lb/>
+               ადლობით გაკურთხებთ თისა დედაო: <hi rend="color(FF0000)">დ</hi>&#x035B;ბა <lb/>
+               ოცთა ჩვენთა დასულთა სალმობანი დედ<lb/>
+               <fw type="catch">ოფალო</fw>
+               <pb f="48v" n="96"/>
+               ოფალო განკურნე მოწყალებით დამისხენ <lb/>
+               <del rend="strikethrough">მოწყალებით</del> ყოელთა განსაცდელთაგან რა<lb/>
+               თა გიღაღადებდე და აღგამაღლებდე შენ. <lb/>
+               უკუნისამდე ჻  <hi rend="color(FF0000)">ა</hi>წდა 
+            </p>  
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">გ</hi>ანსაცდელთა კვეთებას იოტებ დავნებათა ზ&#x035B;ა <lb/>
+               მოსვლას დახსნი ღ&#x035B;თის მშობელო სასოო გან<lb/>
+               წირულთა ამისთჳს გაკურთხებთ შენ უკ<lb/>
+               ინისამდე ჻     <hi rend="color(FF0000)">ა</hi>დიდებსო ჻ 
+            </p>  
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">შ</hi>ენ რომელი უქორწინებელხარ დედაო უს<lb/>
+               ძლოო შენ რომელმან უზეშთაეს ბუნებათა <lb/>
+               <fw type="catch">შევ</fw>
+               <pb f="49r" n="97"/>
+               შევ დაუსაბამო რომელ არს შემოქმედი <lb/>
+               ღ&#x035B;თი ჭეშმარიტი გალობითა დაუდუმებელითა <lb/>
+               გადიდებთ :  <hi rend="color(FF0000)">ყ</hi>ოვლად წ&#x035B;ო. 
+            </p>  
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">ც</hi>რემლთა ჩემთა მდიბარესა ნუ უგულ<lb/>
+               ებელს ყოფ ქრისტე რომელმან ყოელი ცრ<lb/>
+               ემლი აჴოცე პირისაგან ქვეყნისა მეოხებ<lb/>
+               ითა დედისა შენისათა რომლისაგან განკ<lb/>
+               აცენ ზესთა ცნობისა 
+            </p>  
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">ყ</hi>ოვლად წმინდაო 
+            </p>  
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">ს</hi>იხარულითა აღსავდე გული ჩემი ღ&#x035B;თის <lb/>
+               <fw type="catch">მშობ</fw>
+               <pb f="49v" n="98"/>
+               მშობელო რომელმან შეიწყნარე სავსება <lb/>
+               ყოვლისა სიხარულისა და მწუხარებისა მჭ<lb/>
+               მუნვარება აჴოცე დასოფელი აღსავსე მადლ<lb/>
+               ითა შენითა ყოვლად წმინდაო ჻ <hi rend="color(FF0000)">დ</hi>იდება ჻ 
+            </p>  
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">შ</hi>ემწე დანავთ საყუდელ ექმენ ღელვა გვემ<lb/>
+               ულთა ქალწულო დაზღუდეო შეურყვნელო და <lb/>
+               შესავედრებელ და საფარველ და სიხარულო დამ<lb/>
+               ხიარულება საუკუნო მადიდებელთა შენთა და<lb/>
+               სურვილით მგალობელთა: <hi rend="color(FF0000)">ა</hi>წდა 
+            </p>  
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">ნ</hi>ათლითა ბრწყინვალებათა შენთათა <lb/>
+               <fw type="catch">განანა</fw>
+               <pb f="50r" n="99"/>
+               განანათლენ და წყვდიანი უმეცრებისა გან<lb/>
+               სდევნე მგალობელთა შენთაგან დარომელნი <lb/>
+               შენ ღ&#x035B;თის მშობელად აღგიარებენ ქალწუ<lb/>
+               ლო სძალო ღ&#x035B;თისაო 
+            </p> 
+            <p hand="#h1">    
+               <hi rend="color(FF0000)">ღ</hi>ირს არს დაჭეშმარიტად რათა გადიდებ<lb/>
+               დეთ შენ ღთის მშობელო რომელი მარ<lb/>
+               ადის სანატრელ იქმენ ყოვლად უბიწო<lb/>
+               დ და დედად ღ&#x035B;თისა ჩვენისა უპატიოსნ<lb/>
+               ესარს ქერაბინთასა დააღმატებდით უ<lb/>
+               ზესთაესთა სერაბიმთასა დააღმატებდით <lb/>
+               <fw type="catch">განუხ</fw>
+               <pb f="50v" n="100"/>
+               განუხწნელად მშობლისა სიტყვასა მღთისასა მხოლო<lb/>
+               სა ღ&#x035B;თის მშობელსა გალობით გადიდებდეთ ჻ 
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">მ</hi>გალობელთა: <hi rend="color(FF0000)">თ</hi>ქვან: <hi rend="color(FF0000)">ჴ</hi>მა: ე&#x035B;:
+            </p>
+            <p hand="#h1">    
+               <hi rend="color(FF0000)">უ</hi>მაღლესო ცათაო და უწმინდესო სერაბი<lb/>
+               მთასაო. ყოვლად წმინდაო ქალწულო და <lb/>
+               მტკიცე მართლმადიდებლობა სოფლისა. <lb/>
+               შინა დაიცვენ მორწმუნენი მეფენი ჩვენნი<lb/>
+               დამოგვანიჭე ზეცით დიდი წყალობა ღ&#x035B;თისა <lb/>
+               მიერ რომელი ჰშევ შენ მხოლო კურთხე<lb/>
+               ულ. . . . 
+            </p> 
+            <pb f="51r" n="101"/>
+            <p hand="#h1">    
+               <hi rend="color(FF0000)">მ</hi>რავალი ცოდვათაგან დაცემული აღგვა<lb/>
+               დგინენ. დასულთა და ხორცთა ჩვენთა. სენნი<lb/>
+               განკურნენ ღ&#x035B;თისმშობელო რომელნი საფა<lb/>
+               რველსა შენსა მოვილტიან. რ&#x035B; შენ ხარ მკ<lb/>
+               ურნალი ყოველთა - <hi rend="color(FF0000)">დ</hi>ედოფალო <lb/>
+               დედაო ღ&#x035B;თისაო ნუ დასცხრები. ვედრებად. <lb/>
+               ჩვენ ყოველთა მისსა მიმართ რომელი<lb/>
+               ჰშევ შენ რათა მიხსნეს მორწმუნენი ცეც<lb/>
+               ხლისაგან უშრეტისა და სარწმუნონი ყოვე<lb/>
+               ლნი გადიდებთ ჻ <hi rend="color(FF0000)">გ</hi>იხმობთ შენ.  <lb/>
+               <fw type="catch">უქორწი</fw>
+            </p> 
+            <pb f="51v" n="102"/>
+            <p hand="#h1">  
+               უქორწინებელო და ყოვლად წმინდაო ქალწულო <lb/>
+               ითხოე მისგან რომელი შევრთა მოსცეს <lb/>
+               მორწმუნესა მეფესა უღლისაგან <lb/>
+               მტერთასა რომელი შენ დაუცხრომლად <lb/>
+               გადიდებთ ჻ 
+            </p>   
+            <p hand="#h1">    
+               <hi rend="color(FF0000)">წ</hi>მიდანო ანგელოზთა ზეცისა მხედრო<lb/>
+               ბათანი დაწინა მორბელო უფლისა მოც<lb/>
+               იქულნი ათორმეტნო მღდელთ მოძღვარნ<lb/>
+               ო მოწამენო დანეტარნო მამანო და ყოვ<lb/>
+               ელნი წმინდაო ღ&#x035B;თის მშობელისანო ნუ <lb/>
+               <pb f="52r" n="103"/>  
+               დასცხრები მეოხეო ჩემდა რომელნი თქვენ <lb/>
+               გადიდებთ ჻
+            </p> 
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">წ</hi>მიდაო ღ&#x035B;თი ყოვლად  <hi rend="color(FF0000)">წ</hi>მიდაო <hi rend="color(FF0000)">მ</hi>ამაო <lb/>
+               ვენო: <hi rend="color(FF0000)">მ</hi>იწყალე უფალო ჻ <lb/>
+               <hi rend="color(FF0000)">უ</hi>ფალო შეგვიწყალენ ჻ <hi rend="color(FF0000)">მ</hi>ოწყალებისა <lb/>
+               კარი გაგვიღე <hi rend="color(FF0000)">ა</hi>ქა <hi rend="color(FF0000)">ი</hi>თქმის <hi rend="color(FF0000)">შ</hi>ეგვიწყალენი <lb/>
+               <hi rend="color(FF0000)">ე</hi>ს. <hi rend="color(FF0000)">ლ</hi>ოცვა. <hi rend="color(FF0000)">ლ</hi>მობიერად <hi rend="color(FF0000)">თ</hi>ქვას ჻ 
+            </p>   
+            <p hand="#h1">    
+               <hi rend="color(FF0000)">ჵ</hi>ი ყოვლად მოწყალეო დედოფალო <lb/>
+               ღ&#x035B;თის მშობელო უმაღლესო წმიდათა: ან<lb/>
+               გელოზთაო დამთავარ ანგელოზთაო დაბადე<lb/>
+               <fw type="catch">ბულთა</fw>
+               <pb f="52v" n="104"/>
+               ბულთა უპატიოსნესო შყწევნელთა შე<lb/>
+               მწეო უსასოთა სასოო კლახაკთა შესავ<lb/>
+               ედრებელო მწუხარეთა ნუგეშის მცემ<lb/>
+               ელო მშიერთა გამომზრდელო შიშველთა <lb/>
+               სამოსელო  სნეულთა მკურნალო ცოდვი<lb/>
+               ლთა ცხოვრებაო დაყოელთა ქრისტიანე<lb/>
+               თა შემწეო დაშესავედრებელო: 
+            </p>   
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">ჵ</hi>ი ყოვლად მოწყალეო დედოფალო ღ&#x035B;თის <lb/>
+               მშობელო მოწყალებითა შენითა აცხოვნე და <lb/>
+               შეიწყალე კეთილ მორწმუნე დაქრისტეს <lb/>
+               <pb f="53r" n="105"/>
+               მოყვარ: <hi rend="color(FF0000)">მ</hi>ეფე (<hi rend="color(FF0000)">ირაკლი</hi>) და კეTილ მორ<lb/>
+               წმუნე <hi rend="color(FF0000)">დ</hi>ედოფალი (<hi rend="color(FF0000)">დარეჯან</hi>) ძენი <lb/>
+               და ასულნი მათნი აცხოვნე და შეიწყალენ დე<lb/>
+               დოფალნი მონანი შენნი და წმინსა პატრიარხი ჩ<lb/>
+               ვენი <del rend="strikethrough">ანტონი</del> (<hi rend="color(FF0000)">ანტონი</hi>) წმინდანი მიტროპოლ<lb/>
+               იტნ ეფისკოფოსნი დაყოელნი სამღვდელო დას<lb/>
+               ამონაზვნო წესნი მთავარნი და ქრისტეს მ<lb/>
+               ოყვარე მხედრობა და კეთილის მყოფელნი<lb/>
+               ჩვენი დაყოელნი მართლ მადიდებელნი <lb/>
+               ქრისტიანენი სამოსლითა შენითა პატიო<lb/>
+               <fw type="catch">სნითა</fw>
+               <pb f="53v" n="106"/>
+               სნითა დაიფარენ ევედრე დედოფალო შენ<lb/>
+               გან უთესლოდ  განხორცებულსა ქრი<lb/>
+               სტესა ღ&#x035B;თის ჩვენისა რათა შეგვჭურნეს <lb/>
+               ჩვენ ძალითა თვისთა <del rend="strikethrough">მაღლითა</del> უძლეველთა<lb/> 
+               ხილულისა თა უხილავდა მტერთა ჩვენსა ზ&#x035B;ა 
+            </p>   
+            <p hand="#h1">   
+               <hi rend="color(FF0000)">ჵ</hi>ი ყ&#x035B;დ წმინდა დედოფალო ღ&#x035B;თის მშობელ<lb/>
+               ო აღმომიყვანენ ჩვენ სი<gap reason="illegible" quantity="3" unit="character" n=""/>თაგგან ცოდვ<lb/>
+               ათასა და გვიხენ ჩვენ სიყმილისაგან სრვი<lb/>
+               სა და ძვრისა ცეცხლისა მახვილისა უცხო<lb/>
+               თესლთა ზ&#x035B;ა მოსვლისაგან დატომისაგან ბრძ<lb/>
+               <pb f="54r" n="107"/>  
+               ოლისა დაუცნაურისა სიკვდილისაგან დაზ&#x035B;ა <lb/>
+               დასხმისაგან მტერთასა და განმხრწნელისაგან <lb/>
+               ქარისა და ყოვლისაგან სიკვდილ შემოსილისა წყ<lb/>
+               ლულებისაგან და ყოვლისაგან ბოროტისა მოგ<lb/>
+               ვეც დედოფალო მშვიდობა დასიმრავლე მონა<lb/>
+               თა ამათ შენთა მართლ მადიდებელთა ქრის<lb/>
+               ტიანეთა და განანათლენ თვალნი  გულისა ჩვე<lb/>
+               ნისანი რათა ვცხონდეთ დაღირს ვიქმ<lb/>
+               ნეთ ცოდვილნი მონანაი ჩვენნი სასუფევე<lb/>
+               ლსა ძისა შენისა ქრისტეს ღ&#x035B;თისა<lb/>
+               <fw type="catch">ჩვენისასა</fw>
+               <pb f="54v" n="108"/>
+               ჩვენისა რ&#x035B; მეუფება მისი კურთხეულ არს<lb/>
+               დადიდებულ მამისა დაძისა დაწმიდისა ჻
+            </p>
+            <p hand="#h1"> 
+               მ<hi rend="color(FF0000)">ღდელმან</hi> ჩ<hi rend="color(FF0000)">ამოილოცოს ჻</hi> ყ<hi rend="color(FF0000)">ოვლად ხმი<lb/>
+               დის</hi> ხ<hi rend="color(FF0000)">ატს</hi> ე<hi rend="color(FF0000)">მთხვენენ </hi> და <hi rend="color(FF0000)"> ეს წართქვა<lb/>
+               ნ</hi> ვე<hi rend="color(FF0000)">დრებით</hi> ტ<hi rend="color(FF0000)">კბილად</hi> გ<hi rend="color(FF0000)">ალობით</hi> ც&#x035B; დ&#x035B;
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ყ</hi>ოვლისა ცხოვრებისა ენისა შესავედრებე<lb/>
+               ლი შენ ხარ სახიერო და სარწმუნოებით შენ<lb/>
+               და მოვილტვი და გვიფარე დაცული წყალობისა აღგ<lb/>
+               ვიპყარ რ&#x035B;სხვა შუამდგომელი არავინ გვყავ<lb/>
+               ს ჩვენ ცოდვილთა თვნიერ შენსა ჭირთა შ&#x035B;ა<lb/>
+               და განსაცდელთა გვიჩვენე ჩვენ ძალი შეწევნისა<lb/>
+               შენისა რ&#x035B; შენ ხარ შემწე ჩვენი და ცოდვა<lb/>
+               თაგან მხსნელი დედაო ღ&#x035B;თისა მაღლისა<lb/>
+               შ ვნაცა შენდა შევედრებულნი გვხსენ<lb/>
+               ყოველთა განსაცდელთაგან მონანი შენნი ჻
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">დ</hi>ედოფალო მიხედენ ვედრებასა მონათა<lb/>
+               შენთასა და გვიხსენ ჩვენ ყოველთა გა<lb/>
+               ნსაცდელთა დასნე<lb/>
+               ულებათ<lb/>
+               აგან.
+            </p>
+         </div>
+         </div>                  
       </body>
    </text>
 </TEI>

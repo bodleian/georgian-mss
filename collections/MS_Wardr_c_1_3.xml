@@ -6,12 +6,24 @@
       <fileDesc>
          <titleStmt>
             <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. c. 1 (3)</title> 
+               <title type="alt" xml:lang="en">Poem by Akaki Cereṭeli, entitled ‘Hanzali’</title>
+               <title type="alt" xml:lang="ka">აკაკი წერეთლის ლექსი, "ხანჯალი"</title>
+               <title type="alt" xml:lang="ka-la">akaki ceretʻlis lekʻsi, "xanjali"</title> 
+            </title>
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
+         <editionStmt>
+            <edition n="1">First digital edition, TEI P5.
+               <date>10 January 2020</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="#Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">2020-01-10</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -41,6 +53,7 @@
                   <collection type="main">Oriental Manuscripts Wardrop Collection</collection>
                   <idno>MS. Wardr. c. 1 (3)</idno>
                </msIdentifier>
+               <head>xanjali</head>
                <msContents>
                   <summary>Poem by <persName key="person_40">Ceretʻeli, Akaki</persName> entitled <title>'Xanjali'</title> Eight 4-line stanzas</summary>
                   <msItem xml:id="MS_Wardr_c_1_3-item1" n="1">
@@ -59,12 +72,22 @@
                <physDesc>
                   <objectDesc form="leaf">
                      <supportDesc material="chart">
-                        <extent>1 f. <dimensions type="leaf" unit="cm">
-                              <height>21</height>
-                              <width>13</width>
-                           </dimensions>
+                        <support>The Manuscript is written on paper.</support>
+                        <extent>1 f. <dimensions type="leaf" unit="cm"/>
+                           <seg type="leaf">
+                              <num type="leaf" value="1">1</num>
+                           </seg>
+                           <seg type="dimensions">
+                              <dimensions type="leaf" unit="cm">
+                                 <height quantity="21">21</height>
+                                 <width quantity="13">13</width>
+                              </dimensions>
+                           </seg>
                         </extent>
-                     </supportDesc>
+                        <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library.</foliation>           
+                        <collation>The folios are represented on three unbound pages.</collation>
+                        <condition>Leaves of manuscript are not damaged.</condition>
+                     </supportDesc>    
                      <layoutDesc>
                         <layout columns="1">
                            <dimensions type="line-height" unit="mm"/>
@@ -72,7 +95,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major" script="unknown"/>
+                     <handNote scope="major" xml:id="h1">The whole text of manuscript is written by hand No 1.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -160,9 +183,15 @@
                   </item>
                </list>
             </keywords>
+            <langUsage>
+               <language ident="ka">Georgian Language</language>
+            </langUsage>
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change when="2020-01-10">
+            <persName>Irina Lobzhanidze</persName>Expanded meta-annotation and provided the transcription.
+         </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl">https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl</ref>
          </change>
@@ -179,7 +208,61 @@
    </facsimile>
    <text>
       <body>
-         <p><!--Body paragraph provided for validation and future transcription--></p>
+         <div type="original">
+         <div n="1">
+         <pb n="1"/>
+         <head>ხანჯალი.</head>
+         <lg n="1">
+            <l>შენი ჭირიმე ხანჯალო</l>
+            <l>რკინაო ხორასნისაო,</l>
+            <l>შენ ერთად ერთო იმედო</l>
+            <l>მტრისაგან გამოხსნისაო!</l>
+         </lg>
+         <lg n="2">
+            <l>გლესავ და გლესავ მახვილო,</l>
+            <l>ამოგიფერავ გულსაო,</l>
+            <l>შენ უნდა ეძმო და ეყმო</l>
+            <l>მტრისაგან დაჩაგრულსაო.</l>
+         </lg>
+         <lg n="3">
+            <l>ნესტარიცა ხარ, მბასრიც ხარ,</l>
+            <l>ორივე გვერდით მჭრელიო,</l>
+            <l>გპატრონობს გული ფოლადი</l>
+            <l>და გიპყრობს რკინის ხელიო.</l>
+         </lg>
+         <lg n="4">
+            <l>მისი გამჩენის ჭირიმე,</l>
+            <l>ვინ რო შენ გამოგჭედაო!</l>
+            <l>ჭირიმე, შენი ჭირიმე,</l>
+            <l>მტერს აუტირე დედაო!</l>
+         </lg>
+         <pb n="2"/>
+         <lg n="5">
+            <l>ბევრი ნაღველი შეასვა</l>
+            <l>რუსებმა ამ ჩემს გულსაო,</l>
+            <l>შენ მიმკურნალე მახვილო</l>
+            <l>უდროოდ დაჩაგრულსაო</l>
+         </lg>
+         <lg n="6">
+            <l>მომიციქულე მტრის გულთან</l>
+            <l>მიუძღვენ ჩემი სალამი, -</l>
+            <l>ის ვითომ საწერელია -</l>
+            <l>ჩაერჭვე, როგორც კალამი.</l>
+         </lg>
+         <lg n="7">
+            <l>მისი წითელი მელნითა</l>
+            <l>შემაღებინე ჭაღარა,</l>
+            <l>იმისი კვნესა იქნება</l>
+            <l>ჩემთვის დაფი და ნაღარა.</l>
+         </lg>
+         <lg n="8">
+            <l>გლესავ და გლესავ ხანჯალო,</l>
+            <l>ფოლადო, ჩემო რკინაო,</l>
+            <l>დროა - ამოდი! ქარქაშში</l>
+            <l>აღარ გაქვს აწ შენ ბინაო!</l>
+         </lg>
+      </div>
+         </div>
       </body>
    </text>
 </TEI>

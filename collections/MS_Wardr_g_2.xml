@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_91">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_91">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. g. 2</title> 
+               <title type="alt" xml:lang="en">Ḳalvažiani</title>
+               <title type="alt" xml:lang="ka">ქალვაჟიანი</title>
+               <title type="alt" xml:lang="ka-la">kʻalvažiani</title> 
+            </title>
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
+         <editionStmt>
+            <edition n="1">First digital edition, TEI P5.
+               <date>20 December 2019</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="#Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">2019-12-11</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -29,6 +40,9 @@
             </pubPlace>
             <idno type="msID">MS_Wardr_g_2</idno>
             <idno type="catalogue">Georgian</idno>
+            <availability>
+               <p>Available according to the terms of the <ref target="https://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) </ref>.</p>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="MS_Wardr_g_2" xml:lang="en">
@@ -41,14 +55,13 @@
                   <collection type="main">Oriental Manuscripts Wardrop Collection</collection>
                   <idno>MS. Wardr. g. 2</idno>
                </msIdentifier>
+               <head>Ḳalvažiani</head>
                <msContents>
                   <summary>
-                     <title>Kalvažiani</title>
+                     <title>Kalvažiani is a famous folk tale.</title>
                   </summary>
                   <msItem xml:id="MS_Wardr_g_2-item1" n="1">
                      <locus from="1" to="42"/>
-                     
-                     
                      <title xml:lang="ka-Latn-x-lc" key="work_78">Kalvažiani</title>
                      <title xml:lang="ka" key="work_78">ქალვაჟიანი</title>
                      <listBibl>
@@ -59,10 +72,7 @@
                   </msItem>
                   <msItem xml:id="MS_Wardr_g_2-item2" n="2">
                      <locus from="43">43</locus>
-                     
-                     
-                     <title xml:lang="ka-Latn-x-lc" key="work_13">Hymn</title>
-                     
+                     <title xml:lang="ka-Latn-x-lc" key="work_13">Hymn</title>                     
                      <incipit>ასო სამღერალი და ჭეშმარიტი დანიელისაგან და იმონისაგან და ალექსანდრესაგან</incipit>
                      <listBibl>
                         <bibl>CWC, 347</bibl>
@@ -72,11 +82,23 @@
                </msContents>
                <physDesc>
                   <objectDesc form="leaf">
-                     <supportDesc material="chart">
-                        <extent>55 ff. <dimensions type="leaf" unit="cm">
-                              <height>10</height>
-                           </dimensions>
+                     <supportDesc material="chart">                        
+                        <support>The Manuscript is written on paper.</support>
+                        <extent>55 ff. <dimensions type="leaf" unit="cm"/>
+                           <seg type="leaf">
+                              <num type="leaf" value="55">55</num>
+                           </seg>
+                           <seg type="dimensions">
+                              <dimensions type="leaf" unit="cm">
+                                 <height quantity="10">10</height>
+                                 <width quantity="8">8</width>
+                              </dimensions>
+                           </seg>
                         </extent>
+                        <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library.
+                        </foliation>           
+                        <collation>The book has not title page.</collation>
+                        <condition>All leaves of manuscript are damaged with dark water stains.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
@@ -84,9 +106,18 @@
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc>
-                     <handNote scope="major" script="unknown"/>
+                  <handDesc hands="2">
+                     <handNote scope="major" xml:id="h1">Hand I writes the whole text of manuscript in Mkhedruli script</handNote>
+                     <handNote scope="minor" xml:id="h2">Hand II writes on bottom margin on 19v in Mkhedruli script with pencil</handNote>
                   </handDesc>
+                  <decoDesc>
+                     <decoNote>The Manuscript has not decorations.</decoNote> 
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding notAfter="1950" notBefore="2005">
+                        <p>The panel without ornaments is not old.</p>
+                     </binding>
+                  </bindingDesc>   
                </physDesc>
                <history>
                   <origin>
@@ -97,6 +128,19 @@
                </history>
                <additional>
                   <adminInfo>
+                     <recordHist>
+                        <source>
+                           Description adapted (2019) from the following source:
+                           <listBibl>                 
+                              <bibl>
+                                 <title>David Barret's Catalogue of the Wardrop Collection and of other Georgian Books and Manuscripts in the Bodleian Library</title>
+                                 <publisher>Published by the Marjory Wardrop Fund by Oxford University Press</publisher>
+                                 <date when="1973">1973</date>
+                                 <idno type="VIAF">216536082</idno>
+                              </bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
                      <availability status="restricted">
                         <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
@@ -169,13 +213,19 @@
             <keywords scheme="#LCSH">
                <list>
                   <item>
-                     <term key="subject_sh2006003480">Christian literature, Georgian</term>
+                     <term key="subject_sh2006003480">Georgian Christian literature</term>
                   </item>
                </list>
             </keywords>
          </textClass>
+         <langUsage>
+            <language ident="ka">Georgian Language</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2019-12-20">
+            <persName>Irina Lobzhanidze</persName>Expanded meta-annotation and provided the transcription.
+         </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl">https://github.com/bodleian/georgian-mss/tree/master/processing/convertGeorgian2Bodley.xsl</ref>
          </change>
@@ -192,7 +242,1584 @@
    </facsimile>
    <text>
       <body>
-         <p><!--Body paragraph provided for validation and future transcription--></p>
+         <div type="original">
+         <div type="chapter">
+            <pb f="2r" n="3"/>
+            <p hand="#h1">
+                  <damage><gap quantity="2" unit="chars" reason="illegible"/></damage>
+            </p>
+            <pb f="2v" n="4"/>
+            <p hand="#h1">               
+               დაბერებულნი და შვი<lb/>
+               ლი არა. და ყვანდათ. და დღ<gap quantity="1" unit="chars" reason="illegible"/> <lb/>
+               და ღამე ღმერთს ეხე ენ<gap quantity="1" unit="chars" reason="illegible"/> <lb/>
+               ებოდნენ. ღმერთი ვარო <gap quantity="2" unit="chars" reason="illegible"/> <lb/>
+               ე მოგვეციო. ისმინა. ღ <gap quantity="1" unit="chars" reason="illegible"/><lb/>
+               რთმან. ვედრება. მათი. და <lb/>
+               ეცა. ვაჟი. მშვენიერი. დ <lb/>
+               გჳიდრებული. და. ღმერ<gap quantity="1" unit="chars" reason="illegible"/> <lb/>
+               დიდი. მადლობა. შესწირ <lb/>
+               და. თაყვანისცეს.<lb/>
+               <damage><gap quantity="5" unit="chars" reason="illegible"/></damage>  ეს გაიზარდა. წა<lb/>
+            <pb f="3r" n="5"/> 
+               ეანა. დედამამამა. და მის<lb/>
+               ეს. ყმაწვილი. საფილის <lb/>
+               ფოს. სასწავლებელში <lb/>
+               ა. ისიმდონი. ხაზინა. და <lb/>
+               საქონელი. სულ. იმაზე. გ<lb/>
+               ადაგეს. და. დიაღ. კარგი<lb/>
+               სწავლული. გაიზარდა. მ<lb/>
+               აგრამ. ერთობ. გაღარიბ<lb/>
+               ნენ. ასე. რომ. სარჩო<lb/>
+               საჭმელი. პური. აღარა <damage><gap quantity="2" unit="chars" reason="illegible"/></damage><lb/>
+               ონდათ. და. სთქვა <damage><gap quantity="2" unit="chars" reason="illegible"/></damage> <lb/>
+             <pb f="3v" n="6"/> 
+               <gap quantity="2" unit="chars" reason="illegible"/>ხეილმა. რომ. დედ<lb/>
+               მამას. ამდენი. სარჩო. და<lb/>
+               ხაზინა.  სულ. ჩემს. სწავლ<lb/>
+               ებაზედ. გარდაუგიათო.<lb/>
+               რომ. საჭმელი. პური. აღარ<lb/>
+               აქთ. მაშ. ჩემი. ცოდნა<lb/>
+               სულ. ტყუილიაო. თუ<lb/>
+               მს<damage><gap quantity="1" unit="chars" reason="illegible"/></damage> დაცემულს. ოჯახს.<lb/>
+               ავაშენებო. უნდა. მოვი<lb/>
+               ონო რამეო. რომ. ჩემს<lb/>
+               ოჯახის. საყვედურს. მე<lb/>
+             <pb f="4r" n="7"/>
+               მოვითმენო. და. ამ <gap quantity="4" unit="chars" reason="illegible"/><lb/>
+               გათ. შეწუხებული. დაი<lb/>
+               არებოდა. და. უთხრეს <lb/>
+               დედმამამ. ყმაწვილს. <lb/>
+               ნუ. სწუხდებიო. შვი<lb/>
+               ლო. რაც. გნებევდეს.  <lb/>
+               ის. მოიქმედეო. თუ გ<lb/>
+               ნებავს. ჩვენცა. გაგვყ<lb/>
+               იდეო.               
+            </p>
+            <p hand="#h1">
+               ყმაწვილ<lb/>
+               მა. თავის. დედმამისა <lb/>
+               მე. ერთი. საქმე <damage><gap quantity="5" unit="chars" reason="illegible"/></damage><lb/> 
+             <pb f="4v" n="8"/>
+               <gap quantity="2" unit="chars" reason="illegible"/>ო. მე. ამ. ქვეყანას. ვე<lb/>
+               ღარ. დავდგებიო. მერმე. დედმამამ. მიუგო. რაიცა.<lb/>
+               გნებავს. იმოქმედეო.
+            </p>
+            <p hand="#h1"> 
+               და. წარვიდა. სა<lb/>
+               ხლ-კარი. გაყიდა. დედ<lb/>
+               მამაც. წაიყვანა. და. ი<lb/>
+               მ. ქვეყნიდამ. წაიყვან<lb/>
+               ნა. და. იმ. წარვიდა. თი<lb/>
+               თონაც. შეიკმაზა. და. დ<lb/>
+               ედმამაც. შეიკმაზა. და.<lb/>
+               მივიდა. ერთს. ქალაქ<lb/>
+             <pb f="5r" n="9"/>
+               ში. და. მიუგო. დედმ<lb/>
+               ამას. შვილმა. ერთი: სი<lb/>
+               ტყვა. მაქვსო. და. ვე<lb/>
+               რ. მამიხსენებიაო. და <lb/>
+               უთხრა. დედმამამ. ბძანე<lb/>
+               ო. უთხრა. შვილმა. ა<lb/>
+               მ. ქალაქის. ხემწიფეს. ც<lb/>
+               ოტას. ხანს. მინდა. მ<lb/>
+               იგყიდოთო. ეს. ხმა ე<lb/>
+               სმათ. შვილისაგან. ამო<lb/>
+               უჯდათ. გული. დიაღ<lb/>
+               მრავალი. იტირეს. და<lb/>
+             <pb f="5v" n="10"/> 
+               ამწუხარეს. მაგრამ. უა<lb/>
+               რს. ვერ. ეტყოდნენ. ეს.<lb/>
+               უპასუხა. ნება. გაქვს. შ<lb/>
+               ვილო. მივიდა. იმ. ქალა<lb/>
+               ქში. კარზედა. სარიას. ქვ<lb/>
+               ეშ. გაიარა. კარის. კაცე<lb/>
+               ბს. უთხრა. ტყვეები. არ<lb/>
+               ის. გასაყიდელიო. და. არ<lb/>
+               უნდა. ხემწიფესაო. რ<lb/>
+               ომ. იყიდოსი. გაიგონე<lb/>
+               ს. ხელმწიფემა. და. დაუძ<lb/>
+               ახა. მამგვარე. ტყვეებიო<lb/>
+             <pb f="6r" n="11"/> 
+               რას. ითხოვ. 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">მოახსენა.</hi> ვაჟმა. ერ<lb/>
+               თი. კარგი. შეკმაზული. ც<lb/>
+               ხენი. და. ერთი. კარგი. <lb/>
+               სახემწიფო. იარაღი. მ<lb/>
+               იბოძეო. და. ერთ. სახე<lb/>
+               მწიფო. ტანისამოსი. <lb/>
+               მოიღეო. ხელმწიფემ. მ<lb/>
+               ისცა. ვაჟს. პირობა.<lb/>
+               გამოართვა. ვაჟმა. ტყ<lb/>
+               ვები. არ. გამიყიდო. და<lb/>
+               მათ. ფულს. ერთი. ორ<lb/>
+             <pb f="6v" n="12"/>               
+               ათ. მოგართმევო. და. ხემ<lb/>
+               წიფემ. გუნებაში. გაიკვ<lb/>
+               ირვა. რომ. შეწუხებით. გ<lb/>
+               ვაჭრებოდა. მაგრამ. ვე<lb/>
+               რას. მიუხვდა. 
+            </p>
+            <p hand="#h1"> 
+               გამოვიდა. დ<lb/>
+               ა. დედმამა. დატყვევა. დ<lb/>
+               ა. ჩუმათ. ტიროდნენ. მ<lb/>
+               აგრამ. ვერაცხადებდნენ. <lb/>
+               და. ვაჟიც. სწუხდა. დედმ<lb/>
+               ამისთვინა. 
+            </p>
+            <p hand="#h1">
+               დღეს მი<lb/>
+               <pb f="7r" n="13"/>
+               ვიდა. ვაჟი. ხემწიფეს<lb/>
+               თანა. და. მოახსენა. ვ<lb/>
+               ედდრებითა. ის. ტყვეები. <lb/>
+               მაჩვენეთო: მინდა. თა<lb/>
+               ვი. დავალოცვინო. ხ<lb/>
+               ემწიფემ. მაშინ. მიხვდა. რომ. იმისი. დედმამა. არი<lb/>
+               სო. აჩვენეთო. დედმამ<lb/>
+               ა. და. როდეს. ვაჟმა ნ<lb/>
+               ახა. შვილმა. თავისი. დ<lb/>
+               ედმამა. მოეხვია და<lb/>
+               ტიროდნენ. 
+            </p>
+            <pb f="7v" n="14"/>              
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">უთხრა. ვ</hi>აჟმა. ნუ. დამწ<lb/>
+               ყევლიო. ლოცვა. თქვენი. <lb/>
+               გამატანეთო. ღთვის. მა<lb/>
+               დლი. მალე. დაგიხსნითო. <lb/>
+               დალოცეს. დედმამამ. და.<lb/>
+               მწუხარებით. გამოესალ<lb/>
+               მნენ. შვილი. დედმამას.<lb/>
+               ტიროდნენ. ახსენა. სახ<lb/>
+               ელი. ღვთისა. და. შ<lb/>
+               ეჯდა. ცხენსა. 
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)"><damage><gap quantity="5" unit="chars" reason="illegible"/></damage> და. დ</hi>ა დი<lb/>
+               <damage><gap quantity="3" unit="chars" reason="illegible"/></damage>. გზა. გაიარა. ერთს<lb/>
+               <pb f="8r" n="15"/>
+               დიდს. მინდორში. რომ<lb/>
+               მივიდა. ერთი. ვაჟი. შე<lb/>
+               მოეყარა. მისცეს. სალა<lb/>
+               მი. ერთმანეთს. დაი<lb/>
+               წყეს. თავანთი. თავის <lb/>
+               გადასავალი. უთხრეს. ერ<lb/>
+               თმანეთს. 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">ამ კაცმა უთხრა</hi> ჩემის ხ<lb/>
+               ემწიფესა. კარგი. ყმა. გპო<lb/>
+               ო. ამამავალს. ხემწიფესთა<lb/>
+               ნ. მივალ. მიმაქვს. გატან<lb/>
+               <pb f="8v" n="16"/>   
+               ებული. წიგნები. უნდა. მი<lb/>
+               უტანეს. ხემწიფესა. და. დი<lb/>
+               ად. დიდს. წყალობას. მიზ<lb/>
+               ამსო. 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">აწ შენ. გ</hi>ხედამ. რომ. მაგნ<lb/>
+               აირს. საქმეში. გამოცდილებ<lb/>
+               ა. გაქვსო. და. აჱა. შენ წაი<lb/>
+               ღე. ეს. წიგნები. და. რაც.<lb/>
+               რომ. წყალობა. ჩემთვი<lb/>
+               ს. უნდა. იმას. შენ მ<lb/>
+               ოგცემსო: : 
+            </p>
+               <pb f="9r" n="17"/>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">გამოართვა.</hi> ეს. წიგნებ<lb/>
+               ი. ამ. ვაჟმა. მადლი. გ<lb/>
+               ადაუხადა. გაიყარნენ. <lb/>
+               და. წავიდა. ვაჟსა. მო<lb/>
+               აგონდა. გზაზე. თავისი.<lb/>
+               დედმამა. და. დიაღ. მრა<lb/>
+               ვალი. იტირა. და იმ წ<damage><gap quantity="3" unit="chars" reason="illegible"/></damage> <lb/>
+               ხარა. იმ ტირილსა და<lb/>
+               მწუხარებაში. <damage><gap quantity="10" unit="chars" reason="illegible"/></damage> <lb/>
+               ძილი. მოუვიდა. ცხენმა<lb/>
+               გზა. დაკარგა. <lb/>
+               <pb f="9v" n="18"/> 
+               <hi rend="color(FF0000)">ვაჟს. რომ.</hi> გამოეღვიძა. <lb/>
+               დიაღ. მწყურვალე. იყო <lb/>
+               თითონაც. ა. ცხენი<lb/>
+               ცა.მაგრამ. წყალი. არსა<lb/>
+               დ იყო. ბევრი. უძება. და <lb/>
+               ერთი.  ჭა. იპოვნა. მაგრა<lb/>
+               მ. ამოსაღები. არა. ჱქო<lb/>
+               ნდარა. მოიგონა. იმ კა<lb/>
+               ცის. მოცემული. წიგნე<lb/>
+               ბი. ამოიღო. მუშანბით<lb/>
+               შეკრულიიყო. გახსნა<lb/>
+               <pb f="10r" n="19"/> 
+               ამოიღო. წყალი. დალ<lb/>
+               ია. და. ცხენსაც. ასეა. <lb/>
+               ცოტასხანს. მოისვენ<lb/>
+               ნა. და. დაფიქრდა. და. თ<lb/>
+               ქვა. გულში. წავიკით<lb/>
+               ხო. ეს. წიგნები. არამც<lb/>
+               თუ. ფათერაკი. არა: წა<lb/>
+               მეკიდოს. შევიტყო<lb/>
+               რა. სწერიაო. 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">გახსნა წიგნი და</hi><lb/>
+               წაიკითხა. და. ეწერა <damage><gap quantity="7" unit="chars" reason="illegible"/></damage><lb/>
+               <damage><gap quantity="10" unit="chars" reason="illegible"/></damage> ამამაგ<damage><gap quantity="10" unit="chars" reason="illegible"/></damage><lb/> 
+               <pb f="10v" n="20"/> 
+               ეს მრავალს. მოკითხვ<lb/>
+               ას. მოგახსენებ. ძმაო.<lb/>
+               მოგეხსენაბა. ჩემი. ანბ<lb/>
+               ავი. ამისთანა. საქმე.  გ<lb/>
+               ასამხელი. არარიო. აქ.<lb/>
+               რომ. ეს. კაცი. მამეკლა.<lb/>
+               უფრო. შევრცხვებოდ<lb/>
+               ი. ამ. წიგნის. მამტან<lb/>
+               ი. კაცი. არის. ამ. ჩემს <lb/>
+               ქალთან. დაწოლილა. მი<lb/>
+               ნოდა. აქ. მამეკლაო. <lb/>
+               მაგრამ. ჩემს. ქალაქში.<lb/>
+               <pb f="11r" n="21"/> 
+               ხმა. დავარდებოდაო<lb/>
+               უფრო. შევრცხვებოდ<lb/>
+               იო. და. ახლა. შენთან <lb/>
+               გამამიგზავნიაო. თუ<lb/>
+               ჩემი. ძმობა. და. სი<lb/>
+               ყვარული. გაქვსო. <lb/>
+               ეს. კაცი. მოკალიო. <lb/>
+               რომ. ამდონი. სირც<lb/>
+               ვილი. არავინ, არ. შეი<lb/>
+               ტყოსო. 
+            </p>
+            <p hand="#h1"> 
+               <hi rend="color(FF0000)">როდეს ვაჟმა შეიტყ<lb/>
+                  ო.</hi> ამწიგნების. საქმე.<lb/>
+               <pb f="11v" n="22"/>
+               <supplied reason="omitted">ღ</supplied>მერთს. მადლობა. შესწ<lb/>
+               ირა. და. დედმამა. დალო<lb/>
+               ცა. რომ. მე. ეს. წიგნი. <lb/>
+               მასწავლეს. წიგნები. ა<lb/>
+               რ. დაეხია. და. წეღო. ამ<lb/>
+               კაცის. მაგიერათ. ეს. ვა<lb/>
+               ჟი. გაუკითხავათ. მიკ<lb/>
+               ვდებოდათ. მასუკან. შე<lb/>
+               რდა. ცხენზედა. გზაც. ი<lb/>
+               პოვნი.  დაწავიდა. იარა<lb/>
+               ერთ. ქალაქში. მივიდა.<lb/>
+               ნახა. რომ. დიაღ. ტურ<lb/>
+               <pb f="12r" n="23"/>
+               ფა. <hi rend="color(FF0000)">ქალაქი. იყო. გან<lb/>
+                  ძლ</hi>იერებული. ხემწიფ<lb/>
+               ე. ჱპატრონობდა. დ<lb/>
+               ა. ჩამოხტა. იმ. ქალაქ<lb/>
+               ში. ერთის. ღარიბსა.<lb/>
+            </p> 
+            <p hand="#h1">
+               <hi rend="color(FF0000)">ჱკითხა. ვაჟმა. იმ. ქალ<lb/>
+                  აქის. ანბავი.</hi> სამართალი <lb/>
+               აღება. და. მიცემა. 
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">მიუგო. დედაბერმა.</hi> შ<lb/>
+               ვილო. ამ. ქალაქის. ა<damage><gap quantity="1" unit="chars" reason="illegible"/></damage> <lb/>
+               ავი ყოველივე. კარგათ <lb/>
+               შესატყობი. არისო. მ<lb/>
+               <pb f="12v" n="24"/>
+               აგრამ. უწინ. ამას. გეუ<lb/>
+               ბნებით. ამ. ქალაქის. ხე<lb/>
+               მწიფეს. ჱყავს. ერთი. დ<lb/>
+               იახ. ტურფა  ლამაზი. და.<lb/>
+               მეცნიერი. და. ფილოსოფ<lb/>
+               ოსი. ცამეტის. წლისა. <lb/>
+               არის. ოთხმოცდა. ცხრ<lb/>
+               ამეტის. ხემწიფის. <add hand="#h1" place="above">შვ</add>ილი. დ<lb/>
+               უხოცია. 
+            </p>
+            <p hand="#h1"> 
+               ჱკითხა ვაჟმა. რა. საქმე<lb/>
+               ზედ. დაუხოციაო.
+            </p>
+            <p hand="#h1"> 
+               უპასუხა. დედაბერმა. შ <lb/>
+               <pb f="13r" n="25"/>
+               ვილო ისქალი. ანბობს. ვ<lb/>
+               ინც. მე. ჭკუით. და სი<lb/>
+               ბრძნით. და. ცოდნითა. მამ<lb/>
+               ერევაო. მე. იმას. ქმრათ. <lb/>
+               შევირთამო. და. თუ. მე. მ<lb/>
+               ოვერიო. იმას. თავს. მოვ<lb/>
+               ჭრიო. და. ჩემს. ჩარდახს. <lb/><lb/>
+               გალავნათ. შემოვავლებ<lb/>
+               ო. ამ. მიზეზით. ხოცს. <lb/>
+               ვერავინ. მოერია. ცოდნით<lb/>
+               ა. 
+            </p>
+            <p hand="#h1">
+               და ვაჟმა. რომ. ეს . სი<lb/>
+               <pb f="13v" n="26"/>
+               ყვები. გაიგონა. დიახ. <lb/>
+               ეამა. და. სიხარულითა. ი<lb/>
+               მღამეს. ძილი. აღარ. მო<lb/>
+               უვიდა. და. დილაზე. ად<lb/>
+               რგ. ადგა. და. ახსენა. 
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">სახელი.</hi>  ღვთისა. და ჩაი<lb/>
+               ცვა. სახელმწიფო. ტანისა<lb/>
+               მოსი. და. წავიდა. ხემწიფ<lb/>
+               ის. კარზედ. კარის. კაცმა. <lb/>
+               უთხრა. შენ. კაცი. უფთ<lb/>
+               ხილდი. რომ. შენც. მოგ<lb/>
+               <pb f="14r" n="27"/>
+               კლასო. და  ვაჟი. შევ<lb/>
+               იდა. ქალის. სასახლეშია<lb/>
+               და. შეატყობინეს. ქალ<lb/>
+               სა რომ. ერთი. ვაჟი. მოსუ<lb/>
+               ლა. სალაპარაკოთა. შენთ<lb/>
+               ანაო. 
+            </p>
+            <p hand="#h1">
+               ქალმა. კაცი. გაგზავნა. ვა<lb/>
+               ჟს. დაუძახა. და. უთხრა. უ<lb/>
+               ნდა. ის. სასმელი. გასვა<lb/>
+               რომელიც. მისმევია. ოთხმო<lb/>
+               ცდა. ცხრამეტისთვინაო. <lb/>
+               და. ვაჟმა. უთხრა. ნება. ღ<lb/>
+               <pb f="14v" n="28"/>
+               ვთისა. ათედისო. 
+            </p>
+            <p hand="#h1">
+               დაუძახა. ქალმა. თავის. დედ<lb/>
+               მამასა. და. ნაზირსა. და. ჲეზ<lb/>
+               ირსა. სხვასა. დიდრონს. <lb/>
+               თავადებსა. და. იმათის. მო<lb/>
+               წმობითა. ეს. პირობა. და<lb/>
+               დვეს. რომ. თუ. ქალი. მო<lb/>
+               ერიოს. ვაჟს. თავი. უნდა. მ<lb/>
+               ოსჭრას. და. თუ. ვაჟი. მოე<lb/>
+               რიოს. ქალსა. ცოლათ. უნ<lb/>
+               და. შეირთოს. ის სიტყვებ<lb/>
+               ი. ორთავ. იყაბულეს. და დ<lb/>
+               <pb f="15r" n="29"/>
+               აუდგეს. ოქროს. სკამი. და<lb/>
+               სვეს. იგი. ვაჟი.
+            </p>
+            <p hand="#h1">
+               ჱკითხა ქალმა. ვაჟსა. ვინა<lb/>
+               რის. მამა. შენიო. 
+            </p>
+            <p hand="#h1">
+               და. მიუგო. ვაჟმა. მიწა. და. <lb/>
+               წყალიო. ჱავა. და. ცეცხლ<lb/>
+               იო. 
+            </p>
+            <p hand="#h1">
+               ჱკითხა. ქალმა. ვინ. არის               <lb/>
+               ბებია. შენიო. და. ვაჟმა. <lb/>
+               უგო. ის. არის. ბებია. ჩემ<lb/>
+               ი. რომ. ის. მე. მხედამს. <lb/>
+               <pb f="15v" n="30"/>
+               და მე იმას. ვერ. ვხედამ. ის <lb/>
+               ჩემს <damage><gap quantity="4" unit="chars" reason="illegible"/></damage> ისმენს. და. მე. ი<lb/>
+               მის. ხმას. ვერ ვისმენ. 
+            </p>
+            <p hand="#h1">
+               ქალმა. თქვა. ეს. ყმარწვილუ<lb/>
+               ლი. სიტყვები. არისო. გაუ<lb/>
+               შვათო.
+            </p>
+            <p hand="#h1">
+               ქალმა ჱკითხა. რომელნი.<lb/>
+               არიან. სამნი. საქმენი. <lb/>
+               <damage><gap quantity="2" unit="chars" reason="illegible"/></damage>ეეს და. ჭამეს. და. მოკვ<lb/>
+               დნენ. რომ. არ. შვებილი<lb/>
+               ყვნენ. დედისგან. 
+            </p> 
+            <pb f="16r" n="31"/>
+            <p hand="#h1">
+               ვაჟმა მიუგო<damage><gap quantity="7" unit="chars" reason="illegible"/></damage><lb/>
+               მ. და. ევა. იყო. <damage><gap quantity="6" unit="chars" reason="illegible"/></damage> <lb/>
+               აბრაჱამისა. რომ <damage><gap quantity="5" unit="chars" reason="illegible"/></damage><lb/>
+               დამ. ღმერთმა. ვერძი <add hand="#h1" place="above">რა</add>ის <add hand="#h1" place="above">ზ</add>ა <lb/>
+               ვისათვინა. ჩამოუშვა. <lb/>
+               ვაჟმა. მიუგო. ენოქ. და<lb/>
+               ელია. არიან. ამტენს. მ <lb/>
+               სვლამდინ. არ. მოკვდებ<lb/>
+               იან. 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის. რა ფ<lb/>
+               რინველი. არის. ქერს. და<lb/>
+               <pb f="16v" n="32"/>
+               <damage><gap quantity="7" unit="chars" reason="illegible"/></damage>სჭამს. 
+            </p>
+            <p hand="#h1">
+               <damage><gap quantity="6" unit="chars" reason="illegible"/></damage> უგო. ეგ. კალია. ა<lb/>
+               <gap quantity="5" unit="chars" reason="illegible"/> 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის. რა. ი<lb/>
+               ყო. რომ. სანამდის. იცოცხ<lb/>
+               ლა. ქერი. და. ბზე. ჭამა. რ<lb/>
+               ოცა. მოკვდა. ადამიანის <lb/>
+               სისხლი. სვა. და. ხორც<lb/>
+               ი ჭამა. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. ეგ. ის. არ<lb/>
+               ის. რომ. სამსონ. ჭაბუკმან <lb/>
+               <pb f="17r" n="33"/>
+               ვირის. ყბა. აიღო. და. <lb/>
+               იმითი. ათი. ათასი. კაც<lb/>
+               ი. მოკლა 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის. რა. ხ<lb/>
+               ე. იყო. რომ. შტო. და. <lb/>
+               ფურცელი. ჱქონდა. და. <lb/>
+               მასუკან. სისხლი. და. ხო<lb/>
+               რცი. შეისხა.
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. ეგ. აბელ<lb/>
+               ის. გვამი. იყო. როცა. <lb/>
+               საფლავთან. მიტანეს. <lb/>
+               მიწამ. თქვა. მე. ქალწულ<lb/>
+               <pb f="17v" n="34"/>
+               ვარო
+            </p>
+            <p hand="#h1">
+               ალმ <damage><gap quantity="5" unit="chars" reason="illegible"/></damage> თხა. ის. რომელი<lb/>
+               იყო. <damage><gap quantity="5" unit="chars" reason="illegible"/></damage> ომეტი. წელიწად<lb/>
+               ი ხემწიფობა. ჰქონდა. და. მე<lb/>
+               თექვსმეტე. წელიწადში. ა<lb/>
+               ვათ. ოცდა. ათის. წლისა. <lb/>
+               რომ შეიქნა. მოკვდა. და. <lb/>
+               შემდგომად. ისევ. გაცოც<lb/>
+               ხლდა. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. ეგ. მთვარ<lb/>
+               ე. არისო. 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის. ვინ. ი<lb/>
+               <pb f="18r" n="35"/>
+               ყო. რომ. იძროდა. და<lb/>
+               დაიარებოდა. ქა<damage><gap quantity="2" unit="chars" reason="illegible"/></damage>
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. ეგონა<lb/>
+               ნ. წინასწარ. მეტყველი. <lb/>
+               იყო. რომ. თევზმა. ჩაყლაპ<lb/>
+               ა. დაიარებოდა. ზღვაშია. 
+            </p>
+            <p hand="#h1">
+               ქალმა ჱკითხა. ის. ვინ. იყო. <lb/>
+               რომ. საჭმელი. არა. ჭამა. <lb/>
+               და. მიმტანი. შეჭამა. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა მიუგო. ეგ დანიე<lb/>
+               ლ. წინასწარ. მეტყველი <lb/>
+               <pb f="18v" n="36"/>
+               იყო. რომ. არწივს. მი<lb/>
+               უტანეს. დანიელ. გაუშვ<lb/>
+               ა. არწივმა. და.  მიმტანი. შ<lb/>
+               ეჭამა. 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის. ვინ. იყ<lb/>
+               ო. რომ. მოკვდა. არც. ტ<lb/>
+               ანი. მისი. საფლავში. ჩა<lb/>
+               ვიდა. და. არც. სული. მი<lb/>
+               სი. ღმერთთან. წავიდა. <lb/>
+               ქალმა. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა მიუგო ეგ: ლოთ<lb/>
+               <pb f="19r" n="37"/>
+               მამა. მთავრის. ცოლი. ი<lb/>
+               ყო. რომ. ქვათ. გარდაიქც<lb/>
+               ა. არც. ტანი. მისი. საფ<lb/>
+               ლავში. ჩავიდა. და. არც. ს<lb/>
+               ული. მისი. ღმერთთან. წავი<lb/>
+               და. 
+            </p>
+            <p hand="#h1">  <lb/>
+               ქალმა. ჱკითხა. ის. რომე<lb/>
+               ლი. ხე. არის. რომ. აქვს. შტო. <lb/>
+               თორმეტი. ყოველს შტოებ<lb/>
+               ი. ასხია. ორმოცდა. ათი. ფ<lb/>
+               ურცელი. და. ხილი. მისი. <lb/>
+               შავი. და. თეთრი. <lb/>
+               <pb f="19v" n="38"/>
+               ვაჟმა. მიუგო. ხე. წელიწად<lb/>
+               ი. არის. და. შტო. თვე. არი<lb/>
+               ს. და. ფურცელი. მისი. კვი<lb/>
+               რა. არის. და. ხილი. შავი. <lb/>
+               და. თეთრი. დღე. და. ღ<lb/>
+               ამე. არის. 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის. ვინ. ი<lb/>
+               ყო. რომ ჩაჱქოლამდნენ. <lb/>
+               არც. ადამიანი. იყო. და. არ<lb/>
+               ც. ანგელოზი. და. არც. ეშმა<lb/>
+               კი. დაელაპარაკებოდა. კა<lb/>
+               ცებს. <lb/>
+               <add hand="#h2" place="margin-bottom">მიკია მიწა</add>
+            </p> 
+            <pb f="20r" n="39"/>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. ეგ. გრემ<lb/>
+               ია. წინასწარ. მეტყველ<lb/>
+               ის. კლდე. იყო. როცა. ჩაჱ<lb/>
+               ქოლავდნენ. იმ. კლდეს. <lb/>
+               ის. კლდე. ელაპარაკებო<lb/>
+               და. კაცებსა. და. უთხრა. <lb/>
+               მე ვარ. გრემია. წინასწა<lb/>
+               რ. მეტყველიო. 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის. რომელი. <lb/>
+               ელჩი. გაგზავნა. ღმერთმან. რომ. <lb/>
+               არც. ანგელოზი. ი<lb/>
+               ყო. არც. ადამიანი. არც<lb/>
+               <pb f="20v" n="40"/>
+               ეშმაკი. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. ეგ. ყვავი.<lb/>
+               იყო. რომ. მოვიდა. ადა<lb/>
+               მთან. როცა. კაენმან. აბელ.<lb/>
+               მოკლა. ადამმა. არ. იცოდა. <lb/>
+               თუ. რაქნეს. მოვიდნენ. ო<lb/>
+               რნი. ყვავნი. ერთმან. მეორ<lb/>
+               ე. მოკლა. გათხარა. მიწა. <lb/>
+               და. დამარხა. აბელ. 
+            </p>
+            <p hand="#h1">  <lb/>
+               ქალმა. უთხრა. ადექ. და. <lb/>
+               წადიო. დღეს. ხომ. მამირ<lb/>
+               ჩი. ჩემის. ხელიდგანაო. <lb/>
+               <pb f="21r" n="41"/>
+               და. ხვალ. გაგისტუმრებ. <lb/>
+               საიქიოსო. ამ. რიგათ. აში<lb/>
+               ნებდა. ვაჟს. 
+            </p>
+            <p hand="#h1">
+               მიუგო. ვაჟმა. რამაც. ღმე<lb/>
+               რთმა. დღეს. მამარჩინაო. <lb/>
+               ხვალაც. შეუძლიანო. რომ. <lb/>
+               მამარჩინოსო. ადგა. და. წავ<lb/>
+               იდა. სიხარულითა. როცა.<lb/>
+               ნახეს. კარის. კაცებმა. ყვე<lb/>
+               ლანი. გაჱკვირდნენ. მის. <lb/>
+               <pb f="21v" n="42"/>
+               მორჩენასა. ამიტომ. უკვირ<lb/>
+               დათ. რომ. რაც. კაცი. ქა<lb/>
+               ლთან. სალაპარაკოთა. შე<lb/>
+               სულიყვნენ. იმის. მეტი. არ<lb/>
+               ავინ. გამოსულიყო. ცოც<lb/>
+               ხალი. და. წავიდა. ვაჟი. თ<lb/>
+               ავის. სადგომში. ნახა. რომ. <lb/>
+               დედაბერი. მწუხარედ. სტ<lb/>
+               იროდა. როდეს. დაინახა. დ<lb/>
+               ედაბერმა. ვაჟი. გაეხარდა <lb/>
+               <pb f="22r" n="43"/>
+               დიდათ. და. უთხრა. შვი<lb/>
+               ლო. მშვიდობით. მამიხ<lb/>
+               ველო. ახლა. დაიბადე. დ<lb/>
+               ედისგანაო. მე აღარ მე<lb/>
+               გონა. თუ. იქიდამ. ცო<lb/>
+               ცხალი. მოხვიდოდიო. მ<lb/>
+               ე. შენი. ნაღველით. ვკვ<lb/>
+               დებოდიო. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. დედაბე<lb/>
+               რსა. ღმერთმა. მამარჩინა<lb/>
+               ო. მისგან. იმ. ღამეს. მ<lb/>
+               <pb f="22v" n="44"/>
+               ოისვენა. ვაჟმა. და. რ<lb/>
+               ოდეს. გათენდა. დილა. მე<lb/>
+               ორე. ადგა. ვაჟი. და ჩაიც<lb/>
+               ვა. ტანისამოსი. და. ახ<lb/>
+               სენა. სახელი. მღვთისა. დ<lb/>
+               ა. წავიდა. ხემწიფის. კარ<lb/>
+               ზედ. შევიდა. ვაჟი. ქალ<lb/>
+               ის. სადგომში. სალამი. <lb/>
+               მისცა. და. მოახსენა. <lb/>
+               დილა. მშვიდობისა. <lb/>
+               <pb f="23r" n="45"/>
+               გაგითენდესო. და. დაუდგ<lb/>
+               ეს. ოქროს. სკამი. და. დას<lb/>
+               ვეს. იგი. ვაჟი. 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის. რომელ<lb/>
+               ნი. არიან. რომ. ერთმან. <lb/>
+               მეორე. მომკლა. მკვდარი. ჯ<lb/>
+               ოჯოხეთში. წავიდა. და. მ<lb/>
+               კვლელი. სამოთხეში არი<lb/>
+               ს. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. ღმერთ<lb/>
+               მან. მოკლა. კაენი. კაენი <lb/>
+               <pb f="23v" n="46"/>
+               ჯოჯოხეთში. არის. და ღმე<lb/>
+               რთი. სამოთხეში. ბძანდება 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ისინი. ვინ <lb/>
+               იყვნენ. იშობნენ. თეთრნი. ი<lb/>
+               ყვნენ. და. მერე. გაშავდ<lb/>
+               ნენ. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა მიუგო მამამთავარი<lb/>
+               ს შვილები. იყვნენ. რო<lb/>
+               ცა. წყევლა. მოიღეს. მაშინ. გაშავდნენ.
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ისინი. <lb/>
+               ვინ. იყვნენ. სვეს. და. ჭა<lb/>
+               <pb f="24r" n="47"/>
+               მეს. მოკვდნენ. და. არ<lb/>
+               შობილიყვნენ. დედისა <lb/>
+               ნ. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. ადამ. დ<lb/>
+               ა. ევა. იყვნენ. 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ისინი. ვ<lb/>
+               ინ. იყვნენ. რომ. დედა<lb/>
+               ლი. მამალისგან. იშობა. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. ადამ. ი<lb/>
+               ყო. რომ. ევა. შობა. 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის. რა<lb/>
+               იყო. რაც. ქვეყანა. დ<lb/>
+               <pb f="24v" n="48"/>
+               არსებული. იყო. იმ. ალაგ<lb/>
+               ს. მზე. არ მისდგომია. დ<lb/>
+               ა. ერთხელ. მიადგა. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა მიუგო. ეგ. წითელი. <lb/>
+               ზღვა. იყო. რომ. მოს<lb/>
+               ეს. წინასწარ. მეტყველმა<lb/>
+               ნ. განაპო. მაშინ. მიად<lb/>
+               გა. მზე . იმ. მზღვასა
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის. რომე<lb/>
+               ლი. არის. რამდენიც. ი<lb/>
+               ცოცხლონ. გადიდები<lb/>
+               ანო. 
+            </p>
+            <pb f="25r" n="49"/>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. ეგ. ზღვ<lb/>
+               აში. თევზი. არის. ხმელ<lb/>
+               ეთზე. გველი. 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ისინი. <lb/>
+               რომელნი. არიან. ქო<lb/>
+               რნი. საყვარელნი. რო<lb/>
+               მ ერთმანეთი. სძულან. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. ისი<lb/>
+               ნი. სული. და ხო<lb/>
+               რცი. არის. 
+            </p>
+            <pb f="25v" n="50"/>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის. <lb/>
+               რა. არის. რომ. არც. <lb/>
+               სვემდა. არც. სჭ<lb/>
+               ამდა. თავის. სიცოც<lb/>
+               ხლეში. და. როცა. <lb/>
+               მოკვდა. მაშინ. სვა. <lb/>
+               წყალი. 
+            </p>
+            <p hand="#h1">  <lb/>
+               ვაჟმა. მიუგო. ეგ. <lb/>
+               წინასწარ. მეტყვე<lb/>
+               ლის. ჯოხი. იყო. <lb/>
+               სანამდინ. ჯოხათ <lb/>
+               <pb f="26r" n="51"/>
+               იყო. საჭმელი. რათ. <lb/>
+               უნდოდა. და. როცა. <lb/>
+               გველათ. გარდაიქცა. <lb/>
+               მაშინ. სჭამა. მიწა. დ<lb/>
+               ა. სვა. წყალი. 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ერთი. <lb/>
+               სახლი. არის. შიგნიდ<lb/>
+               ან. ოქრო. და. გარე<lb/>
+               დგან. ვერცხლი. როც<lb/>
+               ა. დაიქცევა. ქვეყანა. <lb/>
+               რომ. იმაზედ. მოიყ<lb/>
+               აროსო. იმას. ვეღა<supplied reason="omitted">რა</supplied><lb/>
+               <pb f="26v" n="52"/>
+               ვინ. აშენებს. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა მიუგო. ეგ. კ<lb/>
+               ვერცხი. არის. ოდ<lb/>
+               ეს. გატყდება. აღარ. <lb/>
+               გამთელდება. 
+            </p>
+            <p hand="#h1">
+               ქალმა. უთხრა. ადექ. <lb/>
+               დღესაც. მამირჩი. ჩ<lb/>
+               ემის. ხელიდგანა. და. <lb/>
+               ხვალ. გაგისტუმრე<lb/>
+               ბ. დაგალევინებ. იმ. <lb/>
+               სასმელსა. რომელ<lb/>
+               იც. მისმევია. შენის<lb/>
+               <pb f="27r" n="53"/>
+               ამხანაგებისთვინა. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო.  ღმ<lb/>
+               ერთი. მოწყალე. არ<lb/>
+               ისო. ადგა. და. წავ<lb/>
+               იდა. რომ. გათენდა. <lb/>
+               მესამე დილაზე. წავი<lb/>
+               და. ხემწიფის. კარზედ.<lb/>
+               შევიდა. ქალთანა. და. <lb/>
+               მისცა. სალამი. და. დ<lb/>
+               აუდგეს. სკამი. დასვ<lb/>
+               ეს. იგი. ვაჟი. 
+            </p>
+            <pb f="27v" n="54"/>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის.<lb/>
+               რომელი. არის. რომ.<lb/>
+               იჩხუბებს. სმენითა. დ<lb/>
+               ა სცემდნენ: ტანით. <lb/>
+               არცა. აქვს. ხელი. და. ა<lb/>
+               რც. აქვს.თევზი: 
+            </p>
+            <p hand="#h1">
+               ვაჟმა.  მიუგო. ის. თ<lb/>
+               ევზი. არისო. 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის. ვ<lb/>
+               ინ. იყო. ასწავლი და <lb/>
+               კაცებსა. არც. ანგელ<lb/>
+               ოზი. და. არც. ეშმ <lb/>
+               <pb f="28r" n="55"/> 
+               აკი.
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">ვაჟმა. მიუგო.</hi> ის. ბ<lb/>
+               ალამს. წინასწარ. მე<lb/>
+               ტყველის. ვირი. იყო<lb/>
+               რომ. უთხრა. ბალამსა. <lb/>
+               გამობრუნდიო. ნუ. წ<lb/>
+               ახვალო. დასწყველ<lb/>
+               იდა. ისრაელსაო
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">ქალმა. ჱკითხა.</hi> ორი. მ<lb/>
+               ოანბე. გაგზავნა. არ<lb/>
+               ც. კაცი. იყო. არც. ან<lb/>
+               გე<hi rend="color(FF0000)">ლოზი.</hi> და. არც ეშ<lb/>
+               <pb f="28v" n="56"/>
+               მაკი. 
+            </p>
+            <p hand="#h1">
+               <hi rend="color(FF0000)">ვაჟმა. მიუგო.</hi> ეგენ<lb/>
+               ი. ყვავი. და. <hi rend="color(FF0000)">მტრედი.</hi><lb/>
+               იყვნენ. რომ. ნოემ. <lb/>
+               გაგზავნა. ანბის. მოს<lb/>
+               ატანათა. ქვეყანაზედ <lb/>
+               ხმელეთი. თუ. არისო. <lb/>
+               ყვავი. წავიდა. ამდ<lb/>
+               ამიანის. ლეშზედ. დ<lb/>
+               აჯდა. და. მტრედმ<lb/>
+               ა. ზეთის. ხილის. შ<lb/>
+               ტო მოტეხა. და. <lb/>
+               ნოეს. მოუტანა
+            </p>
+            <pb f="29r" n="57"/>   
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის<lb/>
+               ინი. ვინ. იყვნენ. რ<lb/>
+               ომ. მოკვდნენ. სამა<lb/>
+               ს. წელიწადს. უკანა. <lb/>
+               ისევ. ადგნენ. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. შვიდნი. <lb/>
+               ყმარწვილნი. რომ. გ<lb/>
+               აიქცნენ. ხემწიფის. <lb/>
+               ხელიდგან. და. გზაზე. <lb/>
+               დაეძინათ. სამასი. წელ<lb/>
+               იწადი. ეძინათ. და მ<lb/>
+               ასუკან. გაიღვიძეს. 
+            </p>
+            <pb f="29v" n="58"/>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის<lb/>
+               ინი. ვინ. იყვნენ. რო<lb/>
+               მ მისი რ. შევიდნენ. 
+            </p>
+            <p hand="#h1">
+               ქალმა. ჱკითხა. ის. რ<lb/>
+               ა. არის. რომ. სამი. სა<lb/>
+               ქმენი. ამ. ქვეყანაში. ი<lb/>
+               ხსენებიან. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. სამი. <lb/>
+               საქმენი. ისინი. არიან. <lb/>
+               პირველი. ზღვა. არის <lb/>
+               რომ. სარქველი. არ<lb/>
+               ა აქვს. მეორე. ცა. <lb/>
+               <pb f="30r" n="59"/> 
+               არის. რომ. ბოძი. ა<lb/>
+               რა. აქვს. მესამე. ქათა<lb/>
+               ი. არის. რომ. რძე. არა<lb/>
+               აქეს. მეოთხე. რომ კაც<lb/>
+               ის. ხელის. გულს. ბალა<lb/>
+               ნი. არა. აქვს. 
+            </p>
+            <p hand="#h1">
+               ქალმა. უთხრა. შენ. ე<lb/>
+               რთი მეტი. რათა. თქ<lb/>
+               ვიო. შეშინდა. ვაჟის<lb/>
+               აგან. და უთხრა. ად<lb/>
+               ექ. და. წადიო. დღეს <lb/>
+               <pb f="30v" n="60"/>
+               აც. კიდევ. მამირჩიო. <lb/>
+               ჩემის. ხელიდგანაო. <lb/>
+               და. ხვალ. გაგისტუმ<lb/>
+               რებ. ნამუსიანათაო.<lb/>
+               საიქიოსაო. ქალი. <lb/>
+               განგებ. აშინებდა. ვა<lb/>
+               ჟს. 
+            </p>
+            <p hand="#h1">
+               ვაჟმა. მიუგო. ჩემი. ს<lb/>
+               აქმე. ღმერთისთვინ. მი<lb/>
+               მიგდიაო. ის. არის. მო<lb/>
+               წყალე. და. ის. შემიწყ<lb/>
+               ალებსო. ადგა. და. <lb/>
+               <pb f="31r" n="61"/>
+               წავიდა. სიხარულითა.<lb/>
+               თავის. სადგომში. და. <lb/>
+               როდესაც. გათენდა. ა<lb/>
+               დგა. და წავიდა. დედოფ<lb/>
+               ლის. კარზედა. და. სალ<lb/>
+               ამი. მისცა. და. უთხრა. <lb/>
+               დილა მშვიდობისა. გ<lb/>
+               გითენდესო. და. მოარ<lb/>
+               თვეს. ოქროს. სკამი. და. <lb/>
+               დასვეს. იგი. ვაჟი. 
+            </p>
+            <p hand="#h1">  <lb/>
+               ვაჟმა. მიუგო. ბძანე. დ<lb/>
+               იდო. დედოფალო. <lb/>
+               <pb f="31v" n="62"/>
+               კიდევ. სხვას. რას. ბძანებ. 
+            </p>
+            <p hand="#h1">
+               უპასუხა. ქალმა. ახლ<lb/>
+               ა. ბძანება. შენი არის<lb/>
+               ო.
+            </p>
+            <p hand="#h1">
+               ჱკითხა. ვაჟმა. ის. ვინ.<lb/>
+               იყო. რომ. მდიდარ<lb/>
+               ი. იყყო და. გაღარ<lb/>
+               იბდა. თავისი. ღარიბობ<lb/>
+               ით ჩაიცვა. თავისი <lb/>
+               ღარიბობით. ჩაიცვა. <lb/>
+               თავის. მამაზედ. შეჯდ<lb/>
+               <pb f="32r" n="63"/>
+               ა. თავის. დედაზედ. და<lb/>
+               წავიდა. და. რათა. იშ<lb/>
+               ოვნოს. თავისი. სიმდიდ<lb/>
+               რე. სიკვდილი. მოეწი<lb/>
+               მას. და. წაიყვანა. სი<lb/>
+               კედით. წყალი. და. ც<lb/>
+               ხენსაც. დალევინა. თი<lb/>
+               თონაც. იცოცხლა. <lb/>
+               ცხენმაც. იცოცხლა. 
+            </p>
+            <p hand="#h1">
+               ქალმა. ვერ. უპასუხა.<lb/>
+               რამეთუ. არ. იცოდა. 
+            </p>
+            <p hand="#h1">
+               უთხრა. ქალმა. ვაჟსა.<lb/>
+               <pb f="32v" n="64"/>
+               თუ. დღეს. წადი. სხვა<lb/>
+               ლ. მოგცემ. მაგ. სიტ<lb/>
+               ყვის. პასუხსა. ეგ. <lb/>
+               რა. ძნელი. სიტყვა. <lb/>
+               არისო. 
+            </p>
+            <p hand="#h1">
+               ვაჟი. ადგა. და. წავი<lb/>
+               და. თავის. სადგომში. 
+            </p>
+            <p hand="#h1">
+               მიუგო. ქალმა. თავ<lb/>
+               ის. მოენეს. ბებერს<lb/>
+               ა. თუ. წადით. ბაზა<lb/>
+               რში. კარგი. თეთრი.<lb/>
+               პურები. იყიდე. და. <lb/>
+               <pb f="33r" n="65"/>
+               ერთი. სუქანი. ძ<damage><gap quantity="3" unit="chars" reason="illegible"/></damage><lb/>
+               ი. და. შემწვარი <damage><gap quantity="4" unit="chars" reason="illegible"/></damage><lb/>
+               ამი. და. მუცელი. შა<lb/>
+               ქრით. აუმსგ. და. ორი<lb/>
+               ი. ჭურჭელი. ტკბილ<lb/>
+               ი. ღვინო. რომ. ძალ<lb/>
+               იანი. იყოს. წავიდნე<lb/>
+               ნე. მსახური. და. ყ<lb/>
+               ველი. შეასრულეს. <lb/>
+               მისი. ბრძანება. როდ<lb/>
+               ესაც. რომ. ყველამ. <lb/>
+               დაიძინეს. ადგა. უ<lb/>
+               <pb f="33v" n="66"/>
+               <damage><gap quantity="3" unit="chars" reason="illegible"/></damage>ი და ჩაიცვა.თავ<lb/>
+               <damage><gap quantity="4" unit="chars" reason="illegible"/></damage>. თავისი. ოქროთ  <lb/>
+               ქსოვი. ტანისამოს <lb/>
+               <damage><gap quantity="1" unit="chars" reason="illegible"/></damage>ა. ტკბილათ. გას<lb/>
+               ურნელდა. და. მსა<lb/>
+               ხურებმა. აიღეს. საჭ<lb/>
+               მელი. გემრიელნი. დ<lb/>
+               <supplied reason="omitted">ა</supplied> სასმელიცა. და. ო<lb/>
+               რი. მშვენიერნი. ქალ<lb/>
+               ნიც: თან. წაიყვანა. <lb/>
+               მივიდნენ. იმ. ვაჟი <lb/>
+               ს. სადგომში. და . <lb/>
+               <pb f="34r" n="67"/>
+               დაურახურნეს. კართან.<lb/>
+               კითხა.  ვაჟმა.  ე<damage><gap quantity="3" unit="chars" reason="illegible"/></damage> <lb/>
+               ართო. მოახსენა. მსახ<lb/>
+               ურმა. ბატონო.  მოგ<lb/>
+               ეხსენებოდეს. რომ. ქ<lb/>
+               ალნი. ვართ. ხემწიფის. <lb/>
+               სახლიდგანაო. როგო <lb/>
+               თაც. მთვარეს. მზე. უ <lb/>
+               ყვარს. ეგრეთვე. შენ<lb/>
+               ჩვენ. გვიყვარხარ. იმ.<lb/>
+               მიზეზით. გვნებავს. <lb/>
+               შენი. ნახვა. 
+            </p>
+            <pb f="34v" n="68"/>
+            <p hand="#h1">
+               მიუგო. ვაჟმა. შორ. <lb/>
+               წადით. ღმერთმა. იც<lb/>
+               ის. რომ. თქვენ. არ. შ<lb/>
+               <supplied reason="omitted">ე</supplied>მოხვალ. და. მე. ვერ. <lb/>
+               გიცნობ. თქვენ. მათ. <lb/>
+               ხვეწნითა. დაუხშირე. <lb/>
+               თუ. არ. წახვალთ. ამ.<lb/>
+               კარისაგან. მანამდის <lb/>
+               <damage><gap quantity="5" unit="chars" reason="illegible"/></damage>. შენ. არ გნახამთ. <lb/>
+               <pb f="35r" n="69"/> 
+               და. ვაჟმა. შეუშვა. <gap quantity="2" unit="chars" reason="illegible"/><lb/>
+               ა. შევიდა. შიგნით. ქა<lb/>
+               ლი. და. აიღო. ფარდა. დ<lb/>
+               ა როდესაც. ნახა. ვაჟმა. <lb/>
+               ქალის. სახე. ატრფიალდა. <lb/>
+               სიყვარულითა. და. ქა<lb/>
+               ლი. დაჯდა. და. მოისვა. <lb/>
+               ვაჟი. 
+            </p>
+            <p hand="#h1">
+               მიუგო. ქალმა - ვაჟს თ <lb/>
+               უ. გაქვს. რაიმე - მოიტ<lb/>
+               ანეს. და. ვიამოთ. თუ ტ<lb/>
+               კბილი. ღვინო. რომ. და<lb/>
+               <pb f="35v" n="70"/>
+               ვლიოთ. ვიმხიარულო<lb/>
+               თ. ხმას. იცვლიდა. ქა<lb/>
+               ლი. რომ. ვერ. შეძლო. <lb/>
+               ცნობა. ვაჟსა. მისი. <lb/>
+               მიუგო. ვაჟმა. ღმერთ<lb/>
+               მა. იცის. რომ. არა. ფე<lb/>
+               რი. არა. მაქვს. ამდრ<lb/>
+               ოს. რამეთუ. არა. ვი<lb/>
+               ვოდი. თქვენი. მობძა<lb/>
+               ნება. ჩემთანა. რომ. დ<lb/>
+               ამემზადებინა. კარგი. <lb/>
+               საჭმელი. 
+            </p> 
+            <pb f="36r" n="71"/> 
+            <p hand="#h1">
+               უბრძანა. ქალმა. თავს<lb/>
+               მსახურთა. თუ. მოიტან<lb/>
+               ეთ. რაც. გაქვთ. საჭმელი. <lb/>
+               მოიტანეს. და. გაშალეს. <lb/>
+               სუფრა და. ფერად. ფერად. <lb/>
+               გემრიელი. საჭმელი. მო<lb/>
+               იტანეს. შექცნენ. გემრ<lb/>
+               იელათ. და. ძალიანის. <damage><gap quantity="2" unit="chars" reason="illegible"/></damage> <lb/>
+               ვინითაც. დაითვრნენ. <lb/>
+               <damage><gap quantity="2" unit="chars" reason="illegible"/></damage> და. ქალი. ტკბილის. <lb/>
+               სიტყვით. ელაპარაკებ<lb/>
+               ოდა. და. ატრფიალებ<lb/>
+               <pb f="36v" n="72"/>
+               და 
+            </p>
+            <p hand="#h1">  <lb/>
+               მიუგო. ვაჟმა. თუ. რო<lb/>
+               მ. დავწვეთო. შეხვეწა. ქ<lb/>
+               ალი. ვაჟსა. და. უთხრა. <lb/>
+               თუ. ჩემი. სიყვარული. <lb/>
+               გაქვს. მითხარ. ის. სიტ<lb/>
+               ყვა. რომ გუშინ. ხემ<lb/>
+               წიფის. ქალისათვის. გი<lb/>
+               თქვამს. უპასუხა. <lb/>
+               უპასუხა. ვაჟმა. თუ. <lb/>
+               არა. მაქვს. შეძლება. <lb/>
+               <pb f="37r" n="73"/>
+               მაგისი. თქმისა. იამე. თ<damage><gap quantity="1" unit="chars" reason="illegible"/></damage> <lb/>
+               მესინიან. სიკვდილისაგან. <lb/>
+               სხვა. რამ. მკითხე. და. გეტ<lb/>
+               ყვი. 
+            </p>
+            <p hand="#h1">
+               ქალმა. დაიფიცა. ღმერთი. <lb/>
+               და. უთხრა. თუ. იმ სიტყვა<lb/>
+               ს. არ. მეტყვი. არა. ვიქ<lb/>
+               ენს. ნებასა. და ვაჟი. აღტკ<lb/>
+               ინებული. სიხარულისაგან<lb/>
+               და. მორეული. ღვინისაგა<lb/>
+               ნ. უთხრა. მოდით. დავწ<lb/>
+               <pb f="37v" n="74"/>
+               ვეთ და. ქალმა. გაუხადა. პე<lb/>
+               რანგის. ამზანაკი. და. თავ. ქ<lb/>
+               ვეშ. დაიდო. და. დაუწყო. თ<lb/>
+               ამაშობა. ვაჟსა. და. <lb/>
+               ვაჟმა. ქალის. სიყვარულით. <lb/>
+               და. ღვინის. სიმთერალეობით. <lb/>
+               უთხრა. ყოველი. და. ქალს. <lb/>
+               არაფერი. ვერ. უყო. და. ქ<lb/>
+               ალს. გაეხარდა. დიდათ. <lb/>
+               აღდგა. წავიდა. სიხარული<lb/>
+               თა. და. სიხარულისაგან <lb/>
+               <pb f="38r" n="75"/>
+               პერანგის. ამზანაკი. იქ. დარჩა. <lb/>
+               და. თქვა. უთუოდ. ვისწავლე. <lb/>
+               გამოსაცანი. და. იმან. ვერა. <lb/>
+               მიყორა. და. დილაზედ. მოვაკვ<lb/>
+               ლევინებ. იმასა.და როდესა<lb/>
+               ც. ვაჟმა. დილაზედ. გამოიღვ<lb/>
+               იძა. ჭკუა. თავში. ჭკუა. მოუვიდა. შ<lb/>
+               ეიტყო. რომ. მოტყუებული.<lb/>
+               და. ძლიერ. დაღონდა. და. მე<lb/>
+               რმე. რომ. ნახა. პერანგის. ა<lb/>
+               <pb f="38v" n="76"/>
+               მზანაკი. მადლობა. ღმერთს. შეჱ<lb/>
+               ყარა. აიღო. და. შეინახა. და.<lb/>
+               წავიდა. დედოფალის. სარაია<lb/>
+               ში. სალამი. მისცა. და. დაჯდა. <lb/>
+               ოქროს. სკამზედ. შეიტყო. ვ<lb/>
+               აჟმა. რომ. ხემწიფის. ქალი. <lb/>
+               ყოფილა. იმ. ღამეს. იმასთ<lb/>
+               ანა. ყოფილიყო. 
+            </p>
+            <p hand="#h1">
+               ქალმა. გაგზავნა. კაცი. და<lb/>
+               უმფროსებსა. და. მოვიდნ<lb/>
+               <pb f="39r" n="77"/>
+               ენ. ყველანი ერთიანათა. ად<lb/>
+               გა. ვაჟი. თაყვანი. მისცა. ხ<lb/>
+               ემწიფესა. და დაჯდა 
+            </p>
+            <p hand="#h1">
+               მიუგო. ქალმა.  გიპასუხო. რო<lb/>
+               მელიც. გუშინდელი სიტ<lb/>
+               ყვა. რომ. შენ. მე. მკითხე. დაი<lb/>
+               წყო. და. თქვა. რიგრიგ <lb/>
+               როგორც. რომ. ღამეს. იმის<lb/>
+               აგან. შეიტყო. და. ყველანი. <lb/>
+               აშტერდნენ. ქალის. მეცნი<lb/>
+               ერებასა. 
+            </p>
+            <pb f="39v" n="78"/>
+            <p hand="#h1">
+               უთხრა. ვაჟმა. ხემწიფეს. და. <lb/>
+               უფროსებსა. დიდებულო. ხ<lb/>
+               ემწიფევ. თუ. სამი. დღე. თ<lb/>
+               ქვენმა. ქალმა. სიტყვა. მკით<lb/>
+               ხა. და. მე. ერთს. სიტყვას. ვ<lb/>
+               კითხამ. მაგას. გნახოთ. თ. <lb/>
+               <damage><gap quantity="3" unit="chars" reason="illegible"/></damage> მე. არ. მოგრევივარ.<lb/>
+               თქვა. ხემწიფემ. მაგას. <lb/>
+               მოგიწონებო. და. თავდე<lb/>
+               ბათაც. დადგნენ. უმფრ<lb/>
+               ოსები. რომ. იმისმე <lb/>
+               <pb f="40r" n="79"/>
+               ტი/ ერთმანეთისთეინაო <lb/>
+               აღარა. ეკითხათრა.
+            </p>
+            <p hand="#h1">
+               ჱკითხა. ვაჟმა. თუ. ვინ. არ<lb/>
+               იან. ის. ფრინველი. რომე<lb/>
+               ლიც. დავიჭირე. და. დავკა<lb/>
+               ლი. და. ბუნბული. შევინ<lb/>
+               ახე. თითონ. შეწვი. დ<damage><gap quantity="2" unit="chars" reason="illegible"/></damage><lb/>
+               იდგი. წინ. თუ. ვჭამო. დ<lb/>
+               ა. იმ. ფრინველსა. ჱყვა<lb/>
+               ნდა. თან. სხვა. ფრინველე<lb/>
+               ბი. მაგრამ. იმისი. ბურ<lb/>
+               ტული. ასეთი. მშვენ<lb/>
+               <pb f="40v" n="80"/>
+               იერი. იყო. როგორათა<lb/>
+               ც. როგორც. უეცრათ. გა<lb/>
+               ფრინდა. და. წაიდ<del rend="strikethrough">ა</del>ა. თუ. <lb/>
+               არ. დამიჯერებთ. ბუმბულ<lb/>
+               ს. მოვიდტან. რომ. ნახ<lb/>
+               ოთ. და შეიტყოთ. შეშ<lb/>
+               ინდა. დიახ. იცოდა. რომ. <lb/>
+               თავის. ანბავს. იტყოდ<lb/>
+               ა. უთხრა. ეგ. რა. ძნელ<lb/>
+               ი. სიტყვა. არისო. მა<lb/>
+               გის. პასუხს. ვერ.<lb/>
+               გეტყვიო. ვიცით. <lb/>
+               <pb f="41r" n="81"/>
+               რომ. მამერევიო. მთხო<lb/>
+               ვე. რაც. გინდა. მოგც<lb/>
+               ემო. 
+            </p>
+            <p hand="#h1">
+               უპასუხა. ვაჟმა. შენი <lb/>
+               მეტი. არა. ფერი. არ. <lb/>
+               მაინდაო. და. უმფრო<lb/>
+               სებმან: უმოწმეს. დ<lb/>
+               ა. მოიწონეს. დაგვი<lb/>
+               რგინეს.და. შვიდი. <lb/>
+               დღე. და. ღამე. ქორწ<lb/>
+               ილი. უყვეს. ხემწი<lb/>
+               <pb f="41v" n="82"/>
+               ფემ. თავისი. ნახევა<lb/>
+               რი. სახემწიფო. და. ნა<lb/>
+               ხევარი. ხაზეინა. და. რაც. ქ<lb/>
+               ვეყნები. ჱქონდა. ყველაზ<lb/>
+               ედ. იმან. იუფლა. გაგზავნ<lb/>
+               ა. კაცი. და თვალი. და. ხა<lb/>
+               ზინა. იმ. ხემწიფეს. რო<lb/>
+               მელთანაც. დედმამა. იყო. <lb/>
+               და. მოაყვაინა. თავის. დ<lb/>
+               ედმამა. თავისთან. და. ნახ<lb/>
+               ეს ერთმანეთი. გამზია  <lb/>
+               <pb f="42r" n="83"/>
+               რულდნენ. და. მადლობა. მი<lb/>
+               სცეს. ღმერთსა. და. ის. ბებერ<lb/>
+               იც. თავის. სარაიაში. მიყ<lb/>
+               ვანა. და. გახდა. თავისი. უ<lb/>
+               ფლად. და. ხემწიფედ. თავის<lb/>
+               ი. სიკვდილის. უკან. ყოვ<lb/>
+               ელი. თავისი. ხაზინისა. და.<lb/>
+               კარის. და. ყოველი. ქვე:<lb/>
+               ების. უფლათ. და. აყენა. დ<lb/>
+               ა. ქრისტეს. კაცთა. მოყვარ<lb/>
+               ულის. დიდება. და. მადლ<lb/>
+               ობა. უკუნითი. უკუნი<lb/>
+               <pb f="42v" n="84"/>
+               ს. ამდე. ამინს. --- შესრუ<lb/>
+               ლდა. ესე. ქალ. ვაჟის. წიგნ<lb/>
+               ი. მე.   წელსა.  <date when="1827-02-18">ჩყკზ. სა.  <lb/>
+                  თებერვლის. იჱ</date> სა დღესა 
+            </p>
+         </div>
+         <div type="chapter">
+            <pb f="43r" n="85"/>
+            <p hand="#h1">
+               ასო სამღერალი. მართალი. <lb/>
+               და. ჭეშმარიტი. დანივლის<lb/>
+               აგან. და. იმონისაგან. და. ალ<lb/>
+               ექსანდრესაგან. და. ბრძენ<lb/>
+               თაც. შეწერებულისგან. ქარ<lb/>
+               თული. მარჯვენისაგან. კარი<lb/>
+               ის. კაცი. ადამის. სტომისა.<lb/>
+               თუ. საქოჩრე. ემღეროდ. ის<lb/>
+               დანიელ. ბრძანებს. ხემწიფი<lb/>
+               საგან. წყალობა. დემართო. სო<lb/>
+               იმონ. ბრძანებს. საქონელი <lb/>
+               <pb f="43v" n="86"/>
+               ემატოსო. ალექსანდრე. <lb/>
+               ბრძანებს.  კვლავ. გაიხარო<lb/>
+               სო. 
+            </p>
+            <p hand="#h1">
+               თუ თავის. გარშემო. ემ<lb/>
+               ღეროდეს. დანიელ. ბრძან<lb/>
+               ებს. ძნელი. საქმე. გაუადვი<lb/>
+               ლდესო. იმონ. ბრძანებს. ნა<lb/>
+               ღველს. მოურჩესო. ალექსან<lb/>
+               დრე. ბრძანებს. ძნელი. არ<lb/>
+               ისო. ბრძენთა. თქვეს. ცუდ<lb/>
+               ი. ჩხუბი. გადახდესო. 
+            </p> 
+            <pb f="44r" n="87"/>
+            <p hand="#h1">
+               თუ. მარჯვენა. საფეთქელი <lb/>
+               ემღეროდეს. დანიელ. ბრძანე<lb/>
+               ბს. ნაღველსა. შე<lb/>
+               ეყაროსო. ალექსანდრე. ბრძან<lb/>
+               ებს. მცირეთ. ავათ. გახდესო. <lb/>
+               ბრძენთა. თქვეს. და. დაუმარცხ<lb/>
+               ეს. რამეო. 
+            </p>
+            <p hand="#h1">
+               თუ მარცხენა. საფეთქელი. <lb/>
+               ემღეროდეს. დანიელ. ბრძან<lb/>
+               ებს. ტანისამოსი. ჩაიცვა.<lb/>
+               <pb f="44v" n="88"/>
+               სო. სიმონ. ბრძანებს. გასახა<lb/>
+               რელი. საქმე. დაემართოსო. ა<lb/>
+               ლექსანდრე. ბრძანებს. თავის<lb/>
+               ი. კერდსა. ემატოსო. ბრძენ<lb/>
+               თა. თქვეს. მტერსა. აჯობოსო<lb/>
+               თუ. შუბლი. ემღეროდეს. და <lb/>
+               ნიელ. ბრძანებს. სიმდიდრე <lb/>
+               მიეცესო. იმონ. ბრძანებს<lb/>
+               გამხიარულდესო. ალექსანდ<lb/>
+               რე. ბრძანებს. სიკეთე. მიეც<lb/>
+               ესო. ბრძენთა. თქვეს.<lb/>
+               <pb f="45r" n="89"/> 
+               გაუხშირდესო. 
+            </p>
+            <p hand="#h1">
+               თუ. მარჯვენა. წარბი. ემღ<lb/>
+               ეროდეს. სიკეთე. მიეცესო. <lb/>
+               იმონ. ბრძანა. სიმაღლე. მიეც<lb/>
+               ესსო. ალექსანდრე. ბრძანა. ან<lb/>
+               ბავი. ესწყაფოსო. ბრძენთა <lb/>
+               თქვეს. კარგი. სახელი. დაუ<lb/>
+               დესო. 
+            </p>
+            <p hand="#h1">
+               თუ. მარცხენა. წარბი. ემღ<lb/>
+               ეროდეს. დანიელ. ბრძანებ<lb/>
+               ს. გამდიდრდესო. ალექ<lb/>
+               <pb f="45v" n="90"/>
+               სანდრე. ბრძანებს. გამხიარუ<lb/>
+               ლდესო. ბრძენთა. თქვეს. გაგ<lb/>
+               ონებით. გაიგონოსო. <lb/>
+               თუ ორივ წარბის. შუა. ემღ<lb/>
+               ეროდეს. დანიელ. ბრძანებს. <lb/>
+               სათაკილო. საქმე. ქნასო. იმ<lb/>
+               <damage><gap quantity="3" unit="chars" reason="illegible"/></damage> ბრძანებს. საწყინარი.<lb/>
+               საქმე. ქნასო. იმონ. ბრძან<lb/>
+               ებს. დაშორდეს. რამეო.<lb/>
+               <pb f="46r" n="91"/>
+               თუ მარჯვენა. <damage><gap quantity="5" unit="chars" reason="illegible"/></damage>  ემღ<lb/>
+               ეროდეს. დანიელ. ბრძანე<lb/>
+               ბს. სიმდიდრეს. მოშორდე<lb/>
+               სო. იმონ. ბრძანებს. საწყი<lb/>
+               ნარი. საქმე . ქნასო. ალექს<lb/>
+               ანდრე. ბრძანებს. შე<damage><gap quantity="4" unit="chars" reason="illegible"/></damage><lb/>
+               ბას. გაეშოროსო. ბრძენთა<lb/>
+               თქვეს. ესები. ყოველი ლ<damage><gap quantity="2" unit="chars" reason="illegible"/></damage> <lb/>
+               ნათ. შექმნეს. 
+            </p>
+            <p hand="#h1">
+               თუ მარცხენა ყური მღ<lb/>
+               ეროდეს. დანიელ <damage><gap quantity="5" unit="chars" reason="illegible"/></damage> <lb/>
+               <pb f="46v" n="92"/>
+               ეგრეთვე ყველათი. დიდე<lb/>
+               ბა. და. თავადობა. არისო.<lb/>
+               თუ. მარჯვენ. წამწარმი. ზ<lb/>
+               ეითი. ქუთუთო. ემღერო<lb/>
+               დეს. დანიელ. ბრძანებს.<lb/>
+               შეჭირვებას. უკან. სიმხ<lb/>
+               რულე. მიეცესო. იმონ.<lb/>
+               ბრძანებს. სატირელი. წა<lb/>
+               კიდოსო. ალექსნიდრე. ბძან<lb/>
+               ა. ამი. რამე. გადახდესო<lb/>
+               ძოძენთა. თქვეს. შეჭირვ<lb/>
+               <pb f="47r" n="93"/>
+               ებას. ადრე. ეშველო. სო<lb/>
+               თუ. მარცხენა. თქუთუთო.<lb/>
+               ემღეროდეს. ქვეითი. დანიელ.<lb/>
+               ბძანებს. სინანული. არისო.<lb/>
+               იმონ. ბრძანებს. ტირილი. ა<lb/>
+               რისო. ალექსანდრე. ბძანა.<lb/>
+               ნაღველი. არისო. ბძენთ<lb/>
+               თქვეს. წეკიდოს. ვინმეო.<lb/>
+               თუ. მარცხენა. წამწამი. ქვე<lb/>
+               ითი. ქუთუთო. ემღეროდეს<lb/>
+               დანიელ. ბძანა. და. ნაღველი <damage><gap quantity="2" unit="chars" reason="illegible"/></damage><lb/>
+               ესო. ბძენთა. თქვეს. საყვა<lb/>
+               <pb f="47v" n="94"/>
+               რელი. მოუკვდესო. 
+            </p>
+            <p hand="#h1">
+               თუ მარჯვენა. კილო. ცხვი<lb/>
+               რისკენ. ემღეროდეს. დანიელ.<lb/>
+               ბძანებს. სიმდიდრეს. საქმეს. <lb/>
+               ესმასო. იმონ. ბრძანებს. ძალ<lb/>
+               ი. ემატორსო.ალექსანდრე.<lb/>
+               ბძანებს. შეჭირვებიდამ. ა<lb/>
+               დრე. ეშველოსო. ბძენთა. <lb/>
+               თქვეს. მტერსა. აჯობოსო. <lb/>
+               თ <damage><gap quantity="1" unit="chars" reason="illegible"/></damage>  მარცხენა. კოლო. ემ <lb/>
+               <damage><gap quantity="4" unit="chars" reason="illegible"/></damage> დეს. დანიელ. ბრძანე<lb/>
+               <supplied reason="omitted">ბს</supplied>. გამდიდრდეს. იმონ. <lb/>
+               <pb f="48r" n="95"/>
+               ბძანა. იშოვნოს. რამეო. ა<lb/>
+               ლექსანდრე. ბძანა. სიკეთე. <lb/>
+               მიეცეს. ბძენთა. თქვეს ხემწ<lb/>
+               იფისაგან. წყალობა. დემართ<lb/>
+               ოსო. 
+            </p>
+            <p hand="#h1">
+               თუ მარჯვენა. უკანა. კილო. <lb/>
+               იმღეროდეს. დანიელ. ბძა <supplied reason="omitted">ნა</supplied> <lb/>
+               ორით. გაიხაროსო. მოსვლიდ<lb/>
+               აო. იმონ. დაჭერილი ეშვა <lb/>
+               ბძენთა. თქვეს. გულის <damage><gap quantity="4" unit="chars" reason="illegible"/></damage> <lb/>
+               უთავდესო. 
+            </p>
+            <p hand="#h1">
+               თუ მარჯვენა ცხვირის ნეშტი <lb/>
+               <pb f="48v" n="96"/>
+               ემღეროდეს. დანიელ. ბ<lb/>
+               ძანა. ჭირს. და. ფათერაკს. <lb/>
+               მოურჩესო. <supplied reason="omitted">ა</supplied>ლექსანდრე. ბ<lb/>
+               ძანა. სიმხიარულე. მიეცესო. <lb/>
+               ბრძენთა. თქვეს. გამდიდრესო.<lb/>
+               თუ მარცხენა. ცხვირის. <lb/>
+               შტო. ემღეროდეს. დან<lb/>
+               იელ. ბძანა. საშოვარი. არ<lb/>
+               ისო. იმონ. ბძანებს. მი<lb/>
+               <damage><gap quantity="4" unit="chars" reason="illegible"/></damage>ო. ალექსანდრე. ძმან<lb/>
+                <damage><gap quantity="8" unit="chars" reason="illegible"/></damage> ელდესო. ბძენთა.<lb/>
+               ითქვეს. მტერს. აჯობოსო. <lb/>
+               <pb f="49r" n="97"/>
+               თუ. სულ. ცხვირი. ემღერო<lb/>
+               დეეს. დანიელ. ბძანა. საქონ<lb/>
+               ელი. ემატოსო. ალექსანდრე.<lb/>
+               ბძანა. სარგებელი. ქნასო.<lb/>
+               იმონ. ბძანა. შეუვარდესო. ბ<lb/>
+               ძენთა. თქვეს. სიმდიდრე იშ<lb/>
+               ოვნოსო. 
+            </p>            
+            <p hand="#h1">
+               თუ მარჯვენა. ღაწვი ე<damage><gap quantity="4" unit="chars" reason="illegible"/></damage><lb/>
+               ეროდეს. დანიელ. ბძანა უ<lb/>
+               კადრისი. წამოსო. თქვას რამ<lb/>
+               ეო. იმონ. ბძანა. უძ<damage><gap quantity="2" unit="chars" reason="illegible"/></damage>ხა. <lb/>
+               <pb f="49v" n="98"/>
+               ვინმეო. ალექსანდრე. ბძანა <lb/>
+               მტერსგარდევიდოს. ბძენთა. თ<lb/>
+               ქვეს. ავანტყოფობას. მოურჩესო. 
+            </p>
+            <p hand="#h1">
+               თუ მარცხენა. ღაწვ. უმღე<lb/>
+               როდეს. დანიელ. ბძანა. მ<lb/>
+               ოსავალით. გაიხაროს. იმონ.<lb/>
+               ბძანა. ამხანაგობა არისო.. ბძე<lb/>
+               ნთა. თქვეს. საქონელი. ემატო<lb/>
+               სო. 
+            </p>
+            <p hand="#h1">
+               თუ. მარჯვენა. ლოყა<lb/>
+               <pb f="50r" n="99"/>
+               მღეროდეს. დანიელ. ბძა<lb/>
+               ნა. უკადრისი.. დაემართოსო. <lb/>
+               ალექსანდრე. ბძანა. ავ. ს<lb/>
+               აქმე. ქნას. ბძენთა თქვ<lb/>
+               ეს. ავანტყოფას. ადრე უ<lb/>
+               შველოსო. 
+            </p>
+            <p hand="#h1">
+               თუ. ბაგე. ზევით. <damage><gap quantity="4" unit="chars" reason="illegible"/></damage> <lb/>
+               ოდეს. დანიელ <damage><gap quantity="6" unit="chars" reason="illegible"/></damage> <lb/>
+               უილი. უძრა<damage><gap quantity="10" unit="chars" reason="illegible"/></damage> <lb/>
+               იმონ. ბძანა. შუბლი<damage><gap quantity="1" unit="chars" reason="illegible"/></damage>ვება<damage><gap quantity="1" unit="chars" reason="illegible"/></damage> <lb/>
+               შევიდესო. ალექსანდრე. ბძან<lb/>
+               ა. ჩხუბს. გადევიდოსო. <lb/>
+               <pb f="50v" n="100"/>
+               ბძენთა. თქვეს. ტყუილ<lb/>
+               ი. რამე გადახდესო. 
+            </p>
+            <p hand="#h1">
+               თუ ქვეითი. ბაგე. ემ<lb/>
+               ღეროდეს. დანიელ. ბძან<lb/>
+               ა. დიდს. საწყინარს. მო<lb/>
+               ურჩესო. იმონ. ბძანა.<lb/>
+               <damage><gap quantity="5" unit="chars" reason="illegible"/></damage>. არისო. ალექს<lb/>
+               <damage><gap quantity="4" unit="chars" reason="illegible"/></damage>. ბძანა.  აგი. საქმე.<lb/>
+               <damage><gap quantity="1" unit="chars" reason="illegible"/></damage>ასო. ბძენთა. თქვეს. ბ<lb/>
+               ოლოს. დარჩესო. 
+            </p>
+            <p hand="#h1">
+               თუ მარჩვენა. პირის.<lb/>
+               <pb f="51r" n="101"/>
+               კუთხე. ემღეროდეს. დანი<lb/>
+               ელ. ბძანა. გაიხაროსო. იმო<lb/>
+               ნ. ბძანა. დაემოყვროსო. ვის<lb/>
+               მეო. ალექსანდრე. ბძანა. ნა<lb/>
+               თესავი. მოუკვდესო. ბძენთა. <lb/>
+               თქვეს. გინებასა. იტყვის. რამე<lb/>
+               ო. 
+            </p>
+            <p hand="#h1">
+               თუ მარცხენა. პირის. კუთხ<lb/>
+               ემღეროდეს. ლხინს. შე<damage><gap quantity="3" unit="chars" reason="illegible"/></damage><lb/>
+               როსო. იმონ. ბძანა. დროთი. <lb/>
+               გაიხაროსო. ლექსანდრე. ბ<lb/>
+               <pb f="51v" n="102"/>
+               <supplied reason="omitted">რძა</supplied>ნა. დიდს. ნათველს. მოუ<lb/>
+               რჩესო. ბძენთა. თქვეს. კარ<lb/>
+               გი. ესმასო 
+            </p>
+            <p hand="#h1">
+               თუ. ენა. ემღეროდეს. დანი<lb/>
+               ელ. ბძანა. საქმე. არის რა<lb/>
+               მე. იმონ. ბძანა. ავანტყ<lb/>
+               ოფას. და. არეულობას. <lb/>
+               შესწრასო. ალექსანდრ<lb/>
+               ე. ბძანა. იჩხუბოსო. ბ<lb/>
+               ძენთა. თქვეს. დახუთუ<lb/>
+               ლი. მორჩესო. თუ. სუ<lb/>
+               ლი. პირი. ემღეროდეს<lb/>
+               <pb f="52r" n="103"/>
+               საყვარელს. აკოცახო <lb/>
+               იმონ. ბძანა. საყვარე<lb/>
+               ლი. ნახოს. ალექსანდ<lb/>
+               რე. ბძანა. სიყვარუ<lb/>
+               ლი. არისო. ბძენთა. თ<lb/>
+               ქვეს, სიმდიდრე. მიეცეს<lb/>
+               ო.
+            </p>
+            <p hand="#h1">
+               თუ მარჯვენა. ვი<damage><gap quantity="4" unit="chars" reason="illegible"/></damage> <lb/>
+               ემღეროდეს. დანიელ  ბძა<lb/>
+               ნა. ღმერთს. შეხვეწოს. <lb/>
+               იმონ. ბძანა. საცა. რომ. <lb/>
+               ცოდო. თუქნია. და. ღთობა. <lb/>
+               <pb f="52v" n="104"/>
+               უქნეიაო. ალექსანდრე. ბძანა.<lb/>
+               გალახას. მისცესო. ბძენთ<lb/>
+               ა. თქვეს. რისხვას. მოუ<lb/>
+               რჩესო. 
+            </p>
+            <p hand="#h1">
+               თუ. მარცხენა. კისერ<lb/>
+               ი. ემღეროდეს. დანიელ. <lb/>
+               ბძანა. შოვნა. არისო. ი<lb/>
+               მონ. ბძანა. სარჩო. ემა<lb/>
+               ტოსო. ბძენთა. თქვეს. მ<lb/>
+               ხარებელიო. მოუვიდესო. <lb/>
+               თუ. მარჯვენა. უღელი<lb/>
+               <pb f="53r" n="105"/>
+               ემღეროდეს: დანიელ ბძ<lb/>
+               ანებს. მწარე. საწყინარი. <lb/>
+               არისო. ღმერთს. შეხვეწო<lb/>
+               სო. ალექსანდრე. ბძანებს. <lb/>
+               არეულობა. დაკარგვა. არისო. <lb/>
+               ბძენთა. თქვეს. რისხვა. არ<lb/>
+               ისო.
+            </p>
+            <p hand="#h1">
+               თუ მარცხენა. უღელი <lb/>
+               მღეროდეს. დანიელ. ბძანე<lb/>
+               ბს სინანული. არის. იმონ. ბძანა<lb/>
+               სიმდიდრე. და. საქონელი. ემა<lb/>
+               ტოსო. ალექსანდრე. ბძანა.<lb/>
+               <pb f="53v" n="106"/>
+               საქონელი. გაუბევრდესო.<lb/>
+               ბძენთა. თქვეს. შვრთები<lb/>
+               თ გაიხაროსო. 
+            </p>
+            <p hand="#h1">
+               თუ მარჯვენა. ბეჭი. <lb/>
+               უმღეროდეს. კარგათ. მო<lb/>
+               ეხდესო. იმონ. ბძანა. შე<lb/>
+               იმოსოსო. ახლითაო. ალე<lb/>
+               ქსანდრე. ბძანა. საქონელ<lb/>
+               ი. გაუბევრდესო. ბძენთა. <lb/>
+               თქვეს. შერთებით. გა<lb/>
+               იხაროსო. 
+            </p>
+            <pb f="54r" n="107"/>
+            <p hand="#h1">
+               თუ. ნიკაპი. ვმღეროდ<lb/>
+               ეს. დანიელ. ბძანა. საჭი<lb/>
+               რო. სალხინოთ. გადაექც<lb/>
+               ესო. 
+            </p>
+            <p hand="#h1">
+               თუ. მარცხენა. ბიბილო. <lb/>
+               ემღეროდეს. დანიელ. ბძა<lb/>
+               ნებს. ნატრა. აუთავდესო. <lb/>
+               ალექსანდრე. ბძანა. გამხია<lb/>
+               რულდესო. ბძენთა. თქვეს<lb/>
+               შეჭირვებას. მოშორდესო. <lb/>
+               თუ. მარჯვენა. მხარი. ემღე<lb/>
+               <pb f="54v" n="108"/>
+               როდეს. თავის. ტკივილი. ა<lb/>
+               რისო. იმონ. ბძანა. ავან<lb/>
+               ტყოფობა. არისო. ალექსანდრე.<lb/>
+               ბძანა. და ბძენთა. თქვეს. <lb/>
+               ტყუილი. უძრახოსო. ეი<damage><gap quantity="3" unit="chars" reason="illegible"/></damage><lb/>
+               ო.
+            </p>
+            <p hand="#h1">
+               თუ. მარცხენა. მხარი <damage><gap quantity="3" unit="chars" reason="illegible"/></damage> <lb/>
+               ეროდეს. დანიელ. ბძანა. <lb/>
+               <damage><gap quantity="3" unit="chars" reason="illegible"/></damage>ცხოს. გამოემცნაურო.<lb/>
+               <damage><gap quantity="3" unit="chars" reason="illegible"/></damage>. იმონ. ბძანებს. შორ<lb/>
+               ით. გაიხაროსო. ალექსან<lb/>
+               <pb f="55r" n="109"/>
+               დრე. ბძანა. აშენდესო: <lb/>
+               ბძენთა. თქვეს. სახელი. <lb/>
+               დაუვარდესო. 
+            </p>
+            <p hand="#h1">
+               თუ. მარჯვენა. მკლა<lb/>
+               ვი. ემღეროდეს. დანიე<lb/>
+               ლ. ბძანა. ცოლი შეირთ<lb/>
+               ოსო. იმონ. ბძანა. <damage><gap quantity="5" unit="chars" reason="illegible"/></damage> <lb/>
+               ხლდესო. ალექსა<supplied reason="omitted">ნდრე</supplied> <lb/>
+               ბძანა. გამხიარულდე<supplied reason="omitted">ს</supplied><lb/>
+               ო. ბძენთა. თქვეს <damage><gap quantity="5" unit="chars" reason="illegible"/></damage> <lb/>
+               მიეცესო. 
+            </p>
+            <pb f="55v" n="110"/>
+            <p hand="#h1">
+               თუ. მარცხენა. მკლა<lb/><lb/><lb/><lb/>
+               ვი. ემღეროდეს. დან<lb/>
+               იელ. ბძანა. სარჩოს. <lb/>
+               საქმე. არისო. იმონ.<lb/>
+               <damage><gap quantity="3" unit="chars" reason="illegible"/></damage>ანა. სიმრავლე. <damage><gap quantity="5" unit="chars" reason="illegible"/></damage> <lb/>
+               <damage><gap quantity="4" unit="chars" reason="illegible"/></damage>ალექსანდრე. <damage><gap quantity="2" unit="chars" reason="illegible"/></damage> <lb/>
+               <damage><gap quantity="5" unit="chars" reason="illegible"/></damage>მოსავალია.<lb/>
+               <damage><gap quantity="4" unit="chars" reason="illegible"/></damage> მოუვიდესო. <lb/>
+               <damage><gap quantity="20" unit="chars" reason="illegible"/></damage> 
+            </p>
+         </div>
+         </div>
       </body>
    </text>
 </TEI>

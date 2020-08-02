@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_22">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. c. 1 (39)</title> 
+               <title type="alt" xml:lang="en">Recommendations of the Preliminary Committee appointed by the International Congress at the Hague on 9th August 1907, to propose arrangements for organizing the Subject Races Joint Committee on a permanent and effective international basis.</title>
+             </title>
+            <funder>JISC</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">First digital edition, TEI P5.
+               <date>10 January 2020</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">2020-01-10</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>OCIMCO</idno>
+            <idno type="msID">MS_Wardr_c_1_39</idno>
+            <idno type="catalogue">Georgian</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Wardr_c_1_39" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection type="main">Oriental Manuscripts Wardrop Collection </collection>
+                  <idno>MS. Wardr. c. 1 (35)</idno>
+               </msIdentifier>
+               <head>Recommendations of the Preliminary Committee appointed by the International Congress at the Hague on 9th August 1907.</head>
+               <msContents>
+                  <summary>Recommendations of the Preliminary Committee appointed by the International Congress at the Hague on 9th August 1907, to propose arrangements for organizing the Subject Races Joint Committee on a permanent and effective international basis.</summary>
+                  <msItem xml:id="MS_Wardr_c_1_39-item1" n="1">
+                     <title xml:lang="en-Latn-x-lc" key="work_39">Recommendations of the Preliminary Committee appointed by the International Congress at the Hague on 9th August 1907, to propose arrangements for organizing the Subject Races Joint Committee on a permanent and effective international basis.</title>
+                     
+                     <textLang mainLang="en">English</textLang>
+                     <note>This article was reproduced from typescript and circulated in 1907</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="chart">
+                     <support>The Manuscript is written on paper.</support>
+                     <extent>3 ff. <dimensions type="leaf" unit="cm"/>
+                        <seg type="leaf">
+                           <num type="leaf" value="3">3</num>
+                        </seg>
+                        <seg type="dimensions">
+                           <dimensions type="leaf" unit="cm">
+                              <height quantity="26.5">26.5</height>
+                              <width quantity="21.2">21.2</width>
+                           </dimensions>
+                        </seg>
+                     </extent>
+                     <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library.</foliation>           
+                     <collation>The folios are represented on three unbound pages.</collation>
+                     <condition>Leaves of manuscript are not damaged.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <dimensions type="line-height" unit="mm"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" xml:id="h1">The manuscript is typesetted.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1907">1907</origDate>
+                  </origin>
+                  <acquisition>Don. Nov. 1920 J. O. Wardrop</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           Description adapted (2019) from the following source:
+                           <listBibl>                 
+                              <bibl>
+                                 <title>David Barret's Catalogue of the Wardrop Collection and of other Georgian Books and Manuscripts in the Bodleian Library</title>
+                                 <publisher>Published by the Marjory Wardrop Fund by Oxford University Press</publisher>
+                                 <date when="1973">1973</date>
+                                 <idno type="VIAF">216536082</idno>
+                              </bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="local_class">
+               <category xml:id="commentary">
+                  <catDesc>Commentary</catDesc>
+               </category>
+               <category xml:id="supercommentary">
+                  <catDesc>Supercommentary</catDesc>
+               </category>
+               <category xml:id="indices">
+                  <catDesc>Indices</catDesc>
+               </category>
+               <category xml:id="translation">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="multipleWorks">
+                  <catDesc>multipleWorks</catDesc>
+               </category>
+               <category xml:id="abridgement">
+                  <catDesc>Abridgement</catDesc>
+               </category>
+               <category xml:id="supplement">
+                  <catDesc>Supplement</catDesc>
+               </category>
+               <category xml:id="papers">
+                  <catDesc>Papers</catDesc>
+               </category>
+               <category xml:id="documents">
+                  <catDesc>Documents</catDesc>
+               </category>
+               <category xml:id="extract">
+                  <catDesc>Extract</catDesc>
+               </category>
+               <category xml:id="gloss">
+                  <catDesc>Gloss</catDesc>
+               </category>
+               <category xml:id="selection">
+                  <catDesc>Selection</catDesc>
+               </category>
+               <category xml:id="diagrams">
+                  <catDesc>Diagrams</catDesc>
+               </category>
+               <category xml:id="notes">
+                  <catDesc>Notes</catDesc>
+               </category>
+               <category xml:id="letters">
+                  <catDesc>Letters</catDesc>
+               </category>
+               <category xml:id="versification">
+                  <catDesc>Versification</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term key="subject_sh18507042">Georgian historical documents</term>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">English Language</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-01-10">
+            <persName>Irina Lobzhanidze</persName>Expanded meta-annotation and provided the transcription.
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="folio1r.png"/>
+      <graphic url="folio1v.png"/>
+      <graphic url="folio2r.png"/>
+      <graphic url="folio2v.png"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="original">
+         <div n="1">
+            <pb n="1"/>
+            <head rend="center">
+               RECOMMENDATIONS OF THE PRELIMINARY COMMITTEE APPPOINTED<lb/>
+               BY THE INTERNATIONAL CONGRESS AT THE HAGUE OF 9TH<lb/>
+               AUGUST, 1907, TO PROPOSE ARRANGEMENTS FOR ORGANISING<lb/>
+               THE SUBJECT RACES JOINT COMMITTEE ON A PERMANENT AND<lb/>
+               EFFECTIVE INTERNATIONAL BASIS 
+            </head>
+            <p n="1"> <!-- amaze mosafiqrebelia -->
+               <list rend="numbered">
+                  <item n="1">That this Committee be called The International<lb/>
+                     Subject Races Committee.</item>
+                  <item n="2">THAT the purpose of the Committee shall be to pro-<lb/>
+                     vide opportunities for cooperation between the<lb/>
+                     promoters and supporters of organisations favour-<lb/>
+                     able to the protection of the rights, and advance-<lb/>
+                     ment of the interests, of subject races and nation-<lb/>
+                     alities, whaterver their grade of civilisation.</item>
+                  <item n="3">THAT its intention being to assist the organisations<lb/>
+                     represented on it in securing unity and harmony of <lb/>
+                     action without in any way hampering their indepen-<lb/>
+                     dence, the Committee shal neither usurp the func-<lb/>
+                     tions nor interfere in the management of those<lb/>
+                     organisations nor be responsible for any action they<lb/>
+                     may take on their own responsibility.</item>
+                  <item n="4">That in advocating the cause of any subject nation-<lb/>
+                     ality the Committee shall maintain a strict neutral-<lb/>
+                     ity between any sections into which the national<lb/>
+                     party may be divided.</item>
+               </list>
+               <pb n="2"/>
+               <list rend="numbered">
+                  <item n="5">THAT the head-quarters of the Joint Committee<lb/>
+                     shall, at present, be in London, and its duties<lb/>
+                     shall include: -<lb/>
+                     (a) Such efforts as it can make towards the for-<lb/>
+                     mation of allied Commitees, in other centres.<lb/>
+                     (b) Such assistance as it can give in arousing<lb/>
+                     public interest in the objects aimed at and<lb/>
+                     the work done by any or all of the organisa-<lb/>
+                     tions associated with it and by communcations<lb/>
+                     to the Press, by meetings and lectures, and by<lb/>
+                     other methods which members may suggest and<lb/>
+                     the Committee approve.<lb/>
+                     (c) The arrangement, if possible, of an Interna-<lb/>
+                     tional Congress in each year, generally in one<lb/>
+                     of the European capitals, at which delegates<lb/>
+                     from the different countreis may confer with<lb/>
+                     one another, and agree to take common action.<lb/>
+                  </item>
+                  <item n="6">THAT allied Committees being left to arrange their<lb/> 
+                     own details of organisations, the Central Committee<lb/>
+                     shall be composed of delegates from the several<lb/>
+                     organisations represented upon it, not more than<lb/>
+                     three delegates being appointed by each organisa-<lb/>
+                     tion, and the Committee shall have power to co-opt<lb/>
+                     in certain cases, individuals not members of the<lb/>
+                     organisations represented. Such co-opted members<lb/>
+                     not to exceed one-fourth of the Committee at the<lb/>
+                     time of co-optation.
+                  </item>
+               </list>
+               <pb n="3"/>
+               <list rend="numbered">
+                  <item n="7">THAT the Joint Committee may appoint an Executive<lb/>
+                     or Sub-Committees, and <add place="above">shall</add> elect for its first year,<lb/>
+                     a Chairman, an Honorary Secretary, and a Treasurer,<lb/>
+                     or other officers.</item>
+                  <item n="8">THAT each organisation represented on the Joint<lb/>
+                     Committee shall contribute not less than £2. per<lb/>
+                     annum owards its funds, the amounts being due at<lb/>
+                     the time of joining and annually afterwards from<lb/>
+                     that date; and that general subscribers of 10s.<lb/>
+                     or upwards, shall be entitled to copies of all its<lb/>
+                     publications and to the right of entrance to its<lb/>
+                     International Congresses or other publich gatherings,<lb/>
+                     but not of voting.</item>
+               </list>
+            </p>
+         </div>
+         </div>
+      </body>
+   </text>
+</TEI>

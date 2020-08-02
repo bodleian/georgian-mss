@@ -85,14 +85,7 @@
                         <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
                      </availability>
                   </adminInfo>
-                  <surrogates>
-                     <bibl type="digital-fascimile" subtype="full">
-                        <ref target="https://digital.bodleian.ox.ac.uk/inquire/p/ad6f884b-a3d9-4030-bcab-877d9d31a584">
-                           <title>Digital Bodleian</title>
-                           <note>(full digital facsimile)</note>
-                        </ref>
-                     </bibl>
-                  </surrogates>
+                  
                </additional>
             </msDesc>
          </sourceDesc>
@@ -176,15 +169,9 @@
          </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
-      <graphic url="folio1r.png"/>
-      <graphic url="folio1v.png"/>
-      <graphic url="folio2r.png"/>
-      <graphic url="folio2v.png"/>
-   </facsimile>
    <text>
       <body>
-         <p><!--Body paragraph provided for validation and future transcription--></p>
+         <p>კ<choice><ex>ე</ex></choice>თ<choice><am>&#x0360;</am><ex>ი</ex></choice>ლ</p>
       </body>
    </text>
 </TEI>
