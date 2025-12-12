@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_45">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. d. 26.1-</title> 
+               <title type="alt" xml:lang="en">Correspondence of Wardrop</title>
+               <title type="alt" xml:lang="ka">მარჯორი უორდროპის წერილები</title>
+            </title>
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
+            <respStmt xml:id="SB">
+               <persName>S. Berikashvili</persName>
+               <resp>transcribed from original MS and converted to XML format</resp>
+               <resp>markup and encoding</resp>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="#Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">2025-11-21</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -44,13 +53,10 @@
                <msContents>
                   <summary>Correspondence of <persName key="person_1">Wardrop, Marjory</persName> letters [in Georgian] from <persName key="person_28">Princess Chavchavadze, Olga</persName></summary>
                   <msItem xml:id="MS_Wardr_d_26.1--item1" n="1">
-                     
+                     <title type="desc">(11a) adressed to <persName>Olga Chavchavadze</persName></title>
                      <editor role="standard" key="person_1">
                         <persName>Wardrop, Marjory</persName>
-                        
                      </editor>
-                     
-                     
                      <listBibl>
                         <bibl>CWC. 325</bibl>
                      </listBibl>
@@ -66,6 +72,10 @@
                               <dim type="folia"/>
                            </dimensions>
                         </extent>
+                        <foliation xml:id="original">
+                           <p>There is not any kind of original pagination.</p>
+                        </foliation>
+                        <condition>Leaves of manuscripts are not damaged.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
@@ -74,7 +84,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major" script="unknown"/>
+                     <handNote scope="major" script="unknown">The whole text of manuscripts is written by hand No1. The scribe is almost certainly <persName key="person_1">Marjory Wardrop</persName></handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -91,6 +101,19 @@
                   </adminInfo>
                </additional>
             </msDesc>
+            <listPlace type="places">
+               <head xml:lang="ka">გეოგრაფიული სახელწოდებები</head>
+               <head xml:lang="en">Geographical Places</head>
+               <place xml:id="place001">
+                  <placeName xml:lang="ka">ბუდაპეშტი</placeName>
+               </place>
+               <place xml:id="place002">
+                  <placeName xml:lang="ka">საქართველო</placeName>
+               </place>			
+               <place xml:id="place003">
+                  <placeName xml:lang="ka">ინგლისი</placeName>
+               </place>			 
+            </listPlace>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -180,7 +203,19 @@
    </facsimile>
    <text>
       <body>
-         <p><!--Body paragraph provided for validation and future transcription--></p>
+         <div>
+            <head>14/24 მარიამობისთვე</head>
+            <pb n="1r"/>
+            <p>დიდათ პატივცემულო და უსაყვარლესო მეგობარო,</p>
+            <p>რაც გუშინ მივიღე თქვენმა <del rend="strikethrough">ჩემთვის</del> ძვირფასმა <del rend="strikethrough">და</del> დიდათ გამახარა. მწუხვარ და მრცხვენიან რომ ასეთი დიდ<del rend="strikethrough">ი</del> ხან<del rend="strikethrough">ი</del> ვერ მოვახერხე ვრცელი წერილის მიწერა თქვენთან, მაგრამ როდესაც დედა აქ ყოფილიყო მთელი <del rend="strikethrough">ჩემი დრო მასთან</del> ორი თვე <del rend="strikethrough">რაც აქ იყო</del> გავატარე ერთად ორი კვირაა კიდევ შინ არის <placeName>ინგლისში</placeName>. მე მასთან <placeName>ბუდაპეშტამდე</placeName> ვიმოგზაურე <del rend="strikethrough">უდედოთ რა</del> დედა <del rend="strikethrough">საკვირველად</del> სულ ჯანმრთელი და ყოჩაღი არის <del rend="strikethrough">იყო</del> და დადის <del rend="strikethrough">რიგი</del> ახალგაზრდა ქალისავით. <del rend="strikethrough">უფრო კარგად დადის ვიდ ჩემზე.</del></p>
+            <p>აქაც დიდი სიცხეები დიდი იყო. დროებაში წავიკითხე რომ <placeName>საქართველოში</placeName> ზაფხული <del rend="strikethrough">საშინლა</del> ფრიად თბილი ყოფილა, და სჩანს რომ ბევრი სიმინდი დაკარგული არის უწვიმობის<del rend="strikethrough">თვის</del> მიერ.</p>
+            <p>გაზეთშიც <del rend="strikethrough">დროებაში</del> წავიკითხე რომ უნდოდათ თქვენი სახლის <del rend="strikethrough">გაკეთება</del> გადაბრუნება მუზეუმში, მაგრამ მერე სწერდეს რომ არ იქმნებაო. <del rend="strikethrough">სურ იმედი მაქვს რომ ქალაქში კარგათ იცხოვრობთ.</del> აბასთუმან<del rend="strikethrough">ში  ჰავა</del> მშვენიერი ალაგი უნდა იყოს <del rend="strikethrough">უფრო</del> და იმედი მაქვს რომ წმინდა ჰაერისაგან <del rend="strikethrough">გაგაკურნებდით</del> უკეთ ბრძანდებით.</p>
+            <p>მეც ღმერთსა ვთხოვ ყოველთვის მაღირსოს თქვენი ნახვა და <placeName>საქართველოს</placeName></p>
+            <pb n="1v"/>
+            <p>მოსვლა. ყოველ წელიწადი ვგონებ რომ მომავალში შეიძლება მოვალ იქითკენ მაგრამ ჯერ <del rend="strikethrough">აქამდის</del> ჩემი ბედში არ წერილია. ცამეტი წელიწადია არ ვყოფილვარ <placeName>საქართველოში</placeName>. <del rend="strikethrough">მაგ</del>  ჩემი გული <del rend="strikethrough">კი</del> მასკენ უკუნისამდე ბრუნდება.</p> 
+            <p>ჩემი ძმაისაგან <del rend="strikethrough">ოლივერ</del> უნდაბლესი მოკითხვა და სალამი. <del rend="strikethrough">მოგახსენებთ.</del> ურიცხვს გაკოცებთ და დავრჩები</p> 
+            <p>თქვენი უღრმესი პატივისმცემელი და გულით მეგობარი.</p>
+         </div>     
       </body>
    </text>
 </TEI>

@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_81">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. f. 11</title> 
+               <title type="alt" xml:lang="en">Georgian Vocabulary</title>
+               <title type="alt" xml:lang="ka">ქართული ლექსიკონი</title>
+            </title>
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="#Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">2025-11-21</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -43,13 +47,11 @@
                   <idno>MS. Wardr. f. 11</idno>
                </msIdentifier>
                <msContents>
-                  <summary>Notebook of <persName key="person_1">Wardrop, Marjory</persName> with Georgian wordlist, fragments of translation</summary>
+                  <summary>Notebook of <persName key="person_1">Wardrop, Marjory</persName> with Georgian wordlist, fragments of translation. The XML includes only the vocabulary section.</summary>
                   <msItem xml:id="MS_Wardr_f_11-item1" n="1">
-                     <author key="person_1"><persName>Wardrop, Marjory</persName></author>
-                     
-                     <title xml:lang="ka-Latn-x-lc" key="work_57">Georgian wordlist</title>
-                     
-                     <textLang mainLang="en">Georgian, English</textLang>
+                     <author key="person_1"><persName>Wardrop, Marjory</persName></author>                     
+                     <title xml:lang="ka-Latn-x-lc" key="work_57">Georgian wordlist</title>                     
+                     <textLang mainLang="en">Georgian, Russian and English used for translations of Georgian texts and word-list.</textLang>
                   </msItem>
                </msContents>
                <physDesc>
@@ -68,7 +70,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major" script="unknown"/>
+                     <handNote scope="major" script="unknown">The whole text of manuscripts is written by hand No1. The scribe is almost certainly <persName key="person_1">Marjory Wardrop</persName></handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -173,7 +175,957 @@
    </facsimile>
    <text>
       <body>
-         <p><!--Body paragraph provided for validation and future transcription--></p>
+         <div>
+            <head>Georgian Vocabulary</head>
+            <head>ქვრივის ლიმონები</head>
+            <p>რჩეულოვი</p>
+            <pb n="r"/>
+            <table>
+               <row>
+                  <cell>p. 3</cell>
+                  <cell>ოდეს</cell>
+                  <cell>when</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>განთქმული</cell>
+                  <cell>celebrated, glorified</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>არა თუ მხოლოდ</cell>
+                  <cell>not only</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ოთხმოცი</cell>
+                  <cell>eighty</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ფანჯარა</cell>
+                  <cell>window (fenster)</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დაფიქრებული</cell>
+                  <cell>thoughtful, melancholy</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გაშტერება</cell>
+                  <cell>to be stupefied</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ხალხი</cell>
+                  <cell>people</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>თვალი დევნა</cell>
+                  <cell>to look (დევნა = pursuit)</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ყიჟინი</cell>
+                  <cell>noise, cry; to make a noise</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ვუჲ</cell>
+                  <cell>ah! alas!</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>წირვა გამოვიდა</cell>
+                  <cell>the mass is said</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>კიდევ</cell>
+                  <cell>again</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მსახური</cell>
+                  <cell>servant</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>თუ რომ</cell>
+                  <cell>if</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>შემოსვლა</cell>
+                  <cell>to enter</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მოხსენება</cell>
+                  <cell>to announce, remember</cell>
+               </row>
+            </table>
+            <pb n="v"/>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>ბრძანება</cell>
+                  <cell>to command, order</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ხტომა</cell>
+                  <cell>to leap, jump</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მარდად</cell>
+                  <cell>quickly, promptly</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დასველება</cell>
+                  <cell>to wet, moisten, make moist</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>თითი</cell>
+                  <cell>finger of the hand; toe</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell><del rend="strikethrough">ნა</del> ნერწყვი</cell>
+                  <cell>saliva, crachat (?)</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>წარბი</cell>
+                  <cell>eyebrow</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>კავები</cell>
+                  <cell>bunch of hair</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გასწორება</cell>
+                  <cell>to redress, rearrange, correct</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ჩახედვა</cell>
+                  <cell>to look down</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>სარკე</cell>
+                  <cell>mirror</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>(გაგება</cell>
+                  <cell>to understand, conceive perfectly</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გაგებება</cell>
+                  <cell>to go to the meeting, to go to meet</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>კარი</cell>
+                  <cell>door</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>შემობრძანება</cell>
+                  <cell>to enter, lead in</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>შუბლი</cell>
+                  <cell>forehead</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მოყვანა</cell>
+                  <cell>to lead</cell>
+               </row>
+            </table>
+            <pb n="r"/>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>დას<del rend="strikethrough">ვ</del>მა</cell>
+                  <cell>to sit, to make to sit</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>თითონ</cell>
+                  <cell>himself, self</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დატუქსვა</cell>
+                  <cell>to scold, reprimand</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გარყ̂უნილი</cell>
+                  <cell>perverted</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>შვილობილი</cell>
+                  <cell>adopted</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მეტადრე</cell>
+                  <cell>particularly, above all; more than</cell>
+               </row>
+               
+               <row>
+                  <cell>p. 4</cell>
+                  <cell>მოსმენა</cell>
+                  <cell>to pay attention, listen</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>სამოცი</cell>
+                  <cell>sixty</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>თექვსმეტი</cell>
+                  <cell>sixteen</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>განღვიძება</cell>
+                  <cell>to watch, reanimate</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ბუნება</cell>
+                  <cell>nature, character</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ყურება</cell>
+                  <cell>to look, regard</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მწვანე, მწ̂უანე</cell>
+                  <cell>green</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მგონია</cell>
+                  <cell>I think</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გადახალისება</cell>
+                  <cell>to purify, refine (metals)</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>შევლა</cell>
+                  <cell>to enter</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>სიჭაბუკე</cell>
+                  <cell>youth</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>განცხადება</cell>
+                  <cell>to discover, declare, manifest</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>შემცნევა</cell>
+                  <cell>to remark, observe, recognise</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ყოფი</cell>
+                  <cell>to be sufficient</cell>
+               </row>
+            </table>
+            <pb n="r"/>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>გაბედვა</cell>
+                  <cell>to dare, to take a resolution, to decide</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დაბეზღება</cell>
+                  <cell>to accuse; complain</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მიბრძანება</cell>
+                  <cell>to go (term of politeness speaking of lords)</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მოცდა (ერთად = together)</cell>
+                  <cell>to wait, take patience, temporise, defer</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ლოდინი</cell>
+                  <cell>attempt, waiting</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ტყუვილი</cell>
+                  <cell>to lie, tell falsehoods</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>კუდიანი</cell>
+                  <cell>who has a tail, sorcerer</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მიზეზი</cell>
+                  <cell>cause, prim, motive, subject, proof</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ნამდჳლი</cell>
+                  <cell>true, veritable, original</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>თქ̂უჱნმა მზემ</cell>
+                  <cell>I conjure you, I pray you</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>უთუოდ</cell>
+                  <cell>doubtless, certainly</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დაწყება</cell>
+                  <cell>I begin</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მაშ</cell>
+                  <cell>what then? in consequence</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მოუსვლელობა</cell>
+                  <cell>not coming (?)</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მიწერა</cell>
+                  <cell>to write to someone, to appropriate, impute, to attribute</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ღიმილი, ღიმი</cell>
+                  <cell>smile</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>თაღლითი</cell>
+                  <cell>false, altered</cell>
+               </row>
+            </table>
+            <pb n="r"/>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>თავადი</cell>
+                  <cell>prince, self, himself</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>რადგანაც</cell>
+                  <cell>since</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გასათხოვარი ქალი</cell>
+                  <cell>marriageable girl</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ამისთვის</cell>
+                  <cell>because of that, then</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დაწვა გულისა</cell>
+                  <cell>to afflict, grieve (burn)</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დაჩაგრვა</cell>
+                  <cell>to oppress, persecute, verc,</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>თორემ</cell>
+                  <cell>if not</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მაგიერის გარდახდა</cell>
+                  <cell>to pay, recompense</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>შენისთანა</cell>
+                  <cell>like thee</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ახალგაზდა</cell>
+                  <cell>young</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>საშიში</cell>
+                  <cell>dangerous</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გესლიანი</cell>
+                  <cell>venomous</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დაზოგვა</cell>
+                  <cell>to preserve, spare, economize</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>თავიანი</cell>
+                  <cell>active, laborious</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>შავება</cell>
+                  <cell>to blacken, transgress</cell>
+               </row>
+               
+               <row>
+                  <cell>5.</cell>
+                  <cell>მეტად</cell>
+                  <cell>too much, very</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>შესაბრალისი</cell>
+                  <cell>initiable, poor, miserable</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გონჯი</cell>
+                  <cell>monster</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>სილამაზე</cell>
+                  <cell>beauty</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>შეშურვება</cell>
+                  <cell>to envy</cell>
+               </row>
+            </table>
+            <pb n="v"/>            
+            <table>
+               <row>
+                  <cell/>
+                  <cell>გარევა</cell>
+                  <cell>to mix, implicate; be engaged in</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>წაწყევა</cell>
+                  <cell>curse</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გაგონება</cell>
+                  <cell>to listen, hear, understand</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დაკარგვა</cell>
+                  <cell>to lose, exile</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გემოვნება</cell>
+                  <cell>taste</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>აღარ</cell>
+                  <cell>no more, no longer</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მიჭრა</cell>
+                  <cell>to cut off, to shorten, to ruin it</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ხვალმე</cell>
+                  <cell>frequentative particle</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>სიამოვნე</cell>
+                  <cell>charm, agreement, grace</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ჩინებული</cell>
+                  <cell>notable, distinguished, illustrious, known</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>უწყალო</cell>
+                  <cell>inhuman, austere</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გარემო</cell>
+                  <cell>around, nature</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>შემოვლება</cell>
+                  <cell>to go around, to trace</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>წრე</cell>
+                  <cell>circle</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ჰაერი</cell>
+                  <cell>atmosphere</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ჭერა</cell>
+                  <cell>to hold, to hire</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>აღტაცება</cell>
+                  <cell>to carry off, to be delighted</cell>
+               </row>
+            </table>
+            <pb n="r"/>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>მიგება</cell>
+                  <cell>to add, to augment, to procure and advocate</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მწყალობელი</cell>
+                  <cell>gracious</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ბრძანდებით</cell>
+                  <cell>you find, you are</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell><del rend="strikethrough">მწირე</del><lb/>მცირე</cell>
+                  <cell>little, inconsiderable</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>კისრება</cell>
+                  <cell>to take something on oneself</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მოგრეხა</cell>
+                  <cell>to bend back, a bend in form of a bow</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ყურება</cell>
+                  <cell>to listen, to look</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ამაოდ</cell>
+                  <cell>in vain, useless</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>თ̂უალიერება</cell>
+                  <cell>to remark, observe</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მტკივანი</cell>
+                  <cell>ill, sick</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გულ-მტკივანი</cell>
+                  <cell>a heart full of compassion</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დაღონებული</cell>
+                  <cell>melancholy, sad</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>(ათინათი</cell>
+                  <cell>ray of sunlight</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ძველად</cell>
+                  <cell>anciently, formerly</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>საბერძნეთი</cell>
+                  <cell>Greece</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ათინა</cell>
+                  <cell>Athens</cell>
+               </row>
+               
+               <row>
+                  <cell>6.</cell>
+                  <cell>უბრალო</cell>
+                  <cell>pure; simple; vain</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell><del rend="strikethrough">გ</del>გარნა</cell>
+                  <cell>but; however; except; without</cell>
+               </row>
+            </table>
+            <pb n="v"/>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>თაყ̂უანის-ცემა</cell>
+                  <cell>to adore, reverence</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ოხვრა</cell>
+                  <cell>noise, sound; to sigh, make a noise</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>საჩუქარი</cell>
+                  <cell>gift</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დაბეზღება</cell>
+                  <cell>to accuse, complain</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>თურმე</cell>
+                  <cell>(past tense + თ., expresses doubt)</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გაჯავრებული</cell>
+                  <cell>irritated</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ურწმუნოება</cell>
+                  <cell>incredulity, infidelity</cell>
+               </row>
+               
+               <row>
+                  <cell>l. 4.</cell>
+                  <cell>სამსჯავრო</cell>
+                  <cell>tribunal, court of justice</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მაშინდელი</cell>
+                  <cell>of that time</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ჩვეულება</cell>
+                  <cell>habit, custom, measure</cell>
+               </row>
+               
+               <row>
+                  <cell>l. 5.</cell>
+                  <cell>გარდაწყვეტა</cell>
+                  <cell>to decide, sentence, determine</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>განძება</cell>
+                  <cell>to expel, chase</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დაბარება</cell>
+                  <cell>to confide, to invite, call</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გამოსაწცხადებელი</cell>
+                  <cell>declaration, notification</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>წევრი</cell>
+                  <cell>member</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>კია = (?) კი</cell>
+                  <cell>yes, does, also</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გაგონება</cell>
+                  <cell>to listen, hear, understand</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ჩამოგლეჯა</cell>
+                  <cell>to separate by tearing, tearing off</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>საფარებელი</cell>
+                  <cell>covering</cell>
+               </row>
+            </table>
+            <pb n="r"/>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>მყოფი</cell>
+                  <cell>being, existing</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ვითარმედ</cell>
+                  <cell>that</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ვითარი</cell>
+                  <cell>some, such that</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მაცხადი</cell>
+                  <cell>clear, manifest</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გონება</cell>
+                  <cell>reason, spirit, thought</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell><del rend="strikethrough">წ</del></cell>
+                  <cell>reflection, conscience</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>წარმოდგენა</cell>
+                  <cell>to represent, present before the eyes</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>წარმოდგენა</cell>
+                  <cell>to resuscitate, make to live</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>განცჳფრება</cell>
+                  <cell>p.p. astonished</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მოვლინებული</cell>
+                  <cell>descended from on high</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>საკვირველება</cell>
+                  <cell>miracle</cell>
+               </row>
+            </table>
+            <pb n="v"/>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>სამება</cell>
+                  <cell>Trinity</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>არსება</cell>
+                  <cell>essence, substance</cell>
+               </row>
+            </table>
+            <pb n="r"/>
+            <table>
+               <row>
+                  <cell/>
+                  <cell><hi rend="underline">დაბრიყვება</hi></cell>
+                  <cell>to make a fool of, dupe; oblige, force, compel</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell><hi rend="underline">დაბალი ღობე</hi></cell>
+                  <cell>easily got over (lit. low hedge)</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell><hi rend="underline">ბოტება</hi>, ბოტებვა</cell>
+                  <cell>to march over (of an elephant)</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell><hi rend="underline">ჭელვა</hi></cell>
+                  <cell>to trample, tread</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell><hi rend="underline">გაჩანაგება</hi></cell>
+                  <cell>to drag away stealthily; pilfer</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell><hi rend="underline">აღგვა</hi></cell>
+                  <cell>to sweep up</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell><hi rend="underline">ჩლუნგი</hi></cell>
+                  <cell>blunt</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>გაღატაკებული</cell>
+                  <cell>beggared</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell><del rend="strikethrough">მხადა</del> მხდალი</cell>
+                  <cell>timid, cowardly</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ლაჩარი</cell>
+                  <cell>coward</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ფლიდი</cell>
+                  <cell>wretch, rascal, dastard, shameless</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ავლადიდება</cell>
+                  <cell>wealth, possessions</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>თვისება</cell>
+                  <cell>to suit, acquire, become friendly</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>მოჩხრეკა</cell>
+                  <cell>examine, follow up</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ბოსელი</cell>
+                  <cell>cowshed, byre</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>თითხნა</cell>
+                  <cell>soil, dirt</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ბათილება</cell>
+                  <cell>annul, destroy, make nought</cell>
+               </row>
+            </table>
+            <pb n="v"/>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>ფუქსავატი</cell>
+                  <cell>empty, brittle</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>უპრიანი</cell>
+                  <cell>preferable, preeminent</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>შეურყევლობა</cell>
+                  <cell>immovability, solidarity</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>უნარი</cell>
+                  <cell>trick, diabolic trick</cell>
+               </row>
+            </table>
+            <pb n="r"/>
+            <p>
+               If I had known რო მცნო რო მცნოდნოდა<lb/>
+               რ. მ. <lb/>
+               რო მცოდნოდა if I had known<lb/>
+               საშინელი დრო გახლავთ - it is a bad time<lb/>
+               იმედი მაქვს - I hope<lb/>
+               სურვილი - I wish<lb/>
+               მობძანდებიან - they may come               
+            </p>            
+         </div>
       </body>
    </text>
 </TEI>
