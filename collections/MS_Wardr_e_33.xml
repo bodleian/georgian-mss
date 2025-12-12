@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_72">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. e. 33</title> 
+               <title type="alt" xml:lang="en">Notebook of Marjory Wardrop</title>
+               <title type="alt" xml:lang="ka">მარჯორი უორდროპის დღიური</title>
+            </title>
+            <funder>JISC</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">2025-11-21</date>            
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">MS_Wardr_e_33</idno>
+            <idno type="catalogue">Georgian</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Wardr_e_36" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection type="main">Oriental Manuscripts Wardrop Collection</collection>
+                  <idno type="msID">MS_Wardr_e_33</idno> 
+               </msIdentifier>
+               <msContents>
+                  <summary>Notebook of <persName key="person_1">Marjory Wardrop</persName>. 
+                     Contains drafts of 4 letters in Georgian (to <persName> Olga Chavchavadze</persName> <date when="1909-03-16">3.16.1909</date>; 
+                     to Mr. <persName>Avalishvili</persName>, <date from="1909-10-04" to="1909-10-17">4/17.10.09</date>; 
+                     to Mr. <persName>Rtskhiladze</persName>, undated; and to <persName>S. P̣irtskhalava</persName>, undated) 
+                     and 1 letter in English, to Mr. <persName>Cherkesov</persName>, undated. 
+                     Also, short word-list &amp; 2 fragments of Georgian-English translation.
+                  </summary>
+                  <msItem xml:id="MS_Wardr_e_33-item1" n="1">
+                     <author key="person_1"><persName>Wardrop, Marjory</persName></author>                     
+                     <title xml:lang="ka-Latn-x-lc" key="work_57">Notebook of Marjory Wardrop</title>                     
+                     <textLang mainLang="ka">Georgian and English used for translations of Georgian texts and word-list.</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <extent>40 ff. <dimensions type="photograph" unit="cm"/>
+                           <height>24</height>
+                           <width>15</width>
+                        </extent>
+                        <foliation>There is not any kind of original pagination. Pencil pagination is added probably by the library. Word-list alongside English translations start from the end of the notebook from v20 to r19</foliation>
+                        <condition>Leaves of manuscripts are not damaged. Some pages are left blank</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <dimensions type="line-height" unit="mm"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" script="unknown">The whole text of manuscripts is written by only one hand. The scribe is almost certainly <persName key="person_1">Marjory Wardrop</persName></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1909">1909</origDate>
+                  </origin>
+                  <acquisition>
+                     <date/></acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>).</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+            <listPlace type="places">
+               <head xml:lang="ka">გეოგრაფიული სახელწოდებები</head>
+               <head xml:lang="en">Geographical Places</head>
+               <place xml:id="place001">
+                  <placeName xml:lang="ka">საქართველო</placeName>
+               </place>
+               <place xml:id="place002">
+                  <placeName xml:lang="ka">ინგლისი</placeName>
+               </place>
+               <place xml:id="place003">
+                  <placeName xml:lang="ka">შოტლანდია</placeName>
+               </place>
+               <place xml:id="place004">
+                  <placeName xml:lang="ka">მთაწმინდა</placeName>
+               </place>
+               <place xml:id="place005">
+                  <placeName xml:lang="ka">თბილისი</placeName>
+               </place>
+               <place xml:id="place006">
+                  <placeName xml:lang="ka">England</placeName>
+               </place>               
+               <place xml:id="place007">
+                  <placeName xml:lang="ka">Georgia</placeName>
+               </place> 
+               <place xml:id="place008">
+                  <placeName xml:lang="ka">Kartli</placeName>
+               </place> 
+               <place xml:id="place009">
+                  <placeName xml:lang="ka">London</placeName>
+               </place>  
+            </listPlace>
+            <listPerson type="real">
+               <head xml:lang="ka">ისტორიული ფიგურები</head>
+               <head xml:lang="en">Historic figures</head>
+               <person xml:id="person001">
+                  <persName xml:lang="ka">მარჯორი უორდროპი</persName>
+               </person>
+               <person xml:id="person002">
+                  <persName xml:lang="ka">ოლგა ჭავჭავაძე</persName>
+               </person>
+               <person xml:id="person003">
+                  <persName xml:lang="ka">ვოგან ვილიამსი</persName>
+               </person>
+               <person xml:id="person004">
+                  <persName xml:lang="ka">თომას უორდროპი</persName>
+               </person>
+               <person xml:id="person005">
+                  <persName xml:lang="ka">ბ. ავალიშვილი</persName>
+               </person>
+               <person xml:id="person006">
+                  <persName xml:lang="ka">ბ. ქუჩუკაშვილი</persName>
+               </person>
+               <person xml:id="person007">
+                  <persName xml:lang="ka">ბ. რცხილაძე</persName>
+               </person>               
+               <person xml:id="person008">
+                  <persName xml:lang="ka">ბ. ფირცხალავა</persName>
+               </person>               
+               <person xml:id="person009">
+                  <persName xml:lang="ka">დუტუ მეგრელი</persName>
+               </person>               
+               <person xml:id="person010">
+                  <persName xml:lang="ka">Mr. Tcherkesoff</persName>
+               </person>               
+               <person xml:id="person011">
+                  <persName xml:lang="ka">Mrs. Tcherkesoff</persName>
+               </person>               
+               <person xml:id="person012">
+                  <persName xml:lang="ka">Mikhako Tsereteli</persName>
+               </person>               
+               <person xml:id="person013">
+                  <persName xml:lang="ka">Ivane Javakhishvili</persName>
+               </person>     
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="local_class">
+               <category xml:id="commentary">
+                  <catDesc>Commentary</catDesc>
+               </category>
+               <category xml:id="supercommentary">
+                  <catDesc>Supercommentary</catDesc>
+               </category>
+               <category xml:id="indices">
+                  <catDesc>Indices</catDesc>
+               </category>
+               <category xml:id="translation">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="multipleWorks">
+                  <catDesc>multipleWorks</catDesc>
+               </category>
+               <category xml:id="abridgement">
+                  <catDesc>Abridgement</catDesc>
+               </category>
+               <category xml:id="supplement">
+                  <catDesc>Supplement</catDesc>
+               </category>
+               <category xml:id="papers">
+                  <catDesc>Papers</catDesc>
+               </category>
+               <category xml:id="documents">
+                  <catDesc>Documents</catDesc>
+               </category>
+               <category xml:id="extract">
+                  <catDesc>Extract</catDesc>
+               </category>
+               <category xml:id="gloss">
+                  <catDesc>Gloss</catDesc>
+               </category>
+               <category xml:id="selection">
+                  <catDesc>Selection</catDesc>
+               </category>
+               <category xml:id="diagrams">
+                  <catDesc>Diagrams</catDesc>
+               </category>
+               <category xml:id="notes">
+                  <catDesc>Notes</catDesc>
+               </category>
+               <category xml:id="letters">
+                  <catDesc>Letters</catDesc>
+               </category>
+               <category xml:id="versification">
+                  <catDesc>Versification</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term key="subject_sh89005067">Georgian manuscripts</term>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-12-12">
+            <persName>Svetlana Berikashvili</persName> prepared .xml file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="folio1r.png"/>
+      <graphic url="folio1v.png"/>
+      <graphic url="folio2r.png"/>
+      <graphic url="folio2v.png"/>
+   </facsimile>
+   <text>
+      <body><div type="letter">
+         <opener>
+            <dateline>
+               <date when="1909-10-16">3/16 ღვინობისთვე 1909 წ.</date>
+            </dateline>
+            <salute>ღრმათ პატივცემულო და უსაყვარლესო მეგობარო,</salute>
+         </opener>         
+         <note type="foliation">fol. r</note>
+         <p>
+            To: Olga Chavchavadze
+         </p>         
+         <p>
+            თქვენი წიგნი მომივიდა; დიდათ მადლობელი ვარ თქვენი მოგონებისთვის. მე კიდევ ერთხელ
+            დამნაშავე ვარ მოუწერლობისა, მაგრამ უქეიფოთ ვიყავი და ერთი კვირა ლოგინში გავატარე.
+            ახლა სულ კარგათ ვართ ორნივე. ამ შემოდგომას სტუმრები ბევრი იყო ჩვენთან და მათ შორის
+            ერთი ბატონი ვოგან ვილლიამსი რომელიც ბევრს ლაპარაკობდა საქართველოზე სადაც მოგზაურობდა
+            წინეთ და თქვენი ღრმათ პატივცემულ და დაუვიწყარ ქმართან იყო.
+         </p>         
+         <p>
+            მეც დიდათ მინდა თქვენი ნახვა. გულით მწუხვარ რომ თქვენ<del rend="strikethrough">ი</del> ავათმყობი ჰბრძანდებით და
+            თქვენი ძვირფასი თვალებ<del rend="strikethrough">ი</del>ს სინათლე აკლია. თქვენ ჰწერთ ამდენ <del rend="strikethrough">კარგათ</del> მშვენივრათ;
+            ძნელია დავიჯეროთ რომ კარგათ ვერ ჰხედავთ!
+         </p>         
+         <p>
+            ჩვენი დედა შოტლანდიაში ყოფილა ნათესავებთან და თომა შოტლანდიაშიც ჰნადირობდა.
+            სამწუხაროთ ავდარი ყოფილა.
+         </p>         
+         <note type="foliation">fol. v</note>         
+         <p>
+            წელს საზოგადოთ ინგლისში ზაფხული წვიმიანი და ცივი იყო.
+         </p>         
+         <p>
+            თქვენი სახლის აღწერმა დიდათ მომწონს. ძალიან მშვენიერი ადგილი უნდა იყოს მთაწმინდაზე
+            და თუ მე თბილისში ვცხოვრობდე იქაც უფრო მოსაწონი იქმნებოდ<del rend="strikethrough">ეს</del>ა.
+         </p>
+      </div>
+      <div type="letter">
+            <opener>
+               <dateline>
+                  <date when="1909-10-14">4/14 ღვინობისთვე 1909 წ.</date>
+               </dateline>
+               <salute>მოწყალეო ხელმწიფევ,<lb/>
+               <persName>ბ. ავალიშვილი</persName></salute>
+            </opener>            
+            <p>
+               ამ წლის დასაწყისში და კიდევ ვარდობისთვეში მე მივსწერე ბ. ქუჩუკაშვილთან და დავიბარე
+               გაზეთები, ჟურნალები და წიგნებიც. <del rend="strikethrough">და</del> პირველ წერილთან გამოვიგზავნე 40 მან. შარშანაც
+               გამოვიგზავნე 40 მან. წ.კ.ხაზ. <del rend="strikethrough">მივიღე ერთი დღიური გაზეთი და ნაკა</del> ჟურნალები და ცოტანი
+               წიგნებიც მაგრამ არც წერილი არც ანგარიში <del rend="strikethrough">წ.კ. საზოგადოებისაგან</del> და არც ერთი <del rend="strikethrough">აიმათი</del>
+               წიგნ<del rend="strikethrough">ებ</del>ი რომელიც ვარდობისთვეში დავიბარე დღესაც არ მიმიღია. <del rend="strikethrough">არ ვიცი ფული დარჩა
+               საზოგ.-ში თუ არა.</del> გთხოვთ, <del rend="strikethrough">მოწყალეო ხელმწიფევ,</del> გამომიგზავნოთ
+            </p>            
+            <note type="foliation">fol. r</note>            
+            <p>
+               წიგნები რომლისგან სია აქ მეორეთ გახლავს. <del rend="strikethrough">მე მინდა და თუ</del> ანგარიში გამომიგზავნით ფულს
+               გიგზავნით ანუ ჩექით ანუ რუსის ქაღალდებით. <del rend="strikethrough">ძნელია რომ იმედი მაქვს რომ ეხლა არ იქნება
+               ასეთი ძნელი ქართული გაზეთი მი და წიგნების მივიღება, ვითა აქამდის.</del>
+            </p>            
+            <closer>
+               <salute>თქვენი პატი....</salute>
+               <address>
+                  <addrLine>ჩემი ადრესი წიგნებისთვის: The British Legation</addrLine>
+               </address>
+            </closer>
+         </div>
+         <div type="letter">
+            <opener>
+               <salute>დიდათ პატივცემულო ბ. რცხილაძე,</salute>
+            </opener>            
+            <p>
+               <del rend="strikethrough">დიდ მადლობას მოგახსენებთ თქვენი წერილისათვის და საჩუქარ 6 ჟურნალ წიგნებისათვის.
+               შესანიშნავი</del> მივიღე თქვენი წერილი და <del rend="strikethrough">საჩ</del> ნაჩუქარ ჟურნალი
+               <title>მოსავალი</title> <del rend="strikethrough">და წიგნები</del> თქვენი თხზულებებთან. დიდ მადლობას მოგახსენებთ; ჩვენ
+               ქართულ წიგნთა-კრებულის ძალიან საყურადღებო დაშემატება არის. ჩვენი <del rend="strikethrough">აზრია</del>
+               სურვილია ყველა ქართული წიგნის შეკრება, რაც შეიძლება; <del rend="strikethrough">და მერე</del> მერე შემდეგში
+               მივართმევდი, <del rend="strikethrough">ჩვენი სიკვდილის</del> შემდეგ, ერთ ინგლისელ მუზეუმში ასე რომ
+               მუდმივი
+            </p>            
+            <note type="foliation">fol. v</note>            
+            <p>
+               <del rend="strikethrough">ქართული</del> ვინც სურს ქართული ენას შესწავლა ადვილად შოვნის / შეიძენს რაც საჭირო
+               არის. ბოდიშს ვიხდი რომ უქეიფობის გამო ამდენ ხანს თქვენი კეთილი წერილი
+               უპასუხოთ დარჩა. <del rend="strikethrough">უქეიფოთ ვიყავი</del> ერთი საათი წინედ რომ მივიღე თქვენი წერილი,
+               გამოვიგზავნე მეორედ იმ წიგნების სია რომელიც მინდოდა და <del rend="strikethrough">ჯერ მი</del> თუმცა ჯერ არ
+               მომსვლია, <del rend="strikethrough">ალბათ</del> უსათუოთ მალე მივიღო.
+            </p>            
+            <p>
+               რაც მისწერთ საქართველოზე ფრიად მაწუხებს. თქვენი მშვენიერი სამშობლო ასე
+               ღრმათ მიყვარს რომ ჩემი უდიდესი სურვილი მისი ბედნიერებაა.
+            </p>            
+            <closer>
+               <salute>კიდევ ერთხელ გმადლობ<del rend="strikethrough">ას</del>თ</salute>
+               <salute>თქვენი ღრმათ პატივისმცემელი</salute>
+            </closer> 
+         </div>
+         <div type="letter">
+            <note type="foliation">fol. r</note>            
+            <opener>
+               <persName>ბ. ს. ფირცხალავა</persName>               
+               <salute>დიდათ პატივცემულო ბ. ფირცხალავა,</salute>
+            </opener>            
+            <p>
+               დიდ მადლობას მოგახსენებთ თქვენი წერილისათვის და წიგნებისთვის. მიხარიან რომ
+               ახლა უფრო ადვილათ უნდა მივიღოთ ქართული წიგნები. მე ჯერ <del rend="strikethrough">გამოგიგზავნეთ</del>
+               გიახელით ოქტომბერში, <persName>ბ. ავალიშვილის</persName> სახელზე, მეორედ იმ წიგნების სია
+               რომელიც მსურდა რომ გამოგვიგზავნოთ და იმედი მაქვს, <del rend="strikethrough">რომ</del> მალე <del rend="strikethrough">ამათ</del> მივიღებთ.
+               გთხოვთ <del rend="strikethrough">შემდეგში</del> ამ წლის დასასრულზე გამოგვიგზავნით სრული ანგარიში ყველა
+               წიგნებისათვის, <del rend="strikethrough">რაც თქვენგან უკვე გამოგზავნილი არის, რაც</del> ჩემი წლიური
+               ხელწერილი ფულით.
+            </p>
+         </div>
+         <div type="letter">
+            <note type="foliation">fol. v</note>            
+            <opener>
+               <salute>Dear Mr. Tcherk,...</salute>
+            </opener>            
+            <p>
+               We were glad to hear from Mrs Tcherkesoff’s letter that you are both keeping
+               well. We were interested in what she told us about your friend
+               <persName>Mikhako Tsereteli</persName>. My brother and I have often wished
+               that we might help some young Georgian to study in England, but it is
+               difficult to know what is the best to do. If it is only lack of means which
+               prevents Mr Tsereteli from coming to London to study the Babylonian and other
+               tongues we should be only too pleased to contribute £50 towards his
+               expenses, but we wish no one but you to know where the money comes from.
+               Would you let us know what you think of the plan? If the result were
+               satisfactory we should feel encouraged to try
+            </p>
+         </div>
+         <div>
+            <note type="foliation">fol. r</note>
+            <head>Georgian Words</head>
+            <table>
+               <row role="label">
+                  <cell>Georgian</cell>
+                  <cell>English</cell>
+                  <cell>Georgian</cell>
+                  <cell>English</cell>
+               </row>
+               
+               <row>
+                  <cell>თავზედ მეხვევა</cell>
+                  <cell>surge upon</cell>
+                  <cell>დუმილი</cell>
+                  <cell>dumb</cell>
+               </row>
+               
+               <row>
+                  <cell>გამწვავებული</cell>
+                  <cell>enraged with pain</cell>
+                  <cell>მეგონა</cell>
+                  <cell>methought</cell>
+               </row>
+               
+               <row>
+                  <cell>აღქაფებული</cell>
+                  <cell>foaming, frothy</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               
+               <row>
+                  <cell>ქცევა</cell>
+                  <cell>pour forth</cell>
+                  <cell>დ. მეგრელი „ცრემლები“</cell>
+                  <cell/>
+               </row>
+               
+               <row>
+                  <cell>გამოისობა</cell>
+                  <cell>reason</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               
+               <row>
+                  <cell>გამოისობით</cell>
+                  <cell>because of</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               
+               <row>
+                  <cell>ჩხიკვი</cell>
+                  <cell>brown owl</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               
+               <row>
+                  <cell>ნიბლია</cell>
+                  <cell>chaffinch</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               
+               <row>
+                  <cell>გნოლი</cell>
+                  <cell>grey partridge</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               
+               <row>
+                  <cell>ქერონი</cell>
+                  <cell>?</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               
+               <row>
+                  <cell>წიპრები</cell>
+                  <cell>?</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               
+               <row>
+                  <cell>ღობე-მძვრალი</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+            </table>            
+         </div>
+         <div type="poem">
+            <note type="foliation">fol. r</note>            
+            <head>ცრემლები</head>
+            <byline>by <persName>დუტუ მეგრელი</persName></byline>            
+            <lg>
+               <l>
+                  When in the struggle with the waves of life, shorn of strength,
+                  enfeebled, I stand alone without a comrade forgotten of all;
+               </l>
+               <l>
+                  When thoughts, black thoughts surge in my brain I think with horror
+                  of all my past and am furious with the present;
+               </l>
+               <l>
+                  When terrible grief slays my soul and grows my heart enraged with pain,
+                  faith is killed in me and I gaze at the future too with hope quite wanting; –
+               </l>
+               <l>
+                  Then tears, <del rend="strikethrough">litter</del> burning tears, my only faithful companions bring balm
+                  to my wound and I weep, I weep bitterly!
+               </l>
+               <l>Oh! why can I not pour myself forth all in tears.</l>
+               <l>
+                  That I might becoming a foaming river and cleanse the evil established
+                  on the earth?!
+               </l>
+            </lg>            
+            <note type="editorial">wash out</note>
+         </div>
+         <div type="note">
+            <note type="foliation">fol. v</note>            
+            <head>History of the Georgian people</head>
+            <byline>by <persName>Iv. Javakhishvili</persName></byline>            
+            <p>
+               For 8 years has applied modern scientific methods to Georgian historical
+               sources and finds the past of his people of much more importance and
+               interest than they had believed in the last two decades, especially as
+               many new important sources and many manuscripts have been printed.
+               History to be divided into four periods: I from earliest times to first
+               half of VII century – until the Arabs’ mastery.
+               Has already printed
+               <title>Georgia’s King and the History of His Sway</title>
+               and
+               <title>Economic History of Georgia</title>.
+               The third,
+               <title>History of Georgian Land</title>, bk. I, ? printed.
+               Has not made use of Kartl. Jvkh. for reasons explained in
+               <title>Aims and Methods of History Past and Present</title>,
+               where there is a critical survey of Georgian historical sources.
+               Hope to print maps and illustrations in succeeding volumes.
+            </p>
+         </div>
+         
+      </body>
+   </text>
+</TEI>
