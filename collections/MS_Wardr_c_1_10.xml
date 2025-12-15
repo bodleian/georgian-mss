@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_17">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. c. 1(10)</title> 
+               <title type="alt" xml:lang="en">Georgian-English wordlist</title>
+               <title type="alt" xml:lang="ka">ქართულ-ინგლისური სიტყვათა სია</title>
+            </title>
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
-            <date calendar="#Gregorian">[Date when first made available]</date>
+            <date calendar="#Gregorian">2025-11-21</date>
             <pubPlace>
                <address>
                   <addrLine>Department of Special Collections</addrLine>
@@ -45,25 +50,25 @@
                <msContents>
                   <summary>Georgian-English word-list(unfinished)</summary>
                   <msItem xml:id="MS_Wardr_c_1_10-item1" n="1">
-                     <author key="person_1"><persName>Wardrop, Marjory</persName></author>
-                     
-                     <title xml:lang="en-Latn-x-lc" key="work_90">Georgian-English word-list</title>
-                     
+                     <author key="person_1"><persName>Wardrop, Marjory</persName></author>                     
+                     <title xml:lang="en-Latn-x-lc" key="work_90">Georgian-English word-list</title>                     
                      <listBibl>
                         <bibl>CWC, 307</bibl>
                      </listBibl>
-                     <textLang mainLang="en">English</textLang>
+                     <textLang mainLang="en">English and Georgian</textLang>
                      <note>Inscribed (f. I): 'Georgian-English Dictionary. Begun June 8th, 1895. Finished'. Contains about 200 words beginning with the letter ban, from b to barbareba.</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="leaf">
+                  <objectDesc form="codex">
                      <supportDesc material="chart">
                         <extent>21 ff. <dimensions type="leaf" unit="cm">
                               <height>25</height>
                               <width>20</width>
                            </dimensions>
                         </extent>
+                        <foliation>There is not any kind of original pagination. Pencil pagination is probably added by the library. Pagination in the whole C1 starts from 32 up to 53.</foliation>
+                        <condition>Leaves of manuscripts are not damaged.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
@@ -72,7 +77,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major" script="unknown"/>
+                     <handNote scope="major" script="unknown">The whole text of manuscripts is written by only one hand. The scribe is almost certainly <persName key="person_1">Marjory Wardrop</persName></handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -169,6 +174,9 @@
          <change when="2011-05-12">
             <persName>Nikoloz Aleksidze</persName>
          </change>
+         <change when="2025-11-21">
+            <persName>Svetlana Berikashvili</persName>
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -179,7 +187,913 @@
    </facsimile>
    <text>
       <body>
-         <p><!--Body paragraph provided for validation and future transcription--></p>
+         <div>
+            <head>Georgian-English Dictionary</head>            
+            <byline>
+               Written by <persName>Major Wardrop</persName>
+            </byline>            
+            <head xml:lang="ka">ქართულ-ინგლისური ლექსიკონი</head>            
+            <p>
+               <date type="begun" when="1895-06-08">Begun: June 8th, 1895</date>
+            </p>            
+            <p>
+               <date type="finished">Finished:</date>
+            </p>
+            <pb n="33/2r"/>
+            <table>
+               <row role="label">
+                  <cell>Georgian letter</cell>
+                  <cell>Description</cell>
+               </row>               
+               <row>
+                  <cell>ბ</cell>
+                  <cell>
+                     <p>
+                        <hi rend="italic">b</hi> is a consonant called in Georgian
+                        <hi rend="italic">ban</hi> (ბან); its value numerically is 2,
+                        but with the sign ღ (ღბ) it stands for 20 t’humans or roubles.
+                     </p>
+                     <p>
+                        Before the letter <hi rend="italic">r</hi> (რ) it sometimes
+                        changes into <hi rend="italic">m</hi> (მ) or
+                        <hi rend="italic">p</hi> (პ), e.g.:
+                        ბრუდე, მრუდე (bent, twisted);
+                        ბრპენი, პრპენი (pewter, lead).
+                        After the letter <hi rend="italic">b</hi> (ბ),
+                        <hi rend="italic">r</hi> (რ) is sometimes left out altogether,
+                        e.g.: ბრძანება, ბძანება (to command, order; to be).
+                     </p>
+                     <p>
+                        <hi rend="italic">b</hi> is sometimes placed at the beginning of
+                        a word for the sake of harmony
+                        <add place="above">euphony</add>, e.g.:
+                        ჟირი, ბჟირი (a kind of millet);
+                        დღვილი, ბდღვილი (resin, tar, pitch).
+                     </p>
+                     <p>
+                        Abbreviation:
+                        <hi rend="italic">ბ-ნი</hi> (ბატონი = Mr).
+                     </p>
+                  </cell>
+               </row>
+            </table>
+            
+            <table>
+               <row>
+               <cell>ბაასი</cell>
+               <cell>
+                  (ცილობა, პაექრობა, ლაპარაკში შებმა);
+                  dispute, discussion, contest, debate
+               </cell>
+               </row>               
+               <row>
+                  <cell>ბაასობა</cell>
+                  <cell>
+                     ვბაასობ, ვიბაასებ, ვებაასები (ვსცდილობ, ვპაექრობ);
+                     debate, dispute, discuss; ნაბაასები
+                  </cell>
+               </row>               
+               <row>
+                  <cell>საბაასო</cell>
+                  <cell>disputable</cell>
+               </row>               
+               <row>
+                  <cell>ბაბა</cell>
+                  <cell>childish expression for bread</cell>
+               </row>
+            </table>
+            <pb n="34r"/>
+            <table>
+               <row>
+                  <cell>ბაბანი</cell>
+                  <cell><del rend="strikethrough">(თრთოლა)</del> trembling, shuddering</cell>
+               </row>               
+               <row>
+                  <cell>ბაბაყული</cell>
+                  <cell><del rend="strikethrough">(ბობოყველა)</del> a name of a bird</cell>
+               </row>               
+               <row>
+                  <cell>ბაბაჭუა</cell>
+                  <cell><del rend="strikethrough">(ობობა, დედა ზარდლისა)</del> spider</cell>
+               </row>               
+               <row>
+                  <cell><del rend="strikethrough">ბაბათა</del></cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბაბთა</cell>
+                  <cell><del rend="strikethrough">(ბადე, მაქმანი)</del> lace</cell>
+               </row>               
+               <row>
+                  <cell>ბაბილო</cell>
+                  <cell>
+                     1. <del rend="strikethrough">(რქა ვაზთა ან სხვათა ნერგთა, ნორჩი, შიმალი)</del>
+                     branch, bough, sprout, shoot.
+                     <ref>Exek: XXXI-8; Ps: LXXX-10</ref>;
+                     <lb/>
+                     2. <del rend="strikethrough">(კრიჭინა, რძღვამლი, უსურვაზი, მორცხვლა)</del>
+                     wild vine
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბაბრაბი</cell>
+                  <cell><del rend="strikethrough">(ბაბრის ტყავი)</del> leopardskin, beaverskin</cell>
+               </row>               
+               <row>
+                  <cell>ბაბრი</cell>
+                  <cell>T. <del rend="strikethrough">(ჯიქი)</del> leopard, beaver</cell>
+               </row>               
+               <row>
+                  <cell>ბაბღანი</cell>
+                  <cell>T. parrot</cell>
+               </row>               
+               <row>
+                  <cell>ბაბღანი<note type="editorial">Move this entry after <mentioned>ბაბუშველა</mentioned>.</note></cell>
+                  <cell><del rend="strikethrough">(დათვის ტყავი)</del> bearskin</cell>
+               </row>               
+               <row>
+                  <cell>ბაბუა</cell>
+                  <cell>grandfather</cell>
+               </row>               
+               <row>
+                  <cell>
+                     ბაბუას საგძალი, ბაბუას წერი, ბაბუსაგძალა, ბაბუსსაგძალა
+                  </cell>
+                  <cell><del rend="strikethrough">(ბურბუშელა)</del> <hi rend="italic">Taraxacum officinale</hi></cell>
+               </row>               
+               <row>
+                  <cell>ბაბუშველა</cell>
+                  <cell><del rend="strikethrough">(დუდღუბო)</del> juniper berry</cell>
+               </row>               
+               <row>
+                  <cell>ბაგა</cell>
+                  <cell><del rend="strikethrough">(ახალი ვენახი, ჩაყრილი წინდები)</del>
+                     a newly planted vine
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბაგა</cell>
+                  <cell>
+                     manger, crib; <hi rend="italic">ბაგათ-მთავარი</hi> chief groom
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბაგა</cell>
+                  <cell>recess of a wall</cell>
+               </row>               
+               <row>
+                  <cell>ბაგე</cell>
+                  <cell>
+                     lip; prow, stern of a vessel; bank of a stream;
+                     <lb/>
+                     <hi rend="italic">შერევნა ბაგეთა</hi> = confusion of language
+                  </cell>
+               </row>
+            </table>
+            <pb n="35/3r"/>
+            <table>
+               <row>
+                  <cell>ბაგიანი, ბაგეებიანი</cell>
+                  <cell>oral, verbal</cell>
+               </row>               
+               <row>
+                  <cell>ბაგინი</cell>
+                  <cell>(Arm. բագին) sanctuary, altar; victim</cell>
+               </row>               
+               <row>
+                  <cell>ბაგირი</cell>
+                  <cell>rope</cell>
+               </row>               
+               <row>
+                  <cell>ბაგოვნები</cell>
+                  <cell>roof, covering</cell>
+               </row>               
+               <row>
+                  <cell>ბაგურჯავარი</cell>
+                  <cell>benzoin</cell>
+               </row>               
+               <row>
+                  <cell>ბადაგი</cell>
+                  <cell>molasses, syrup</cell>
+               </row>               
+               <row>
+                  <cell>ბადალი</cell>
+                  <cell>(Arab. بدل) compensation, substitute; like, instead of</cell>
+               </row>               
+               <row>
+                  <cell>ბადახშა, ბადახში, ბადახშანი</cell>
+                  <cell>ruby</cell>
+               </row>               
+               <row>
+                  <cell>ბადე</cell>
+                  <cell>
+                     net; everything in the form of a net;
+                     <hi rend="italic">ბადე მაქმანი</hi> or <hi rend="italic">ნაქმანი</hi> lace;
+                     <hi rend="italic">ბადე დედა ზარდლისა</hi> – spider’s web
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბადე-ბადე</cell>
+                  <cell>in the form of a net</cell>
+               </row>               
+               <row>
+                  <cell>ბადის პირი</cell>
+                  <cell>opening of a fishing net</cell>
+               </row>               
+               <row>
+                  <cell>ბადება</cell>
+                  <cell>
+                     (ვბადებ) to create, bear, produce, form;
+                     (ვიბადები) to be born, created;
+                     (მაბადია, გაბადია, აბადია – I have, thou hast, he has) to have
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბადეებიანი</cell>
+                  <cell>(ბადეებრი) formed of nets</cell>
+               </row>               
+               <row>
+                  <cell>ბადენი</cell>
+                  <cell>(Arm. բագէս) linen garment; <bibl>Daniel X.5</bibl></cell>
+               </row>               
+               <row>
+                  <cell>ბადვა, ბადუ̂ა</cell>
+                  <cell>see <mentioned>ბადება</mentioned></cell>
+               </row>               
+               <row>
+                  <cell>ბადია</cell>
+                  <cell>(Per. باد) jar, goblet; dish</cell>
+               </row>               
+               <row>
+                  <cell>ბადიანი</cell>
+                  <cell>(Per. بادی) anise (<hi rend="italic">Illicium anisatum</hi>)</cell>
+               </row>               
+               <row>
+                  <cell>ბადიმი</cell>
+                  <cell>framework to cover a well</cell>
+               </row>               
+               <row>
+                  <cell>ბადის პირი</cell>
+                  <cell>hauling rope</cell>
+               </row>
+            </table>
+            <pb n="36/4r"/>
+            <table>
+               <row>
+                  <cell>ბადიში</cell>
+                  <cell>grandson</cell>
+               </row>               
+               <row>
+                  <cell>ბადლიჯანი</cell>
+                  <cell>see <mentioned>ბადრიჯანი</mentioned></cell>
+               </row>
+               <row>
+                  <cell>ბადრაგა</cell>
+                  <cell>convoy, escort</cell>
+               </row>               
+               <row>
+                  <cell>ბადრაგი</cell>
+                  <cell><hi rend="italic">citron</hi> (<hi rend="italic">Citrus medica</hi>, Risso)</cell>
+               </row>               
+               <row>
+                  <cell>ბადრაგობა</cell>
+                  <cell>to escort</cell>
+               </row>               
+               <row>
+                  <cell>ბადრი</cell>
+                  <cell>(Arabic بدر) full moon</cell>
+               </row>               
+               <row>
+                  <cell>ბადრიჯანი</cell>
+                  <cell>(Per. بادنجان) aubergine (<hi rend="italic">Solanum melongena</hi>)</cell>
+               </row>               
+               <row>
+                  <cell>ბადრობა</cell>
+                  <cell>
+                     fulness of the moon, equality;
+                     to be equal to, to compare, to liken
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბადრუკი</cell>
+                  <cell>unfortunate, unhappy, miserable, horrible</cell>
+               </row>               
+               <row>
+                  <cell>ბადრუკობა</cell>
+                  <cell>misfortune; to be unfortunate</cell>
+               </row>               
+               <row>
+                  <cell>ბავასირი</cell>
+                  <cell>see <mentioned>ბუასილი</mentioned></cell>
+               </row>               
+               <row>
+                  <cell>ბავთება, ბავთი</cell>
+                  <cell>(Arm. բադենի) bad news</cell>
+               </row>               
+               <row>
+                  <cell>ბავთის მიმღები</cell>
+                  <cell>a hearer of bad things</cell>
+               </row>               
+               <row>
+                  <cell>ბავლი</cell>
+                  <cell>first bird caught by a falcon</cell>
+               </row>               
+               <row>
+                  <cell>ბავრაკი</cell>
+                  <cell>(T. بيراق) flag, standard</cell>
+               </row>               
+               <row>
+                  <cell>ბავრუკი</cell>
+                  <cell>(Arab. بورق) borax (<hi rend="italic">borax tincal</hi>)</cell>
+               </row>
+               <row>
+                  <cell>ბავშვი</cell>
+                  <cell>child; <hi rend="italic">ბავშვობა</hi> childhood</cell>
+               </row>               
+               <row>
+                  <cell>ბაზაზი</cell>
+                  <cell>a dealer in small goods</cell>
+               </row>               
+               <row>
+                  <cell>ბაზარგებითა</cell>
+                  <cell>a house built among shops</cell>
+               </row>               
+               <row>
+                  <cell>ბაზარი</cell>
+                  <cell>(Pers. بزار) market, bazaar</cell>
+               </row>               
+               <row>
+                  <cell>ბაზი</cell>
+                  <cell>(Pers. باز) falcon (<hi rend="italic">Falco gentilis</hi>)</cell>
+               </row>
+            </table>
+            <pb n="36/4v"/>
+            <table>
+               <row>
+                  <cell>ბათილამი</cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბათილი</cell>
+                  <cell>
+                     (Arab.) empty, waste, annihilated;
+                     <hi rend="italic">ბათილების წერილი</hi> = an invalid document
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბათილება</cell>
+                  <cell>to annihilate, destroy</cell>
+               </row>
+            </table>
+            <pb n="37/5r"/>
+            <table>
+               <row>
+                  <cell>ბაზიერი</cell>
+                  <cell>
+                     falconer;
+                     <hi rend="italic">ბაზიერთ-უხუცესი</hi> chief falconer
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბაზივრობა</cell>
+                  <cell>falconry</cell>
+               </row>               
+               <row>
+                  <cell>ბაზიკი</cell>
+                  <cell>see <mentioned>ბეზეკი</mentioned></cell>
+               </row>               
+               <row>
+                  <cell>ბაზმა, ბაზმაკი</cell>
+                  <cell>(Arm. լամպ) lamp</cell>
+               </row>               
+               <row>
+                  <cell>ბაზმანდი</cell>
+                  <cell>(Pers. بازو بند) amulet, talisman</cell>
+               </row>               
+               <row>
+                  <cell>ბაზმანდი</cell>
+                  <cell>bezman, a Roman weight</cell>
+               </row>               
+               <row>
+                  <cell>ბაზმანდიანი</cell>
+                  <cell>one who carries talismans with him</cell>
+               </row>               
+               <row>
+                  <cell>ბაზრობა, ბაზრიანობა</cell>
+                  <cell>fair, mart</cell>
+               </row>               
+               <row>
+                  <cell>ბაზრული</cell>
+                  <cell>saleable</cell>
+               </row>               
+               <row>
+                  <cell>ბათალი, ბაითალი, ბეითალი</cell>
+                  <cell>veterinary surgeon</cell>
+               </row>               
+               <row>
+                  <cell>ბათმანი</cell>
+                  <cell>a measure (1 quart, 12 girvankas, ½ pud)</cell>
+               </row>               
+               <row>
+                  <cell>ბაი, ბაიკი</cell>
+                  <cell>cocoa</cell>
+               </row>               
+               <row>
+                  <cell>ბაია</cell>
+                  <cell>quince</cell>
+               </row>               
+               <row>
+                  <cell>ბაია</cell>
+                  <cell>pupil of the eye</cell>
+               </row>               
+               <row>
+                  <cell>ბაია</cell>
+                  <cell>
+                     palm, palm branch;
+                     <hi rend="italic">ბაიაობის კჳრა</hi> Palm Sunday
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბაიათი</cell>
+                  <cell>
+                     baiathi, a metre containing seven feet to a line;
+                     four lines to a verse
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბაიაყუში</cell>
+                  <cell>T. homeless, unfortunate</cell>
+               </row>               
+               <row>
+                  <cell>ბაირამი</cell>
+                  <cell>(Arab. بیرام) Baïram, Mahomedan feast</cell>
+               </row>               
+               <row>
+                  <cell>ბაირაღი</cell>
+                  <cell>(Turk. بيراق) flag, standard</cell>
+               </row>               
+               <row>
+                  <cell>ბაიყუში</cell>
+                  <cell>owl, great owl</cell>
+               </row>               
+               <row>
+                  <cell>ბაკაბუკი</cell>
+                  <cell>trampling of feet</cell>
+               </row>               
+               <row>
+                  <cell>ბაკალი</cell>
+                  <cell>beaker, goblet</cell>
+               </row>               
+               <row>
+                  <cell>ბაკანი</cell>
+                  <cell>wooden cup</cell>
+               </row>               
+               <row>
+                  <cell>ბაკანი</cell>
+                  <cell>skull, shell</cell>
+               </row>               
+               <row>
+                  <cell>ბაკარია</cell>
+                  <cell><hi rend="italic">Cardamis crispus</hi></cell>
+               </row>               
+               <row>
+                  <cell>ბაკი</cell>
+                  <cell>park</cell>
+               </row>
+            </table>
+            <pb n="38/6r"/>
+            <table>
+               <row>
+                  <cell>ბაკი</cell>
+                  <cell>halo round the sun or moon</cell>
+               </row>               
+               <row>
+                  <cell>ბაკი</cell>
+                  <cell>ray or light round the sun or moon</cell>
+               </row>               
+               <row>
+                  <cell>ბაკმიანი, ბაკმული</cell>
+                  <cell>shining like a halo</cell>
+               </row>               
+               <row>
+                  <cell>ბაკლა</cell>
+                  <cell>(T. باقلی) haricot beans</cell>
+               </row>               
+               <row>
+                  <cell>ბაკო</cell>
+                  <cell>vase, cup, vessel</cell>
+               </row>               
+               <row>
+                  <cell>ბაკოვანი</cell>
+                  <cell>surrounded by an enclosure</cell>
+               </row>               
+               <row>
+                  <cell>ბაკუნი</cell>
+                  <cell>trampling of feet</cell>
+               </row>               
+               <row>
+                  <cell>ბაკუნება</cell>
+                  <cell>to trample</cell>
+               </row>               
+               <row>
+                  <cell>ბალა</cell>
+                  <cell>(Arab.) misfortune</cell>
+               </row>               
+               <row>
+                  <cell>ბალადური</cell>
+                  <cell>(Pers.) (tree)</cell>
+               </row>               
+               <row>
+                  <cell>ბალავარი</cell>
+                  <cell>big stone for foundations</cell>
+               </row>               
+               <row>
+                  <cell>ბალა მწარა</cell>
+                  <cell>
+                     <hi rend="italic">belladonna</hi> plant
+                     (<hi rend="italic">Atropa belladonna</hi>)
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბალანგო</cell>
+                  <cell>(Pers.)</cell>
+               </row>               
+               <row>
+                  <cell>ბალანი</cell>
+                  <cell>hair</cell>
+               </row>               
+               <row>
+                  <cell>ბალანტი</cell>
+                  <cell>
+                     little bag, pocket
+                     (Gr. βάλσαμον)
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბალასინი, ბალაზინი</cell>
+                  <cell>balsan tree</cell>
+               </row>               
+               <row>
+                  <cell>ბალახანა</cell>
+                  <cell>(Pers. بالا خانه) entresol</cell>
+               </row>               
+               <row>
+                  <cell>ბალახდაფნა</cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბალახ-ბულახი</cell>
+                  <cell>bad herb</cell>
+               </row>
+            </table>
+            <pb n="39/7r"/>
+            <table>
+               <row>
+                  <cell>ბალახვარდა</cell>
+                  <cell>
+                     cress (<hi rend="italic">Lepidium sativum</hi>)
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბალახი</cell>
+                  <cell>
+                     grass, herb; სამკურნალო ბალახი = medicinal herbs; <lb/>
+                     მოკრეფა ბალახთა = to herborize; <lb/>
+                     სურნელნი ბალახი = sweet herbs; <lb/>
+                     მხურვალე ბალახი, ძილის ბალახი = opium
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბალახკვერცხა</cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბალახკოვზა</cell>
+                  <cell>
+                     Cochlearia officinalis
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბალახფიჩვა</cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბალახწაბლა</cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბალახოვანი <note type="editorial">
+                     In the source, <mentioned>ბალახოვანი </mentioned> is marked to be moved above
+                     <mentioned>ბალახფიჩვა</mentioned>.</note>, ბალახებიანი, ბალახიანი</cell>
+                  <cell>grassy</cell>
+               </row>               
+               <row>
+                  <cell>ბალახში <note type="editorial">
+                     In the source, <mentioned>ბალახში</mentioned> above <mentioned>ბალახწაბლა</mentioned>.
+                  </note>, ბალახშანი</cell>
+                  <cell>ruby</cell>
+               </row>               
+               <row>
+                  <cell>ბალახჩოსანი</cell>
+                  <cell>
+                     ruby-coloured; ბროლ ბალახჩოსანი = red-white complexion
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბალბა</cell>
+                  <cell>
+                     (Althaea officinalis)
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბალბალუვა</cell>
+                  <cell/>
+               </row>
+               
+               <row>
+                  <cell>ბალდახინი</cell>
+                  <cell>(T. بالاده کی)</cell>
+               </row>               
+               <row>
+                  <cell>ბალზამი</cell>
+                  <cell>balsam</cell>
+               </row>               
+               <row>
+                  <cell>ბალთა</cell>
+                  <cell>buckle, buckler</cell>
+               </row>               
+               <row>
+                  <cell>ბალთვა</cell>
+                  <cell>to cut in pieces</cell>
+               </row>
+            </table>
+            <pb n="40/8r"/>
+            <table>
+               <row>
+                  <cell>ბალი, ბალობა</cell>
+                  <cell>ball (dancing party)</cell>
+               </row>               
+               <row>
+                  <cell>ბალი</cell>
+                  <cell>
+                     (Pers. بالو; Arm. բալ) cherry
+                     (<hi rend="italic">Cerasus armeniaca</hi>)
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბალი</cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბალითი</cell>
+                  <cell>see <mentioned>ბათილი</mentioned> (empty, annihilated, waste)</cell>
+               </row>               
+               <row>
+                  <cell>ბალიოზი</cell>
+                  <cell>
+                     (Lat. <hi rend="italic">baiulus</hi>) Venetian ambassador at Constantinople
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბალიში</cell>
+                  <cell>
+                     (Per. بالیش) pillow; architrave; frieze
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბალნიანი</cell>
+                  <cell>hairy</cell>
+               </row>               
+               <row>
+                  <cell>ბალნური</cell>
+                  <cell>caparison, trappings for a horse</cell>
+               </row>               
+               <row>
+                  <cell>ბალზვოში</cell>
+                  <cell>cloth cover or carpet</cell>
+               </row>               
+               <row>
+                  <cell>ბალღამი, ფელღამი</cell>
+                  <cell>(Gr. φλέγμα) temperament; phlegm</cell>
+               </row>               
+               <row>
+                  <cell>ბალღამიანი</cell>
+                  <cell>phlegmatic</cell>
+               </row>               
+               <row>
+                  <cell>ბალღი</cell>
+                  <cell>lean cattle</cell>
+               </row>               
+               <row>
+                  <cell>ბალფოში</cell>
+                  <cell>(Pers. بالیش) outer clothing</cell>
+               </row>               
+               <row>
+                  <cell>ბალღინჯი, ბალღოჯი</cell>
+                  <cell>
+                     cherry tree; cherry
+                     (<hi rend="italic">Prunus cerasus</hi>)
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბამბა</cell>
+                  <cell>
+                     (Pers. پنبه) cotton; washing;
+                     <hi rend="italic">ბამბის დადება</hi> = to pad
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბამბის გაპენტვა, ბამბის ხავერდი</cell>
+                  <cell>plush</cell>
+               </row>               
+               <row>
+                  <cell>ბამგი</cell>
+                  <cell>(Pers. بنگ) opium</cell>
+               </row>
+            </table>
+            <pb n="41/9r"/>
+            <table>
+               <row>
+                  <cell><del rend="strikethrough">მ</del> ბამი</cell>
+                  <cell>see <mentioned>ბაჰარი</mentioned>; English pepper</cell>
+               </row>               
+               <row>
+                  <cell>ბანა, ბანვა, ბანება</cell>
+                  <cell>
+                     to wash; ფეხთ ბანა = wash the feet; <lb/>
+                     ხელსაბანი = wash basin
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბანა, ბანის ბალახი</cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბანაკება</cell>
+                  <cell>to camp, to fix one’s camp</cell>
+               </row>               
+               <row>
+                  <cell>ბანაკი</cell>
+                  <cell>
+                     (Arm. բանակ) camp; military encampment;
+                     regiment, body of soldiers
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბანაობა</cell>
+                  <cell>to wash oneself</cell>
+               </row>               
+               <row>
+                  <cell>ბანანა</cell>
+                  <cell>? banana</cell>
+               </row>               
+               <row>
+                  <cell>ბანგი</cell>
+                  <cell>(Pers.) opium; see <mentioned>ბამგი</mentioned></cell>
+               </row>               
+               <row>
+                  <cell>ბანდა, ბანდი</cell>
+                  <cell>
+                     (Pers. بنده) bound, detained;
+                     chiffon (?); bad linen;
+                     disease of animals
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბანდვა</cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბანდიბუსტი</cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბანდბუსტობა</cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბანდული</cell>
+                  <cell>peasants’ boots</cell>
+               </row>               
+               <row>
+                  <cell>ბანე</cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბანებინება</cell>
+                  <cell>to cause to wash</cell>
+               </row>               
+               <row>
+                  <cell>ბანი</cell>
+                  <cell>
+                     terrace, roof, chimney
+                     (Pers. بام)
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბანი</cell>
+                  <cell>(Pers. بام) bass (voice)</cell>
+               </row>
+            </table>      
+            <pb n="42/10r"/>
+            <table>
+               <row>
+                  <cell>ბანოვანი</cell>
+                  <cell>(Pers. بانو) lady</cell>
+               </row>               
+               <row>
+                  <cell>ბანძგურება</cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბანძღური</cell>
+                  <cell>see <mentioned>ბღლარძენი</mentioned></cell>
+               </row>               
+               <row>
+                  <cell>ბანჯარა, ბანჯარი</cell>
+                  <cell>a herb</cell>
+               </row>               
+               <row>
+                  <cell>ბანჯგვლი</cell>
+                  <cell>hair which grows on various parts of the body</cell>
+               </row>               
+               <row>
+                  <cell>ბანჯგვლიანი</cell>
+                  <cell>
+                     hairy;
+                     <hi rend="italic">ძაღლი</hi> = long-haired dog
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბაო</cell>
+                  <cell>any of children calling to each other</cell>
+               </row>               
+               <row>
+                  <cell>ბაჟი</cell>
+                  <cell>(Pers. باج) duty, toll, tax</cell>
+               </row>               
+               <row>
+                  <cell>ბარა</cell>
+                  <cell/>
+               </row>               
+               <row>
+                  <cell>ბარა ღვინისა</cell>
+                  <cell>tribute</cell>
+               </row>               
+               <row>
+                  <cell>ბარამბო</cell>
+                  <cell>
+                     <hi rend="italic">Belonica officinalis</hi>
+                     (<hi rend="italic">Melissa hortensis</hi>)
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბარათი</cell>
+                  <cell>
+                     a short letter, note
+                     (Arab. بطاقة)
+                  </cell>
+               </row>               
+               <row>
+                  <cell>ბარამჩა</cell>
+                  <cell><del rend="strikethrough">Belonica officinalis</del> (melissa hotrensia)</cell>
+               </row>               
+               <row>
+                  <cell>ბარასტი</cell>
+                  <cell>(Turk.)</cell>
+               </row>               
+               <row>
+                  <cell>ბარაქა</cell>
+                  <cell>(Arab. باراكا) abundance, sufficiency</cell>
+               </row>               
+               <row>
+                  <cell>ბარაქალა</cell>
+                  <cell>God bless you! bravo!</cell>
+               </row>               
+               <row>
+                  <cell>ბარაქიანი</cell>
+                  <cell>abundant, copious</cell>
+               </row>               
+               <row>
+                  <cell>ბარბაროზი</cell>
+                  <cell>(n.) barbarian</cell>
+               </row>               
+               <row>
+                  <cell>ბარბარული</cell>
+                  <cell>(adj.) barbarian</cell>
+               </row>               
+               <row>
+                  <cell>ბარბარისი</cell>
+                  <cell>herberis</cell>
+               </row>               
+               <row>
+                  <cell>ბარბარება</cell>
+                  <cell/>
+               </row>
+            </table>
+            
+            
+         </div>
       </body>
    </text>
 </TEI>

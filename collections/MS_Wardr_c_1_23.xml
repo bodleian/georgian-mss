@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_22">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
+            <title type="full">
+               <title type="main">MS. Wardr. c. 1(23)</title> 
+               <title type="alt" xml:lang="en">Georgian Grammar</title>
+               <title type="alt" xml:lang="ka">ქართული გრამატიკა</title>
+            </title>
+            <funder>JISC</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">First digital edition, TEI P5.
+               <date>10 January 2020</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">2020-01-10</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>OCIMCO</idno>
+            <idno type="msID">MS_Wardr_c_1_23</idno>
+            <idno type="catalogue">Georgian</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Wardr_c_1_23" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection type="main">Oriental Manuscripts Wardrop Collection </collection>
+                  <idno>MS. Wardr. c. 1 (23)</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Georgian Grammar</summary>
+                  <msItem xml:id="MS_Wardr_c_1_23-item1" n="1">                     
+                     <author key="person_1"><persName>Oliver, Marjory</persName></author>                     
+                     <title xml:lang="en-Latn-x-lc" key="work_90">Georgian Grammar</title>       
+                     <textLang mainLang="en">English</textLang>
+                   </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                     <support>The Manuscript is written on paper.</support>
+                     <extent>
+                        <seg type="dimensions">
+                           <dimensions type="leaf" unit="cm">
+                              <height quantity="18">18</height>
+                              <width quantity="20">20</width>
+                           </dimensions>
+                        </seg>
+                     </extent>
+                     <foliation>There is not any kind of original pagination. Pencil pagination is probably added by the library. Two pages, 179-180.</foliation>
+                     <condition>Leaves of manuscript are not damaged.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <dimensions type="line-height" unit="mm"/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" script="unknown">The whole text of manuscript is written by hand No1. The scribe is almost certainly <persName key="person_1">Oliver Wardrop</persName>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1895">1895</origDate>
+                  </origin>
+                  <acquisition>
+                     <date calendar="#Gregorian" when="1914-10-11">1914-10-11</date> don. J.O. Wardrop</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid reader's card (for admissions procedures contact <ref target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian Admissions</ref>). Contact <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> for further information on the availability of this manuscript</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+            <listPlace type="places">
+               <head xml:lang="ka">გეოგრაფიული სახელწოდებები</head>
+               <head xml:lang="en">Geographical Places</head>
+               <place xml:id="place001">
+                  <placeName xml:lang="en">Sakarthvelo</placeName>
+               </place>
+               <place xml:id="place002">
+                  <placeName xml:lang="en">Armenia</placeName>
+               </place>  
+            </listPlace>
+            <listPerson type="real">
+               <head xml:lang="ka">ისტორიული ფიგურები</head>
+               <head xml:lang="en">Historic figures</head>
+               <person xml:id="person001">
+                  <persName xml:lang="en">Pharnavaz</persName>
+               </person>
+               <person xml:id="person001">
+                  <persName xml:lang="en">Archil I</persName>
+               </person>
+               <person xml:id="person001">
+                  <persName xml:lang="en">Mesrop</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="local_class">
+               <category xml:id="commentary">
+                  <catDesc>Commentary</catDesc>
+               </category>
+               <category xml:id="supercommentary">
+                  <catDesc>Supercommentary</catDesc>
+               </category>
+               <category xml:id="indices">
+                  <catDesc>Indices</catDesc>
+               </category>
+               <category xml:id="translation">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="multipleWorks">
+                  <catDesc>multipleWorks</catDesc>
+               </category>
+               <category xml:id="abridgement">
+                  <catDesc>Abridgement</catDesc>
+               </category>
+               <category xml:id="supplement">
+                  <catDesc>Supplement</catDesc>
+               </category>
+               <category xml:id="papers">
+                  <catDesc>Papers</catDesc>
+               </category>
+               <category xml:id="documents">
+                  <catDesc>Documents</catDesc>
+               </category>
+               <category xml:id="extract">
+                  <catDesc>Extract</catDesc>
+               </category>
+               <category xml:id="gloss">
+                  <catDesc>Gloss</catDesc>
+               </category>
+               <category xml:id="selection">
+                  <catDesc>Selection</catDesc>
+               </category>
+               <category xml:id="diagrams">
+                  <catDesc>Diagrams</catDesc>
+               </category>
+               <category xml:id="notes">
+                  <catDesc>Notes</catDesc>
+               </category>
+               <category xml:id="letters">
+                  <catDesc>Letters</catDesc>
+               </category>
+               <category xml:id="versification">
+                  <catDesc>Versification</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item/>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-11-21">
+            <persName>Svetlana Berikashvili</persName> prepared .xml file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="folio1r.png"/>
+      <graphic url="folio1v.png"/>
+      <graphic url="folio2r.png"/>
+      <graphic url="folio2v.png"/>
+   </facsimile>
+   <text>
+      <body>         
+         <div type="text" subtype="grammar">
+            <pb n="179/1r"/>            
+            <head>Georgian Grammar</head>
+            <head type="sub">I. The Letters</head>            
+            <list type="ordered">
+               <item n="1">
+                  <p>
+                     The thought of each man is composed of words, for example:
+                     Man judged, God mocked (laughed); the fly hums much, each is deceived
+                     with a bee; the <add place="above">wild</add>
+                     cherry in the end (a beard) makes litter;
+                     the father <add place="above">saw</add>
+                     the mother saw the child.
+                  </p>
+               </item>               
+               <item n="2">
+                  <p>
+                     Each word is composed of letters, ex: ვ-ა-ც-რ-ი etc.
+                     The Georgian alphabet consists of 38 letters which are of 2 kinds:
+                     civil and ecclesiastic; in <del rend="strikethrough">civil</del>
+                     <add place="above">military</add>
+                     and in ecclesiastic there are three kinds of handwriting:
+                     <del rend="strikethrough">civil</del>
+                     <add place="above">military</add>
+                     round hand, cursive, écriluse enchevêtrée;
+                     ecclesiastic: initial ecclesiastic and joined.
+                     The following are the civil
+                     <add place="above">military</add>
+                     and ecclesiastic letters _______.
+                  </p>
+               </item>
+            </list>
+               <p>Remark I.</p>
+               <p>
+                  The <del rend="strikethrough">civil</del> <add place="above">military</add> alphabet is older than ecclesiastic; 250 years before Christ,
+                  Pharnavaz the first King of Sakarthvelo revised the <del rend="strikethrough">faith</del> religion of
+                  the fire worshippers; to write the sacred books of this religion he
+                  introduced the ancient Persian alphabet, i.e. Zeud or Pehlavi:
+                  this shows therefore that our <del rend="strikethrough">civil</del>
+                  <add place="above">military</add>
+                  <pb n="179/1v"/>
+                  <del rend="strikethrough">letters</del> <add place="above">alphabet</add> partly resembles the old Persian and the name even is a translation of the word Pehlavi from the Persian <del rend="strikethrough">of the word Pehlavi</del>, i.e. <term>palavnuri</term> (heroic) or <term>mkhedruli</term> (military, warlike). The ecclesiastic alphabet was introduced in the time of <persName>King Archil I</persName> (<date when="0410">410 A.D.</date>) by <persName>Mesrop</persName>, patriarch of Armenia; they resemble the Ethiopian and Armenian letters. Formerly, the words were written with capital letters; afterwards they invented the ecclesiastic <add place="above">and both i.e. capitals</add> cursive letters formed from the military alphabet and <del rend="strikethrough">both, i.e. capitals and cursive letters</del> they change <del rend="strikethrough">an in</del>complete circle into an incomplete circle, this is seen in the following letters: Ⴁ ბ Ⴇ თ etc. The reason for the change of letters was the introduction of Christianity; the Christians did not wish that idolatry should be kept in remembrance, therefore they destroyed <gap reason="unfinished"/>
+                  <pb n="180/2r"/>
+                  the use of the military alphabet in sacred writings. The military alphabet was only used in general writings and numerals. 
+               </p>
+            <p>Remark II.</p>
+            <p>
+               The Georgian is complete, so that each letter has an appointed place.
+            </p>            
+            <p>
+               Over time, the shape of the letters became circular. The following letters — ჭ, ძ, ც — arose from this transition.
+            </p>            
+            <p>
+               The reason for the change in letterforms was tied to the introduction
+               of Christianity. The Christians did not wish the pagan idols of antiquity
+               to be remembered, so they destroyed...
+               <gap reason="unfinished"/>
+            </p>
+         </div>
+         
+      </body>
+   </text>
+</TEI>
