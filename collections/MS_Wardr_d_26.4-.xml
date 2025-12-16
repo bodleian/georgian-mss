@@ -4,7 +4,8 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_48">
    <teiHeader>
       <fileDesc>
-         <titleStmt>
+        <titleStmt>
+         <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
 			<title type="full">
               <title type="main">MS. Wardr. d. 26.4-</title> 
               <title type="alt" xml:lang="en">M.W. Drafts of letters</title>
@@ -23,7 +24,7 @@
               <date>21 November 2025</date>
            </edition>
            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
-        </editionStmt>
+        </editionStmt>         
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
             <date calendar="#Gregorian">2025-11-21</date>
@@ -43,11 +44,9 @@
                </address>
             </pubPlace>
             <idno type="msID">MS_Wardr_d_26.4-</idno>
-            <idno type="catalogue">Georgian</idno>			
-           <availability>
-              <p>Available according to the terms of the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 Unported (CC BY-NC-SA 4.0) </ref>.</p>
-           </availability>
-         </publicationStmt>
+            <idno type="catalogue">Georgian</idno>
+         </publicationStmt>        
+         
          <sourceDesc>
             <msDesc xml:id="MS_Wardr_d_26.4-" xml:lang="en">
                <msIdentifier>
@@ -60,66 +59,74 @@
                   <idno>MS. Wardr. d. 26/4-</idno>
                </msIdentifier>
                <msContents>
-                  <summary>Drafts of letters written by <persName key="person_1">Wardrop, Marjory</persName>
-                  </summary>
-                  <msItem xml:id="MS_Wardr_d_26.4-item1" n="1">
-                     <title key="work_20" type="desc">(1) adressed to <persName>Olga Chavchavadze</persName></title>
+                  <summary>Drafts of letters written by <persName key="person_001">Wardrop, Marjory</persName></summary>
+                  <msItem xml:id="MS_Wardr_d_26.4--item1" n="1">
+                     <locus from="1" to="2"/>  
+                     <title type="desc">(1) adressed to <persName>Olga Chavchavadze</persName></title>
                      <listBibl>
                         <bibl>CWC, 325-26</bibl>
                      </listBibl>
                      <textLang mainLang="en">English</textLang>
                   </msItem>
-				  <msItem xml:id="MS_Wardr_d_26.4-item2" n="2">
-                     <title key="work_20" type="desc">(2) adressed to <persName>Olga Chavchavadze</persName></title>
+                  <msItem xml:id="MS_Wardr_d_26.4--item2" n="2">
+                     <locus from="3" to="5"/> 
+                     <title type="desc">(2) adressed to <persName>Olga Chavchavadze</persName></title>
                      <listBibl>
                         <bibl>CWC, 325-26</bibl>
                      </listBibl>
                      <textLang mainLang="en">English</textLang>
                   </msItem>
-				  <msItem xml:id="MS_Wardr_d_26.4-item3" n="3">
-                     <title key="work_20" type="desc">(3) adressed to Prof. <persName>Aleksandre Tsagareli </persName></title>
+                  <msItem xml:id="MS_Wardr_d_26.4--item3" n="3">
+                     <locus from="6" to="10"/> 
+                     <title type="desc">(3) adressed to Prof. <persName>Aleksandre Tsagareli </persName></title>
                      <listBibl>
                         <bibl>CWC, 325-26</bibl>
                      </listBibl>
                      <textLang mainLang="en">English</textLang>
                   </msItem>
-				  <msItem xml:id="MS_Wardr_d_26.4-item4" n="4">
-                     <title key="work_20" type="desc">(5) adressed to <persName>Olga Chavchavadze</persName></title>
+                  <msItem xml:id="MS_Wardr_d_26.4--item4" n="4">
+                     <locus from="11" to="12"/> 
+                     <title type="desc">(5) adressed to <persName>Olga Chavchavadze</persName></title>
                      <listBibl>
                         <bibl>CWC, 325-26</bibl>
                      </listBibl>
                      <textLang mainLang="en">English</textLang>
                   </msItem>
-				  <msItem xml:id="MS_Wardr_d_26.4-item5" n="5">
-                     <title key="work_20" type="desc">(6) adressed to <persName>Olga Chavchavadze</persName></title>
+                  <msItem xml:id="MS_Wardr_d_26.4--item5" n="5">
+                     <locus from="13" to="16"/> 
+                     <title type="desc">(6) adressed to <persName>Olga Chavchavadze</persName></title>
                      <listBibl>
                         <bibl>CWC, 325-26</bibl>
                      </listBibl>
                      <textLang mainLang="en">English</textLang>
                   </msItem>
-				  <msItem xml:id="MS_Wardr_d_26.4-item6" n="6">
-                     <title key="work_20" type="desc">(7) adressed to <persName>Olga Chavchavadze</persName></title>
+                  <msItem xml:id="MS_Wardr_d_26.4--item6" n="6">
+                     <locus from="17" to="18"/> 
+                     <title type="desc">(7) adressed to <persName>Olga Chavchavadze</persName></title>
                      <listBibl>
                         <bibl>CWC, 325-26</bibl>
                      </listBibl>
                      <textLang mainLang="en">English</textLang>
                   </msItem>
-				  <msItem xml:id="MS_Wardr_d_26.4-item7" n="7">
-                     <title key="work_20" type="desc">(8) adressed to <persName>Olga Chavchavadze</persName></title>
+                  <msItem xml:id="MS_Wardr_d_26.4--item7" n="7">
+                     <locus from="19" to="21"/> 
+                     <title type="desc">(8) adressed to <persName>Olga Chavchavadze</persName></title>
                      <listBibl>
                         <bibl>CWC, 325-26</bibl>
                      </listBibl>
                      <textLang mainLang="en">English</textLang>
                   </msItem>
-				  <msItem xml:id="MS_Wardr_d_26.4-item8" n="8">
-                     <title key="work_20" type="desc">(11) adressed to <persName>Ivane Rostomashvili</persName></title>
+                  <msItem xml:id="MS_Wardr_d_26.4--item8" n="8">
+                     <locus from="22" to="22"/> 
+                     <title type="desc">(11) adressed to <persName>Ivane Rostomashvili</persName></title>
                      <listBibl>
                         <bibl>CWC, 325-26</bibl>
                      </listBibl>
                      <textLang mainLang="en">English</textLang>
                   </msItem>
-				  <msItem xml:id="MS_Wardr_d_26.4-item9" n="9">
-                     <title key="work_20" type="desc">(12) adressed to <persName>Aneta Chkonia</persName></title>
+                  <msItem xml:id="MS_Wardr_d_26.4--item9" n="9">
+                     <locus from="23" to="24"/> 
+                     <title type="desc">(12) adressed to <persName>Aneta Chkonia</persName></title>
                      <listBibl>
                         <bibl>CWC, 325-26</bibl>
                      </listBibl>
@@ -129,56 +136,57 @@
                <physDesc>
                   <objectDesc form="leaf">
                      <supportDesc material="chart">
+                        <support>The Manuscript is written on paper.</support>
                         <extent>
-                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4-item1">
+                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4--item1">
                               <dimensions type="leaf" unit="cm">
                                  <height quantity="14.5">14.5</height>
                                  <width quantity="11">11</width>
                               </dimensions>
                            </seg>
-                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4-item2">
+                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4--item2">
                               <dimensions type="leaf" unit="cm">
                                  <height quantity="17.5">17.5</height>
                                  <width quantity="11">11</width>
                               </dimensions>
                            </seg>
-                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4-item3">
+                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4--item3">
                               <dimensions type="leaf" unit="cm">
                                  <height quantity="17.5">17.5</height>
                                  <width quantity="11">11</width>
                               </dimensions>
                            </seg>
-                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4-item4">
+                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4--item4">
                               <dimensions type="leaf" unit="cm">
                                  <height quantity="17.5">17.5</height>
                                  <width quantity="11">11</width>
                               </dimensions>
                            </seg>
-                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4-item5">
+                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4--item5">
                               <dimensions type="leaf" unit="cm">
                                  <height quantity="17.5">17.5</height>
                                  <width quantity="11">11</width>
                               </dimensions>
                            </seg>
-                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4-item6">
+                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4--item6">
                               <dimensions type="leaf" unit="cm">
                                  <height quantity="15.5">15.5</height>
                                  <width quantity="10">10</width>
                               </dimensions>
                            </seg>
-                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4-item7">
+                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4--item7">
                               <dimensions type="leaf" unit="cm">
                                  <height quantity="17.7">17.7</height>
                                  <width quantity="13">13</width>
                               </dimensions>
                            </seg>
-                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4-item8">
+                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4--item8">
                               <dimensions type="leaf" unit="cm">
                                  <height quantity="31">31</height>
                                  <width quantity="21">21</width>
                               </dimensions>
                            </seg>
-                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4-item9">
+                           <seg type="dimensions" corresp="#MS_Wardr_d_26.4--item9">
                               <dimensions type="leaf" unit="cm">
                                  <height quantity="21">21</height>
                                  <width quantity="15">15</width>
@@ -202,7 +210,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notAfter="2000" notBefore="1900" calendar="Gregorian">1909</origDate>
+                     <origDate notAfter="2000" notBefore="1900" calendar="#Gregorian">1909</origDate>
                   </origin>
                   <acquisition>July 1931, don J.O. Wardrop</acquisition>
                </history>
@@ -413,137 +421,139 @@
    </facsimile>
    <text>
       <body>
-         <div>
-            <head>Bodleian, MS. Wardr. d. 26/4</head>
-            <head>(1)</head>
-            <pb n="1r"/>
+         <div type="original">
+            <div type="chapter" n="1">
+            <pb f="1r" n="1"/>
+            <head>Bodleian, MS. Wardr. d. 26/4<lb/>
+            (1)</head>
             <p><del rend="strikethrough">უძვირფასეს</del></p>
             <p>ორმაგად უპატივცემულო და უძვირფასესო მეგობარო, </p>
             <p>დიდა ხანია <del rend="strikethrough">მინდოდა თქვენთან</del> აღარ <del rend="strikethrough">მაქვ</del> მომდის თქვენი ამბები. როგორ ჰბრძანდებით? ღმერთმან ჰქნას რომ <del rend="strikethrough">კარგად და</del> მშვიდიანად <del rend="strikethrough">და</del> ჰცხობრობთ.</p>
             <p>აქ დიდი სიცხეები არის და <del rend="strikethrough">იშვიათად</del> <add place='above'> თუ მალე არ </add> ჰწვიმს, ეშინიანთ რომ მოსავალი <del rend="strikethrough">სრული</del> ცოტა იქ<del rend="strikethrough">მ</del>ნება. </p>
             <p><del rend="strikethrough">ამ</del> ორი სამი კვირაა გამოგიგზავნეთ პატარა სახსოვარი <placeName>რუმინიიდგან</placeName> . აქ <del rend="strikethrough">ბევრს</del> გლეხ<del rend="strikethrough">ებ</del>ი ქალები ძალიან </p>
-               <p>fol. v</p>
-               <p>მშვენიურად <del rend="strikethrough">შრ მუშაობენ</del> <add place='above'> იციან</add>  ხელთ საქმარი და ყოველგვარ ქარგაზედ ჰკერავენ. </p>
+            <pb f="1v" n="2"/>
+            <p>მშვენიურად <del rend="strikethrough">შრ მუშაობენ</del> <add place='above'> იციან</add>  ხელთ საქმარი და ყოველგვარ ქარგაზედ ჰკერავენ. </p>
             <p>ჩვენი დედა და ძმა თომა ახლა მოგზაურობენ ჩვენკენ. <del rend="strikethrough">შუა</del> - ჩამოდიან ზღვით <placeName>მარსილთიდგან</placeName>  <del rend="strikethrough">სტ</del> <placeName>კონსტანტინოპოლში</placeName>  <del rend="strikethrough">სადაც იქნებიან ათ დ</del> და იქიდგან <placeName>რუმინიაში</placeName>. <placeName>კონსტანტინოპოლიდგან</placeName> <placeName>კოსტანტაში</placeName> მხოლოდ თორმეტი საათის გემის მოგზაურობაა და იქიდგან <placeName>ბუხარესტში</placeName> ოთხი საათია მატარებლით. </p>
          </div>
-         <div>
+            <div type="chapter" n="2">
+            <pb f="1r" n="3"/>
             <head>(2)</head>
-            <pb n="1r"/>
             <p rend="align(right)">11 bis Strada Surorilor, Bucharest.</p>
             <p rend="align(right)">9 მარიამობისთვე 1909</p>
             <p>ღრმათ პატივცემულო და უსაყვარლესო მეგობარო, </p>
             <p><del rend="strikethrough">ბოდიშს ვიხდი რომ კვლავ დიდხან ვერ მოგწერ მივიღეთ</del></p>
             <p>თქვენმა წერილმა ფრიად გამახარა. მადლობას გწირავთ ხსოვნისთვის. პასუხი დამიგვიანდა თქვენთან იმიტომ რომ <del rend="strikethrough">ნამეტ</del> <add place='above'> ამ ორი თვე</add>  დედა ჩემთან ყოფილა და <add place='above'> მოცლა არ მქონდა</add>. ჩვენ ერთად გავატარეთ სამი კვირა <placeName>კარპატიის</placeName> მთებში, სოფელ <placeName>პრედეალში</placeName> და <persName>ოლივერ</persName></p>
-            <pb n="1v"/>
+            <pb f="1v" n="4"/>
             <p>მოსულა ჩვენთან შაბათითგან ორშაბათამდე ხოლმე. ჰაერი იქ ჩინებულია და მშვენიერი ადგილია, ბუნებით კი მომაგონდა ცოტათ წააგავს <placeName>საქართველოს</placeName>. <del rend="strikethrough">მდელ</del> ძმამ <persName>თომამ</persName> სამწუხაროდ მხოლოდ <del rend="strikethrough">სამ</del> ერთი თვე <placeName>რუმინიაში</placeName> გაატარა და ამისთვის რომ საქმეებში ჰქონდათ <placeName>ლონდონში</placeName>. </p>
                <p>ორშაბათს დედა აპირებს მისლვა სახლში. <del rend="strikethrough">მეც ბუდაპესტში მისი თანამოგზაური მივდივარ სადაც მაგრამ</del></p>
-            <pb n="2r"/>
+            <pb f="2r" n="5"/>
             <p>ვიქმნებ <placeName>ბუდაპესტამდე</placeName> და იქ გავატაროთ ორი დღე ერთად. მერე დედა მიდის <placeName>ინგლისში</placeName> და მე დავბრუნებ <persName>ოლივერსთან</persName>. დედის <del rend="strikethrough">სტუმრობა</del> <add place='above'> ყოფნა</add> ჩვენთან ძალიან სასიამოვნო ყოფილა და <del rend="strikethrough">მისი გასლვა</del> მასთან გავლა ძნელია, მაგრამ იმედი გვაქვს</p>
          </div>
-         <div>
+            <div type="chapter" n="3">
+            <pb f="1r" n="6"/>
             <head>(3)</head>
-            <pb n="1r"/>
+            
             <p rend="align(right)">11 თიბათვე 1909</p>
             <p>ღრმათ პატივცემულო პროფესორო, </p>
             <p>ნუ გგონიათ რომ <add place='above'> ჩემგან</add> დავიწყებულ არს ქართული ეკლესიის საქმე. მივიღე, თქვენი კეთილი წერილი და სტატიები და მეყუსეულად <del rend="strikethrough">გარ</del> მივსწერე ერთ <add place='above'> ნაცნობ</add>  <del rend="strikethrough">გამოჩენილი</del> კაცთან, რომელიც <add place='above'> ძლიერი</add>  მეგობრები ჰყავს <placeName>რუსეთში</placeName>. <add place='above'> ახლა</add> <del rend="strikethrough">ამ კვირა</del> მისგან პასუხი <del rend="strikethrough">მოსულა</del><add place='above'>  მაქვს</add> <del rend="strikethrough">თუმცა სურვილი მაქვს რომ მისი გავლენა</del> მეტყველი თუ ვსწერეთ მეგობრებთან და თანაგრძნეული პასუხი მომცემენო. </p>
             <p>რამდთენიმე კვირაა ჩვენ შევითვისეთ ერთი ძველებური ქართული ხელთნაწერი <placeName>გერმანიითგან</placeName>. </p>
-            <pb n="1v"/>
+            <pb f="1v" n="7"/>
             <p>სამწუხაროთ <del rend="strikethrough">სრული</del> <add place='above'> დასაწყისი და <del rend="strikethrough">დ</del> ბოლო</add> არ არის, მაგრამ <del rend="strikethrough">ჯერ</del> <add place='above'>კიდევ</add> 145 გვ.<del rend="strikethrough">ერდები დარჩა აქვს</del> შეიცავს. მშვენიერი ხუცური ხელით დაწერილია და ჰსჩანს საეკკლესიო გალობანი არის. მყიდველი გვიამბობდა რომ მე XI <del rend="strikethrough">თუ</del> <add place='above'>ან</add> XII საუკუნის ხელთნაწერია. გამოგიგზავნით მალე ერთი ორი გვერდი<del rend="strikethrough">ს ფოტოგრაფი</del> დახატული საფოტოგრაფოს მანქანით და შეიძლება თქვენ <del rend="strikethrough">გვაცნობებთ</del> <add place='above'>შეადაროთ</add> <del rend="strikethrough">მისი თქვენი</del> <add place='above'>სხვა</add> ხელთნაწერებთან და გვითხარით <del rend="strikethrough">თუ რას ჰფიქრობთ</del> ძვირფასია თუ არა. </p>
             <p>ვჰნახეავ დღეს „დროებაში“ რომ პროფესორ <persName>მარრ<del rend="strikethrough">მა</del>ისაგან</persName> გამოცემულია ახალი წიგნი  „Иоаннъ Петрицкіи, Грузинскій</p>
-            <pb n="2r"/>
+            <pb f="2r" n="8"/>
             <p>Неоплатоникъ XI – XII въка“. გჰსთხოვთ კეთილი ინებით  <add place='above'>გამო</add>მიგზავნით ამ წიგნს და როდესაც ვიცი რამთენათ და გიგზავნით ფულს, ვალდებული ვარ. <del rend="strikethrough">როდის გამოდის თქვენი ახალი წიგნი?</del>  </p>
             <p>ხანდახან მომდის <placeName>საქართველოს<del rend="strikethrough">იდგან</del></placeName> ამბები. კნეინა <persName>ოლგა ჭავჭავაძე</persName> ძალიან ხშირათ მომწერს და მივიღე ჟურნალები ხოლმე. </p>
             <p>დიდი ხანია არა მაქვს <persName>ოლგა მირზაშვილის</persName> ამბავი და <del rend="strikethrough">არავინ იცის</del>  <add place='above'>ვერ გავიგებ</add> მისი ადრესი. მივჰსწერე „Адреснный </p>
-            <pb n="2v"/>
+            <pb f="2v" n="9"/>
             <p>Столъ“ შიც მაგრამ ამაოდ. თუ იცით სად არის მადლობელი ვიქმნები თუ მითხარით. მისი დის გარდაცვალებამ დიდათ მაწუხა. </p>
             <p>ჩვენი დედა და ძმა ეახლა ზღვაზე მოგზაურობენ <placeName>კონსტანტინოპოლში</placeName> <del rend="strikethrough">და</del> სადაც ხვალ იქმნებიან. მომავალ კვირას ჩვენთან ჩამოდიან და <del rend="strikethrough">უს</del> აქ გაატარებენ რამდენიმე კვირა.</p>
-            <pb n="3r"/>
+            <pb f="3r" n="10"/>
             <p>ჩემმა ძმამ <persName>ოლივერმა</persName> <del rend="strikethrough">გულითადი</del> მო<add place='above'>გი</add>კითხავ<del rend="strikethrough">ათ გიძღვნეს.</del> მალე მოგწერს წერილს. </p>
             <p>გჰსთხოვთ მაპატიოთ ყველა შეცდომა ჩემი წერილში. <del rend="strikethrough">ნა</del> კარგათ ვიცი რა გლახათ ვჰსწერ ქართულად!</p>
             <p>გისურვებთ ყოველივე კეთილის და დავრჩები</p>
             <p rend="align(right)">თქვენი ღრმათ პატივისმცემელი, </p>
             <p rend="align(right)"><persName>მარჯორი უორდროპი</persName> </p>
          </div>
-         <div>
+            <div type="chapter" n="4">
+            <pb f="1r" n="11"/>
             <head>(5)</head>
-            <pb n="1r"/>
             <p>ღრმათ პატივისცემულო და უსაყვარლესო მეგობარო, </p>
             <p>თქვენი ორივე <del rend="strikethrough">წერილები</del> <add place='above'>ბარათი</add> მივიღე. <del rend="strikethrough">რა გულკეთილი ხართ</del> ვერ წარმოიდგენეთ რა მოხარული <add place='above'>ყოველთვის</add> ვარ როდესაც <del rend="strikethrough">ვნახავ ხოლმე</del> <add place='above'>მომდის</add> თქვენგან <del rend="strikethrough">ძვირფასი ხელით მო</del>წერილი <del rend="strikethrough">ბარათი.</del> თუ მე ანაზდათ პასუხს არ ვჰსწერ არ არის რომ არ მინდა, მაგრამ დროს ვერ შევურჩ<del rend="strikethrough">ებივ. ახლა</del> დღე მოკვეა და საქმე მუდამ საკმაი  <del rend="strikethrough">არის ახლა</del> მაქვს. დიდ მადლობას მოგახსენებთ გერმანული წიგნებისთვის და სხვა ძვირფას საჩუქრისთვის. და ჯერ არ მივიღე, უსათუოთ ამისთვის რომ კარანტინია, თუმცა მგონია საშიში არ არის. ჰსჩანს რომ <placeName>საქართველოში</placeName> ხოლერა ცოტა არის; გაზეთებში არ სწერენ ამასზე.</p>
             <p><del rend="strikethrough">სწერთ</del> აქ <del rend="strikethrough">დიდი</del> <add place='above'><del rend="strikethrough">სიცივე არ არის</del></add> ზამთარი არ არის. რამდენიმე კვირაა დიდი </p>
-            <pb n="1v"/>
+            <pb f="1v" n="12"/>
             <p>თოვლი და ყინვა იყო და ორი დღით მატერებლები ვერ დადიოდნენ; <del rend="strikethrough">მაგრამ ახლა</del> <add place='above'>ბევრი</add> თოვლი ჯერ ჰდევს ქუჩებში და ბაღებშიც მაგრამ <del rend="strikethrough">საკმ</del> ცივი არ არის. აქ <del rend="strikethrough">არ</del> ქუჩები არ არიან გაწმენდილნი როგორც <placeName>რუსეთში</placeName> და გასავალი ძალიან ძნელია. ჩვენი სახლის წინ არის ერთი <add place='above'>ნაგუბარი</add> ტბა უწმინდური წყლის და იქამდის რომ ქალაქი არ წაუღებს <del rend="strikethrough">ქუ</del> თოვლის გირები რომელიც <del rend="strikethrough">კანალებ</del>არხებზედ ჰდგას ვერაფერი <del rend="strikethrough">ვერ</del> ვაკეთებთ. </p>
             <p>ჩვენ ორივე კარგათ და ბედნიერათ ვჰსცხოვრობთ. ჩემი ძმა დადის <add place='above'>ხოლმე</add> ორჯელ <del rend="strikethrough">დღეში</del> კანცელარიაში. <del rend="strikethrough">შორს არ არის და აქ შრომა ბევრი არ არის, მაგრამ მუდამ ის სამი ვერსტი არის.</del> საღამოს ჰკითხულობს ხმა მაღლათ </p>
          </div>
-         <div>
+            <div type="chapter" n="5">
+            <pb f="1r" n="13"/>
             <head>(6)</head>
-            <pb n="1r"/>
             <p>დიდათ პატივცემულო და ჩემთვის უძვირფასესო მეგობარო, </p>
             <p>არ ვიცი როგორ გამოვთქვა მადლობა, ამდენი პატივისცემისთვის და თქვენგან ჩემი სიყვარული მეგობრობის ნიშნებისთვის, მე რომ ჯერ ვერაფრით გასიამოვნე: ეს მაწუხებს. მივიღე მშვენიერი ქართული ხელსაქმე თქვენგან.  ჩვენი ქართული ოთახი ძალიან ლამაზი იქნება როდესაც თქვენი ძვირფასი საჩუქარი </p>
             <p>ს ს ს</p>
-            <pb n="1v"/>
+            <pb f="1v" n="14"/>
             <p>აშვენებს კედელს. დიდათ, დიდათ მადლობელი ვარ, გენაცვალე. </p>
             <p>იმ ორი <del rend="strikethrough">ნუ</del> გერმანული წიგნი <del rend="strikethrough">რომელზე</del> ჯერ არ მივიღე. შეიძლება უფრო გვიანად გამიგზავნენ <del rend="strikethrough">წი</del> ვიდრე ხელსაქმე. <del rend="strikethrough">მე</del> გთხოვთ გარდაეცით მოკითხვა და მადლობა<del rend="strikethrough">ს ბ. ლეიტსტის.</del></p>
             <p>ნუ გეშინიათ რომ დავიწყებული ხართ! ყოველდღე ვჰფიქრობ თქვენზე და ღმერთს ვჰსთხოვ თქვენს მშვიდობას და </p>
-            <pb n="2r"/>
+            <pb f="2r" n="15"/>
             <p>ნუგეშისცემასა. </p>
             <p>ზაფხული მალე დგება და ვფიქრობთ სოფელზე, <del rend="strikethrough">მაგრამ</del> ამ წელიწადი მგონია რომ აქ ვრჩებით, ამისთვის რომ შარშან <placeName>ინგლისში</placeName> დიდი ხანი <del rend="strikethrough">დავ</del> გავატარეთ. <placeName>რუმინიაშიც</placeName> ლამაზი <del rend="strikethrough">სააგარაკო</del> ალაგები არის მაგრამ სამწუხაროთ შორის არიან და სასტუმროები აკლიან. <del rend="strikethrough">სოფელში სახლები ძალიან უწმინდური არიან.</del> გამოგიგზავნე ღია წერილი რომელი ზედაც დახატულია დედის სახლი და კიდევ</p>
-            <pb n="2v"/>
+            <pb f="2v" n="16"/>
             <p>გიგზავნით ჩვენი სახლი <placeName>ბუქარესტში</placeName> დიდ მწუხარებით გავიგე „დროებ“იდან რომ <persName>თ. დავით მიქელაძე</persName>, <persName>თ. თავდგერიძე</persName> და <persName>კიტა აბაშიძე</persName> დააპატიმრეს. არ შეიძლება რომ გადაასახლონ ასეთი პატივცემული კაცები უმიზეზოთ. </p>
             <p>უგულითადეს მოკითხვას გიძღვნიან თქვენ და კნ. <persName>ლიზას</persName> ჩემი დედა და ძმები. დედა <del rend="strikethrough">და</del> ანუ მამა<del rend="strikethrough">ც</del> თითქმის ყოველ დღე სწერს წერილი ჩვენთან და ხშირად ლაპარაკობენ თქვენზე. </p>
             <p>მოგეხვევით <del rend="strikethrough">ჩეი</del> ჩემო საყვარელო <persName>ოლგა</persName> და გკოცნით ურიცხავს. ვინატრი თქვენს ბედნიერებას.  </p>
          </div>
-         <div>
+            <div type="chapter" n="6">
+            <pb f="1r" n="17"/>
             <head>(7)</head>
-            <pb n="1r"/>
             <p>ჩვენ შევითვისეთ <placeName><add place='above'>გერმანიაში</add></placeName>  <del rend="strikethrough">ლეიპციხის</del> წიგნის მყიდველიდგან ერთი ფრიად ძვირფასი ძველებული ქართული ხელნაწერი „გალობა“. <del rend="strikethrough">სჩანს</del> გვგონია რომ მე XII ანუ მე XI საუკუნისა. მშვენიერ<del rend="strikethrough">ად</del>ი ხუცურ<del rend="strikethrough">ი</del>ად <del rend="strikethrough">ხელით.</del> </p>
             <p>სამწუხაროთ, <del rend="strikethrough">არ</del> უდასაწყისო და ბოლოც დაკარგულია მაგრამ ახლა საკმა დიდია 150 გვერდი. ჩვენ <del rend="strikethrough">მედა</del> ყოველთვის <add place='above'>სიამოვნებით</add> ვჰსყიდულობთ ძველი <del rend="strikethrough">ნა</del> ხელნაწერი. <del rend="strikethrough">თუ</del></p>
-            <pb n="1v"/>
+            <pb f="1v" n="18"/>
             <p>ფრიად მოხარულნი ვართ რომ ასრე ჩქარათ გნახამთ ჩვენი ძვირფასი დედა და ძმა. </p>
             <p>იყავით კარგათ და ბედნიერად, ჩემო ძვირფასო, მუდამ ვფიქრობ თქვენზე და ვილოცავ ღმერთს <del rend="strikethrough">თქვენი</del> რომ მოგცეს დიდი ნუგეში და ლხინი. </p>
             <p><del rend="strikethrough">ჩემმა ძმა</del> <persName>ოლივერმა</persName> გულით მოგიკითხავთ</p>
             <p>კნ. <persName>ლიზას</persName> და <del rend="strikethrough">ყველა</del> ნაცნობ<del rend="strikethrough">ს</del>ებს გულითადი მოკითხვა. </p>
          </div>
-         <div>
+            <div type="chapter" n="7">
+            <pb f="1r" n="19"/>
             <head>(8)</head>
-            <pb n="1r"/>
             <p><del rend="strikethrough">British co</del></p>
             <p><del rend="strikethrough">მშვიდობიანი თითქმის არსად დავდივართ ბუხარესტში </del>რუმინელები ნამეტანი მხიარული <del rend="strikethrough">ქალაქია</del> ხალხია და ყოველდღე სადილებს, საღამოებს, კონცერტებს <del rend="strikethrough">მართებენ</del> მისცემენ; ჩვენ უფრო მოგვწონს შინაური, მშვიდიანი ცხოვრება და თითქმის არსად დავდივართ. </p>
             <p>„დროება“ში წავიკითხე თქვენი გულკეთილი <del rend="strikethrough">დიდებული სული</del> თხოვნა გენერალ გუბერნატორთან და დიდათ <del rend="strikethrough">გა</del>საქებელი <add place='above'>admire</add> საქმე <del rend="strikethrough">გაკეთებინე თქვენი შუაგულ</del> შეგაგონათ მოწყალეთმა გულითმა <del rend="strikethrough">დიდი პატივი ღირსი ხართ ამ საქრისტიანო საქმისთვის რომ ასრე პატიავეთ თქვენი საყვარელი ქმრის მკვლელები მე მგონია</del> უფრო ადვილია თავის მკვლელების პატიება უფრო ადვილია ვიდრე საყვარელის მკვლელები. </p>
             <p>ჩემი დედა და ძმა <persName>თომა</persName> კარგათ არიან და <del rend="strikethrough">მუდამ ხშირათ სწერენ</del> <add place='above'>გიძღვნათ</add></p>
-            <pb n="1v"/>
+            <pb f="1v" n="20"/>
             <p><del rend="strikethrough">თქვენი ამბავი თქვენთვის</del> გულითადი მოკითხვა. <del rend="strikethrough">გა</del>საკვირველია რა კარგათ დედა მოიგონებს ყველაფერზე <del rend="strikethrough">რაც უნახვიდა</del> <add place='above'>ნანახი</add> <placeName>საქართველოში</placeName>. არ დაივიწყებს <del rend="strikethrough">არც</del> სამოსელი, და <del rend="strikethrough">არც</del> სახე<del rend="strikethrough">დულობა ყველას</del> ნაცნობებს. </p>
             <p>მე დავჰსწერე <persName>აკაკის</persName> იუბილეი წერილში და <del rend="strikethrough">ვუთხარი ვჰთხოვე</del> <add place='above'>ვჰკითხე</add> დედას თუ მოიგონებს <persName>მარიამ აბაშიძეს</persName> (რომელიც <add place='above'>იუბილეზე</add> სთქვა სიტყვა თეატრში) რომელთან ვიყავით <placeName>სავანეში</placeName> თორმეტი წელიწადის. დედამ <del rend="strikethrough">მი</del>პასუხს<add place='above'>მომწერა</add> გრძელი აღ<del rend="strikethrough">მო</del>წერით იმ დღისა რომელიც გავატარეთ <placeName>სავანეში</placeName> და ყველაფერი მართალი იყო; არც დაივიწყო რომ ერთი ცხენის <add place='above'>თავის</add><del rend="strikethrough">თავი</del>ქალა იყო ღობეზედ <placeName>სავანეს</placeName> ეკკლესიის ახლო! რაც <del rend="strikethrough">ვაკეთებდით</del> </p>
-            <pb n="2r"/>
+            <pb f="2r" n="21"/>
             <p><del rend="strikethrough">ის</del> ვქენი მშვენიერ <placeName>საგურამოში</placeName> ყველას <del rend="strikethrough">იტ</del> მოიგონებს <del rend="strikethrough">ასრე</del> ისე <del rend="strikethrough">აშ</del>კარგათ ვითა დღეები ჩვენი აქ ყოფნისა და ხშირათ ჰლაპარაკობს იმ ბედნიერ დროზედ. </p>
             <p>როდესაც ვჰსწერ გრძელი წერილი თქვენთან <del rend="strikethrough">ვჰფ</del> მეშინიან <del rend="strikethrough">რომ</del> თუ შეიძლება ასეთი <del rend="strikethrough">უსწორი</del> შეცდომიანია რომ ვერ მიმხვდებით. ვჰსწერ და ვჰსწერ მაგრამ არ ვიცი რამთენი შეცდომა არის და მასწავლებელი არა მაქვს. ვჰკითხულობ კი ადვილათ მაგრამ კითხვა<del rend="strikethrough">მდა</del> <add place='above'>სხვა რამეა და</add> მართლწერა<del rend="strikethrough">ს შორის დიდი ზღვარია განსხვავება</del> კი სხვაა. ნეტა თუ ერთხელ კიდევ მოვდივართ <placeName>საქართველოში</placeName>. <del rend="strikethrough">მიყვარს</del> ვითა სამშობლო საყვარელი არის. </p>
             <p>ჩვენი უღრმესი პატივისცემა გარდაეცეთ თქვენ ძვირფასს მულს კნეინა <persName>ლიზას</persName>. <del rend="strikethrough">ხომ</del> თქვენ<del rend="strikethrough">თან</del> ხომ ჯერ ერთად ცხოვრობთ? მო<del rend="strikethrough">მ</del><add place='above'>გვ</add>იკითხეთ ყველა ნაცნობები. ჩემი ძმა <persName>ოლივერი</persName> უნდობლეს პატივისცემას მოგახსენებთ. </p>
             <p>ბევრ გაკოცებს ჩემო საყვარელო მეგობარო და ვისურვებთ ბედნიერებას და ნუგეშისცემა ამ ახალ წელიწადში. </p>
             <p rend="align(right)">მეტად თქვენი ერთგული, მოსიყვარული და ღრმათ პატივისცმცემელი </p>
          </div>
-         <div>
+            <div type="chapter" n="8">
+            <pb f="1r" n="22"/>
             <head>(11)</head>
-            <pb n="1r"/>
             <p><date when="1909">(1909)</date></p>
             <p>ძვირფასო მეგობრებო, </p>
-            <p>	დიდ-დიდ ბოდიშს ვიხდი თქვენს წინაშე რომ ამდენ ხანს ვერ მოგწერე წერილი. ნუ გგონიათ რომ წერილის მოუწერლობა დავიწყების <add place='above'>და უგულობის</add> ნიშანი არის. თქვენმა ამბავმა ფრიად მაწუხა და აწ აქამდის ვერ დავიჯერებ <add place='above'>მგონია</add> რომ ჩემი ძვირფასი პატარა <persName>ელენე</persName> აღარ გვაქვს. <del rend="strikethrough">ხუთი ნათლული მყავს მაგრამ ეს ჩემი</del> ყველაზე საყვარელი <del rend="strikethrough">ნათლული იყო. ასეთი ნაზი</del> ტკბილი <add place='above'>ლამაზი</add> ბავშვი იყო და სულ ჩემზე ღიმოდა <add place='above'>იმ დღე</add> <del rend="strikethrough">როდე</del>საც <del rend="strikethrough">განათლული</del> იყო. დღეს ვნახე დროებაში რომ თქვენ კიდევ ერთი ძვირფასი ქალიშვილი დაიკარგეთ. <del rend="strikethrough">ჩემი გული თქვენის</del></p>
+            <p>დიდ-დიდ ბოდიშს ვიხდი თქვენს წინაშე რომ ამდენ ხანს ვერ მოგწერე წერილი. ნუ გგონიათ რომ წერილის მოუწერლობა დავიწყების <add place='above'>და უგულობის</add> ნიშანი არის. თქვენმა ამბავმა ფრიად მაწუხა და აწ აქამდის ვერ დავიჯერებ <add place='above'>მგონია</add> რომ ჩემი ძვირფასი პატარა <persName>ელენე</persName> აღარ გვაქვს. <del rend="strikethrough">ხუთი ნათლული მყავს მაგრამ ეს ჩემი</del> ყველაზე საყვარელი <del rend="strikethrough">ნათლული იყო. ასეთი ნაზი</del> ტკბილი <add place='above'>ლამაზი</add> ბავშვი იყო და სულ ჩემზე ღიმოდა <add place='above'>იმ დღე</add> <del rend="strikethrough">როდე</del>საც <del rend="strikethrough">განათლული</del> იყო. დღეს ვნახე დროებაში რომ თქვენ კიდევ ერთი ძვირფასი ქალიშვილი დაიკარგეთ. <del rend="strikethrough">ჩემი გული თქვენის</del></p>
             <p><del rend="strikethrough">უკანა</del> როდესაც <persName>ელენეს</persName> სურათი გამომიგზავნეთ ეს უკანასკნელი <add place='above'>წერილი</add> იყო რომელიც მივიღე ამ წლამდის. მეც მივსწერე რამდენიმე წერილები თქვენთან მაგრამ უეჭველათ არ მიიღეთ. თქვენი <del rend="strikethrough">ბიჭ</del> შვილის <del rend="strikethrough">ამბავი კი</del> გარდასახლების ამბავი კი გავიგე და ძალიან მაწუხებს რომ ასეთი ნიჭიერი ყმაწვილი ამდენ ხნის კატორღაში გაგზავნეს. იმედი მაქვს უფრო მალე დაბრუნდება <add place='above'>ოჯახში</add> ვიდრე გგონიათ - კარგათ და ბედნიერათ - <del rend="strikethrough">რა დიდი გასაჭირი და წუხილი ყოფილა საწყალ საქართველოში. გულის ტკივილით წამიკითხავს ხოლმე ქართული გაზეთები.</del> ღმერთმა ქმნას</p>
             <p>ამ გაზაფხულს ჩვენი დედა და მეორე ძმა ჩვენთან იყვნენ სტუმრათ. დედა დარჩა ორი თვე <placeName>რუმინიაში</placeName> და ერთად ვიყავით <placeName>კარპატიის</placeName> მთებში, <placeName>უნგრეთის</placeName> საზღვარზე. <placeName>რუმინია</placeName> მშვენიერი ქვეყანა არის, მაგრამ არ არის სხვა <placeName>საქართველო</placeName> სოფელში და <del rend="strikethrough">ყოველთვის</del> ღმერთს<del rend="strikethrough">მან  ქმნას რომ კიდევ</del> ვსთხოვ კიდევ მღირსებოდეს მისი ნახვა. </p>
             <p><del rend="strikethrough">ვუძღვნით</del> გულითად მოკითხვას და <del rend="strikethrough">ღრმა</del> ნამდვილი თანაგრძნობა</p>
             <p>დიდ საყურადღებით წავიკითხე თქვენი წერილები და იმედი მაქვს ერთი დღე გავიცანო თქვენი შვილები რომელნიც სულ პატარები </p>
          </div>
-         <div>
+            <div type="chapter" n="9">
+            <pb f="1r" n="23"/>
             <head>(12)</head>
-            <pb n="1r"/>
             <p>ძვირფასო მეგობარო, </p>
             <p><del rend="strikethrough">მივიღე თქვენი წერილი</del></p>
             <p>თქვენგან წერილი მივიღე და ძალიან გამახარა.</p>
             <p>რაც შეეხება თქვენი სათხოვარი (მეშინიან რომ <del rend="strikethrough">არ ვიცი</del> ქართულა<del rend="strikethrough">დ</del>თ საკმაო <del rend="strikethrough">კარგათ</del> <add place='above'>მართლად</add> ვერ ვარ ვჰსწერ) <del rend="strikethrough">მე</del> ჩემგან არასოდეს არ გადავთარგმნ<del rend="strikethrough">უ</del>ილიყო მოთხრობანი ქართულათ; <del rend="strikethrough">მაგრამ</del> სამწუხაროთ <del rend="strikethrough">მარ ქართული</del> <del rend="strikethrough">მართლწერა</del> არ ვიცი თქვენი <del rend="strikethrough">მშვენიერი</del> ენა საკმაო კარგათ. <add place='above'>როდესაც გიწერდი ჩემი აზრი იყო</add> მინდოდა <del rend="strikethrough">მეწერება</del> პატარა სტატიებს ანუ ამბებსდ ვთარგმნი<del rend="strikethrough">თ</del> ქართულათ <del rend="strikethrough">მეწერინება</del> <add place='above'>მაგრამ</add> მხოლოდ <del rend="strikethrough">იმიტომ</del> ვარჯიშობისთვის რომ უფრო <del rend="strikethrough">კარგათ შევისწავლო</del> მართლათ მეწერება. მას მერმედ, თქვენგან არაფერი ამბავი არ მივიღე. <del rend="strikethrough">და ასედ</del> ჩქარათ გადის დრო <del rend="strikethrough">რომ და არა ვარ</del> მუდამ საქმე მაქვს და ამასთან არა ვარ <del rend="strikethrough">ძალიან</del> ღონეიერი</p>
-            <pb n="1v"/>
+            <pb f="1v" n="24"/>
             <p>მაგრამ თუ მოვახერხო გიგზავნი რამე თარგმანი შემდეგში. თუ  კეთილ ინებით გამისწოროთ. </p>
             <p><del rend="strikethrough">მრავალი</del> დიდის პატივისცემით მოგიკითხავთ თქვენ და ბატონ <persName>ილიას</persName>. <persName>ოლივერი</persName> ჩემს მაგიერ აგრეთვე გულითადი მოკითხვა. </p>
             <p>მარად თქვენი მოყვარული</p>
          </div>
-         
+         </div>
       </body>
    </text>
 </TEI>

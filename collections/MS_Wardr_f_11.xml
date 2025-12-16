@@ -5,6 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
             <title type="full">
                <title type="main">MS. Wardr. f. 11</title> 
                <title type="alt" xml:lang="en">Georgian Vocabulary</title>
@@ -13,6 +14,12 @@
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
+         <editionStmt>
+            <edition n="1">First publication edition, TEI P5.
+               <date>21 November 2025</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
             <date calendar="#Gregorian">2025-11-21</date>
@@ -165,6 +172,9 @@
          <change when="2011-05-12">
             <persName>Nikoloz Aleksidze</persName>
          </change>
+         <change when="2025-11-21">
+            <persName>Svetlana Berikashvili</persName>
+         </change>s
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -175,11 +185,11 @@
    </facsimile>
    <text>
       <body>
-         <div>
+         <div type="original">
             <head>Georgian Vocabulary</head>
             <head>ქვრივის ლიმონები</head>
             <p>რჩეულოვი</p>
-            <pb n="r"/>
+            <pb f="r" n="1"/>
             <table>
                <row>
                   <cell>p. 3</cell>
@@ -267,7 +277,7 @@
                   <cell>to announce, remember</cell>
                </row>
             </table>
-            <pb n="v"/>
+            <pb f="v" n="2"/>
             <table>
                <row>
                   <cell/>
@@ -355,7 +365,7 @@
                   <cell>to lead</cell>
                </row>
             </table>
-            <pb n="r"/>
+            <pb f="r" n="3"/>
             <table>
                <row>
                   <cell/>
@@ -374,7 +384,7 @@
                </row>
                <row>
                   <cell/>
-                  <cell>გარყ̂უნილი</cell>
+                  <cell>გარყუ&#x0302;ნილი</cell>
                   <cell>perverted</cell>
                </row>
                <row>
@@ -459,7 +469,7 @@
                   <cell>to be sufficient</cell>
                </row>
             </table>
-            <pb n="r"/>
+            <pb f="r" n="4"/>
             <table>
                <row>
                   <cell/>
@@ -547,7 +557,7 @@
                   <cell>false, altered</cell>
                </row>
             </table>
-            <pb n="r"/>
+            <pb f="r" n="5"/>
             <table>
                <row>
                   <cell/>
@@ -651,7 +661,7 @@
                   <cell>to envy</cell>
                </row>
             </table>
-            <pb n="v"/>            
+            <pb f="v" n="6"/>            
             <table>
                <row>
                   <cell/>
@@ -739,7 +749,7 @@
                   <cell>to carry off, to be delighted</cell>
                </row>
             </table>
-            <pb n="r"/>
+            <pb f="r" n="7"/>
             <table>
                <row>
                   <cell/>
@@ -833,7 +843,7 @@
                   <cell>but; however; except; without</cell>
                </row>
             </table>
-            <pb n="v"/>
+            <pb f="v" n="8"/>
             <table>
                <row>
                   <cell/>
@@ -933,7 +943,7 @@
                   <cell>covering</cell>
                </row>
             </table>
-            <pb n="r"/>
+            <pb f="r" n="9"/>
             <table>
                <row>
                   <cell/>
@@ -991,7 +1001,7 @@
                   <cell>miracle</cell>
                </row>
             </table>
-            <pb n="v"/>
+            <pb f="v" n="10"/>
             <table>
                <row>
                   <cell/>
@@ -1004,7 +1014,7 @@
                   <cell>essence, substance</cell>
                </row>
             </table>
-            <pb n="r"/>
+            <pb f="r" n="11"/>
             <table>
                <row>
                   <cell/>
@@ -1092,7 +1102,7 @@
                   <cell>annul, destroy, make nought</cell>
                </row>
             </table>
-            <pb n="v"/>
+            <pb f="v" n="12"/>
             <table>
                <row>
                   <cell/>
@@ -1115,7 +1125,7 @@
                   <cell>trick, diabolic trick</cell>
                </row>
             </table>
-            <pb n="r"/>
+            <pb f="r" n="13"/>
             <p>
                If I had known რო მცნო რო მცნოდნოდა<lb/>
                რ. მ. <lb/>

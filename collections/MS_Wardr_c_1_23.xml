@@ -207,8 +207,8 @@
    </facsimile>
    <text>
       <body>         
-         <div type="text" subtype="grammar">
-            <pb n="179/1r"/>            
+         <div type="original">
+            <pb f="1r" n="179"/>            
             <head>Georgian Grammar</head>
             <head type="sub">I. The Letters</head>            
             <list type="ordered">
@@ -247,9 +247,9 @@
                   introduced the ancient Persian alphabet, i.e. Zeud or Pehlavi:
                   this shows therefore that our <del rend="strikethrough">civil</del>
                   <add place="above">military</add>
-                  <pb n="179/1v"/>
+                  <pb f="qv" n="179"/>
                   <del rend="strikethrough">letters</del> <add place="above">alphabet</add> partly resembles the old Persian and the name even is a translation of the word Pehlavi from the Persian <del rend="strikethrough">of the word Pehlavi</del>, i.e. <term>palavnuri</term> (heroic) or <term>mkhedruli</term> (military, warlike). The ecclesiastic alphabet was introduced in the time of <persName>King Archil I</persName> (<date when="0410">410 A.D.</date>) by <persName>Mesrop</persName>, patriarch of Armenia; they resemble the Ethiopian and Armenian letters. Formerly, the words were written with capital letters; afterwards they invented the ecclesiastic <add place="above">and both i.e. capitals</add> cursive letters formed from the military alphabet and <del rend="strikethrough">both, i.e. capitals and cursive letters</del> they change <del rend="strikethrough">an in</del>complete circle into an incomplete circle, this is seen in the following letters: Ⴁ ბ Ⴇ თ etc. The reason for the change of letters was the introduction of Christianity; the Christians did not wish that idolatry should be kept in remembrance, therefore they destroyed <gap reason="unfinished"/>
-                  <pb n="180/2r"/>
+                  <pb f="2r" n="180"/>
                   the use of the military alphabet in sacred writings. The military alphabet was only used in general writings and numerals. 
                </p>
             <p>Remark II.</p>

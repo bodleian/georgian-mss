@@ -14,6 +14,12 @@
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
+         <editionStmt>
+            <edition n="1">First publication edition, TEI P5.
+               <date>21 November 2025</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
             <date calendar="#Gregorian">2025-11-21</date>            
@@ -37,7 +43,7 @@
             <idno type="catalogue">Georgian</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Wardr_e_36" xml:lang="en">
+            <msDesc xml:id="MS_Wardr_e_33" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -254,14 +260,16 @@
       <graphic url="folio2v.png"/>
    </facsimile>
    <text>
-      <body><div type="letter">
+      <body>
+         <div type="original">
+            <div type="chapter" n="1">
          <opener>
             <dateline>
                <date when="1909-10-16">3/16 ღვინობისთვე 1909 წ.</date>
             </dateline>
             <salute>ღრმათ პატივცემულო და უსაყვარლესო მეგობარო,</salute>
-         </opener>         
-         <note type="foliation">fol. r</note>
+         </opener>  
+            <pb f="r" n="1"/>
          <p>
             To: Olga Chavchavadze
          </p>         
@@ -280,8 +288,8 @@
          <p>
             ჩვენი დედა შოტლანდიაში ყოფილა ნათესავებთან და თომა შოტლანდიაშიც ჰნადირობდა.
             სამწუხაროთ ავდარი ყოფილა.
-         </p>         
-         <note type="foliation">fol. v</note>         
+         </p>  
+            <pb f="v" n="2"/>        
          <p>
             წელს საზოგადოთ ინგლისში ზაფხული წვიმიანი და ცივი იყო.
          </p>         
@@ -290,7 +298,7 @@
             და თუ მე თბილისში ვცხოვრობდე იქაც უფრო მოსაწონი იქმნებოდ<del rend="strikethrough">ეს</del>ა.
          </p>
       </div>
-      <div type="letter">
+            <div  type="chapter" n="2">
             <opener>
                <dateline>
                   <date when="1909-10-14">4/14 ღვინობისთვე 1909 წ.</date>
@@ -306,7 +314,7 @@
                წიგნ<del rend="strikethrough">ებ</del>ი რომელიც ვარდობისთვეში დავიბარე დღესაც არ მიმიღია. <del rend="strikethrough">არ ვიცი ფული დარჩა
                საზოგ.-ში თუ არა.</del> გთხოვთ, <del rend="strikethrough">მოწყალეო ხელმწიფევ,</del> გამომიგზავნოთ
             </p>            
-            <note type="foliation">fol. r</note>            
+         <pb f="r" n="3"/>           
             <p>
                წიგნები რომლისგან სია აქ მეორეთ გახლავს. <del rend="strikethrough">მე მინდა და თუ</del> ანგარიში გამომიგზავნით ფულს
                გიგზავნით ანუ ჩექით ანუ რუსის ქაღალდებით. <del rend="strikethrough">ძნელია რომ იმედი მაქვს რომ ეხლა არ იქნება
@@ -319,7 +327,7 @@
                </address>
             </closer>
          </div>
-         <div type="letter">
+            <div type="chapter" n="3">
             <opener>
                <salute>დიდათ პატივცემულო ბ. რცხილაძე,</salute>
             </opener>            
@@ -332,7 +340,7 @@
                მივართმევდი, <del rend="strikethrough">ჩვენი სიკვდილის</del> შემდეგ, ერთ ინგლისელ მუზეუმში ასე რომ
                მუდმივი
             </p>            
-            <note type="foliation">fol. v</note>            
+            <pb f="v" n="4"/>         
             <p>
                <del rend="strikethrough">ქართული</del> ვინც სურს ქართული ენას შესწავლა ადვილად შოვნის / შეიძენს რაც საჭირო
                არის. ბოდიშს ვიხდი რომ უქეიფობის გამო ამდენ ხანს თქვენი კეთილი წერილი
@@ -349,8 +357,8 @@
                <salute>თქვენი ღრმათ პატივისმცემელი</salute>
             </closer> 
          </div>
-         <div type="letter">
-            <note type="foliation">fol. r</note>            
+            <div type="chapter" n="4">
+            <pb f="r" n="5"/>        
             <opener>
                <persName>ბ. ს. ფირცხალავა</persName>               
                <salute>დიდათ პატივცემულო ბ. ფირცხალავა,</salute>
@@ -365,8 +373,8 @@
                ხელწერილი ფულით.
             </p>
          </div>
-         <div type="letter">
-            <note type="foliation">fol. v</note>            
+            <div type="chapter" n="5">
+            <pb f="v" n="6"/>          
             <opener>
                <salute>Dear Mr. Tcherk,...</salute>
             </opener>            
@@ -383,8 +391,8 @@
                satisfactory we should feel encouraged to try
             </p>
          </div>
-         <div>
-            <note type="foliation">fol. r</note>
+            <div type="chapter" n="6">
+            <pb f="r" n="6"/>
             <head>Georgian Words</head>
             <table>
                <row role="label">
@@ -392,85 +400,73 @@
                   <cell>English</cell>
                   <cell>Georgian</cell>
                   <cell>English</cell>
-               </row>
-               
+               </row>               
                <row>
                   <cell>თავზედ მეხვევა</cell>
                   <cell>surge upon</cell>
                   <cell>დუმილი</cell>
                   <cell>dumb</cell>
-               </row>
-               
+               </row>               
                <row>
                   <cell>გამწვავებული</cell>
                   <cell>enraged with pain</cell>
                   <cell>მეგონა</cell>
                   <cell>methought</cell>
-               </row>
-               
+               </row>               
                <row>
                   <cell>აღქაფებული</cell>
                   <cell>foaming, frothy</cell>
                   <cell/>
                   <cell/>
-               </row>
-               
+               </row>               
                <row>
                   <cell>ქცევა</cell>
                   <cell>pour forth</cell>
                   <cell>დ. მეგრელი „ცრემლები“</cell>
                   <cell/>
-               </row>
-               
+               </row>               
                <row>
                   <cell>გამოისობა</cell>
                   <cell>reason</cell>
                   <cell/>
                   <cell/>
-               </row>
-               
+               </row>               
                <row>
                   <cell>გამოისობით</cell>
                   <cell>because of</cell>
                   <cell/>
                   <cell/>
-               </row>
-               
+               </row>               
                <row>
                   <cell>ჩხიკვი</cell>
                   <cell>brown owl</cell>
                   <cell/>
                   <cell/>
-               </row>
-               
+               </row>               
                <row>
                   <cell>ნიბლია</cell>
                   <cell>chaffinch</cell>
                   <cell/>
                   <cell/>
-               </row>
-               
+               </row>               
                <row>
                   <cell>გნოლი</cell>
                   <cell>grey partridge</cell>
                   <cell/>
                   <cell/>
-               </row>
-               
+               </row>               
                <row>
                   <cell>ქერონი</cell>
                   <cell>?</cell>
                   <cell/>
                   <cell/>
-               </row>
-               
+               </row>               
                <row>
                   <cell>წიპრები</cell>
                   <cell>?</cell>
                   <cell/>
                   <cell/>
-               </row>
-               
+               </row>               
                <row>
                   <cell>ღობე-მძვრალი</cell>
                   <cell/>
@@ -479,8 +475,8 @@
                </row>
             </table>            
          </div>
-         <div type="poem">
-            <note type="foliation">fol. r</note>            
+            <div type="chapter" n="8">
+            <pb f="r" n="7"/>       
             <head>ცრემლები</head>
             <byline>by <persName>დუტუ მეგრელი</persName></byline>            
             <lg>
@@ -508,8 +504,8 @@
             </lg>            
             <note type="editorial">wash out</note>
          </div>
-         <div type="note">
-            <note type="foliation">fol. v</note>            
+            <div type="chapter" n="9">
+            <pb f="v" n="8"/>          
             <head>History of the Georgian people</head>
             <byline>by <persName>Iv. Javakhishvili</persName></byline>            
             <p>
@@ -531,7 +527,7 @@
                Hope to print maps and illustrations in succeeding volumes.
             </p>
          </div>
-         
+         </div>
       </body>
    </text>
 </TEI>

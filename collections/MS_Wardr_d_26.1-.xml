@@ -5,6 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title>CATALOGUE OF THE WARDROP COLLECTION ONLINE</title>
             <title type="full">
                <title type="main">MS. Wardr. d. 26.1-</title> 
                <title type="alt" xml:lang="en">Correspondence of Wardrop</title>
@@ -18,6 +19,12 @@
                <resp>markup and encoding</resp>
             </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="1">First publication edition, TEI P5.
+               <date>21 November 2025</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
             <date calendar="#Gregorian">2025-11-21</date>
@@ -206,7 +213,7 @@
    </facsimile>
    <text>
       <body>
-         <div>
+         <div type="original">
             <head>14/24 მარიამობისთვე</head>
             <pb n="1r"/>
             <p>დიდათ პატივცემულო და უსაყვარლესო მეგობარო,</p>

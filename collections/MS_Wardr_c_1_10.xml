@@ -14,6 +14,12 @@
             <funder>JISC</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
+         <editionStmt>
+            <edition n="1">First publication edition, TEI P5.
+               <date>21 November 2025</date>
+            </edition>
+            <funder>The project Wardrops' Collection Online is carried out within the framework of<ref target="http://rustaveli.org.ge/">Joint Research Programme of the University of Oxford and SRNSFG in Georgian Studies</ref></funder>
+         </editionStmt>
          <publicationStmt>
             <publisher>Bodleian Library</publisher>
             <date calendar="#Gregorian">2025-11-21</date>
@@ -187,7 +193,7 @@
    </facsimile>
    <text>
       <body>
-         <div>
+         <div type="original">
             <head>Georgian-English Dictionary</head>            
             <byline>
                Written by <persName>Major Wardrop</persName>
@@ -199,7 +205,7 @@
             <p>
                <date type="finished">Finished:</date>
             </p>
-            <pb n="33/2r"/>
+            <pb f="2r" n="33"/>
             <table>
                <row role="label">
                   <cell>Georgian letter</cell>
@@ -262,7 +268,7 @@
                   <cell>childish expression for bread</cell>
                </row>
             </table>
-            <pb n="34r"/>
+            <pb f="3r" n="34"/>
             <table>
                <row>
                   <cell>ბაბანი</cell>
@@ -350,7 +356,7 @@
                   </cell>
                </row>
             </table>
-            <pb n="35/3r"/>
+            <pb f="3v" n="35"/>
             <table>
                <row>
                   <cell>ბაგიანი, ბაგეებიანი</cell>
@@ -437,7 +443,7 @@
                   <cell>hauling rope</cell>
                </row>
             </table>
-            <pb n="36/4r"/>
+            <pb f="4r" n="36"/>
             <table>
                <row>
                   <cell>ბადიში</cell>
@@ -527,7 +533,7 @@
                   <cell>(Pers. باز) falcon (<hi rend="italic">Falco gentilis</hi>)</cell>
                </row>
             </table>
-            <pb n="36/4v"/>
+            <pb f="4v" n="36"/>
             <table>
                <row>
                   <cell>ბათილამი</cell>
@@ -545,7 +551,7 @@
                   <cell>to annihilate, destroy</cell>
                </row>
             </table>
-            <pb n="37/5r"/>
+            <pb f="5r" n="37"/>
             <table>
                <row>
                   <cell>ბაზიერი</cell>
@@ -661,7 +667,7 @@
                   <cell>park</cell>
                </row>
             </table>
-            <pb n="38/6r"/>
+            <pb f="6r" n="38"/>
             <table>
                <row>
                   <cell>ბაკი</cell>
@@ -746,7 +752,7 @@
                   <cell>bad herb</cell>
                </row>
             </table>
-            <pb n="39/7r"/>
+            <pb f="7r" n="39"/>
             <table>
                <row>
                   <cell>ბალახვარდა</cell>
@@ -827,7 +833,7 @@
                   <cell>to cut in pieces</cell>
                </row>
             </table>
-            <pb n="40/8r"/>
+            <pb f="8r" n="40"/>
             <table>
                <row>
                   <cell>ბალი, ბალობა</cell>
@@ -911,7 +917,7 @@
                   <cell>(Pers. بنگ) opium</cell>
                </row>
             </table>
-            <pb n="41/9r"/>
+            <pb f="9r" n="41"/>
             <table>
                <row>
                   <cell><del rend="strikethrough">მ</del> ბამი</cell>
@@ -995,7 +1001,7 @@
                   <cell>(Pers. بام) bass (voice)</cell>
                </row>
             </table>      
-            <pb n="42/10r"/>
+            <pb f="10r" n="42"/>
             <table>
                <row>
                   <cell>ბანოვანი</cell>
